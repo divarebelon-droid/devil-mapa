@@ -470,7 +470,7 @@ let simulation, svgEl, linkSel, nodeSel;
 // ── Carregar dados ───────────────────────────────────────────────────
 async function loadData() {
   try {
-    const resp = await fetch('./graph-data.json');
+    const resp = await fetch('./graph-data.json?v=' + Date.now());
     const data = await resp.json();
     allNodes = data.nodes || [];
     allLinks = data.links || [];
