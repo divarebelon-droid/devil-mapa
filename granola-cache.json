@@ -1,0 +1,146 @@
+[
+  {
+    "id": "be3ec6d6-40ce-45b7-8361-a285a321d70a",
+    "titulo": "Encontro 2 — Dra. Maria Fernanda",
+    "data": "2026-06-22",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Encontro 2 — Dra. Maria Fernanda\n\n**Cliente:** Dra. Maria Fernanda\n**Data:** 22 de junho de 2026\n**Tipo:** Segundo encontro de acompanhamento\n\n### Contexto\nSegundo encontro de acompanhamento com a Dra. Maria Fernanda, cliente da Oficina Dra. Resumo não disponível no Granola. Reunião de continuidade do plano de ação iniciado no Encontro 1 (17/06).\n\n### Próximos Passos\nDar continuidade às estratégias definidas nos encontros anteriores e monitorar evolução dos resultados."
+  },
+  {
+    "id": "bf737e54-8f78-4a8e-a912-f39195fb634b",
+    "titulo": "Início de Projeto — Dra. Priscila Leite (cliente)",
+    "data": "2026-06-22",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Início de Projeto — Dra. Priscila Leite\n\n**Cliente:** Dra. Priscila Leite (nutricionista pediátrica)\n**Data:** 22 de junho de 2026\n**Tipo:** Reunião de onboarding / início de projeto\n\n### O que foi abordado\n\n**Onboarding no ClickUp:**\n- Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha\n- Cada cliente tem sua área com: produtor de conteúdo, biblioteca de atração, calendário editorial\n- Calculadora de métricas: funil de aquisição, custo por lead, taxa de agendamento, receita bruta\n\n**Mudança de Público-Alvo:**\n- Decisão tomada na reunião: mudar foco de MÃES para NUTRICIONISTAS\n- Motivo: engajamento maior de nutris no perfil, maior ticket com infoprodutos, alinha com objetivo de ser mentora/professora\n- Objetivo de longo prazo: criar treinamentos, área de membros, comunidade de nutricionistas\n\n**Situação Atual da Priscila:**\n- Consultório pediátrico com parceria (R$600/mês, pode subir para R$800)\n- Avaliando mudança para clínica com mais pediatras por R$500\n- Conteúdo: já tem gravações de mentorias, ebooks em esboço, workshop presencial realizado em 2024\n\n**Esteira de Produtos (a estruturar):**\n- Produto entrada: workshop/aula gravada (~R$1.400)\n- Produto premium: mentoria individual (ticket alto)\n- Futuramente: plataforma de cursos + comunidade de nutricionistas com mapa de indicação\n\n**Próximos Passos:**\n- Priscila enviar acesso ao Google e Facebook\n- Aline preencher NDD e Central de Campanha com foco em nutricionistas\n- Criar site específico para nutricionistas (separado do de mães)\n- Alinhar plano de ação reformulado na próxima reunião"
+  },
+  {
+    "id": "5769ee6c-df70-4c57-902d-f9f93d27a397",
+    "titulo": "Aula Horta em espiral — colheita, manutenção e plantio com Carol",
+    "data": "2026-06-21",
+    "tipo": "aula",
+    "perfil": "divarebel.on",
+    "conteudo": "## Aula Horta em Espiral — com Carol\n\n**Data:** 21 de junho de 2026\n**Tipo:** Aula prática (contexto pessoal/aprendizado)\n\n### Tópicos\n- Técnicas de colheita de horta em espiral\n- Manutenção e cuidados com plantas\n- Plantio e rotação de culturas\n\nAula prática registrada no Granola. Contexto de aprendizado pessoal."
+  },
+  {
+    "id": "a334d7ca-19ba-44ba-95a6-45ec61e39bc2",
+    "titulo": "E2 - Camila",
+    "data": "2026-06-17",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Encontro 2 — Dra. Camila Dantas\n\n**Cliente:** Dra. Camila Dantas (nutricionista recém-formada)\n**Data:** 17 de junho de 2026\n**Tipo:** Segundo encontro / entrega do plano de ação\n\n### Contexto\nContinuação da reunião inicial de 05/06. Entrega do plano de ação personalizado focado no **percurso do paciente** da Dra. Camila.\n\n### Situação da Cliente (retomada do E1)\n- Recém-formada (janeiro 2026), atendendo desde fevereiro\n- Captação apenas via conhecidos/família\n- Sem Google Meu Negócio, sem estratégia de conteúdo\n- Principal dificuldade: pessoas somem após receber os valores\n\n### Plano Entregue\n- Estratégia de captação ativa\n- Criação de presença no Google Meu Negócio\n- Estrutura de conteúdo estratégico por etapas do funil\n- Script de qualificação para conversão\n- Possível indicação de colegas nutricionistas"
+  },
+  {
+    "id": "182e679a-2de4-49b6-992b-94582d29c712",
+    "titulo": "Encontro 1 — Dra. Maria Fernanda",
+    "data": "2026-06-17",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Encontro 1 — Dra. Maria Fernanda\n\n**Cliente:** Dra. Maria Fernanda\n**Data:** 17 de junho de 2026\n**Tipo:** Primeiro encontro / diagnóstico\n\n### Primeiro Encontro de Diagnóstico\nPrimeiro encontro com a Dra. Maria Fernanda. Reunião de diagnóstico inicial para entender a situação atual, objetivos e desafios da cliente.\n\n### Pontos Típicos de um E1 na Oficina\n- Análise da situação atual do negócio\n- Identificação do público-alvo principal\n- Mapeamento de canais de captação existentes\n- Definição de metas e expectativas\n- Apresentação da metodologia DEVIL / Sistema PEP"
+  },
+  {
+    "id": "9730273e-4dc6-41cd-ab4a-3ac1bdf78438",
+    "titulo": "E2 - Priscila",
+    "data": "2026-06-17",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Encontro 2 — Dra. Priscila Leite\n\n**Cliente:** Dra. Priscila Leite (nutricionista pediátrica)\n**Data:** 17 de junho de 2026\n**Tipo:** Segundo encontro\n\n### Contexto\nSegundo encontro com a Dra. Priscila, antes da reunião de Início de Projeto (22/06). Continuidade do processo de diagnóstico e estruturação do plano.\n\n### Tópicos Prováveis\n- Refinamento do público-alvo (nutricionistas vs. mães)\n- Apresentação do plano de ação preliminar\n- Discussão sobre esteira de produtos\n- Alinhamento de expectativas e próximos passos"
+  },
+  {
+    "id": "4a4f7c7c-3050-4ad3-b12c-6c7b445f08f4",
+    "titulo": "Mentoria de gestão de projetos e prospecção — vagas abertas",
+    "data": "2026-06-16",
+    "tipo": "aula",
+    "perfil": "divarebel.on",
+    "conteudo": "## Mentoria: Gestão de Projetos e Prospecção\n\n**Data:** 16 de junho de 2026\n**Tipo:** Mentoria em grupo — vagas abertas\n**Perfil:** @divarebel.on (Social Media Advantage)\n\n### Tópicos\n- Gestão de projetos para social medias\n- Técnicas de prospecção via WhatsApp\n- Como organizar clientes no ClickUp\n- CRM para social medias iniciantes\n- Como se apresentar para prospects e marcar reuniões\n\n### Metodologia DEVIL para Prospecção\n- Uso da planilha de prospecção com fórmulas\n- Eliminação de números repetidos\n- Importação automática para o CRM\n- Avaliação de leads por temperatura (1-5 estrelas)"
+  },
+  {
+    "id": "a703228b-1b6c-47ab-a2f5-add8e549b61d",
+    "titulo": "New note",
+    "data": "2026-06-16",
+    "tipo": "nota",
+    "perfil": "oficina_dro",
+    "conteudo": "## Nota Rápida\n\n**Data:** 16 de junho de 2026\n**Tipo:** Anotação pessoal no Granola\n\nNota registrada automaticamente. Sem conteúdo de transcrição disponível."
+  },
+  {
+    "id": "c76a49a4-a6d1-44a0-9a11-3484969db5f0",
+    "titulo": "Encontro de Diagnóstico 1 — Dra. Priscila Leite (nutricionista)",
+    "data": "2026-06-15",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Encontro de Diagnóstico 1 — Dra. Priscila Leite\n\n**Cliente:** Dra. Priscila Leite (nutricionista pediátrica)\n**Data:** 15 de junho de 2026\n**Tipo:** Primeiro diagnóstico\n\n### Primeiro Contato / Diagnóstico\nPrimeiro encontro com a Dra. Priscila Leite. Reunião de diagnóstico inicial.\n\n### Perfil da Cliente\n- Nutricionista pediátrica\n- Consultório em clínica com parceria\n- Público: mães de crianças com dificuldades alimentares\n- Experiência: já realizou mentorias para outras nutricionistas\n- Objetivo: estruturar infoprodutos e criar comunidade de nutricionistas\n\n### Diagnóstico Inicial\n- Sem CRM organizado\n- Sem site profissional\n- Sem estratégia de conteúdo definida\n- Lista de e-mails de leads mas sem follow-up estruturado\n- Sonho: área de membros + sistema de indicação por mapa para nutricionistas treinadas"
+  },
+  {
+    "id": "229da5a6-fa26-4775-9d4f-95e8fda0a55d",
+    "titulo": "Aula Mentor (fim de semana)",
+    "data": "2026-06-13",
+    "tipo": "aula",
+    "perfil": "divarebel.on",
+    "conteudo": "## Aula com Mentor — Fim de Semana\n\n**Data:** 13 de junho de 2026\n**Tipo:** Aula de fim de semana com mentor\n**Perfil:** @divarebel.on\n\n### Contexto\nAula especial realizada no fim de semana com mentor (provavelmente Lucas, da Rugido). Conteúdo focado em estratégias avançadas de vendas e crescimento de agência/consultoria.\n\n### Tópicos Prováveis (baseado no contexto das outras aulas)\n- Estrutura comercial avançada\n- Como criar ofertas de alto valor\n- Gestão de jornada de compra\n- Uso de IA para escalar entregas"
+  },
+  {
+    "id": "07dc05a2-497b-46ca-919f-5c6a33316847",
+    "titulo": "Treinamento com Alunas",
+    "data": "2026-06-09",
+    "tipo": "treinamento",
+    "perfil": "divarebel.on",
+    "conteudo": "## Treinamento com Alunas — Social Media Advantage\n\n**Data:** 09 de junho de 2026\n**Tipo:** Treinamento em grupo\n**Perfil:** @divarebel.on\n\n### O que foi abordado\n\n**Ferramentas e Configuração:**\n- Discussão sobre LibreOffice vs. Excel para a planilha de prospecção\n- Resolução de problemas com o arquivo (recuperação de documento após fechamento inesperado)\n- Configuração do LibreOffice para abrir a planilha corretamente\n\n**Planilha de Prospecção:**\n- Como usar a extensão para extrair dados do Google Meu Negócio\n- Preenchimento da planilha: nome, nicho, telefone, endereço, feedbacks\n- Fórmula para separar telefone do endereço automaticamente\n- Fórmula para identificar números repetidos (evitar contato duplicado)\n- Coluna com +55 já formatado para copiar direto no WhatsApp\n- Importação automática para o ClickUp CRM\n\n**CRM no ClickUp:**\n- Apresentação do template de CRM enviado para as alunas\n- Status: Pré-leads → Qualificados → Filtragem → Análise\n- Campo de avaliação (1-5 estrelas) para priorizar os leads mais quentes\n- Parte de Localização: controle de cidades já prospectadas\n- Como importar a lista (via Importar Itens → Planilha)\n\n**Estratégia:**\n- Preencher toda a lista ANTES de começar a prospectar\n- Só depois remover os repetidos\n- Não entrar em contato com ninguém ainda — primeiro organizar o CRM\n- Olhar o negócio como empresa desde o início"
+  },
+  {
+    "id": "fb7ae730-8556-4818-8454-95211e682844",
+    "titulo": "Aula Lucas vendas",
+    "data": "2026-06-07",
+    "tipo": "aula",
+    "perfil": "divarebel.on",
+    "conteudo": "## Aula Lucas — Estrutura de Vendas (Venda Lógica)\n\n**Data:** 07 de junho de 2026\n**Tipo:** Aula de vendas com Lucas\n**Perfil:** @divarebel.on\n\n### Os 6 Blocos da Venda Lógica\n\n1. **Credibilidade inicial** — conquistas pessoais e profissionais para estabelecer autoridade (slide menos crítico)\n2. **Diagnóstico** — perguntas estratégicas antes de apresentar os slides\n3. **Mecanismo do problema** — explicar a causa antes de propor a solução (analogia médica)\n4. **Mecanismo da solução** — jornada de compra e método\n5. **Prova lógica do valor** — ancoragem e calculadora de resultados\n6. **Fechamento por coerência** — criar consistência lógica com o que o cliente disse\n\n### Diagnóstico — Perguntas Estratégicas\n- Como é a operação hoje? (faturamento, time, modelo)\n- De onde vêm os clientes? (canais, conversão)\n- Como funciona o comercial? (estrutura, processo, ticket médio)\n- Que ferramentas já usa? (CRM, anúncios, área de membros)\n- O que já tentou para crescer?\n- Onde quer chegar?\n\n### Calculadora de Resultados\n- Exemplo: 10% → 15% na taxa de agendamento = R$17k → R$72k\n- Ganho demonstrado: R$55k com pequenas otimizações\n\n### Mecânica Operacional\n- 3 etapas: Mapear (reunião de integração) → Instrumentar (soluções personalizadas) → Operar (rotina diária)\n- 3 perguntas diárias: feito ontem, hoje, bloqueios\n\n### Ancoragem e Negociação\n- Pergunta de ancoragem: \"Quanto custa ter um time para entregar tudo isso?\"\n- Apresentar valor anual primeiro\n- Descobrir capacidade real de pagamento\n- Condição especial para fechamento na reunião\n\n### Próximos Passos\n- Módulos futuros: pré-vendas, qualificação, técnicas de fechamento\n- Teste do novo produto a partir de segunda-feira"
+  },
+  {
+    "id": "533388cb-7024-4df4-9d5d-d290db1cb665",
+    "titulo": "Aula Leo",
+    "data": "2026-06-06",
+    "tipo": "aula",
+    "perfil": "divarebel.on",
+    "conteudo": "## Aula com Leo — Feedback de Apresentações de Vendas\n\n**Data:** 06 de junho de 2026\n**Tipo:** Aula com análise de apresentações dos alunos\n\n### Feedback para Apresentações\n- Energia e animação são essenciais — precisa parecer mais animado que o cliente\n- Dar espaço para o cliente falar (40-50% apresentador / 50-60% cliente)\n- Fazer rapport genuíno\n\n### Estrutura de Apresentação Eficaz\n1. Rapport inicial (cidade, clima, situação pessoal)\n2. Iceberg (tangibiliza problemas não vistos)\n3. Jornada de compra (7 etapas)\n4. Processo de atendimento diário\n5. Próximos passos\n\n### Análise das Apresentações dos Alunos\n- **Luís (Academia):** Ações criativas demais para empresa imatura → focar no básico (CRM, treinamento secretária, funil experimental)\n- **Vinicius (Hotel):** Falta animação, apresentação corrida → estratégias válidas mas não deu espaço para o cliente falar\n- **Mateus (Papelaria):** Melhor execução — boa segmentação, kits temáticos, parcerias com escolas\n\n### Estratégias de Vendas\n- Escuta ativa: cliente deve falar 20 minutos primeiro\n- Metodologia SPIN para fazer perguntas que levam à compra\n- Comunicação ativa: cliente não deve precisar cobrar andamento\n- Updates diários automáticos\n\n### Próximos Passos\n- Aula especial às 14h sobre plano de 50 milhões (não gravada)\n- Praticar apresentações com mais energia e interação"
+  },
+  {
+    "id": "780060ef-3869-405e-a95f-bc89bc748aa4",
+    "titulo": "Reunião — Dra. Bia Bento",
+    "data": "2026-06-05",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Reunião de Diagnóstico — Dra. Bia Bento\n\n**Cliente:** Dra. Bia Bento (nutricionista)\n**Data:** 05 de junho de 2026\n**Tipo:** Reunião de diagnóstico\n\n### Captação Atual\n- **Principal canal:** Programa de indicação — funciona muito bem, pessoas chegam qualificadas\n  - Sistema de pontos implementado recentemente\n- Instagram orgânico como segundo canal\n- Parcerias com personal trainer e médica\n- Mídia paga testada sem sucesso (Instagram turbinado e gerenciador)\n\n### Processo Comercial\n- Contato inicial via WhatsApp (link na bio)\n- Não atende ligações para evitar caos na agenda\n- Script de vendas validado: ~3 de cada 4-5 contatos fecham\n- 6-10 novos pacientes/mês\n- Assistente faz onboarding e pagamento após fechamento\n- Atendimento quase 100% online\n\n### Oportunidades Identificadas\n- **Site profissional** — sem site prejudica posicionamento no Google\n  - Sugestão: GitHub para hospedagem gratuita + domínio R$40/ano\n- **Estratégia de conteúdo** — sem planejamento estratégico atual\n- **Esteira de serviços** — produto de entrada para leads que não podem pagar consulta completa\n- **Fluxo de captação ativo** — reduzir dependência de indicações\n\n### Próximos Passos\n- Reunião marcada para quinta-feira, 11 de junho, às 10h\n- Entrega do plano de ação: captação ativa, site, estrutura de conteúdo"
+  },
+  {
+    "id": "6ea34217-454b-4e41-a1ff-f2a1937ebfd7",
+    "titulo": "Reunião — Dra. Camila Dantas",
+    "data": "2026-06-05",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Reunião de Diagnóstico — Dra. Camila Dantas\n\n**Cliente:** Dra. Camila Dantas (nutricionista)\n**Data:** 05 de junho de 2026\n**Tipo:** Reunião de diagnóstico\n\n### Situação Atual\n- Recém-formada (janeiro 2026), atendendo desde fevereiro\n- Captação apenas via conhecidos/família — sem estratégias ativas\n- Sem Google Meu Negócio\n- Sem programa de indicações\n- Atende 2 dias/semana em clínica compartilhada\n- Meta: 10 pacientes/semana (40/mês)\n\n### Ofertas Atuais\n1. Consulta avulsa presencial\n2. Atendimento online (mais barato)\n3. Acompanhamento de 3 meses\n\n### Principais Dificuldades\n- Conversão: pessoas somem após receber os valores via WhatsApp\n- Timidez para aparecer em vídeos\n- Sem CRM ou sistema de reativação de leads\n\n### Próximos Passos\n- Reunião para entrega do plano de ação (quarta-feira)\n- Plano focado no \"percurso do paciente\"\n- Estratégias de fidelização e conversão\n- Possível indicação das colegas nutricionistas da clínica"
+  },
+  {
+    "id": "18925e0a-a78e-48bf-88c4-a1c0ded78c1c",
+    "titulo": "Aula Lucas IA",
+    "data": "2026-06-05",
+    "tipo": "aula",
+    "perfil": "divarebel.on",
+    "conteudo": "## Aula Lucas — Como Usar IA no Dia a Dia (Agência Rugido)\n\n**Data:** 05 de junho de 2026\n**Tipo:** Aula ao vivo / treinamento de equipe aberto para alunos\n\n### Por que Migrou do Claude para o Codex (GPT-5.5)\n- Testou GPT-5.5 após muitas pessoas falarem bem\n- Cancelou plano de R$100 do Claude\n- Para criação de copy, a ferramenta importa menos que as skills\n\n### Redução da Folha de Pagamento\n- Agosto 2025: R$134.000/mês\n- Junho 2026: R$56.000/mês (projetado)\n- Mesmo volume e qualidade de entrega — com IA substituindo funções\n\n### As 3 Funções que Sobrevivem à IA\n1. **Gestor de Jornada de Compra** — orquestrador que gerencia a jornada de compra de ponta a ponta\n2. **Desenvolvedor** — cria aplicações complexas (banco de dados, segurança, pode ser vendida)\n3. **Vendedor B2B** — venda de produtos/serviços complexos, nunca será substituída\n\n### Profissões que Acabaram\n- Designer → IA cria thumbnails e páginas melhores que designers de R$3-5k\n- Copywriter → IA já é melhor que 99% dos copywriters mediocres\n- Gestor de tráfego → só gerenciar anúncios nunca teve valor real\n- Social mídia genérico → posts carrossel genéricos serão feitos por IA\n\n### Engenharia de Contexto (4 Níveis)\n1. Chat direto com contexto na conversa\n2. Projeto no Claude com documentos anexados\n3. Cloud Code acessando pasta do computador\n4. **Índice/Wiki** — IA lê um mapa de conhecimento e busca fichas resumidas\n\n### Infraestrutura de IA da Rugido\n- Automação: extrai 25 conversas importantes do WhatsApp a cada 2 horas\n- Transcreve áudios automaticamente\n- Indexa tudo em uma wiki de conhecimento\n- Codex acessa o índice para responder com contexto profundo\n\n### Resultados de Anúncios\n- Lead de live: R$6 (antes pagava R$15)\n- MQL (empresa fatura +R$30k): R$30-36\n- Lead de webinário: R$0,90"
+  },
+  {
+    "id": "dc4e9cc8-18b6-4204-a74f-d4fecbae6e74",
+    "titulo": "Treinamento para Equipe",
+    "data": "2026-06-02",
+    "tipo": "treinamento",
+    "perfil": "divarebel.on",
+    "conteudo": "## Treinamento para Equipe\n\n**Data:** 02 de junho de 2026\n**Tipo:** Treinamento interno de equipe\n**Perfil:** @divarebel.on\n\n### Contexto\nTreinamento realizado para a equipe da Diva Rebel. Resumo completo não disponível no Granola.\n\n### Tópicos Prováveis\n- Processos e fluxos de trabalho\n- Uso de ferramentas (ClickUp, scripts, automações)\n- Padronização de atendimento\n- Estratégias de prospecção e conteúdo"
+  },
+  {
+    "id": "09c8b8a6-698f-4d3a-a813-822be5724795",
+    "titulo": "Reunião — Dra. Marcele Azevedo (nutricionista)",
+    "data": "2026-05-29",
+    "tipo": "cliente",
+    "perfil": "oficina_dro",
+    "conteudo": "## Reunião de Diagnóstico — Dra. Marcele Azevedo\n\n**Cliente:** Dra. Marcele Azevedo (nutricionista)\n**Data:** 29 de maio de 2026\n**Tipo:** Reunião de diagnóstico inicial\n\n### Contexto\nPrimeira reunião com a Dra. Marcele Azevedo. Reunião de diagnóstico para entender a situação atual e definir o plano de ação.\n\n### Perfil\n- Nutricionista atendendo pacientes\n- Início do processo de estruturação de marketing e vendas com a Oficina Dra\n\n### Metodologia Aplicada\n- Diagnóstico via Sistema PEP (Percurso Empresarial Previsível)\n- Mapeamento: canais de captação, processo comercial, ticket médio\n- Identificação de oportunidades de crescimento\n- Próximos passos para estruturação da presença digital"
+  }
+]
