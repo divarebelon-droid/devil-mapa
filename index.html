@@ -308,6 +308,95 @@
   }
 
   #btn-refresh:hover { border-color: #444; color: #aaa; }
+
+  /* ── Busca ── */
+  #search-wrap {
+    position: relative;
+  }
+
+  #search-input {
+    background: rgba(30,30,30,0.95);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 6px 12px 6px 32px;
+    font-size: 12px;
+    color: #ccc;
+    width: 220px;
+    outline: none;
+    transition: border-color 0.15s, width 0.2s;
+  }
+
+  #search-input::placeholder { color: #444; }
+  #search-input:focus { border-color: #555; width: 260px; }
+
+  #search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #444;
+    font-size: 13px;
+    pointer-events: none;
+  }
+
+  #search-results {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: rgba(18,18,18,0.98);
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+    overflow: hidden;
+    z-index: 500;
+    display: none;
+    max-height: 360px;
+    overflow-y: auto;
+  }
+
+  #search-results.visible { display: block; }
+
+  .search-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 14px;
+    cursor: pointer;
+    border-bottom: 1px solid #1e1e1e;
+    transition: background 0.1s;
+  }
+
+  .search-item:last-child { border-bottom: none; }
+  .search-item:hover { background: rgba(255,255,255,0.04); }
+
+  .search-item-dot {
+    width: 8px; height: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .search-item-title {
+    font-size: 12px;
+    color: #bbb;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .search-item-type {
+    font-size: 10px;
+    color: #444;
+    flex-shrink: 0;
+  }
+
+  .search-empty {
+    padding: 14px;
+    font-size: 12px;
+    color: #444;
+    text-align: center;
+  }
 </style>
 </head>
 <body>
@@ -317,6 +406,12 @@
   <span class="logo">Devil</span>
   <span class="separator">|</span>
   <span class="subtitle">Grafo de Conhecimento</span>
+  <div id="search-wrap">
+    <span id="search-icon">⌕</span>
+    <input id="search-input" type="text" placeholder="Buscar por nome, tema, cliente…" autocomplete="off"
+      oninput="onSearch(this.value)" onfocus="onSearchFocus()" onblur="onSearchBlur()">
+    <div id="search-results"></div>
+  </div>
   <div class="stats">
     <div class="stat-item"><span id="stat-nodes">0</span> eventos</div>
     <div class="stat-item"><span id="stat-links">0</span> conexões</div>
@@ -465,7 +560,7 @@ function iconContent(s) {
 // ── Estado ───────────────────────────────────────────────────────────
 let allNodes = [], allLinks = [];
 let activeFilters = new Set(['meeting','instagram','whatsapp','clickup','content']);
-let simulation, svgEl, linkSel, nodeSel;
+let simulation, svgEl, linkSel, nodeSel, zoomBehavior;
 
 // ── Carregar dados ───────────────────────────────────────────────────
 async function loadData() {
@@ -563,10 +658,10 @@ function renderGraph() {
   // Container com zoom
   const container = svg.append('g').attr('id','container');
 
-  svg.call(d3.zoom()
+  zoomBehavior = d3.zoom()
     .scaleExtent([0.15, 4])
-    .on('zoom', e => container.attr('transform', e.transform))
-  );
+    .on('zoom', e => container.attr('transform', e.transform));
+  svg.call(zoomBehavior);
 
   // Prepara links (deep copy para não mutar allLinks)
   const nodes = allNodes.map(d => ({...d}));
@@ -598,7 +693,7 @@ function renderGraph() {
       .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
       .on('end',   (e,d) => { if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; })
     )
-    .on('click', (e, d) => { e.stopPropagation(); openPanel(d); highlightNode(d, links, nodeGroups); })
+    .on('click', (e, d) => { e.stopPropagation(); openPanel(d); highlightNode(d); })
     .on('mouseenter', (e, d) => showTooltip(e, d))
     .on('mousemove',  (e) => moveTooltip(e))
     .on('mouseleave', () => hideTooltip());
@@ -642,11 +737,11 @@ function renderGraph() {
     if (iconFn) div.html(iconFn(iconSize * 0.7));
   });
 
-  // Label abaixo do nó
+  // Label abaixo do nó (WhatsApp sem nome por privacidade)
   nodeGroups.append('text')
     .attr('class','node-label')
     .attr('y', d => (TIPOS[d.type]?.radius || 18) + 12)
-    .text(d => truncate(d.titulo, 22));
+    .text(d => d.type === 'whatsapp' ? '' : truncate(d.titulo, 22));
 
   // Hover: cresce
   nodeGroups
@@ -674,7 +769,7 @@ function renderGraph() {
     });
 
   // Clique no fundo: deseleciona
-  svg.on('click', () => { closePanel(); clearHighlight(nodeGroups); });
+  svg.on('click', () => { closePanel(); clearHighlight(); });
 
   // Tick
   simulation.on('tick', () => {
@@ -688,7 +783,9 @@ function renderGraph() {
 }
 
 // ── Highlight ao clicar ──────────────────────────────────────────────
-function highlightNode(selected, links, nodeGroups) {
+function highlightNode(selected) {
+  if (!nodeSel || !linkSel) return;
+  const links = linkSel.data();
   const connectedIds = new Set([selected.id]);
   links.forEach(l => {
     const s = typeof l.source === 'object' ? l.source.id : l.source;
@@ -697,7 +794,7 @@ function highlightNode(selected, links, nodeGroups) {
     if (t === selected.id) connectedIds.add(s);
   });
 
-  nodeGroups.attr('opacity', d => connectedIds.has(d.id) ? 1 : 0.2);
+  nodeSel.attr('opacity', d => connectedIds.has(d.id) ? 1 : 0.2);
 
   linkSel.classed('highlighted', d => {
     const s = typeof d.source === 'object' ? d.source.id : d.source;
@@ -710,8 +807,9 @@ function highlightNode(selected, links, nodeGroups) {
   });
 }
 
-function clearHighlight(nodeGroups) {
-  nodeGroups.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
+function clearHighlight() {
+  if (!nodeSel || !linkSel) return;
+  nodeSel.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
   linkSel.classed('highlighted', false).attr('stroke-opacity', 0.6);
 }
 
@@ -723,7 +821,11 @@ function openPanel(d) {
   document.getElementById('panel-icon').style.background = cfg.bgPanel;
   document.getElementById('panel-icon').style.color = cfg.cor;
 
-  document.getElementById('panel-title').textContent = d.titulo;
+  // WhatsApp: título genérico no header do painel (nome fica no corpo)
+  const panelTitle = d.type === 'whatsapp'
+    ? `WhatsApp ${d.status === 'followup' ? 'Follow-up' : 'Prospecção'}`
+    : d.titulo;
+  document.getElementById('panel-title').textContent = panelTitle;
   document.getElementById('panel-type').textContent = cfg.label;
   document.getElementById('panel-date').textContent = formatDate(d.data);
 
@@ -791,7 +893,11 @@ function closePanel() {
 function showTooltip(e, d) {
   const tt = document.getElementById('tooltip');
   const cfg = TIPOS[d.type] || { label:'Evento' };
-  tt.innerHTML = `<strong style="color:${cfg.cor}">${cfg.label}</strong><br>${d.titulo}`;
+  // WhatsApp: não expõe nome no hover — só o tipo e data
+  const nome = d.type === 'whatsapp'
+    ? `<br><span style="color:#444">${d.status === 'followup' ? 'Follow-up' : 'Prospecção'} · ${d.data}</span>`
+    : `<br>${d.titulo}`;
+  tt.innerHTML = `<strong style="color:${cfg.cor}">${cfg.label}</strong>${nome}`;
   tt.style.display = 'block';
   moveTooltip(e);
 }
@@ -890,6 +996,80 @@ function formatInline(text) {
 
 async function refreshData() {
   window.location.reload();
+}
+
+// ── Busca ────────────────────────────────────────────────────────────
+let searchBlurTimer = null;
+
+function onSearch(query) {
+  const box = document.getElementById('search-results');
+  const q = query.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  if (q.length < 2) { box.classList.remove('visible'); box.innerHTML = ''; return; }
+
+  // Busca em titulo, conteudo e tags de todos os nós
+  const matches = allNodes.filter(n => {
+    const haystack = [
+      n.titulo,
+      n.conteudo,
+      ...(n.tags || []),
+    ].join(' ').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    return haystack.includes(q);
+  }).slice(0, 20);
+
+  if (matches.length === 0) {
+    box.innerHTML = `<div class="search-empty">Nenhum resultado para "${query}"</div>`;
+  } else {
+    box.innerHTML = matches.map(n => {
+      const cfg = TIPOS[n.type] || { cor:'#555', label:'—' };
+      // Label de exibição: WhatsApp mostra data em vez de nome
+      const displayTitle = n.type === 'whatsapp'
+        ? `WhatsApp ${n.status === 'followup' ? 'Follow-up' : 'Prospecção'} · ${n.data}`
+        : n.titulo;
+      return `<div class="search-item" onmousedown="focusNode('${n.id}')">
+        <div class="search-item-dot" style="background:${cfg.cor}"></div>
+        <div class="search-item-title">${displayTitle}</div>
+        <div class="search-item-type">${cfg.label}</div>
+      </div>`;
+    }).join('');
+  }
+
+  box.classList.add('visible');
+}
+
+function onSearchFocus() {
+  clearTimeout(searchBlurTimer);
+  const q = document.getElementById('search-input').value;
+  if (q.trim().length >= 2) document.getElementById('search-results').classList.add('visible');
+}
+
+function onSearchBlur() {
+  // Pequeno delay para permitir o clique no resultado antes de fechar
+  searchBlurTimer = setTimeout(() => {
+    document.getElementById('search-results').classList.remove('visible');
+  }, 200);
+}
+
+function focusNode(id) {
+  const nodeData = allNodes.find(n => n.id === id);
+  if (!nodeData || !simulation || !zoomBehavior) return;
+
+  // Fecha busca
+  document.getElementById('search-results').classList.remove('visible');
+  document.getElementById('search-input').value = '';
+
+  // Posição atual no grafo
+  const simNode = simulation.nodes().find(n => n.id === id);
+  if (simNode) {
+    const W = window.innerWidth, H = window.innerHeight;
+    const scale = 2;
+    const tx = W / 2 - scale * simNode.x;
+    const ty = H / 2 - scale * simNode.y;
+    d3.select('#svg').transition().duration(700)
+      .call(zoomBehavior.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+  }
+
+  openPanel(nodeData);
+  highlightNode(nodeData);
 }
 
 // Redimensionar
