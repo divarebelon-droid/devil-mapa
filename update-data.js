@@ -122,6 +122,18 @@ function criarConexoes(nodes) {
   return links;
 }
 
+function preservarWhatsApp() {
+  // Lê o graph-data.json atual e devolve os nós de WhatsApp para não perder dados locais
+  const arquivo = path.join(__dirname, 'graph-data.json');
+  if (!fs.existsSync(arquivo)) return [];
+  try {
+    const atual = JSON.parse(fs.readFileSync(arquivo, 'utf8'));
+    const nos = (atual.nodes || []).filter(n => n.type === 'whatsapp');
+    console.log(`  WhatsApp preservado: ${nos.length} contatos do JSON anterior`);
+    return nos;
+  } catch { return []; }
+}
+
 async function main() {
   console.log('DEVIL Mapa — Atualizando dados...');
   const nodes = [];
@@ -138,6 +150,9 @@ async function main() {
   const reunioes = carregarGranola();
   nodes.push(...reunioes);
   console.log(`  Granola: ${reunioes.length} reuniões`);
+
+  // WhatsApp — preserva os nós do JSON anterior (dados locais, inacessíveis na nuvem)
+  nodes.push(...preservarWhatsApp());
 
   if (nodes.length === 0) {
     console.error('Sem dados — abortando. Verifique CLICKUP_API_TOKEN.');
