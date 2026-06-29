@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-06-28T22:06:06.692Z",
+  "geradoEm": "2026-06-29T13:11:42.739Z",
   "totalNodes": 201,
   "totalLinks": 131,
   "nodes": [
@@ -448,22 +448,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj92ucy",
-      "type": "clickup",
-      "titulo": "A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.",
-      "data": "2026-06-28",
-      "perfil": "oficina_dro",
-      "status": "revisão texto",
-      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
-      "tags": [
-        "oficina_dro",
-        "Conteúdo Oficina",
-        "revisão texto",
-        "consideração "
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj92v5g",
       "type": "clickup",
       "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
@@ -492,6 +476,22 @@
         "Conteúdo Oficina",
         "revisão texto",
         "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92ucy",
+      "type": "clickup",
+      "titulo": "A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.",
+      "data": "2026-06-28",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto",
+        "consideração "
       ],
       "links": []
     },
@@ -2026,22 +2026,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj92xc2",
-      "type": "clickup",
-      "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜",
-      "data": "2026-06-28",
-      "perfil": "divarebel.on",
-      "status": "revisão texto",
-      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
-      "tags": [
-        "divarebel.on",
-        "Conteúdo Diva Rebel",
-        "revisão texto",
-        "descoberta"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj931mx",
       "type": "clickup",
       "titulo": "Descubra como prospectar clientes como social media e fazer os leads responderem você.",
@@ -2145,6 +2129,22 @@
         "divarebel.on",
         "Conteúdo Diva Rebel",
         "aprovado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92xc2",
+      "type": "clickup",
+      "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜",
+      "data": "2026-06-29",
+      "perfil": "divarebel.on",
+      "status": "revisão texto",
+      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "revisão texto",
+        "descoberta"
       ],
       "links": []
     },
