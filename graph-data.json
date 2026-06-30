@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-06-30T11:47:41.022Z",
+  "geradoEm": "2026-06-30T22:18:32.413Z",
   "totalNodes": 281,
   "totalLinks": 131,
   "nodes": [
@@ -416,22 +416,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj939ac",
-      "type": "clickup",
-      "titulo": "Stories terça",
-      "data": "2026-06-28",
-      "perfil": "oficina_dro",
-      "status": "aprovado",
-      "conteudo": "**Stories terça**\n\nStatus: aprovado\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ac)",
-      "tags": [
-        "oficina_dro",
-        "Conteúdo Oficina",
-        "aprovado",
-        "acompanhar"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj92v5g",
       "type": "clickup",
       "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
@@ -492,6 +476,22 @@
         "Conteúdo Oficina",
         "em análise",
         "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939ac",
+      "type": "clickup",
+      "titulo": "Stories terça",
+      "data": "2026-06-30",
+      "perfil": "oficina_dro",
+      "status": "em análise",
+      "conteudo": "**Stories terça**\n\nStatus: em análise\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ac)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "em análise",
+        "acompanhar"
       ],
       "links": []
     },
@@ -1476,12 +1476,12 @@
       "titulo": "Bella Pelle Depilação, Podologia e Estética",
       "data": "2026-02-17",
       "perfil": "oficina_dro",
-      "status": "n��o vendeu",
-      "conteudo": "**Bella Pelle Depilação, Podologia e Estética**\n\nStatus: n��o vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jd)",
+      "status": "não vendeu",
+      "conteudo": "**Bella Pelle Depilação, Podologia e Estética**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jd)",
       "tags": [
         "oficina_dro",
         "CRM Oficina",
-        "n��o vendeu"
+        "não vendeu"
       ],
       "links": []
     },
@@ -2056,21 +2056,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj939bq",
-      "type": "clickup",
-      "titulo": "Stories terça",
-      "data": "2026-06-28",
-      "perfil": "divarebel.on",
-      "status": "aprovado",
-      "conteudo": "**Stories terça**\n\nStatus: aprovado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939bq)",
-      "tags": [
-        "divarebel.on",
-        "Conteúdo Diva Rebel",
-        "aprovado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj939bn",
       "type": "clickup",
       "titulo": "Stories sexta",
@@ -2145,6 +2130,21 @@
         "Conteúdo Diva Rebel",
         "programado",
         "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939bq",
+      "type": "clickup",
+      "titulo": "Stories terça",
+      "data": "2026-06-30",
+      "perfil": "divarebel.on",
+      "status": "em análise",
+      "conteudo": "**Stories terça**\n\nStatus: em análise\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939bq)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "em análise"
       ],
       "links": []
     },
