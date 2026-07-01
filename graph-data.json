@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-01T12:12:14.715Z",
+  "geradoEm": "2026-07-01T22:22:08.069Z",
   "totalNodes": 281,
   "totalLinks": 131,
   "nodes": [
@@ -496,36 +496,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aeeazfv",
-      "type": "clickup",
-      "titulo": "Cristiane ",
-      "data": "2026-01-11",
-      "perfil": "oficina_dro",
-      "status": "não vendeu",
-      "conteudo": "**Cristiane **\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeazfv)",
-      "tags": [
-        "oficina_dro",
-        "CRM Oficina",
-        "não vendeu"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aeeb03y",
-      "type": "clickup",
-      "titulo": "Isadora",
-      "data": "2026-01-11",
-      "perfil": "oficina_dro",
-      "status": "não vendeu",
-      "conteudo": "**Isadora**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb03y)",
-      "tags": [
-        "oficina_dro",
-        "CRM Oficina",
-        "não vendeu"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aeeb1nn",
       "type": "clickup",
       "titulo": "CES",
@@ -968,21 +938,6 @@
       "perfil": "oficina_dro",
       "status": "não vendeu",
       "conteudo": "**Nutricionista Gizane Almeida - Nutricionista de Mulheres Reais**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pnt)",
-      "tags": [
-        "oficina_dro",
-        "CRM Oficina",
-        "não vendeu"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86afb3pp7",
-      "type": "clickup",
-      "titulo": "Nutricionista Regina - Saúde da Mulher e Emagrecimento Saudável",
-      "data": "2026-02-12",
-      "perfil": "oficina_dro",
-      "status": "não vendeu",
-      "conteudo": "**Nutricionista Regina - Saúde da Mulher e Emagrecimento Saudável**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pp7)",
       "tags": [
         "oficina_dro",
         "CRM Oficina",
@@ -1988,6 +1943,51 @@
       "perfil": "oficina_dro",
       "status": "não vendeu",
       "conteudo": "**Nutricionista Kimberly Gabriella**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5y0)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5xx",
+      "type": "clickup",
+      "titulo": "Rayssa Britto Nutricionista",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Rayssa Britto Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5xx)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5xv",
+      "type": "clickup",
+      "titulo": "Nutricionista Mônica Bulhões",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Mônica Bulhões**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5xv)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5xq",
+      "type": "clickup",
+      "titulo": "Yolanda Cardoso Nutricionista Clínica em João Pessoa",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Yolanda Cardoso Nutricionista Clínica em João Pessoa**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5xq)",
       "tags": [
         "oficina_dro",
         "CRM Oficina",
@@ -4369,27 +4369,17 @@
     },
     {
       "source": "meeting-a334d7ca-19ba-44ba-95a6-45ec61e39bc2",
-      "target": "clickup-86aeeazfv",
+      "target": "clickup-86aeeb1nn",
       "tipo": "semana"
     },
     {
       "source": "meeting-a334d7ca-19ba-44ba-95a6-45ec61e39bc2",
-      "target": "clickup-86aeeb03y",
+      "target": "clickup-86aeeb35v",
       "tipo": "semana"
     },
     {
       "source": "meeting-a334d7ca-19ba-44ba-95a6-45ec61e39bc2",
-      "target": "clickup-86aeeb1nn",
-      "tipo": "semana"
-    },
-    {
-      "source": "meeting-182e679a-2de4-49b6-992b-94582d29c712",
-      "target": "clickup-86aeeazfv",
-      "tipo": "semana"
-    },
-    {
-      "source": "meeting-182e679a-2de4-49b6-992b-94582d29c712",
-      "target": "clickup-86aeeb03y",
+      "target": "clickup-86aeeb3nr",
       "tipo": "semana"
     },
     {
@@ -4398,43 +4388,43 @@
       "tipo": "semana"
     },
     {
-      "source": "meeting-9730273e-4dc6-41cd-ab4a-3ac1bdf78438",
-      "target": "clickup-86aeeazfv",
+      "source": "meeting-182e679a-2de4-49b6-992b-94582d29c712",
+      "target": "clickup-86aeeb35v",
+      "tipo": "semana"
+    },
+    {
+      "source": "meeting-182e679a-2de4-49b6-992b-94582d29c712",
+      "target": "clickup-86aeeb3nr",
       "tipo": "semana"
     },
     {
       "source": "meeting-9730273e-4dc6-41cd-ab4a-3ac1bdf78438",
-      "target": "clickup-86aeeb03y",
+      "target": "clickup-86aeeb1nn",
       "tipo": "semana"
     },
     {
       "source": "meeting-9730273e-4dc6-41cd-ab4a-3ac1bdf78438",
+      "target": "clickup-86aeeb35v",
+      "tipo": "semana"
+    },
+    {
+      "source": "meeting-9730273e-4dc6-41cd-ab4a-3ac1bdf78438",
+      "target": "clickup-86aeeb3nr",
+      "tipo": "semana"
+    },
+    {
+      "source": "meeting-4a4f7c7c-3050-4ad3-b12c-6c7b445f08f4",
       "target": "clickup-86aeeb1nn",
       "tipo": "semana"
     },
     {
       "source": "meeting-4a4f7c7c-3050-4ad3-b12c-6c7b445f08f4",
-      "target": "clickup-86aeeazfv",
+      "target": "clickup-86aeeb35v",
       "tipo": "semana"
     },
     {
       "source": "meeting-4a4f7c7c-3050-4ad3-b12c-6c7b445f08f4",
-      "target": "clickup-86aeeb03y",
-      "tipo": "semana"
-    },
-    {
-      "source": "meeting-4a4f7c7c-3050-4ad3-b12c-6c7b445f08f4",
-      "target": "clickup-86aeeb1nn",
-      "tipo": "semana"
-    },
-    {
-      "source": "meeting-a703228b-1b6c-47ab-a2f5-add8e549b61d",
-      "target": "clickup-86aeeazfv",
-      "tipo": "semana"
-    },
-    {
-      "source": "meeting-a703228b-1b6c-47ab-a2f5-add8e549b61d",
-      "target": "clickup-86aeeb03y",
+      "target": "clickup-86aeeb3nr",
       "tipo": "semana"
     },
     {
@@ -4443,18 +4433,28 @@
       "tipo": "semana"
     },
     {
-      "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
-      "target": "clickup-86aeeazfv",
+      "source": "meeting-a703228b-1b6c-47ab-a2f5-add8e549b61d",
+      "target": "clickup-86aeeb35v",
       "tipo": "semana"
     },
     {
-      "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
-      "target": "clickup-86aeeb03y",
+      "source": "meeting-a703228b-1b6c-47ab-a2f5-add8e549b61d",
+      "target": "clickup-86aeeb3nr",
       "tipo": "semana"
     },
     {
       "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
       "target": "clickup-86aeeb1nn",
+      "tipo": "semana"
+    },
+    {
+      "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
+      "target": "clickup-86aeeb35v",
+      "tipo": "semana"
+    },
+    {
+      "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
+      "target": "clickup-86aeeb3nr",
       "tipo": "semana"
     },
     {
@@ -4674,11 +4674,6 @@
     },
     {
       "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
-      "target": "clickup-86afb3pp7",
-      "tipo": "crm_match"
-    },
-    {
-      "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
       "target": "clickup-86afb4g64",
       "tipo": "crm_match"
     },
@@ -4775,6 +4770,11 @@
     {
       "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
       "target": "clickup-86affk5y0",
+      "tipo": "crm_match"
+    },
+    {
+      "source": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
+      "target": "clickup-86affk5xv",
       "tipo": "crm_match"
     },
     {
@@ -4849,11 +4849,6 @@
     },
     {
       "source": "meeting-09c8b8a6-698f-4d3a-a813-822be5724795",
-      "target": "clickup-86afb3pp7",
-      "tipo": "crm_match"
-    },
-    {
-      "source": "meeting-09c8b8a6-698f-4d3a-a813-822be5724795",
       "target": "clickup-86afb4g64",
       "tipo": "crm_match"
     },
@@ -4950,6 +4945,11 @@
     {
       "source": "meeting-09c8b8a6-698f-4d3a-a813-822be5724795",
       "target": "clickup-86affk5y0",
+      "tipo": "crm_match"
+    },
+    {
+      "source": "meeting-09c8b8a6-698f-4d3a-a813-822be5724795",
+      "target": "clickup-86affk5xv",
       "tipo": "crm_match"
     }
   ]
