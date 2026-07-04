@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-04T18:29:12.947Z",
+  "geradoEm": "2026-07-04T18:50:00.500Z",
   "totalNodes": 296,
   "totalLinks": 389,
   "nodes": [
@@ -10,15 +10,17 @@
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "revisão texto",
-      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\nStatus: revisão texto\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
+      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão texto\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** revisão texto, descoberta\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "revisão texto",
         "descoberta"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aj92ucy",
@@ -27,15 +29,17 @@
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "revisão texto",
-      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nStatus: revisão texto\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
+      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão texto\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** revisão texto, consideração\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "revisão texto",
         "consideração"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aj92rf2",
@@ -44,15 +48,17 @@
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "revisão texto",
-      "conteudo": "**Trend ou agenda cheia de pacientes? O erro que muitas nutricionistas estão cometendo durante a Copa**\n\nStatus: revisão texto\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92rf2)",
+      "conteudo": "**Trend ou agenda cheia de pacientes? O erro que muitas nutricionistas estão cometendo durante a Copa**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão texto\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** revisão texto, descoberta\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92rf2)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "revisão texto",
         "descoberta"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246xw",
@@ -61,14 +67,16 @@
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "ideias",
-      "conteudo": "**🔑 FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE**\n\nStatus: ideias\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246xw)",
+      "conteudo": "**🔑 FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** ideias\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** ideias\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246xw)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "ideias"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa9jdnz",
@@ -77,15 +85,17 @@
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "ideias",
-      "conteudo": "**Narrativa: Acho que isso pode me ajudar (identificação)**\n\nStatus: ideias\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdnz)",
+      "conteudo": "**Narrativa: Acho que isso pode me ajudar (identificação)**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** ideias\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** ideias, consideração\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa9jdnz)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "ideias",
         "consideração"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa2470n",
@@ -94,14 +104,16 @@
       "data": "2026-07-03",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência Choque de realidade**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa2470n)",
+      "conteudo": "**Sequência Choque de realidade**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa2470n)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246zq",
@@ -110,14 +122,16 @@
       "data": "2026-07-03",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência da preguiça**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246zq)",
+      "conteudo": "**Sequência da preguiça**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246zq)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246x0",
@@ -126,14 +140,16 @@
       "data": "2026-07-03",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência Apresentação de erro**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246x0)",
+      "conteudo": "**Sequência Apresentação de erro**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246x0)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246r1",
@@ -142,14 +158,16 @@
       "data": "2026-07-03",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência engajamento duplo**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246r1)",
+      "conteudo": "**Sequência engajamento duplo**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246r1)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246qd",
@@ -158,14 +176,16 @@
       "data": "2026-07-03",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência Bate papo**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246qd)",
+      "conteudo": "**Sequência Bate papo**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246qd)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246w0",
@@ -174,14 +194,16 @@
       "data": "2026-07-02",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Engaja post**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246w0)",
+      "conteudo": "**Sequência: Engaja post**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246w0)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246uv",
@@ -190,14 +212,16 @@
       "data": "2026-07-02",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência Esfrega na cara**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246uv)",
+      "conteudo": "**Sequência Esfrega na cara**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246uv)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246uc",
@@ -206,14 +230,16 @@
       "data": "2026-07-02",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: 3 portas**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246uc)",
+      "conteudo": "**Sequência: 3 portas**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246uc)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246ty",
@@ -222,14 +248,16 @@
       "data": "2026-07-02",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Reforço de posicionamento**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246ty)",
+      "conteudo": "**Sequência: Reforço de posicionamento**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246ty)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246r0",
@@ -238,14 +266,16 @@
       "data": "2026-07-02",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência fidelização**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246r0)",
+      "conteudo": "**Sequência fidelização**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246r0)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246nk",
@@ -254,14 +284,16 @@
       "data": "2026-07-01",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Roubo de autoridade**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246nk)",
+      "conteudo": "**Sequência: Roubo de autoridade**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246nk)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246kc",
@@ -270,14 +302,16 @@
       "data": "2026-07-01",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Reconhecimento do erro**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246kc)",
+      "conteudo": "**Sequência: Reconhecimento do erro**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246kc)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246yn",
@@ -286,14 +320,16 @@
       "data": "2026-07-01",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Essa é a boa**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246yn)",
+      "conteudo": "**Sequência: Essa é a boa**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246yn)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246v2",
@@ -302,14 +338,16 @@
       "data": "2026-07-01",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Tirando o doce da criança**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246v2)",
+      "conteudo": "**Sequência: Tirando o doce da criança**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246v2)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246rq",
@@ -318,14 +356,16 @@
       "data": "2026-07-01",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Tchau papa-léguas**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246rq)",
+      "conteudo": "**Sequência: Tchau papa-léguas**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246rq)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246qt",
@@ -334,14 +374,16 @@
       "data": "2026-06-30",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Antecede engajamento**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246qt)",
+      "conteudo": "**Sequência: Antecede engajamento**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246qt)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246qp",
@@ -350,14 +392,16 @@
       "data": "2026-06-30",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Hater amigo**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246qp)",
+      "conteudo": "**Sequência: Hater amigo**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246qp)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246q2",
@@ -366,14 +410,16 @@
       "data": "2026-06-30",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Finde estratégico**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246q2)",
+      "conteudo": "**Sequência: Finde estratégico**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246q2)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa246m2",
@@ -382,14 +428,16 @@
       "data": "2026-06-30",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "sequências",
-      "conteudo": "**Sequência: Identificação com autoridade**\n\nStatus: sequências\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246m2)",
+      "conteudo": "**Sequência: Identificação com autoridade**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** sequências\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** sequências\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa246m2)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "sequências"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa9jdpe",
@@ -398,15 +446,17 @@
       "data": "2026-06-30",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "ideias",
-      "conteudo": "**Narrativa: Pra mim deu, quero evoluir (raiva do presente)**\n\nStatus: ideias\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdpe)",
+      "conteudo": "**Narrativa: Pra mim deu, quero evoluir (raiva do presente)**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** ideias\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** ideias, recuperação\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa9jdpe)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "ideias",
         "recuperação"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa9jdmp",
@@ -415,15 +465,17 @@
       "data": "2026-06-29",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "ideias",
-      "conteudo": "**Narrativa: Nossa, ela é a melhor nisso (inspiração)**\n\nStatus: ideias\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdmp)",
+      "conteudo": "**Narrativa: Nossa, ela é a melhor nisso (inspiração)**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** ideias\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** ideias, decisão\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa9jdmp)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "ideias",
         "decisão"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86aa9jdn6",
@@ -432,15 +484,17 @@
       "data": "2026-06-29",
       "perfil": "oficina_dro",
       "lista": "Conteúdo",
+      "listId": "901316452690",
       "status": "ideias",
-      "conteudo": "**Narrativa: Eu não sabia disso (Curiosidade)**\n\nStatus: ideias\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdn6)",
+      "conteudo": "**Narrativa: Eu não sabia disso (Curiosidade)**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** ideias\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** ideias, descoberta\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa9jdn6)",
       "tags": [
         "oficina_dro",
         "Conteúdo",
         "ideias",
         "descoberta"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901316452690"
     },
     {
       "id": "clickup-86ahm63fh",
@@ -449,15 +503,17 @@
       "data": "2026-06-29",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Nutricionista Ana Beatriz Bento**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63fh)",
+      "conteudo": "**Nutricionista Ana Beatriz Bento**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63fh)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqrhk",
@@ -466,8 +522,9 @@
       "data": "2026-06-29",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "cliente",
-      "conteudo": "**Priscila Leite**\n\nStatus: cliente\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqrhk)",
+      "conteudo": "**Priscila Leite**\n\n📋 **Lista:** CRM\n🔖 **Status:** cliente\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** cliente, CRM, cliente\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqrhk)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -475,7 +532,8 @@
         "CRM",
         "cliente"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq6p8",
@@ -484,15 +542,17 @@
       "data": "2026-06-29",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Camila Dantas**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq6p8)",
+      "conteudo": "**Camila Dantas**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq6p8)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqde2",
@@ -501,15 +561,17 @@
       "data": "2026-06-28",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Marcele Asevedo**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqde2)",
+      "conteudo": "**Marcele Asevedo**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqde2)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyrrbu",
@@ -518,15 +580,17 @@
       "data": "2026-06-28",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Juliana Lima**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyrrbu)",
+      "conteudo": "**Juliana Lima**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyrrbu)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyrmtv",
@@ -535,15 +599,17 @@
       "data": "2026-06-28",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Marina Vasconcelos**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyrmtv)",
+      "conteudo": "**Marina Vasconcelos**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyrmtv)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyrk1w",
@@ -552,15 +618,17 @@
       "data": "2026-06-28",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "contatei",
-      "conteudo": "**Anna Beatriz**\n\nStatus: contatei\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyrk1w)",
+      "conteudo": "**Anna Beatriz**\n\n📋 **Lista:** CRM\n🔖 **Status:** contatei\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** contatei, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyrk1w)",
       "tags": [
         "oficina_dro",
         "CRM",
         "contatei",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyrj9n",
@@ -569,15 +637,17 @@
       "data": "2026-06-28",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Isabela Gomes**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyrj9n)",
+      "conteudo": "**Isabela Gomes**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyrj9n)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyrhgj",
@@ -586,15 +656,17 @@
       "data": "2026-06-27",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Maisa Lopes**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyrhgj)",
+      "conteudo": "**Maisa Lopes**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyrhgj)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyrgnj",
@@ -603,15 +675,17 @@
       "data": "2026-06-27",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Daiana Manzela**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyrgnj)",
+      "conteudo": "**Daiana Manzela**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyrgnj)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqxam",
@@ -620,15 +694,17 @@
       "data": "2026-06-27",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Andrea Puccinelli**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqxam)",
+      "conteudo": "**Andrea Puccinelli**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqxam)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqvdr",
@@ -637,15 +713,17 @@
       "data": "2026-06-27",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dra. Jamine Amorim**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqvdr)",
+      "conteudo": "**Dra. Jamine Amorim**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqvdr)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqknc",
@@ -654,15 +732,17 @@
       "data": "2026-06-27",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Eliane Mota**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqknc)",
+      "conteudo": "**Eliane Mota**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqknc)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqjm7",
@@ -671,15 +751,17 @@
       "data": "2026-06-26",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Ayla Freitas**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqjm7)",
+      "conteudo": "**Ayla Freitas**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqjm7)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqctm",
@@ -688,15 +770,17 @@
       "data": "2026-06-26",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Jociane Castro**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqctm)",
+      "conteudo": "**Jociane Castro**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqctm)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqc2m",
@@ -705,15 +789,17 @@
       "data": "2026-06-26",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Camila Morata**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqc2m)",
+      "conteudo": "**Camila Morata**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqc2m)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq4pv",
@@ -722,15 +808,17 @@
       "data": "2026-06-26",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Giselle Faria**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq4pv)",
+      "conteudo": "**Giselle Faria**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq4pv)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqtte",
@@ -739,15 +827,17 @@
       "data": "2026-06-26",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Daiane Sique**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqtte)",
+      "conteudo": "**Daiane Sique**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqtte)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahyqua5",
@@ -756,15 +846,17 @@
       "data": "2026-06-25",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Juliana**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahyqua5)",
+      "conteudo": "**Nutricionista Juliana**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahyqua5)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndna",
@@ -773,8 +865,9 @@
       "data": "2026-06-25",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Ana Beatriz Bento — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndna)",
+      "conteudo": "**Ana Beatriz Bento — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao, respondeu\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndna)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -783,7 +876,8 @@
         "prospeccao",
         "respondeu"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndp6",
@@ -792,8 +886,9 @@
       "data": "2026-06-25",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Nutricionista Camilla Dantas — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndp6)",
+      "conteudo": "**Nutricionista Camilla Dantas — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndp6)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -801,7 +896,8 @@
         "CRM",
         "prospeccao"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndp5",
@@ -810,8 +906,9 @@
       "data": "2026-06-25",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Nutricionista Aline Rodrigues — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndp5)",
+      "conteudo": "**Nutricionista Aline Rodrigues — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao, respondeu\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndp5)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -820,7 +917,8 @@
         "prospeccao",
         "respondeu"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndp1",
@@ -829,8 +927,9 @@
       "data": "2026-06-24",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Nutri Bruna Boreggio — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndp1)",
+      "conteudo": "**Nutri Bruna Boreggio — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao, cliente\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndp1)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -839,7 +938,8 @@
         "prospeccao",
         "cliente"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndp0",
@@ -848,8 +948,9 @@
       "data": "2026-06-24",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**MB Arquitetura & Engenharia — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndp0)",
+      "conteudo": "**MB Arquitetura & Engenharia — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndp0)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -857,7 +958,8 @@
         "CRM",
         "prospeccao"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndnx",
@@ -866,8 +968,9 @@
       "data": "2026-06-24",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Isabella Jardim — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndnx)",
+      "conteudo": "**Isabella Jardim — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao, respondeu\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndnx)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -876,7 +979,8 @@
         "prospeccao",
         "respondeu"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndnv",
@@ -885,8 +989,9 @@
       "data": "2026-06-24",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Giulia Daoud Bianchini — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndnv)",
+      "conteudo": "**Giulia Daoud Bianchini — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndnv)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -894,7 +999,8 @@
         "CRM",
         "prospeccao"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndnr",
@@ -903,8 +1009,9 @@
       "data": "2026-06-24",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Giselle Faria Nutricionista — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndnr)",
+      "conteudo": "**Giselle Faria Nutricionista — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndnr)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -912,7 +1019,8 @@
         "CRM",
         "prospeccao"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndnk",
@@ -921,8 +1029,9 @@
       "data": "2026-06-23",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Dayane Goncalves Nutricionista — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndnk)",
+      "conteudo": "**Dayane Goncalves Nutricionista — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndnk)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -930,7 +1039,8 @@
         "CRM",
         "prospeccao"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahxndnc",
@@ -939,8 +1049,9 @@
       "data": "2026-06-23",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "whatsapp",
-      "conteudo": "**Ana Paula Bastos — WhatsApp**\n\nStatus: whatsapp\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahxndnc)",
+      "conteudo": "**Ana Paula Bastos — WhatsApp**\n\n📋 **Lista:** CRM\n🔖 **Status:** whatsapp\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** whatsapp, CRM, prospeccao\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahxndnc)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -948,7 +1059,8 @@
         "CRM",
         "prospeccao"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86agjjne9",
@@ -957,8 +1069,9 @@
       "data": "2026-06-23",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "cliente",
-      "conteudo": "**Dra. Bruna Boreggio**\n\nStatus: cliente\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86agjjne9)",
+      "conteudo": "**Dra. Bruna Boreggio**\n\n📋 **Lista:** CRM\n🔖 **Status:** cliente\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** cliente, CRM, cliente\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86agjjne9)",
       "tags": [
         "oficina_dro",
         "CRM",
@@ -966,7 +1079,8 @@
         "CRM",
         "cliente"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86afc8njb",
@@ -975,15 +1089,17 @@
       "data": "2026-06-23",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Clínica Nutricional Julia Boldrini**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8njb)",
+      "conteudo": "**Clínica Nutricional Julia Boldrini**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86afc8njb)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86aete6fy",
@@ -992,15 +1108,17 @@
       "data": "2026-06-23",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Nutricionista Esportiva e Clínica Andreia Camilla**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aete6fy)",
+      "conteudo": "**Nutricionista Esportiva e Clínica Andreia Camilla**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aete6fy)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahec88r",
@@ -1009,15 +1127,17 @@
       "data": "2026-06-22",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Nutricionista Carla Coelho**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahec88r)",
+      "conteudo": "**Nutricionista Carla Coelho**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahec88r)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ah61kvc",
@@ -1026,15 +1146,17 @@
       "data": "2026-06-22",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Raquel Rosa**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah61kvc)",
+      "conteudo": "**Raquel Rosa**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ah61kvc)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahec8ac",
@@ -1043,15 +1165,17 @@
       "data": "2026-06-22",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Rayssa Melo - Nutricionista**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahec8ac)",
+      "conteudo": "**Rayssa Melo - Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahec8ac)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86aeebemt",
@@ -1060,15 +1184,17 @@
       "data": "2026-06-22",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Simone**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebemt)",
+      "conteudo": "**Simone**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aeebemt)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86aeeaxbg",
@@ -1077,15 +1203,17 @@
       "data": "2026-06-22",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Contadora Viviane**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeaxbg)",
+      "conteudo": "**Contadora Viviane**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aeeaxbg)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86aeebgvt",
@@ -1094,15 +1222,17 @@
       "data": "2026-06-21",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "call feita e não vendeu",
-      "conteudo": "**Michelle**\n\nStatus: call feita e não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebgvt)",
+      "conteudo": "**Michelle**\n\n📋 **Lista:** CRM\n🔖 **Status:** call feita e não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** call feita e não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aeebgvt)",
       "tags": [
         "oficina_dro",
         "CRM",
         "call feita e não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqrdp",
@@ -1111,15 +1241,17 @@
       "data": "2026-06-21",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Luciene Costa**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqrdp)",
+      "conteudo": "**Nutricionista Luciene Costa**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqrdp)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqv1z",
@@ -1128,15 +1260,17 @@
       "data": "2026-06-21",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Maxine Montechiari**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqv1z)",
+      "conteudo": "**Maxine Montechiari**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqv1z)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqu96",
@@ -1145,15 +1279,17 @@
       "data": "2026-06-21",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Hingrid Melo**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqu96)",
+      "conteudo": "**Hingrid Melo**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqu96)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqt7n",
@@ -1162,15 +1298,17 @@
       "data": "2026-06-21",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Patricia Fernandes**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqt7n)",
+      "conteudo": "**Patricia Fernandes**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqt7n)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq6m1",
@@ -1179,15 +1317,17 @@
       "data": "2026-06-20",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Bruna Vilanova**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq6m1)",
+      "conteudo": "**Bruna Vilanova**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq6m1)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq6et",
@@ -1196,15 +1336,17 @@
       "data": "2026-06-20",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Mabena Damaris**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq6et)",
+      "conteudo": "**Mabena Damaris**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq6et)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq398",
@@ -1213,15 +1355,17 @@
       "data": "2026-06-20",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dr Jéssica Lopes Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq398)",
+      "conteudo": "**Dr Jéssica Lopes Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq398)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq353",
@@ -1230,15 +1374,17 @@
       "data": "2026-06-20",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Consultório Sabrina Orlandin**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq353)",
+      "conteudo": "**Consultório Sabrina Orlandin**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq353)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq2zv",
@@ -1247,15 +1393,17 @@
       "data": "2026-06-20",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Carolina Rosa**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq2zv)",
+      "conteudo": "**Carolina Rosa**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq2zv)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ec",
@@ -1264,15 +1412,17 @@
       "data": "2026-06-19",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Thayna Oliveira**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ec)",
+      "conteudo": "**Nutricionista Thayna Oliveira**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ec)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqppu",
@@ -1281,15 +1431,17 @@
       "data": "2026-06-19",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Cristiane Costa**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqppu)",
+      "conteudo": "**Cristiane Costa**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqppu)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ef",
@@ -1298,15 +1450,17 @@
       "data": "2026-06-19",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**SpadaGika - Clinica Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ef)",
+      "conteudo": "**SpadaGika - Clinica Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ef)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63e6",
@@ -1315,15 +1469,17 @@
       "data": "2026-06-19",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**NutriCilla**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63e6)",
+      "conteudo": "**NutriCilla**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63e6)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63eg",
@@ -1332,15 +1488,17 @@
       "data": "2026-06-19",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Esportiva Gabriela Trigueiro**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63eg)",
+      "conteudo": "**Nutricionista Esportiva Gabriela Trigueiro**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63eg)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq2tx",
@@ -1349,15 +1507,17 @@
       "data": "2026-06-18",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Alexia**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq2tx)",
+      "conteudo": "**Alexia**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq2tx)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63en",
@@ -1366,15 +1526,17 @@
       "data": "2026-06-18",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Priscila Bastos**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63en)",
+      "conteudo": "**Nutricionista Priscila Bastos**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63en)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ek",
@@ -1383,15 +1545,17 @@
       "data": "2026-06-18",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Lara Martins**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ek)",
+      "conteudo": "**Nutricionista Lara Martins**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ek)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpqwxg",
@@ -1400,15 +1564,17 @@
       "data": "2026-06-18",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Renata de Oliveira**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpqwxg)",
+      "conteudo": "**Renata de Oliveira**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpqwxg)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahpq4cv",
@@ -1417,15 +1583,17 @@
       "data": "2026-06-18",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "contatei",
-      "conteudo": "**Ester**\n\nStatus: contatei\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahpq4cv)",
+      "conteudo": "**Ester**\n\n📋 **Lista:** CRM\n🔖 **Status:** contatei\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** contatei, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahpq4cv)",
       "tags": [
         "oficina_dro",
         "CRM",
         "contatei",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63gk",
@@ -1434,15 +1602,17 @@
       "data": "2026-06-17",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Jaqueline Santana Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63gk)",
+      "conteudo": "**Jaqueline Santana Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63gk)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63f1",
@@ -1451,15 +1621,17 @@
       "data": "2026-06-17",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Renata Saffioti - Nutrição**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63f1)",
+      "conteudo": "**Renata Saffioti - Nutrição**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63f1)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63f2",
@@ -1468,15 +1640,17 @@
       "data": "2026-06-17",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Carla Santiago Nutricionista Funcional**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63f2)",
+      "conteudo": "**Carla Santiago Nutricionista Funcional**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63f2)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63f0",
@@ -1485,15 +1659,17 @@
       "data": "2026-06-17",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dra. Marina Prieto - Nutrição esportiva e saúde da mulher**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63f0)",
+      "conteudo": "**Dra. Marina Prieto - Nutrição esportiva e saúde da mulher**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63f0)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ew",
@@ -1502,15 +1678,17 @@
       "data": "2026-06-17",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Isabella Jardim - Nutricionista emagrecimento Feminino**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ew)",
+      "conteudo": "**Isabella Jardim - Nutricionista emagrecimento Feminino**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ew)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ev",
@@ -1519,15 +1697,17 @@
       "data": "2026-06-16",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Juliana Veronezi - Nutricionista Vegana**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ev)",
+      "conteudo": "**Juliana Veronezi - Nutricionista Vegana**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ev)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63et",
@@ -1536,15 +1716,17 @@
       "data": "2026-06-16",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Karen Araujo - Nutricionista saúde da mulher**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63et)",
+      "conteudo": "**Karen Araujo - Nutricionista saúde da mulher**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63et)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63eh",
@@ -1553,15 +1735,17 @@
       "data": "2026-06-16",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Regina Ribeiro**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63eh)",
+      "conteudo": "**Nutricionista Regina Ribeiro**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63eh)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63eb",
@@ -1570,15 +1754,17 @@
       "data": "2026-06-16",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Paola Rampinelli - Nutricionista em Santana**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63eb)",
+      "conteudo": "**Paola Rampinelli - Nutricionista em Santana**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63eb)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63gc",
@@ -1587,15 +1773,17 @@
       "data": "2026-06-16",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Clênia Santana Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63gc)",
+      "conteudo": "**Clênia Santana Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63gc)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63g3",
@@ -1604,15 +1792,17 @@
       "data": "2026-06-15",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Giceli Oliveira - Clínica de Nutrição**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63g3)",
+      "conteudo": "**Nutricionista Giceli Oliveira - Clínica de Nutrição**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63g3)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63em",
@@ -1621,15 +1811,17 @@
       "data": "2026-06-15",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dra Priscila Barbosa - Nutricionista em Santana**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63em)",
+      "conteudo": "**Dra Priscila Barbosa - Nutricionista em Santana**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63em)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63er",
@@ -1638,15 +1830,17 @@
       "data": "2026-06-15",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Aline Leite Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63er)",
+      "conteudo": "**Aline Leite Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63er)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63e5",
@@ -1655,15 +1849,17 @@
       "data": "2026-06-15",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Carla Danieli - Nutricionista Esportiva Emagrecimento**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63e5)",
+      "conteudo": "**Carla Danieli - Nutricionista Esportiva Emagrecimento**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63e5)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63e4",
@@ -1672,15 +1868,17 @@
       "data": "2026-06-14",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Anna Luize Almeida**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63e4)",
+      "conteudo": "**Anna Luize Almeida**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63e4)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ep",
@@ -1689,15 +1887,17 @@
       "data": "2026-06-14",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dra. Ana Paula Kessler**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ep)",
+      "conteudo": "**Dra. Ana Paula Kessler**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ep)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ee",
@@ -1706,15 +1906,17 @@
       "data": "2026-06-14",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Thais Maria emagrecimento**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ee)",
+      "conteudo": "**Nutricionista Thais Maria emagrecimento**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ee)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63e1",
@@ -1723,15 +1925,17 @@
       "data": "2026-06-14",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dra. Ana Paula - Menopausa, Emagrecimento e Diabetes**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63e1)",
+      "conteudo": "**Dra. Ana Paula - Menopausa, Emagrecimento e Diabetes**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63e1)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63g9",
@@ -1740,15 +1944,17 @@
       "data": "2026-06-14",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Lidiane Santana - Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63g9)",
+      "conteudo": "**Lidiane Santana - Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63g9)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63f3",
@@ -1757,15 +1963,17 @@
       "data": "2026-06-13",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Ms. Vanessa Amarante Carvalho - Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63f3)",
+      "conteudo": "**Ms. Vanessa Amarante Carvalho - Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63f3)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ge",
@@ -1774,15 +1982,17 @@
       "data": "2026-06-13",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Infantil Julia Yasmeen Pereira**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ge)",
+      "conteudo": "**Nutricionista Infantil Julia Yasmeen Pereira**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ge)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ed",
@@ -1791,15 +2001,17 @@
       "data": "2026-06-13",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Dayane Felix - Nutricionista SOP Endometriose**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ed)",
+      "conteudo": "**Dayane Felix - Nutricionista SOP Endometriose**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ed)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahhykrh",
@@ -1808,15 +2020,17 @@
       "data": "2026-06-13",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Patrícia Penha - Nutricionista em Macapá**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahhykrh)",
+      "conteudo": "**Patrícia Penha - Nutricionista em Macapá**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahhykrh)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63gj",
@@ -1825,15 +2039,17 @@
       "data": "2026-06-13",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista TEA TDAH e T21 - Lucilene Macedo**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63gj)",
+      "conteudo": "**Nutricionista TEA TDAH e T21 - Lucilene Macedo**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63gj)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63gd",
@@ -1842,15 +2058,17 @@
       "data": "2026-06-12",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Deise Santana - Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63gd)",
+      "conteudo": "**Deise Santana - Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63gd)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63fd",
@@ -1859,15 +2077,17 @@
       "data": "2026-06-12",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Vanessa Rocha**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63fd)",
+      "conteudo": "**Nutricionista Vanessa Rocha**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63fd)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63fx",
@@ -1876,15 +2096,17 @@
       "data": "2026-06-12",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Daniele Oliveira - Nutrição**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63fx)",
+      "conteudo": "**Daniele Oliveira - Nutrição**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63fx)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63fw",
@@ -1893,15 +2115,17 @@
       "data": "2026-06-12",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Thiane Brito - Nutricionista gestacional em Macapá**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63fw)",
+      "conteudo": "**Thiane Brito - Nutricionista gestacional em Macapá**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63fw)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ft",
@@ -1910,15 +2134,17 @@
       "data": "2026-06-12",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Thaysa Mourão - Nutricionista em Macapá**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ft)",
+      "conteudo": "**Thaysa Mourão - Nutricionista em Macapá**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ft)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63fq",
@@ -1927,15 +2153,17 @@
       "data": "2026-06-11",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Nutricionista Silvia Moraes**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63fq)",
+      "conteudo": "**Nutricionista Silvia Moraes**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63fq)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86ahm63ex",
@@ -1944,15 +2172,17 @@
       "data": "2026-06-11",
       "perfil": "oficina_dro",
       "lista": "CRM",
+      "listId": "901317125138",
       "status": "não vendeu",
-      "conteudo": "**Camila Castanheira - Nutricionista**\n\nStatus: não vendeu\nLista: CRM\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahm63ex)",
+      "conteudo": "**Camila Castanheira - Nutricionista**\n\n📋 **Lista:** CRM\n🔖 **Status:** não vendeu\n👤 **Perfil:** @oficina_dro\n🏷️ **Tags:** não vendeu, CRM\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahm63ex)",
       "tags": [
         "oficina_dro",
         "CRM",
         "não vendeu",
         "CRM"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901317125138"
     },
     {
       "id": "clickup-86aj931mx",
@@ -1961,15 +2191,17 @@
       "data": "2026-06-11",
       "perfil": "divarebel.on",
       "lista": "Conteúdo Diva Rebel",
+      "listId": "901315882544",
       "status": "revisão texto",
-      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
+      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\n📋 **Lista:** Conteúdo Diva Rebel\n🔖 **Status:** revisão texto\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** revisão texto, descoberta\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
         "revisão texto",
         "descoberta"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882544"
     },
     {
       "id": "clickup-86aj92ycq",
@@ -1978,15 +2210,17 @@
       "data": "2026-06-11",
       "perfil": "divarebel.on",
       "lista": "Conteúdo Diva Rebel",
+      "listId": "901315882544",
       "status": "revisão texto",
-      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
+      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\n📋 **Lista:** Conteúdo Diva Rebel\n🔖 **Status:** revisão texto\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** revisão texto, consideração\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
         "revisão texto",
         "consideração"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882544"
     },
     {
       "id": "clickup-86aj92xc2",
@@ -1995,15 +2229,17 @@
       "data": "2026-06-11",
       "perfil": "divarebel.on",
       "lista": "Conteúdo Diva Rebel",
+      "listId": "901315882544",
       "status": "revisão texto",
-      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
+      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes**\n\n📋 **Lista:** Conteúdo Diva Rebel\n🔖 **Status:** revisão texto\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** revisão texto, descoberta\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
         "revisão texto",
         "descoberta"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882544"
     },
     {
       "id": "clickup-86ae85pfr",
@@ -2012,14 +2248,16 @@
       "data": "2026-06-10",
       "perfil": "divarebel.on",
       "lista": "Conteúdo Diva Rebel",
+      "listId": "901315882544",
       "status": "ideia",
-      "conteudo": "**BASE — Stories como série**\n\nStatus: ideia\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae85pfr)",
+      "conteudo": "**BASE — Stories como série**\n\n📋 **Lista:** Conteúdo Diva Rebel\n🔖 **Status:** ideia\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** ideia\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae85pfr)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
         "ideia"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882544"
     },
     {
       "id": "clickup-86ae85pfg",
@@ -2028,14 +2266,16 @@
       "data": "2026-06-10",
       "perfil": "divarebel.on",
       "lista": "Conteúdo Diva Rebel",
+      "listId": "901315882544",
       "status": "ideia",
-      "conteudo": "**FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE**\n\nStatus: ideia\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae85pfg)",
+      "conteudo": "**FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE**\n\n📋 **Lista:** Conteúdo Diva Rebel\n🔖 **Status:** ideia\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** ideia\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae85pfg)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
         "ideia"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882544"
     },
     {
       "id": "clickup-86ae9ka94",
@@ -2044,15 +2284,17 @@
       "data": "2026-06-10",
       "perfil": "divarebel.on",
       "lista": "Infoprodutos",
+      "listId": "901315882685",
       "status": "produtos",
-      "conteudo": "**Cliente Recorrente**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka94)",
+      "conteudo": "**Cliente Recorrente**\n\n📋 **Lista:** Infoprodutos\n🔖 **Status:** produtos\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** produtos, produto\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae9ka94)",
       "tags": [
         "divarebel.on",
         "Infoprodutos",
         "produtos",
         "produto"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882685"
     },
     {
       "id": "clickup-86ae9ka8q",
@@ -2061,15 +2303,17 @@
       "data": "2026-06-10",
       "perfil": "divarebel.on",
       "lista": "Infoprodutos",
+      "listId": "901315882685",
       "status": "produtos",
-      "conteudo": "**Operação Estratégica**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka8q)",
+      "conteudo": "**Operação Estratégica**\n\n📋 **Lista:** Infoprodutos\n🔖 **Status:** produtos\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** produtos, produto\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae9ka8q)",
       "tags": [
         "divarebel.on",
         "Infoprodutos",
         "produtos",
         "produto"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882685"
     },
     {
       "id": "clickup-86ae9ka89",
@@ -2078,15 +2322,17 @@
       "data": "2026-06-10",
       "perfil": "divarebel.on",
       "lista": "Infoprodutos",
+      "listId": "901315882685",
       "status": "produtos",
-      "conteudo": "**Reunião que Vende**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka89)",
+      "conteudo": "**Reunião que Vende**\n\n📋 **Lista:** Infoprodutos\n🔖 **Status:** produtos\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** produtos, produto\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae9ka89)",
       "tags": [
         "divarebel.on",
         "Infoprodutos",
         "produtos",
         "produto"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882685"
     },
     {
       "id": "clickup-86ae9ka7y",
@@ -2095,8 +2341,9 @@
       "data": "2026-06-09",
       "perfil": "divarebel.on",
       "lista": "Infoprodutos",
+      "listId": "901315882685",
       "status": "produtos",
-      "conteudo": "**Reunião Garantida**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka7y)",
+      "conteudo": "**Reunião Garantida**\n\n📋 **Lista:** Infoprodutos\n🔖 **Status:** produtos\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** produtos, produto, lançamento\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae9ka7y)",
       "tags": [
         "divarebel.on",
         "Infoprodutos",
@@ -2104,7 +2351,8 @@
         "produto",
         "lançamento"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901315882685"
     },
     {
       "id": "clickup-86ae84umj",
@@ -2113,15 +2361,17 @@
       "data": "2026-06-09",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "mentiras",
-      "conteudo": "**Mentiras que acreditam (campanha SM)**\n\nStatus: mentiras\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84umj)",
+      "conteudo": "**Mentiras que acreditam (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** mentiras\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** mentiras, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84umj)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "mentiras",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84ur7",
@@ -2130,8 +2380,9 @@
       "data": "2026-06-09",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "necessidade",
-      "conteudo": "**Solução para a persona (campanha SM)**\n\nStatus: necessidade\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ur7)",
+      "conteudo": "**Solução para a persona (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** necessidade\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** necessidade, campanha, persona\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84ur7)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
@@ -2139,7 +2390,8 @@
         "campanha",
         "persona"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84ugp",
@@ -2148,8 +2400,9 @@
       "data": "2026-06-09",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "posicionamento",
-      "conteudo": "**Oponente — posicionamento (campanha SM)**\n\nStatus: posicionamento\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ugp)",
+      "conteudo": "**Oponente — posicionamento (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** posicionamento\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** posicionamento, campanha, posicionamento\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84ugp)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
@@ -2157,7 +2410,8 @@
         "campanha",
         "posicionamento"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uhp",
@@ -2166,15 +2420,17 @@
       "data": "2026-06-09",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "sonho",
-      "conteudo": "**Big Idea (campanha SM)**\n\nStatus: sonho\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uhp)",
+      "conteudo": "**Big Idea (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** sonho\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** sonho, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uhp)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "sonho",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uju",
@@ -2183,8 +2439,9 @@
       "data": "2026-06-08",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "slogan",
-      "conteudo": "**Mensagem da campanha — slogan**\n\nStatus: slogan\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uju)",
+      "conteudo": "**Mensagem da campanha — slogan**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** slogan\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** slogan, campanha, copy\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uju)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
@@ -2192,7 +2449,8 @@
         "campanha",
         "copy"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uk9",
@@ -2201,8 +2459,9 @@
       "data": "2026-06-08",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "choque",
-      "conteudo": "**Frase de impacto (campanha SM)**\n\nStatus: choque\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uk9)",
+      "conteudo": "**Frase de impacto (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** choque\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** choque, campanha, copy\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uk9)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
@@ -2210,7 +2469,8 @@
         "campanha",
         "copy"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uqy",
@@ -2219,8 +2479,9 @@
       "data": "2026-06-08",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "persona",
-      "conteudo": "**Quem é a persona (campanha SM)**\n\nStatus: persona\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uqy)",
+      "conteudo": "**Quem é a persona (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** persona\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** persona, campanha, persona\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uqy)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
@@ -2228,7 +2489,8 @@
         "campanha",
         "persona"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84ug5",
@@ -2237,15 +2499,17 @@
       "data": "2026-06-08",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "futuro feliz",
-      "conteudo": "**Transformação positiva (campanha SM)**\n\nStatus: futuro feliz\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ug5)",
+      "conteudo": "**Transformação positiva (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** futuro feliz\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** futuro feliz, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84ug5)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "futuro feliz",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84un0",
@@ -2254,15 +2518,17 @@
       "data": "2026-06-08",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "futuro triste",
-      "conteudo": "**Transformação negativa (campanha SM)**\n\nStatus: futuro triste\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84un0)",
+      "conteudo": "**Transformação negativa (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** futuro triste\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** futuro triste, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84un0)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "futuro triste",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84ukk",
@@ -2271,15 +2537,17 @@
       "data": "2026-06-07",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "consequência",
-      "conteudo": "**Tortura — consequência (campanha SM)**\n\nStatus: consequência\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ukk)",
+      "conteudo": "**Tortura — consequência (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** consequência\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** consequência, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84ukk)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "consequência",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84ukv",
@@ -2288,15 +2556,17 @@
       "data": "2026-06-07",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "curiosidade",
-      "conteudo": "**Ativação de curiosidade (campanha SM)**\n\nStatus: curiosidade\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ukv)",
+      "conteudo": "**Ativação de curiosidade (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** curiosidade\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** curiosidade, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84ukv)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "curiosidade",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84un8",
@@ -2305,15 +2575,17 @@
       "data": "2026-06-07",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "ângulo",
-      "conteudo": "**Novo ângulo (campanha SM)**\n\nStatus: ângulo\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84un8)",
+      "conteudo": "**Novo ângulo (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** ângulo\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** ângulo, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84un8)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "ângulo",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84unn",
@@ -2322,15 +2594,17 @@
       "data": "2026-06-07",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "seguindo a manada",
-      "conteudo": "**Consequências das mentiras (campanha SM)**\n\nStatus: seguindo a manada\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84unn)",
+      "conteudo": "**Consequências das mentiras (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** seguindo a manada\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** seguindo a manada, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84unn)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "seguindo a manada",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84up8",
@@ -2339,15 +2613,17 @@
       "data": "2026-06-07",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "novidade",
-      "conteudo": "**O que você entrega que é novo para a audiência**\n\nStatus: novidade\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84up8)",
+      "conteudo": "**O que você entrega que é novo para a audiência**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** novidade\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** novidade, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84up8)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "novidade",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uq0",
@@ -2356,15 +2632,17 @@
       "data": "2026-06-06",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "pedra no sapato",
-      "conteudo": "**Dor latejante (campanha SM)**\n\nStatus: pedra no sapato\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uq0)",
+      "conteudo": "**Dor latejante (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** pedra no sapato\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** pedra no sapato, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uq0)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "pedra no sapato",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uqd",
@@ -2373,15 +2651,17 @@
       "data": "2026-06-06",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "ponto a-b",
-      "conteudo": "**Mudança — de onde para onde (campanha SM)**\n\nStatus: ponto a-b\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uqd)",
+      "conteudo": "**Mudança — de onde para onde (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** ponto a-b\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** ponto a-b, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uqd)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "ponto a-b",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uhw",
@@ -2390,15 +2670,17 @@
       "data": "2026-06-06",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "provas",
-      "conteudo": "**Validação (campanha SM)**\n\nStatus: provas\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uhw)",
+      "conteudo": "**Validação (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** provas\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** provas, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uhw)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "provas",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84ujc",
@@ -2407,15 +2689,17 @@
       "data": "2026-06-06",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "protocolo",
-      "conteudo": "**Protocolo — método (campanha SM)**\n\nStatus: protocolo\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ujc)",
+      "conteudo": "**Protocolo — método (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** protocolo\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** protocolo, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84ujc)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "protocolo",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84um7",
@@ -2424,15 +2708,17 @@
       "data": "2026-06-06",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "conclusão",
-      "conteudo": "**Conclusão triste (campanha SM)**\n\nStatus: conclusão\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84um7)",
+      "conteudo": "**Conclusão triste (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** conclusão\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** conclusão, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84um7)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "conclusão",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ae84uh6",
@@ -2441,15 +2727,17 @@
       "data": "2026-06-05",
       "perfil": "divarebel.on",
       "lista": "Central Campanha Social Media",
+      "listId": "901323905877",
       "status": "erro",
-      "conteudo": "**O que fazem de errado (campanha SM)**\n\nStatus: erro\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uh6)",
+      "conteudo": "**O que fazem de errado (campanha SM)**\n\n📋 **Lista:** Central Campanha Social Media\n🔖 **Status:** erro\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** erro, campanha\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae84uh6)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
         "erro",
         "campanha"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901323905877"
     },
     {
       "id": "clickup-86ah1ffda",
@@ -2458,8 +2746,9 @@
       "data": "2026-06-05",
       "perfil": "divarebel.on",
       "lista": "CRM DEVIL CHAT",
+      "listId": "901326921632",
       "status": "não cadastrados",
-      "conteudo": "**@123456789 (CRM Devil Chat)**\n\nStatus: não cadastrados\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah1ffda)",
+      "conteudo": "**@123456789 (CRM Devil Chat)**\n\n📋 **Lista:** CRM DEVIL CHAT\n🔖 **Status:** não cadastrados\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** não cadastrados, CRM, devil chat\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ah1ffda)",
       "tags": [
         "divarebel.on",
         "CRM DEVIL CHAT",
@@ -2467,7 +2756,8 @@
         "CRM",
         "devil chat"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901326921632"
     },
     {
       "id": "clickup-86ah15bzu",
@@ -2476,8 +2766,9 @@
       "data": "2026-06-05",
       "perfil": "divarebel.on",
       "lista": "CRM DEVIL CHAT",
+      "listId": "901326921632",
       "status": "comprou",
-      "conteudo": "**Exemplo — comprou (CRM Devil Chat)**\n\nStatus: comprou\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah15bzu)",
+      "conteudo": "**Exemplo — comprou (CRM Devil Chat)**\n\n📋 **Lista:** CRM DEVIL CHAT\n🔖 **Status:** comprou\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** comprou, CRM, devil chat\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ah15bzu)",
       "tags": [
         "divarebel.on",
         "CRM DEVIL CHAT",
@@ -2485,7 +2776,8 @@
         "CRM",
         "devil chat"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901326921632"
     },
     {
       "id": "clickup-86ah13apk",
@@ -2494,8 +2786,9 @@
       "data": "2026-06-05",
       "perfil": "divarebel.on",
       "lista": "CRM DEVIL CHAT",
+      "listId": "901326921632",
       "status": "comprou",
-      "conteudo": "**Exemplo 2 — comprou (CRM Devil Chat)**\n\nStatus: comprou\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah13apk)",
+      "conteudo": "**Exemplo 2 — comprou (CRM Devil Chat)**\n\n📋 **Lista:** CRM DEVIL CHAT\n🔖 **Status:** comprou\n👤 **Perfil:** @divarebel.on\n🏷️ **Tags:** comprou, CRM, devil chat\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ah13apk)",
       "tags": [
         "divarebel.on",
         "CRM DEVIL CHAT",
@@ -2503,7 +2796,8 @@
         "CRM",
         "devil chat"
       ],
-      "links": []
+      "links": [],
+      "listaNodeId": "lista-901326921632"
     },
     {
       "id": "espaco-oficina",
@@ -2541,7 +2835,7 @@
       "perfil": "oficina_dro",
       "cor": "#db2777",
       "espacoId": "espaco-oficina",
-      "conteudo": "**📣 Marketing**\n\nPasta ClickUp\nEspaço: 🔧 Oficina\nTarefas: 0",
+      "conteudo": "**📣 Marketing**\n\nPasta ClickUp\nEspaço: 🔧 Oficina\nTarefas: 27",
       "tags": [
         "pasta",
         "oficina_dro",
@@ -2557,7 +2851,7 @@
       "perfil": "oficina_dro",
       "cor": "#f59e0b",
       "espacoId": "espaco-oficina",
-      "conteudo": "**💰 Vendas**\n\nPasta ClickUp\nEspaço: 🔧 Oficina\nTarefas: 0",
+      "conteudo": "**💰 Vendas**\n\nPasta ClickUp\nEspaço: 🔧 Oficina\nTarefas: 88",
       "tags": [
         "pasta",
         "oficina_dro",
@@ -2637,7 +2931,7 @@
       "perfil": "divarebel.on",
       "cor": "#f43f5e",
       "espacoId": "espaco-diva",
-      "conteudo": "**📣 Marketing**\n\nPasta ClickUp\nEspaço: 👑 Diva Rebel\nTarefas: 0",
+      "conteudo": "**📣 Marketing**\n\nPasta ClickUp\nEspaço: 👑 Diva Rebel\nTarefas: 29",
       "tags": [
         "pasta",
         "divarebel.on",
@@ -2685,7 +2979,7 @@
       "perfil": "divarebel.on",
       "cor": "#06b6d4",
       "espacoId": "espaco-diva",
-      "conteudo": "**🤖 Devilchat**\n\nPasta ClickUp\nEspaço: 👑 Diva Rebel\nTarefas: 0",
+      "conteudo": "**🤖 Devilchat**\n\nPasta ClickUp\nEspaço: 👑 Diva Rebel\nTarefas: 3",
       "tags": [
         "pasta",
         "divarebel.on",
@@ -2701,7 +2995,7 @@
       "perfil": "oficina_dro",
       "pastaId": "pasta-ofi-marketing",
       "listId": "901316452690",
-      "conteudo": "**Conteúdo**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 0",
+      "conteudo": "**Conteúdo**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 27",
       "tags": [
         "lista",
         "oficina_dro",
@@ -2813,7 +3107,7 @@
       "perfil": "oficina_dro",
       "pastaId": "pasta-ofi-vendas",
       "listId": "901317125138",
-      "conteudo": "**CRM**\n\nLista ClickUp\nPasta: 💰 Vendas\nTarefas carregadas: 0",
+      "conteudo": "**CRM**\n\nLista ClickUp\nPasta: 💰 Vendas\nTarefas carregadas: 88",
       "tags": [
         "lista",
         "oficina_dro",
@@ -3021,7 +3315,7 @@
       "perfil": "divarebel.on",
       "pastaId": "pasta-diva-marketing",
       "listId": "901315882544",
-      "conteudo": "**Conteúdo**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 0",
+      "conteudo": "**Conteúdo**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 5",
       "tags": [
         "lista",
         "divarebel.on",
@@ -3069,7 +3363,7 @@
       "perfil": "divarebel.on",
       "pastaId": "pasta-diva-marketing",
       "listId": "901315882685",
-      "conteudo": "**Infoprodutos**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 0",
+      "conteudo": "**Infoprodutos**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 4",
       "tags": [
         "lista",
         "divarebel.on",
@@ -3085,7 +3379,7 @@
       "perfil": "divarebel.on",
       "pastaId": "pasta-diva-marketing",
       "listId": "901323905877",
-      "conteudo": "**Central Campanha (SM)**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 0",
+      "conteudo": "**Central Campanha (SM)**\n\nLista ClickUp\nPasta: 📣 Marketing\nTarefas carregadas: 20",
       "tags": [
         "lista",
         "divarebel.on",
@@ -3245,7 +3539,7 @@
       "perfil": "divarebel.on",
       "pastaId": "pasta-diva-devilchat",
       "listId": "901326921632",
-      "conteudo": "**CRM DEVIL CHAT**\n\nLista ClickUp\nPasta: 🤖 Devilchat\nTarefas carregadas: 0",
+      "conteudo": "**CRM DEVIL CHAT**\n\nLista ClickUp\nPasta: 🤖 Devilchat\nTarefas carregadas: 3",
       "tags": [
         "lista",
         "divarebel.on",
@@ -4804,7 +5098,7 @@
       "links": []
     },
     {
-      "id": "instagram-1783189752942-lrx5x",
+      "id": "instagram-1783191000495-upg6m",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-04",
@@ -4819,7 +5113,7 @@
       "links": []
     },
     {
-      "id": "content-1783189752943-0mj94",
+      "id": "content-1783191000496-lnms6",
       "type": "content",
       "titulo": "carrossel: carrossel 2026-06-07T16-22-16",
       "data": "2026-06-07",
@@ -4833,7 +5127,7 @@
       "links": []
     },
     {
-      "id": "content-1783189752943-tk839",
+      "id": "content-1783191000497-amybd",
       "type": "content",
       "titulo": "hook: hook 2026-06-07T16-21-09",
       "data": "2026-06-07",
@@ -4847,7 +5141,7 @@
       "links": []
     },
     {
-      "id": "content-1783189752944-pzv7o",
+      "id": "content-1783191000497-nfzld",
       "type": "content",
       "titulo": "roteiro: roteiro-video 2026-06-07T15-55-50",
       "data": "2026-06-07",
@@ -5088,737 +5382,737 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aj92v5g",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aj92ucy",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aj92rf2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246xw",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa9jdnz",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa2470n",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246zq",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246x0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246r1",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246qd",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246w0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246uv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246uc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246ty",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246r0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246nk",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246kc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246yn",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246v2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246rq",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246qt",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246qp",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246q2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa246m2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa9jdpe",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa9jdmp",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901316452690",
       "target": "clickup-86aa9jdn6",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63fh",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqrhk",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq6p8",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqde2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyrrbu",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyrmtv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyrk1w",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyrj9n",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyrhgj",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyrgnj",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqxam",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqvdr",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqknc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqjm7",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqctm",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqc2m",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq4pv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqtte",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahyqua5",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndna",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndp6",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndp5",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndp1",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndp0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndnx",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndnv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndnr",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndnk",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahxndnc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86agjjne9",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86afc8njb",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86aete6fy",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahec88r",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ah61kvc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahec8ac",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86aeebemt",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86aeeaxbg",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86aeebgvt",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqrdp",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqv1z",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqu96",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqt7n",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq6m1",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq6et",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq398",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq353",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq2zv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ec",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqppu",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ef",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63e6",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63eg",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq2tx",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63en",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ek",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpqwxg",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahpq4cv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63gk",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63f1",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63f2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63f0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ew",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ev",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63et",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63eh",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63eb",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63gc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63g3",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63em",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63er",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63e5",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63e4",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ep",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ee",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63e1",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63g9",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63f3",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ge",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ed",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahhykrh",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63gj",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63gd",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63fd",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63fx",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63fw",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ft",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63fq",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-oficina",
+      "source": "lista-901317125138",
       "target": "clickup-86ahm63ex",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882544",
       "target": "clickup-86aj931mx",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882544",
       "target": "clickup-86aj92ycq",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882544",
       "target": "clickup-86aj92xc2",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882544",
       "target": "clickup-86ae85pfr",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882544",
       "target": "clickup-86ae85pfg",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882685",
       "target": "clickup-86ae9ka94",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882685",
       "target": "clickup-86ae9ka8q",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882685",
       "target": "clickup-86ae9ka89",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901315882685",
       "target": "clickup-86ae9ka7y",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84umj",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84ur7",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84ugp",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uhp",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uju",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uk9",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uqy",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84ug5",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84un0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84ukk",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84ukv",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84un8",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84unn",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84up8",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uq0",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uqd",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uhw",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84ujc",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84um7",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901323905877",
       "target": "clickup-86ae84uh6",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901326921632",
       "target": "clickup-86ah1ffda",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901326921632",
       "target": "clickup-86ah15bzu",
       "tipo": "hierarquia"
     },
     {
-      "source": "espaco-diva",
+      "source": "lista-901326921632",
       "target": "clickup-86ah13apk",
       "tipo": "hierarquia"
     },
@@ -6313,22 +6607,22 @@
       "tipo": "setor"
     },
     {
-      "source": "content-1783189752943-0mj94",
+      "source": "content-1783191000496-lnms6",
       "target": "lista-901315882544",
       "tipo": "conteudo"
     },
     {
-      "source": "content-1783189752943-tk839",
+      "source": "content-1783191000497-amybd",
       "target": "lista-901315882544",
       "tipo": "conteudo"
     },
     {
-      "source": "content-1783189752944-pzv7o",
+      "source": "content-1783191000497-nfzld",
       "target": "lista-901315882544",
       "tipo": "conteudo"
     },
     {
-      "source": "instagram-1783189752942-lrx5x",
+      "source": "instagram-1783191000495-upg6m",
       "target": "lista-901315882544",
       "tipo": "conteudo"
     },

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -1056,7 +1056,7 @@ async function refreshData() {
   const btn = document.getElementById('btn-refresh');
   btn.textContent = '↻ Atualizando...';
   try {
-    // GitHub Pages - sem servidor local
+    await fetch('/refresh');
     await loadData();
   } catch(e) { await loadData(); }
   btn.textContent = '↻ Atualizar';
@@ -1072,4 +1072,3 @@ loadData();
 </script>
 </body>
 </html>
-
