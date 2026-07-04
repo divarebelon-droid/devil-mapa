@@ -308,110 +308,15 @@
   }
 
   #btn-refresh:hover { border-color: #444; color: #aaa; }
-
-  /* ── Busca ── */
-  #search-wrap {
-    position: relative;
-  }
-
-  #search-input {
-    background: rgba(30,30,30,0.95);
-    border: 1px solid #333;
-    border-radius: 8px;
-    padding: 6px 12px 6px 32px;
-    font-size: 12px;
-    color: #ccc;
-    width: 220px;
-    outline: none;
-    transition: border-color 0.15s, width 0.2s;
-  }
-
-  #search-input::placeholder { color: #444; }
-  #search-input:focus { border-color: #555; width: 260px; }
-
-  #search-icon {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #444;
-    font-size: 13px;
-    pointer-events: none;
-  }
-
-  #search-results {
-    position: absolute;
-    top: calc(100% + 6px);
-    left: 0;
-    right: 0;
-    background: rgba(18,18,18,0.98);
-    border: 1px solid #333;
-    border-radius: 8px;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
-    overflow: hidden;
-    z-index: 500;
-    display: none;
-    max-height: 360px;
-    overflow-y: auto;
-  }
-
-  #search-results.visible { display: block; }
-
-  .search-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    cursor: pointer;
-    border-bottom: 1px solid #1e1e1e;
-    transition: background 0.1s;
-  }
-
-  .search-item:last-child { border-bottom: none; }
-  .search-item:hover { background: rgba(255,255,255,0.04); }
-
-  .search-item-dot {
-    width: 8px; height: 8px;
-    border-radius: 2px;
-    flex-shrink: 0;
-  }
-
-  .search-item-title {
-    font-size: 12px;
-    color: #bbb;
-    flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .search-item-type {
-    font-size: 10px;
-    color: #444;
-    flex-shrink: 0;
-  }
-
-  .search-empty {
-    padding: 14px;
-    font-size: 12px;
-    color: #444;
-    text-align: center;
-  }
 </style>
 </head>
 <body>
 
 <!-- Header -->
 <div id="header">
-  <span class="logo">Diva Rebel.On</span>
+  <span class="logo">Devil</span>
   <span class="separator">|</span>
   <span class="subtitle">Grafo de Conhecimento</span>
-  <div id="search-wrap">
-    <span id="search-icon">⌕</span>
-    <input id="search-input" type="text" placeholder="Buscar por nome, tema, cliente…" autocomplete="off"
-      oninput="onSearch(this.value)" onfocus="onSearchFocus()" onblur="onSearchBlur()">
-    <div id="search-results"></div>
-  </div>
   <div class="stats">
     <div class="stat-item"><span id="stat-nodes">0</span> eventos</div>
     <div class="stat-item"><span id="stat-links">0</span> conexões</div>
@@ -425,24 +330,32 @@
     <div class="filter-dot" style="background:#555;border-radius:50%"></div>
     Todos
   </div>
+  <div class="filter-btn active" data-type="espaco" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#a855f7;border-radius:3px"></div>
+    Espaços
+  </div>
+  <div class="filter-btn active" data-type="pasta" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#f59e0b;border-radius:3px"></div>
+    Pastas
+  </div>
+  <div class="filter-btn active" data-type="lista" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#38bdf8;border-radius:3px"></div>
+    Listas
+  </div>
   <div class="filter-btn active" data-type="meeting" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#9b59b6"></div>
+    <div class="filter-dot" style="background:#bf5af2"></div>
     Reuniões
   </div>
-  <div class="filter-btn active" data-type="instagram" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#e1306c"></div>
-    Instagram
-  </div>
   <div class="filter-btn active" data-type="whatsapp" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#25d366"></div>
+    <div class="filter-dot" style="background:#30d158"></div>
     WhatsApp
   </div>
   <div class="filter-btn active" data-type="clickup" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#7b68ee"></div>
+    <div class="filter-dot" style="background:#6e6bfa"></div>
     ClickUp
   </div>
   <div class="filter-btn active" data-type="content" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#f39c12"></div>
+    <div class="filter-dot" style="background:#ff9f0a"></div>
     Conteúdo
   </div>
 </div>
@@ -474,49 +387,71 @@
 </div>
 
 <!-- Refresh -->
-<button id="btn-refresh" onclick="refreshData()">↻ Recarregar</button>
-<div style="position:fixed;bottom:12px;left:50%;transform:translateX(-50%);font-size:10px;color:#333;letter-spacing:1px;z-index:10">DEVIL MAPA — CENTRO DE COMANDO IA</div>
+<button id="btn-refresh" onclick="refreshData()">↻ Atualizar</button>
 
 <script>
+// ── Posições fixas dos espaços (Oficina esquerda, Diva Rebel direita) ──
+const ESPACO_POSICAO = {
+  'espaco-oficina': { fxRatio: 0.22 },
+  'espaco-diva':    { fxRatio: 0.78 },
+};
+
 // ── Configuração de cores e ícones por tipo ─────────────────────────
 const TIPOS = {
+  espaco: {
+    cor: '#a855f7',  // será sobrescrito por n.cor
+    bgPanel: 'rgba(168,85,247,0.18)',
+    label: 'Espaço',
+    radius: 48,
+    icon: (size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>`,
+  },
+  pasta: {
+    cor: '#f59e0b',
+    bgPanel: 'rgba(245,158,11,0.15)',
+    label: 'Pasta',
+    radius: 28,
+    icon: (size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>`,
+  },
+  lista: {
+    cor: '#38bdf8',
+    bgPanel: 'rgba(56,189,248,0.12)',
+    label: 'Lista',
+    radius: 18,
+    icon: (size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="3" cy="6" r="1" fill="white"/><circle cx="3" cy="12" r="1" fill="white"/><circle cx="3" cy="18" r="1" fill="white"/></svg>`,
+  },
   meeting: {
-    cor: '#9b59b6',
-    bgPanel: 'rgba(155,89,182,0.15)',
+    cor: '#bf5af2',
+    bgPanel: 'rgba(191,90,242,0.15)',
     label: 'Reunião',
-    radius: 22,
-    svg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
-      <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
-    </svg>`,
+    radius: 16,
     icon: (size) => iconMeeting(size),
   },
   instagram: {
-    cor: '#e1306c',
-    bgPanel: 'rgba(225,48,108,0.12)',
+    cor: '#ff375f',
+    bgPanel: 'rgba(255,55,95,0.12)',
     label: 'Instagram',
-    radius: 20,
+    radius: 14,
     icon: (size) => iconInstagram(size),
   },
   whatsapp: {
-    cor: '#25d366',
-    bgPanel: 'rgba(37,211,102,0.1)',
+    cor: '#30d158',
+    bgPanel: 'rgba(48,209,88,0.1)',
     label: 'WhatsApp',
-    radius: 18,
+    radius: 13,
     icon: (size) => iconWhatsApp(size),
   },
   clickup: {
-    cor: '#7b68ee',
-    bgPanel: 'rgba(123,104,238,0.12)',
+    cor: '#6e6bfa',
+    bgPanel: 'rgba(110,107,250,0.12)',
     label: 'ClickUp',
-    radius: 19,
+    radius: 11,
     icon: (size) => iconClickUp(size),
   },
   content: {
-    cor: '#f39c12',
-    bgPanel: 'rgba(243,156,18,0.1)',
+    cor: '#ff9f0a',
+    bgPanel: 'rgba(255,159,10,0.1)',
     label: 'Conteúdo',
-    radius: 17,
+    radius: 12,
     icon: (size) => iconContent(size),
   },
 };
@@ -559,8 +494,8 @@ function iconContent(s) {
 
 // ── Estado ───────────────────────────────────────────────────────────
 let allNodes = [], allLinks = [];
-let activeFilters = new Set(['meeting','instagram','whatsapp','clickup','content']);
-let simulation, svgEl, linkSel, nodeSel, zoomBehavior;
+let activeFilters = new Set(['espaco','pasta','lista','meeting','instagram','whatsapp','clickup','content']);
+let simulation, svgEl, linkSel, nodeSel;
 
 // ── Carregar dados ───────────────────────────────────────────────────
 async function loadData() {
@@ -658,10 +593,10 @@ function renderGraph() {
   // Container com zoom
   const container = svg.append('g').attr('id','container');
 
-  zoomBehavior = d3.zoom()
+  svg.call(d3.zoom()
     .scaleExtent([0.15, 4])
-    .on('zoom', e => container.attr('transform', e.transform));
-  svg.call(zoomBehavior);
+    .on('zoom', e => container.attr('transform', e.transform))
+  );
 
   // Prepara links (deep copy para não mutar allLinks)
   const nodes = allNodes.map(d => ({...d}));
@@ -670,155 +605,177 @@ function renderGraph() {
     .filter(l => nodeById.has(l.source) && nodeById.has(l.target))
     .map(l => ({...l, source: l.source, target: l.target}));
 
-  // Posição de cluster por perfil + tipo (layout duas empresas)
-  function clusterPos(d) {
-    const isOficina = d.perfil === 'oficina_dro' || (d.type === 'whatsapp' && d.status === 'followup');
-    if (d.type === 'meeting')    return isOficina ? { x:0.20, y:0.30 } : { x:0.80, y:0.30 };
-    if (d.type === 'clickup')    return isOficina ? { x:0.22, y:0.60 } : { x:0.78, y:0.60 };
-    if (d.type === 'whatsapp')   return d.status === 'followup' ? { x:0.12, y:0.72 } : { x:0.88, y:0.72 };
-    if (d.type === 'instagram')  return { x:0.50, y:0.82 };
-    if (d.type === 'content')    return { x:0.50, y:0.35 };
-    return { x:0.50, y:0.50 };
+  // Mapas de hierarquia para forças de clustering
+  const nodeById2 = new Map(nodes.map(n => [n.id, n]));
+
+  // Pai imediato de cada nó (para força de atração)
+  const parentOf = new Map();
+  links.forEach(l => {
+    const src = typeof l.source === 'object' ? l.source.id : l.source;
+    const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+    if (l.tipo === 'hierarquia') {
+      // src é o pai, tgt é o filho
+      const srcNode = nodeById2.get(src);
+      const tgtNode = nodeById2.get(tgt);
+      if (srcNode && tgtNode) {
+        const nivelPai = ['espaco','pasta','lista'].indexOf(srcNode.type);
+        const nivelFilho = ['espaco','pasta','lista','clickup','meeting','whatsapp','content','instagram'].indexOf(tgtNode.type);
+        if (nivelPai >= 0 && nivelFilho > nivelPai) parentOf.set(tgt, src);
+        else parentOf.set(src, tgt); // fallback: o menor é filho
+      }
+    }
+  });
+
+  // Fixar espaços à esquerda e direita
+  nodes.forEach(n => {
+    if (n.type === 'espaco') {
+      const pos = ESPACO_POSICAO[n.id];
+      if (pos) {
+        n.fx = W * pos.fxRatio;
+        n.fy = H / 2;
+        n.x  = n.fx;
+        n.y  = n.fy;
+      }
+    } else {
+      delete n.fx; delete n.fy;
+    }
+  });
+
+  // Posição inicial: cada nó nasce perto do seu pai
+  nodes.forEach(n => {
+    if (n.x && n.y) return;
+    const paiId = parentOf.get(n.id);
+    const pai = paiId && nodeById2.get(paiId);
+    if (pai && pai.x) {
+      const angle = Math.random() * 2 * Math.PI;
+      const r = TIPOS[pai.type]?.radius || 30;
+      n.x = pai.x + Math.cos(angle) * (r + 40 + Math.random() * 60);
+      n.y = pai.y + Math.sin(angle) * (r + 40 + Math.random() * 60);
+    } else {
+      n.x = W / 2 + (Math.random() - 0.5) * 400;
+      n.y = H / 2 + (Math.random() - 0.5) * 300;
+    }
+  });
+
+  // Força de clustering: cada nó é puxado para o seu pai
+  function forceCluster() {
+    const forcaPorNivel = { pasta: 0.20, lista: 0.18, clickup: 0.15,
+                            meeting: 0.08, whatsapp: 0.08, content: 0.08, instagram: 0.08 };
+    return function(alpha) {
+      nodes.forEach(n => {
+        if (n.type === 'espaco') return;
+        const paiId = parentOf.get(n.id);
+        const pai = paiId && nodeById2.get(paiId);
+        if (!pai) return;
+        const k = (forcaPorNivel[n.type] || 0.10) * alpha;
+        n.vx += (pai.x - n.x) * k;
+        n.vy += (pai.y - n.y) * k;
+      });
+    };
+  }
+
+  // Separador vertical: empurra nós da Oficina para a esquerda e Diva para direita
+  function forceLado() {
+    return function(alpha) {
+      const midX = W / 2;
+      nodes.forEach(n => {
+        if (n.type === 'espaco') return;
+        // Determinar lado pelo perfil
+        const isOfi = n.perfil === 'oficina_dro' || (n.id && n.id.includes('ofi'));
+        const alvo = isOfi ? W * 0.22 : W * 0.78;
+        n.vx += (alvo - n.x) * 0.015 * alpha;
+      });
+    };
   }
 
   // Força
   simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(90).strength(0.4))
-    .force('charge', d3.forceManyBody().strength(-200))
-    .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius || 18) + 12))
-    .force('cluster-x', d3.forceX(d => W * (clusterPos(d).x)).strength(0.16))
-    .force('cluster-y', d3.forceY(d => H * (clusterPos(d).y)).strength(0.16));
+    .force('link', d3.forceLink(links).id(d => d.id)
+      .distance(d => {
+        const s = nodeById2.get(typeof d.source==='object'?d.source.id:d.source);
+        const t = nodeById2.get(typeof d.target==='object'?d.target.id:d.target);
+        if (!s || !t) return 80;
+        if (s.type==='espaco'||t.type==='espaco') return 110;
+        if (s.type==='pasta'||t.type==='pasta') return 80;
+        if (s.type==='lista'||t.type==='lista') return 60;
+        return 50;
+      })
+      .strength(d => d.tipo==='hierarquia' ? 0.6 : 0.2))
+    .force('charge', d3.forceManyBody().strength(d => {
+      if (d.type==='espaco') return -800;
+      if (d.type==='pasta')  return -300;
+      if (d.type==='lista')  return -150;
+      return -60;
+    }))
+    .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius||11) + (
+      d.type==='espaco' ? 55 : d.type==='pasta' ? 30 : d.type==='lista' ? 20 : 10
+    )))
+    .force('cluster', forceCluster())
+    .force('lado', forceLado())
+    .force('center', d3.forceCenter(W/2, H/2).strength(0.01));
 
-  // ── Zonas de empresa (fundo) ──────────────────────────────────────
-  const zonaG = container.append('g').attr('class','zonas');
-
-  // Zona Oficina Dro (esquerda)
-  zonaG.append('rect')
-    .attr('x', 0).attr('y', 0)
-    .attr('width', W * 0.47).attr('height', H)
-    .attr('fill', '#c0392b05')
-    .attr('stroke', '#c0392b12').attr('stroke-width', 1);
-
-  // Separador central
-  zonaG.append('line')
-    .attr('x1', W*0.5).attr('y1', 50)
-    .attr('x2', W*0.5).attr('y2', H)
-    .attr('stroke', '#ffffff08').attr('stroke-width', 1)
-    .attr('stroke-dasharray', '6 8');
-
-  // Zona Diva Rebel (direita)
-  zonaG.append('rect')
-    .attr('x', W * 0.53).attr('y', 0)
-    .attr('width', W * 0.47).attr('height', H)
-    .attr('fill', '#9b59b605')
-    .attr('stroke', '#9b59b612').attr('stroke-width', 1);
-
-  // Labels das empresas
-  zonaG.append('text')
-    .attr('x', W * 0.23).attr('y', 80)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#c0392b40')
-    .attr('font-size', '13px')
-    .attr('letter-spacing', '4px')
-    .attr('font-weight', '700')
-    .text('OFICINA DRO');
-
-  zonaG.append('text')
-    .attr('x', W * 0.23).attr('y', 96)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#c0392b28')
-    .attr('font-size', '10px')
-    .attr('letter-spacing', '2px')
-    .text('clientes · nutricionistas');
-
-  zonaG.append('text')
-    .attr('x', W * 0.77).attr('y', 80)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#9b59b640')
-    .attr('font-size', '13px')
-    .attr('letter-spacing', '4px')
-    .attr('font-weight', '700')
-    .text('DIVA REBEL');
-
-  zonaG.append('text')
-    .attr('x', W * 0.77).attr('y', 96)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#9b59b628')
-    .attr('font-size', '10px')
-    .attr('letter-spacing', '2px')
-    .text('social medias · educação');
-
-  // ── Rótulos de sub-setor (círculos tracejados) ────────────────────
-  const SETOR_LABELS = [
-    // OFICINA
-    { type:'meeting',   label:'Reuniões',    x:0.20, y:0.30 },
-    { type:'clickup',   label:'ClickUp',     x:0.22, y:0.60 },
-    { type:'whatsapp',  label:'Atendimento', x:0.12, y:0.72 },
-    // DIVA REBEL
-    { type:'meeting',   label:'Aulas',       x:0.80, y:0.30 },
-    { type:'clickup',   label:'ClickUp',     x:0.78, y:0.60 },
-    { type:'whatsapp',  label:'Prospecção',  x:0.88, y:0.72 },
-    // CENTRO
-    { type:'instagram', label:'Instagram',   x:0.50, y:0.82 },
-  ];
-
-  const setorG = container.append('g').attr('class','setores');
-  SETOR_LABELS.forEach(s => {
-    const cfg = TIPOS[s.type];
-    setorG.append('circle')
-      .attr('cx', W * s.x).attr('cy', H * s.y)
-      .attr('r', 90)
-      .attr('fill', (cfg?.cor || '#555') + '07')
-      .attr('stroke', (cfg?.cor || '#555') + '20')
-      .attr('stroke-width', 1)
-      .attr('stroke-dasharray', '4 5');
-    setorG.append('text')
-      .attr('x', W * s.x).attr('y', H * s.y - 76)
-      .attr('text-anchor', 'middle')
-      .attr('fill', (cfg?.cor || '#555') + '50')
-      .attr('font-size', '10px')
-      .attr('letter-spacing', '2px')
-      .attr('font-weight', '600')
-      .text(s.label.toUpperCase());
-  });
-
-  // Links — cor por tipo
-  const COR_LINK = { pessoa: '#4a4a4a', sequencia: '#3a3a6a', conteudo: '#5a4a2a' };
-
+  // Links
   linkSel = container.append('g').selectAll('.link')
     .data(links).join('line')
-    .attr('class','link')
-    .attr('stroke', d => COR_LINK[d.tipo] || '#2a2a2a');
+    .attr('class','link');
 
   // Nós
   const nodeGroups = container.append('g').selectAll('.node-group')
     .data(nodes).join('g')
     .attr('class','node-group')
     .call(d3.drag()
+      .filter(d => d.type !== 'espaco')  // espaços são fixos
       .on('start', (e,d) => { if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
       .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
-      .on('end',   (e,d) => { if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; })
+      .on('end',   (e,d) => {
+        if(!e.active) simulation.alphaTarget(0);
+        // espaços sempre voltam à posição fixa
+        const pos = ESPACO_POSICAO[d.id];
+        if (pos) { d.fx = W * pos.fxRatio; d.fy = H/2; }
+        else { d.fx=null; d.fy=null; }
+      })
     )
-    .on('click', (e, d) => { e.stopPropagation(); openPanel(d); highlightNode(d); })
+    .on('click', (e, d) => { e.stopPropagation(); openPanel(d); highlightNode(d, links, nodeGroups); })
     .on('mouseenter', (e, d) => showTooltip(e, d))
     .on('mousemove',  (e) => moveTooltip(e))
     .on('mouseleave', () => hideTooltip());
 
   nodeSel = nodeGroups;
 
+  // Cor real do nó (usa cor individual se disponível)
+  function nodeCor(d) {
+    if (d.cor) return d.cor;
+    if (d.type === 'instagram') return 'url(#grad-instagram)';
+    return TIPOS[d.type]?.cor || '#666';
+  }
+
+  // Anel externo para espaços e pastas
+  nodeGroups.filter(d => d.type === 'espaco' || d.type === 'pasta').append('circle')
+    .attr('r', d => (TIPOS[d.type]?.radius || 28) + (d.type === 'espaco' ? 18 : 10))
+    .attr('fill', 'none')
+    .attr('stroke', d => nodeCor(d))
+    .attr('stroke-width', d => d.type === 'espaco' ? 3 : 2)
+    .attr('stroke-dasharray', d => d.type === 'espaco' ? '8 5' : '5 4')
+    .attr('opacity', 0.45)
+    .attr('class', 'hub-ring');
+
   // Círculo de fundo (glow)
   nodeGroups.append('circle')
-    .attr('r', d => (TIPOS[d.type]?.radius || 18) + 6)
-    .attr('fill', d => (TIPOS[d.type]?.cor || '#666') + '18')
+    .attr('r', d => {
+      const r = TIPOS[d.type]?.radius || 11;
+      return r + (d.type==='espaco' ? 16 : d.type==='pasta' ? 10 : d.type==='lista' ? 6 : 4);
+    })
+    .attr('fill', d => nodeCor(d) + (d.type==='espaco'?'35':d.type==='pasta'?'28':'18'))
     .attr('class', 'node-glow');
 
   // Círculo principal
   nodeGroups.append('circle')
     .attr('class', 'node-circle')
-    .attr('r', d => TIPOS[d.type]?.radius || 18)
-    .attr('fill', d => d.type === 'instagram' ? 'url(#grad-instagram)' : (TIPOS[d.type]?.cor || '#666'))
-    .attr('stroke', '#0e0e0e')
-    .attr('stroke-width', 2);
+    .attr('r', d => TIPOS[d.type]?.radius || 11)
+    .attr('fill', d => nodeCor(d))
+    .attr('stroke', d => ['espaco','pasta'].includes(d.type) ? '#fff' : '#0e0e0e')
+    .attr('stroke-width', d => d.type==='espaco' ? 3 : d.type==='pasta' ? 2.5 : 1.5)
+    .attr('filter', d => ['espaco','pasta'].includes(d.type) ? `url(#glow-${d.type})` : null);
 
   // Ícone SVG via foreignObject
   nodeGroups.each(function(d) {
@@ -843,11 +800,17 @@ function renderGraph() {
     if (iconFn) div.html(iconFn(iconSize * 0.7));
   });
 
-  // Label abaixo do nó (WhatsApp sem nome por privacidade)
+  // Label abaixo do nó
   nodeGroups.append('text')
     .attr('class','node-label')
-    .attr('y', d => (TIPOS[d.type]?.radius || 18) + 12)
-    .text(d => d.type === 'whatsapp' ? '' : truncate(d.titulo, 22));
+    .attr('y', d => {
+      const r = TIPOS[d.type]?.radius || 11;
+      return r + (d.type==='espaco' ? 20 : d.type==='pasta' ? 14 : d.type==='lista' ? 12 : 10);
+    })
+    .style('font-size', d => d.type==='espaco' ? '14px' : d.type==='pasta' ? '12px' : d.type==='lista' ? '11px' : null)
+    .style('font-weight', d => ['espaco','pasta'].includes(d.type) ? '700' : d.type==='lista' ? '600' : null)
+    .style('fill', d => d.cor || null)
+    .text(d => ['espaco','pasta'].includes(d.type) ? truncate(d.titulo, 30) : truncate(d.titulo, 22));
 
   // Hover: cresce
   nodeGroups
@@ -875,7 +838,7 @@ function renderGraph() {
     });
 
   // Clique no fundo: deseleciona
-  svg.on('click', () => { closePanel(); clearHighlight(); });
+  svg.on('click', () => { closePanel(); clearHighlight(nodeGroups); });
 
   // Tick
   simulation.on('tick', () => {
@@ -889,9 +852,7 @@ function renderGraph() {
 }
 
 // ── Highlight ao clicar ──────────────────────────────────────────────
-function highlightNode(selected) {
-  if (!nodeSel || !linkSel) return;
-  const links = linkSel.data();
+function highlightNode(selected, links, nodeGroups) {
   const connectedIds = new Set([selected.id]);
   links.forEach(l => {
     const s = typeof l.source === 'object' ? l.source.id : l.source;
@@ -900,7 +861,7 @@ function highlightNode(selected) {
     if (t === selected.id) connectedIds.add(s);
   });
 
-  nodeSel.attr('opacity', d => connectedIds.has(d.id) ? 1 : 0.2);
+  nodeGroups.attr('opacity', d => connectedIds.has(d.id) ? 1 : 0.2);
 
   linkSel.classed('highlighted', d => {
     const s = typeof d.source === 'object' ? d.source.id : d.source;
@@ -913,9 +874,8 @@ function highlightNode(selected) {
   });
 }
 
-function clearHighlight() {
-  if (!nodeSel || !linkSel) return;
-  nodeSel.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
+function clearHighlight(nodeGroups) {
+  nodeGroups.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
   linkSel.classed('highlighted', false).attr('stroke-opacity', 0.6);
 }
 
@@ -927,11 +887,7 @@ function openPanel(d) {
   document.getElementById('panel-icon').style.background = cfg.bgPanel;
   document.getElementById('panel-icon').style.color = cfg.cor;
 
-  // WhatsApp: título genérico no header do painel (nome fica no corpo)
-  const panelTitle = d.type === 'whatsapp'
-    ? `WhatsApp ${d.status === 'followup' ? 'Follow-up' : 'Prospecção'}`
-    : d.titulo;
-  document.getElementById('panel-title').textContent = panelTitle;
+  document.getElementById('panel-title').textContent = d.titulo;
   document.getElementById('panel-type').textContent = cfg.label;
   document.getElementById('panel-date').textContent = formatDate(d.data);
 
@@ -999,11 +955,7 @@ function closePanel() {
 function showTooltip(e, d) {
   const tt = document.getElementById('tooltip');
   const cfg = TIPOS[d.type] || { label:'Evento' };
-  // WhatsApp: não expõe nome no hover — só o tipo e data
-  const nome = d.type === 'whatsapp'
-    ? `<br><span style="color:#444">${d.status === 'followup' ? 'Follow-up' : 'Prospecção'} · ${d.data}</span>`
-    : `<br>${d.titulo}`;
-  tt.innerHTML = `<strong style="color:${cfg.cor}">${cfg.label}</strong>${nome}`;
+  tt.innerHTML = `<strong style="color:${cfg.cor}">${cfg.label}</strong><br>${d.titulo}`;
   tt.style.display = 'block';
   moveTooltip(e);
 }
@@ -1101,81 +1053,13 @@ function formatInline(text) {
 }
 
 async function refreshData() {
-  window.location.reload();
-}
-
-// ── Busca ────────────────────────────────────────────────────────────
-let searchBlurTimer = null;
-
-function onSearch(query) {
-  const box = document.getElementById('search-results');
-  const q = query.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  if (q.length < 2) { box.classList.remove('visible'); box.innerHTML = ''; return; }
-
-  // Busca em titulo, conteudo e tags de todos os nós
-  const matches = allNodes.filter(n => {
-    const haystack = [
-      n.titulo,
-      n.conteudo,
-      ...(n.tags || []),
-    ].join(' ').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-    return haystack.includes(q);
-  }).slice(0, 20);
-
-  if (matches.length === 0) {
-    box.innerHTML = `<div class="search-empty">Nenhum resultado para "${query}"</div>`;
-  } else {
-    box.innerHTML = matches.map(n => {
-      const cfg = TIPOS[n.type] || { cor:'#555', label:'—' };
-      // Label de exibição: WhatsApp mostra data em vez de nome
-      const displayTitle = n.type === 'whatsapp'
-        ? `WhatsApp ${n.status === 'followup' ? 'Follow-up' : 'Prospecção'} · ${n.data}`
-        : n.titulo;
-      return `<div class="search-item" onmousedown="focusNode('${n.id}')">
-        <div class="search-item-dot" style="background:${cfg.cor}"></div>
-        <div class="search-item-title">${displayTitle}</div>
-        <div class="search-item-type">${cfg.label}</div>
-      </div>`;
-    }).join('');
-  }
-
-  box.classList.add('visible');
-}
-
-function onSearchFocus() {
-  clearTimeout(searchBlurTimer);
-  const q = document.getElementById('search-input').value;
-  if (q.trim().length >= 2) document.getElementById('search-results').classList.add('visible');
-}
-
-function onSearchBlur() {
-  // Pequeno delay para permitir o clique no resultado antes de fechar
-  searchBlurTimer = setTimeout(() => {
-    document.getElementById('search-results').classList.remove('visible');
-  }, 200);
-}
-
-function focusNode(id) {
-  const nodeData = allNodes.find(n => n.id === id);
-  if (!nodeData || !simulation || !zoomBehavior) return;
-
-  // Fecha busca
-  document.getElementById('search-results').classList.remove('visible');
-  document.getElementById('search-input').value = '';
-
-  // Posição atual no grafo
-  const simNode = simulation.nodes().find(n => n.id === id);
-  if (simNode) {
-    const W = window.innerWidth, H = window.innerHeight;
-    const scale = 2;
-    const tx = W / 2 - scale * simNode.x;
-    const ty = H / 2 - scale * simNode.y;
-    d3.select('#svg').transition().duration(700)
-      .call(zoomBehavior.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-  }
-
-  openPanel(nodeData);
-  highlightNode(nodeData);
+  const btn = document.getElementById('btn-refresh');
+  btn.textContent = '↻ Atualizando...';
+  try {
+    // GitHub Pages - sem servidor local
+    await loadData();
+  } catch(e) { await loadData(); }
+  btn.textContent = '↻ Atualizar';
 }
 
 // Redimensionar
