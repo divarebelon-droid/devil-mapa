@@ -4,16 +4,428 @@
   "totalLinks": 115,
   "nodes": [
     {
+      "id": "clickup-86aa9jdn6",
+      "type": "clickup",
+      "titulo": "Narrativa: Eu não sabia disso(Curiosidade) [Visita no perfil]",
+      "data": "2025-07-24",
+      "perfil": "oficina_dro",
+      "status": "ideias",
+      "conteudo": "**Narrativa: Eu não sabia disso(Curiosidade) [Visita no perfil]**\n\nStatus: ideias\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdn6)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "ideias",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jdmp",
+      "type": "clickup",
+      "titulo": "Narrativa: Nossa, ela é a melhor nisso (inspiração) [verem que você é a pessoa ideal para guia-la]",
+      "data": "2025-07-24",
+      "perfil": "oficina_dro",
+      "status": "ideias",
+      "conteudo": "**Narrativa: Nossa, ela é a melhor nisso (inspiração) [verem que você é a pessoa ideal para guia-la]**\n\nStatus: ideias\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdmp)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "ideias",
+        "decisão"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jdpe",
+      "type": "clickup",
+      "titulo": "Narrativa: Pra mim deu, quero evoluir para melhor (raiva do presente) [decidirem escolher seu produto ou serviço] ",
+      "data": "2025-07-24",
+      "perfil": "oficina_dro",
+      "status": "ideias",
+      "conteudo": "**Narrativa: Pra mim deu, quero evoluir para melhor (raiva do presente) [decidirem escolher seu produto ou serviço] **\n\nStatus: ideias\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdpe)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "ideias",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246yn",
+      "type": "clickup",
+      "titulo": "Sequência : Essa é a boa",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência : Essa é a boa**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246yn)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246v2",
+      "type": "clickup",
+      "titulo": "Sequência: Tirando o doce da criança ",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Tirando o doce da criança **\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246v2)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246rq",
+      "type": "clickup",
+      "titulo": "Sequência: Tchau papa-léguas",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Tchau papa-léguas**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246rq)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246qt",
+      "type": "clickup",
+      "titulo": "Sequência: Antecede engajamento",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Antecede engajamento**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246qt)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246qp",
+      "type": "clickup",
+      "titulo": "Sequência: Hater amigo",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Hater amigo**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246qp)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246q2",
+      "type": "clickup",
+      "titulo": "Sequência: Finde estratégico",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Finde estratégico**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246q2)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246m2",
+      "type": "clickup",
+      "titulo": "Sequência: Identificação com autoridade",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Identificação com autoridade**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246m2)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246w0",
+      "type": "clickup",
+      "titulo": "Sequência: Engaja post",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Engaja post**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246w0)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246uv",
+      "type": "clickup",
+      "titulo": "Sequência Esfrega na cara",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência Esfrega na cara**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246uv)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246uc",
+      "type": "clickup",
+      "titulo": "Sequência: 3 portas",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: 3 portas**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246uc)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246ty",
+      "type": "clickup",
+      "titulo": "Sequência: Reforço de posicionamento",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Reforço de posicionamento**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246ty)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246r0",
+      "type": "clickup",
+      "titulo": "Sequência fidelização",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência fidelização**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246r0)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246nk",
+      "type": "clickup",
+      "titulo": "Sequência: Roubo de autoridade",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Roubo de autoridade**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246nk)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246kc",
+      "type": "clickup",
+      "titulo": "Sequência: Reconhecimento do erro",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência: Reconhecimento do erro**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246kc)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa2470n",
+      "type": "clickup",
+      "titulo": "Sequência Choque de realidade",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência Choque de realidade**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa2470n)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246zq",
+      "type": "clickup",
+      "titulo": "Sequência da preguiça ",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência da preguiça **\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246zq)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246x0",
+      "type": "clickup",
+      "titulo": "Sequência Apresentação de erro",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência Apresentação de erro**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246x0)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246r1",
+      "type": "clickup",
+      "titulo": "Sequência engajamento duplo",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência engajamento duplo**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246r1)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246qd",
+      "type": "clickup",
+      "titulo": "Sequência Bate papo\n",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "sequências",
+      "conteudo": "**Sequência Bate papo\n**\n\nStatus: sequências\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246qd)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "sequências"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jdnz",
+      "type": "clickup",
+      "titulo": "Narrativa: Acho que isso pode me ajudar (identificação) [encontrarem o que vendo]",
+      "data": "2025-12-23",
+      "perfil": "oficina_dro",
+      "status": "ideias",
+      "conteudo": "**Narrativa: Acho que isso pode me ajudar (identificação) [encontrarem o que vendo]**\n\nStatus: ideias\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jdnz)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "ideias",
+        "consideração "
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa246xw",
+      "type": "clickup",
+      "titulo": "🔑 FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE",
+      "data": "2026-03-13",
+      "perfil": "oficina_dro",
+      "status": "ideias",
+      "conteudo": "**🔑 FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE**\n\nStatus: ideias\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa246xw)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "ideias"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939ar",
+      "type": "clickup",
+      "titulo": "Stories sexta",
+      "data": "2026-06-28",
+      "perfil": "oficina_dro",
+      "status": "aprovado",
+      "conteudo": "**Stories sexta**\n\nStatus: aprovado\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ar)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "aprovado",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939am",
+      "type": "clickup",
+      "titulo": "Stories quinta",
+      "data": "2026-06-28",
+      "perfil": "oficina_dro",
+      "status": "aprovado",
+      "conteudo": "**Stories quinta**\n\nStatus: aprovado\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939am)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "aprovado",
+        "acompanhar"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939ah",
+      "type": "clickup",
+      "titulo": "Stories quarta",
+      "data": "2026-06-28",
+      "perfil": "oficina_dro",
+      "status": "aprovado",
+      "conteudo": "**Stories quarta**\n\nStatus: aprovado\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ah)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "aprovado",
+        "consideração "
+      ],
+      "links": []
+    },
+    {
       "id": "clickup-86aj92v5g",
       "type": "clickup",
       "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "status": "revisão texto",
-      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\nStatus: revisão texto\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
+      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
       "tags": [
         "oficina_dro",
-        "Conteúdo",
+        "Conteúdo Oficina",
         "revisão texto",
         "descoberta"
       ],
@@ -26,12 +438,44 @@
       "data": "2026-07-04",
       "perfil": "oficina_dro",
       "status": "revisão texto",
-      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nStatus: revisão texto\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
+      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
       "tags": [
         "oficina_dro",
-        "Conteúdo",
+        "Conteúdo Oficina",
         "revisão texto",
-        "consideração"
+        "consideração "
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939a7",
+      "type": "clickup",
+      "titulo": "Stories segunda",
+      "data": "2026-06-29",
+      "perfil": "oficina_dro",
+      "status": "em análise",
+      "conteudo": "**Stories segunda**\n\nStatus: em análise\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939a7)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "em análise",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939ac",
+      "type": "clickup",
+      "titulo": "Stories terça",
+      "data": "2026-06-30",
+      "perfil": "oficina_dro",
+      "status": "em análise",
+      "conteudo": "**Stories terça**\n\nStatus: em análise\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ac)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "em análise",
+        "acompanhar"
       ],
       "links": []
     },
@@ -41,18 +485,1608 @@
       "titulo": "Trend ou agenda cheia de pacientes? O erro que muitas nutricionistas estão cometendo durante a Copa",
       "data": "2026-07-04",
       "perfil": "oficina_dro",
-      "status": "revisão texto",
-      "conteudo": "**Trend ou agenda cheia de pacientes? O erro que muitas nutricionistas estão cometendo durante a Copa**\n\nStatus: revisão texto\nLista: Conteúdo\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92rf2)",
+      "status": "em análise",
+      "conteudo": "**Trend ou agenda cheia de pacientes?\nO erro que muitas nutricionistas estão cometendo durante a Copa →**\n\nStatus: em análise\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92rf2)",
       "tags": [
         "oficina_dro",
-        "Conteúdo",
-        "revisão texto",
+        "Conteúdo Oficina",
+        "em análise",
         "descoberta"
       ],
       "links": []
     },
     {
-      "id": "clickup-86aa246xw",
+      "id": "clickup-86ajc1j4w",
+      "type": "clickup",
+      "titulo": "Hoje minha cliente nutricionista começou....",
+      "data": "2026-07-03",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**Hoje minha cliente nutricionista começou....**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc1j4w)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc1w91",
+      "type": "clickup",
+      "titulo": "Como eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram",
+      "data": "2026-07-03",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**Como eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc1w91)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc26dn",
+      "type": "clickup",
+      "titulo": "A era das estratégias de conteúdo acabou",
+      "data": "2026-07-03",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**A era das estratégias de conteúdo acabou**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc26dn)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc2ybg",
+      "type": "clickup",
+      "titulo": "Use essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram",
+      "data": "2026-07-03",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**Use essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc2ybg)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc5cv4",
+      "type": "clickup",
+      "titulo": "Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.",
+      "data": "2026-07-03",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc5cv4)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc669j",
+      "type": "clickup",
+      "titulo": "Não consigo agendar novos pacientes.\" 🙄",
+      "data": "2026-07-03",
+      "perfil": "oficina_dro",
+      "status": "revisão texto",
+      "conteudo": "**Não consigo agendar novos pacientes.\" 🙄**\n\nStatus: revisão texto\nLista: Conteúdo Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc669j)",
+      "tags": [
+        "oficina_dro",
+        "Conteúdo Oficina",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb1nn",
+      "type": "clickup",
+      "titulo": "CES",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**CES**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb1nn)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb35v",
+      "type": "clickup",
+      "titulo": "Nathiane",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nathiane**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb35v)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb3nr",
+      "type": "clickup",
+      "titulo": "Shirley",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Shirley**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb3nr)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb47f",
+      "type": "clickup",
+      "titulo": "Victoria",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Victoria**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb47f)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb4mx",
+      "type": "clickup",
+      "titulo": "Milena",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Milena**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb4mx)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb525",
+      "type": "clickup",
+      "titulo": "Manu Albuquerque",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Manu Albuquerque**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb525)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb5uv",
+      "type": "clickup",
+      "titulo": "Beatriz",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Beatriz**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb5uv)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb686",
+      "type": "clickup",
+      "titulo": "Graziela",
+      "data": "2026-01-11",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Graziela**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb686)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeeb81w",
+      "type": "clickup",
+      "titulo": "Flavia Aguiar",
+      "data": "2026-01-23",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Flavia Aguiar**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeeb81w)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeebapr",
+      "type": "clickup",
+      "titulo": "Juliana ",
+      "data": "2026-01-23",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Juliana **\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebapr)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeebbav",
+      "type": "clickup",
+      "titulo": "Juranda Xavier",
+      "data": "2026-01-23",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Juranda Xavier**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebbav)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeebbrq",
+      "type": "clickup",
+      "titulo": "Ana",
+      "data": "2026-01-23",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Ana**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebbrq)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeebcf5",
+      "type": "clickup",
+      "titulo": "Fatte",
+      "data": "2026-01-23",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Fatte**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebcf5)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aeebd3d",
+      "type": "clickup",
+      "titulo": "Jack Reis",
+      "data": "2026-01-23",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Jack Reis**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aeebd3d)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pm1",
+      "type": "clickup",
+      "titulo": "Monyele Ferreira - Nutricionista",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Monyele Ferreira - Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pm1)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pm2",
+      "type": "clickup",
+      "titulo": "Nutricionista Juliana Veloso - Nutri em Uberlândia",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Juliana Veloso - Nutri em Uberlândia**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pm2)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pm0",
+      "type": "clickup",
+      "titulo": "Marcelle Saldanha Nutricionista para Idosos",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Marcelle Saldanha Nutricionista para Idosos**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pm0)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pm9",
+      "type": "clickup",
+      "titulo": "Nutricionista Cássia Motta - Santo Agostinho/BH",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Cássia Motta - Santo Agostinho/BH**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pm9)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pm8",
+      "type": "clickup",
+      "titulo": "DF Nutrição Esportiva",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**DF Nutrição Esportiva**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pm8)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pm7",
+      "type": "clickup",
+      "titulo": "Giovana Palhares - Nutricionista Online",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Giovana Palhares - Nutricionista Online**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pm7)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pmf",
+      "type": "clickup",
+      "titulo": "Doutora Verena Oliveira",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Doutora Verena Oliveira**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pmf)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pmg",
+      "type": "clickup",
+      "titulo": "Nutricionista Mariana Penati",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Mariana Penati**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pmg)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pmp",
+      "type": "clickup",
+      "titulo": "Nutricionista Aline Trielly",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Aline Trielly**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pmp)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pmu",
+      "type": "clickup",
+      "titulo": "Nutricionista e Terapeuta Nutricional Isabela Rocha",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista e Terapeuta Nutricional Isabela Rocha**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pmu)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pn4",
+      "type": "clickup",
+      "titulo": "Nutricionista Júlia Menezes - Nutrição Comportamental e Integrativa - Atendimentos Online",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Júlia Menezes - Nutrição Comportamental e Integrativa - Atendimentos Online**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pn4)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pn9",
+      "type": "clickup",
+      "titulo": "Juliana Garcia | Nutricionista",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Juliana Garcia | Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pn9)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3png",
+      "type": "clickup",
+      "titulo": "Nutricionista Esportiva - Cíntia Novais",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Esportiva - Cíntia Novais**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3png)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pnm",
+      "type": "clickup",
+      "titulo": "Fernanda Carvalho Nutricionista",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Fernanda Carvalho Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pnm)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pnr",
+      "type": "clickup",
+      "titulo": "Maisa Carvalho Nutricionista",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Maisa Carvalho Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pnr)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb3pnt",
+      "type": "clickup",
+      "titulo": "Nutricionista Gizane Almeida - Nutricionista de Mulheres Reais",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Gizane Almeida - Nutricionista de Mulheres Reais**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb3pnt)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g5q",
+      "type": "clickup",
+      "titulo": "Fabrícia Matos",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Fabrícia Matos**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g5q)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g64",
+      "type": "clickup",
+      "titulo": "Nutricionista Carla Franco",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Carla Franco**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g64)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g63",
+      "type": "clickup",
+      "titulo": "Nutricionista em Santos - Marina Soares",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista em Santos - Marina Soares**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g63)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g6n",
+      "type": "clickup",
+      "titulo": "Larissa M. S. Goulart",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Larissa M. S. Goulart**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g6n)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g79",
+      "type": "clickup",
+      "titulo": "Marcela Vianna",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Marcela Vianna**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g79)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g7p",
+      "type": "clickup",
+      "titulo": "Nutricionista Jaqueline Leite",
+      "data": "2026-02-12",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Jaqueline Leite**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g7p)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g53",
+      "type": "clickup",
+      "titulo": "Maria Luiza Paixão - Nutricionista em Andradas - Emagrecimento e Hipertrofia",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Maria Luiza Paixão - Nutricionista em Andradas - Emagrecimento e Hipertrofia**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g53)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g51",
+      "type": "clickup",
+      "titulo": "Sueli Mucheironi | Nutricionista Mogi das Cruzes | Emagrecimento | Hipertrofia | Bariátrica",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Sueli Mucheironi | Nutricionista Mogi das Cruzes | Emagrecimento | Hipertrofia | Bariátrica**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g51)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g5g",
+      "type": "clickup",
+      "titulo": "Manoela Campese - Nutrição Esportiva e Estética - Online e Presencial",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Manoela Campese - Nutrição Esportiva e Estética - Online e Presencial**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g5g)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g5t",
+      "type": "clickup",
+      "titulo": "Sue Gaipo nutricionista",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Sue Gaipo nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g5t)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g6b",
+      "type": "clickup",
+      "titulo": "Nayara Vilela - Nutricionista Clínica e Esportiva",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nayara Vilela - Nutricionista Clínica e Esportiva**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g6b)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g6r",
+      "type": "clickup",
+      "titulo": "Elba Almeida Nutrição e Saúde",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Elba Almeida Nutrição e Saúde**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g6r)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g70",
+      "type": "clickup",
+      "titulo": "Nutricionista Cristina Gandra",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Cristina Gandra**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g70)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8fjf",
+      "type": "clickup",
+      "titulo": "Gabriela Almeida Nutricionista",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Gabriela Almeida Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8fjf)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8fjk",
+      "type": "clickup",
+      "titulo": "Karen Barros Nutricionista",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Karen Barros Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8fjk)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8fjm",
+      "type": "clickup",
+      "titulo": "Nutri Marta Coelho",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutri Marta Coelho**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8fjm)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8fjv",
+      "type": "clickup",
+      "titulo": "Nutricionista Juliana Moraes",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Juliana Moraes**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8fjv)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8fkb",
+      "type": "clickup",
+      "titulo": "Roberta Ferreira Gusmão",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Roberta Ferreira Gusmão**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8fkb)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8fkd",
+      "type": "clickup",
+      "titulo": "Nutricionista Najla Kfouri",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Najla Kfouri**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8fkd)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8nj1",
+      "type": "clickup",
+      "titulo": "Kamila Ramos Cabrera - Nutricionista",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Kamila Ramos Cabrera - Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8nj1)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8nj5",
+      "type": "clickup",
+      "titulo": "Bruna Matos - Nutricionista em Limeira: Emagrecimento e Doenças Gastrointestinais",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Bruna Matos - Nutricionista em Limeira: Emagrecimento e Doenças Gastrointestinais**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8nj5)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8nj9",
+      "type": "clickup",
+      "titulo": "Nutri Fernanda Furlan",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutri Fernanda Furlan**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8nj9)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8njn",
+      "type": "clickup",
+      "titulo": "Nutricionista Campinas - Giovanna Fernandes",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Campinas - Giovanna Fernandes**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8njn)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afc8njr",
+      "type": "clickup",
+      "titulo": "Melissa Luciana de Araújo",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Melissa Luciana de Araújo**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afc8njr)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afcfue7",
+      "type": "clickup",
+      "titulo": "Nutri Fernanda Furlan",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutri Fernanda Furlan**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afcfue7)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afcfuf6",
+      "type": "clickup",
+      "titulo": "Melissa Luciana de Araújo",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Melissa Luciana de Araújo**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afcfuf6)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afcfugm",
+      "type": "clickup",
+      "titulo": "Kamila Ramos Cabrera - Nutricionista",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Kamila Ramos Cabrera - Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afcfugm)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afcfugx",
+      "type": "clickup",
+      "titulo": "Physico - Centro de Avaliação Física e Nutricional",
+      "data": "2026-02-14",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Physico - Centro de Avaliação Física e Nutricional**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afcfugx)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2jn",
+      "type": "clickup",
+      "titulo": "💆🏻‍♀️🌹 Esteticista Mogi das Cruzes | Limpeza Pele | Microagulhamento | Peeling | Facial | Papada | Denise Mori",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**💆🏻‍♀️🌹 Esteticista Mogi das Cruzes | Limpeza Pele | Microagulhamento | Peeling | Facial | Papada | Denise Mori**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jn)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2jk",
+      "type": "clickup",
+      "titulo": "Natalia Mascarelli Especialista em Mega Hair",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Natalia Mascarelli Especialista em Mega Hair**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jk)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2jh",
+      "type": "clickup",
+      "titulo": "Estética Avançada - Dra. Mariana Cerqueira",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Estética Avançada - Dra. Mariana Cerqueira**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jh)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2jg",
+      "type": "clickup",
+      "titulo": "Dra Kristina Guimarães - Estética Saúde e Beleza",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Dra Kristina Guimarães - Estética Saúde e Beleza**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jg)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2jd",
+      "type": "clickup",
+      "titulo": "Bella Pelle Depilação, Podologia e Estética",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Bella Pelle Depilação, Podologia e Estética**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jd)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2jc",
+      "type": "clickup",
+      "titulo": "Estética Lumaya",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Estética Lumaya**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2jc)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2j9",
+      "type": "clickup",
+      "titulo": "Dra. Jussara Santos - Estética Especializada e Integrativa",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Dra. Jussara Santos - Estética Especializada e Integrativa**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2j9)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2j8",
+      "type": "clickup",
+      "titulo": "Bruna & July Clinica de Estética e Bem Estar",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Bruna & July Clinica de Estética e Bem Estar**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2j8)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2j7",
+      "type": "clickup",
+      "titulo": "Dra. Gabriela Kato",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Dra. Gabriela Kato**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2j7)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2j5",
+      "type": "clickup",
+      "titulo": "Studio Camila Ramàli",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Studio Camila Ramàli**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2j5)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2j4",
+      "type": "clickup",
+      "titulo": "Beleza Plena",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Beleza Plena**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2j4)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdg2j2",
+      "type": "clickup",
+      "titulo": "Studio Victoria Eliza",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Studio Victoria Eliza**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdg2j2)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfww3",
+      "type": "clickup",
+      "titulo": "Daniely Beauty",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Daniely Beauty**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfww3)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfww1",
+      "type": "clickup",
+      "titulo": "Clínica de Estética Sônia Oliveira - Jardim Universo",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Clínica de Estética Sônia Oliveira - Jardim Universo**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfww1)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfww0",
+      "type": "clickup",
+      "titulo": "Studio Patricia Lopes Makeup",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Studio Patricia Lopes Makeup**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfww0)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvz",
+      "type": "clickup",
+      "titulo": "Dra. Michele Díniz - Clínica de Estética Avançada",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Dra. Michele Díniz - Clínica de Estética Avançada**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvz)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvy",
+      "type": "clickup",
+      "titulo": "Carol - BRANCO MAKEUP",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Carol - BRANCO MAKEUP**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvy)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvx",
+      "type": "clickup",
+      "titulo": "Estetica Parreco's",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Estetica Parreco's**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvx)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvw",
+      "type": "clickup",
+      "titulo": "Estúdio Maiara Oliveira",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Estúdio Maiara Oliveira**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvw)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvu",
+      "type": "clickup",
+      "titulo": "Suelen Cabelo & Estética",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Suelen Cabelo & Estética**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvu)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvt",
+      "type": "clickup",
+      "titulo": "Vanessa Carvalho Estética",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Vanessa Carvalho Estética**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvt)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvq",
+      "type": "clickup",
+      "titulo": "Estética Larissa Pereira",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Estética Larissa Pereira**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvq)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvn",
+      "type": "clickup",
+      "titulo": "Estética Glow Face - Caroline Demesio",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Estética Glow Face - Caroline Demesio**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvn)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvm",
+      "type": "clickup",
+      "titulo": "Elen Cristina Studio Beauty",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Elen Cristina Studio Beauty**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvm)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvk",
+      "type": "clickup",
+      "titulo": "Dra Gabriele Castro",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Dra Gabriele Castro**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvk)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afdfwvj",
+      "type": "clickup",
+      "titulo": "Rafaela Rosa Estética Corporal e Facial",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Rafaela Rosa Estética Corporal e Facial**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afdfwvj)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afb4g71",
+      "type": "clickup",
+      "titulo": "Aline Cunha Carvalho",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Aline Cunha Carvalho**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afb4g71)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afcfuew",
+      "type": "clickup",
+      "titulo": "Nutricionista Campinas - Giovanna Fernandes",
+      "data": "2026-02-17",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Campinas - Giovanna Fernandes**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afcfuew)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke7b",
+      "type": "clickup",
+      "titulo": "Nutricionista Larissa Romão",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Larissa Romão**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke7b)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke78",
+      "type": "clickup",
+      "titulo": "Dayanna Queiroz - Nutricionista especialista em Materno Infantil - Oceania",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Dayanna Queiroz - Nutricionista especialista em Materno Infantil - Oceania**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke78)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke73",
+      "type": "clickup",
+      "titulo": "Amanda Mohema Nutricionista",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Amanda Mohema Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke73)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke72",
+      "type": "clickup",
+      "titulo": "Alice Torres | Nutricionista em João Pessoa e Online | Hipertrofia e Emagrecimento",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Alice Torres | Nutricionista em João Pessoa e Online | Hipertrofia e Emagrecimento**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke72)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke71",
+      "type": "clickup",
+      "titulo": "Nutricionista Natali Rodrigues",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Natali Rodrigues**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke71)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke70",
+      "type": "clickup",
+      "titulo": "Gabriela Gomes Wellness Nutricionista Clínica e Esportiva",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Gabriela Gomes Wellness Nutricionista Clínica e Esportiva**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke70)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke6x",
+      "type": "clickup",
+      "titulo": "Nutricionista Maria Agnes - Endometriose | Seletividade (Autismo) em João Pessoa",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Maria Agnes - Endometriose | Seletividade (Autismo) em João Pessoa**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke6x)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke6w",
+      "type": "clickup",
+      "titulo": "Flávia Medeiros Nutricionista - João Pessoa",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Flávia Medeiros Nutricionista - João Pessoa**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke6w)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke6v",
+      "type": "clickup",
+      "titulo": "Nutricionista Paula Bacalhau",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Paula Bacalhau**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke6v)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affke6u",
+      "type": "clickup",
+      "titulo": "Nutricionista Karla Cosmo - Eco Business Center",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Karla Cosmo - Eco Business Center**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affke6u)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5y0",
+      "type": "clickup",
+      "titulo": "Nutricionista Kimberly Gabriella",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Kimberly Gabriella**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5y0)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5xx",
+      "type": "clickup",
+      "titulo": "Rayssa Britto Nutricionista",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Rayssa Britto Nutricionista**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5xx)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5xv",
+      "type": "clickup",
+      "titulo": "Nutricionista Mônica Bulhões",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Nutricionista Mônica Bulhões**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5xv)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86affk5xq",
+      "type": "clickup",
+      "titulo": "Yolanda Cardoso Nutricionista Clínica em João Pessoa",
+      "data": "2026-02-20",
+      "perfil": "oficina_dro",
+      "status": "não vendeu",
+      "conteudo": "**Yolanda Cardoso Nutricionista Clínica em João Pessoa**\n\nStatus: não vendeu\nLista: CRM Oficina\nPerfil: @oficina_dro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86affk5xq)",
+      "tags": [
+        "oficina_dro",
+        "CRM Oficina",
+        "não vendeu"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae85pfg",
       "type": "clickup",
       "titulo": "🔑 FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE",
       "data": "2026-07-04",
@@ -1845,12 +3879,102 @@
       "titulo": "Descubra como prospectar clientes como social media e fazer os leads responderem você.",
       "data": "2026-06-11",
       "perfil": "divarebel.on",
-      "status": "revisão texto",
-      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
+      "status": "ideia",
+      "conteudo": "**🔑 FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE**\n\nStatus: ideia\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae85pfg)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
-        "revisão texto",
+        "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae85pfr",
+      "type": "clickup",
+      "titulo": "BASE",
+      "data": "2026-01-05",
+      "perfil": "divarebel.on",
+      "status": "ideia",
+      "conteudo": "**BASE**\n\nStatus: ideia\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae85pfr)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939bt",
+      "type": "clickup",
+      "titulo": "Stories quinta",
+      "data": "2026-06-28",
+      "perfil": "divarebel.on",
+      "status": "aprovado",
+      "conteudo": "**Stories quinta**\n\nStatus: aprovado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939bt)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "aprovado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939br",
+      "type": "clickup",
+      "titulo": "Stories quarta",
+      "data": "2026-06-28",
+      "perfil": "divarebel.on",
+      "status": "aprovado",
+      "conteudo": "**Stories quarta**\n\nStatus: aprovado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939br)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "aprovado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939bn",
+      "type": "clickup",
+      "titulo": "Stories sexta",
+      "data": "2026-06-28",
+      "perfil": "divarebel.on",
+      "status": "aprovado",
+      "conteudo": "**Stories sexta**\n\nStatus: aprovado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939bn)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "aprovado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939bp",
+      "type": "clickup",
+      "titulo": "Stories segunda",
+      "data": "2026-06-29",
+      "perfil": "divarebel.on",
+      "status": "em análise",
+      "conteudo": "**Stories segunda**\n\nStatus: em análise\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939bp)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92xc2",
+      "type": "clickup",
+      "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜",
+      "data": "2026-06-29",
+      "perfil": "divarebel.on",
+      "status": "programado",
+      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜**\n\nStatus: programado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
+      "tags": [
+        "divarebel.on",
+        "Conteúdo Diva Rebel",
+        "programado",
         "descoberta"
       ],
       "links": []
@@ -1861,49 +3985,49 @@
       "titulo": "A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.",
       "data": "2026-06-11",
       "perfil": "divarebel.on",
-      "status": "revisão texto",
-      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
+      "status": "programado",
+      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\nStatus: programado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
-        "revisão texto",
-        "consideração"
+        "programado",
+        "consideração "
       ],
       "links": []
     },
     {
-      "id": "clickup-86aj92xc2",
+      "id": "clickup-86aj931mx",
       "type": "clickup",
       "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes",
       "data": "2026-06-11",
       "perfil": "divarebel.on",
-      "status": "revisão texto",
-      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes**\n\nStatus: revisão texto\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
+      "status": "programado",
+      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\nStatus: programado\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
-        "revisão texto",
+        "programado",
         "descoberta"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae85pfr",
+      "id": "clickup-86aj939bq",
       "type": "clickup",
       "titulo": "BASE — Stories como série",
       "data": "2026-06-10",
       "perfil": "divarebel.on",
-      "status": "ideia",
-      "conteudo": "**BASE — Stories como série**\n\nStatus: ideia\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae85pfr)",
+      "status": "em análise",
+      "conteudo": "**Stories terça**\n\nStatus: em análise\nLista: Conteúdo Diva Rebel\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939bq)",
       "tags": [
         "divarebel.on",
         "Conteúdo Diva Rebel",
-        "ideia"
+        "em análise"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae85pfg",
+      "id": "clickup-86aa24081",
       "type": "clickup",
       "titulo": "FUNDAMENTOS CENTRAIS: Stories como uma SÉRIE",
       "data": "2026-06-10",
@@ -1928,40 +4052,202 @@
       "tags": [
         "divarebel.on",
         "Infoprodutos",
-        "produtos",
-        "produto"
+        "tipos"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae9ka8q",
+      "id": "clickup-86aa24085",
       "type": "clickup",
       "titulo": "Operação Estratégica",
       "data": "2026-06-10",
       "perfil": "divarebel.on",
-      "status": "produtos",
-      "conteudo": "**Operação Estratégica**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka8q)",
+      "status": "tipos",
+      "conteudo": "**Mentoria individual**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa24085)",
       "tags": [
         "divarebel.on",
         "Infoprodutos",
-        "produtos",
-        "produto"
+        "tipos"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae9ka89",
+      "id": "clickup-86aa2409y",
       "type": "clickup",
       "titulo": "Reunião que Vende",
       "data": "2026-06-10",
       "perfil": "divarebel.on",
-      "status": "produtos",
-      "conteudo": "**Reunião que Vende**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka89)",
+      "status": "tipos",
+      "conteudo": "**E-book**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa2409y)",
       "tags": [
         "divarebel.on",
         "Infoprodutos",
-        "produtos",
-        "produto"
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240dc",
+      "type": "clickup",
+      "titulo": "Masterclass",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Masterclass**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240dc)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240dm",
+      "type": "clickup",
+      "titulo": "Comunidade",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Comunidade**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240dm)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240fj",
+      "type": "clickup",
+      "titulo": "Formação",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Formação**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240fj)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240g9",
+      "type": "clickup",
+      "titulo": "Desafio",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Desafio**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240g9)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240j6",
+      "type": "clickup",
+      "titulo": "Curso",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Curso**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240j6)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240mt",
+      "type": "clickup",
+      "titulo": "Pacotes",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Pacotes**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240mt)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240nn",
+      "type": "clickup",
+      "titulo": "Consultoria",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Consultoria**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240nn)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa240r9",
+      "type": "clickup",
+      "titulo": "Ferramenta",
+      "data": "2025-07-08",
+      "perfil": "divarebel.on",
+      "status": "tipos",
+      "conteudo": "**Ferramenta**\n\nStatus: tipos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa240r9)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae9ka9g",
+      "type": "clickup",
+      "titulo": "MEUS PRODUTOS/SERVIÇOS",
+      "data": "2026-01-06",
+      "perfil": "divarebel.on",
+      "status": "produtos",
+      "conteudo": "**MEUS PRODUTOS/SERVIÇOS**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka9g)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "produtos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae9ka9t",
+      "type": "clickup",
+      "titulo": "MEUS PRODUTOS/SERVIÇOS",
+      "data": "2026-01-06",
+      "perfil": "divarebel.on",
+      "status": "produtos",
+      "conteudo": "**MEUS PRODUTOS/SERVIÇOS**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka9t)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "produtos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae9ka9y",
+      "type": "clickup",
+      "titulo": "MEUS PRODUTOS/SERVIÇOS",
+      "data": "2026-01-06",
+      "perfil": "divarebel.on",
+      "status": "produtos",
+      "conteudo": "**MEUS PRODUTOS/SERVIÇOS**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka9y)",
+      "tags": [
+        "divarebel.on",
+        "Infoprodutos",
+        "produtos"
       ],
       "links": []
     },
@@ -1976,53 +4262,48 @@
       "tags": [
         "divarebel.on",
         "Infoprodutos",
-        "produtos",
-        "produto",
-        "lançamento"
+        "produtos"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae84umj",
+      "id": "clickup-86ae9ka89",
       "type": "clickup",
       "titulo": "Mentiras que acreditam (campanha SM)",
       "data": "2026-06-09",
       "perfil": "divarebel.on",
-      "status": "mentiras",
-      "conteudo": "**Mentiras que acreditam (campanha SM)**\n\nStatus: mentiras\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84umj)",
+      "status": "produtos",
+      "conteudo": "**Reunião que Vende**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka89)",
       "tags": [
         "divarebel.on",
-        "Central Campanha Social Media",
-        "mentiras",
-        "campanha"
+        "Infoprodutos",
+        "produtos"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae84ur7",
+      "id": "clickup-86ae9ka8q",
       "type": "clickup",
       "titulo": "Solução para a persona (campanha SM)",
       "data": "2026-06-09",
       "perfil": "divarebel.on",
-      "status": "necessidade",
-      "conteudo": "**Solução para a persona (campanha SM)**\n\nStatus: necessidade\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ur7)",
+      "status": "produtos",
+      "conteudo": "**Operação Estratégica**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka8q)",
       "tags": [
         "divarebel.on",
-        "Central Campanha Social Media",
-        "necessidade",
-        "campanha",
-        "persona"
+        "Infoprodutos",
+        "produtos"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ae84ugp",
+      "id": "clickup-86ae9ka94",
       "type": "clickup",
       "titulo": "Oponente — posicionamento (campanha SM)",
       "data": "2026-06-09",
       "perfil": "divarebel.on",
-      "status": "posicionamento",
-      "conteudo": "**Oponente — posicionamento (campanha SM)**\n\nStatus: posicionamento\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ugp)",
+      "status": "produtos",
+      "conteudo": "**Cliente Recorrente.**\n\nStatus: produtos\nLista: Infoprodutos\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae9ka94)",
       "tags": [
         "divarebel.on",
         "Central Campanha Social Media",
@@ -2282,12 +4563,236 @@
       "data": "2026-06-06",
       "perfil": "divarebel.on",
       "status": "conclusão",
-      "conteudo": "**Conclusão triste (campanha SM)**\n\nStatus: conclusão\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84um7)",
+      "conteudo": "**Conclusão triste:**\n\nStatus: conclusão\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84um7)",
       "tags": [
         "divarebel.on",
-        "Central Campanha Social Media",
-        "conclusão",
-        "campanha"
+        "Central Campanha SM",
+        "conclusão"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84ug5",
+      "type": "clickup",
+      "titulo": "Transformação positiva:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "futuro feliz",
+      "conteudo": "**Transformação positiva:**\n\nStatus: futuro feliz\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ug5)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "futuro feliz"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84un0",
+      "type": "clickup",
+      "titulo": "Transformação negativa:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "futuro triste",
+      "conteudo": "**Transformação negativa:**\n\nStatus: futuro triste\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84un0)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "futuro triste"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uqy",
+      "type": "clickup",
+      "titulo": "Quem é a persona:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "persona",
+      "conteudo": "**Quem é a persona:**\n\nStatus: persona\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uqy)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "persona"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uqd",
+      "type": "clickup",
+      "titulo": "Mudança (disso para isso):",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "ponto a-b",
+      "conteudo": "**Mudança (disso para isso):**\n\nStatus: ponto a-b\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uqd)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "ponto a-b"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uq0",
+      "type": "clickup",
+      "titulo": "Dor latejante:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "pedra no sapato",
+      "conteudo": "**Dor latejante:**\n\nStatus: pedra no sapato\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uq0)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "pedra no sapato"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84up8",
+      "type": "clickup",
+      "titulo": "O que você entrega que é novo para a audiência:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "novidade",
+      "conteudo": "**O que você entrega que é novo para a audiência:**\n\nStatus: novidade\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84up8)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "novidade"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84unn",
+      "type": "clickup",
+      "titulo": "Consequências dessas mentiras:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "seguindo a manada",
+      "conteudo": "**Consequências dessas mentiras:**\n\nStatus: seguindo a manada\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84unn)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "seguindo a manada"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84un8",
+      "type": "clickup",
+      "titulo": "Novo ângulo:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "ângulo",
+      "conteudo": "**Novo ângulo:**\n\nStatus: ângulo\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84un8)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "ângulo"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84ukv",
+      "type": "clickup",
+      "titulo": "Ativação de curiosidade:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "curiosidade",
+      "conteudo": "**Ativação de curiosidade:**\n\nStatus: curiosidade\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ukv)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "curiosidade"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84ukk",
+      "type": "clickup",
+      "titulo": "Tortura",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "consequência",
+      "conteudo": "**Tortura**\n\nStatus: consequência\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ukk)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "consequência"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uk9",
+      "type": "clickup",
+      "titulo": "Frase de impacto:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "choque",
+      "conteudo": "**Frase de impacto:**\n\nStatus: choque\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uk9)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "choque"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uju",
+      "type": "clickup",
+      "titulo": "Mensagem da campanha:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "slogan",
+      "conteudo": "**Mensagem da campanha:**\n\nStatus: slogan\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uju)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "slogan"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84ujc",
+      "type": "clickup",
+      "titulo": "Protocolo( método):",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "protocolo",
+      "conteudo": "**Protocolo( método):**\n\nStatus: protocolo\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ujc)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "protocolo"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uhw",
+      "type": "clickup",
+      "titulo": "Validação:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "provas",
+      "conteudo": "**Validação:**\n\nStatus: provas\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uhw)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "provas"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84uhp",
+      "type": "clickup",
+      "titulo": "Big Idea:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "sonho",
+      "conteudo": "**Big Idea:**\n\nStatus: sonho\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uhp)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "sonho"
       ],
       "links": []
     },
@@ -2298,46 +4803,56 @@
       "data": "2026-06-05",
       "perfil": "divarebel.on",
       "status": "erro",
-      "conteudo": "**O que fazem de errado (campanha SM)**\n\nStatus: erro\nLista: Central Campanha Social Media\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uh6)",
+      "conteudo": "**O que fazem de errado que interfere no resultado:**\n\nStatus: erro\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84uh6)",
       "tags": [
         "divarebel.on",
-        "Central Campanha Social Media",
-        "erro",
-        "campanha"
+        "Central Campanha SM",
+        "erro"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ah1ffda",
+      "id": "clickup-86ae84ugp",
       "type": "clickup",
       "titulo": "@123456789 (CRM Devil Chat)",
       "data": "2026-06-05",
       "perfil": "divarebel.on",
-      "status": "não cadastrados",
-      "conteudo": "**@123456789 (CRM Devil Chat)**\n\nStatus: não cadastrados\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah1ffda)",
+      "status": "posicionamento",
+      "conteudo": "**Oponente:**\n\nStatus: posicionamento\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ugp)",
       "tags": [
         "divarebel.on",
-        "CRM DEVIL CHAT",
-        "não cadastrados",
-        "CRM",
-        "devil chat"
+        "Central Campanha SM",
+        "posicionamento"
       ],
       "links": []
     },
     {
-      "id": "clickup-86ah15bzu",
+      "id": "clickup-86ae84ur7",
       "type": "clickup",
       "titulo": "Exemplo — comprou (CRM Devil Chat)",
       "data": "2026-06-05",
       "perfil": "divarebel.on",
-      "status": "comprou",
-      "conteudo": "**Exemplo — comprou (CRM Devil Chat)**\n\nStatus: comprou\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah15bzu)",
+      "status": "necessidade",
+      "conteudo": "**Solução para a persona:**\n\nStatus: necessidade\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84ur7)",
       "tags": [
         "divarebel.on",
-        "CRM DEVIL CHAT",
-        "comprou",
-        "CRM",
-        "devil chat"
+        "Central Campanha SM",
+        "necessidade"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae84umj",
+      "type": "clickup",
+      "titulo": "Mentiras que acreditam:",
+      "data": "2026-06-27",
+      "perfil": "divarebel.on",
+      "status": "mentiras",
+      "conteudo": "**Mentiras que acreditam:**\n\nStatus: mentiras\nLista: Central Campanha SM\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae84umj)",
+      "tags": [
+        "divarebel.on",
+        "Central Campanha SM",
+        "mentiras"
       ],
       "links": []
     },
@@ -2348,13 +4863,293 @@
       "data": "2026-06-05",
       "perfil": "divarebel.on",
       "status": "comprou",
-      "conteudo": "**Exemplo 2 — comprou (CRM Devil Chat)**\n\nStatus: comprou\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah13apk)",
+      "conteudo": "**exemplo**\n\nStatus: comprou\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah13apk)",
       "tags": [
         "divarebel.on",
         "CRM DEVIL CHAT",
-        "comprou",
-        "CRM",
-        "devil chat"
+        "comprou"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ah15bzu",
+      "type": "clickup",
+      "titulo": "exemplo",
+      "data": "2026-04-22",
+      "perfil": "divarebel.on",
+      "status": "comprou",
+      "conteudo": "**exemplo**\n\nStatus: comprou\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah15bzu)",
+      "tags": [
+        "divarebel.on",
+        "CRM DEVIL CHAT",
+        "comprou"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ah1ffda",
+      "type": "clickup",
+      "titulo": "@123456789",
+      "data": "2026-04-22",
+      "perfil": "divarebel.on",
+      "status": "não cadastrados",
+      "conteudo": "**@123456789**\n\nStatus: não cadastrados\nLista: CRM DEVIL CHAT\nPerfil: @divarebel.on\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah1ffda)",
+      "tags": [
+        "divarebel.on",
+        "CRM DEVIL CHAT",
+        "não cadastrados"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-be3ec6d6-40ce-45b7-8361-a285a321d70a",
+      "type": "meeting",
+      "titulo": "Encontro 2 — Dra. Maria Fernanda",
+      "data": "2026-06-22",
+      "perfil": "oficina_dro",
+      "conteudo": "## Encontro 2 — Dra. Maria Fernanda\n\n**Cliente:** Dra. Maria Fernanda\n**Data:** 22 de junho de 2026\n**Tipo:** Segundo encontro de acompanhamento\n\n### Contexto\nSegundo encontro de acompanhamento com a Dra. Maria Fernanda, cliente da Oficina Dra. Resumo não disponível no Granola. Reunião de continuidade do plano de ação iniciado no Encontro 1 (17/06).\n\n### Próximos Passos\nDar continuidade às estratégias definidas nos encontros anteriores e monitorar evolução dos resultados.",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-bf737e54-8f78-4a8e-a912-f39195fb634b",
+      "type": "meeting",
+      "titulo": "Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-06-22",
+      "perfil": "oficina_dro",
+      "conteudo": "## Início de Projeto — Dra. Priscila Leite\n\n**Cliente:** Dra. Priscila Leite (nutricionista pediátrica)\n**Data:** 22 de junho de 2026\n**Tipo:** Reunião de onboarding / início de projeto\n\n### O que foi abordado\n\n**Onboarding no ClickUp:**\n- Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha\n- Cada cliente tem sua área com: produtor de conteúdo, biblioteca de atração, calendário editorial\n- Calculadora de métricas: funil de aquisição, custo por lead, taxa de agendamento, receita bruta\n\n**Mudança de Público-Alvo:**\n- Decisão tomada na reunião: mudar foco de MÃES para NUTRICIONISTAS\n- Motivo: engajamento maior de nutris no perfil, maior ticket com infoprodutos, alinha com objetivo de ser mentora/professora\n- Objetivo de longo prazo: criar treinamentos, área de membros, comunidade de nutricionistas\n\n**Situação Atual da Priscila:**\n- Consultório pediátrico com parceria (R$600/mês, pode subir para R$800)\n- Avaliando mudança para clínica com mais pediatras por R$500\n- Conteúdo: já tem gravações de mentorias, ebooks em esboço, workshop presencial realizado em 2024\n\n**Esteira de Produtos (a estruturar):**\n- Produto entrada: workshop/aula gravada (~R$1.400)\n- Produto premium: mentoria individual (ticket alto)\n- Futuramente: plataforma de cursos + comunidade de nutricionistas com mapa de indicação\n\n**Próximos Passos:**\n- Priscila enviar acesso ao Google e Facebook\n- Aline preencher NDD e Central de Campanha com foco em nutricionistas\n- Criar site específico para nutricionistas (separado do de mães)\n- Alinhar plano de ação reformulado na próxima reunião",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-5769ee6c-df70-4c57-902d-f9f93d27a397",
+      "type": "meeting",
+      "titulo": "Aula Horta em espiral — colheita, manutenção e plantio com Carol",
+      "data": "2026-06-21",
+      "perfil": "divarebel.on",
+      "conteudo": "## Aula Horta em Espiral — com Carol\n\n**Data:** 21 de junho de 2026\n**Tipo:** Aula prática (contexto pessoal/aprendizado)\n\n### Tópicos\n- Técnicas de colheita de horta em espiral\n- Manutenção e cuidados com plantas\n- Plantio e rotação de culturas\n\nAula prática registrada no Granola. Contexto de aprendizado pessoal.",
+      "tags": [
+        "reunião",
+        "aula",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-a334d7ca-19ba-44ba-95a6-45ec61e39bc2",
+      "type": "meeting",
+      "titulo": "E2 - Camila",
+      "data": "2026-06-17",
+      "perfil": "oficina_dro",
+      "conteudo": "## Encontro 2 — Dra. Camila Dantas\n\n**Cliente:** Dra. Camila Dantas (nutricionista recém-formada)\n**Data:** 17 de junho de 2026\n**Tipo:** Segundo encontro / entrega do plano de ação\n\n### Contexto\nContinuação da reunião inicial de 05/06. Entrega do plano de ação personalizado focado no **percurso do paciente** da Dra. Camila.\n\n### Situação da Cliente (retomada do E1)\n- Recém-formada (janeiro 2026), atendendo desde fevereiro\n- Captação apenas via conhecidos/família\n- Sem Google Meu Negócio, sem estratégia de conteúdo\n- Principal dificuldade: pessoas somem após receber os valores\n\n### Plano Entregue\n- Estratégia de captação ativa\n- Criação de presença no Google Meu Negócio\n- Estrutura de conteúdo estratégico por etapas do funil\n- Script de qualificação para conversão\n- Possível indicação de colegas nutricionistas",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-182e679a-2de4-49b6-992b-94582d29c712",
+      "type": "meeting",
+      "titulo": "Encontro 1 — Dra. Maria Fernanda",
+      "data": "2026-06-17",
+      "perfil": "oficina_dro",
+      "conteudo": "## Encontro 1 — Dra. Maria Fernanda\n\n**Cliente:** Dra. Maria Fernanda\n**Data:** 17 de junho de 2026\n**Tipo:** Primeiro encontro / diagnóstico\n\n### Primeiro Encontro de Diagnóstico\nPrimeiro encontro com a Dra. Maria Fernanda. Reunião de diagnóstico inicial para entender a situação atual, objetivos e desafios da cliente.\n\n### Pontos Típicos de um E1 na Oficina\n- Análise da situação atual do negócio\n- Identificação do público-alvo principal\n- Mapeamento de canais de captação existentes\n- Definição de metas e expectativas\n- Apresentação da metodologia DEVIL / Sistema PEP",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-9730273e-4dc6-41cd-ab4a-3ac1bdf78438",
+      "type": "meeting",
+      "titulo": "E2 - Priscila",
+      "data": "2026-06-17",
+      "perfil": "oficina_dro",
+      "conteudo": "## Encontro 2 — Dra. Priscila Leite\n\n**Cliente:** Dra. Priscila Leite (nutricionista pediátrica)\n**Data:** 17 de junho de 2026\n**Tipo:** Segundo encontro\n\n### Contexto\nSegundo encontro com a Dra. Priscila, antes da reunião de Início de Projeto (22/06). Continuidade do processo de diagnóstico e estruturação do plano.\n\n### Tópicos Prováveis\n- Refinamento do público-alvo (nutricionistas vs. mães)\n- Apresentação do plano de ação preliminar\n- Discussão sobre esteira de produtos\n- Alinhamento de expectativas e próximos passos",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-4a4f7c7c-3050-4ad3-b12c-6c7b445f08f4",
+      "type": "meeting",
+      "titulo": "Mentoria de gestão de projetos e prospecção — vagas abertas",
+      "data": "2026-06-16",
+      "perfil": "divarebel.on",
+      "conteudo": "## Mentoria: Gestão de Projetos e Prospecção\n\n**Data:** 16 de junho de 2026\n**Tipo:** Mentoria em grupo — vagas abertas\n**Perfil:** @divarebel.on (Social Media Advantage)\n\n### Tópicos\n- Gestão de projetos para social medias\n- Técnicas de prospecção via WhatsApp\n- Como organizar clientes no ClickUp\n- CRM para social medias iniciantes\n- Como se apresentar para prospects e marcar reuniões\n\n### Metodologia DEVIL para Prospecção\n- Uso da planilha de prospecção com fórmulas\n- Eliminação de números repetidos\n- Importação automática para o CRM\n- Avaliação de leads por temperatura (1-5 estrelas)",
+      "tags": [
+        "reunião",
+        "aula",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-a703228b-1b6c-47ab-a2f5-add8e549b61d",
+      "type": "meeting",
+      "titulo": "New note",
+      "data": "2026-06-16",
+      "perfil": "oficina_dro",
+      "conteudo": "## Nota Rápida\n\n**Data:** 16 de junho de 2026\n**Tipo:** Anotação pessoal no Granola\n\nNota registrada automaticamente. Sem conteúdo de transcrição disponível.",
+      "tags": [
+        "reunião",
+        "nota",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-c76a49a4-a6d1-44a0-9a11-3484969db5f0",
+      "type": "meeting",
+      "titulo": "Encontro de Diagnóstico 1 — Dra. Priscila Leite (nutricionista)",
+      "data": "2026-06-15",
+      "perfil": "oficina_dro",
+      "conteudo": "## Encontro de Diagnóstico 1 — Dra. Priscila Leite\n\n**Cliente:** Dra. Priscila Leite (nutricionista pediátrica)\n**Data:** 15 de junho de 2026\n**Tipo:** Primeiro diagnóstico\n\n### Primeiro Contato / Diagnóstico\nPrimeiro encontro com a Dra. Priscila Leite. Reunião de diagnóstico inicial.\n\n### Perfil da Cliente\n- Nutricionista pediátrica\n- Consultório em clínica com parceria\n- Público: mães de crianças com dificuldades alimentares\n- Experiência: já realizou mentorias para outras nutricionistas\n- Objetivo: estruturar infoprodutos e criar comunidade de nutricionistas\n\n### Diagnóstico Inicial\n- Sem CRM organizado\n- Sem site profissional\n- Sem estratégia de conteúdo definida\n- Lista de e-mails de leads mas sem follow-up estruturado\n- Sonho: área de membros + sistema de indicação por mapa para nutricionistas treinadas",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-229da5a6-fa26-4775-9d4f-95e8fda0a55d",
+      "type": "meeting",
+      "titulo": "Aula Mentor (fim de semana)",
+      "data": "2026-06-13",
+      "perfil": "divarebel.on",
+      "conteudo": "## Aula com Mentor — Fim de Semana\n\n**Data:** 13 de junho de 2026\n**Tipo:** Aula de fim de semana com mentor\n**Perfil:** @divarebel.on\n\n### Contexto\nAula especial realizada no fim de semana com mentor (provavelmente Lucas, da Rugido). Conteúdo focado em estratégias avançadas de vendas e crescimento de agência/consultoria.\n\n### Tópicos Prováveis (baseado no contexto das outras aulas)\n- Estrutura comercial avançada\n- Como criar ofertas de alto valor\n- Gestão de jornada de compra\n- Uso de IA para escalar entregas",
+      "tags": [
+        "reunião",
+        "aula",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-07dc05a2-497b-46ca-919f-5c6a33316847",
+      "type": "meeting",
+      "titulo": "Treinamento com Alunas",
+      "data": "2026-06-09",
+      "perfil": "divarebel.on",
+      "conteudo": "## Treinamento com Alunas — Social Media Advantage\n\n**Data:** 09 de junho de 2026\n**Tipo:** Treinamento em grupo\n**Perfil:** @divarebel.on\n\n### O que foi abordado\n\n**Ferramentas e Configuração:**\n- Discussão sobre LibreOffice vs. Excel para a planilha de prospecção\n- Resolução de problemas com o arquivo (recuperação de documento após fechamento inesperado)\n- Configuração do LibreOffice para abrir a planilha corretamente\n\n**Planilha de Prospecção:**\n- Como usar a extensão para extrair dados do Google Meu Negócio\n- Preenchimento da planilha: nome, nicho, telefone, endereço, feedbacks\n- Fórmula para separar telefone do endereço automaticamente\n- Fórmula para identificar números repetidos (evitar contato duplicado)\n- Coluna com +55 já formatado para copiar direto no WhatsApp\n- Importação automática para o ClickUp CRM\n\n**CRM no ClickUp:**\n- Apresentação do template de CRM enviado para as alunas\n- Status: Pré-leads → Qualificados → Filtragem → Análise\n- Campo de avaliação (1-5 estrelas) para priorizar os leads mais quentes\n- Parte de Localização: controle de cidades já prospectadas\n- Como importar a lista (via Importar Itens → Planilha)\n\n**Estratégia:**\n- Preencher toda a lista ANTES de começar a prospectar\n- Só depois remover os repetidos\n- Não entrar em contato com ninguém ainda — primeiro organizar o CRM\n- Olhar o negócio como empresa desde o início",
+      "tags": [
+        "reunião",
+        "treinamento",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-fb7ae730-8556-4818-8454-95211e682844",
+      "type": "meeting",
+      "titulo": "Aula Lucas vendas",
+      "data": "2026-06-07",
+      "perfil": "divarebel.on",
+      "conteudo": "## Aula Lucas — Estrutura de Vendas (Venda Lógica)\n\n**Data:** 07 de junho de 2026\n**Tipo:** Aula de vendas com Lucas\n**Perfil:** @divarebel.on\n\n### Os 6 Blocos da Venda Lógica\n\n1. **Credibilidade inicial** — conquistas pessoais e profissionais para estabelecer autoridade (slide menos crítico)\n2. **Diagnóstico** — perguntas estratégicas antes de apresentar os slides\n3. **Mecanismo do problema** — explicar a causa antes de propor a solução (analogia médica)\n4. **Mecanismo da solução** — jornada de compra e método\n5. **Prova lógica do valor** — ancoragem e calculadora de resultados\n6. **Fechamento por coerência** — criar consistência lógica com o que o cliente disse\n\n### Diagnóstico — Perguntas Estratégicas\n- Como é a operação hoje? (faturamento, time, modelo)\n- De onde vêm os clientes? (canais, conversão)\n- Como funciona o comercial? (estrutura, processo, ticket médio)\n- Que ferramentas já usa? (CRM, anúncios, área de membros)\n- O que já tentou para crescer?\n- Onde quer chegar?\n\n### Calculadora de Resultados\n- Exemplo: 10% → 15% na taxa de agendamento = R$17k → R$72k\n- Ganho demonstrado: R$55k com pequenas otimizações\n\n### Mecânica Operacional\n- 3 etapas: Mapear (reunião de integração) → Instrumentar (soluções personalizadas) → Operar (rotina diária)\n- 3 perguntas diárias: feito ontem, hoje, bloqueios\n\n### Ancoragem e Negociação\n- Pergunta de ancoragem: \"Quanto custa ter um time para entregar tudo isso?\"\n- Apresentar valor anual primeiro\n- Descobrir capacidade real de pagamento\n- Condição especial para fechamento na reunião\n\n### Próximos Passos\n- Módulos futuros: pré-vendas, qualificação, técnicas de fechamento\n- Teste do novo produto a partir de segunda-feira",
+      "tags": [
+        "reunião",
+        "aula",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-533388cb-7024-4df4-9d5d-d290db1cb665",
+      "type": "meeting",
+      "titulo": "Aula Leo",
+      "data": "2026-06-06",
+      "perfil": "divarebel.on",
+      "conteudo": "## Aula com Leo — Feedback de Apresentações de Vendas\n\n**Data:** 06 de junho de 2026\n**Tipo:** Aula com análise de apresentações dos alunos\n\n### Feedback para Apresentações\n- Energia e animação são essenciais — precisa parecer mais animado que o cliente\n- Dar espaço para o cliente falar (40-50% apresentador / 50-60% cliente)\n- Fazer rapport genuíno\n\n### Estrutura de Apresentação Eficaz\n1. Rapport inicial (cidade, clima, situação pessoal)\n2. Iceberg (tangibiliza problemas não vistos)\n3. Jornada de compra (7 etapas)\n4. Processo de atendimento diário\n5. Próximos passos\n\n### Análise das Apresentações dos Alunos\n- **Luís (Academia):** Ações criativas demais para empresa imatura → focar no básico (CRM, treinamento secretária, funil experimental)\n- **Vinicius (Hotel):** Falta animação, apresentação corrida → estratégias válidas mas não deu espaço para o cliente falar\n- **Mateus (Papelaria):** Melhor execução — boa segmentação, kits temáticos, parcerias com escolas\n\n### Estratégias de Vendas\n- Escuta ativa: cliente deve falar 20 minutos primeiro\n- Metodologia SPIN para fazer perguntas que levam à compra\n- Comunicação ativa: cliente não deve precisar cobrar andamento\n- Updates diários automáticos\n\n### Próximos Passos\n- Aula especial às 14h sobre plano de 50 milhões (não gravada)\n- Praticar apresentações com mais energia e interação",
+      "tags": [
+        "reunião",
+        "aula",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-780060ef-3869-405e-a95f-bc89bc748aa4",
+      "type": "meeting",
+      "titulo": "Reunião — Dra. Bia Bento",
+      "data": "2026-06-05",
+      "perfil": "oficina_dro",
+      "conteudo": "## Reunião de Diagnóstico — Dra. Bia Bento\n\n**Cliente:** Dra. Bia Bento (nutricionista)\n**Data:** 05 de junho de 2026\n**Tipo:** Reunião de diagnóstico\n\n### Captação Atual\n- **Principal canal:** Programa de indicação — funciona muito bem, pessoas chegam qualificadas\n  - Sistema de pontos implementado recentemente\n- Instagram orgânico como segundo canal\n- Parcerias com personal trainer e médica\n- Mídia paga testada sem sucesso (Instagram turbinado e gerenciador)\n\n### Processo Comercial\n- Contato inicial via WhatsApp (link na bio)\n- Não atende ligações para evitar caos na agenda\n- Script de vendas validado: ~3 de cada 4-5 contatos fecham\n- 6-10 novos pacientes/mês\n- Assistente faz onboarding e pagamento após fechamento\n- Atendimento quase 100% online\n\n### Oportunidades Identificadas\n- **Site profissional** — sem site prejudica posicionamento no Google\n  - Sugestão: GitHub para hospedagem gratuita + domínio R$40/ano\n- **Estratégia de conteúdo** — sem planejamento estratégico atual\n- **Esteira de serviços** — produto de entrada para leads que não podem pagar consulta completa\n- **Fluxo de captação ativo** — reduzir dependência de indicações\n\n### Próximos Passos\n- Reunião marcada para quinta-feira, 11 de junho, às 10h\n- Entrega do plano de ação: captação ativa, site, estrutura de conteúdo",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-6ea34217-454b-4e41-a1ff-f2a1937ebfd7",
+      "type": "meeting",
+      "titulo": "Reunião — Dra. Camila Dantas",
+      "data": "2026-06-05",
+      "perfil": "oficina_dro",
+      "conteudo": "## Reunião de Diagnóstico — Dra. Camila Dantas\n\n**Cliente:** Dra. Camila Dantas (nutricionista)\n**Data:** 05 de junho de 2026\n**Tipo:** Reunião de diagnóstico\n\n### Situação Atual\n- Recém-formada (janeiro 2026), atendendo desde fevereiro\n- Captação apenas via conhecidos/família — sem estratégias ativas\n- Sem Google Meu Negócio\n- Sem programa de indicações\n- Atende 2 dias/semana em clínica compartilhada\n- Meta: 10 pacientes/semana (40/mês)\n\n### Ofertas Atuais\n1. Consulta avulsa presencial\n2. Atendimento online (mais barato)\n3. Acompanhamento de 3 meses\n\n### Principais Dificuldades\n- Conversão: pessoas somem após receber os valores via WhatsApp\n- Timidez para aparecer em vídeos\n- Sem CRM ou sistema de reativação de leads\n\n### Próximos Passos\n- Reunião para entrega do plano de ação (quarta-feira)\n- Plano focado no \"percurso do paciente\"\n- Estratégias de fidelização e conversão\n- Possível indicação das colegas nutricionistas da clínica",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-18925e0a-a78e-48bf-88c4-a1c0ded78c1c",
+      "type": "meeting",
+      "titulo": "Aula Lucas IA",
+      "data": "2026-06-05",
+      "perfil": "divarebel.on",
+      "conteudo": "## Aula Lucas — Como Usar IA no Dia a Dia (Agência Rugido)\n\n**Data:** 05 de junho de 2026\n**Tipo:** Aula ao vivo / treinamento de equipe aberto para alunos\n\n### Por que Migrou do Claude para o Codex (GPT-5.5)\n- Testou GPT-5.5 após muitas pessoas falarem bem\n- Cancelou plano de R$100 do Claude\n- Para criação de copy, a ferramenta importa menos que as skills\n\n### Redução da Folha de Pagamento\n- Agosto 2025: R$134.000/mês\n- Junho 2026: R$56.000/mês (projetado)\n- Mesmo volume e qualidade de entrega — com IA substituindo funções\n\n### As 3 Funções que Sobrevivem à IA\n1. **Gestor de Jornada de Compra** — orquestrador que gerencia a jornada de compra de ponta a ponta\n2. **Desenvolvedor** — cria aplicações complexas (banco de dados, segurança, pode ser vendida)\n3. **Vendedor B2B** — venda de produtos/serviços complexos, nunca será substituída\n\n### Profissões que Acabaram\n- Designer → IA cria thumbnails e páginas melhores que designers de R$3-5k\n- Copywriter → IA já é melhor que 99% dos copywriters mediocres\n- Gestor de tráfego → só gerenciar anúncios nunca teve valor real\n- Social mídia genérico → posts carrossel genéricos serão feitos por IA\n\n### Engenharia de Contexto (4 Níveis)\n1. Chat direto com contexto na conversa\n2. Projeto no Claude com documentos anexados\n3. Cloud Code acessando pasta do computador\n4. **Índice/Wiki** — IA lê um mapa de conhecimento e busca fichas resumidas\n\n### Infraestrutura de IA da Rugido\n- Automação: extrai 25 conversas importantes do WhatsApp a cada 2 horas\n- Transcreve áudios automaticamente\n- Indexa tudo em uma wiki de conhecimento\n- Codex acessa o índice para responder com contexto profundo\n\n### Resultados de Anúncios\n- Lead de live: R$6 (antes pagava R$15)\n- MQL (empresa fatura +R$30k): R$30-36\n- Lead de webinário: R$0,90",
+      "tags": [
+        "reunião",
+        "aula",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-dc4e9cc8-18b6-4204-a74f-d4fecbae6e74",
+      "type": "meeting",
+      "titulo": "Treinamento para Equipe",
+      "data": "2026-06-02",
+      "perfil": "divarebel.on",
+      "conteudo": "## Treinamento para Equipe\n\n**Data:** 02 de junho de 2026\n**Tipo:** Treinamento interno de equipe\n**Perfil:** @divarebel.on\n\n### Contexto\nTreinamento realizado para a equipe da Diva Rebel. Resumo completo não disponível no Granola.\n\n### Tópicos Prováveis\n- Processos e fluxos de trabalho\n- Uso de ferramentas (ClickUp, scripts, automações)\n- Padronização de atendimento\n- Estratégias de prospecção e conteúdo",
+      "tags": [
+        "reunião",
+        "treinamento",
+        "divarebel.on"
+      ],
+      "links": []
+    },
+    {
+      "id": "meeting-09c8b8a6-698f-4d3a-a813-822be5724795",
+      "type": "meeting",
+      "titulo": "Reunião — Dra. Marcele Azevedo (nutricionista)",
+      "data": "2026-05-29",
+      "perfil": "oficina_dro",
+      "conteudo": "## Reunião de Diagnóstico — Dra. Marcele Azevedo\n\n**Cliente:** Dra. Marcele Azevedo (nutricionista)\n**Data:** 29 de maio de 2026\n**Tipo:** Reunião de diagnóstico inicial\n\n### Contexto\nPrimeira reunião com a Dra. Marcele Azevedo. Reunião de diagnóstico para entender a situação atual e definir o plano de ação.\n\n### Perfil\n- Nutricionista atendendo pacientes\n- Início do processo de estruturação de marketing e vendas com a Oficina Dra\n\n### Metodologia Aplicada\n- Diagnóstico via Sistema PEP (Percurso Empresarial Previsível)\n- Mapeamento: canais de captação, processo comercial, ticket médio\n- Identificação de oportunidades de crescimento\n- Próximos passos para estruturação da presença digital",
+      "tags": [
+        "reunião",
+        "cliente",
+        "oficina_dro"
       ],
       "links": []
     },
