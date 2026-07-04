@@ -670,19 +670,62 @@ function renderGraph() {
     .filter(l => nodeById.has(l.source) && nodeById.has(l.target))
     .map(l => ({...l, source: l.source, target: l.target}));
 
+  // Centros dos clusters por tipo (frações da tela)
+  const CLUSTER = {
+    meeting:   { x: 0.22, y: 0.30 },
+    clickup:   { x: 0.68, y: 0.28 },
+    whatsapp:  { x: 0.20, y: 0.70 },
+    instagram: { x: 0.50, y: 0.78 },
+    content:   { x: 0.80, y: 0.68 },
+  };
+
   // Força
   simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(d => 120).strength(0.4))
-    .force('charge', d3.forceManyBody().strength(-280))
-    .force('center', d3.forceCenter(W/2, H/2))
-    .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius || 18) + 14))
-    .force('x', d3.forceX(W/2).strength(0.04))
-    .force('y', d3.forceY(H/2).strength(0.04));
+    .force('link', d3.forceLink(links).id(d => d.id).distance(100).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-220))
+    .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius || 18) + 12))
+    .force('cluster-x', d3.forceX(d => W * (CLUSTER[d.type]?.x || 0.5)).strength(0.14))
+    .force('cluster-y', d3.forceY(d => H * (CLUSTER[d.type]?.y || 0.5)).strength(0.14));
 
-  // Links
+  // Rótulos de setor no fundo (aparecem antes dos nós)
+  const SETOR_LABELS = [
+    { type: 'meeting',   label: 'Reuniões',    x: 0.22, y: 0.30 },
+    { type: 'clickup',   label: 'ClickUp',     x: 0.68, y: 0.28 },
+    { type: 'whatsapp',  label: 'WhatsApp',    x: 0.20, y: 0.70 },
+    { type: 'instagram', label: 'Instagram',   x: 0.50, y: 0.78 },
+    { type: 'content',   label: 'Conteúdo',    x: 0.80, y: 0.68 },
+  ];
+
+  const setorG = container.append('g').attr('class','setores');
+  SETOR_LABELS.forEach(s => {
+    const cfg = TIPOS[s.type];
+    // Círculo de área (fundo)
+    setorG.append('circle')
+      .attr('cx', W * s.x).attr('cy', H * s.y)
+      .attr('r', 110)
+      .attr('fill', (cfg?.cor || '#555') + '08')
+      .attr('stroke', (cfg?.cor || '#555') + '18')
+      .attr('stroke-width', 1)
+      .attr('stroke-dasharray', '4 4');
+    // Rótulo de texto
+    setorG.append('text')
+      .attr('x', W * s.x).attr('y', H * s.y - 95)
+      .attr('text-anchor', 'middle')
+      .attr('fill', (cfg?.cor || '#555') + '55')
+      .attr('font-size', '11px')
+      .attr('letter-spacing', '2px')
+      .attr('font-weight', '600')
+      .attr('text-transform', 'uppercase')
+      .text(s.label.toUpperCase());
+  });
+
+  // Links — cor por tipo
+  const COR_LINK = { pessoa: '#4a4a4a', sequencia: '#3a3a6a', conteudo: '#5a4a2a' };
+
   linkSel = container.append('g').selectAll('.link')
     .data(links).join('line')
-    .attr('class','link');
+    .attr('class','link')
+    .attr('stroke', d => COR_LINK[d.tipo] || '#2a2a2a');
 
   // Nós
   const nodeGroups = container.append('g').selectAll('.node-group')

@@ -80,43 +80,64 @@ function carregarGranola() {
 
 function criarConexoes(nodes) {
   const links = [];
-  const seen = new Set();
-  const addLink = (a, b, tipo) => {
-    const k = [a, b].sort().join('|');
-    if (seen.has(k)) return;
-    seen.add(k);
+  const vistos = new Set();
+
+  function addLink(a, b, tipo) {
+    const key = [a, b].sort().join('|');
+    if (vistos.has(key)) return;
+    vistos.add(key);
     links.push({ source: a, target: b, tipo });
-  };
+  }
 
-  // Agrupa por semana
-  const porSemana = {};
+  const STOPWORDS = new Set([
+    'canal','whatsapp','status','lista','perfil','abre','abrir','clickup',
+    'instagram','reunião','reuniao','encontro','inicio','início','projeto',
+    'follow','prospecção','prospeccao','atualização','atualizacao','ultima',
+    'última','data','semana','nome','diva','rebel','oficina','nutricionista',
+    'nutri','mentoria','aula','treinamento','homeschooling','central',
+    'campanha','smadvantage','social','media','infoproduto','hotmart',
+    'garantida','diagnóstico','diagnostico','passo','plano','ação','acao',
+    'cliente','contato','conversa','salvo',
+  ]);
+
+  function nomesProprios(texto) {
+    const palavras = (texto || '').match(/[A-ZÁÉÍÓÚÀÂÊÔÃÕÜ][a-záéíóúàâêôãõü]{3,}/g) || [];
+    return palavras
+      .map(p => p.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''))
+      .filter(p => !STOPWORDS.has(p));
+  }
+
+  const indicePorNome = {};
   nodes.forEach(n => {
-    const d = new Date(n.data);
-    const w = `${d.getFullYear()}-${Math.ceil((d.getDate() + new Date(d.getFullYear(), d.getMonth(), 1).getDay()) / 7)}`;
-    (porSemana[w] = porSemana[w] || []).push(n);
+    nomesProprios(n.titulo).forEach(nome => {
+      if (!indicePorNome[nome]) indicePorNome[nome] = [];
+      indicePorNome[nome].push(n);
+    });
   });
 
-  Object.values(porSemana).forEach(grupo => {
-    const reunioes  = grupo.filter(n => n.type === 'meeting');
-    const clickup   = grupo.filter(n => n.type === 'clickup');
-    const conteudo  = grupo.filter(n => n.type === 'content');
-
-    reunioes.forEach(r => {
-      clickup.slice(0, 3).forEach(c => addLink(r.id, c.id, 'semana'));
-      conteudo.slice(0, 2).forEach(c => addLink(r.id, c.id, 'semana'));
-    });
-    for (let i = 0; i < reunioes.length - 1; i++) addLink(reunioes[i].id, reunioes[i+1].id, 'sequencia');
+  Object.entries(indicePorNome).forEach(([, grupo]) => {
+    if (grupo.length < 2) return;
+    const tipos = new Set(grupo.map(n => n.type));
+    if (tipos.size < 2) return;
+    for (let i = 0; i < grupo.length; i++) {
+      for (let j = i + 1; j < grupo.length; j++) {
+        if (grupo[i].type !== grupo[j].type) addLink(grupo[i].id, grupo[j].id, 'pessoa');
+      }
+    }
   });
 
-  // CRM ↔ Reunião por nome
-  const reunioes = nodes.filter(n => n.type === 'meeting');
-  const crm = nodes.filter(n => n.type === 'clickup' && (n.tags.includes('CRM Oficina') || n.tags.includes('CRM DEVIL CHAT')));
-  reunioes.forEach(r => {
-    const nome = r.titulo.toLowerCase();
-    crm.forEach(c => {
-      const prim = c.titulo.toLowerCase().split(' ')[0];
-      if (prim.length > 3 && nome.includes(prim)) addLink(r.id, c.id, 'crm_match');
-    });
+  const reunioes = nodes
+    .filter(n => n.type === 'meeting')
+    .sort((a, b) => new Date(a.data) - new Date(b.data));
+  for (let i = 0; i < reunioes.length - 1; i++) {
+    addLink(reunioes[i].id, reunioes[i + 1].id, 'sequencia');
+  }
+
+  const instagram = nodes.filter(n => n.type === 'instagram');
+  const content   = nodes.filter(n => n.type === 'content');
+  instagram.forEach(ig => {
+    content.filter(c => c.perfil === ig.perfil).slice(0, 3)
+      .forEach(c => addLink(ig.id, c.id, 'conteudo'));
   });
 
   return links;
