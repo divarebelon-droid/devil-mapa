@@ -670,52 +670,115 @@ function renderGraph() {
     .filter(l => nodeById.has(l.source) && nodeById.has(l.target))
     .map(l => ({...l, source: l.source, target: l.target}));
 
-  // Centros dos clusters por tipo (frações da tela)
-  const CLUSTER = {
-    meeting:   { x: 0.22, y: 0.30 },
-    clickup:   { x: 0.68, y: 0.28 },
-    whatsapp:  { x: 0.20, y: 0.70 },
-    instagram: { x: 0.50, y: 0.78 },
-    content:   { x: 0.80, y: 0.68 },
-  };
+  // Posição de cluster por perfil + tipo (layout duas empresas)
+  function clusterPos(d) {
+    const isOficina = d.perfil === 'oficina_dro' || (d.type === 'whatsapp' && d.status === 'followup');
+    if (d.type === 'meeting')    return isOficina ? { x:0.20, y:0.30 } : { x:0.80, y:0.30 };
+    if (d.type === 'clickup')    return isOficina ? { x:0.22, y:0.60 } : { x:0.78, y:0.60 };
+    if (d.type === 'whatsapp')   return d.status === 'followup' ? { x:0.12, y:0.72 } : { x:0.88, y:0.72 };
+    if (d.type === 'instagram')  return { x:0.50, y:0.82 };
+    if (d.type === 'content')    return { x:0.50, y:0.35 };
+    return { x:0.50, y:0.50 };
+  }
 
   // Força
   simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(100).strength(0.5))
-    .force('charge', d3.forceManyBody().strength(-220))
+    .force('link', d3.forceLink(links).id(d => d.id).distance(90).strength(0.4))
+    .force('charge', d3.forceManyBody().strength(-200))
     .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius || 18) + 12))
-    .force('cluster-x', d3.forceX(d => W * (CLUSTER[d.type]?.x || 0.5)).strength(0.14))
-    .force('cluster-y', d3.forceY(d => H * (CLUSTER[d.type]?.y || 0.5)).strength(0.14));
+    .force('cluster-x', d3.forceX(d => W * (clusterPos(d).x)).strength(0.16))
+    .force('cluster-y', d3.forceY(d => H * (clusterPos(d).y)).strength(0.16));
 
-  // Rótulos de setor no fundo (aparecem antes dos nós)
+  // ── Zonas de empresa (fundo) ──────────────────────────────────────
+  const zonaG = container.append('g').attr('class','zonas');
+
+  // Zona Oficina Dro (esquerda)
+  zonaG.append('rect')
+    .attr('x', 0).attr('y', 0)
+    .attr('width', W * 0.47).attr('height', H)
+    .attr('fill', '#c0392b05')
+    .attr('stroke', '#c0392b12').attr('stroke-width', 1);
+
+  // Separador central
+  zonaG.append('line')
+    .attr('x1', W*0.5).attr('y1', 50)
+    .attr('x2', W*0.5).attr('y2', H)
+    .attr('stroke', '#ffffff08').attr('stroke-width', 1)
+    .attr('stroke-dasharray', '6 8');
+
+  // Zona Diva Rebel (direita)
+  zonaG.append('rect')
+    .attr('x', W * 0.53).attr('y', 0)
+    .attr('width', W * 0.47).attr('height', H)
+    .attr('fill', '#9b59b605')
+    .attr('stroke', '#9b59b612').attr('stroke-width', 1);
+
+  // Labels das empresas
+  zonaG.append('text')
+    .attr('x', W * 0.23).attr('y', 80)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#c0392b40')
+    .attr('font-size', '13px')
+    .attr('letter-spacing', '4px')
+    .attr('font-weight', '700')
+    .text('OFICINA DRO');
+
+  zonaG.append('text')
+    .attr('x', W * 0.23).attr('y', 96)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#c0392b28')
+    .attr('font-size', '10px')
+    .attr('letter-spacing', '2px')
+    .text('clientes · nutricionistas');
+
+  zonaG.append('text')
+    .attr('x', W * 0.77).attr('y', 80)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#9b59b640')
+    .attr('font-size', '13px')
+    .attr('letter-spacing', '4px')
+    .attr('font-weight', '700')
+    .text('DIVA REBEL');
+
+  zonaG.append('text')
+    .attr('x', W * 0.77).attr('y', 96)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#9b59b628')
+    .attr('font-size', '10px')
+    .attr('letter-spacing', '2px')
+    .text('social medias · educação');
+
+  // ── Rótulos de sub-setor (círculos tracejados) ────────────────────
   const SETOR_LABELS = [
-    { type: 'meeting',   label: 'Reuniões',    x: 0.22, y: 0.30 },
-    { type: 'clickup',   label: 'ClickUp',     x: 0.68, y: 0.28 },
-    { type: 'whatsapp',  label: 'WhatsApp',    x: 0.20, y: 0.70 },
-    { type: 'instagram', label: 'Instagram',   x: 0.50, y: 0.78 },
-    { type: 'content',   label: 'Conteúdo',    x: 0.80, y: 0.68 },
+    // OFICINA
+    { type:'meeting',   label:'Reuniões',    x:0.20, y:0.30 },
+    { type:'clickup',   label:'ClickUp',     x:0.22, y:0.60 },
+    { type:'whatsapp',  label:'Atendimento', x:0.12, y:0.72 },
+    // DIVA REBEL
+    { type:'meeting',   label:'Aulas',       x:0.80, y:0.30 },
+    { type:'clickup',   label:'ClickUp',     x:0.78, y:0.60 },
+    { type:'whatsapp',  label:'Prospecção',  x:0.88, y:0.72 },
+    // CENTRO
+    { type:'instagram', label:'Instagram',   x:0.50, y:0.82 },
   ];
 
   const setorG = container.append('g').attr('class','setores');
   SETOR_LABELS.forEach(s => {
     const cfg = TIPOS[s.type];
-    // Círculo de área (fundo)
     setorG.append('circle')
       .attr('cx', W * s.x).attr('cy', H * s.y)
-      .attr('r', 110)
-      .attr('fill', (cfg?.cor || '#555') + '08')
-      .attr('stroke', (cfg?.cor || '#555') + '18')
+      .attr('r', 90)
+      .attr('fill', (cfg?.cor || '#555') + '07')
+      .attr('stroke', (cfg?.cor || '#555') + '20')
       .attr('stroke-width', 1)
-      .attr('stroke-dasharray', '4 4');
-    // Rótulo de texto
+      .attr('stroke-dasharray', '4 5');
     setorG.append('text')
-      .attr('x', W * s.x).attr('y', H * s.y - 95)
+      .attr('x', W * s.x).attr('y', H * s.y - 76)
       .attr('text-anchor', 'middle')
-      .attr('fill', (cfg?.cor || '#555') + '55')
-      .attr('font-size', '11px')
+      .attr('fill', (cfg?.cor || '#555') + '50')
+      .attr('font-size', '10px')
       .attr('letter-spacing', '2px')
       .attr('font-weight', '600')
-      .attr('text-transform', 'uppercase')
       .text(s.label.toUpperCase());
   });
 
