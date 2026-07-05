@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-05T11:18:24.325Z",
-  "totalNodes": 2138,
-  "totalLinks": 2126,
+  "geradoEm": "2026-07-05T12:38:31.124Z",
+  "totalNodes": 2139,
+  "totalLinks": 2127,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -2971,24 +2971,6 @@
       "links": []
     },
     {
-      "id": "sg-901316452690-revis-o-texto",
-      "type": "status_group",
-      "titulo": "revisão texto",
-      "data": "2026-07-05",
-      "perfil": "90138228562",
-      "cor": "var(--cu-status-neon-blue)",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "parentId": "lista-901316452690",
-      "count": 8,
-      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 8",
-      "tags": [
-        "status",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901316452690-em-an-lise",
       "type": "status_group",
       "titulo": "em análise",
@@ -3003,6 +2985,42 @@
       "tags": [
         "status",
         "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316452690-revis-o-texto",
+      "type": "status_group",
+      "titulo": "revisão texto",
+      "data": "2026-07-05",
+      "perfil": "90138228562",
+      "cor": "var(--cu-status-neon-blue)",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "parentId": "lista-901316452690",
+      "count": 6,
+      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 6",
+      "tags": [
+        "status",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316452690-revis-o-design",
+      "type": "status_group",
+      "titulo": "revisão design",
+      "data": "2026-07-05",
+      "perfil": "90138228562",
+      "cor": "#e606b5",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "parentId": "lista-901316452690",
+      "count": 2,
+      "conteudo": "**revisão design**\n\nLista: Conteúdo\nTarefas: 2",
+      "tags": [
+        "status",
+        "revisão design"
       ],
       "links": []
     },
@@ -4888,29 +4906,11 @@
       "listId": "901315882544",
       "listaNodeId": "lista-901315882544",
       "parentId": "lista-901315882544",
-      "count": 2,
-      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 2",
+      "count": 3,
+      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 3",
       "tags": [
         "status",
         "em análise"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901315882544-programado",
-      "type": "status_group",
-      "titulo": "programado",
-      "data": "2026-07-05",
-      "perfil": "90138131603",
-      "cor": "var(--cu-status-red)",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "parentId": "lista-901315882544",
-      "count": 3,
-      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 3",
-      "tags": [
-        "status",
-        "programado"
       ],
       "links": []
     },
@@ -4929,6 +4929,24 @@
       "tags": [
         "status",
         "revisão design"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901315882544-programado",
+      "type": "status_group",
+      "titulo": "programado",
+      "data": "2026-07-05",
+      "perfil": "90138131603",
+      "cor": "var(--cu-status-red)",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "parentId": "lista-901315882544",
+      "count": 2,
+      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 2",
+      "tags": [
+        "status",
+        "programado"
       ],
       "links": []
     },
@@ -12619,42 +12637,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj92v5g",
-      "type": "clickup",
-      "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
-      "data": "2026-06-28",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão texto\n\n\n**Descrição:**\n# Slide 01(Print de pagamento recebido e contrato assinado)\n## Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.\n\n* * *\n\n# Slide 02\nA maioria das nutricionistas acredita que basta fazer conteúdos ou anúncios para conseguir mais pacientes.\nMas quando alguém chama no WhatsApp...\n• pergunta o preço;\n• desaparece;\n• não agenda;\n• ou nunca mais responde.\nO problema quase nunca é a falta de divulgação.\nNa maioria das vezes, a empresa simplesmente não está preparada para transformar interesse em pacientes.\n\n* * *\n\n# Slide 03\nAntes de tentar atrair mais pacientes, responda estas 5 perguntas:\n1. A maioria dos seus pacientes vem por indicação ou são amigos?\n2. Você tem um processo definido para atender alguém que entra em contato?\n3. Você possui um CRM para acompanhar pac\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj92ucy",
-      "type": "clickup",
-      "titulo": "A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.",
-      "data": "2026-06-28",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão texto\n\n\n**Descrição:**\n# Slide 01(Não adicionar foto)\n## **A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n* * *\n\n# Slide 02\nMuita gente acredita que basta fazer uma trend da Copa para atrair pacientes.\nOutras pensam que é só criar uma comunidade no WhatsApp.\nOu fazer um sorteio.\nOu postar receitas temáticas.\nMas nenhuma dessas ações cria pacientes por si só.\nO que faz diferença é o que acontece **depois que a pessoa demonstra interesse.**\n\n* * *\n\n# Slide 03 (Adicionar imagem da estratégia desenhada na lousa, mas precisa por um efeito levemente embaçado no que estiver desenhado na lousa)\nFoi exatamente por isso que, antes de pensar em qualquer conteúdo da Copa, eu desenhei uma estratégia para uma cliente nutricionista.\nA ideia nunca foi fazer um post \n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj939a7",
       "type": "clickup",
       "titulo": "Stories segunda",
@@ -12813,6 +12795,42 @@
       "tags": [
         "Conteúdo",
         "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92v5g",
+      "type": "clickup",
+      "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
+      "data": "2026-07-05",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-design",
+      "parentId": "sg-901316452690-revis-o-design",
+      "status": "revisão design",
+      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão design\n\n\n**Descrição:**\n# Slide 01(Print de pagamento recebido e contrato assinado)\n## Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.\n\n* * *\n\n# Slide 02\nA maioria das nutricionistas acredita que basta fazer conteúdos ou anúncios para conseguir mais pacientes.\nMas quando alguém chama no WhatsApp...\n• pergunta o preço;\n• desaparece;\n• não agenda;\n• ou nunca mais responde.\nO problema quase nunca é a falta de divulgação.\nNa maioria das vezes, a empresa simplesmente não está preparada para transformar interesse em pacientes.\n\n* * *\n\n# Slide 03\nAntes de tentar atrair mais pacientes, responda estas 5 perguntas:\n1. A maioria dos seus pacientes vem por indicação ou são amigos?\n2. Você tem um processo definido para atender alguém que entra em contato?\n3. Você possui um CRM para acompanhar pac\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
+      "tags": [
+        "Conteúdo",
+        "revisão design"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92ucy",
+      "type": "clickup",
+      "titulo": "A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.",
+      "data": "2026-07-05",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-design",
+      "parentId": "sg-901316452690-revis-o-design",
+      "status": "revisão design",
+      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** revisão design\n\n\n**Descrição:**\n# Slide 01(Não adicionar foto)\n## **A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n* * *\n\n# Slide 02\nMuita gente acredita que basta fazer uma trend da Copa para atrair pacientes.\nOutras pensam que é só criar uma comunidade no WhatsApp.\nOu fazer um sorteio.\nOu postar receitas temáticas.\nMas nenhuma dessas ações cria pacientes por si só.\nO que faz diferença é o que acontece **depois que a pessoa demonstra interesse.**\n\n* * *\n\n# Slide 03 (Adicionar imagem da estratégia desenhada na lousa, mas precisa por um efeito levemente embaçado no que estiver desenhado na lousa)\nFoi exatamente por isso que, antes de pensar em qualquer conteúdo da Copa, eu desenhei uma estratégia para uma cliente nutricionista.\nA ideia nunca foi fazer um post \n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
+      "tags": [
+        "Conteúdo",
+        "revisão design"
       ],
       "links": []
     },
@@ -18919,60 +18937,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj92xc2",
-      "type": "clickup",
-      "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜",
-      "data": "2026-06-29",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-programado",
-      "parentId": "sg-901315882544-programado",
-      "status": "programado",
-      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n## Slide 1( Adicionar print da venda feita por link de pagamento)\n# Gol de sorte ou estratégia?\n### O que a Copa pode ensinar sobre conseguir clientes ➜\n\n* * *\n\n## Slide 2 (Adicionar print do contrato assinado)\nMuita gente assiste ao jogo e acha que tudo acontece nos 90 minutos.\nMas quem trabalha com futebol sabe que o jogo começa muito antes.\nO adversário é estudado.\nOs pontos fracos são analisados.\nA estratégia é montada.\nNa prospecção acontece exatamente a mesma coisa.\n**E é por isso que ficar comprando pack de mensagens de prospecção, na maioria das vezes, não dá resultado.**\n\n* * *\n\n## Slide 3 (Adicionar print do sistema PEP)\nO erro da maioria dos social medias não está no texto da prospecção.\nEstá no que acontece **antes** dela e não ter um sistema de prospecção.\nEnquanto muitos saem\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj92ycq",
-      "type": "clickup",
-      "titulo": "A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.",
-      "data": "2026-06-29",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-programado",
-      "parentId": "sg-901315882544-programado",
-      "status": "programado",
-      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n# Slide 1( Headline centralizada, não adiciona imagem)\n# A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.\n➡️ E começar a ter reuniões quase todos os dias.\n\n* * *\n\n## Slide 2\nDurante muito tempo eu achei que precisava comprar aqueles packs de mensagens de prospecção.\nSabe aqueles textos prontos que prometem uma taxa enorme de resposta?\nEu copiava.\nColava.\nMudava uma palavra ou outra.\nPorque alguém dizia que tinha funcionado.\nE eu acreditava que o problema era encontrar a mensagem perfeita.\nMas as empresas continuavam ignorando minhas mensagens.\nPorque ninguém responde uma mensagem só porque ela foi bem escrita.\n\n* * *\n\n## Slide 3 (Print da aula acontecendo)\nA mudança aconteceu quando eu parei de prospectar igual todo mundo.\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj931mx",
-      "type": "clickup",
-      "titulo": "Descubra como prospectar clientes como social media e fazer os leads responderem você.",
-      "data": "2026-06-29",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-programado",
-      "parentId": "sg-901315882544-programado",
-      "status": "programado",
-      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n## Slide 1 (Adicionar minha foto fazendo reunião com a cliente)\n## Descubra como prospectar clientes como social media e fazer os leads responderem você.\n➡️Em prospecção por WhatsApp\n\n* * *\n\n## Slide 2\nQuando falam em prospecção, quase todo social media pensa imediatamente na mensagem.\n\"Qual script usar?\"\n\"Qual a primeira frase?\"\n\"Como chamar atenção?\"\nSó que existe uma etapa que quase ninguém faz antes disso.\nE é justamente ela que determina se o lead vai responder... ou simplesmente ignorar sua mensagem.\n\n* * *\n\n## Slide 3\n**Salve este post.**\nAntes de tentar prospectar qualquer lead, responda estas perguntas:\n• Como vou despertar curiosidade logo no primeiro contato?\n• O que consigo perceber na empresa que o lead ainda não sabe?\n• O que vou fazer esse lead descobrir de novo?\n• Como essa\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj939bq",
       "type": "clickup",
       "titulo": "Stories terça",
@@ -19095,6 +19059,60 @@
       "tags": [
         "Conteúdo",
         "revisão design"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92ycq",
+      "type": "clickup",
+      "titulo": "A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.",
+      "data": "2026-07-05",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-programado",
+      "parentId": "sg-901315882544-programado",
+      "status": "programado",
+      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n# Slide 1( Headline centralizada, não adiciona imagem)\n# A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.\n➡️ E começar a ter reuniões quase todos os dias.\n\n* * *\n\n## Slide 2\nDurante muito tempo eu achei que precisava comprar aqueles packs de mensagens de prospecção.\nSabe aqueles textos prontos que prometem uma taxa enorme de resposta?\nEu copiava.\nColava.\nMudava uma palavra ou outra.\nPorque alguém dizia que tinha funcionado.\nE eu acreditava que o problema era encontrar a mensagem perfeita.\nMas as empresas continuavam ignorando minhas mensagens.\nPorque ninguém responde uma mensagem só porque ela foi bem escrita.\n\n* * *\n\n## Slide 3 (Print da aula acontecendo)\nA mudança aconteceu quando eu parei de prospectar igual todo mundo.\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
+      "tags": [
+        "Conteúdo",
+        "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj931mx",
+      "type": "clickup",
+      "titulo": "Descubra como prospectar clientes como social media e fazer os leads responderem você.",
+      "data": "2026-07-05",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-programado",
+      "parentId": "sg-901315882544-programado",
+      "status": "programado",
+      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n## Slide 1 (Adicionar minha foto fazendo reunião com a cliente)\n## Descubra como prospectar clientes como social media e fazer os leads responderem você.\n➡️Em prospecção por WhatsApp\n\n* * *\n\n## Slide 2\nQuando falam em prospecção, quase todo social media pensa imediatamente na mensagem.\n\"Qual script usar?\"\n\"Qual a primeira frase?\"\n\"Como chamar atenção?\"\nSó que existe uma etapa que quase ninguém faz antes disso.\nE é justamente ela que determina se o lead vai responder... ou simplesmente ignorar sua mensagem.\n\n* * *\n\n## Slide 3\n**Salve este post.**\nAntes de tentar prospectar qualquer lead, responda estas perguntas:\n• Como vou despertar curiosidade logo no primeiro contato?\n• O que consigo perceber na empresa que o lead ainda não sabe?\n• O que vou fazer esse lead descobrir de novo?\n• Como essa\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
+      "tags": [
+        "Conteúdo",
+        "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92xc2",
+      "type": "clickup",
+      "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜",
+      "data": "2026-07-05",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-em-an-lise",
+      "parentId": "sg-901315882544-em-an-lise",
+      "status": "em análise",
+      "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** em análise\n\n\n**Descrição:**\n## Slide 1( Adicionar print da venda feita por link de pagamento)\n# Gol de sorte ou estratégia?\n### O que a Copa pode ensinar sobre conseguir clientes ➜\n\n* * *\n\n## Slide 2 (Adicionar print do contrato assinado)\nMuita gente assiste ao jogo e acha que tudo acontece nos 90 minutos.\nMas quem trabalha com futebol sabe que o jogo começa muito antes.\nO adversário é estudado.\nOs pontos fracos são analisados.\nA estratégia é montada.\nNa prospecção acontece exatamente a mesma coisa.\n**E é por isso que ficar comprando pack de mensagens de prospecção, na maioria das vezes, não dá resultado.**\n\n* * *\n\n## Slide 3 (Adicionar print do sistema PEP)\nO erro da maioria dos social medias não está no texto da prospecção.\nEstá no que acontece **antes** dela e não ter um sistema de prospecção.\nEnquanto muitos saem\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
+      "tags": [
+        "Conteúdo",
+        "em análise"
       ],
       "links": []
     },
@@ -37651,7 +37669,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-nr6k3",
+      "id": "ig-divarebel.on-ot33y",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-05",
@@ -38600,12 +38618,17 @@
     },
     {
       "source": "lista-901316452690",
+      "target": "sg-901316452690-em-an-lise",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316452690",
       "target": "sg-901316452690-revis-o-texto",
       "tipo": "hierarquia"
     },
     {
       "source": "lista-901316452690",
-      "target": "sg-901316452690-em-an-lise",
+      "target": "sg-901316452690-revis-o-design",
       "tipo": "hierarquia"
     },
     {
@@ -39135,12 +39158,12 @@
     },
     {
       "source": "lista-901315882544",
-      "target": "sg-901315882544-programado",
+      "target": "sg-901315882544-revis-o-design",
       "tipo": "hierarquia"
     },
     {
       "source": "lista-901315882544",
-      "target": "sg-901315882544-revis-o-design",
+      "target": "sg-901315882544-programado",
       "tipo": "hierarquia"
     },
     {
@@ -41279,16 +41302,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86aj92v5g",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86aj92ucy",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901316452690-em-an-lise",
       "target": "clickup-86aj939a7",
       "tipo": "hierarquia"
@@ -41331,6 +41344,16 @@
     {
       "source": "sg-901316452690-revis-o-texto",
       "target": "clickup-86ajc669j",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-design",
+      "target": "clickup-86aj92v5g",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-design",
+      "target": "clickup-86aj92ucy",
       "tipo": "hierarquia"
     },
     {
@@ -43029,21 +43052,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901315882544-programado",
-      "target": "clickup-86aj92xc2",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-programado",
-      "target": "clickup-86aj92ycq",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-programado",
-      "target": "clickup-86aj931mx",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901315882544-em-an-lise",
       "target": "clickup-86aj939bq",
       "tipo": "hierarquia"
@@ -43076,6 +43084,21 @@
     {
       "source": "sg-901315882544-revis-o-design",
       "target": "clickup-86ajck9rk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-programado",
+      "target": "clickup-86aj92ycq",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-programado",
+      "target": "clickup-86aj931mx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-em-an-lise",
+      "target": "clickup-86aj92xc2",
       "tipo": "hierarquia"
     },
     {
@@ -48320,7 +48343,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-nr6k3",
+      "target": "ig-divarebel.on-ot33y",
       "tipo": "externo"
     },
     {
