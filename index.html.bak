@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DEVIL â€” Grafo de Conhecimento</title>
+<title>DEVIL — Grafo de Conhecimento</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -17,7 +17,7 @@
     width: 100vw;
   }
 
-  /* â”€â”€ Header â”€â”€ */
+  /* ── Header ── */
   #header {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -58,7 +58,7 @@
 
   #header .stat-item span { color: #888; }
 
-  /* â”€â”€ Filtros â”€â”€ */
+  /* ── Filtros ── */
   #filters {
     position: fixed;
     top: 58px;
@@ -93,7 +93,7 @@
     flex-shrink: 0;
   }
 
-  /* â”€â”€ Grafo â”€â”€ */
+  /* ── Grafo ── */
   #graph {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -131,7 +131,7 @@
 
   .node-group:hover .node-label { fill: #bbb; }
 
-  /* â”€â”€ Painel lateral â”€â”€ */
+  /* ── Painel lateral ── */
   #panel {
     position: fixed;
     top: 50px; right: 0; bottom: 0;
@@ -268,7 +268,7 @@
   #panel-body strong { color: #bbb; font-weight: 600; }
   #panel-body p { margin-bottom: 8px; }
 
-  /* â”€â”€ Tooltip â”€â”€ */
+  /* ── Tooltip ── */
   #tooltip {
     position: fixed;
     pointer-events: none;
@@ -283,12 +283,12 @@
     max-width: 200px;
   }
 
-  /* â”€â”€ Scrollbar â”€â”€ */
+  /* ── Scrollbar ── */
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 2px; }
 
-  /* â”€â”€ BotÃ£o refresh â”€â”€ */
+  /* ── Botão refresh ── */
   #btn-refresh {
     position: fixed;
     bottom: 20px;
@@ -319,7 +319,7 @@
   <span class="subtitle">Grafo de Conhecimento</span>
   <div class="stats">
     <div class="stat-item"><span id="stat-nodes">0</span> eventos</div>
-    <div class="stat-item"><span id="stat-links">0</span> conexÃµes</div>
+    <div class="stat-item"><span id="stat-links">0</span> conexões</div>
     <div class="stat-item" id="stat-date" style="color:#c0392b"></div>
   </div>
 </div>
@@ -332,7 +332,7 @@
   </div>
   <div class="filter-btn active" data-type="espaco" onclick="toggleFilter(this)">
     <div class="filter-dot" style="background:#a855f7;border-radius:3px"></div>
-    EspaÃ§os
+    Espaços
   </div>
   <div class="filter-btn active" data-type="pasta" onclick="toggleFilter(this)">
     <div class="filter-dot" style="background:#f59e0b;border-radius:3px"></div>
@@ -342,13 +342,9 @@
     <div class="filter-dot" style="background:#38bdf8;border-radius:3px"></div>
     Listas
   </div>
-  <div class="filter-btn active" data-type="status_group" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#64748b;border-radius:50%"></div>
-    Status
-  </div>
   <div class="filter-btn active" data-type="meeting" onclick="toggleFilter(this)">
     <div class="filter-dot" style="background:#bf5af2"></div>
-    ReuniÃµes
+    Reuniões
   </div>
   <div class="filter-btn active" data-type="whatsapp" onclick="toggleFilter(this)">
     <div class="filter-dot" style="background:#30d158"></div>
@@ -360,7 +356,7 @@
   </div>
   <div class="filter-btn active" data-type="content" onclick="toggleFilter(this)">
     <div class="filter-dot" style="background:#ff9f0a"></div>
-    ConteÃºdo
+    Conteúdo
   </div>
 </div>
 
@@ -380,32 +376,32 @@
   <div id="panel-header">
     <div id="panel-icon"></div>
     <div id="panel-meta">
-      <div id="panel-title">â€”</div>
-      <div id="panel-type">â€”</div>
-      <div id="panel-date">â€”</div>
+      <div id="panel-title">—</div>
+      <div id="panel-type">—</div>
+      <div id="panel-date">—</div>
     </div>
-    <button id="panel-close" onclick="closePanel()">âœ•</button>
+    <button id="panel-close" onclick="closePanel()">✕</button>
   </div>
   <div id="panel-tags"></div>
   <div id="panel-body"></div>
 </div>
 
 <!-- Refresh -->
-<button id="btn-refresh" onclick="refreshData()">â†» Atualizar</button>
+<button id="btn-refresh" onclick="refreshData()">↻ Atualizar</button>
 
 <script>
-// â”€â”€ PosiÃ§Ãµes fixas dos espaÃ§os (Oficina esquerda, Diva Rebel direita) â”€â”€
+// ── Posições fixas dos espaços (Oficina esquerda, Diva Rebel direita) ──
 const ESPACO_POSICAO = {
   'espaco-oficina': { fxRatio: 0.22 },
   'espaco-diva':    { fxRatio: 0.78 },
 };
 
-// â”€â”€ ConfiguraÃ§Ã£o de cores e Ã­cones por tipo â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Configuração de cores e ícones por tipo ─────────────────────────
 const TIPOS = {
   espaco: {
-    cor: '#a855f7',  // serÃ¡ sobrescrito por n.cor
+    cor: '#a855f7',  // será sobrescrito por n.cor
     bgPanel: 'rgba(168,85,247,0.18)',
-    label: 'EspaÃ§o',
+    label: 'Espaço',
     radius: 48,
     icon: (size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>`,
   },
@@ -423,17 +419,10 @@ const TIPOS = {
     radius: 18,
     icon: (size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="3" cy="6" r="1" fill="white"/><circle cx="3" cy="12" r="1" fill="white"/><circle cx="3" cy="18" r="1" fill="white"/></svg>`,
   },
-  status_group: {
-    cor: '#64748b',   // sobrescrito por n.cor (cor do status do ClickUp)
-    bgPanel: 'rgba(100,116,139,0.15)',
-    label: 'Status',
-    radius: 13,
-    icon: (size) => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><polyline points="9 12 11 14 15 10"/></svg>`,
-  },
   meeting: {
     cor: '#bf5af2',
     bgPanel: 'rgba(191,90,242,0.15)',
-    label: 'ReuniÃ£o',
+    label: 'Reunião',
     radius: 16,
     icon: (size) => iconMeeting(size),
   },
@@ -461,13 +450,13 @@ const TIPOS = {
   content: {
     cor: '#ff9f0a',
     bgPanel: 'rgba(255,159,10,0.1)',
-    label: 'ConteÃºdo',
+    label: 'Conteúdo',
     radius: 12,
     icon: (size) => iconContent(size),
   },
 };
 
-// â”€â”€ Ãcones SVG inline por tipo â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Ícones SVG inline por tipo ───────────────────────────────────────
 function iconMeeting(s) {
   return `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
     <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
@@ -503,12 +492,12 @@ function iconContent(s) {
   </svg>`;
 }
 
-// â”€â”€ Estado â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Estado ───────────────────────────────────────────────────────────
 let allNodes = [], allLinks = [];
-let activeFilters = new Set(['espaco','pasta','lista','status_group','meeting','instagram','whatsapp','clickup','content']);
+let activeFilters = new Set(['espaco','pasta','lista','meeting','instagram','whatsapp','clickup','content']);
 let simulation, svgEl, linkSel, nodeSel;
 
-// â”€â”€ Carregar dados â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Carregar dados ───────────────────────────────────────────────────
 async function loadData() {
   try {
     const resp = await fetch('./graph-data.json?v=' + Date.now());
@@ -525,7 +514,7 @@ async function loadData() {
     renderGraph();
   } catch(e) {
     console.error('Erro ao carregar dados:', e);
-    // Renderiza com dados mÃ­nimos de exemplo
+    // Renderiza com dados mínimos de exemplo
     allNodes = [
       { id:'demo1', type:'meeting', titulo:'Carregando dados...', data: new Date().toISOString().split('T')[0], conteudo: 'Inicie o servidor e tente novamente.', tags:[], links:[] },
     ];
@@ -534,7 +523,7 @@ async function loadData() {
   }
 }
 
-// â”€â”€ Filtros â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Filtros ──────────────────────────────────────────────────────────
 function toggleFilter(btn) {
   const type = btn.dataset.type;
   if (type === 'all') {
@@ -566,7 +555,7 @@ function updateVisibility() {
 
   nodeSel.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
 
-  // IDs dos nÃ³s visÃ­veis
+  // IDs dos nós visíveis
   const visibleIds = new Set(allNodes.filter(n => activeFilters.has(n.type)).map(n => n.id));
   linkSel.attr('opacity', d => {
     const src = typeof d.source === 'object' ? d.source.id : d.source;
@@ -575,7 +564,7 @@ function updateVisibility() {
   });
 }
 
-// â”€â”€ Render principal â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Render principal ─────────────────────────────────────────────────
 function renderGraph() {
   const svg = d3.select('#svg');
   svg.selectAll('*').remove();
@@ -583,7 +572,7 @@ function renderGraph() {
   const W = window.innerWidth;
   const H = window.innerHeight;
 
-  // Defs â€” gradientes e filtros de glow
+  // Defs — gradientes e filtros de glow
   const defs = svg.append('defs');
 
   // Gradiente Instagram
@@ -609,42 +598,35 @@ function renderGraph() {
     .on('zoom', e => container.attr('transform', e.transform))
   );
 
-  // Prepara links (deep copy para nÃ£o mutar allLinks)
+  // Prepara links (deep copy para não mutar allLinks)
   const nodes = allNodes.map(d => ({...d}));
   const nodeById = new Map(nodes.map(n => [n.id, n]));
   const links = allLinks
     .filter(l => nodeById.has(l.source) && nodeById.has(l.target))
     .map(l => ({...l, source: l.source, target: l.target}));
 
-  // Mapas de hierarquia para forÃ§as de clustering
+  // Mapas de hierarquia para forças de clustering
   const nodeById2 = new Map(nodes.map(n => [n.id, n]));
 
-  // NÃ­vel hierÃ¡rquico por tipo (maior = mais profundo)
-  const NIVEL = { espaco:0, pasta:1, lista:2, status_group:3, clickup:4,
-                  meeting:4, whatsapp:4, instagram:4, content:4 };
-
-  // Pai imediato de cada nÃ³ â€” usa campo parentId se disponÃ­vel, senÃ£o detecta pelo link
+  // Pai imediato de cada nó (para força de atração)
   const parentOf = new Map();
-  nodes.forEach(n => { if (n.parentId) parentOf.set(n.id, n.parentId); });
   links.forEach(l => {
     const src = typeof l.source === 'object' ? l.source.id : l.source;
     const tgt = typeof l.target === 'object' ? l.target.id : l.target;
-    // Se ainda nÃ£o tem pai definido, usa o nÃ³ de nÃ­vel menor como pai
-    if (!parentOf.has(tgt) && !parentOf.has(src)) {
+    if (l.tipo === 'hierarquia') {
+      // src é o pai, tgt é o filho
       const srcNode = nodeById2.get(src);
       const tgtNode = nodeById2.get(tgt);
       if (srcNode && tgtNode) {
-        const ns = NIVEL[srcNode.type] ?? 5;
-        const nt = NIVEL[tgtNode.type] ?? 5;
-        if (ns < nt) parentOf.set(tgt, src);
-        else parentOf.set(src, tgt);
+        const nivelPai = ['espaco','pasta','lista'].indexOf(srcNode.type);
+        const nivelFilho = ['espaco','pasta','lista','clickup','meeting','whatsapp','content','instagram'].indexOf(tgtNode.type);
+        if (nivelPai >= 0 && nivelFilho > nivelPai) parentOf.set(tgt, src);
+        else parentOf.set(src, tgt); // fallback: o menor é filho
       }
-    } else if (!parentOf.has(tgt)) {
-      parentOf.set(tgt, src);
     }
   });
 
-  // Fixar espaÃ§os Ã  esquerda e direita
+  // Fixar espaços à esquerda e direita
   nodes.forEach(n => {
     if (n.type === 'espaco') {
       const pos = ESPACO_POSICAO[n.id];
@@ -659,7 +641,7 @@ function renderGraph() {
     }
   });
 
-  // PosiÃ§Ã£o inicial: cada nÃ³ nasce perto do seu pai
+  // Posição inicial: cada nó nasce perto do seu pai
   nodes.forEach(n => {
     if (n.x && n.y) return;
     const paiId = parentOf.get(n.id);
@@ -675,86 +657,79 @@ function renderGraph() {
     }
   });
 
-  // ForÃ§a de clustering: cada nÃ³ Ã© puxado em direÃ§Ã£o ao seu pai
+  // Força de clustering: cada nó é puxado para o seu pai
   function forceCluster() {
-    const forcaPorTipo = {
-      pasta: 0.22, lista: 0.20, status_group: 0.25,
-      clickup: 0.20, meeting: 0.10, whatsapp: 0.10, content: 0.10, instagram: 0.10
-    };
+    const forcaPorNivel = { pasta: 0.20, lista: 0.18, clickup: 0.15,
+                            meeting: 0.08, whatsapp: 0.08, content: 0.08, instagram: 0.08 };
     return function(alpha) {
       nodes.forEach(n => {
         if (n.type === 'espaco') return;
         const paiId = parentOf.get(n.id);
         const pai = paiId && nodeById2.get(paiId);
-        if (!pai || !pai.x) return;
-        const k = (forcaPorTipo[n.type] || 0.12) * alpha;
+        if (!pai) return;
+        const k = (forcaPorNivel[n.type] || 0.10) * alpha;
         n.vx += (pai.x - n.x) * k;
         n.vy += (pai.y - n.y) * k;
       });
     };
   }
 
-  // Separador: Oficina Ã  esquerda (22%), Diva Rebel Ã  direita (78%)
+  // Separador vertical: empurra nós da Oficina para a esquerda e Diva para direita
   function forceLado() {
     return function(alpha) {
+      const midX = W / 2;
       nodes.forEach(n => {
         if (n.type === 'espaco') return;
-        const isOfi = n.perfil === 'oficina_dro'
-          || (n.id && (n.id.includes('-ofi-') || n.id.includes('ofi')));
+        // Determinar lado pelo perfil
+        const isOfi = n.perfil === 'oficina_dro' || (n.id && n.id.includes('ofi'));
         const alvo = isOfi ? W * 0.22 : W * 0.78;
-        n.vx += (alvo - n.x) * 0.012 * alpha;
+        n.vx += (alvo - n.x) * 0.015 * alpha;
       });
     };
   }
 
+  // Força
   simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id)
       .distance(d => {
         const s = nodeById2.get(typeof d.source==='object'?d.source.id:d.source);
         const t = nodeById2.get(typeof d.target==='object'?d.target.id:d.target);
-        if (!s || !t) return 70;
-        if (s.type==='espaco'  || t.type==='espaco')        return 120;
-        if (s.type==='pasta'   || t.type==='pasta')         return 85;
-        if (s.type==='lista'   || t.type==='lista')         return 55;
-        if (s.type==='status_group'||t.type==='status_group') return 40;
-        return 35; // tarefaâ†â†’status
+        if (!s || !t) return 80;
+        if (s.type==='espaco'||t.type==='espaco') return 110;
+        if (s.type==='pasta'||t.type==='pasta') return 80;
+        if (s.type==='lista'||t.type==='lista') return 60;
+        return 50;
       })
-      .strength(d => (d.tipo==='hierarquia'||d.tipo==='externo') ? 0.65 : 0.15))
+      .strength(d => d.tipo==='hierarquia' ? 0.6 : 0.2))
     .force('charge', d3.forceManyBody().strength(d => {
-      if (d.type==='espaco')       return -900;
-      if (d.type==='pasta')        return -350;
-      if (d.type==='lista')        return -180;
-      if (d.type==='status_group') return -80;
-      return -45;
+      if (d.type==='espaco') return -800;
+      if (d.type==='pasta')  return -300;
+      if (d.type==='lista')  return -150;
+      return -60;
     }))
-    .force('collision', d3.forceCollide(d => {
-      const r = TIPOS[d.type]?.radius || 11;
-      if (d.type==='espaco')       return r + 60;
-      if (d.type==='pasta')        return r + 32;
-      if (d.type==='lista')        return r + 22;
-      if (d.type==='status_group') return r + 14;
-      return r + 8;
-    }))
+    .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius||11) + (
+      d.type==='espaco' ? 55 : d.type==='pasta' ? 30 : d.type==='lista' ? 20 : 10
+    )))
     .force('cluster', forceCluster())
     .force('lado', forceLado())
-    .force('center', d3.forceCenter(W/2, H/2).strength(0.008));
+    .force('center', d3.forceCenter(W/2, H/2).strength(0.01));
 
   // Links
   linkSel = container.append('g').selectAll('.link')
     .data(links).join('line')
     .attr('class','link');
 
-  // NÃ³s
+  // Nós
   const nodeGroups = container.append('g').selectAll('.node-group')
     .data(nodes).join('g')
     .attr('class','node-group')
     .call(d3.drag()
-      .filter(d => d.type !== 'espaco')  // espaÃ§os sÃ£o fixos
+      .filter(d => d.type !== 'espaco')  // espaços são fixos
       .on('start', (e,d) => { if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
       .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
       .on('end',   (e,d) => {
         if(!e.active) simulation.alphaTarget(0);
-        // espaÃ§os sempre voltam Ã  posiÃ§Ã£o fixa
+        // espaços sempre voltam à posição fixa
         const pos = ESPACO_POSICAO[d.id];
         if (pos) { d.fx = W * pos.fxRatio; d.fy = H/2; }
         else { d.fx=null; d.fy=null; }
@@ -767,14 +742,14 @@ function renderGraph() {
 
   nodeSel = nodeGroups;
 
-  // Cor real do nÃ³ (usa cor individual se disponÃ­vel)
+  // Cor real do nó (usa cor individual se disponível)
   function nodeCor(d) {
     if (d.cor) return d.cor;
     if (d.type === 'instagram') return 'url(#grad-instagram)';
     return TIPOS[d.type]?.cor || '#666';
   }
 
-  // Anel externo para espaÃ§os e pastas
+  // Anel externo para espaços e pastas
   nodeGroups.filter(d => d.type === 'espaco' || d.type === 'pasta').append('circle')
     .attr('r', d => (TIPOS[d.type]?.radius || 28) + (d.type === 'espaco' ? 18 : 10))
     .attr('fill', 'none')
@@ -784,7 +759,7 @@ function renderGraph() {
     .attr('opacity', 0.45)
     .attr('class', 'hub-ring');
 
-  // CÃ­rculo de fundo (glow)
+  // Círculo de fundo (glow)
   nodeGroups.append('circle')
     .attr('r', d => {
       const r = TIPOS[d.type]?.radius || 11;
@@ -793,7 +768,7 @@ function renderGraph() {
     .attr('fill', d => nodeCor(d) + (d.type==='espaco'?'35':d.type==='pasta'?'28':'18'))
     .attr('class', 'node-glow');
 
-  // CÃ­rculo principal
+  // Círculo principal
   nodeGroups.append('circle')
     .attr('class', 'node-circle')
     .attr('r', d => TIPOS[d.type]?.radius || 11)
@@ -802,7 +777,7 @@ function renderGraph() {
     .attr('stroke-width', d => d.type==='espaco' ? 3 : d.type==='pasta' ? 2.5 : 1.5)
     .attr('filter', d => ['espaco','pasta'].includes(d.type) ? `url(#glow-${d.type})` : null);
 
-  // Ãcone SVG via foreignObject
+  // Ícone SVG via foreignObject
   nodeGroups.each(function(d) {
     const r = TIPOS[d.type]?.radius || 18;
     const iconSize = Math.floor(r * 0.85);
@@ -825,7 +800,7 @@ function renderGraph() {
     if (iconFn) div.html(iconFn(iconSize * 0.7));
   });
 
-  // Label abaixo do nÃ³
+  // Label abaixo do nó
   nodeGroups.append('text')
     .attr('class','node-label')
     .attr('y', d => {
@@ -876,7 +851,7 @@ function renderGraph() {
   updateVisibility();
 }
 
-// â”€â”€ Highlight ao clicar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Highlight ao clicar ──────────────────────────────────────────────
 function highlightNode(selected, links, nodeGroups) {
   const connectedIds = new Set([selected.id]);
   links.forEach(l => {
@@ -904,7 +879,7 @@ function clearHighlight(nodeGroups) {
   linkSel.classed('highlighted', false).attr('stroke-opacity', 0.6);
 }
 
-// â”€â”€ Painel lateral â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Painel lateral ───────────────────────────────────────────────────
 function openPanel(d) {
   const cfg = TIPOS[d.type] || { cor:'#555', label:'Evento', bgPanel:'rgba(80,80,80,0.1)', icon: () => '' };
 
@@ -933,7 +908,7 @@ function closePanel() {
   panel.style.top = '';
 }
 
-// â”€â”€ Painel arrastÃ¡vel â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Painel arrastável ────────────────────────────────────────────────
 (function() {
   let dragging = false, startX, startY, startLeft, startTop;
 
@@ -943,7 +918,7 @@ function closePanel() {
     const panel = document.getElementById('panel');
     if (!panel.classList.contains('open')) return;
 
-    // Se ainda nÃ£o Ã© flutuante, captura posiÃ§Ã£o atual e muda para floating
+    // Se ainda não é flutuante, captura posição atual e muda para floating
     if (!panel.classList.contains('floating')) {
       const rect = panel.getBoundingClientRect();
       panel.style.left = rect.left + 'px';
@@ -976,7 +951,7 @@ function closePanel() {
   document.addEventListener('mouseup', () => { dragging = false; });
 })();
 
-// â”€â”€ Tooltip â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Tooltip ──────────────────────────────────────────────────────────
 function showTooltip(e, d) {
   const tt = document.getElementById('tooltip');
   const cfg = TIPOS[d.type] || { label:'Evento' };
@@ -997,10 +972,10 @@ function hideTooltip() {
   document.getElementById('tooltip').style.display = 'none';
 }
 
-// â”€â”€ UtilitÃ¡rios â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Utilitários ──────────────────────────────────────────────────────
 function truncate(str, n) {
   if (!str) return '';
-  return str.length > n ? str.slice(0, n-1) + 'â€¦' : str;
+  return str.length > n ? str.slice(0, n-1) + '…' : str;
 }
 
 function formatDate(iso) {
@@ -1060,7 +1035,7 @@ function markdownToHtml(md) {
       continue;
     }
 
-    // ParÃ¡grafo normal
+    // Parágrafo normal
     if (inList) { html += '</ul>'; inList = false; }
     html += `<p style="margin:0 0 6px;line-height:1.6">${formatInline(line)}</p>`;
   }
@@ -1079,12 +1054,12 @@ function formatInline(text) {
 
 async function refreshData() {
   const btn = document.getElementById('btn-refresh');
-  btn.textContent = 'â†» Atualizando...';
+  btn.textContent = '↻ Atualizando...';
   try {
     await fetch('/refresh');
     await loadData();
   } catch(e) { await loadData(); }
-  btn.textContent = 'â†» Atualizar';
+  btn.textContent = '↻ Atualizar';
 }
 
 // Redimensionar
@@ -1097,4 +1072,3 @@ loadData();
 </script>
 </body>
 </html>
-
