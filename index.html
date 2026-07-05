@@ -298,6 +298,77 @@
   }
 
   #btn-refresh:hover { border-color: #444; color: #aaa; }
+
+  /* Busca */
+  #search-wrap {
+    position: fixed;
+    top: 58px; right: 16px;
+    z-index: 150;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  #search-box {
+    background: rgba(20,20,20,0.95);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 7px 12px 7px 36px;
+    font-size: 12px;
+    color: #ddd;
+    width: 220px;
+    outline: none;
+    transition: border-color 0.15s, width 0.2s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+
+  #search-box::placeholder { color: #555; }
+  #search-box:focus { border-color: #555; width: 280px; }
+
+  #search-results {
+    background: rgba(14,14,14,0.97);
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    width: 280px;
+    max-height: 320px;
+    overflow-y: auto;
+    display: none;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  }
+
+  #search-results.visible { display: block; }
+
+  .sr-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #1a1a1a;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.1s;
+  }
+
+  .sr-item:last-child { border-bottom: none; }
+  .sr-item:hover { background: rgba(255,255,255,0.05); }
+
+  .sr-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .sr-title { font-size: 11px; color: #ccc; flex: 1; }
+  .sr-type  { font-size: 10px; color: #555; }
+
+  #search-count {
+    font-size: 10px;
+    color: #555;
+    padding: 6px 12px;
+    border-bottom: 1px solid #1a1a1a;
+  }
 </style>
 </head>
 <body>
@@ -350,6 +421,12 @@
     <div class="filter-dot" style="background:#ff9f0a"></div>
     Conte&uacute;do
   </div>
+</div>
+
+<!-- Busca -->
+<div id="search-wrap">
+  <input id="search-box" type="text" placeholder="Buscar por nome..." oninput="onSearch(this.value)" onkeydown="onSearchKey(event)" autocomplete="off">
+  <div id="search-results"></div>
 </div>
 
 <div id="graph"><svg id="svg"></svg></div>
@@ -768,6 +845,95 @@ async function refreshData(){
 
 window.addEventListener('resize',function(){
   if(simulation)simulation.force('center',d3.forceCenter(window.innerWidth/2,window.innerHeight/2)).alpha(0.3).restart();
+});
+
+// ── Busca ────────────────────────────────────────────────────────────
+var searchResults = [];
+var searchIdx = -1;
+
+function onSearch(q) {
+  var box = document.getElementById('search-results');
+  q = (q || '').trim().toLowerCase();
+  if (q.length < 2) { box.classList.remove('visible'); box.innerHTML = ''; searchResults = []; return; }
+
+  var termos = q.split(/\s+/);
+  searchResults = allNodes.filter(function(n) {
+    var hay = ((n.titulo||'') + ' ' + (n.conteudo||'') + ' ' + (n.tags||[]).join(' ')).toLowerCase();
+    return termos.every(function(t) { return hay.includes(t); });
+  }).slice(0, 40);
+
+  if (searchResults.length === 0) {
+    box.innerHTML = '<div style="padding:10px 12px;font-size:11px;color:#555">Nenhum resultado encontrado.</div>';
+    box.classList.add('visible');
+    return;
+  }
+
+  var html = '<div id="search-count">'+searchResults.length+' resultado'+(searchResults.length>1?'s':'')+'</div>';
+  searchResults.forEach(function(n, i) {
+    var cfg = TIPOS[n.type] || {cor:'#666', label:'?'};
+    html += '<div class="sr-item" onclick="goToNode(\''+n.id+'\')" data-idx="'+i+'">'
+      + '<div class="sr-dot" style="background:'+cfg.cor+'"></div>'
+      + '<span class="sr-title">'+escHtml(n.titulo)+'</span>'
+      + '<span class="sr-type">'+cfg.label+'</span>'
+      + '</div>';
+  });
+  box.innerHTML = html;
+  box.classList.add('visible');
+  searchIdx = -1;
+}
+
+function onSearchKey(e) {
+  var items = document.querySelectorAll('.sr-item');
+  if (e.key === 'ArrowDown') { searchIdx = Math.min(searchIdx+1, items.length-1); highlightSR(items); e.preventDefault(); }
+  else if (e.key === 'ArrowUp') { searchIdx = Math.max(searchIdx-1, 0); highlightSR(items); e.preventDefault(); }
+  else if (e.key === 'Enter') { if (searchIdx >= 0 && searchResults[searchIdx]) goToNode(searchResults[searchIdx].id); }
+  else if (e.key === 'Escape') { clearSearch(); }
+}
+
+function highlightSR(items) {
+  items.forEach(function(it, i) { it.style.background = i === searchIdx ? 'rgba(255,255,255,0.08)' : ''; });
+  if (items[searchIdx]) items[searchIdx].scrollIntoView({block:'nearest'});
+}
+
+function goToNode(id) {
+  var svgEl = document.getElementById('svg');
+  var container = d3.select('#container');
+  var nodeData = d3.selectAll('.node-group').data().find(function(d) { return d.id === id; });
+  if (!nodeData) return;
+
+  // Centralizar no no usando zoom
+  var W = window.innerWidth, H = window.innerHeight;
+  var scale = 2.2;
+  var tx = W/2 - scale * nodeData.x;
+  var ty = H/2 - scale * nodeData.y;
+
+  d3.select('#svg').transition().duration(700)
+    .call(d3.zoom().transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+
+  // Abrir painel e destacar
+  openPanel(nodeData);
+  d3.selectAll('.node-group').attr('opacity', function(d) { return d.id === id ? 1 : 0.15; });
+
+  clearSearch();
+}
+
+function clearSearch() {
+  document.getElementById('search-box').value = '';
+  var box = document.getElementById('search-results');
+  box.classList.remove('visible');
+  box.innerHTML = '';
+  searchResults = [];
+}
+
+function escHtml(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// Fechar busca ao clicar fora
+document.addEventListener('click', function(e) {
+  if (!document.getElementById('search-wrap').contains(e.target)) {
+    document.getElementById('search-results').classList.remove('visible');
+  }
 });
 
 loadData();
