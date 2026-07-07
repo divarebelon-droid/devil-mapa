@@ -711,7 +711,10 @@ function renderGraph() {
     .style('font-size',function(d){return d.type==='espaco'?'14px':d.type==='pasta'?'12px':d.type==='lista'?'11px':null;})
     .style('font-weight',function(d){return ['espaco','pasta'].includes(d.type)?'700':d.type==='lista'?'600':null;})
     .style('fill',function(d){return d.cor||null;})
-    .text(function(d){return ['espaco','pasta'].includes(d.type)?trunc(d.titulo,30):trunc(d.titulo,22);});
+    .text(function(d){
+      if(['whatsapp','clickup','status_group','instagram','content','meeting'].includes(d.type)) return '';
+      return ['espaco','pasta'].includes(d.type)?trunc(d.titulo,30):trunc(d.titulo,22);
+    });
 
   nodeGroups
     .on('mouseenter.s',function(e,d){
@@ -794,7 +797,8 @@ function closePanel() {
 
 function showTooltip(e,d){
   var tt=document.getElementById('tooltip'), cfg=TIPOS[d.type]||{label:'Evento',cor:'#666'};
-  tt.innerHTML='<strong style="color:'+cfg.cor+'">'+cfg.label+'</strong><br>'+d.titulo;
+  var nome = ['whatsapp'].includes(d.type) ? '' : ('<br>'+d.titulo);
+  tt.innerHTML='<strong style="color:'+cfg.cor+'">'+cfg.label+'</strong>'+nome;
   tt.style.display='block'; moveTooltip(e);
 }
 function moveTooltip(e){
