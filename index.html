@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DEVIL — Grafo de Conhecimento</title>
+<title>DEVIL &mdash; Grafo de Conhecimento</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -17,7 +17,6 @@
     width: 100vw;
   }
 
-  /* ── Header ── */
   #header {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -58,7 +57,6 @@
 
   #header .stat-item span { color: #888; }
 
-  /* ── Filtros ── */
   #filters {
     position: fixed;
     top: 58px;
@@ -93,7 +91,6 @@
     flex-shrink: 0;
   }
 
-  /* ── Grafo ── */
   #graph {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -115,10 +112,7 @@
   }
 
   .node-group { cursor: pointer; }
-
-  .node-circle {
-    transition: r 0.2s ease, filter 0.2s ease;
-  }
+  .node-circle { transition: r 0.2s ease, filter 0.2s ease; }
 
   .node-label {
     font-size: 10px;
@@ -131,7 +125,6 @@
 
   .node-group:hover .node-label { fill: #bbb; }
 
-  /* ── Painel lateral ── */
   #panel {
     position: fixed;
     top: 50px; right: 0; bottom: 0;
@@ -268,7 +261,6 @@
   #panel-body strong { color: #bbb; font-weight: 600; }
   #panel-body p { margin-bottom: 8px; }
 
-  /* ── Tooltip ── */
   #tooltip {
     position: fixed;
     pointer-events: none;
@@ -283,12 +275,10 @@
     max-width: 200px;
   }
 
-  /* ── Scrollbar ── */
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 2px; }
 
-  /* ── Botão refresh ── */
   #btn-refresh {
     position: fixed;
     bottom: 20px;
@@ -309,153 +299,139 @@
 
   #btn-refresh:hover { border-color: #444; color: #aaa; }
 
-  /* ── Busca ── */
+  /* Busca */
   #search-wrap {
-    position: relative;
+    position: fixed;
+    top: 58px; right: 16px;
+    z-index: 150;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
   }
 
-  #search-input {
-    background: rgba(30,30,30,0.95);
+  #search-box {
+    background: rgba(20,20,20,0.95);
     border: 1px solid #333;
     border-radius: 8px;
-    padding: 6px 12px 6px 32px;
+    padding: 7px 12px 7px 36px;
     font-size: 12px;
-    color: #ccc;
+    color: #ddd;
     width: 220px;
     outline: none;
     transition: border-color 0.15s, width 0.2s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 10px center;
   }
 
-  #search-input::placeholder { color: #444; }
-  #search-input:focus { border-color: #555; width: 260px; }
-
-  #search-icon {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #444;
-    font-size: 13px;
-    pointer-events: none;
-  }
+  #search-box::placeholder { color: #555; }
+  #search-box:focus { border-color: #555; width: 280px; }
 
   #search-results {
-    position: absolute;
-    top: calc(100% + 6px);
-    left: 0;
-    right: 0;
-    background: rgba(18,18,18,0.98);
-    border: 1px solid #333;
+    background: rgba(14,14,14,0.97);
+    border: 1px solid #2a2a2a;
     border-radius: 8px;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
-    overflow: hidden;
-    z-index: 500;
-    display: none;
-    max-height: 360px;
+    width: 280px;
+    max-height: 320px;
     overflow-y: auto;
+    display: none;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
   }
 
   #search-results.visible { display: block; }
 
-  .search-item {
+  .sr-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #1a1a1a;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 9px 14px;
-    cursor: pointer;
-    border-bottom: 1px solid #1e1e1e;
+    gap: 8px;
     transition: background 0.1s;
   }
 
-  .search-item:last-child { border-bottom: none; }
-  .search-item:hover { background: rgba(255,255,255,0.04); }
+  .sr-item:last-child { border-bottom: none; }
+  .sr-item:hover { background: rgba(255,255,255,0.05); }
 
-  .search-item-dot {
+  .sr-dot {
     width: 8px; height: 8px;
-    border-radius: 2px;
+    border-radius: 50%;
     flex-shrink: 0;
   }
 
-  .search-item-title {
-    font-size: 12px;
-    color: #bbb;
-    flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
+  .sr-title { font-size: 11px; color: #ccc; flex: 1; }
+  .sr-type  { font-size: 10px; color: #555; }
 
-  .search-item-type {
+  #search-count {
     font-size: 10px;
-    color: #444;
-    flex-shrink: 0;
-  }
-
-  .search-empty {
-    padding: 14px;
-    font-size: 12px;
-    color: #444;
-    text-align: center;
+    color: #555;
+    padding: 6px 12px;
+    border-bottom: 1px solid #1a1a1a;
   }
 </style>
 </head>
 <body>
 
-<!-- Header -->
 <div id="header">
-  <span class="logo">Diva Rebel.On</span>
+  <span class="logo">Devil</span>
   <span class="separator">|</span>
   <span class="subtitle">Grafo de Conhecimento</span>
-  <div id="search-wrap">
-    <span id="search-icon">⌕</span>
-    <input id="search-input" type="text" placeholder="Buscar por nome, tema, cliente…" autocomplete="off"
-      oninput="onSearch(this.value)" onfocus="onSearchFocus()" onblur="onSearchBlur()">
-    <div id="search-results"></div>
-  </div>
   <div class="stats">
     <div class="stat-item"><span id="stat-nodes">0</span> eventos</div>
-    <div class="stat-item"><span id="stat-links">0</span> conexões</div>
+    <div class="stat-item"><span id="stat-links">0</span> conex&otilde;es</div>
     <div class="stat-item" id="stat-date" style="color:#c0392b"></div>
   </div>
 </div>
 
-<!-- Filtros -->
 <div id="filters">
   <div class="filter-btn active" data-type="all" onclick="toggleFilter(this)">
     <div class="filter-dot" style="background:#555;border-radius:50%"></div>
     Todos
   </div>
-  <div class="filter-btn active" data-type="meeting" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#9b59b6"></div>
-    Reuniões
+  <div class="filter-btn active" data-type="espaco" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#a855f7;border-radius:3px"></div>
+    Espa&ccedil;os
   </div>
-  <div class="filter-btn active" data-type="instagram" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#e1306c"></div>
-    Instagram
+  <div class="filter-btn active" data-type="pasta" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#f59e0b;border-radius:3px"></div>
+    Pastas
+  </div>
+  <div class="filter-btn active" data-type="lista" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#38bdf8;border-radius:3px"></div>
+    Listas
+  </div>
+  <div class="filter-btn active" data-type="status_group" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#64748b;border-radius:50%"></div>
+    Status
+  </div>
+  <div class="filter-btn active" data-type="meeting" onclick="toggleFilter(this)">
+    <div class="filter-dot" style="background:#bf5af2"></div>
+    Reuni&otilde;es
   </div>
   <div class="filter-btn active" data-type="whatsapp" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#25d366"></div>
+    <div class="filter-dot" style="background:#30d158"></div>
     WhatsApp
   </div>
   <div class="filter-btn active" data-type="clickup" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#7b68ee"></div>
+    <div class="filter-dot" style="background:#6e6bfa"></div>
     ClickUp
   </div>
   <div class="filter-btn active" data-type="content" onclick="toggleFilter(this)">
-    <div class="filter-dot" style="background:#f39c12"></div>
-    Conteúdo
+    <div class="filter-dot" style="background:#ff9f0a"></div>
+    Conte&uacute;do
   </div>
 </div>
 
-<!-- Grafo SVG -->
-<div id="graph">
-  <svg id="svg"></svg>
+<!-- Busca -->
+<div id="search-wrap">
+  <input id="search-box" type="text" placeholder="Buscar por nome..." oninput="onSearch(this.value)" onkeydown="onSearchKey(event)" autocomplete="off">
+  <div id="search-results"></div>
 </div>
 
-<!-- Tooltip -->
+<div id="graph"><svg id="svg"></svg></div>
 <div id="tooltip"></div>
 
-<!-- Painel lateral -->
 <div id="panel">
   <div id="panel-drag-handle">
     <span></span><span></span><span></span><span></span><span></span><span></span>
@@ -463,729 +439,504 @@
   <div id="panel-header">
     <div id="panel-icon"></div>
     <div id="panel-meta">
-      <div id="panel-title">—</div>
-      <div id="panel-type">—</div>
-      <div id="panel-date">—</div>
+      <div id="panel-title">&#8212;</div>
+      <div id="panel-type">&#8212;</div>
+      <div id="panel-date">&#8212;</div>
     </div>
-    <button id="panel-close" onclick="closePanel()">✕</button>
+    <button id="panel-close" onclick="closePanel()">&#x2715;</button>
   </div>
   <div id="panel-tags"></div>
   <div id="panel-body"></div>
 </div>
 
-<!-- Refresh -->
-<button id="btn-refresh" onclick="refreshData()">↻ Recarregar</button>
-<div style="position:fixed;bottom:12px;left:50%;transform:translateX(-50%);font-size:10px;color:#333;letter-spacing:1px;z-index:10">DEVIL MAPA — CENTRO DE COMANDO IA</div>
+<button id="btn-refresh" onclick="refreshData()">&#8635; Atualizar</button>
 
 <script>
-// ── Configuração de cores e ícones por tipo ─────────────────────────
-const TIPOS = {
-  meeting: {
-    cor: '#9b59b6',
-    bgPanel: 'rgba(155,89,182,0.15)',
-    label: 'Reunião',
-    radius: 22,
-    svg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
-      <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
-    </svg>`,
-    icon: (size) => iconMeeting(size),
-  },
-  instagram: {
-    cor: '#e1306c',
-    bgPanel: 'rgba(225,48,108,0.12)',
-    label: 'Instagram',
-    radius: 20,
-    icon: (size) => iconInstagram(size),
-  },
-  whatsapp: {
-    cor: '#25d366',
-    bgPanel: 'rgba(37,211,102,0.1)',
-    label: 'WhatsApp',
-    radius: 18,
-    icon: (size) => iconWhatsApp(size),
-  },
-  clickup: {
-    cor: '#7b68ee',
-    bgPanel: 'rgba(123,104,238,0.12)',
-    label: 'ClickUp',
-    radius: 19,
-    icon: (size) => iconClickUp(size),
-  },
-  content: {
-    cor: '#f39c12',
-    bgPanel: 'rgba(243,156,18,0.1)',
-    label: 'Conteúdo',
-    radius: 17,
-    icon: (size) => iconContent(size),
-  },
+function calcEspacoPositions(espacoNodes, W, H) {
+  var n = espacoNodes.length;
+  if (n === 0) return;
+  var cols = n <= 3 ? n : n <= 6 ? 3 : 4;
+  var rows = Math.ceil(n / cols);
+  var mX = 0.13, mY = 0.15;
+  var stepX = cols > 1 ? (1 - 2*mX) / (cols-1) : 0;
+  var stepY = rows > 1 ? (1 - 2*mY) / (rows-1) : 0;
+  espacoNodes.forEach(function(e, i) {
+    var row = Math.floor(i / cols);
+    var col = i % cols;
+    var colsInRow = Math.min(cols, n - row * cols);
+    var offsetX = cols > 1 ? (cols - colsInRow) * stepX / 2 : 0;
+    e.fx = W * (mX + offsetX + col * stepX);
+    e.fy = H * (mY + row * stepY);
+    e.x  = e.fx;
+    e.y  = e.fy;
+  });
+}
+
+var TIPOS = {
+  espaco:       { cor:'#a855f7', bgPanel:'rgba(168,85,247,0.18)', label:'Espaco',    radius:48, icon:function(s){return icoEspaco(s);} },
+  pasta:        { cor:'#f59e0b', bgPanel:'rgba(245,158,11,0.15)', label:'Pasta',     radius:28, icon:function(s){return icoPasta(s);} },
+  lista:        { cor:'#38bdf8', bgPanel:'rgba(56,189,248,0.12)', label:'Lista',     radius:18, icon:function(s){return icoLista(s);} },
+  status_group: { cor:'#64748b', bgPanel:'rgba(100,116,139,0.15)',label:'Status',    radius:13, icon:function(s){return icoStatus(s);} },
+  meeting:      { cor:'#bf5af2', bgPanel:'rgba(191,90,242,0.15)', label:'Reuniao',   radius:16, icon:function(s){return icoMeeting(s);} },
+  instagram:    { cor:'#ff375f', bgPanel:'rgba(255,55,95,0.12)',  label:'Instagram', radius:14, icon:function(s){return icoInstagram(s);} },
+  whatsapp:     { cor:'#30d158', bgPanel:'rgba(48,209,88,0.1)',   label:'WhatsApp',  radius:13, icon:function(s){return icoWhatsApp(s);} },
+  clickup:      { cor:'#6e6bfa', bgPanel:'rgba(110,107,250,0.12)',label:'ClickUp',   radius:11, icon:function(s){return icoClickUp(s);} },
+  content:      { cor:'#ff9f0a', bgPanel:'rgba(255,159,10,0.1)', label:'Conteudo',  radius:12, icon:function(s){return icoContent(s);} },
 };
 
-// ── Ícones SVG inline por tipo ───────────────────────────────────────
-function iconMeeting(s) {
-  return `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
-    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-    <line x1="16" y1="2" x2="16" y2="6"/>
-    <line x1="8" y1="2" x2="8" y2="6"/>
-    <line x1="3" y1="10" x2="21" y2="10"/>
-  </svg>`;
-}
+function icoEspaco(s)   { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>'; }
+function icoPasta(s)    { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>'; }
+function icoLista(s)    { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="3" cy="6" r="1" fill="white"/><circle cx="3" cy="12" r="1" fill="white"/><circle cx="3" cy="18" r="1" fill="white"/></svg>'; }
+function icoStatus(s)   { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="9"/><polyline points="9 12 11 14 15 10"/></svg>'; }
+function icoMeeting(s)  { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>'; }
+function icoInstagram(s){ return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="white" stroke="none"/></svg>'; }
+function icoWhatsApp(s) { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>'; }
+function icoClickUp(s)  { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>'; }
+function icoContent(s)  { return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="white" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'; }
 
-function iconInstagram(s) {
-  return `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-    <circle cx="12" cy="12" r="4"/>
-    <circle cx="17.5" cy="6.5" r="0.5" fill="white" stroke="none"/>
-  </svg>`;
-}
+var allNodes = [], allLinks = [];
+var activeFilters = new Set(['espaco','pasta','lista','status_group','meeting','instagram','whatsapp','clickup','content']);
+var simulation, linkSel, nodeSel;
 
-function iconWhatsApp(s) {
-  return `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="white">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-  </svg>`;
-}
-
-function iconClickUp(s) {
-  return `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-  </svg>`;
-}
-
-function iconContent(s) {
-  return `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
-    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-  </svg>`;
-}
-
-// ── Estado ───────────────────────────────────────────────────────────
-let allNodes = [], allLinks = [];
-let activeFilters = new Set(['meeting','instagram','whatsapp','clickup','content']);
-let simulation, svgEl, linkSel, nodeSel, zoomBehavior;
-
-// ── Carregar dados ───────────────────────────────────────────────────
 async function loadData() {
   try {
-    const resp = await fetch('./graph-data.json?v=' + Date.now());
-    const data = await resp.json();
+    var resp;
+    try { resp = await fetch('/data'); if (!resp.ok) throw new Error('no'); }
+    catch(_) { resp = await fetch('./graph-data.json?v=' + Date.now()); }
+    var data = await resp.json();
     allNodes = data.nodes || [];
     allLinks = data.links || [];
-
     document.getElementById('stat-nodes').textContent = allNodes.length;
     document.getElementById('stat-links').textContent = allLinks.length;
-
-    const hoje = new Date().toLocaleDateString('pt-BR', { day:'2-digit', month:'short' });
+    var hoje = new Date().toLocaleDateString('pt-BR', { day:'2-digit', month:'short' });
     document.getElementById('stat-date').textContent = hoje;
-
     renderGraph();
   } catch(e) {
-    console.error('Erro ao carregar dados:', e);
-    // Renderiza com dados mínimos de exemplo
-    allNodes = [
-      { id:'demo1', type:'meeting', titulo:'Carregando dados...', data: new Date().toISOString().split('T')[0], conteudo: 'Inicie o servidor e tente novamente.', tags:[], links:[] },
-    ];
+    allNodes = [{ id:'d1', type:'meeting', titulo:'Erro ao carregar', data: new Date().toISOString().split('T')[0], conteudo:'Servidor offline.', tags:[], links:[] }];
     allLinks = [];
     renderGraph();
   }
 }
 
-// ── Filtros ──────────────────────────────────────────────────────────
 function toggleFilter(btn) {
-  const type = btn.dataset.type;
+  var type = btn.dataset.type;
   if (type === 'all') {
-    const shouldActivate = activeFilters.size < Object.keys(TIPOS).length;
-    if (shouldActivate) {
-      activeFilters = new Set(Object.keys(TIPOS));
-    } else {
-      activeFilters.clear();
-    }
-    document.querySelectorAll('.filter-btn:not([data-type="all"])').forEach(b => {
-      b.classList.toggle('active', shouldActivate);
-    });
+    var all = activeFilters.size < Object.keys(TIPOS).length;
+    activeFilters = all ? new Set(Object.keys(TIPOS)) : new Set();
+    document.querySelectorAll('.filter-btn:not([data-type="all"])').forEach(function(b) { b.classList.toggle('active', all); });
   } else {
-    if (activeFilters.has(type)) {
-      activeFilters.delete(type);
-      btn.classList.remove('active');
-    } else {
-      activeFilters.add(type);
-      btn.classList.add('active');
-    }
-    const allBtn = document.querySelector('[data-type="all"]');
-    allBtn.classList.toggle('active', activeFilters.size === Object.keys(TIPOS).length);
+    if (activeFilters.has(type)) { activeFilters.delete(type); btn.classList.remove('active'); }
+    else { activeFilters.add(type); btn.classList.add('active'); }
+    document.querySelector('[data-type="all"]').classList.toggle('active', activeFilters.size === Object.keys(TIPOS).length);
   }
   updateVisibility();
 }
 
 function updateVisibility() {
   if (!nodeSel || !linkSel) return;
-
-  nodeSel.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
-
-  // IDs dos nós visíveis
-  const visibleIds = new Set(allNodes.filter(n => activeFilters.has(n.type)).map(n => n.id));
-  linkSel.attr('opacity', d => {
-    const src = typeof d.source === 'object' ? d.source.id : d.source;
-    const tgt = typeof d.target === 'object' ? d.target.id : d.target;
-    return (visibleIds.has(src) && visibleIds.has(tgt)) ? 0.6 : 0.04;
+  nodeSel.attr('opacity', function(d) { return activeFilters.has(d.type) ? 1 : 0.08; });
+  var vis = new Set(allNodes.filter(function(n) { return activeFilters.has(n.type); }).map(function(n) { return n.id; }));
+  linkSel.attr('opacity', function(d) {
+    var s = typeof d.source === 'object' ? d.source.id : d.source;
+    var t = typeof d.target === 'object' ? d.target.id : d.target;
+    return (vis.has(s) && vis.has(t)) ? 0.6 : 0.04;
   });
 }
 
-// ── Render principal ─────────────────────────────────────────────────
 function renderGraph() {
-  const svg = d3.select('#svg');
+  var svg = d3.select('#svg');
   svg.selectAll('*').remove();
+  var W = window.innerWidth, H = window.innerHeight;
 
-  const W = window.innerWidth;
-  const H = window.innerHeight;
-
-  // Defs — gradientes e filtros de glow
-  const defs = svg.append('defs');
-
-  // Gradiente Instagram
-  const igGrad = defs.append('radialGradient').attr('id','grad-instagram');
-  igGrad.append('stop').attr('offset','0%').attr('stop-color','#f77737');
-  igGrad.append('stop').attr('offset','50%').attr('stop-color','#e1306c');
-  igGrad.append('stop').attr('offset','100%').attr('stop-color','#833ab4');
-
-  // Glow filter
-  Object.entries(TIPOS).forEach(([type, cfg]) => {
-    const filter = defs.append('filter').attr('id',`glow-${type}`);
-    filter.append('feGaussianBlur').attr('stdDeviation','4').attr('result','coloredBlur');
-    const merge = filter.append('feMerge');
-    merge.append('feMergeNode').attr('in','coloredBlur');
-    merge.append('feMergeNode').attr('in','SourceGraphic');
+  var defs = svg.append('defs');
+  var igG = defs.append('radialGradient').attr('id','grad-instagram');
+  igG.append('stop').attr('offset','0%').attr('stop-color','#f77737');
+  igG.append('stop').attr('offset','50%').attr('stop-color','#e1306c');
+  igG.append('stop').attr('offset','100%').attr('stop-color','#833ab4');
+  Object.keys(TIPOS).forEach(function(t) {
+    var f = defs.append('filter').attr('id','glow-'+t);
+    f.append('feGaussianBlur').attr('stdDeviation','4').attr('result','coloredBlur');
+    var m = f.append('feMerge');
+    m.append('feMergeNode').attr('in','coloredBlur');
+    m.append('feMergeNode').attr('in','SourceGraphic');
   });
 
-  // Container com zoom
-  const container = svg.append('g').attr('id','container');
+  var container = svg.append('g').attr('id','container');
+  svg.call(d3.zoom().scaleExtent([0.15,4]).on('zoom', function(e) { container.attr('transform', e.transform); }));
 
-  zoomBehavior = d3.zoom()
-    .scaleExtent([0.15, 4])
-    .on('zoom', e => container.attr('transform', e.transform));
-  svg.call(zoomBehavior);
+  var nodes = allNodes.map(function(d) { return Object.assign({}, d); });
+  var nb = new Map(nodes.map(function(n) { return [n.id, n]; }));
+  var links = allLinks.filter(function(l) { return nb.has(l.source) && nb.has(l.target); })
+                      .map(function(l) { return Object.assign({}, l); });
 
-  // Prepara links (deep copy para não mutar allLinks)
-  const nodes = allNodes.map(d => ({...d}));
-  const nodeById = new Map(nodes.map(n => [n.id, n]));
-  const links = allLinks
-    .filter(l => nodeById.has(l.source) && nodeById.has(l.target))
-    .map(l => ({...l, source: l.source, target: l.target}));
+  var NIVEL = { espaco:0, pasta:1, lista:2, status_group:3, clickup:4, meeting:4, whatsapp:4, instagram:4, content:4 };
 
-  // Posição de cluster por perfil + tipo (layout duas empresas)
-  function clusterPos(d) {
-    const isOficina = d.perfil === 'oficina_dro' || (d.type === 'whatsapp' && d.status === 'followup');
-    if (d.type === 'meeting')    return isOficina ? { x:0.20, y:0.30 } : { x:0.80, y:0.30 };
-    if (d.type === 'clickup')    return isOficina ? { x:0.22, y:0.60 } : { x:0.78, y:0.60 };
-    if (d.type === 'whatsapp')   return d.status === 'followup' ? { x:0.12, y:0.72 } : { x:0.88, y:0.72 };
-    if (d.type === 'instagram')  return { x:0.50, y:0.82 };
-    if (d.type === 'content')    return { x:0.50, y:0.35 };
-    return { x:0.50, y:0.50 };
+  var parentOf = new Map();
+  nodes.forEach(function(n) { if (n.parentId) parentOf.set(n.id, n.parentId); });
+  links.forEach(function(l) {
+    var s = typeof l.source==='object' ? l.source.id : l.source;
+    var t = typeof l.target==='object' ? l.target.id : l.target;
+    if (!parentOf.has(t) && !parentOf.has(s)) {
+      var sn = nb.get(s), tn = nb.get(t);
+      if (sn && tn) {
+        if ((NIVEL[sn.type]||5) < (NIVEL[tn.type]||5)) parentOf.set(t, s);
+        else parentOf.set(s, t);
+      }
+    } else if (!parentOf.has(t)) parentOf.set(t, s);
+  });
+
+  var espacoNodes = nodes.filter(function(n) { return n.type === 'espaco'; });
+  calcEspacoPositions(espacoNodes, W, H);
+  nodes.forEach(function(n) { if (n.type !== 'espaco') { delete n.fx; delete n.fy; } });
+
+  nodes.forEach(function(n) {
+    if (n.x && n.y) return;
+    var pai = parentOf.get(n.id) && nb.get(parentOf.get(n.id));
+    if (pai && pai.x) {
+      var a = Math.random() * 2 * Math.PI, r = (TIPOS[pai.type]||{radius:30}).radius;
+      n.x = pai.x + Math.cos(a) * (r + 40 + Math.random()*60);
+      n.y = pai.y + Math.sin(a) * (r + 40 + Math.random()*60);
+    } else { n.x = W/2 + (Math.random()-0.5)*400; n.y = H/2 + (Math.random()-0.5)*300; }
+  });
+
+  var nodeToEspaco = new Map();
+  function findEspaco(id, d) {
+    if (d > 10) return null;
+    if (nodeToEspaco.has(id)) return nodeToEspaco.get(id);
+    var n = nb.get(id); if (!n) return null;
+    if (n.type === 'espaco') { nodeToEspaco.set(id, id); return id; }
+    var p = parentOf.get(id); if (!p) return null;
+    var e = findEspaco(p, (d||0)+1);
+    nodeToEspaco.set(id, e); return e;
+  }
+  nodes.forEach(function(n) { findEspaco(n.id, 0); });
+
+  function forceCluster() {
+    var fp = { pasta:0.22, lista:0.20, status_group:0.25, clickup:0.20, meeting:0.10, whatsapp:0.10, content:0.10, instagram:0.10 };
+    return function(alpha) {
+      nodes.forEach(function(n) {
+        if (n.type === 'espaco') return;
+        var pai = parentOf.get(n.id) && nb.get(parentOf.get(n.id));
+        if (!pai || !pai.x) return;
+        var k = (fp[n.type] || 0.12) * alpha;
+        n.vx += (pai.x - n.x) * k; n.vy += (pai.y - n.y) * k;
+      });
+    };
   }
 
-  // Força
+  function forceTowardEspaco() {
+    return function(alpha) {
+      nodes.forEach(function(n) {
+        if (n.type === 'espaco') return;
+        var esp = nodeToEspaco.get(n.id) && nb.get(nodeToEspaco.get(n.id));
+        if (!esp || !esp.x) return;
+        n.vx += (esp.x - n.x) * 0.018 * alpha;
+        n.vy += (esp.y - n.y) * 0.018 * alpha;
+      });
+    };
+  }
+
   simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(90).strength(0.4))
-    .force('charge', d3.forceManyBody().strength(-200))
-    .force('collision', d3.forceCollide(d => (TIPOS[d.type]?.radius || 18) + 12))
-    .force('cluster-x', d3.forceX(d => W * (clusterPos(d).x)).strength(0.16))
-    .force('cluster-y', d3.forceY(d => H * (clusterPos(d).y)).strength(0.16));
+    .force('link', d3.forceLink(links).id(function(d){return d.id;})
+      .distance(function(d) {
+        var s=nb.get(typeof d.source==='object'?d.source.id:d.source);
+        var t=nb.get(typeof d.target==='object'?d.target.id:d.target);
+        if(!s||!t) return 70;
+        if(s.type==='espaco'||t.type==='espaco') return 120;
+        if(s.type==='pasta'||t.type==='pasta')   return 85;
+        if(s.type==='lista'||t.type==='lista')   return 55;
+        if(s.type==='status_group'||t.type==='status_group') return 40;
+        return 35;
+      }).strength(function(d){return (d.tipo==='hierarquia'||d.tipo==='externo')?0.65:0.15;}))
+    .force('charge', d3.forceManyBody().strength(function(d){
+      if(d.type==='espaco') return -900; if(d.type==='pasta') return -350;
+      if(d.type==='lista')  return -180; if(d.type==='status_group') return -80;
+      return -45;
+    }))
+    .force('collision', d3.forceCollide(function(d){
+      var r=(TIPOS[d.type]||{radius:11}).radius;
+      if(d.type==='espaco') return r+60; if(d.type==='pasta') return r+32;
+      if(d.type==='lista')  return r+22; if(d.type==='status_group') return r+14;
+      return r+8;
+    }))
+    .force('cluster', forceCluster())
+    .force('espaco',  forceTowardEspaco())
+    .force('center',  d3.forceCenter(W/2, H/2).strength(0.005));
 
-  // ── Zonas de empresa (fundo) ──────────────────────────────────────
-  const zonaG = container.append('g').attr('class','zonas');
+  linkSel = container.append('g').selectAll('.link').data(links).join('line').attr('class','link');
 
-  // Zona Oficina Dro (esquerda)
-  zonaG.append('rect')
-    .attr('x', 0).attr('y', 0)
-    .attr('width', W * 0.47).attr('height', H)
-    .attr('fill', '#c0392b05')
-    .attr('stroke', '#c0392b12').attr('stroke-width', 1);
-
-  // Separador central
-  zonaG.append('line')
-    .attr('x1', W*0.5).attr('y1', 50)
-    .attr('x2', W*0.5).attr('y2', H)
-    .attr('stroke', '#ffffff08').attr('stroke-width', 1)
-    .attr('stroke-dasharray', '6 8');
-
-  // Zona Diva Rebel (direita)
-  zonaG.append('rect')
-    .attr('x', W * 0.53).attr('y', 0)
-    .attr('width', W * 0.47).attr('height', H)
-    .attr('fill', '#9b59b605')
-    .attr('stroke', '#9b59b612').attr('stroke-width', 1);
-
-  // Labels das empresas
-  zonaG.append('text')
-    .attr('x', W * 0.23).attr('y', 80)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#c0392b40')
-    .attr('font-size', '13px')
-    .attr('letter-spacing', '4px')
-    .attr('font-weight', '700')
-    .text('OFICINA DRO');
-
-  zonaG.append('text')
-    .attr('x', W * 0.23).attr('y', 96)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#c0392b28')
-    .attr('font-size', '10px')
-    .attr('letter-spacing', '2px')
-    .text('clientes · nutricionistas');
-
-  zonaG.append('text')
-    .attr('x', W * 0.77).attr('y', 80)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#9b59b640')
-    .attr('font-size', '13px')
-    .attr('letter-spacing', '4px')
-    .attr('font-weight', '700')
-    .text('DIVA REBEL');
-
-  zonaG.append('text')
-    .attr('x', W * 0.77).attr('y', 96)
-    .attr('text-anchor', 'middle')
-    .attr('fill', '#9b59b628')
-    .attr('font-size', '10px')
-    .attr('letter-spacing', '2px')
-    .text('social medias · educação');
-
-  // ── Rótulos de sub-setor (círculos tracejados) ────────────────────
-  const SETOR_LABELS = [
-    // OFICINA
-    { type:'meeting',   label:'Reuniões',    x:0.20, y:0.30 },
-    { type:'clickup',   label:'ClickUp',     x:0.22, y:0.60 },
-    { type:'whatsapp',  label:'Atendimento', x:0.12, y:0.72 },
-    // DIVA REBEL
-    { type:'meeting',   label:'Aulas',       x:0.80, y:0.30 },
-    { type:'clickup',   label:'ClickUp',     x:0.78, y:0.60 },
-    { type:'whatsapp',  label:'Prospecção',  x:0.88, y:0.72 },
-    // CENTRO
-    { type:'instagram', label:'Instagram',   x:0.50, y:0.82 },
-  ];
-
-  const setorG = container.append('g').attr('class','setores');
-  SETOR_LABELS.forEach(s => {
-    const cfg = TIPOS[s.type];
-    setorG.append('circle')
-      .attr('cx', W * s.x).attr('cy', H * s.y)
-      .attr('r', 90)
-      .attr('fill', (cfg?.cor || '#555') + '07')
-      .attr('stroke', (cfg?.cor || '#555') + '20')
-      .attr('stroke-width', 1)
-      .attr('stroke-dasharray', '4 5');
-    setorG.append('text')
-      .attr('x', W * s.x).attr('y', H * s.y - 76)
-      .attr('text-anchor', 'middle')
-      .attr('fill', (cfg?.cor || '#555') + '50')
-      .attr('font-size', '10px')
-      .attr('letter-spacing', '2px')
-      .attr('font-weight', '600')
-      .text(s.label.toUpperCase());
-  });
-
-  // Links — cor por tipo
-  const COR_LINK = { pessoa: '#4a4a4a', sequencia: '#3a3a6a', conteudo: '#5a4a2a' };
-
-  linkSel = container.append('g').selectAll('.link')
-    .data(links).join('line')
-    .attr('class','link')
-    .attr('stroke', d => COR_LINK[d.tipo] || '#2a2a2a');
-
-  // Nós
-  const nodeGroups = container.append('g').selectAll('.node-group')
-    .data(nodes).join('g')
+  var nodeGroups = container.append('g').selectAll('.node-group').data(nodes).join('g')
     .attr('class','node-group')
     .call(d3.drag()
-      .on('start', (e,d) => { if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
-      .on('drag',  (e,d) => { d.fx=e.x; d.fy=e.y; })
-      .on('end',   (e,d) => { if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; })
-    )
-    .on('click', (e, d) => { e.stopPropagation(); openPanel(d); highlightNode(d); })
-    .on('mouseenter', (e, d) => showTooltip(e, d))
-    .on('mousemove',  (e) => moveTooltip(e))
-    .on('mouseleave', () => hideTooltip());
+      .filter(function(d){return d.type!=='espaco';})
+      .on('start',function(e,d){if(!e.active)simulation.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
+      .on('drag', function(e,d){d.fx=e.x;d.fy=e.y;})
+      .on('end',  function(e,d){if(!e.active)simulation.alphaTarget(0);d.fx=null;d.fy=null;}))
+    .on('click',      function(e,d){e.stopPropagation();openPanel(d);highlightNode(d,links,nodeGroups);})
+    .on('mouseenter', function(e,d){showTooltip(e,d);})
+    .on('mousemove',  function(e){moveTooltip(e);})
+    .on('mouseleave', function(){hideTooltip();});
 
   nodeSel = nodeGroups;
 
-  // Círculo de fundo (glow)
-  nodeGroups.append('circle')
-    .attr('r', d => (TIPOS[d.type]?.radius || 18) + 6)
-    .attr('fill', d => (TIPOS[d.type]?.cor || '#666') + '18')
-    .attr('class', 'node-glow');
+  function cor(d) { return d.cor || (d.type==='instagram'?'url(#grad-instagram)':(TIPOS[d.type]||{cor:'#666'}).cor); }
 
-  // Círculo principal
-  nodeGroups.append('circle')
-    .attr('class', 'node-circle')
-    .attr('r', d => TIPOS[d.type]?.radius || 18)
-    .attr('fill', d => d.type === 'instagram' ? 'url(#grad-instagram)' : (TIPOS[d.type]?.cor || '#666'))
-    .attr('stroke', '#0e0e0e')
-    .attr('stroke-width', 2);
+  nodeGroups.filter(function(d){return d.type==='espaco'||d.type==='pasta';}).append('circle')
+    .attr('r',function(d){return (TIPOS[d.type]||{radius:28}).radius+(d.type==='espaco'?18:10);})
+    .attr('fill','none').attr('stroke',cor)
+    .attr('stroke-width',function(d){return d.type==='espaco'?3:2;})
+    .attr('stroke-dasharray',function(d){return d.type==='espaco'?'8 5':'5 4';})
+    .attr('opacity',0.45);
 
-  // Ícone SVG via foreignObject
+  nodeGroups.append('circle')
+    .attr('r',function(d){var r=(TIPOS[d.type]||{radius:11}).radius;return r+(d.type==='espaco'?16:d.type==='pasta'?10:d.type==='lista'?6:4);})
+    .attr('fill',function(d){return cor(d)+(d.type==='espaco'?'35':d.type==='pasta'?'28':'18');});
+
+  nodeGroups.append('circle').attr('class','node-circle')
+    .attr('r',function(d){return (TIPOS[d.type]||{radius:11}).radius;})
+    .attr('fill',cor)
+    .attr('stroke',function(d){return ['espaco','pasta'].includes(d.type)?'#fff':'#0e0e0e';})
+    .attr('stroke-width',function(d){return d.type==='espaco'?3:d.type==='pasta'?2.5:1.5;})
+    .attr('filter',function(d){return ['espaco','pasta'].includes(d.type)?'url(#glow-'+d.type+')':null;});
+
   nodeGroups.each(function(d) {
-    const r = TIPOS[d.type]?.radius || 18;
-    const iconSize = Math.floor(r * 0.85);
-    const fo = d3.select(this).append('foreignObject')
-      .attr('width', iconSize)
-      .attr('height', iconSize)
-      .attr('x', -iconSize/2)
-      .attr('y', -iconSize/2)
-      .style('pointer-events','none');
-
-    const div = fo.append('xhtml:div')
-      .style('width','100%')
-      .style('height','100%')
-      .style('display','flex')
-      .style('align-items','center')
-      .style('justify-content','center')
-      .style('opacity','0.9');
-
-    const iconFn = TIPOS[d.type]?.icon;
-    if (iconFn) div.html(iconFn(iconSize * 0.7));
+    var r=(TIPOS[d.type]||{radius:18}).radius, sz=Math.floor(r*0.85);
+    var fo=d3.select(this).append('foreignObject').attr('width',sz).attr('height',sz).attr('x',-sz/2).attr('y',-sz/2).style('pointer-events','none');
+    var div=fo.append('xhtml:div').style('width','100%').style('height','100%').style('display','flex').style('align-items','center').style('justify-content','center').style('opacity','0.9');
+    var fn=TIPOS[d.type]&&TIPOS[d.type].icon; if(fn) div.html(fn(sz*0.7));
   });
 
-  // Label abaixo do nó (WhatsApp sem nome por privacidade)
-  nodeGroups.append('text')
-    .attr('class','node-label')
-    .attr('y', d => (TIPOS[d.type]?.radius || 18) + 12)
-    .text(d => d.type === 'whatsapp' ? '' : truncate(d.titulo, 22));
+  nodeGroups.append('text').attr('class','node-label')
+    .attr('y',function(d){var r=(TIPOS[d.type]||{radius:11}).radius;return r+(d.type==='espaco'?20:d.type==='pasta'?14:d.type==='lista'?12:10);})
+    .style('font-size',function(d){return d.type==='espaco'?'14px':d.type==='pasta'?'12px':d.type==='lista'?'11px':null;})
+    .style('font-weight',function(d){return ['espaco','pasta'].includes(d.type)?'700':d.type==='lista'?'600':null;})
+    .style('fill',function(d){return d.cor||null;})
+    .text(function(d){return ['espaco','pasta'].includes(d.type)?trunc(d.titulo,30):trunc(d.titulo,22);});
 
-  // Hover: cresce
   nodeGroups
-    .on('mouseenter.scale', function(e, d) {
-      d3.select(this).select('.node-circle')
-        .transition().duration(150)
-        .attr('r', (TIPOS[d.type]?.radius || 18) * 1.35)
-        .attr('filter', `url(#glow-${d.type})`);
-      d3.select(this).select('.node-glow')
-        .transition().duration(150)
-        .attr('r', (TIPOS[d.type]?.radius || 18) * 1.6);
-      d3.select(this).select('.node-label')
-        .transition().duration(150).attr('fill','#ddd');
+    .on('mouseenter.s',function(e,d){
+      var r=(TIPOS[d.type]||{radius:18}).radius;
+      d3.select(this).select('.node-circle').transition().duration(150).attr('r',r*1.35).attr('filter','url(#glow-'+d.type+')');
+      d3.select(this).selectAll('circle:not(.node-circle)').transition().duration(150).attr('r',r*1.6);
+      d3.select(this).select('.node-label').transition().duration(150).attr('fill','#ddd');
     })
-    .on('mouseleave.scale', function(e, d) {
-      d3.select(this).select('.node-circle')
-        .transition().duration(200)
-        .attr('r', TIPOS[d.type]?.radius || 18)
-        .attr('filter', null);
-      d3.select(this).select('.node-glow')
-        .transition().duration(200)
-        .attr('r', (TIPOS[d.type]?.radius || 18) + 6);
-      d3.select(this).select('.node-label')
-        .transition().duration(200).attr('fill','#666');
+    .on('mouseleave.s',function(e,d){
+      var r=(TIPOS[d.type]||{radius:18}).radius;
+      d3.select(this).select('.node-circle').transition().duration(200).attr('r',r).attr('filter',null);
+      d3.select(this).select('.node-label').transition().duration(200).attr('fill','#666');
     });
 
-  // Clique no fundo: deseleciona
-  svg.on('click', () => { closePanel(); clearHighlight(); });
+  svg.on('click',function(){closePanel();clearHighlight(nodeGroups);});
 
-  // Tick
-  simulation.on('tick', () => {
-    linkSel
-      .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-    nodeGroups.attr('transform', d => `translate(${d.x},${d.y})`);
+  simulation.on('tick',function(){
+    linkSel.attr('x1',function(d){return d.source.x;}).attr('y1',function(d){return d.source.y;})
+           .attr('x2',function(d){return d.target.x;}).attr('y2',function(d){return d.target.y;});
+    nodeGroups.attr('transform',function(d){return 'translate('+d.x+','+d.y+')';});
   });
 
   updateVisibility();
 }
 
-// ── Highlight ao clicar ──────────────────────────────────────────────
-function highlightNode(selected) {
-  if (!nodeSel || !linkSel) return;
-  const links = linkSel.data();
-  const connectedIds = new Set([selected.id]);
-  links.forEach(l => {
-    const s = typeof l.source === 'object' ? l.source.id : l.source;
-    const t = typeof l.target === 'object' ? l.target.id : l.target;
-    if (s === selected.id) connectedIds.add(t);
-    if (t === selected.id) connectedIds.add(s);
+function highlightNode(sel, links, ng) {
+  var ids = new Set([sel.id]);
+  links.forEach(function(l){
+    var s=typeof l.source==='object'?l.source.id:l.source, t=typeof l.target==='object'?l.target.id:l.target;
+    if(s===sel.id)ids.add(t); if(t===sel.id)ids.add(s);
   });
-
-  nodeSel.attr('opacity', d => connectedIds.has(d.id) ? 1 : 0.2);
-
-  linkSel.classed('highlighted', d => {
-    const s = typeof d.source === 'object' ? d.source.id : d.source;
-    const t = typeof d.target === 'object' ? d.target.id : d.target;
-    return s === selected.id || t === selected.id;
-  }).attr('stroke-opacity', d => {
-    const s = typeof d.source === 'object' ? d.source.id : d.source;
-    const t = typeof d.target === 'object' ? d.target.id : d.target;
-    return (s === selected.id || t === selected.id) ? 1 : 0.05;
+  ng.attr('opacity',function(d){return ids.has(d.id)?1:0.2;});
+  linkSel.classed('highlighted',function(d){
+    var s=typeof d.source==='object'?d.source.id:d.source, t=typeof d.target==='object'?d.target.id:d.target;
+    return s===sel.id||t===sel.id;
+  }).attr('stroke-opacity',function(d){
+    var s=typeof d.source==='object'?d.source.id:d.source, t=typeof d.target==='object'?d.target.id:d.target;
+    return (s===sel.id||t===sel.id)?1:0.05;
   });
 }
 
-function clearHighlight() {
-  if (!nodeSel || !linkSel) return;
-  nodeSel.attr('opacity', d => activeFilters.has(d.type) ? 1 : 0.08);
-  linkSel.classed('highlighted', false).attr('stroke-opacity', 0.6);
+function clearHighlight(ng) {
+  ng.attr('opacity',function(d){return activeFilters.has(d.type)?1:0.08;});
+  linkSel.classed('highlighted',false).attr('stroke-opacity',0.6);
 }
 
-// ── Painel lateral ───────────────────────────────────────────────────
 function openPanel(d) {
-  const cfg = TIPOS[d.type] || { cor:'#555', label:'Evento', bgPanel:'rgba(80,80,80,0.1)', icon: () => '' };
-
-  document.getElementById('panel-icon').innerHTML = cfg.icon ? cfg.icon(22) : '';
-  document.getElementById('panel-icon').style.background = cfg.bgPanel;
-  document.getElementById('panel-icon').style.color = cfg.cor;
-
-  // WhatsApp: título genérico no header do painel (nome fica no corpo)
-  const panelTitle = d.type === 'whatsapp'
-    ? `WhatsApp ${d.status === 'followup' ? 'Follow-up' : 'Prospecção'}`
-    : d.titulo;
-  document.getElementById('panel-title').textContent = panelTitle;
+  var cfg = TIPOS[d.type] || {cor:'#555',label:'Evento',bgPanel:'rgba(80,80,80,0.1)',icon:function(){return '';}};
+  var icon = document.getElementById('panel-icon');
+  icon.innerHTML = cfg.icon ? cfg.icon(22) : '';
+  icon.style.background = cfg.bgPanel; icon.style.color = cfg.cor;
+  document.getElementById('panel-title').textContent = d.titulo;
   document.getElementById('panel-type').textContent = cfg.label;
-  document.getElementById('panel-date').textContent = formatDate(d.data);
-
-  const tagsEl = document.getElementById('panel-tags');
-  tagsEl.innerHTML = (d.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
-
-  // Renderiza markdown simples
-  document.getElementById('panel-body').innerHTML = markdownToHtml(d.conteudo || '');
-
+  document.getElementById('panel-date').textContent = fmtDate(d.data);
+  document.getElementById('panel-tags').innerHTML = (d.tags||[]).map(function(t){return '<span class="tag">'+t+'</span>';}).join('');
+  document.getElementById('panel-body').innerHTML = md2html(d.conteudo||'');
   document.getElementById('panel').classList.add('open');
 }
 
 function closePanel() {
-  const panel = document.getElementById('panel');
-  panel.classList.remove('open');
-  panel.classList.remove('floating');
-  panel.style.left = '';
-  panel.style.top = '';
+  var p = document.getElementById('panel');
+  p.classList.remove('open'); p.classList.remove('floating');
+  p.style.left = ''; p.style.top = '';
 }
 
-// ── Painel arrastável ────────────────────────────────────────────────
 (function() {
-  let dragging = false, startX, startY, startLeft, startTop;
-
-  const handle = document.getElementById('panel-drag-handle');
-
-  handle.addEventListener('mousedown', e => {
-    const panel = document.getElementById('panel');
-    if (!panel.classList.contains('open')) return;
-
-    // Se ainda não é flutuante, captura posição atual e muda para floating
-    if (!panel.classList.contains('floating')) {
-      const rect = panel.getBoundingClientRect();
-      panel.style.left = rect.left + 'px';
-      panel.style.top  = rect.top  + 'px';
-      panel.classList.add('floating');
-    }
-
-    dragging = true;
-    startX = e.clientX;
-    startY = e.clientY;
-    startLeft = parseInt(panel.style.left) || 0;
-    startTop  = parseInt(panel.style.top)  || 0;
-    e.preventDefault();
+  var drag=false, sx,sy,sl,st;
+  document.getElementById('panel-drag-handle').addEventListener('mousedown',function(e){
+    var p=document.getElementById('panel'); if(!p.classList.contains('open'))return;
+    if(!p.classList.contains('floating')){var r=p.getBoundingClientRect();p.style.left=r.left+'px';p.style.top=r.top+'px';p.classList.add('floating');}
+    drag=true;sx=e.clientX;sy=e.clientY;sl=parseInt(p.style.left)||0;st=parseInt(p.style.top)||0;e.preventDefault();
   });
-
-  document.addEventListener('mousemove', e => {
-    if (!dragging) return;
-    const panel = document.getElementById('panel');
-    const dx = e.clientX - startX;
-    const dy = e.clientY - startY;
-    let newLeft = startLeft + dx;
-    let newTop  = startTop  + dy;
-    // Limita dentro da tela
-    newLeft = Math.max(0, Math.min(window.innerWidth  - panel.offsetWidth,  newLeft));
-    newTop  = Math.max(0, Math.min(window.innerHeight - panel.offsetHeight, newTop));
-    panel.style.left = newLeft + 'px';
-    panel.style.top  = newTop  + 'px';
+  document.addEventListener('mousemove',function(e){
+    if(!drag)return;var p=document.getElementById('panel');
+    p.style.left=Math.max(0,Math.min(window.innerWidth-p.offsetWidth,sl+e.clientX-sx))+'px';
+    p.style.top=Math.max(0,Math.min(window.innerHeight-p.offsetHeight,st+e.clientY-sy))+'px';
   });
-
-  document.addEventListener('mouseup', () => { dragging = false; });
+  document.addEventListener('mouseup',function(){drag=false;});
 })();
 
-// ── Tooltip ──────────────────────────────────────────────────────────
-function showTooltip(e, d) {
-  const tt = document.getElementById('tooltip');
-  const cfg = TIPOS[d.type] || { label:'Evento' };
-  // WhatsApp: não expõe nome no hover — só o tipo e data
-  const nome = d.type === 'whatsapp'
-    ? `<br><span style="color:#444">${d.status === 'followup' ? 'Follow-up' : 'Prospecção'} · ${d.data}</span>`
-    : `<br>${d.titulo}`;
-  tt.innerHTML = `<strong style="color:${cfg.cor}">${cfg.label}</strong>${nome}`;
-  tt.style.display = 'block';
-  moveTooltip(e);
+function showTooltip(e,d){
+  var tt=document.getElementById('tooltip'), cfg=TIPOS[d.type]||{label:'Evento',cor:'#666'};
+  tt.innerHTML='<strong style="color:'+cfg.cor+'">'+cfg.label+'</strong><br>'+d.titulo;
+  tt.style.display='block'; moveTooltip(e);
+}
+function moveTooltip(e){
+  var tt=document.getElementById('tooltip');
+  tt.style.left=Math.min(e.clientX+14,window.innerWidth-220)+'px';
+  tt.style.top=Math.max(e.clientY-10,10)+'px';
+}
+function hideTooltip(){document.getElementById('tooltip').style.display='none';}
+
+function trunc(s,n){if(!s)return '';return s.length>n?s.slice(0,n-1)+'...':s;}
+
+function fmtDate(iso){
+  if(!iso)return '';
+  try{var p=iso.split('-'),m=['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];return p[2]+' '+m[parseInt(p[1])-1]+' '+p[0];}catch(_){return iso;}
 }
 
-function moveTooltip(e) {
-  const tt = document.getElementById('tooltip');
-  const x = e.clientX + 14;
-  const y = e.clientY - 10;
-  tt.style.left = Math.min(x, window.innerWidth - 220) + 'px';
-  tt.style.top  = Math.max(y, 10) + 'px';
-}
-
-function hideTooltip() {
-  document.getElementById('tooltip').style.display = 'none';
-}
-
-// ── Utilitários ──────────────────────────────────────────────────────
-function truncate(str, n) {
-  if (!str) return '';
-  return str.length > n ? str.slice(0, n-1) + '…' : str;
-}
-
-function formatDate(iso) {
-  if (!iso) return '';
-  try {
-    const [y,m,d] = iso.split('-');
-    const meses = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
-    return `${d} ${meses[parseInt(m)-1]} ${y}`;
-  } catch(_) { return iso; }
-}
-
-function markdownToHtml(md) {
-  if (!md) return '';
-  const lines = md.split('\n');
-  let html = '';
-  let inList = false;
-
-  for (let i = 0; i < lines.length; i++) {
-    let line = lines[i];
-
-    // Headings
-    if (/^### (.+)/.test(line)) {
-      if (inList) { html += '</ul>'; inList = false; }
-      html += `<h4 style="color:#c9a0e8;margin:14px 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.5px">${line.replace(/^### /, '')}</h4>`;
-      continue;
-    }
-    if (/^## (.+)/.test(line)) {
-      if (inList) { html += '</ul>'; inList = false; }
-      html += `<h3 style="color:#dcdad9;margin:16px 0 8px;font-size:15px;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:4px">${line.replace(/^## /, '')}</h3>`;
-      continue;
-    }
-    if (/^# (.+)/.test(line)) {
-      if (inList) { html += '</ul>'; inList = false; }
-      html += `<h2 style="color:#fff;margin:0 0 10px;font-size:17px">${line.replace(/^# /, '')}</h2>`;
-      continue;
-    }
-
-    // Listas com marcador
-    if (/^[-*] (.+)/.test(line)) {
-      if (!inList) { html += '<ul style="margin:4px 0 8px 16px;padding:0">'; inList = true; }
-      const item = line.replace(/^[-*] /, '');
-      html += `<li style="margin-bottom:4px">${formatInline(item)}</li>`;
-      continue;
-    }
-
-    // Listas numeradas
-    if (/^\d+\. (.+)/.test(line)) {
-      if (inList) { html += '</ul>'; inList = false; }
-      html += `<div style="margin-bottom:4px;padding-left:4px">${formatInline(line)}</div>`;
-      continue;
-    }
-
-    // Linha vazia
-    if (line.trim() === '') {
-      if (inList) { html += '</ul>'; inList = false; }
-      html += '<div style="height:8px"></div>';
-      continue;
-    }
-
-    // Parágrafo normal
-    if (inList) { html += '</ul>'; inList = false; }
-    html += `<p style="margin:0 0 6px;line-height:1.6">${formatInline(line)}</p>`;
+function md2html(md) {
+  if(!md)return '';
+  var lines=md.split('\n'), html='', inList=false;
+  for(var i=0;i<lines.length;i++){
+    var l=lines[i];
+    if(/^### (.+)/.test(l)){if(inList){html+='</ul>';inList=false;}html+='<h4 style="color:#c9a0e8;margin:14px 0 6px;font-size:13px">'+l.replace(/^### /,'')+'</h4>';continue;}
+    if(/^## (.+)/.test(l)){if(inList){html+='</ul>';inList=false;}html+='<h3 style="color:#dcdad9;margin:16px 0 8px;font-size:15px;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:4px">'+l.replace(/^## /,'')+'</h3>';continue;}
+    if(/^# (.+)/.test(l)){if(inList){html+='</ul>';inList=false;}html+='<h2 style="color:#fff;margin:0 0 10px;font-size:17px">'+l.replace(/^# /,'')+'</h2>';continue;}
+    if(/^[-*] (.+)/.test(l)){if(!inList){html+='<ul style="margin:4px 0 8px 16px;padding:0">';inList=true;}html+='<li style="margin-bottom:4px">'+fmtInline(l.replace(/^[-*] /,''))+'</li>';continue;}
+    if(l.trim()===''){if(inList){html+='</ul>';inList=false;}html+='<div style="height:8px"></div>';continue;}
+    if(inList){html+='</ul>';inList=false;}
+    html+='<p style="margin:0 0 6px;line-height:1.6">'+fmtInline(l)+'</p>';
   }
-
-  if (inList) html += '</ul>';
+  if(inList)html+='</ul>';
   return html;
 }
 
-function formatInline(text) {
-  return text
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" style="color:#c9a0e8;text-decoration:underline">$1</a>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.+?)\*/g, '<em style="color:#bbb">$1</em>')
-    .replace(/_(.+?)_/g, '<em style="color:#bbb">$1</em>');
+function fmtInline(t){
+  return t
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2" target="_blank" style="color:#c9a0e8;text-decoration:underline">$1</a>')
+    .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g,'<em style="color:#bbb">$1</em>')
+    .replace(/_(.+?)_/g,'<em style="color:#bbb">$1</em>');
 }
 
-async function refreshData() {
-  window.location.reload();
+async function refreshData(){
+  var btn=document.getElementById('btn-refresh');
+  btn.textContent='Atualizando...';
+  try{await fetch('/refresh');await loadData();}catch(e){await loadData();}
+  btn.textContent='Atualizar';
 }
 
-// ── Busca ────────────────────────────────────────────────────────────
-let searchBlurTimer = null;
-
-function onSearch(query) {
-  const box = document.getElementById('search-results');
-  const q = query.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  if (q.length < 2) { box.classList.remove('visible'); box.innerHTML = ''; return; }
-
-  // Busca em titulo, conteudo e tags de todos os nós
-  const matches = allNodes.filter(n => {
-    const haystack = [
-      n.titulo,
-      n.conteudo,
-      ...(n.tags || []),
-    ].join(' ').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-    return haystack.includes(q);
-  }).slice(0, 20);
-
-  if (matches.length === 0) {
-    box.innerHTML = `<div class="search-empty">Nenhum resultado para "${query}"</div>`;
-  } else {
-    box.innerHTML = matches.map(n => {
-      const cfg = TIPOS[n.type] || { cor:'#555', label:'—' };
-      // Label de exibição: WhatsApp mostra data em vez de nome
-      const displayTitle = n.type === 'whatsapp'
-        ? `WhatsApp ${n.status === 'followup' ? 'Follow-up' : 'Prospecção'} · ${n.data}`
-        : n.titulo;
-      return `<div class="search-item" onmousedown="focusNode('${n.id}')">
-        <div class="search-item-dot" style="background:${cfg.cor}"></div>
-        <div class="search-item-title">${displayTitle}</div>
-        <div class="search-item-type">${cfg.label}</div>
-      </div>`;
-    }).join('');
-  }
-
-  box.classList.add('visible');
-}
-
-function onSearchFocus() {
-  clearTimeout(searchBlurTimer);
-  const q = document.getElementById('search-input').value;
-  if (q.trim().length >= 2) document.getElementById('search-results').classList.add('visible');
-}
-
-function onSearchBlur() {
-  // Pequeno delay para permitir o clique no resultado antes de fechar
-  searchBlurTimer = setTimeout(() => {
-    document.getElementById('search-results').classList.remove('visible');
-  }, 200);
-}
-
-function focusNode(id) {
-  const nodeData = allNodes.find(n => n.id === id);
-  if (!nodeData || !simulation || !zoomBehavior) return;
-
-  // Fecha busca
-  document.getElementById('search-results').classList.remove('visible');
-  document.getElementById('search-input').value = '';
-
-  // Posição atual no grafo
-  const simNode = simulation.nodes().find(n => n.id === id);
-  if (simNode) {
-    const W = window.innerWidth, H = window.innerHeight;
-    const scale = 2;
-    const tx = W / 2 - scale * simNode.x;
-    const ty = H / 2 - scale * simNode.y;
-    d3.select('#svg').transition().duration(700)
-      .call(zoomBehavior.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-  }
-
-  openPanel(nodeData);
-  highlightNode(nodeData);
-}
-
-// Redimensionar
-window.addEventListener('resize', () => {
-  if (simulation) simulation.force('center', d3.forceCenter(window.innerWidth/2, window.innerHeight/2)).alpha(0.3).restart();
+window.addEventListener('resize',function(){
+  if(simulation)simulation.force('center',d3.forceCenter(window.innerWidth/2,window.innerHeight/2)).alpha(0.3).restart();
 });
 
-// Init
+// ── Busca ────────────────────────────────────────────────────────────
+var searchResults = [];
+var searchIdx = -1;
+
+function onSearch(q) {
+  var box = document.getElementById('search-results');
+  q = (q || '').trim().toLowerCase();
+  if (q.length < 2) { box.classList.remove('visible'); box.innerHTML = ''; searchResults = []; return; }
+
+  var termos = q.split(/\s+/);
+  searchResults = allNodes.filter(function(n) {
+    var hay = ((n.titulo||'') + ' ' + (n.conteudo||'') + ' ' + (n.tags||[]).join(' ')).toLowerCase();
+    return termos.every(function(t) { return hay.includes(t); });
+  }).slice(0, 40);
+
+  if (searchResults.length === 0) {
+    box.innerHTML = '<div style="padding:10px 12px;font-size:11px;color:#555">Nenhum resultado encontrado.</div>';
+    box.classList.add('visible');
+    return;
+  }
+
+  var html = '<div id="search-count">'+searchResults.length+' resultado'+(searchResults.length>1?'s':'')+'</div>';
+  searchResults.forEach(function(n, i) {
+    var cfg = TIPOS[n.type] || {cor:'#666', label:'?'};
+    html += '<div class="sr-item" onclick="goToNode(\''+n.id+'\')" data-idx="'+i+'">'
+      + '<div class="sr-dot" style="background:'+cfg.cor+'"></div>'
+      + '<span class="sr-title">'+escHtml(n.titulo)+'</span>'
+      + '<span class="sr-type">'+cfg.label+'</span>'
+      + '</div>';
+  });
+  box.innerHTML = html;
+  box.classList.add('visible');
+  searchIdx = -1;
+}
+
+function onSearchKey(e) {
+  var items = document.querySelectorAll('.sr-item');
+  if (e.key === 'ArrowDown') { searchIdx = Math.min(searchIdx+1, items.length-1); highlightSR(items); e.preventDefault(); }
+  else if (e.key === 'ArrowUp') { searchIdx = Math.max(searchIdx-1, 0); highlightSR(items); e.preventDefault(); }
+  else if (e.key === 'Enter') { if (searchIdx >= 0 && searchResults[searchIdx]) goToNode(searchResults[searchIdx].id); }
+  else if (e.key === 'Escape') { clearSearch(); }
+}
+
+function highlightSR(items) {
+  items.forEach(function(it, i) { it.style.background = i === searchIdx ? 'rgba(255,255,255,0.08)' : ''; });
+  if (items[searchIdx]) items[searchIdx].scrollIntoView({block:'nearest'});
+}
+
+function goToNode(id) {
+  var svgEl = document.getElementById('svg');
+  var container = d3.select('#container');
+  var nodeData = d3.selectAll('.node-group').data().find(function(d) { return d.id === id; });
+  if (!nodeData) return;
+
+  // Centralizar no no usando zoom
+  var W = window.innerWidth, H = window.innerHeight;
+  var scale = 2.2;
+  var tx = W/2 - scale * nodeData.x;
+  var ty = H/2 - scale * nodeData.y;
+
+  d3.select('#svg').transition().duration(700)
+    .call(d3.zoom().transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+
+  // Abrir painel e destacar
+  openPanel(nodeData);
+  d3.selectAll('.node-group').attr('opacity', function(d) { return d.id === id ? 1 : 0.15; });
+
+  clearSearch();
+}
+
+function clearSearch() {
+  document.getElementById('search-box').value = '';
+  var box = document.getElementById('search-results');
+  box.classList.remove('visible');
+  box.innerHTML = '';
+  searchResults = [];
+}
+
+function escHtml(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// Fechar busca ao clicar fora
+document.addEventListener('click', function(e) {
+  if (!document.getElementById('search-wrap').contains(e.target)) {
+    document.getElementById('search-results').classList.remove('visible');
+  }
+});
+
 loadData();
 </script>
 </body>
 </html>
-
