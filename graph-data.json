@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-07T13:50:54.618Z",
-  "totalNodes": 2139,
-  "totalLinks": 2127,
+  "geradoEm": "2026-07-07T14:11:12.899Z",
+  "totalNodes": 2137,
+  "totalLinks": 2125,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -10023,24 +10023,6 @@
       "tags": [
         "status",
         "tarefa detalhada "
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451523-iniciada",
-      "type": "status_group",
-      "titulo": "iniciada",
-      "data": "2026-07-07",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-yellow)",
-      "listId": "901326451523",
-      "listaNodeId": "lista-901326451523",
-      "parentId": "lista-901326451523",
-      "count": 1,
-      "conteudo": "**iniciada**\n\nLista: Cliente Camilla\nTarefas: 1",
-      "tags": [
-        "status",
-        "iniciada"
       ],
       "links": []
     },
@@ -23242,7 +23224,7 @@
       "id": "clickup-86ah91a3y",
       "type": "clickup",
       "titulo": "Atualização",
-      "data": "2026-06-20",
+      "data": "2026-07-07",
       "perfil": "90138131805",
       "listId": "901324267096",
       "listaNodeId": "lista-901324267096",
@@ -35353,24 +35335,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ag8zqp2",
-      "type": "clickup",
-      "titulo": "Camilla",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451523",
-      "listaNodeId": "lista-901326451523",
-      "statusNodeId": "sg-901326451523-iniciada",
-      "parentId": "sg-901326451523-iniciada",
-      "status": "iniciada",
-      "conteudo": "**Camilla**\n\n📋 **Lista:** Cliente Camilla\n🔖 **Status:** iniciada\n\n\n**Descrição:**\n**Definição de Pronto:**\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8zqp2)",
-      "tags": [
-        "Cliente Camilla",
-        "iniciada"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ag8zqk0",
       "type": "clickup",
       "titulo": "Cliente Viviane (Contadora)",
@@ -37669,7 +37633,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-ubrxw",
+      "id": "ig-divarebel.on-d4pis",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-07",
@@ -40574,11 +40538,6 @@
     {
       "source": "lista-901326451525",
       "target": "sg-901326451525-tarefa-detalhada-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451523",
-      "target": "sg-901326451523-iniciada",
       "tipo": "hierarquia"
     },
     {
@@ -47612,11 +47571,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901326451523-iniciada",
-      "target": "clickup-86ag8zqp2",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901326451521-planejamento",
       "target": "clickup-86ag8zqk0",
       "tipo": "hierarquia"
@@ -48343,7 +48297,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-ubrxw",
+      "target": "ig-divarebel.on-d4pis",
       "tipo": "externo"
     },
     {
