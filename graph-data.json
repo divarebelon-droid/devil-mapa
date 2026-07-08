@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-08T08:24:30.282Z",
-  "totalNodes": 2164,
-  "totalLinks": 2152,
+  "geradoEm": "2026-07-08T13:58:25.696Z",
+  "totalNodes": 2154,
+  "totalLinks": 2142,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -7771,47 +7771,11 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 66,
-      "conteudo": "**cancelado**\n\nLista: MAPA ROTINA ALINE\nTarefas: 66",
+      "count": 68,
+      "conteudo": "**cancelado**\n\nLista: MAPA ROTINA ALINE\nTarefas: 68",
       "tags": [
         "status",
         "cancelado"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901325435867-segunda",
-      "type": "status_group",
-      "titulo": "segunda",
-      "data": "2026-07-08",
-      "perfil": "90138131766",
-      "cor": "#5f55ee",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "parentId": "lista-901325435867",
-      "count": 3,
-      "conteudo": "**segunda**\n\nLista: MAPA ROTINA ALINE\nTarefas: 3",
-      "tags": [
-        "status",
-        "segunda"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901325435867-domingo",
-      "type": "status_group",
-      "titulo": "domingo",
-      "data": "2026-07-08",
-      "perfil": "90138131766",
-      "cor": "#ffc53d",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "parentId": "lista-901325435867",
-      "count": 1,
-      "conteudo": "**domingo**\n\nLista: MAPA ROTINA ALINE\nTarefas: 1",
-      "tags": [
-        "status",
-        "domingo"
       ],
       "links": []
     },
@@ -7825,8 +7789,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 7,
-      "conteudo": "**quarta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 7",
+      "count": 8,
+      "conteudo": "**quarta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 8",
       "tags": [
         "status",
         "quarta"
@@ -7861,8 +7825,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 5,
-      "conteudo": "**sexta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 5",
+      "count": 6,
+      "conteudo": "**sexta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 6",
       "tags": [
         "status",
         "sexta"
@@ -7884,24 +7848,6 @@
       "tags": [
         "status",
         "sábado"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901325435867-ter-a",
-      "type": "status_group",
-      "titulo": "terça",
-      "data": "2026-07-08",
-      "perfil": "90138131766",
-      "cor": "#0091ff",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "parentId": "lista-901325435867",
-      "count": 7,
-      "conteudo": "**terça**\n\nLista: MAPA ROTINA ALINE\nTarefas: 7",
-      "tags": [
-        "status",
-        "terça"
       ],
       "links": []
     },
@@ -28372,78 +28318,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajc78e8",
-      "type": "clickup",
-      "titulo": "🔒 DIA BLOQUEADO — Folga do Marido",
-      "data": "2026-07-03",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-segunda",
-      "parentId": "sg-901325435867-segunda",
-      "status": "segunda",
-      "conteudo": "**🔒 DIA BLOQUEADO — Folga do Marido**\n\nLista: MAPA ROTINA ALINE\nStatus: segunda\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc78e8)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "segunda"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc7cyb",
-      "type": "clickup",
-      "titulo": "🏋️ Treino — Musculação (30') + Cardio (20')",
-      "data": "2026-07-03",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-segunda",
-      "parentId": "sg-901325435867-segunda",
-      "status": "segunda",
-      "conteudo": "**🏋️ Treino — Musculação (30') + Cardio (20')**\n\nLista: MAPA ROTINA ALINE\nStatus: segunda\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7cyb)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "segunda"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc7djk",
-      "type": "clickup",
-      "titulo": "🧘 Yoga (família)",
-      "data": "2026-07-03",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-segunda",
-      "parentId": "sg-901325435867-segunda",
-      "status": "segunda",
-      "conteudo": "**🧘 Yoga (família)**\n\nLista: MAPA ROTINA ALINE\nStatus: segunda\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7djk)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "segunda"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc78cd",
-      "type": "clickup",
-      "titulo": "🍳 Cozinhão + Roupa da Semana",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-domingo",
-      "parentId": "sg-901325435867-domingo",
-      "status": "domingo",
-      "conteudo": "**🍳 Cozinhão + Roupa da Semana**\n\nLista: MAPA ROTINA ALINE\nStatus: domingo\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc78cd)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "domingo"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajc78ht",
       "type": "clickup",
       "titulo": "📚 Estudo + Leitura (15' leitura + 15' aula)",
@@ -28894,132 +28768,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajcjj9b",
-      "type": "clickup",
-      "titulo": "📚 Estudo + Leitura (15' leitura + 15' aula)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**📚 Estudo + Leitura (15' leitura + 15' aula)**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjj9b)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajcjj9j",
-      "type": "clickup",
-      "titulo": "🟢 Bloco Ouro — Clientes + Conteúdo",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**🟢 Bloco Ouro — Clientes + Conteúdo**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjj9j)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajcjj9n",
-      "type": "clickup",
-      "titulo": "☕ Café + Crianças",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**☕ Café + Crianças**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjj9n)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajcjj9q",
-      "type": "clickup",
-      "titulo": "🍽️ Almoço + Crianças",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**🍽️ Almoço + Crianças**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjj9q)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajcjj9r",
-      "type": "clickup",
-      "titulo": "🟤 Bloco Bronze — Reuniões",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**🟤 Bloco Bronze — Reuniões**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjj9r)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajcjj9z",
-      "type": "clickup",
-      "titulo": "🏋️ Treino — Musculação (30') + Cardio (20')",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**🏋️ Treino — Musculação (30') + Cardio (20')**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjj9z)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajcjja4",
-      "type": "clickup",
-      "titulo": "🥊 Luta (família — noite)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-ter-a",
-      "parentId": "sg-901325435867-ter-a",
-      "status": "terça",
-      "conteudo": "**🥊 Luta (família — noite)**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjja4)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "terça"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajc79w4",
       "type": "clickup",
       "titulo": "🟢 Bloco Ouro — Clientes + Conteúdo",
@@ -29157,6 +28905,78 @@
       "parentId": "sg-901325435867-cancelado",
       "status": "cancelado",
       "conteudo": "**🧘 Yoga (família)**\n\nLista: MAPA ROTINA ALINE\nStatus: cancelado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7dka)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "cancelado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aje6qru",
+      "type": "clickup",
+      "titulo": "🎯 Reunião — Dra. Jennifer Leijoto ⚡",
+      "data": "2026-07-07",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quarta",
+      "parentId": "sg-901325435867-quarta",
+      "status": "quarta",
+      "conteudo": "**🎯 Reunião — Dra. Jennifer Leijoto ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: quarta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aje6qru)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quarta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aje6qtg",
+      "type": "clickup",
+      "titulo": "🎯 Reunião — Dra. Perla Menezes ⚡",
+      "data": "2026-07-07",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-sexta",
+      "parentId": "sg-901325435867-sexta",
+      "status": "sexta",
+      "conteudo": "**🎯 Reunião — Dra. Perla Menezes ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aje6qtg)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "sexta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajcjja8",
+      "type": "clickup",
+      "titulo": "🔒 DIA BLOQUEADO — Folga do Marido",
+      "data": "2026-07-07",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-cancelado",
+      "parentId": "sg-901325435867-cancelado",
+      "status": "cancelado",
+      "conteudo": "**🔒 DIA BLOQUEADO — Folga do Marido**\n\nLista: MAPA ROTINA ALINE\nStatus: cancelado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajcjja8)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "cancelado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc78cd",
+      "type": "clickup",
+      "titulo": "🍳 Cozinhão + Roupa da Semana",
+      "data": "2026-07-08",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-cancelado",
+      "parentId": "sg-901325435867-cancelado",
+      "status": "cancelado",
+      "conteudo": "**🍳 Cozinhão + Roupa da Semana**\n\nLista: MAPA ROTINA ALINE\nStatus: cancelado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc78cd)",
       "tags": [
         "MAPA ROTINA ALINE",
         "cancelado"
@@ -40708,16 +40528,6 @@
     },
     {
       "source": "lista-901325435867",
-      "target": "sg-901325435867-segunda",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901325435867",
-      "target": "sg-901325435867-domingo",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901325435867",
       "target": "sg-901325435867-quarta",
       "tipo": "hierarquia"
     },
@@ -40734,11 +40544,6 @@
     {
       "source": "lista-901325435867",
       "target": "sg-901325435867-s-bado",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901325435867",
-      "target": "sg-901325435867-ter-a",
       "tipo": "hierarquia"
     },
     {
@@ -46427,26 +46232,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901325435867-segunda",
-      "target": "clickup-86ajc78e8",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-segunda",
-      "target": "clickup-86ajc7cyb",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-segunda",
-      "target": "clickup-86ajc7djk",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-domingo",
-      "target": "clickup-86ajc78cd",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901325435867-quarta",
       "target": "clickup-86ajc78ht",
       "tipo": "hierarquia"
@@ -46572,41 +46357,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjj9b",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjj9j",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjj9n",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjj9q",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjj9r",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjj9z",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-ter-a",
-      "target": "clickup-86ajcjja4",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajc79w4",
       "tipo": "hierarquia"
@@ -46644,6 +46394,26 @@
     {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajc7dka",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quarta",
+      "target": "clickup-86aje6qru",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-sexta",
+      "target": "clickup-86aje6qtg",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-cancelado",
+      "target": "clickup-86ajcjja8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-cancelado",
+      "target": "clickup-86ajc78cd",
       "tipo": "hierarquia"
     },
     {
