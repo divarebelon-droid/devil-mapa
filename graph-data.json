@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-08T13:58:25.696Z",
-  "totalNodes": 2154,
-  "totalLinks": 2142,
+  "geradoEm": "2026-07-08T19:22:02.008Z",
+  "totalNodes": 2157,
+  "totalLinks": 2145,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -5053,8 +5053,8 @@
       "listId": "901315882544",
       "listaNodeId": "lista-901315882544",
       "parentId": "lista-901315882544",
-      "count": 3,
-      "conteudo": "**aprovado**\n\nLista: Conteúdo\nTarefas: 3",
+      "count": 2,
+      "conteudo": "**aprovado**\n\nLista: Conteúdo\nTarefas: 2",
       "tags": [
         "status",
         "aprovado"
@@ -5071,8 +5071,8 @@
       "listId": "901315882544",
       "listaNodeId": "lista-901315882544",
       "parentId": "lista-901315882544",
-      "count": 3,
-      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 3",
+      "count": 4,
+      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 4",
       "tags": [
         "status",
         "em análise"
@@ -7789,8 +7789,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 8,
-      "conteudo": "**quarta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 8",
+      "count": 9,
+      "conteudo": "**quarta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 9",
       "tags": [
         "status",
         "quarta"
@@ -7807,8 +7807,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 7,
-      "conteudo": "**quinta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 7",
+      "count": 9,
+      "conteudo": "**quinta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 9",
       "tags": [
         "status",
         "quinta"
@@ -19912,24 +19912,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj939br",
-      "type": "clickup",
-      "titulo": "Stories quarta",
-      "data": "2026-06-28",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-aprovado",
-      "parentId": "sg-901315882544-aprovado",
-      "status": "aprovado",
-      "conteudo": "**Stories quarta**\n\nLista: Conteúdo\nStatus: aprovado\n\n**Tema**\nA mudança que trouxe reuniões constantes.\n**Objetivo**\nLevar tráfego para o segundo post.\n### Story 1 — Ponto de Partida\n\"Existe uma única mudança que fez eu parar de correr atrás de clientes.\"\n\n* * *\n\n### Story 2 — Ponto Intermediário\n\"Não foi trocar de script.\nNão foi mudar de plataforma.\nNão foi aprender um novo gatilho mental.\"\n\n* * *\n\n### Story 3 — Ponto de Ligação\n\"Foi quando eu parei de parecer um social media...\n...e comecei a parecer alguém que entendia do negócio do cliente.\"\n\n* * *\n\n### Story 4 — Ponto Superior\n\"Hoje prospectamos aproximadamente 30 empresas por dia.\nEntre 5\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939br)",
-      "tags": [
-        "Conteúdo",
-        "aprovado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj939bn",
       "type": "clickup",
       "titulo": "Stories sexta",
@@ -20139,6 +20121,24 @@
       "parentId": "sg-901315882544-em-an-lise",
       "status": "em análise",
       "conteudo": "**Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜**\n\nLista: Conteúdo\nStatus: em análise\n\n## Slide 1( Adicionar print da venda feita por link de pagamento)\n# Gol de sorte ou estratégia?\n### O que a Copa pode ensinar sobre conseguir clientes ➜\n\n* * *\n\n## Slide 2 (Adicionar print do contrato assinado)\nMuita gente assiste ao jogo e acha que tudo acontece nos 90 minutos.\nMas quem trabalha com futebol sabe que o jogo começa muito antes.\nO adversário é estudado.\nOs pontos fracos são analisados.\nA estratégia é montada.\nNa prospecção acontece exatamente a mesma coisa.\n**E é por isso que ficar comprando pack de mensagens de prospecção, na maioria das vezes, não dá resultado.**\n\n* * *\n\n## Sl\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92xc2)",
+      "tags": [
+        "Conteúdo",
+        "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939br",
+      "type": "clickup",
+      "titulo": "Stories quarta",
+      "data": "2026-07-08",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-em-an-lise",
+      "parentId": "sg-901315882544-em-an-lise",
+      "status": "em análise",
+      "conteudo": "**Stories quarta**\n\nLista: Conteúdo\nStatus: em análise\n\n**Tema**\nA mudança que trouxe reuniões constantes.\n**Objetivo**\nLevar tráfego para o segundo post.\n### Story 1 — Ponto de Partida\n\"Existe uma única mudança que fez eu parar de correr atrás de clientes.\"\n\n* * *\n\n### Story 2 — Ponto Intermediário\n\"Não foi trocar de script.\nNão foi mudar de plataforma.\nNão foi aprender um novo gatilho mental.\"\n\n* * *\n\n### Story 3 — Ponto de Ligação\n\"Foi quando eu parei de parecer um social media...\n...e comecei a parecer alguém que entendia do negócio do cliente.\"\n\n* * *\n\n### Story 4 — Ponto Superior\n\"Hoje prospectamos aproximadamente 30 empresas por dia.\nEntre 5\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939br)",
       "tags": [
         "Conteúdo",
         "em análise"
@@ -25279,7 +25279,7 @@
       "id": "clickup-86aj539qj",
       "type": "clickup",
       "titulo": "Atualização",
-      "data": "2026-06-28",
+      "data": "2026-07-08",
       "perfil": "901313861779",
       "listId": "901327622584",
       "listaNodeId": "lista-901327622584",
@@ -25297,7 +25297,7 @@
       "id": "clickup-86aj539qh",
       "type": "clickup",
       "titulo": "Plano de ação",
-      "data": "2026-06-28",
+      "data": "2026-07-08",
       "perfil": "901313861779",
       "listId": "901327622584",
       "listaNodeId": "lista-901327622584",
@@ -28980,6 +28980,60 @@
       "tags": [
         "MAPA ROTINA ALINE",
         "cancelado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajefrgt",
+      "type": "clickup",
+      "titulo": "🎯 Reunião — Dra. Regiane Silva ⚡",
+      "data": "2026-07-08",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quarta",
+      "parentId": "sg-901325435867-quarta",
+      "status": "quarta",
+      "conteudo": "**🎯 Reunião — Dra. Regiane Silva ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: quarta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajefrgt)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quarta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajekq0e",
+      "type": "clickup",
+      "titulo": "🎯 Reunião — Dra. Estelina ⚡",
+      "data": "2026-07-08",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quinta",
+      "parentId": "sg-901325435867-quinta",
+      "status": "quinta",
+      "conteudo": "**🎯 Reunião — Dra. Estelina ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: quinta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajekq0e)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quinta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajemzq4",
+      "type": "clickup",
+      "titulo": "Reunião - Dra. Bruna Vaz",
+      "data": "2026-07-08",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quinta",
+      "parentId": "sg-901325435867-quinta",
+      "status": "quinta",
+      "conteudo": "**Reunião - Dra. Bruna Vaz**\n\nLista: MAPA ROTINA ALINE\nStatus: quinta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajemzq4)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quinta"
       ],
       "links": []
     },
@@ -43898,11 +43952,6 @@
     },
     {
       "source": "sg-901315882544-aprovado",
-      "target": "clickup-86aj939br",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-aprovado",
       "target": "clickup-86aj939bn",
       "tipo": "hierarquia"
     },
@@ -43959,6 +44008,11 @@
     {
       "source": "sg-901315882544-em-an-lise",
       "target": "clickup-86aj92xc2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-em-an-lise",
+      "target": "clickup-86aj939br",
       "tipo": "hierarquia"
     },
     {
@@ -46414,6 +46468,21 @@
     {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajc78cd",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quarta",
+      "target": "clickup-86ajefrgt",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quinta",
+      "target": "clickup-86ajekq0e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quinta",
+      "target": "clickup-86ajemzq4",
       "tipo": "hierarquia"
     },
     {
