@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-11T07:51:43.709Z",
-  "totalNodes": 2141,
-  "totalLinks": 2129,
+  "geradoEm": "2026-07-11T13:13:07.471Z",
+  "totalNodes": 2148,
+  "totalLinks": 2136,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -3178,8 +3178,8 @@
       "listId": "901316452690",
       "listaNodeId": "lista-901316452690",
       "parentId": "lista-901316452690",
-      "count": 6,
-      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 6",
+      "count": 11,
+      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 11",
       "tags": [
         "status",
         "revisão texto"
@@ -5104,8 +5104,8 @@
       "listId": "901315882544",
       "listaNodeId": "lista-901315882544",
       "parentId": "lista-901315882544",
-      "count": 4,
-      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 4",
+      "count": 6,
+      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 6",
       "tags": [
         "status",
         "em análise"
@@ -5122,11 +5122,29 @@
       "listId": "901315882544",
       "listaNodeId": "lista-901315882544",
       "parentId": "lista-901315882544",
-      "count": 6,
-      "conteudo": "**revisão design**\n\nLista: Conteúdo\nTarefas: 6",
+      "count": 3,
+      "conteudo": "**revisão design**\n\nLista: Conteúdo\nTarefas: 3",
       "tags": [
         "status",
         "revisão design"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901315882544-revis-o-texto",
+      "type": "status_group",
+      "titulo": "revisão texto",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "cor": "var(--cu-status-neon-blue)",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "parentId": "lista-901315882544",
+      "count": 1,
+      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 1",
+      "tags": [
+        "status",
+        "revisão texto"
       ],
       "links": []
     },
@@ -5140,8 +5158,8 @@
       "listId": "901315882544",
       "listaNodeId": "lista-901315882544",
       "parentId": "lista-901315882544",
-      "count": 2,
-      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 2",
+      "count": 3,
+      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 3",
       "tags": [
         "status",
         "programado"
@@ -13861,6 +13879,96 @@
       "links": []
     },
     {
+      "id": "clickup-86ajg23ef",
+      "type": "clickup",
+      "titulo": "Passo a passo ",
+      "data": "2026-07-11",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Passo a passo **\n\nLista: Conteúdo\nStatus: revisão texto\n\n🟦 SLIDE 1 — HEADLINE\n\nEsse é o passo a passo que eu uso para parar de atrair clientes errados e destravar faturamento sem baixar preço.\n\n⸻\n\n🟦 SLIDE 2 — QUEBRA DE CRENÇAS / OBJEÇÕES\n\n“Meu serviço é caro.”\n“O problema é falta de divulgação.”\n“Só empresa pequena me procura.”\n\n👉 Foi exatamente isso que uma contadora me disse antes do plano de ação.\n\n⸻\n\n🟦 SLIDE 3 — AFASTAMENTO DO MUNDO COMUM\n\nO mercado ensina que o caminho é:\n• postar mais conteúdo\n• rodar tráfego\n• atrair mais leads\n\nMas isso não resolve quando:\n• o público chega errado\n• a percepção de valor é baixa\n• a decisão trava no atend\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg23ef)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg23eg",
+      "type": "clickup",
+      "titulo": "É por isso que você quer vender, mas ouve que tá caro",
+      "data": "2026-07-11",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**É por isso que você quer vender, mas ouve que tá caro**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSLIDE 1 — HEADLINE\n\nÉ por isso que o “tá caro” te trava\n\n⸻\n\nSLIDE 2 — EXPLICAÇÃO DIRETA (PROBLEMA)\n\nChegam pessoas interessadas.\nElas entendem o que você faz.\nMas, na hora de fechar, a frase aparece:\n\n“Tá caro.”\n\nE a venda morre ali.\n\n⸻\n\nSLIDE 3 — REFORÇO DO PROBLEMA\n\nVocê até sabe que o preço é justo.\nSabe que o serviço resolve.\nMesmo assim, perde o cliente para alguém mais barato.\n\nNão porque o concorrente é melhor.\nMas porque o caminho da venda está errado.\n\n⸻\n\nSLIDE 4 — POR QUE NÃO FUNCIONA\n\nVocê tenta resolver isso de três jeitos:\n• justificando preço\n• explicando demais\n• oferecendo desc\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg23eg)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg23eh",
+      "type": "clickup",
+      "titulo": "Erros mais comuns que vejo empreendedores cometendo ao vender serviço ",
+      "data": "2026-07-11",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Erros mais comuns que vejo empreendedores cometendo ao vender serviço **\n\nLista: Conteúdo\nStatus: revisão texto\n\nSLIDE 1 — HEADLINE\n\nErros mais comuns que eu vejo prestadores cometendo ao vender serviço\n\n⸻\n\nSLIDE 2 — ERRO 1\n\nAtender todo mundo com a mesma oferta\n\nChega cliente pequeno, médio, grande…\nE você empurra exatamente o mesmo serviço para todos.\n\n⸻\n\nSLIDE 3 — ERRO 2\n\nTratar “tá caro” como objeção\n\nPreço não é o problema.\nÉ só o sintoma de alguém que caiu no serviço errado.\n\n⸻\n\nSLIDE 4 — ERRO 3\n\nTentar convencer em vez de estruturar\n\nExplica, justifica, argumenta, compara.\nE mesmo assim perde a venda.\n\n⸻\n\nSLIDE 5 — ERRO 4\n\nDeixar o marketing decidir quem chega\n\nPosta, anuncia, atrai.\nMas não contr\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg23eh)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg23ej",
+      "type": "clickup",
+      "titulo": "Siga esse passo a passo para seu negócio parar de perder vendas por preço",
+      "data": "2026-07-11",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Siga esse passo a passo para seu negócio parar de perder vendas por preço**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSLIDE 1 — HEADLINE\n\nSiga esse passo a passo\npara parar de ouvir “está caro”\ntoda vez que você apresenta sua proposta.\n\n(Aqui o “não deve mais acontecer” está explícito.)\n\n⸻\n\nSLIDE 2 — BACKLIGHT (antes × agora)\n\nAntes:\nToda vez que ela oferecia a assessoria mensal,\nouvia a mesma coisa: “está caro.”\n\nAgora:\nO problema deixou de ser o preço\ne passou a ser qual caminho o cliente percorre.\n\n⸻\n\nSLIDE 3 — DUALIDADE (o que acham × o que eu fiz)\n\nO que a maioria acha que precisa fazer:\n👉 melhorar argumento\n👉 vencer objeção\n👉 aprender a “se vender melhor”\n\nO que eu fiz:\n👉 organizei a estrutura de se\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg23ej)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg23ek",
+      "type": "clickup",
+      "titulo": "Pare de focar no ICP (Perfil de cliente ideal) se quiser vender",
+      "data": "2026-07-11",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Pare de focar no ICP (Perfil de cliente ideal) se quiser vender**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSLIDE 1 — HEADLINE\n\nPare de focar no ICP (perfil de cliente ideal) se quiser vender\n\n⸻\n\nSLIDE 2 — O QUE O MERCADO ENSINOU (INIMIGO EM COMUM)\n\nEu sei que te disseram que, pra vender, você precisa:\n• definir um ICP perfeito\n• filtrar quem pode pagar\n• afastar quem “não é seu público”\n• focar só no serviço principal\n\nE que quem acha caro simplesmente não deveria chegar até você.\n\n⸻\n\nSLIDE 3 — QUEBRA DIRETA\n\nEsquece esse discurso.\nIsso é papo bonito pra negócio travado.\n\n⸻\n\nSLIDE 4 — O QUE REALMENTE TRAZ RESULTADO\n\nO problema não é quem chega.\nÉ como essa pessoa entra no seu negócio.\n\nMesmo nicho.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg23ek)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
       "id": "clickup-86ae0nhx4",
       "type": "clickup",
       "titulo": "Coloque meta de faturamento nas ações e lançamentos",
@@ -19981,60 +20089,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajck4n4",
-      "type": "clickup",
-      "titulo": "O que fez meus clientes pararem de me ignorar como social media.",
-      "data": "2026-07-04",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-revis-o-design",
-      "parentId": "sg-901315882544-revis-o-design",
-      "status": "revisão design",
-      "conteudo": "**O que fez meus clientes pararem de me ignorar como social media.**\n\nLista: Conteúdo\nStatus: revisão design\n\n### **Slide 1**\n### O que fez meus clientes pararem de me ignorar como social media. Hoje eu consigo agendar reuniões quase todos os dias...\n**Mesmo prospectando pelo WhatsApp.**\n📸 **Sugestão de imagem:** Print da agenda com reuniões marcadas ou print de várias conversas respondidas no WhatsApp (desfocando informações sensíveis).\n\n* * *\n\n## **Slide 2**\n### O mercado diz:\n_\"Esse script funcionou comigo. Copia e usa que também vai funcionar para você.\"_\n### O que eu fiz:\nParei de acreditar que existia uma mensagem pronta capaz de funcionar para qualquer empresa.\nComecei a construir uma abordage\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajck4n4)",
-      "tags": [
-        "Conteúdo",
-        "revisão design"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajck5kx",
-      "type": "clickup",
-      "titulo": "Como eu, social media, fechei uma cliente sem oferecer diagnóstico gratuito, mostrar portfólio ou apresentar uma proposta em PDF",
-      "data": "2026-07-04",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-revis-o-design",
-      "parentId": "sg-901315882544-revis-o-design",
-      "status": "revisão design",
-      "conteudo": "**Como eu, social media, fechei uma cliente sem oferecer diagnóstico gratuito, mostrar portfólio ou apresentar uma proposta em PDF**\n\nLista: Conteúdo\nStatus: revisão design\n\n## Slide 01 — Headline\n### Como eu, social media, fechei uma cliente sem oferecer diagnóstico gratuito, mostrar portfólio ou apresentar uma proposta em PDF\n_(Sugestão de design: fundo limpo, um adesivo amarelo no centro escrito \"SEM CONVENCER\" e a headline dividida acima e abaixo do adesivo.)_\n\n* * *\n\n## Slide 02 — Contextualização\nSe você é social media, provavelmente já ouviu que precisa mostrar um portfólio impecável, uma apresentação bonita e fazer um diagnóstico gratuito para convencer um cliente.\nEu também via todo mundo fazendo exatamente isso.\nMas percebi que esse caminho fazia o clien\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajck5kx)",
-      "tags": [
-        "Conteúdo",
-        "revisão design"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajck6tf",
-      "type": "clickup",
-      "titulo": "A era do social media que vende gestão de Instagram acabou",
-      "data": "2026-07-04",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-revis-o-design",
-      "parentId": "sg-901315882544-revis-o-design",
-      "status": "revisão design",
-      "conteudo": "**A era do social media que vende gestão de Instagram acabou**\n\nLista: Conteúdo\nStatus: revisão design\n\n# Slide 01\n**A era do social media que vende gestão de Instagram acabou**\n\n* * *\n\n# Slide 02\nEsses dias eu estava prospectando uma nutricionista pelo WhatsApp.\nSinceramente?\nAchei que ela nem responderia minha mensagem.\nMas aconteceu exatamente o contrário.\nEla respondeu, marcou a reunião e, no final da conversa, fez o pagamento antes mesmo de assinar o contrato.\n\n* * *\n\n# Slide 03\nO problema é que a maioria dos social medias ainda tenta fechar clientes falando de:\n• Engajamento.\n• Alcance.\n• Instagram.\n• Reels.\n• Conteúdo.\nSó que empresário não acorda pensando nisso.\nEle acorda pensando em ve\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajck6tf)",
-      "tags": [
-        "Conteúdo",
-        "revisão design"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajck7bj",
       "type": "clickup",
       "titulo": "Use essa estratégia para conseguir mais clientes como social media",
@@ -20089,42 +20143,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj92ycq",
-      "type": "clickup",
-      "titulo": "A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.",
-      "data": "2026-07-05",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-programado",
-      "parentId": "sg-901315882544-programado",
-      "status": "programado",
-      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\nLista: Conteúdo\nStatus: programado\n\n# Slide 1( Headline centralizada, não adiciona imagem)\n# A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.\n➡️ E começar a ter reuniões quase todos os dias.\n\n* * *\n\n## Slide 2\nDurante muito tempo eu achei que precisava comprar aqueles packs de mensagens de prospecção.\nSabe aqueles textos prontos que prometem uma taxa enorme de resposta?\nEu copiava.\nColava.\nMudava uma palavra ou outra.\nPorque alguém dizia que tinha funcionado.\nE eu acreditava que o problema era encontrar a mensagem perfeita.\nMas as empresas continuavam ignorando m\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj931mx",
-      "type": "clickup",
-      "titulo": "Descubra como prospectar clientes como social media e fazer os leads responderem você.",
-      "data": "2026-07-05",
-      "perfil": "90138131603",
-      "listId": "901315882544",
-      "listaNodeId": "lista-901315882544",
-      "statusNodeId": "sg-901315882544-programado",
-      "parentId": "sg-901315882544-programado",
-      "status": "programado",
-      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\nLista: Conteúdo\nStatus: programado\n\n## Slide 1 (Adicionar minha foto fazendo reunião com a cliente)\n## Descubra como prospectar clientes como social media e fazer os leads responderem você.\n➡️Em prospecção por WhatsApp\n\n* * *\n\n## Slide 2\nQuando falam em prospecção, quase todo social media pensa imediatamente na mensagem.\n\"Qual script usar?\"\n\"Qual a primeira frase?\"\n\"Como chamar atenção?\"\nSó que existe uma etapa que quase ninguém faz antes disso.\nE é justamente ela que determina se o lead vai responder... ou simplesmente ignorar sua mensagem.\n\n* * *\n\n## Slide 3\n**Salve este post.**\nAntes de tentar prospectar qualquer lead, respon\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj92xc2",
       "type": "clickup",
       "titulo": "Gol de sorte ou estratégia? O que a Copa pode ensinar sobre conseguir clientes ➜",
@@ -20157,6 +20175,114 @@
       "tags": [
         "Conteúdo",
         "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg23ep",
+      "type": "clickup",
+      "titulo": "Aula Gravada ",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-revis-o-texto",
+      "parentId": "sg-901315882544-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Aula Gravada **\n\nLista: Conteúdo\nStatus: revisão texto\n\n# AULA GRATUITA\n## Tema:\n> **_“Por que você está sendo ignorada na prospecção e como ter taxa de 50% de resposta?”_**\n\n* * *\n\n# Base errada\n## 1\\. Ser comum\nTodo social media já mandou dezenas de mensagens que foram ignoradas. Mandam prospectar por direct, entregam script, você usa e fica sem resposta do mesmo jeito até desanimar.\nNa prática:\n*   Mensagem sem resposta\n*   Conversa que morre\n*   Reunião que não acontece\n*   Empresário que visualiza e some\n*   Quando estamos começando, a gente precisa de luz no fim do túnel, algo que indica que vai dar certo e vai valer a pena o esforço, mas qua\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg23ep)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajck4n4",
+      "type": "clickup",
+      "titulo": "O que fez meus clientes pararem de me ignorar como social media.",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-programado",
+      "parentId": "sg-901315882544-programado",
+      "status": "programado",
+      "conteudo": "**O que fez meus clientes pararem de me ignorar como social media.**\n\nLista: Conteúdo\nStatus: programado\n\n### **Slide 1**\n### O que fez meus clientes pararem de me ignorar como social media. Hoje eu consigo agendar reuniões quase todos os dias...\n**Mesmo prospectando pelo WhatsApp.**\nAdicionar **imagem:** Foto minha\n\n* * *\n\n## **Slide 2**\n### O mercado diz:\n_\"Esse script funcionou comigo. Copia e usa que também vai funcionar para você.\"_\n### O que eu fiz:\nParei de acreditar que existia uma mensagem pronta capaz de funcionar para qualquer empresa.\nComecei a construir uma abordagem específica para cada tipo de negócio.\nAdicionar **imagem:** Print da agenda com reuniões marcadas ou print de várias co\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajck4n4)",
+      "tags": [
+        "Conteúdo",
+        "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajck5kx",
+      "type": "clickup",
+      "titulo": "Como eu, social media, fechei uma cliente sem oferecer diagnóstico gratuito, mostrar portfólio ou apresentar uma proposta em PDF",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-programado",
+      "parentId": "sg-901315882544-programado",
+      "status": "programado",
+      "conteudo": "**Como eu, social media, fechei uma cliente sem oferecer diagnóstico gratuito, mostrar portfólio ou apresentar uma proposta em PDF**\n\nLista: Conteúdo\nStatus: programado\n\n## Slide 01 — Headline\n### Como eu, social media, fechei uma cliente sem oferecer diagnóstico gratuito, mostrar portfólio ou apresentar uma proposta em PDF\n_(Sugestão de design: fundo limpo, um adesivo no centro escrito \"SEM CONVENCER\" e a headline dividida acima e abaixo do adesivo.)_\n\n* * *\n\n## Slide 02 — Contextualização\nSe você é social media, provavelmente já ouviu que precisa mostrar um portfólio impecável, uma apresentação bonita e fazer um diagnóstico gratuito para convencer um cliente.\nEu também via todo mundo fazendo exatamente isso.\nMas percebi que esse caminho fazia o cliente compa\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajck5kx)",
+      "tags": [
+        "Conteúdo",
+        "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92ycq",
+      "type": "clickup",
+      "titulo": "A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-em-an-lise",
+      "parentId": "sg-901315882544-em-an-lise",
+      "status": "em análise",
+      "conteudo": "**A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.**\n\nLista: Conteúdo\nStatus: em análise\n\n# Slide 1( Headline centralizada, não adiciona imagem)\n# A única mudança que eu fiz (e que você, social media, também precisa fazer) para parar de correr atrás de clientes.\n➡️ E começar a ter reuniões quase todos os dias.\n\n* * *\n\n## Slide 2\nDurante muito tempo eu achei que precisava comprar aqueles packs de mensagens de prospecção.\nSabe aqueles textos prontos que prometem uma taxa enorme de resposta?\nEu copiava.\nColava.\nMudava uma palavra ou outra.\nPorque alguém dizia que tinha funcionado.\nE eu acreditava que o problema era encontrar a mensagem perfeita.\nMas as empresas continuavam ignorando m\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ycq)",
+      "tags": [
+        "Conteúdo",
+        "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj931mx",
+      "type": "clickup",
+      "titulo": "Descubra como prospectar clientes como social media e fazer os leads responderem você.",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-em-an-lise",
+      "parentId": "sg-901315882544-em-an-lise",
+      "status": "em análise",
+      "conteudo": "**Descubra como prospectar clientes como social media e fazer os leads responderem você.**\n\nLista: Conteúdo\nStatus: em análise\n\n## Slide 1 (Adicionar minha foto fazendo reunião com a cliente)\n## Descubra como prospectar clientes como social media e fazer os leads responderem você.\n➡️Em prospecção por WhatsApp\n\n* * *\n\n## Slide 2\nQuando falam em prospecção, quase todo social media pensa imediatamente na mensagem.\n\"Qual script usar?\"\n\"Qual a primeira frase?\"\n\"Como chamar atenção?\"\nSó que existe uma etapa que quase ninguém faz antes disso.\nE é justamente ela que determina se o lead vai responder... ou simplesmente ignorar sua mensagem.\n\n* * *\n\n## Slide 3\n**Salve este post.**\nAntes de tentar prospectar qualquer lead, respon\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj931mx)",
+      "tags": [
+        "Conteúdo",
+        "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajck6tf",
+      "type": "clickup",
+      "titulo": "A era do social media que vende gestão de Instagram acabou",
+      "data": "2026-07-11",
+      "perfil": "90138131603",
+      "listId": "901315882544",
+      "listaNodeId": "lista-901315882544",
+      "statusNodeId": "sg-901315882544-programado",
+      "parentId": "sg-901315882544-programado",
+      "status": "programado",
+      "conteudo": "**A era do social media que vende gestão de Instagram acabou**\n\nLista: Conteúdo\nStatus: programado\n\n# Slide 01\n**A era do social media que vende gestão de Instagram acabou**\n\n**Sugestão de imagem: Foto minha**\n\n* * *\n\n# Slide 02\nEsses dias eu estava prospectando uma nutricionista pelo WhatsApp.\nSinceramente?\nAchei que ela nem responderia minha mensagem.\nMas aconteceu exatamente o contrário.\nEla respondeu, marcou a reunião e, no final da conversa, fez o pagamento antes mesmo de assinar o contrato.\nSugestao de imagem: Eu fazendo reunião com a cliente e apresentando o plano de ação\n\n* * *\n\n# Slide 03\nO problema é que a maioria dos social medias ainda tenta fechar clientes falando de:\n• Engajame\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajck6tf)",
+      "tags": [
+        "Conteúdo",
+        "programado"
       ],
       "links": []
     },
@@ -39556,6 +39682,11 @@
     },
     {
       "source": "lista-901315882544",
+      "target": "sg-901315882544-revis-o-texto",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901315882544",
       "target": "sg-901315882544-programado",
       "tipo": "hierarquia"
     },
@@ -41980,6 +42111,31 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajg23ef",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajg23eg",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajg23eh",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajg23ej",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajg23ek",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "sg-901323575881-to-do",
       "target": "clickup-86ae0nhx4",
       "tipo": "hierarquia"
@@ -43681,21 +43837,6 @@
     },
     {
       "source": "sg-901315882544-revis-o-design",
-      "target": "clickup-86ajck4n4",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-revis-o-design",
-      "target": "clickup-86ajck5kx",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-revis-o-design",
-      "target": "clickup-86ajck6tf",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-revis-o-design",
       "target": "clickup-86ajck7bj",
       "tipo": "hierarquia"
     },
@@ -43710,16 +43851,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901315882544-programado",
-      "target": "clickup-86aj92ycq",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901315882544-programado",
-      "target": "clickup-86aj931mx",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901315882544-em-an-lise",
       "target": "clickup-86aj92xc2",
       "tipo": "hierarquia"
@@ -43727,6 +43858,36 @@
     {
       "source": "sg-901315882544-em-an-lise",
       "target": "clickup-86aj939br",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-revis-o-texto",
+      "target": "clickup-86ajg23ep",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-programado",
+      "target": "clickup-86ajck4n4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-programado",
+      "target": "clickup-86ajck5kx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-em-an-lise",
+      "target": "clickup-86aj92ycq",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-em-an-lise",
+      "target": "clickup-86aj931mx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901315882544-programado",
+      "target": "clickup-86ajck6tf",
       "tipo": "hierarquia"
     },
     {
