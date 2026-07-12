@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-12T13:14:29.340Z",
+  "geradoEm": "2026-07-12T19:02:48.836Z",
   "totalNodes": 2238,
   "totalLinks": 2226,
   "nodes": [
@@ -3163,24 +3163,6 @@
       "links": []
     },
     {
-      "id": "sg-901316452690-aprovado",
-      "type": "status_group",
-      "titulo": "aprovado",
-      "data": "2026-07-12",
-      "perfil": "90138228562",
-      "cor": "var(--cu-status-violet)",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "parentId": "lista-901316452690",
-      "count": 2,
-      "conteudo": "**aprovado**\n\nLista: Conteúdo\nTarefas: 2",
-      "tags": [
-        "status",
-        "aprovado"
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901316452690-em-an-lise",
       "type": "status_group",
       "titulo": "em análise",
@@ -3208,8 +3190,8 @@
       "listId": "901316452690",
       "listaNodeId": "lista-901316452690",
       "parentId": "lista-901316452690",
-      "count": 9,
-      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 9",
+      "count": 8,
+      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 8",
       "tags": [
         "status",
         "revisão texto"
@@ -3226,11 +3208,29 @@
       "listId": "901316452690",
       "listaNodeId": "lista-901316452690",
       "parentId": "lista-901316452690",
-      "count": 2,
-      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 2",
+      "count": 3,
+      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 3",
       "tags": [
         "status",
         "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316452690-conclu-do",
+      "type": "status_group",
+      "titulo": "concluído",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#008844",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "parentId": "lista-901316452690",
+      "count": 2,
+      "conteudo": "**concluído**\n\nLista: Conteúdo\nTarefas: 2",
+      "tags": [
+        "status",
+        "concluído"
       ],
       "links": []
     },
@@ -13819,42 +13819,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj939ar",
-      "type": "clickup",
-      "titulo": "Stories sexta",
-      "data": "2026-06-28",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-aprovado",
-      "parentId": "sg-901316452690-aprovado",
-      "status": "aprovado",
-      "conteudo": "**Stories sexta**\n\nLista: Conteúdo\nStatus: aprovado\n\n### Story 1 — Ponto de Partida\nHoje eu quero que você faça um diagnóstico rápido.\nSem tentar vender nada.\nSó refletir.\n\n* * *\n\n### Story 2 — Ponto Intermediário\nAs cinco perguntas do post de hoje são exatamente as perguntas que faço antes de pensar em qualquer estratégia.\n\n* * *\n\n### Story 3 — Ponto de Ligação\nPorque uma empresa não cresce apenas por conseguir mais pacientes.\nEla cresce quando consegue manter, converter e desenvolver esses pacientes.\n\n* * *\n\n### Story 4 — Ponto de Dúvida\nA maioria das nutricionistas acredita que precisa de mais marketing.\nDepois que fazemos o diagnóstico, elas\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ar)",
-      "tags": [
-        "Conteúdo",
-        "aprovado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj939am",
-      "type": "clickup",
-      "titulo": "Stories quinta",
-      "data": "2026-06-28",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-aprovado",
-      "parentId": "sg-901316452690-aprovado",
-      "status": "aprovado",
-      "conteudo": "**Stories quinta**\n\nLista: Conteúdo\nStatus: aprovado\n\n### Story 1 — Ponto de Partida\nHoje eu queria te fazer uma pergunta.\nVocê sabe exatamente onde sua empresa perde pacientes?\n\n* * *\n\n### Story 2 — Ponto Intermediário\nA maioria responde:\n\"No Instagram.\"\nMas quase nunca é.\n\n* * *\n\n### Story 3 — Ponto de Ligação\nPode ser:\n• WhatsApp\n• Atendimento\n• Conversão\n• Retenção\n• Reativação\n\n* * *\n\n### Story 4 — Ponto Provocativo\nVocê pode investir milhares em marketing...\ne continuar perdendo pacientes todos os dias.\nSem perceber.\n\n* * *\n\n### Story 5 — Ponto Provocativo\nAmanhã vou publicar um conteúdo que pode mudar completamente a forma como você enxerg\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939am)",
-      "tags": [
-        "Conteúdo",
-        "aprovado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj939a7",
       "type": "clickup",
       "titulo": "Stories segunda",
@@ -13905,24 +13869,6 @@
       "tags": [
         "Conteúdo",
         "em análise"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc26dn",
-      "type": "clickup",
-      "titulo": "A era das estratégias de conteúdo acabou",
-      "data": "2026-07-03",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**A era das estratégias de conteúdo acabou**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSlide 01\nA era das estratégias de conteúdo acabou\n(Isso não trará pacientes)\nSugestão de imagem: Você na sua mesa, com livros, caderno e a pasta aberta. Nada olhando para a câmera. Um momento natural de estudo.\nSlide 02\nEsses dias eu estava lendo um livro sobre construção de ofertas.\nEncontrei uma estratégia que fez sentido para uma nutricionista que acompanho.\nNão copiei.\nNão adaptei na hora.\nPrimeiro ela foi para minha pasta de estudos.\nSugestão de imagem: Foto da pasta aberta mostrando as divisórias (sem revelar informações estratégicas).\nSlide 03\nMuita gente acredita que estratégia nasce d\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc26dn)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
       ],
       "links": []
     },
@@ -14157,6 +14103,60 @@
       "tags": [
         "Conteúdo",
         "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc26dn",
+      "type": "clickup",
+      "titulo": "A era das estratégias de conteúdo acabou",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-programado",
+      "parentId": "sg-901316452690-programado",
+      "status": "programado",
+      "conteudo": "**A era das estratégias de conteúdo acabou**\n\nLista: Conteúdo\nStatus: programado\n\nSlide 01\nA era das estratégias de conteúdo acabou\n(Isso não trará pacientes)\nSugestão de imagem: Eu na mesa, ou lendo livros, caderno e a pasta aberta.\nSlide 02\nEsses dias eu estava lendo um livro sobre construção de ofertas.\nEncontrei uma estratégia que fez sentido para uma nutricionista que acompanho.\nNão copiei.\nNão adaptei na hora.\nPrimeiro ela foi para minha pasta de estudos.\nSugestão de imagem: Foto da pasta aberta mostrando as divisórias (sem revelar informações estratégicas).\nSlide 03\nMuita gente acredita que estratégia nasce de uma trend.\nDe um post viral.\nOu de copiar o que outro pro\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc26dn)",
+      "tags": [
+        "Conteúdo",
+        "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939am",
+      "type": "clickup",
+      "titulo": "Stories quinta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-conclu-do",
+      "parentId": "sg-901316452690-conclu-do",
+      "status": "concluído",
+      "conteudo": "**Stories quinta**\n\nLista: Conteúdo\nStatus: concluído\n\n### Story 1 — Ponto de Partida\nHoje eu queria te fazer uma pergunta.\nVocê sabe exatamente onde sua empresa perde pacientes?\n\n* * *\n\n### Story 2 — Ponto Intermediário\nA maioria responde:\n\"No Instagram.\"\nMas quase nunca é.\n\n* * *\n\n### Story 3 — Ponto de Ligação\nPode ser:\n• WhatsApp\n• Atendimento\n• Conversão\n• Retenção\n• Reativação\n\n* * *\n\n### Story 4 — Ponto Provocativo\nVocê pode investir milhares em marketing...\ne continuar perdendo pacientes todos os dias.\nSem perceber.\n\n* * *\n\n### Story 5 — Ponto Provocativo\nAmanhã vou publicar um conteúdo que pode mudar completamente a forma como você enxerg\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939am)",
+      "tags": [
+        "Conteúdo",
+        "concluído"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj939ar",
+      "type": "clickup",
+      "titulo": "Stories sexta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-conclu-do",
+      "parentId": "sg-901316452690-conclu-do",
+      "status": "concluído",
+      "conteudo": "**Stories sexta**\n\nLista: Conteúdo\nStatus: concluído\n\n### Story 1 — Ponto de Partida\nHoje eu quero que você faça um diagnóstico rápido.\nSem tentar vender nada.\nSó refletir.\n\n* * *\n\n### Story 2 — Ponto Intermediário\nAs cinco perguntas do post de hoje são exatamente as perguntas que faço antes de pensar em qualquer estratégia.\n\n* * *\n\n### Story 3 — Ponto de Ligação\nPorque uma empresa não cresce apenas por conseguir mais pacientes.\nEla cresce quando consegue manter, converter e desenvolver esses pacientes.\n\n* * *\n\n### Story 4 — Ponto de Dúvida\nA maioria das nutricionistas acredita que precisa de mais marketing.\nDepois que fazemos o diagnóstico, elas\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj939ar)",
+      "tags": [
+        "Conteúdo",
+        "concluído"
       ],
       "links": []
     },
@@ -14866,14 +14866,14 @@
       "id": "clickup-86ae2bv0j",
       "type": "clickup",
       "titulo": "Junho",
-      "data": "2026-06-27",
+      "data": "2026-07-12",
       "perfil": "90138228562",
       "listId": "901316212040",
       "listaNodeId": "lista-901316212040",
       "statusNodeId": "sg-901316212040-2026",
       "parentId": "sg-901316212040-2026",
       "status": "2026",
-      "conteudo": "**Junho**\n\nLista: Totais\nStatus: 2026\n\nEntradas: R$ 860,00\nSaidas: R$ 80,00\nResultado: R$ 780,00\n\n(Reserva e DAS nao realizados no mes - nao incluidos)\nAtualizado em: 27/06/2026\nMes em andamento - dados ate 27/06/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2bv0j)",
+      "conteudo": "**Junho**\n\nLista: Totais\nStatus: 2026\n\nEntradas: R$ 1220,00\nSaidas: R$ 360,00\nResultado: R$ 860,00\n\nClientes: Isabela (x2), Priscila Leite, Camilla, Bruna Caroline\nDespesas: Transfeera x2, Gas, Karina Nery, ClickUp, Anthropic\nFechado\nAtualizado em: 12/07/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2bv0j)",
       "tags": [
         "Totais",
         "2026"
@@ -14884,14 +14884,14 @@
       "id": "clickup-86ae2bv0r",
       "type": "clickup",
       "titulo": "Julho",
-      "data": "2026-07-03",
+      "data": "2026-07-12",
       "perfil": "90138228562",
       "listId": "901316212040",
       "listaNodeId": "lista-901316212040",
       "statusNodeId": "sg-901316212040-2026",
       "parentId": "sg-901316212040-2026",
       "status": "2026",
-      "conteudo": "**Julho**\n\nLista: Totais\nStatus: 2026\n\n📥 Entradas: R$ 360.00\n📤 Saídas: R$ 354.37\n💰 Resultado bruto: R$ 5.63\n🏦 Reserva caixa (30%): R$ 108.00\n🤡 DAS MEI: R$ 75.60\n😈 Disponível para retirada: R$ 0.00\n\nAtualizado em: 03/07/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2bv0r)",
+      "conteudo": "**Julho**\n\nLista: Totais\nStatus: 2026\n\nEntradas: R$ 50,00\nSaidas: R$ 110,00\nResultado: R$ -60,00\n\nMes em andamento ate 12/07/2026\nAtualizado em: 12/07/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2bv0r)",
       "tags": [
         "Totais",
         "2026"
@@ -40751,11 +40751,6 @@
     },
     {
       "source": "lista-901316452690",
-      "target": "sg-901316452690-aprovado",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901316452690",
       "target": "sg-901316452690-em-an-lise",
       "tipo": "hierarquia"
     },
@@ -40767,6 +40762,11 @@
     {
       "source": "lista-901316452690",
       "target": "sg-901316452690-programado",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316452690",
+      "target": "sg-901316452690-conclu-do",
       "tipo": "hierarquia"
     },
     {
@@ -43710,16 +43710,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901316452690-aprovado",
-      "target": "clickup-86aj939ar",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-aprovado",
-      "target": "clickup-86aj939am",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901316452690-em-an-lise",
       "target": "clickup-86aj939a7",
       "tipo": "hierarquia"
@@ -43732,11 +43722,6 @@
     {
       "source": "sg-901316452690-em-an-lise",
       "target": "clickup-86aj92rf2",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86ajc26dn",
       "tipo": "hierarquia"
     },
     {
@@ -43802,6 +43787,21 @@
     {
       "source": "sg-901316452690-programado",
       "target": "clickup-86ajc1w91",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-programado",
+      "target": "clickup-86ajc26dn",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-conclu-do",
+      "target": "clickup-86aj939am",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-conclu-do",
+      "target": "clickup-86aj939ar",
       "tipo": "hierarquia"
     },
     {
