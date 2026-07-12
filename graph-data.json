@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-12T08:13:22.497Z",
-  "totalNodes": 2148,
-  "totalLinks": 2136,
+  "geradoEm": "2026-07-12T13:14:29.340Z",
+  "totalNodes": 2238,
+  "totalLinks": 2226,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -273,6 +273,21 @@
       "tags": [
         "pasta",
         "Devilchat"
+      ],
+      "links": []
+    },
+    {
+      "id": "pasta-901318570709",
+      "type": "pasta",
+      "titulo": "FLUXO DE MENSAGEM NUTRIS",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#7c3aed",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**FLUXO DE MENSAGEM NUTRIS**\n\nPasta em OFICINA",
+      "tags": [
+        "pasta",
+        "FLUXO DE MENSAGEM NUTRIS"
       ],
       "links": []
     },
@@ -1083,6 +1098,21 @@
       "tags": [
         "lista",
         "CRM DEVIL CHAT"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901327819137",
+      "type": "lista",
+      "titulo": "Mensagens e Ligação",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "parentId": "pasta-901318570709",
+      "conteudo": "**Mensagens e Ligação**\n\nLista em FLUXO DE MENSAGEM NUTRIS",
+      "tags": [
+        "lista",
+        "Mensagens e Ligação"
       ],
       "links": []
     },
@@ -3160,8 +3190,8 @@
       "listId": "901316452690",
       "listaNodeId": "lista-901316452690",
       "parentId": "lista-901316452690",
-      "count": 4,
-      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 4",
+      "count": 6,
+      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 6",
       "tags": [
         "status",
         "em análise"
@@ -3178,8 +3208,8 @@
       "listId": "901316452690",
       "listaNodeId": "lista-901316452690",
       "parentId": "lista-901316452690",
-      "count": 11,
-      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 11",
+      "count": 9,
+      "conteudo": "**revisão texto**\n\nLista: Conteúdo\nTarefas: 9",
       "tags": [
         "status",
         "revisão texto"
@@ -4317,6 +4347,204 @@
       "tags": [
         "status",
         "não cadastrados"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--venda-da-1-consulta",
+      "type": "status_group",
+      "titulo": "💰 venda da 1ª consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#0197a7",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 6,
+      "conteudo": "**💰 venda da 1ª consulta**\n\nLista: Mensagens e Ligação\nTarefas: 6",
+      "tags": [
+        "status",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--recupera-o",
+      "type": "status_group",
+      "titulo": "🎣 recuperação",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#8ac34a",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 10,
+      "conteudo": "**🎣 recuperação**\n\nLista: Mensagens e Ligação\nTarefas: 10",
+      "tags": [
+        "status",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--quebra-de-obje-es",
+      "type": "status_group",
+      "titulo": "⚒️ quebra de objeções",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#827718",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 10,
+      "conteudo": "**⚒️ quebra de objeções**\n\nLista: Mensagens e Ligação\nTarefas: 10",
+      "tags": [
+        "status",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--p-s-consulta",
+      "type": "status_group",
+      "titulo": "🌟 pós consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#02579b",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 12,
+      "conteudo": "**🌟 pós consulta**\n\nLista: Mensagens e Ligação\nTarefas: 12",
+      "tags": [
+        "status",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--confirmar-consulta",
+      "type": "status_group",
+      "titulo": "⏰ confirmar consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#e040fb",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 9,
+      "conteudo": "**⏰ confirmar consulta**\n\nLista: Mensagens e Ligação\nTarefas: 9",
+      "tags": [
+        "status",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--indica-o",
+      "type": "status_group",
+      "titulo": "👥 indicação",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#02579b",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 7,
+      "conteudo": "**👥 indicação**\n\nLista: Mensagens e Ligação\nTarefas: 7",
+      "tags": [
+        "status",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--comunicados",
+      "type": "status_group",
+      "titulo": "💬 comunicados",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#1b5e20",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 11,
+      "conteudo": "**💬 comunicados**\n\nLista: Mensagens e Ligação\nTarefas: 11",
+      "tags": [
+        "status",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--agendar-pr-ximas-consul",
+      "type": "status_group",
+      "titulo": "💍 agendar próximas consul",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#b388ff",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 4,
+      "conteudo": "**💍 agendar próximas consul**\n\nLista: Mensagens e Ligação\nTarefas: 4",
+      "tags": [
+        "status",
+        "💍 agendar próximas consul"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--follow-up",
+      "type": "status_group",
+      "titulo": "🏃‍♂️ follow-up",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#5f55ee",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 8,
+      "conteudo": "**🏃‍♂️ follow-up**\n\nLista: Mensagens e Ligação\nTarefas: 8",
+      "tags": [
+        "status",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--agendamento",
+      "type": "status_group",
+      "titulo": "📅 agendamento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#5f55ee",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 5,
+      "conteudo": "**📅 agendamento**\n\nLista: Mensagens e Ligação\nTarefas: 5",
+      "tags": [
+        "status",
+        "📅 agendamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327819137--instagram",
+      "type": "status_group",
+      "titulo": "📸 instagram",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "cor": "#0388d1",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "parentId": "lista-901327819137",
+      "count": 4,
+      "conteudo": "**📸 instagram**\n\nLista: Mensagens e Ligação\nTarefas: 4",
+      "tags": [
+        "status",
+        "📸 instagram"
       ],
       "links": []
     },
@@ -7822,47 +8050,11 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 70,
-      "conteudo": "**cancelado**\n\nLista: MAPA ROTINA ALINE\nTarefas: 70",
+      "count": 72,
+      "conteudo": "**cancelado**\n\nLista: MAPA ROTINA ALINE\nTarefas: 72",
       "tags": [
         "status",
         "cancelado"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901325435867-sexta",
-      "type": "status_group",
-      "titulo": "sexta",
-      "data": "2026-07-12",
-      "perfil": "90138131766",
-      "cor": "#ffc53d",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "parentId": "lista-901325435867",
-      "count": 5,
-      "conteudo": "**sexta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 5",
-      "tags": [
-        "status",
-        "sexta"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901325435867-s-bado",
-      "type": "status_group",
-      "titulo": "sábado",
-      "data": "2026-07-12",
-      "perfil": "90138131766",
-      "cor": "#0091ff",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "parentId": "lista-901325435867",
-      "count": 4,
-      "conteudo": "**sábado**\n\nLista: MAPA ROTINA ALINE\nTarefas: 4",
-      "tags": [
-        "status",
-        "sábado"
       ],
       "links": []
     },
@@ -13717,42 +13909,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajc1j4w",
-      "type": "clickup",
-      "titulo": "Hoje minha cliente nutricionista começou....",
-      "data": "2026-07-03",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**Hoje minha cliente nutricionista começou....**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSlide 01\nHoje minha cliente nutricionista começou a conquistar novas pacientes, mesmo sem depender de uma estratégia criada para o Instagram.\nSlide 02\nO mercado diz:\n\"Quer atrair pacientes? Comece criando conteúdo.\"\nO que eu fiz:\nEnquanto muita gente busca a próxima ideia de post, eu faço outra coisa.\nLeio livros sobre negócios, vendas e comportamento, registro os principais aprendizados e adapto essas estratégias para a realidade de cada cliente.\nSlide 03\nO mercado diz:\n\"Faça as trends do momento. Quanto mais visualizações, maiores as chances de conseguir pacientes.\"\nO que eu fiz:\nEu nunca pa\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc1j4w)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc1w91",
-      "type": "clickup",
-      "titulo": "Como eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram",
-      "data": "2026-07-03",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**Como eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram**\n\nLista: Conteúdo\nStatus: revisão texto\n\nHeadline\nComo eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram\nSlide 2\nA maioria das pessoas acredita que toda estratégia de crescimento começa produzindo conteúdo.\nEu começo em outro lugar.\nAntes de pensar em posts, eu procuro entender qual estratégia faz sentido para aquela empresa.\nÉ por isso que dificilmente duas clientes recebem exatamente o mesmo plano.\nSlide 3\nEssa semana eu estava montando o projeto de uma nutricionista.\nEm vez de procurar tendências ou copiar o que outras pessoas estavam fazendo, fui buscar \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc1w91)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajc26dn",
       "type": "clickup",
       "titulo": "A era das estratégias de conteúdo acabou",
@@ -13821,42 +13977,6 @@
       "tags": [
         "Conteúdo",
         "revisão texto"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj92ucy",
-      "type": "clickup",
-      "titulo": "A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.",
-      "data": "2026-07-05",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-programado",
-      "parentId": "sg-901316452690-programado",
-      "status": "programado",
-      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nLista: Conteúdo\nStatus: programado\n\n# Slide 01(Não adicionar foto)\n## **A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n* * *\n\n# Slide 02\nMuita gente acredita que basta fazer uma trend da Copa para atrair pacientes.\nOutras pensam que é só criar uma comunidade no WhatsApp.\nOu fazer um sorteio.\nOu postar receitas temáticas.\nMas nenhuma dessas ações cria pacientes por si só.\nO que faz diferença é o que acontece **depois que a pessoa demonstra interesse.**\n\n* * *\n\n# Slide 03 (Adicionar imagem da estratégia desenhada na lousa, mas precisa por um efeito levemente embaçado n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj92v5g",
-      "type": "clickup",
-      "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
-      "data": "2026-07-05",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-programado",
-      "parentId": "sg-901316452690-programado",
-      "status": "programado",
-      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\nLista: Conteúdo\nStatus: programado\n\n# Slide 01(Print de pagamento recebido e contrato assinado)\n## Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.\n\n* * *\n\n# Slide 02\nA maioria das nutricionistas acredita que basta fazer conteúdos ou anúncios para conseguir mais pacientes.\nMas quando alguém chama no WhatsApp...\n• pergunta o preço;\n• desaparece;\n• não agenda;\n• ou nunca mais responde.\nO problema quase nunca é a falta de divulgação.\nNa maioria das vezes, a empresa simplesmente não está preparada para transformar interesse em pacientes.\n\n* * *\n\n# Slide 03\nAntes de tentar atrair mais pacientes, responda \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
-      "tags": [
-        "Conteúdo",
-        "programado"
       ],
       "links": []
     },
@@ -13965,6 +14085,78 @@
       "tags": [
         "Conteúdo",
         "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92ucy",
+      "type": "clickup",
+      "titulo": "A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-em-an-lise",
+      "parentId": "sg-901316452690-em-an-lise",
+      "status": "em análise",
+      "conteudo": "**A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\nLista: Conteúdo\nStatus: em análise\n\n# Slide 01(Não adicionar foto)\n## **A única estratégia que fez minha cliente nutricionista usar a Copa para criar um fluxo de novos pacientes.**\n\n* * *\n\n# Slide 02\nMuita gente acredita que basta fazer uma trend da Copa para atrair pacientes.\nOutras pensam que é só criar uma comunidade no WhatsApp.\nOu fazer um sorteio.\nOu postar receitas temáticas.\nMas nenhuma dessas ações cria pacientes por si só.\nO que faz diferença é o que acontece **depois que a pessoa demonstra interesse.**\n\n* * *\n\n# Slide 03 (Adicionar imagem da estratégia desenhada na lousa, mas precisa por um efeito levemente embaçado n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92ucy)",
+      "tags": [
+        "Conteúdo",
+        "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj92v5g",
+      "type": "clickup",
+      "titulo": "Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-em-an-lise",
+      "parentId": "sg-901316452690-em-an-lise",
+      "status": "em análise",
+      "conteudo": "**Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.**\n\nLista: Conteúdo\nStatus: em análise\n\n# Slide 01(Print de pagamento recebido e contrato assinado)\n## Descubra como conquistar mais pacientes sem depender de conteúdo ou anúncios.\n\n* * *\n\n# Slide 02\nA maioria das nutricionistas acredita que basta fazer conteúdos ou anúncios para conseguir mais pacientes.\nMas quando alguém chama no WhatsApp...\n• pergunta o preço;\n• desaparece;\n• não agenda;\n• ou nunca mais responde.\nO problema quase nunca é a falta de divulgação.\nNa maioria das vezes, a empresa simplesmente não está preparada para transformar interesse em pacientes.\n\n* * *\n\n# Slide 03\nAntes de tentar atrair mais pacientes, responda \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj92v5g)",
+      "tags": [
+        "Conteúdo",
+        "em análise"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc1j4w",
+      "type": "clickup",
+      "titulo": "Hoje minha cliente nutricionista começou....",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-programado",
+      "parentId": "sg-901316452690-programado",
+      "status": "programado",
+      "conteudo": "**Hoje minha cliente nutricionista começou....**\n\nLista: Conteúdo\nStatus: programado\n\nSlide 01\nHoje minha cliente nutricionista começou a conquistar novas pacientes, mesmo sem depender de uma estratégia criada para o Instagram.\nSlide 02\nO mercado diz:\n\"Quer atrair pacientes? Comece criando conteúdo.\"\nO que eu fiz:\nEnquanto muita gente busca a próxima ideia de post, eu faço outra coisa.\nLeio livros sobre negócios, vendas e comportamento, registro os principais aprendizados e adapto essas estratégias para a realidade de cada cliente.\nSlide 03\nO mercado diz:\n\"Faça as trends do momento. Quanto mais visualizações, maiores as chances de conseguir pacientes.\"\nO que eu fiz:\nEu nunca pa\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc1j4w)",
+      "tags": [
+        "Conteúdo",
+        "programado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc1w91",
+      "type": "clickup",
+      "titulo": "Como eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-programado",
+      "parentId": "sg-901316452690-programado",
+      "status": "programado",
+      "conteudo": "**Como eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram**\n\nLista: Conteúdo\nStatus: programado\n\nSlide 1\nComo eu criei uma estratégia para minha cliente nutricionista que gerou agendamentos de consulta sem depender de posts no Instagram\nImagem: Print dela agendando consultas\nSlide 2\nA maioria das pessoas acredita que toda estratégia de crescimento começa produzindo conteúdo.\nEu começo em outro lugar.\nAntes de pensar em posts, eu procuro entender qual estratégia faz sentido para aquela empresa.\nÉ por isso que dificilmente duas clientes recebem exatamente o mesmo plano.\nSlide 3\nEssa semana eu estava montando o projeto de uma nutricionista.\nEm vez de procurar tendências ou copiar o que outra\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc1w91)",
+      "tags": [
+        "Conteúdo",
+        "programado"
       ],
       "links": []
     },
@@ -18555,6 +18747,1554 @@
       "tags": [
         "CRM DEVIL CHAT",
         "não cadastrados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9j",
+      "type": "clickup",
+      "titulo": "Para reativar pessoas depois de alguns meses, que perguntaram o preço e não agendaram consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--venda-da-1-consulta",
+      "parentId": "sg-901327819137--venda-da-1-consulta",
+      "status": "💰 venda da 1ª consulta",
+      "conteudo": "**Para reativar pessoas depois de alguns meses, que perguntaram o preço e não agendaram consulta**\n\nLista: Mensagens e Ligação\nStatus: 💰 venda da 1ª consulta\n\nOi, **\\[Nome\\]**! 💛\n\nLembrei da nossa conversa e resolvi passar por aqui.\n\nQueria saber se você ainda está buscando um acompanhamento nutricional ou se a rotina acabou adiando esse plano.\n\nSe ainda fizer sentido para você, fico à disposição para tirar qualquer dúvida e encontrar o melhor caminho para o seu caso. 😊\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nPosso te fazer uma pergunta?\n\nQuando conversamos, você estava procurando uma forma de cuidar da sua alimentação e da sua saúde.\n\nO que mudou de lá para cá?\n\nConseguiu encontrar uma solução ou esse objetivo acabou ficando para depois?\n\n‌\n\nOi, **\\[Nome\\]**! \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9j)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9h",
+      "type": "clickup",
+      "titulo": "Avaliação e não fechou",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Avaliação e não fechou**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nLembrei da nossa avaliação e resolvi passar por aqui.\n\nNaquele dia conversamos sobre seus objetivos e montamos um direcionamento para que você pudesse conquistar os resultados que procura.\n\nSei que, na correria, às vezes acabamos adiando decisões importantes, mas quanto mais tempo passa, mais esse objetivo também acaba ficando para depois.\n\nQueria saber como você está hoje e se ainda faz sentido para você cuidar dessa questão.\n\nSe fizer, tenho alguns horários disponíveis e será um prazer acompanhar você nesse processo.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9h)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9f",
+      "type": "clickup",
+      "titulo": "\" Vou deixar para o mês que vem\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\" Vou deixar para o mês que vem\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nEntendo, **\\[Nome\\]**. 💛\n\nÀs vezes, realmente precisamos escolher o melhor momento para começar.\n\nSó quero deixar uma reflexão: muitas mulheres adiam esse cuidado esperando que a rotina fique mais tranquila, mas esse momento nem sempre chega.\n\nQuando você decidir começar, estarei aqui para te ajudar.\n\nVocê acredita que no próximo mês algo realmente vai mudar na sua rotina ou é mais uma questão de planejamento neste momento?\n\n‌\n\nEntendo você, **\\[Nome\\]**. 💛\n\nÉ uma decisão importante, e faz sentido querer se organizar.\n\nSó queria te fazer uma pergunta:\n\nSe conversarmos novamente no próximo mê\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9f)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9e",
+      "type": "clickup",
+      "titulo": "Mensagem de aniversário para paciente de alta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Mensagem de aniversário para paciente de alta**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nHoje é um dia especial e não poderia deixar de passar aqui para te desejar um feliz aniversário! 💚\n\nEspero que esse novo ciclo seja repleto de saúde, felicidade e muitas conquistas.\n\nFoi um prazer fazer parte da sua jornada e ver de perto tudo o que você conquistou.\n\nContinue cuidando de você com o mesmo carinho. E sempre que precisar, saiba que estarei por aqui.\n\nAproveite muito o seu dia. Parabéns!\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9e)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9d",
+      "type": "clickup",
+      "titulo": "Quando o possível cliente retorna depois de muito tempo, quando o preço da consulta já aumentou",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--venda-da-1-consulta",
+      "parentId": "sg-901327819137--venda-da-1-consulta",
+      "status": "💰 venda da 1ª consulta",
+      "conteudo": "**Quando o possível cliente retorna depois de muito tempo, quando o preço da consulta já aumentou**\n\nLista: Mensagens e Ligação\nStatus: 💰 venda da 1ª consulta\n\nOi, **\\[Nome\\]**! 💛\n\nQue bom falar com você novamente! Será um prazer te acompanhar mais uma vez.\n\nDesde o seu último atendimento, meu acompanhamento evoluiu bastante. Hoje, além da consulta, todo o processo foi estruturado para acompanhar a evolução da paciente entre um encontro e outro, permitindo ajustes ao longo do caminho e um cuidado muito mais personalizado.\n\nInclusive, muitas pacientes comentam como esse formato faz diferença na construção de resultados mais consistentes.\n\n**\\[Enviar depoimento, se desejar.\\]**\n\nAtualmente, o investimento é de **R$ 250 por consulta**.\n\nMe conta: qual \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9d)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9b",
+      "type": "clickup",
+      "titulo": "Mensagem de alta nutricional",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Mensagem de alta nutricional**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nParabéns por essa etapa da sua jornada.\n\nHoje você está recebendo alta nutricional porque construiu algo muito maior do que um resultado na balança: desenvolveu hábitos que conseguem fazer parte da sua rotina.\n\nContinue utilizando o aplicativo e os materiais que deixei disponíveis sempre que precisar revisar alguma orientação.\n\nDaqui a alguns meses faremos uma reavaliação para acompanhar como tudo está evoluindo, mas até lá quero que aproveite essa nova fase com confiança e leveza.\n\nFoi um prazer acompanhar sua evolução. Estarei por aqui sempre que precisar.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9b)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x9a",
+      "type": "clickup",
+      "titulo": "\"Você dá desconto se 2 pessoas fecharem o tratamento?\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Você dá desconto se 2 pessoas fecharem o tratamento?\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nQue legal saber que mais alguém tem interesse em começar esse processo com você, **\\[Nome\\]**! 💛\n\nHoje eu mantenho o mesmo valor para todos os atendimentos, porque cada acompanhamento é totalmente individualizado e construído de acordo com a realidade de cada paciente.\n\nMas tenho um programa de indicação que pode beneficiar vocês. Funciona assim:\n\n**\\[Explicar o programa de indicação e o benefício para quem indicou e para quem foi indicado.\\]**\n\nSe vocês quiserem, posso explicar direitinho como funciona e verificar os horários disponíveis. 😊\n\n‌\n\nQue legal, **\\[Nome\\]**! 💛\n\nQuando as pessoas\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x9a)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x98",
+      "type": "clickup",
+      "titulo": "Mensagem de aniversário para paciente sumido",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Mensagem de aniversário para paciente sumido**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nPassei para desejar um feliz aniversário! 💚\n\nQue este novo ciclo seja cheio de saúde, leveza e muitas conquistas.\n\nAproveitando essa data especial, queria deixar um presente para você: \\[e-book / presente / voucher\\].\n\nEspero que esse novo ano também seja um recomeço para tudo aquilo que é importante, principalmente para cuidar de você.\n\nParabéns! Aproveite muito o seu dia.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x98)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x96",
+      "type": "clickup",
+      "titulo": "Quando paciente cancela consulta no aplicativo (1ª consulta)",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Quando paciente cancela consulta no aplicativo (1ª consulta)**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nVi que a nossa primeira consulta foi cancelada e resolvi passar por aqui para saber se aconteceu algum imprevisto.\n\nSe ainda fizer sentido para você iniciar esse acompanhamento, podemos encontrar uma nova data.\n\nEsse primeiro encontro é o momento em que conheço seu histórico, entendo o que vem dificultando seus resultados e construo uma estratégia pensada para a sua rotina.\n\nQuando quiser remarcar, é só me chamar. Será um prazer acompanhar você nessa jornada.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x96)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x95",
+      "type": "clickup",
+      "titulo": "\"Você dá desconto?\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Você dá desconto?\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nEntendo o seu pedido, **\\[Nome\\]**. 💛\n\nNo caso o valor do acompanhamento já foi definido para refletir todo o cuidado, o tempo e a personalização que ofereço em cada atendimento.\n\nMeu compromisso é entregar uma estratégia construída para a sua realidade e acompanhar sua evolução ao longo do processo.\n\nSe surgir qualquer dúvida sobre o que está incluído no acompanhamento, fico à disposição para te explicar. 😊\n\n‌\n\nEntendo você, **\\[Nome\\]**. 💛\n\nSei que essa é uma decisão importante.\n\nHoje, mantenho o mesmo valor para todas as pacientes, porque quero oferecer o mesmo nível de atenção, acompanh\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x95)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x93",
+      "type": "clickup",
+      "titulo": "Venda de plano de manutenção para quem já teve alta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Venda de plano de manutenção para quem já teve alta**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nQueria saber como você tem se sentido desde a sua alta.\n\nUma dúvida que muitas pacientes têm nessa fase é como manter os resultados conquistados sem precisar voltar ao ponto de partida.\n\nFoi pensando nisso que criei o Plano de Manutenção: um acompanhamento mais leve, para que você continue tendo direcionamento, faça ajustes quando necessário e mantenha sua evolução com tranquilidade.\n\nEle inclui:\n\n✅ Consultas periódicas para reavaliação.\n\n✅ Check-ins de acompanhamento.\n\n✅ Suporte para dúvidas.\n\n✅ \\[Demais entregáveis.\\]\n\nAssim, você continua cuidando da sua saúde sem precisar es\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x93)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x90",
+      "type": "clickup",
+      "titulo": "Mensagem do profissional ao paciente agradecendo à indicação",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Mensagem do profissional ao paciente agradecendo à indicação**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nPassei aqui para agradecer de coração pela sua indicação.\n\nRecebi a \\[NOME DA PESSOA\\] e fiquei muito feliz em poder acompanhá-la também.\n\nNão existe reconhecimento maior para mim do que saber que uma paciente confia no meu trabalho a ponto de indicá-lo para alguém que gosta.\n\nMuito obrigada por essa confiança.\n\nSempre que eu puder cuidar de alguém importante para você, será um prazer.\n\n‌\n\nOi, \\[NOME\\]!\n\nPassei só para agradecer pela indicação.\n\nFiquei muito feliz em receber a \\[NOME DA PESSOA\\] e quero que saiba que essa confiança significa muito para mim.\n\nObrigada por lembrar\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x90)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8x",
+      "type": "clickup",
+      "titulo": "Comunicar que a agenda do convênio está fechada para novos pacientes",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Comunicar que a agenda do convênio está fechada para novos pacientes**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nObrigada pelo seu contato.\n\nNo momento, minha agenda para atendimentos por convênio está fechada para novos pacientes.\n\nPara continuar oferecendo um acompanhamento com a qualidade que considero essencial, optei por limitar essa modalidade de atendimento.\n\nNo entanto, tenho disponibilidade para consultas particulares, onde consigo oferecer um atendimento mais completo, individualizado e com maior acompanhamento entre as consultas.\n\nSe fizer sentido para você, vou te explicar como funciona e apresentar as opções disponíveis.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8x)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8w",
+      "type": "clickup",
+      "titulo": "Alertar um paciente antes de \"demiti-lo\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Alertar um paciente antes de \"demiti-lo\"**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nQuero conversar com você sobre um ponto importante do nosso acompanhamento.\n\nPercebi que alguns combinados do atendimento não têm sido respeitados, como **\\[comportamento\\]**.\n\nEsses combinados existem para que eu consiga oferecer um atendimento organizado e de qualidade para todas as pacientes.\n\nQuero muito continuar acompanhando você, mas preciso que essas situações não voltem a acontecer. Caso contrário, infelizmente não conseguirei seguir com o atendimento.\n\nTenho certeza de que conseguimos alinhar isso da melhor forma.\n\n‌\n\nOi, **\\[Nome\\]**!\n\nQuero conversar sobre um pon\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8w)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8u",
+      "type": "clickup",
+      "titulo": "\"Outro profissional é mais barato\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Outro profissional é mais barato\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nEntendo, **\\[Nome\\]**. 💛\n\nÉ natural comparar as opções antes de tomar uma decisão.\n\nCada profissional tem a sua forma de trabalhar. No meu caso, o foco é oferecer um acompanhamento personalizado, entendendo sua rotina, seu histórico e acompanhando sua evolução para fazer os ajustes necessários ao longo do processo.\n\nMais do que uma consulta, meu objetivo é ajudar você a construir resultados que consiga manter no dia a dia.\n\n**\\[Se desejar, envie um depoimento de paciente.\\]**\n\nSe você achar que esse tipo de acompanhamento faz sentido para o seu momento, será um prazer te atender. 😊\n\n‌\n\nEnten\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8u)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8t",
+      "type": "clickup",
+      "titulo": "Para o paciente que marca e desmarca muitas consultas",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Para o paciente que marca e desmarca muitas consultas**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nQueria conversar com você sobre um ponto importante do seu acompanhamento.\n\nPercebi que tivemos algumas remarcações nos últimos atendimentos. Sei que imprevistos acontecem, mas manter uma frequência nas consultas faz diferença para que seu tratamento continue evoluindo.\n\nQuando passamos muito tempo sem os ajustes necessários, fica mais difícil manter o ritmo e alcançar os resultados que você procura.\n\nSempre que precisar remarcar, peço apenas que seja com a antecedência prevista no nosso combinado.\n\nQuero que esse processo funcione para você, e a constância faz parte disso.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8t)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8q",
+      "type": "clickup",
+      "titulo": "Faltou na ultima consulta e não remarcou",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendar-pr-ximas-consul",
+      "parentId": "sg-901327819137--agendar-pr-ximas-consul",
+      "status": "💍 agendar próximas consul",
+      "conteudo": "**Faltou na ultima consulta e não remarcou**\n\nLista: Mensagens e Ligação\nStatus: 💍 agendar próximas consul\n\nOi, **\\[Nome\\]**!\n\nVi que não conseguimos realizar nossa última consulta e resolvi falar com você.\n\nQuando ficamos muito tempo sem acompanhamento, perdemos a oportunidade de fazer os ajustes que mantêm o processo funcionando de forma leve e sustentável.\n\nQuero evitar que você precise recomeçar ou tenha dificuldades que poderiam ser resolvidas com pequenas mudanças.\n\nTenho alguns horários disponíveis para os próximos dias. Qual período costuma funcionar melhor para você? Assim já organizamos seu retorno.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8q)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💍 agendar próximas consul"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8p",
+      "type": "clickup",
+      "titulo": "\"Já tentei antes e não funcionou\" “tenho medo de começar e não aderir”",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Já tentei antes e não funcionou\" “tenho medo de começar e não aderir”**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nEu entendo você, **\\[Nome\\]**. 💛\n\nDepois de tentar várias vezes e não conseguir manter os resultados, é muito natural ficar com receio de viver mais uma frustração.\n\nMas é justamente por isso que, antes de pensar em qualquer estratégia, eu gosto de entender o que aconteceu nas tentativas anteriores. Muitas vezes, o problema não era falta de esforço, e sim uma abordagem que não fazia sentido para a realidade da pessoa.\n\nPor isso, ofereço uma **avaliação nutricional gratuita**, onde conversamos sobre o seu histórico, identificamos o que pode ter dificultado seus resultados até aqui e eu te most\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8p)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8n",
+      "type": "clickup",
+      "titulo": "Convidar ex-pacientes para eventos",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Convidar ex-pacientes para eventos**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nLembrei de você porque estou preparando um evento muito especial e fazia questão de te convidar.\n\nSerá um encontro onde vou compartilhar orientações práticas sobre \\[tema do evento\\], para ajudar você a cuidar da sua saúde de uma forma mais leve e manter os resultados no longo prazo.\n\n📍 Data: \\[Data\\]\n📍 Local: \\[Presencial ou online\\]\n\nComo você já passou pelo meu acompanhamento, quero que tenha prioridade nesse convite.\n\nA participação é gratuita e as vagas são limitadas. Se quiser participar, me avisa que reservo sua vaga.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8n)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8m",
+      "type": "clickup",
+      "titulo": "Transição de convênio para particular",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Transição de convênio para particular**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nQuero compartilhar uma mudança importante no meu atendimento.\n\nA partir do dia \\[DATA\\], deixarei de atender pelos convênios e seguirei exclusivamente com atendimentos particulares.\n\nEssa foi uma decisão pensada com muito cuidado.\n\nPercebi que o modelo dos convênios limita o tempo de consulta e a profundidade do acompanhamento, e isso não está alinhado com a forma como acredito que minhas pacientes merecem ser cuidadas.\n\nNo atendimento particular, consigo oferecer uma experiência muito mais completa, com tempo para entender seu caso, montar um plano personalizado e acompanhar su\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8m)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8j",
+      "type": "clickup",
+      "titulo": "Mensagem de aniversário para paciente que está em tratamento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Mensagem de aniversário para paciente que está em tratamento**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nPassei para desejar um feliz aniversário!\n\nEspero que este novo ciclo seja cheio de saúde, leveza e muitas conquistas.\n\nFico muito feliz em acompanhar você nessa fase da sua vida e ver o quanto tem cuidado de si mesma.\n\nAproveite o seu dia, comemore sem culpa e siga construindo uma relação cada vez mais tranquila com a alimentação.\n\nFeliz aniversário! 💚\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8j)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8f",
+      "type": "clickup",
+      "titulo": "Pedido de participação em live",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Pedido de participação em live**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nQuero te fazer um convite muito especial.\n\nSua evolução tem sido muito bonita de acompanhar e acredito que a sua história pode inspirar muitas mulheres que ainda têm medo de começar.\n\nPor isso, queria te convidar para participar de uma live comigo no Instagram.\n\nA ideia é fazer um bate-papo leve, como acontece nas nossas consultas. Eu vou conduzindo a conversa e você só compartilha sua experiência, do seu jeito.\n\nVamos falar sobre:\n\n• Como você estava antes de começar.\n• O que te fez tomar a decisão de cuidar de você.\n• O que mudou durante esse processo.\n• O que você diria para \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8f)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8d",
+      "type": "clickup",
+      "titulo": "Quando você, profissional, precisa reagendar a consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Quando você, profissional, precisa reagendar a consulta**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nPrecisei fazer um ajuste na minha agenda e, infelizmente, não conseguirei realizar nossa consulta no horário que combinamos.\n\nPeço desculpas pelo transtorno e já separei algumas opções para que você não precise esperar muito:\n\n📅 **\\[Opção 1\\]**\n\n📅 **\\[Opção 2\\]**\n\nMe avisa qual delas funciona melhor para você. Vou fazer o possível para que esse ajuste cause o menor impacto na sua programação.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8d)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x8a",
+      "type": "clickup",
+      "titulo": "Quando o paciente pede mudanças na consulta/receita/pedido de exame sem agendamento de consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Quando o paciente pede mudanças na consulta/receita/pedido de exame sem agendamento de consulta**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nEntendi sua solicitação.\n\nPara fazer qualquer alteração na sua receita, suplementação ou pedido de exames, preciso primeiro avaliar como você está hoje.\n\nEssa avaliação é importante para garantir que qualquer mudança seja feita com segurança e realmente faça sentido para o seu momento atual.\n\nConsigo te atender no dia \\[X\\], às \\[horário\\]. Se esse horário funcionar para você, já deixo reservado.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x8a)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x88",
+      "type": "clickup",
+      "titulo": "Paciente desmarcando",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**Paciente desmarcando**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\nEntendo, **\\[Nome\\]**. 💛\n\nImprevistos acontecem e, às vezes, realmente precisamos reorganizar os planos.\n\nSó queria entender: o que fez você optar por desmarcar neste momento? Se você se sentir à vontade para me contar, talvez eu consiga encontrar uma alternativa que faça mais sentido para a sua realidade.\n\nMeu objetivo é que você continue cuidando da sua saúde da forma que for possível para você, mesmo que seja por um caminho diferente.\n\n‌\n\nEntendo você, **\\[Nome\\]**. 💛\n\nSe neste momento o acompanhamento individual não cabe no seu planejamento, está tudo bem.\n\nO importante é que você não pr\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x88)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x85",
+      "type": "clickup",
+      "titulo": "Lembrete da próxima consulta, 10 dias antes da mesma ser realizada",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendar-pr-ximas-consul",
+      "parentId": "sg-901327819137--agendar-pr-ximas-consul",
+      "status": "💍 agendar próximas consul",
+      "conteudo": "**Lembrete da próxima consulta, 10 dias antes da mesma ser realizada**\n\nLista: Mensagens e Ligação\nStatus: 💍 agendar próximas consul\n\nOi, **\\[Nome\\]**!\n\nFaltam 10 dias para nossa próxima consulta.\n\nQuero acompanhar como seu corpo respondeu nesse período, entender o que funcionou melhor para você e fazer os ajustes necessários para que seu processo continue evoluindo.\n\nSe durante esses dias surgir alguma dúvida ou algum assunto que você queira conversar com mais calma na consulta, pode ir anotando para não esquecermos.\n\nNos vemos em breve!\n\n‌\n\nOi, **\\[Nome\\]**!\n\nNossa próxima consulta já está chegando.\n\nEsse retorno é importante porque nem sempre o melhor caminho é manter exatamente o mesmo plano. Muitas vezes são os pequenos\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x85)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💍 agendar próximas consul"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x84",
+      "type": "clickup",
+      "titulo": "Mudança do atendimento presencial para a teleconsulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Mudança do atendimento presencial para a teleconsulta**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nQuero compartilhar uma novidade importante com você.\n\nA partir do dia \\[DATA\\], meus atendimentos passarão a ser realizados exclusivamente de forma online.\n\nEssa decisão foi tomada pensando em oferecer um acompanhamento ainda mais prático, flexível e contínuo, sem perder a qualidade do atendimento.\n\nCom isso, você poderá:\n\n• Fazer sua consulta de onde estiver.\n• Economizar tempo com deslocamento e trânsito.\n• Encaixar o atendimento com mais facilidade na sua rotina.\n• Continuar recebendo todo o acompanhamento e suporte que já conhece.\n\nO formato mudou, mas meu compromisso com o \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x84)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x83",
+      "type": "clickup",
+      "titulo": "Aviso de novas vagas/horários de atendimento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Aviso de novas vagas/horários de atendimento**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nPassei para te avisar que abri alguns horários na agenda para os próximos dias e lembrei de você.\n\nComo já faz um tempo da nossa última consulta, esse pode ser um ótimo momento para revisar sua evolução, fazer os ajustes necessários e garantir que você continue avançando com segurança.\n\nTenho disponibilidade nestes dias:\n\n📅 \\[Datas\\]\n\nSe algum desses horários funcionar para você, me avisa que já deixo reservado.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x83)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x82",
+      "type": "clickup",
+      "titulo": "Reagendamento por falta do paciente",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Reagendamento por falta do paciente**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nEspero que esteja tudo bem com você.\n\nComo não conseguimos nos encontrar hoje, gostaria de reagendar sua consulta para que possamos dar continuidade ao seu acompanhamento.\n\nTenho estes horários disponíveis:\n\n📅 **\\[Opção 1\\]**\n\n📅 **\\[Opção 2\\]**\n\nMe avisa qual funciona melhor para você, que já deixo tudo organizado.\n\n‌\n\nOi, **\\[Nome\\]**!\n\nEspero que esteja tudo bem.\n\nComo sua consulta de hoje não aconteceu, achei importante entrar em contato para encontrarmos uma nova data.\n\nManter os retornos próximos ajuda a acompanhar como o seu corpo está respondendo e fazer os ajustes \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x82)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x81",
+      "type": "clickup",
+      "titulo": "Pedido de depoimento em vídeo",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Pedido de depoimento em vídeo**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nQuero te fazer um convite especial.\n\nAcompanhar sua evolução tem sido muito gratificante, e acredito que a sua história pode dar coragem para outras pessoas que hoje estão adiando esse primeiro passo.\n\nVocê toparia gravar um vídeo bem curtinho contando como foi sua experiência?\n\nNão precisa ser nada ensaiado. Imagine que está contando para uma amiga como foi passar pelo acompanhamento.\n\nSe te ajudar, você pode responder essas três perguntas:\n\n• Como você estava antes de começar?\n• O que mais te surpreendeu durante o processo?\n• Como você está hoje?\n\nPode gravar pelo celular mesm\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x81)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x80",
+      "type": "clickup",
+      "titulo": "Negociação sobre formas de pagamento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--venda-da-1-consulta",
+      "parentId": "sg-901327819137--venda-da-1-consulta",
+      "status": "💰 venda da 1ª consulta",
+      "conteudo": "**Negociação sobre formas de pagamento**\n\nLista: Mensagens e Ligação\nStatus: 💰 venda da 1ª consulta\n\n**Sem negociação — firme e acolhedora**\n\n> ‌\n\nClaro, **\\[Nome\\]**! 💛\n\nHoje, as formas de pagamento são **PIX** ou **cartão de crédito à vista**.\n\nO acompanhamento acontece por etapas, então você realiza o pagamento da consulta conforme vai avançando no processo, sem precisar contratar todo o acompanhamento de uma vez.\n\nTenho um horário disponível no dia **X**, e será um prazer te receber. Esse dia funciona para você?\n\n‌\n\n**Com parcelamento**\n\nClaro, **\\[Nome\\]**! 💛\n\nPara facilitar, consigo fazer o pagamento em **até 3x no cartão de crédito**.\n\nAssim, você consegue iniciar o acompanhamento de\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x80)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7z",
+      "type": "clickup",
+      "titulo": "[Orientações da consulta] Como se preparar melhor para a consulta?",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendamento",
+      "parentId": "sg-901327819137--agendamento",
+      "status": "📅 agendamento",
+      "conteudo": "**[Orientações da consulta] Como se preparar melhor para a consulta?**\n\nLista: Mensagens e Ligação\nStatus: 📅 agendamento\n\nOi, **\\[Nome\\]**! 💛\n\nEstá chegando o dia da nossa consulta, e estou muito feliz em te acompanhar nessa nova fase.\n\nPara que possamos aproveitar esse momento da melhor forma, separei algumas orientações importantes:\n\n✅ Chegue com **10 minutos de antecedência**, pois os atendimentos começam pontualmente no horário agendado.\n\n🚗 Temos **estacionamento gratuito** no prédio. A entrada fica pela **Rua X**.\n\n👕 Venha com roupas leves ou de treino, pois faremos sua avaliação corporal e exame físico.\n\n🍽️ Não é necessário estar em jejum. Você pode se alimentar normalmente antes da consulta.\n\nQuero que\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7z)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📅 agendamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7y",
+      "type": "clickup",
+      "titulo": "Solicitação de feedback",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Solicitação de feedback**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nQuero te pedir um favor rapidinho.\n\nEstou sempre buscando melhorar a experiência das minhas pacientes e seu feedback é muito importante para isso.\n\nPreparei um formulário bem rápido, leva menos de 2 minutos para responder e vai me ajudar a entender o que funcionou bem e o que ainda posso aprimorar.\n\n📋 **\\[Link\\]**\n\nObrigada por dedicar esse tempinho. Sua opinião faz toda a diferença para mim.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7y)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7x",
+      "type": "clickup",
+      "titulo": "Para quem não respondeu o objetivo",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**Para quem não respondeu o objetivo**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\nOi, **\\[Nome\\]**! 💛 Tudo bem?\n\nPassei por aqui porque fiquei sem saber um pouquinho mais sobre o seu objetivo.\n\nAntes de te orientar sobre o melhor caminho, gosto de entender o que você está buscando e o que fez você entrar em contato comigo.\n\nSe você quiser, podemos agendar uma avaliação nutricional gratuita. Assim conversamos com calma, eu entendo melhor o seu momento e consigo te orientar de forma muito mais assertiva.\n\nTenho alguns horários disponíveis nesta semana. 😊\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nTudo bem?\n\nQueria entender um pouquinho melhor o que você procura para conseguir te orientar da\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7x)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7w",
+      "type": "clickup",
+      "titulo": "Reagendamento, caso o paciente solicite antes da consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Reagendamento, caso o paciente solicite antes da consulta**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nSem problemas. 😊\n\nImprevistos acontecem, e vamos encontrar um novo horário para você.\n\nTenho estas opções disponíveis:\n\n📅 **\\[Opção 1\\]**\n\n📅 **\\[Opção 2\\]**\n\nMe avisa qual funciona melhor para você, que já deixo tudo organizado.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7w)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7v",
+      "type": "clickup",
+      "titulo": "Mudança do local de atendimento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Mudança do local de atendimento**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nQuero te avisar que, a partir do dia \\[DATA\\], meus atendimentos passarão a acontecer em um novo endereço.\n\n📍 \\[NOVO ENDEREÇO\\]\n\nEssa mudança foi pensada para oferecer uma experiência ainda mais confortável e acolhedora durante as consultas.\n\nPara facilitar sua chegada:\n\n• Estacionamento: \\[INFORMAÇÕES\\]\n• Ponto de referência: \\[REFERÊNCIA\\]\n• Como chegar: \\[LINK DO GOOGLE MAPS\\]\n\nSe tiver qualquer dúvida, é só me chamar.\n\nVou adorar receber você no novo consultório! 💚\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7v)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7u",
+      "type": "clickup",
+      "titulo": "Quando o paciente pergunta se tem horário antes da data que você passou",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--venda-da-1-consulta",
+      "parentId": "sg-901327819137--venda-da-1-consulta",
+      "status": "💰 venda da 1ª consulta",
+      "conteudo": "**Quando o paciente pergunta se tem horário antes da data que você passou**\n\nLista: Mensagens e Ligação\nStatus: 💰 venda da 1ª consulta\n\nEntendo, **\\[Nome\\]**! 💛\n\nNo momento, esse é o horário mais próximo que tenho disponível.\n\nSe você quiser, podemos deixar essa consulta já reservada para garantir sua vaga e, caso surja um horário antes, eu entro em contato com você imediatamente para ver se consegue antecipar.\n\nAssim, você não corre o risco de ficar sem atendimento e ainda tem a chance de ser atendida antes. 😊\n\n‌\n\nEntendo, **\\[Nome\\]**! 💛\n\nTambém gostaria de conseguir um horário mais próximo para você.\n\nHoje, esse é o primeiro horário disponível, mas posso colocar seu nome na minha lista de prioridade. Sempre que surgir um\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7u)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7t",
+      "type": "clickup",
+      "titulo": "Pedido de depoimento por escrito",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Pedido de depoimento por escrito**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nQuero te pedir um favor.\n\nSeu processo foi muito importante para mim e acredito que sua experiência pode incentivar outras pessoas que hoje estão na mesma situação que você esteve.\n\nSe puder, me conta em poucas palavras:\n\n• Como você estava antes?\n• O que mudou durante o acompanhamento?\n• Como você se sente hoje?\n\nPode responder por aqui mesmo, do seu jeito.\n\nVou ficar muito feliz em ler seu relato. 💚\n\n‌\n\nOi, \\[NOME\\]!\n\nVocê toparia compartilhar sua experiência comigo?\n\nMuitas pessoas chegam até meu perfil cheias de dúvidas, e ouvir alguém que já passou pelo processo costuma tr\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7t)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7r",
+      "type": "clickup",
+      "titulo": "Vagou um horário antes, deseja antecipar?",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendamento",
+      "parentId": "sg-901327819137--agendamento",
+      "status": "📅 agendamento",
+      "conteudo": "**Vagou um horário antes, deseja antecipar?**\n\nLista: Mensagens e Ligação\nStatus: 📅 agendamento\n\nOi, **\\[Nome\\]**! 💛\n\nPassei aqui porque surgiu um horário antes da sua consulta e lembrei de você.\n\n📅 **Dia X, às X horas.**\n\nSe esse horário funcionar para você, podemos antecipar o seu atendimento e começar sua estratégia antes. Quanto antes entendermos o que está bloqueando os seus resultados, antes você começa a construir uma rotina que realmente funciona.\n\nComo é uma vaga que acabou de ficar disponível, preciso confirmar rapidinho. Me avisa se você consegue! 😊\n\n‌\n\nOi, **\\[Nome\\]**!\n\nTenho uma boa notícia: surgiu um horário antes da sua consulta e quis te avisar primeiro.\n\n📅 **Dia X, à\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7r)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📅 agendamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7q",
+      "type": "clickup",
+      "titulo": "Paciente agendou a consulta e não respondeu o questionário pré consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Paciente agendou a consulta e não respondeu o questionário pré consulta**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nNossa consulta está chegando e está tudo certo para o dia **\\[data\\]**, às **\\[horário\\]**.\n\nPercebi apenas que o questionário pré-consulta ainda está pendente.\n\nEle é muito importante porque me permite conhecer melhor o seu histórico, sua rotina e os seus hábitos antes do nosso encontro. Assim, conseguimos aproveitar a consulta para conversar sobre o que realmente importa para o seu caso.\n\nQuando puder, é só acessar o aplicativo e preenchê-lo. Se surgir qualquer dúvida, estou à disposição.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7q)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7p",
+      "type": "clickup",
+      "titulo": "Cancelamento de consulta não confirmada (por falta de resposta)",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Cancelamento de consulta não confirmada (por falta de resposta)**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nTentei entrar em contato por mensagem e ligação para confirmar sua consulta do dia **\\[data\\]**, às **\\[horário\\]**, mas não consegui falar com você.\n\nComo organizo minha agenda para atender cada paciente com o tempo e a atenção necessários, vou precisar liberar esse horário.\n\nSe ainda fizer sentido para você iniciar esse acompanhamento, será um prazer verificar uma nova data. É só me chamar quando estiver tudo certo por aí.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7p)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7n",
+      "type": "clickup",
+      "titulo": "Comunicar sua licença maternidade (saída e retorno)",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Comunicar sua licença maternidade (saída e retorno)**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nSaída:\n\nOi, \\[NOME\\]!\n\nQuero dividir uma notícia muito especial com você.\n\nEstá chegando o momento da chegada do meu bebê e, por isso, a partir do dia \\[DATA\\], entrarei em licença maternidade.\n\nSerá uma pausa importante para viver esse momento em família, mas antes quero deixar tudo organizado para que seu acompanhamento siga da melhor forma possível.\n\nSe precisarmos fazer algum ajuste antes desse período, me avise para organizarmos com calma.\n\nObrigada pelo carinho de sempre. 💚\n\n‌\n\nRetorno:\n\nOi, \\[NOME\\]!\n\nEstou muito feliz em contar que estou de volta aos atendimentos!\n\nDepois de viver um \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7n)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7k",
+      "type": "clickup",
+      "titulo": "Anuncios",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--instagram",
+      "parentId": "sg-901327819137--instagram",
+      "status": "📸 instagram",
+      "conteudo": "**Anuncios**\n\nLista: Mensagens e Ligação\nStatus: 📸 instagram\n\nOi, **\\[Nome\\]**! 💛 Claro!\n\nSerá um prazer te explicar.\n\nMeu acompanhamento é totalmente personalizado. Antes de montar qualquer estratégia, eu faço uma avaliação completa para entender sua rotina, seus hábitos, seu histórico e identificar o que realmente pode estar dificultando seus resultados.\n\nAssim, consigo elaborar um plano que faça sentido para a sua realidade, sem depender de dietas restritivas.\n\nMe conta uma coisa: o que fez você procurar uma nutricionista neste momento?\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nClaro! Vou te explicar.\n\nNa consulta, nós avaliamos seu histórico, sua alimentação, sua r\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7k)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📸 instagram"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7h",
+      "type": "clickup",
+      "titulo": "Manda o sinal e não responde",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**Manda o sinal e não responde**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\nOi, **\\[Nome\\]**! 💛 Tudo bem?\n\nPassei por aqui para confirmar se você conseguiu ver minha última mensagem sobre a confirmação da sua consulta.\n\nAssim que a vaga for confirmada, já libero seu acesso ao aplicativo com o pré-atendimento. Nele você encontra alguns materiais e eu também começo a conhecer melhor o seu histórico antes da nossa primeira consulta, para aproveitarmos esse momento da melhor forma possível.\n\nSe ficou qualquer dúvida ou se precisar de ajuda, é só me chamar. Estou por aqui! 😊\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nTudo bem?\n\nSó passando para confirmar se você conseguiu ver minha últim\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7h)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7f",
+      "type": "clickup",
+      "titulo": "Para o paciente que confirmou e está atrasado / cancelou no aplicativo",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Para o paciente que confirmou e está atrasado / cancelou no aplicativo**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nNossa consulta estava marcada para **\\[horário\\]** e percebi que você ainda não chegou.\n\nEstá tudo bem? Só me avisa se está a caminho ou se aconteceu algum imprevisto, para que eu consiga organizar os próximos atendimentos.\n\n‌\n\nOi, **\\[Nome\\]**!\n\nNossa consulta estava marcada para **\\[horário\\]** e percebi que você ainda não entrou na chamada.\n\nEstá tudo certo por aí? Se estiver com alguma dificuldade para acessar o link ou aconteceu algum imprevisto, me avise que tento te ajudar.\n\n‌\n\nOi, **\\[Nome\\]**!\n\nComo ainda não consegui falar com você, vou precisar encerrar este horár\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7f)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7e",
+      "type": "clickup",
+      "titulo": "Como oferecer um programa de tratamento mais completo",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Como oferecer um programa de tratamento mais completo**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nQueria compartilhar uma novidade com você.\n\nAlém das consultas, agora também tenho uma modalidade de acompanhamento mais próximo, para quem deseja ter mais segurança durante todo o processo.\n\nNela, além das consultas, você conta com acompanhamento entre um encontro e outro, ajustes sempre que necessário, suporte para dúvidas e acesso ao Clube da Nutri.\n\nA ideia é que você nunca precise enfrentar dificuldades sozinha ou esperar a próxima consulta para receber orientação.\n\nSe quiser conhecer melhor como funciona, me avisa que eu te explico com carinho.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7e)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x7c",
+      "type": "clickup",
+      "titulo": "Comunicar seu recesso de final de ano",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Comunicar seu recesso de final de ano**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nPassando para avisar que entrarei em recesso entre os dias \\[DATA\\] e \\[DATA\\].\n\nSe sua consulta ou algum ajuste estiver previsto para esse período, me avise para organizarmos tudo antes.\n\nDesejo que você tenha dias leves, aproveite esse momento com quem ama e continue cuidando de você.\n\nNos vemos em breve. Feliz Ano Novo! 💚\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x7c)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x79",
+      "type": "clickup",
+      "titulo": "Para pedir que compartilhem eventos com amigos",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Para pedir que compartilhem eventos com amigos**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nQuero fazer um convite.\n\nEstou preparando um evento gratuito para ajudar mais pessoas a começarem uma rotina mais saudável, de forma simples e possível.\n\nE pensei que talvez você conheça alguém que gostaria de participar também.\n\nÉ um conteúdo gratuito, prático e feito para quem quer começar sem radicalismos.\n\nEsse é o link para inscrição:\n\n\\[LINK\\]\n\nSe lembrar de alguém, compartilhe. Tenho certeza de que essa pessoa vai gostar.\n\n‌\n\nOi, \\[NOME\\]!\n\nUma das coisas que mais ajuda alguém a manter uma mudança é ter companhia.\n\nPor isso, queria te convidar para chamar uma amiga ou alg\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x79)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x78",
+      "type": "clickup",
+      "titulo": "Boas-vindas + envio de materiais ou acesso à aplicativo antes da consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendamento",
+      "parentId": "sg-901327819137--agendamento",
+      "status": "📅 agendamento",
+      "conteudo": "**Boas-vindas + envio de materiais ou acesso à aplicativo antes da consulta**\n\nLista: Mensagens e Ligação\nStatus: 📅 agendamento\n\n**\\[Nome\\]**, fico muito feliz por você ter dado esse passo! 💛\n\nA partir de agora, nossa jornada já começou.\n\nEnquanto chega o dia da sua consulta, quero que você acesse o meu aplicativo exclusivo. Lá você vai encontrar vídeos e materiais que preparei para que você já comece a entender por que tantas mulheres vivem no ciclo de emagrecer e recuperar o peso — e, principalmente, como é possível sair dele.\n\n📲 **Seu acesso:** \\[link do app\\]\n\nAssim, quando nos encontrarmos no dia **XX/XX**, você já vai chegar muito mais preparada para aproveitar a consulta e dar início a uma transformação que faç\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x78)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📅 agendamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x75",
+      "type": "clickup",
+      "titulo": "Quando te fazem perguntas ou pedem orientações no direct, sem ser seu paciente",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--instagram",
+      "parentId": "sg-901327819137--instagram",
+      "status": "📸 instagram",
+      "conteudo": "**Quando te fazem perguntas ou pedem orientações no direct, sem ser seu paciente**\n\nLista: Mensagens e Ligação\nStatus: 📸 instagram\n\nOi, **\\[Nome\\]**! 💛\n\nObrigada por compartilhar isso comigo.\n\nO que você me contou sobre **\\[PROBLEMA\\_QUE\\_ELA\\_FALOU\\]** é muito mais comum do que parece. Muitas mulheres passam pela mesma situação e acabam tentando resolver sozinhas com **\\[O QUE É COMUM\\]**, mas nem sempre essa é a estratégia mais adequada para o que realmente está acontecendo.\n\nComo cada pessoa tem uma rotina, um histórico e necessidades diferentes, eu prefiro não fazer uma orientação individual por mensagem. Quero que você receba uma recomendação que realmente faça sentido para o seu caso.\n\nPor isso, ofereço uma **avalia\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x75)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📸 instagram"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x73",
+      "type": "clickup",
+      "titulo": "[Qual o preço da consulta?] Para quem pede informações sobre a consulta, vindo do Google",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--venda-da-1-consulta",
+      "parentId": "sg-901327819137--venda-da-1-consulta",
+      "status": "💰 venda da 1ª consulta",
+      "conteudo": "**[Qual o preço da consulta?] Para quem pede informações sobre a consulta, vindo do Google**\n\nLista: Mensagens e Ligação\nStatus: 💰 venda da 1ª consulta\n\nOi, **\\[Nome\\]**! 💛 Tudo bem?\n\nSerá um prazer te ajudar.\n\nO investimento é de **R$ 250 por consulta**, e o acompanhamento é realizado por etapas, para que possamos avaliar sua evolução e fazer os ajustes necessários ao longo do processo.\n\nAntes de te explicar qual seria o melhor caminho para você, me conta uma coisa:\n\nO que fez você decidir procurar uma nutricionista neste momento?\n\n‌\n\nDepois da resposta:\n\nEntendi, **\\[Nome\\]**. Obrigada por compartilhar isso comigo. 💛\n\nPelo que você me contou, acredito que um acompanhamento personalizado pode fazer bastante diferença.\n\nMeu trabalho começa e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x73)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x72",
+      "type": "clickup",
+      "titulo": "Confirmação do comparecimento no dia do atendimento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Confirmação do comparecimento no dia do atendimento**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**!\n\nPassando para lembrar que nossa consulta é hoje, às **\\[horário\\]**.\n\nEstá tudo preparado para receber você. Se surgir qualquer imprevisto no caminho, me avise por aqui.\n\nAté daqui a pouco!\n\n‌\n\nOi, **\\[Nome\\]**!\n\nHoje é o dia da nossa consulta.\n\n📍 **Horário:** **\\[horário\\]**\n\nSó reforçando algumas orientações: • Temos estacionamento gratuito no prédio. • Venha com roupas leves ou de treino para a avaliação corporal. • Não é necessário estar em jejum.\n\nNos vemos em breve!\n\n‌\n\nOi, **\\[Nome\\]**!\n\nEstou passando para lembrar que nossa consulta acontece hoje, às **\\[horário\\]**\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x72)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x70",
+      "type": "clickup",
+      "titulo": "\"Achei caro\", \"Não tenho dinheiro\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Achei caro\", \"Não tenho dinheiro\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nEntendo você, **\\[Nome\\]**. 💛\n\nObrigada por me falar isso com sinceridade.\n\nPosso te fazer uma pergunta?\n\nQuando você diz que ficou caro, é porque esse investimento não cabe no seu momento agora ou porque você ainda ficou com alguma dúvida sobre o que está incluído no acompanhamento?\n\n‌\n\nEntendo perfeitamente, **\\[Nome\\]**. 💛\n\nCada pessoa tem um momento diferente, e isso faz parte.\n\nSe agora esse investimento não for possível para você, tudo bem. O importante é encontrar uma forma de continuar cuidando da sua saúde.\n\nInclusive, tenho uma comunidade onde compartilho orientações, conteúdos e e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x70)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6y",
+      "type": "clickup",
+      "titulo": "Suporte para dúvidas após uma semana da primeira consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Suporte para dúvidas após uma semana da primeira consulta**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nJá faz uma semana desde a nossa primeira consulta e queria saber como você está se sentindo.\n\nO que ficou mais fácil de colocar em prática?\n\nE o que ainda está sendo um desafio?\n\nNão existe resposta certa ou errada. Quanto mais você me contar sobre sua rotina, mais consigo ajustar o plano para que ele funcione de verdade para você.\n\nEstou por aqui.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6y)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6w",
+      "type": "clickup",
+      "titulo": "Comunicar suas férias",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Comunicar suas férias**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nQuero te avisar com antecedência que estarei de férias entre os dias \\[DATA INÍCIO\\] e \\[DATA RETORNO\\].\n\nSe houver qualquer ajuste que você queira fazer antes desse período, ou se estiver na época da sua consulta, me avise para organizarmos tudo com tranquilidade.\n\nDurante esses dias estarei descansando e responderei as mensagens quando retornar.\n\nObrigada pela compreensão e nos falamos em breve! 💚\n\n‌\n\nMensagem automática:\n\nOlá!\n\nNo momento estou de férias e retorno aos atendimentos no dia \\[DATA\\].\n\nAssim que voltar, responderei todas as mensagens por ordem de chegada.\n\nSe ho\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6w)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6v",
+      "type": "clickup",
+      "titulo": "Reativar pacientes que desistiram",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Reativar pacientes que desistiram**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nLembrei de você esses dias e resolvi passar aqui.\n\nSei que, às vezes, a vida muda nossos planos e precisamos interromper algumas coisas. Mas isso não significa que você precise desistir do seu objetivo.\n\nQueria saber como você está hoje e como tem se sentido desde que pausamos o acompanhamento.\n\nSe fizer sentido para você retomar esse processo, será um prazer ajustar tudo para a sua realidade atual e continuar sua evolução.\n\nTenho alguns horários disponíveis nos próximos dias. Me avisa se quiser que eu reserve um para você.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6v)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6u",
+      "type": "clickup",
+      "titulo": "Para presentear os amigos com um voucher, em datas especiais",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Para presentear os amigos com um voucher, em datas especiais**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nQuero te fazer um convite especial.\n\nEm datas como essa, gosto de incentivar que mais pessoas cuidem da própria saúde. Por isso, preparei um voucher para que você possa presentear alguém que é importante para você.\n\nÀs vezes, uma simples oportunidade é tudo o que alguém precisa para começar.\n\nÉ só encaminhar esse voucher para quem você acredita que vai gostar desse presente.\n\n\\[IMAGEM DO VOUCHER\\]\n\nEspero que essa pessoa aproveite essa oportunidade tanto quanto você. 💚\n\n‌\n\nOi, \\[NOME\\]!\n\nSeparei alguns vouchers para pacientes presentearem pessoas especiais.\n\nNa hora lembrei de \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6u)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6q",
+      "type": "clickup",
+      "titulo": "2º Follow-up: 3 - 7 dias após o primeiro follow-up",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**2º Follow-up: 3 - 7 dias após o primeiro follow-up**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\nOi, **\\[Nome\\]**! 💛\n\nQueria compartilhar esse depoimento com você porque ele me lembrou da nossa conversa.\n\n**\\[Enviar depoimento.\\]**\n\nEssa paciente também chegou com dúvidas antes de começar o acompanhamento, e hoje está muito feliz com a própria evolução.\n\nSe você ainda estiver pensando sobre isso ou quiser conversar melhor antes de decidir, estou por aqui. 😊\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nLembrei da nossa conversa e resolvi passar por aqui.\n\nVocê ainda pretende começar esse acompanhamento ou, por enquanto, decidiu adiar?\n\nPergunto porque, dependendo do que estiver te impedindo hoje, talvez eu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6q)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6p",
+      "type": "clickup",
+      "titulo": "Boas-vindas + solicitação de preenchimento de questionário pré-consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendamento",
+      "parentId": "sg-901327819137--agendamento",
+      "status": "📅 agendamento",
+      "conteudo": "**Boas-vindas + solicitação de preenchimento de questionário pré-consulta**\n\nLista: Mensagens e Ligação\nStatus: 📅 agendamento\n\nOi, **\\[Nome\\]**! 💛\n\nPassei aqui porque vi que o seu questionário ainda está pendente.\n\nEle é uma etapa muito importante antes da nossa consulta, porque me ajuda a conhecer melhor sua rotina, seus hábitos e os desafios que você enfrenta no dia a dia. Assim, quando nos encontrarmos, podemos focar no que realmente está dificultando seus resultados, em vez de gastar boa parte da consulta coletando essas informações.\n\nQuanto mais completo ele estiver, mais personalizada será a sua estratégia desde o primeiro encontro.\n\nVocê consegue preencher ainda hoje?\n\n📋 **Link:** \\[link\\]\n\nQuando finalizar, \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6p)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📅 agendamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6n",
+      "type": "clickup",
+      "titulo": "Chamar paciente para agendar consulta, pois saiu do consultório sem agendar a próxima",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendar-pr-ximas-consul",
+      "parentId": "sg-901327819137--agendar-pr-ximas-consul",
+      "status": "💍 agendar próximas consul",
+      "conteudo": "**Chamar paciente para agendar consulta, pois saiu do consultório sem agendar a próxima**\n\nLista: Mensagens e Ligação\nStatus: 💍 agendar próximas consul\n\nOi, **\\[Nome\\]**!\n\nLembrei de você porque percebi que saímos da consulta sem deixar o próximo encontro agendado.\n\nComo seu acompanhamento é feito por etapas, gosto de manter essa continuidade para conseguirmos avaliar sua evolução e ajustar o plano sempre que necessário.\n\nTenho estes horários disponíveis:\n\n📅 **Opção A**\n\n📅 **Opção B**\n\nQual deles fica melhor para você?\n\n‌\n\nEnviar no mesmo dia ou dia seguinte:\n\n‌\n\nOi, **\\[Nome\\]**!\n\nPercebi agora que, no final da consulta, acabamos esquecendo de marcar seu próximo retorno.\n\nPensando nos horários que normalmente funcionam melhor para você, sep\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6n)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💍 agendar próximas consul"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6m",
+      "type": "clickup",
+      "titulo": "\"Tenho que ver minha agenda\", \"Não tenho tempo\", \"Não estou com tempo para me dedicar agora\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Tenho que ver minha agenda\", \"Não tenho tempo\", \"Não estou com tempo para me dedicar agora\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nEntendo, **\\[Nome\\]**! 💛\n\nA rotina corrida é uma realidade para muitas das mulheres que acompanho.\n\nPor isso, todo o acompanhamento é pensado para se adaptar ao seu dia a dia, e não para criar mais uma obrigação. A ideia é construir uma estratégia que funcione dentro da sua rotina, mesmo quando os dias não saem como o planejado.\n\nMe conta uma coisa: hoje, o que mais dificulta para você encontrar esse tempo?\n\n‌\n\nEu entendo, **\\[Nome\\]**! 💛\n\nInclusive, essa é uma das frases que mais escuto no consultório.\n\nE, justamente por isso, o acompanhamento não é feito para quem tem uma rotina perfeita. \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6m)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6k",
+      "type": "clickup",
+      "titulo": "Envio de mimo (overdelivery)",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Envio de mimo (overdelivery)**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nHoje resolvi preparar uma surpresa para você.\n\nSeparei um material extra que acredito que vai facilitar ainda mais sua rotina e complementar tudo o que estamos construindo juntas.\n\n📎 **\\[Link ou anexo\\]**\n\nNão estava previsto, mas achei que faria sentido para o seu momento.\n\nDepois quero saber o que você achou.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6k)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6j",
+      "type": "clickup",
+      "titulo": "(CLUBE DA NUTRI) Envio de materiais combinados em consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**(CLUBE DA NUTRI) Envio de materiais combinados em consulta**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nConforme combinamos na consulta, estou enviando o material para acompanhar você nessa próxima etapa.\n\n📎 **\\[Link ou anexo\\]**\n\nLeia com calma e vá aplicando aos poucos. A ideia não é mudar tudo de uma vez, mas tornar sua rotina cada vez mais simples e sustentável.\n\nSe surgir qualquer dúvida durante a aplicação, pode me chamar. Estou aqui para ajudar.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6j)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6h",
+      "type": "clickup",
+      "titulo": "\"Vou falar com meu marido/esposa\"",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Vou falar com meu marido/esposa\"**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nClaro, **\\[Nome\\]**! 💛\n\nAcho muito importante que vocês conversem com calma antes de tomar essa decisão.\n\nSe surgir qualquer dúvida sobre como funciona o acompanhamento, o investimento ou qualquer outro ponto, pode me chamar. Vou ficar feliz em esclarecer tudo para que vocês decidam com tranquilidade.\n\nQuando vocês conversarem, me dá um retorno? Assim vejo como posso te ajudar nos próximos passos. 😊\n\n‌\n\nClaro, **\\[Nome\\]**! 💛\n\nEntendo perfeitamente. É muito bom quando essa decisão é tomada com o apoio de quem está ao nosso lado.\n\nSe achar que faz sentido, você pode explicar que o objetivo d\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6h)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6g",
+      "type": "clickup",
+      "titulo": "Agradecimento ao comparecimento, após consultas de acompanhamento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Agradecimento ao comparecimento, após consultas de acompanhamento**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**! Gostei muito da nossa consulta de hoje.\n\nCada retorno é uma oportunidade de entender como o seu corpo está respondendo e fazer os ajustes necessários para que o processo continue funcionando na sua rotina.\n\nContinue colocando em prática o que combinamos, sem buscar perfeição. O mais importante é manter a constância.\n\nQualquer dúvida que surgir até nossa próxima consulta, pode contar comigo.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6g)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6f",
+      "type": "clickup",
+      "titulo": "Como levar um seguidor para uma sessão estratégica",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--instagram",
+      "parentId": "sg-901327819137--instagram",
+      "status": "📸 instagram",
+      "conteudo": "**Como levar um seguidor para uma sessão estratégica**\n\nLista: Mensagens e Ligação\nStatus: 📸 instagram\n\nOi, **\\[Nome\\]**! 💛 Tudo bem?\n\nPercebi que você acompanha meus conteúdos e achei que talvez essa oportunidade pudesse fazer sentido para você.\n\nNesta semana, reservei alguns horários para uma conversa individual de aproximadamente 30 minutos com mulheres que querem entender por que continuam enfrentando dificuldades para emagrecer, mesmo fazendo esforço.\n\nDurante essa conversa, vou analisar o seu caso, entender sua rotina e te ajudar a identificar o que pode estar impedindo seus resultados — seja o efeito sanfona, a compulsão alimentar, os hormônios ou outro fator que esteja passando desperce\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6f)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📸 instagram"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6e",
+      "type": "clickup",
+      "titulo": "Boas-vindas ao novo seguidor",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--instagram",
+      "parentId": "sg-901327819137--instagram",
+      "status": "📸 instagram",
+      "conteudo": "**Boas-vindas ao novo seguidor**\n\nLista: Mensagens e Ligação\nStatus: 📸 instagram\n\nOi, **\\[Nome\\]**! 💛 Seja muito bem-vinda!\n\nQue bom ter você por aqui.\n\nSe você começou a me acompanhar, imagino que queira entender melhor por que tantas mulheres conseguem emagrecer por um tempo, mas acabam voltando ao mesmo lugar.\n\nEssa é justamente a missão do meu trabalho: ajudar mulheres a descobrirem o que realmente está bloqueando seus resultados, sem depender de mais uma dieta restritiva.\n\nE para te ajudar a dar o primeiro passo, estou disponibilizando algumas **avaliações gratuitas** nesta semana.\n\nNessa conversa, eu vou entender um pouco da sua rotina e mostrar quais fatores podem e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6e)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📸 instagram"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6c",
+      "type": "clickup",
+      "titulo": "Confirmação do comparecimento à consulta 48 horas antes",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--confirmar-consulta",
+      "parentId": "sg-901327819137--confirmar-consulta",
+      "status": "⏰ confirmar consulta",
+      "conteudo": "**Confirmação do comparecimento à consulta 48 horas antes**\n\nLista: Mensagens e Ligação\nStatus: ⏰ confirmar consulta\n\nOi, **\\[Nome\\]**! 💛\n\nPassando para lembrar que nossa consulta está marcada para **\\[data\\]**, às **\\[horário\\]**.\n\nPara aproveitarmos esse momento com tranquilidade, peço que chegue cerca de **10 minutos antes** do horário.\n\nEstou preparando tudo para conhecer melhor o seu caso e dar início a uma estratégia pensada para a sua rotina e para os seus objetivos.\n\nNos vemos em breve! 😊\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nNossa consulta está marcada para **\\[data\\]**, às **\\[horário\\]**.\n\nNesta consulta vamos avaliar como o seu corpo respondeu até aqui, ajustar o que for necessário e definir os próximos pas\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6c)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⏰ confirmar consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6b",
+      "type": "clickup",
+      "titulo": "Reativar pacientes que sumiram",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--recupera-o",
+      "parentId": "sg-901327819137--recupera-o",
+      "status": "🎣 recuperação",
+      "conteudo": "**Reativar pacientes que sumiram**\n\nLista: Mensagens e Ligação\nStatus: 🎣 recuperação\n\nOi, \\[Nome\\]!\n\nVi que faz um tempinho desde nossa última consulta e resolvi falar com você.\n\nQuando ficamos muito tempo sem acompanhamento, perdemos a oportunidade de fazer os ajustes que mantêm o processo funcionando de forma leve e sustentável.\n\nMeu objetivo é evitar que você precise recomeçar ou que pequenas dificuldades acabem atrapalhando os resultados que já conquistou.\n\nTenho alguns horários disponíveis para os próximos dias. Qual período costuma funcionar melhor para você? Assim já organizamos seu retorno.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6b)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🎣 recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x6a",
+      "type": "clickup",
+      "titulo": "Agradecimento ao comparecimento, após primeira consulta / avaliação",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Agradecimento ao comparecimento, após primeira consulta / avaliação**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**! Foi um prazer conhecer você hoje e entender um pouco mais da sua história.\n\nAgora começa a parte mais importante: transformar tudo o que conversamos em pequenas ações no seu dia a dia.\n\nNão quero que você busque fazer tudo perfeito. Quero que construa uma rotina que consiga manter mesmo nos dias corridos. É isso que faz os resultados permanecerem.\n\nDurante esse processo você não estará sozinha. Sempre que surgir alguma dúvida ou dificuldade, me chama por aqui.\n\nEstou muito feliz por fazer parte dessa caminhada com você.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x6a)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x69",
+      "type": "clickup",
+      "titulo": "Solicitação de avaliação no Google",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--indica-o",
+      "parentId": "sg-901327819137--indica-o",
+      "status": "👥 indicação",
+      "conteudo": "**Solicitação de avaliação no Google**\n\nLista: Mensagens e Ligação\nStatus: 👥 indicação\n\nOi, \\[NOME\\]!\n\nFico muito feliz em fazer parte da sua evolução e acompanhar de perto seus resultados.\n\nQueria te pedir uma ajuda que faz muita diferença para o meu trabalho.\n\nQuando alguém procura uma nutricionista no Google, normalmente ainda está cheia de dúvidas e inseguranças. O seu relato pode ser justamente o incentivo que essa pessoa precisava para dar o primeiro passo.\n\nSe puder, deixe uma avaliação contando como foi sua experiência comigo.\n\nÉ bem rapidinho:\n\\[LINK DA AVALIAÇÃO\\]\n\nMuito obrigada por confiar no meu trabalho e por me ajudar a levar esse cuidado para mais pessoas. 💚\n\n‌\n\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x69)",
+      "tags": [
+        "Mensagens e Ligação",
+        "👥 indicação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x68",
+      "type": "clickup",
+      "titulo": "1º Follow-up: 2 dias após o primeiro contato",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**1º Follow-up: 2 dias após o primeiro contato**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\nOi, **\\[Nome\\]**! 💛 Tudo bem?\n\nPassei por aqui para saber se ficou alguma dúvida sobre o acompanhamento ou se aconteceu alguma coisa que fez você adiar essa decisão.\n\nSe você ainda estiver em dúvida sobre qual é o melhor caminho para o seu caso, podemos agendar uma avaliação nutricional gratuita. Nessa conversa, vou entender melhor a sua rotina, esclarecer suas dúvidas e explicar como funciona o acompanhamento para que você possa decidir com tranquilidade.\n\nSe fizer sentido para você, é só me avisar. 😊\n\n‌\n\nOi, **\\[Nome\\]**! 💛\n\nTudo bem?\n\nSó passando para saber se ficou alguma dúvida sobre o\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x68)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x67",
+      "type": "clickup",
+      "titulo": "Boas-vindas",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendamento",
+      "parentId": "sg-901327819137--agendamento",
+      "status": "📅 agendamento",
+      "conteudo": "**Boas-vindas**\n\nLista: Mensagens e Ligação\nStatus: 📅 agendamento\n\nOi, **\\[Nome\\]**! 💛 Sua consulta está confirmada!\n\nFico muito feliz por você ter dado esse passo. Muitas vezes, a decisão mais importante não é começar uma dieta, e sim decidir que você não quer mais viver recomeçando.\n\nAntes da nossa consulta, vou te enviar um questionário de pré-atendimento. Ele vai me ajudar a conhecer melhor sua história, sua rotina e tudo o que você já tentou até aqui. Assim, conseguimos aproveitar muito melhor o nosso encontro e focar no que realmente pode fazer diferença para você.\n\nSe surgir qualquer dúvida até lá, é só me chamar. Nos vemos em breve! 🌷\n\n‌\n\nOi, **\\[No\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x67)",
+      "tags": [
+        "Mensagens e Ligação",
+        "📅 agendamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x66",
+      "type": "clickup",
+      "titulo": "Paciente disse que agendaria depois, mas não entrou em contato",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--agendar-pr-ximas-consul",
+      "parentId": "sg-901327819137--agendar-pr-ximas-consul",
+      "status": "💍 agendar próximas consul",
+      "conteudo": "**Paciente disse que agendaria depois, mas não entrou em contato**\n\nLista: Mensagens e Ligação\nStatus: 💍 agendar próximas consul\n\nOi, **\\[Nome\\]**!\n\nLembrei de você porque já estamos chegando no período ideal para sua próxima consulta.\n\nEssa etapa é importante porque é nela que avaliamos como seu corpo respondeu ao plano e fazemos os ajustes para que você continue evoluindo sem precisar recomeçar lá na frente.\n\nSeparei alguns horários para você:\n\n📅 **Opção A**\n\n📅 **Opção B**\n\nQual deles funciona melhor para sua rotina?\n\n‌\n\nOi, **\\[Nome\\]**!\n\nPassando para te lembrar da nossa próxima etapa.\n\nNa última consulta você comentou que me chamaria depois para agendar, então resolvi adiantar porque minha agenda costuma preencher\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x66)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💍 agendar próximas consul"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x65",
+      "type": "clickup",
+      "titulo": "Suporte semanal, de acompanhamento do paciente",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Suporte semanal, de acompanhamento do paciente**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**!\n\nPassando para fazer nosso check-in da semana. 💚\n\nEsse momento é importante para entendermos como seu corpo está respondendo e fazer os ajustes necessários antes que pequenas dificuldades virem um obstáculo.\n\nMe conta:\n\n✅ Como você se sentiu durante essa semana?\n✅ Seu intestino funcionou bem?\n✅ Como ficou sua fome e sua saciedade?\n✅ Teve algum episódio de ansiedade, compulsão ou vontade intensa de comer?\n✅ Conseguiu manter sua alimentação na maior parte dos dias?\n✅ Fez alguma atividade física? Como foi?\n✅ Percebeu alguma mudança no seu peso, disposição, sono ou inchaço?\n\nE, \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x65)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x64",
+      "type": "clickup",
+      "titulo": "Aviso sobre as consultas não terem mais retorno",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Aviso sobre as consultas não terem mais retorno**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nQuero compartilhar uma mudança importante no meu acompanhamento.\n\nPercebi que esperar um retorno fixo nem sempre era a melhor forma de cuidar das minhas pacientes. Muitas dúvidas surgiam antes desse momento e acabavam ficando acumuladas.\n\nPor isso, agora meu acompanhamento funciona de forma contínua.\n\nVocê passa a contar com:\n\n• Suporte direto comigo pelo WhatsApp.\n• Análise de exames assim que estiverem prontos.\n• Check-ins periódicos para acompanharmos sua evolução e fazermos os ajustes necessários.\n\nNa prática, isso significa que você recebe ajuda quando realmente precisa, se\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x64)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x63",
+      "type": "clickup",
+      "titulo": "[Qual o preço da consulta?]",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--venda-da-1-consulta",
+      "parentId": "sg-901327819137--venda-da-1-consulta",
+      "status": "💰 venda da 1ª consulta",
+      "conteudo": "**[Qual o preço da consulta?]**\n\nLista: Mensagens e Ligação\nStatus: 💰 venda da 1ª consulta\n\nOi, **\\[Nome\\]**! 💛\n\nO investimento é de **R$ 250 por consulta**.\n\nMeu acompanhamento acontece por etapas, então você não precisa contratar um pacote completo de uma vez.\n\nCada consulta é personalizada e, além do atendimento, você conta com suporte pelo aplicativo, diário alimentar com meus feedbacks, análise de exames e materiais de apoio para acompanhar sua evolução.\n\nSe você me contar rapidinho qual é o seu principal objetivo hoje, consigo explicar como funciona o acompanhamento no seu caso e qual seria o melhor caminho.\n\n‌\n\nAgora se sentir que dá para criar relacionamento antes e conversa\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x63)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💰 venda da 1ª consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x62",
+      "type": "clickup",
+      "titulo": "Mensagens de sexta-feira",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--p-s-consulta",
+      "parentId": "sg-901327819137--p-s-consulta",
+      "status": "🌟 pós consulta",
+      "conteudo": "**Mensagens de sexta-feira**\n\nLista: Mensagens e Ligação\nStatus: 🌟 pós consulta\n\nOi, **\\[Nome\\]**! Passando para saber como foi sua semana.\n\nEsse acompanhamento é importante porque pequenas dificuldades, quando identificadas cedo, são muito mais fáceis de ajustar.\n\nMe conta:\n\n✅ Como você está se sentindo essa semana?\n✅ Como ficou sua alimentação na maior parte dos dias?\n✅ Seu intestino funcionou bem?\n✅ Conseguiu fazer alguma atividade física?\n✅ Teve algum episódio de exagero, ansiedade ou dificuldade com a alimentação?\n✅ De 0 a 10, quanto você sente que conseguiu seguir o que combinamos?\n\nE uma última pergunta: qual foi sua maior conquista essa semana? E o que você acha qu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x62)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🌟 pós consulta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x61",
+      "type": "clickup",
+      "titulo": "Para quem não respondeu nada depois do que você falou o preço",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**Para quem não respondeu nada depois do que você falou o preço**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\nOi, **\\[Nome\\]**! 💛\n\nPassei por aqui porque lembrei da nossa conversa.\n\nSe você ainda estiver em dúvida sobre qual é o melhor caminho para o seu caso, podemos começar por uma avaliação nutricional gratuita. Nela, conversamos sobre sua rotina, seu histórico e eu explico como funciona o acompanhamento, para que você possa decidir com tranquilidade.\n\nSe fizer sentido para você, é só me avisar. 😊\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x61)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x60",
+      "type": "clickup",
+      "titulo": "\"Aceita convênio/plano de saúde?\" - e você não aceita",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**\"Aceita convênio/plano de saúde?\" - e você não aceita**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\nOi, **\\[Nome\\]**! 💛\n\nEssa é uma dúvida bem comum.\n\nHoje eu realizo apenas atendimentos particulares.\n\nEscolhi trabalhar dessa forma porque consigo dedicar o tempo necessário para conhecer o histórico de cada paciente, entender sua rotina e construir uma estratégia realmente personalizada, além de acompanhar a evolução ao longo do processo.\n\nMeu objetivo não é apenas entregar um plano alimentar, mas ajudar você a construir resultados que consiga manter no dia a dia.\n\nInclusive, muitas pacientes me procuram justamente depois de já terem passado por outros atendimentos e sentirem falta desse aco\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x60)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x5z",
+      "type": "clickup",
+      "titulo": "Aviso sobre agenda do dia estar atrasada",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Aviso sobre agenda do dia estar atrasada**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nPassando para avisar que minha agenda sofreu um pequeno atraso hoje e sua consulta deve começar aproximadamente \\[X\\] minutos depois do horário previsto.\n\nEstou fazendo o possível para normalizar os atendimentos o mais rápido possível.\n\nAgradeço pela compreensão e nos vemos em instantes.\n\n‌\n\nOi, \\[NOME\\]!\n\nQuero te atualizar: infelizmente o atraso acabou se estendendo um pouco mais do que eu esperava.\n\nPeço desculpas pelo transtorno e agradeço muito pela compreensão.\n\nSe esse novo horário não funcionar para você, me avise que encontramos a melhor alternativa.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x5z)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x5y",
+      "type": "clickup",
+      "titulo": "Conforme as respostas nas mensagens de follow-up, use também as quebras de objeções",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**Conforme as respostas nas mensagens de follow-up, use também as quebras de objeções**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x5y)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x5x",
+      "type": "clickup",
+      "titulo": "Reajuste de preço para pacientes em tratamento",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Reajuste de preço para pacientes em tratamento**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\nOi, \\[NOME\\]!\n\nQuero te avisar com antecedência sobre uma atualização importante no meu atendimento.\n\nA partir do dia \\[DATA\\], os valores das consultas serão reajustados. Essa mudança acompanha toda a evolução que fiz no acompanhamento, para continuar oferecendo um atendimento cada vez mais próximo, personalizado e com o suporte que você já conhece.\n\nMas, como você já é minha paciente, até o dia \\[DATA-LIMITE\\] você ainda pode agendar sua próxima consulta com o valor atual.\n\nSe quiser aproveitar essa condição, me chama que separo um horário para você. 💚\n\n‌\n\nOi, \\[NOME\\]!\n\nPassando para te av\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x5x)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x5w",
+      "type": "clickup",
+      "titulo": "Depois de enviar as informações sobre o seu trabalho, faça pelo menos mais 2 contatos até o cliente agendar consulta",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--follow-up",
+      "parentId": "sg-901327819137--follow-up",
+      "status": "🏃‍♂️ follow-up",
+      "conteudo": "**Depois de enviar as informações sobre o seu trabalho, faça pelo menos mais 2 contatos até o cliente agendar consulta**\n\nLista: Mensagens e Ligação\nStatus: 🏃‍♂️ follow-up\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x5w)",
+      "tags": [
+        "Mensagens e Ligação",
+        "🏃‍♂️ follow-up"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x5v",
+      "type": "clickup",
+      "titulo": "Instruções extras",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--comunicados",
+      "parentId": "sg-901327819137--comunicados",
+      "status": "💬 comunicados",
+      "conteudo": "**Instruções extras**\n\nLista: Mensagens e Ligação\nStatus: 💬 comunicados\n\n@nutribrunaboreggio Esse último bloco tem um objetivo diferente dos demais: **comunicar mudanças sem gerar insegurança**.\n\nSempre que precisar avisar qualquer alteração (preço, férias, agenda, licença ou formato de atendimento), siga esta ordem:\n\n1. Explique rapidamente o motivo.\n2. Mostre como isso impacta positivamente o paciente (ou minimize o impacto).\n3. Diga exatamente o que ele precisa fazer agora.\n\nEssa estrutura passa uma ideia de organização, reduz objeções e faz com que a comunicação seja percebida como cuidado, e não apenas um aviso administrativo\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x5v)",
+      "tags": [
+        "Mensagens e Ligação",
+        "💬 comunicados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajg7x5q",
+      "type": "clickup",
+      "titulo": "Use essas mensagens dentro das conversas de Conversão & Venda:",
+      "data": "2026-07-12",
+      "perfil": "90138228562",
+      "listId": "901327819137",
+      "listaNodeId": "lista-901327819137",
+      "statusNodeId": "sg-901327819137--quebra-de-obje-es",
+      "parentId": "sg-901327819137--quebra-de-obje-es",
+      "status": "⚒️ quebra de objeções",
+      "conteudo": "**Use essas mensagens dentro das conversas de Conversão & Venda:**\n\nLista: Mensagens e Ligação\nStatus: ⚒️ quebra de objeções\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajg7x5q)",
+      "tags": [
+        "Mensagens e Ligação",
+        "⚒️ quebra de objeções"
       ],
       "links": []
     },
@@ -28459,96 +30199,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajc79q9",
-      "type": "clickup",
-      "titulo": "📚 Estudo + Leitura (15' leitura + 15' aula)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-sexta",
-      "parentId": "sg-901325435867-sexta",
-      "status": "sexta",
-      "conteudo": "**📚 Estudo + Leitura (15' leitura + 15' aula)**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc79q9)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sexta"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc79t9",
-      "type": "clickup",
-      "titulo": "🏋️ Treino — Musculação (30') + Cardio (20')",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-sexta",
-      "parentId": "sg-901325435867-sexta",
-      "status": "sexta",
-      "conteudo": "**🏋️ Treino — Musculação (30') + Cardio (20')**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc79t9)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sexta"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc7adr",
-      "type": "clickup",
-      "titulo": "🥊 Luta (família — noite)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-sexta",
-      "parentId": "sg-901325435867-sexta",
-      "status": "sexta",
-      "conteudo": "**🥊 Luta (família — noite)**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7adr)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sexta"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc7aqj",
-      "type": "clickup",
-      "titulo": "🏃 Cardio (20') — Sábado",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-s-bado",
-      "parentId": "sg-901325435867-s-bado",
-      "status": "sábado",
-      "conteudo": "**🏃 Cardio (20') — Sábado**\n\nLista: MAPA ROTINA ALINE\nStatus: sábado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7aqj)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sábado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc7dm6",
-      "type": "clickup",
-      "titulo": "🧘 Yoga (família)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-s-bado",
-      "parentId": "sg-901325435867-s-bado",
-      "status": "sábado",
-      "conteudo": "**🧘 Yoga (família)**\n\nLista: MAPA ROTINA ALINE\nStatus: sábado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7dm6)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sábado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj90k5d",
       "type": "clickup",
       "titulo": "📚 Estudo + Leitura (flex)",
@@ -28693,42 +30343,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajc7anw",
-      "type": "clickup",
-      "titulo": "📚 Estudo + Leitura (15' leitura + 15' aula)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-s-bado",
-      "parentId": "sg-901325435867-s-bado",
-      "status": "sábado",
-      "conteudo": "**📚 Estudo + Leitura (15' leitura + 15' aula)**\n\nLista: MAPA ROTINA ALINE\nStatus: sábado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7anw)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sábado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc7ate",
-      "type": "clickup",
-      "titulo": "🟤 Bloco Bronze — Reuniões (Sábado aberto)",
-      "data": "2026-07-04",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-s-bado",
-      "parentId": "sg-901325435867-s-bado",
-      "status": "sábado",
-      "conteudo": "**🟤 Bloco Bronze — Reuniões (Sábado aberto)**\n\nLista: MAPA ROTINA ALINE\nStatus: sábado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc7ate)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sábado"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajc7ah6",
       "type": "clickup",
       "titulo": "🏋️ Treino — Musculação (30') + Cardio (20')",
@@ -28761,24 +30375,6 @@
       "tags": [
         "MAPA ROTINA ALINE",
         "cancelado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aje6qtg",
-      "type": "clickup",
-      "titulo": "🎯 Reunião — Dra. Perla Menezes ⚡",
-      "data": "2026-07-07",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-sexta",
-      "parentId": "sg-901325435867-sexta",
-      "status": "sexta",
-      "conteudo": "**🎯 Reunião — Dra. Perla Menezes ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aje6qtg)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sexta"
       ],
       "links": []
     },
@@ -28819,24 +30415,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajer2ft",
-      "type": "clickup",
-      "titulo": "Reunião 2 - Dra Jeniffer",
-      "data": "2026-07-08",
-      "perfil": "90138131766",
-      "listId": "901325435867",
-      "listaNodeId": "lista-901325435867",
-      "statusNodeId": "sg-901325435867-sexta",
-      "parentId": "sg-901325435867-sexta",
-      "status": "sexta",
-      "conteudo": "**Reunião 2 - Dra Jeniffer**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajer2ft)",
-      "tags": [
-        "MAPA ROTINA ALINE",
-        "sexta"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajemzq4",
       "type": "clickup",
       "titulo": "Reunião - Dra. Bruna Vaz",
@@ -28866,6 +30444,42 @@
       "parentId": "sg-901325435867-cancelado",
       "status": "cancelado",
       "conteudo": "**🎯 Reunião — Dra. Estelina ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: cancelado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajekq0e)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "cancelado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aje6qtg",
+      "type": "clickup",
+      "titulo": "🎯 Reunião — Dra. Perla Menezes ⚡",
+      "data": "2026-07-12",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-cancelado",
+      "parentId": "sg-901325435867-cancelado",
+      "status": "cancelado",
+      "conteudo": "**🎯 Reunião — Dra. Perla Menezes ⚡**\n\nLista: MAPA ROTINA ALINE\nStatus: cancelado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aje6qtg)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "cancelado"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajer2ft",
+      "type": "clickup",
+      "titulo": "Reunião 2 - Dra Jeniffer",
+      "data": "2026-07-12",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-cancelado",
+      "parentId": "sg-901325435867-cancelado",
+      "status": "cancelado",
+      "conteudo": "**Reunião 2 - Dra Jeniffer**\n\nLista: MAPA ROTINA ALINE\nStatus: cancelado\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajer2ft)",
       "tags": [
         "MAPA ROTINA ALINE",
         "cancelado"
@@ -38216,6 +39830,11 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "espaco-90138228562",
+      "target": "pasta-901318570709",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "espaco-90138131603",
       "target": "pasta-901310053338",
       "tipo": "hierarquia"
@@ -38483,6 +40102,11 @@
     {
       "source": "pasta-901318092991",
       "target": "lista-901326950824",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318570709",
+      "target": "lista-901327819137",
       "tipo": "hierarquia"
     },
     {
@@ -39453,6 +41077,61 @@
     {
       "source": "lista-901326950824",
       "target": "sg-901326950824-n-o-cadastrados",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--venda-da-1-consulta",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--recupera-o",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--quebra-de-obje-es",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--p-s-consulta",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--confirmar-consulta",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--indica-o",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--comunicados",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--agendar-pr-ximas-consul",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--follow-up",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--agendamento",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327819137",
+      "target": "sg-901327819137--instagram",
       "tipo": "hierarquia"
     },
     {
@@ -40428,16 +42107,6 @@
     {
       "source": "lista-901325435867",
       "target": "sg-901325435867-cancelado",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901325435867",
-      "target": "sg-901325435867-sexta",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901325435867",
-      "target": "sg-901325435867-s-bado",
       "tipo": "hierarquia"
     },
     {
@@ -42067,16 +43736,6 @@
     },
     {
       "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86ajc1j4w",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86ajc1w91",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-revis-o-texto",
       "target": "clickup-86ajc26dn",
       "tipo": "hierarquia"
     },
@@ -42093,16 +43752,6 @@
     {
       "source": "sg-901316452690-revis-o-texto",
       "target": "clickup-86ajc669j",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-programado",
-      "target": "clickup-86aj92ucy",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-programado",
-      "target": "clickup-86aj92v5g",
       "tipo": "hierarquia"
     },
     {
@@ -42133,6 +43782,26 @@
     {
       "source": "sg-901316452690-revis-o-texto",
       "target": "clickup-86ajg23ek",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-em-an-lise",
+      "target": "clickup-86aj92ucy",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-em-an-lise",
+      "target": "clickup-86aj92v5g",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-programado",
+      "target": "clickup-86ajc1j4w",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-programado",
+      "target": "clickup-86ajc1w91",
       "tipo": "hierarquia"
     },
     {
@@ -43408,6 +45077,436 @@
     {
       "source": "sg-901326950824-n-o-cadastrados",
       "target": "clickup-86ah21dba",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--venda-da-1-consulta",
+      "target": "clickup-86ajg7x9j",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x9h",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x9f",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x9e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--venda-da-1-consulta",
+      "target": "clickup-86ajg7x9d",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x9b",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x9a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x98",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x96",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x95",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x93",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x90",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x8x",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x8w",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x8u",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x8t",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendar-pr-ximas-consul",
+      "target": "clickup-86ajg7x8q",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x8p",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x8n",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x8m",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x8j",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x8f",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x8d",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x8a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x88",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendar-pr-ximas-consul",
+      "target": "clickup-86ajg7x85",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x84",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x83",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x82",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x81",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--venda-da-1-consulta",
+      "target": "clickup-86ajg7x80",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendamento",
+      "target": "clickup-86ajg7x7z",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x7y",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x7x",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x7w",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x7v",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--venda-da-1-consulta",
+      "target": "clickup-86ajg7x7u",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x7t",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendamento",
+      "target": "clickup-86ajg7x7r",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x7q",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x7p",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x7n",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--instagram",
+      "target": "clickup-86ajg7x7k",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x7h",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x7f",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x7e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x7c",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x79",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendamento",
+      "target": "clickup-86ajg7x78",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--instagram",
+      "target": "clickup-86ajg7x75",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--venda-da-1-consulta",
+      "target": "clickup-86ajg7x73",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x72",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x70",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x6y",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x6w",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x6v",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x6u",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x6q",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendamento",
+      "target": "clickup-86ajg7x6p",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendar-pr-ximas-consul",
+      "target": "clickup-86ajg7x6n",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x6m",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x6k",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x6j",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x6h",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x6g",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--instagram",
+      "target": "clickup-86ajg7x6f",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--instagram",
+      "target": "clickup-86ajg7x6e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--confirmar-consulta",
+      "target": "clickup-86ajg7x6c",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--recupera-o",
+      "target": "clickup-86ajg7x6b",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x6a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--indica-o",
+      "target": "clickup-86ajg7x69",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x68",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendamento",
+      "target": "clickup-86ajg7x67",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--agendar-pr-ximas-consul",
+      "target": "clickup-86ajg7x66",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x65",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x64",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--venda-da-1-consulta",
+      "target": "clickup-86ajg7x63",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--p-s-consulta",
+      "target": "clickup-86ajg7x62",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x61",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x60",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x5z",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x5y",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x5x",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--follow-up",
+      "target": "clickup-86ajg7x5w",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--comunicados",
+      "target": "clickup-86ajg7x5v",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327819137--quebra-de-obje-es",
+      "target": "clickup-86ajg7x5q",
       "tipo": "hierarquia"
     },
     {
@@ -46161,31 +48260,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901325435867-sexta",
-      "target": "clickup-86ajc79q9",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-sexta",
-      "target": "clickup-86ajc79t9",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-sexta",
-      "target": "clickup-86ajc7adr",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-s-bado",
-      "target": "clickup-86ajc7aqj",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-s-bado",
-      "target": "clickup-86ajc7dm6",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86aj90k5d",
       "tipo": "hierarquia"
@@ -46226,16 +48300,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901325435867-s-bado",
-      "target": "clickup-86ajc7anw",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-s-bado",
-      "target": "clickup-86ajc7ate",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajc7ah6",
       "tipo": "hierarquia"
@@ -46243,11 +48307,6 @@
     {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajc7dka",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901325435867-sexta",
-      "target": "clickup-86aje6qtg",
       "tipo": "hierarquia"
     },
     {
@@ -46261,11 +48320,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901325435867-sexta",
-      "target": "clickup-86ajer2ft",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajemzq4",
       "tipo": "hierarquia"
@@ -46273,6 +48327,16 @@
     {
       "source": "sg-901325435867-cancelado",
       "target": "clickup-86ajekq0e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-cancelado",
+      "target": "clickup-86aje6qtg",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-cancelado",
+      "target": "clickup-86ajer2ft",
       "tipo": "hierarquia"
     },
     {
