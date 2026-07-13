@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-13T14:28:43.421Z",
+  "geradoEm": "2026-07-13T19:21:37.777Z",
   "totalNodes": 2238,
   "totalLinks": 2226,
   "nodes": [
@@ -18592,7 +18592,7 @@
       "id": "clickup-86aj9a91z",
       "type": "clickup",
       "titulo": "Gestão Priscila Leite",
-      "data": "2026-07-10",
+      "data": "2026-07-13",
       "perfil": "90138228562",
       "listId": "901327696748",
       "listaNodeId": "lista-901327696748",
@@ -28114,14 +28114,14 @@
       "id": "clickup-86aj539n6",
       "type": "clickup",
       "titulo": "INSTRUÇÕES PRISCILA",
-      "data": "2026-06-22",
+      "data": "2026-07-13",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "statusNodeId": "sg-901327622582-ideia",
       "parentId": "sg-901327622582-ideia",
       "status": "ideia",
-      "conteudo": "**INSTRUÇÕES PRISCILA**\n\nLista: Conteúdo Priscila\nStatus: ideia\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539n6)",
+      "conteudo": "**INSTRUÇÕES PRISCILA**\n\nLista: Conteúdo Priscila\nStatus: ideia\n\n[@Priscila Ferreira Leite Pereira](#user_mention#302568630) próximos passos:\n\n[\n\nyoutu.be\n\nhttps://youtu.be/mNxJ46GhLfY\n\n](https://youtu.be/mNxJ46GhLfY)\n\nO que preciso agora:\n*   fotos suas\n*   gravação do curso\n*   o roteiro do workshop\n*   em relação a domínio, me confirmar se irá comprar do registro br ou se manterá esse do github (se for comprar, consigo te ajudar, criando a conta lá, solicitando o domínio e aí só te envio o link de pagamento)\n\nO que vamos começar a montar aqui enquanto aguardo isso da sua parte:\n*   Linha editorial de conteúdo\n*   Google Meu Negócio\n*   Conexão TAG e PIXE\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539n6)",
       "tags": [
         "Conteúdo Priscila",
         "ideia"
@@ -28132,7 +28132,7 @@
       "id": "clickup-86aj539n7",
       "type": "clickup",
       "titulo": "LINHA EDITORIAL",
-      "data": "2026-06-22",
+      "data": "2026-07-13",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
