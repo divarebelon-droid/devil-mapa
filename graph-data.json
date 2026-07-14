@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-14T13:29:20.126Z",
-  "totalNodes": 2289,
-  "totalLinks": 2277,
+  "geradoEm": "2026-07-14T19:17:22.786Z",
+  "totalNodes": 2292,
+  "totalLinks": 2280,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -7888,8 +7888,8 @@
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "parentId": "lista-901327622582",
-      "count": 1,
-      "conteudo": "**consideração**\n\nLista: Conteúdo Priscila\nTarefas: 1",
+      "count": 2,
+      "conteudo": "**consideração**\n\nLista: Conteúdo Priscila\nTarefas: 2",
       "tags": [
         "status",
         "consideração"
@@ -7942,8 +7942,8 @@
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "parentId": "lista-901327622582",
-      "count": 1,
-      "conteudo": "**descoberta**\n\nLista: Conteúdo Priscila\nTarefas: 1",
+      "count": 3,
+      "conteudo": "**descoberta**\n\nLista: Conteúdo Priscila\nTarefas: 3",
       "tags": [
         "status",
         "descoberta"
@@ -28528,7 +28528,7 @@
       "id": "clickup-86aj539n6",
       "type": "clickup",
       "titulo": "INSTRUÇÕES PRISCILA",
-      "data": "2026-07-13",
+      "data": "2026-07-14",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
@@ -28546,7 +28546,7 @@
       "id": "clickup-86aj539n7",
       "type": "clickup",
       "titulo": "LINHA EDITORIAL",
-      "data": "2026-07-13",
+      "data": "2026-07-14",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
@@ -28557,6 +28557,60 @@
       "tags": [
         "Conteúdo Priscila",
         "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajh9qzk",
+      "type": "clickup",
+      "titulo": "Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar",
+      "data": "2026-07-14",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-descoberta",
+      "parentId": "sg-901327622582-descoberta",
+      "status": "descoberta",
+      "conteudo": "**Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n## Slide 01 — Headline\n**Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar**\n\n* * *\n\n## Slide 02\nTodos os dias surgem novos posts prometendo:\n- [ ] \"5 atividades para seletividade.\"\n- [ ] \"10 brincadeiras que fazem a criança comer.\"\n- [ ] \"Receitas para destravar o paciente.\"\nMas existe um problema…\nVocê pode salvar todos esses conteúdos e ainda continuar sem saber conduzir um caso real\n**E foi exatamente isso que aconteceu com uma nutricionista que hoje atende seletividade com segurança...**\n\n* * *\n\n## Slide 03\nEla já era nu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajh9qzk)",
+      "tags": [
+        "Conteúdo Priscila",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajh9vy2",
+      "type": "clickup",
+      "titulo": "A única mudança que fez uma nutricionista parar de recusar casos de seletividade alimentar",
+      "data": "2026-07-14",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-considera-o",
+      "parentId": "sg-901327622582-considera-o",
+      "status": "consideração",
+      "conteudo": "**A única mudança que fez uma nutricionista parar de recusar casos de seletividade alimentar**\n\nLista: Conteúdo Priscila\nStatus: consideração\n\n### **Slide 01 — Headline**\n## **A única mudança que fez uma nutricionista parar de recusar casos de seletividade alimentar**\n\n* * *\n\n### **Slide 02 — Quebra de crença**\nEla não recusava pacientes porque sabia pouco\nNem porque era recém-formada\nNem porque faltavam cursos\nEla recusava porque, quando a criança sentava na sua frente, ela simplesmente não sabia qual seria o próximo passo\nSe identificou?\n\n* * *\n\n### **Slide 03 — Validação**\nEssa é a história da Renata\nEla já tinha estudado Nutrição Infantil, mas ainda recusava pacientes com TEA e seletividade alimentar por medo de não conseguir con\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajh9vy2)",
+      "tags": [
+        "Conteúdo Priscila",
+        "consideração"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajha0b0",
+      "type": "clickup",
+      "titulo": "Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança",
+      "data": "2026-07-14",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-descoberta",
+      "parentId": "sg-901327622582-descoberta",
+      "status": "descoberta",
+      "conteudo": "**Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n## Slide 01 — Headline\n**Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança**\n\n* * *\n\n## Slide 02 — Contextualização\nUm dos maiores mitos da Nutrição Infantil é acreditar que toda criança seletiva precisa da mesma estratégia\nA verdade é que duas crianças podem apresentar exatamente a mesma queixa (\"não come\"), mas por motivos completamente diferentes\nÉ por isso que tantas nutricionistas se sentem perdidas mesmo depois de estudar tanto\n\n* * *\n\n## Slide 03 — CTA para salvar\nAntes de pensar em qualquer intervenção, responda estas 4 perguntas:\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajha0b0)",
+      "tags": [
+        "Conteúdo Priscila",
+        "descoberta"
       ],
       "links": []
     },
@@ -48720,6 +48774,21 @@
     {
       "source": "sg-901327622582-ideia",
       "target": "clickup-86aj539n7",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-descoberta",
+      "target": "clickup-86ajh9qzk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-considera-o",
+      "target": "clickup-86ajh9vy2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-descoberta",
+      "target": "clickup-86ajha0b0",
       "tipo": "hierarquia"
     },
     {
