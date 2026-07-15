@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-15T08:04:47.355Z",
-  "totalNodes": 2292,
-  "totalLinks": 2280,
+  "geradoEm": "2026-07-15T13:39:14.866Z",
+  "totalNodes": 2298,
+  "totalLinks": 2286,
   "nodes": [
     {
       "id": "espaco-90138228562",
@@ -6205,24 +6205,6 @@
       "links": []
     },
     {
-      "id": "sg-901324267096-aprendizagem",
-      "type": "status_group",
-      "titulo": "aprendizagem",
-      "data": "2026-07-15",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901324267096",
-      "listaNodeId": "lista-901324267096",
-      "parentId": "lista-901324267096",
-      "count": 1,
-      "conteudo": "**aprendizagem**\n\nLista: Cronograma\nTarefas: 1",
-      "tags": [
-        "status",
-        "aprendizagem"
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901324267096-di-rio",
       "type": "status_group",
       "titulo": "diário",
@@ -6237,6 +6219,24 @@
       "tags": [
         "status",
         "diário"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901324267096-aprendizagem",
+      "type": "status_group",
+      "titulo": "aprendizagem",
+      "data": "2026-07-15",
+      "perfil": "90138131805",
+      "cor": "var(--cu-status-brown)",
+      "listId": "901324267096",
+      "listaNodeId": "lista-901324267096",
+      "parentId": "lista-901324267096",
+      "count": 1,
+      "conteudo": "**aprendizagem**\n\nLista: Cronograma\nTarefas: 1",
+      "tags": [
+        "status",
+        "aprendizagem"
       ],
       "links": []
     },
@@ -7015,24 +7015,6 @@
       "links": []
     },
     {
-      "id": "sg-901327622584-aprendizagem",
-      "type": "status_group",
-      "titulo": "aprendizagem",
-      "data": "2026-07-15",
-      "perfil": "901313861779",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901327622584",
-      "listaNodeId": "lista-901327622584",
-      "parentId": "lista-901327622584",
-      "count": 1,
-      "conteudo": "**aprendizagem**\n\nLista: Cronograma\nTarefas: 1",
-      "tags": [
-        "status",
-        "aprendizagem"
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901327622584-di-rio",
       "type": "status_group",
       "titulo": "diário",
@@ -7047,6 +7029,24 @@
       "tags": [
         "status",
         "diário"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327622584-aprendizagem",
+      "type": "status_group",
+      "titulo": "aprendizagem",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "cor": "var(--cu-status-brown)",
+      "listId": "901327622584",
+      "listaNodeId": "lista-901327622584",
+      "parentId": "lista-901327622584",
+      "count": 1,
+      "conteudo": "**aprendizagem**\n\nLista: Cronograma\nTarefas: 1",
+      "tags": [
+        "status",
+        "aprendizagem"
       ],
       "links": []
     },
@@ -7870,8 +7870,8 @@
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "parentId": "lista-901327622582",
-      "count": 1,
-      "conteudo": "**decisão**\n\nLista: Conteúdo Priscila\nTarefas: 1",
+      "count": 2,
+      "conteudo": "**decisão**\n\nLista: Conteúdo Priscila\nTarefas: 2",
       "tags": [
         "status",
         "decisão"
@@ -7888,8 +7888,8 @@
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "parentId": "lista-901327622582",
-      "count": 2,
-      "conteudo": "**consideração**\n\nLista: Conteúdo Priscila\nTarefas: 2",
+      "count": 4,
+      "conteudo": "**consideração**\n\nLista: Conteúdo Priscila\nTarefas: 4",
       "tags": [
         "status",
         "consideração"
@@ -7924,8 +7924,8 @@
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "parentId": "lista-901327622582",
-      "count": 1,
-      "conteudo": "**recuperação**\n\nLista: Conteúdo Priscila\nTarefas: 1",
+      "count": 3,
+      "conteudo": "**recuperação**\n\nLista: Conteúdo Priscila\nTarefas: 3",
       "tags": [
         "status",
         "recuperação"
@@ -7942,8 +7942,8 @@
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "parentId": "lista-901327622582",
-      "count": 3,
-      "conteudo": "**descoberta**\n\nLista: Conteúdo Priscila\nTarefas: 3",
+      "count": 4,
+      "conteudo": "**descoberta**\n\nLista: Conteúdo Priscila\nTarefas: 4",
       "tags": [
         "status",
         "descoberta"
@@ -26545,28 +26545,10 @@
       "links": []
     },
     {
-      "id": "clickup-86aefvvrc",
-      "type": "clickup",
-      "titulo": "Plano de ação",
-      "data": "2026-07-10",
-      "perfil": "90138131805",
-      "listId": "901324267096",
-      "listaNodeId": "lista-901324267096",
-      "statusNodeId": "sg-901324267096-aprendizagem",
-      "parentId": "sg-901324267096-aprendizagem",
-      "status": "aprendizagem",
-      "conteudo": "**Plano de ação**\n\nLista: Cronograma\nStatus: aprendizagem\n\n[Esteira\\_Apresentacao\\_BrunaBoreggio.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/9184bd17-4f04-443a-9b04-f7957b790336/Esteira_Apresentacao_BrunaBoreggio.docx)\n\n[PLANO DE REATIVAÇÃO\\_BrunaBoreggio.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/a4683fee-0a1e-41cf-a9cd-317d110cd28e/PLANO%20DE%20REATIVA%C3%87%C3%83O_BrunaBoreggio.docx)\n\n[Controle\\_Reativacao\\_BrunaBoreggio.xlsx](https://t90131929380.p.clickup-attachments.com/t90131929380/0a58a477-a29a-4248-b1c3-0e1b04377f73/Controle_Reativacao_BrunaBoreggio.xlsx)\n\nEstratégias em vigor: Parcerias, reativaçã\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefvvrc)",
-      "tags": [
-        "Cronograma",
-        "aprendizagem"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ah91a3y",
       "type": "clickup",
       "titulo": "Atualização",
-      "data": "2026-07-10",
+      "data": "2026-07-15",
       "perfil": "90138131805",
       "listId": "901324267096",
       "listaNodeId": "lista-901324267096",
@@ -26577,6 +26559,24 @@
       "tags": [
         "Cronograma",
         "diário"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aefvvrc",
+      "type": "clickup",
+      "titulo": "Plano de ação",
+      "data": "2026-07-15",
+      "perfil": "90138131805",
+      "listId": "901324267096",
+      "listaNodeId": "lista-901324267096",
+      "statusNodeId": "sg-901324267096-aprendizagem",
+      "parentId": "sg-901324267096-aprendizagem",
+      "status": "aprendizagem",
+      "conteudo": "**Plano de ação**\n\nLista: Cronograma\nStatus: aprendizagem\n\n[Esteira\\_Apresentacao\\_BrunaBoreggio.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/9184bd17-4f04-443a-9b04-f7957b790336/Esteira_Apresentacao_BrunaBoreggio.docx)\n\n[PLANO DE REATIVAÇÃO\\_BrunaBoreggio.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/a4683fee-0a1e-41cf-a9cd-317d110cd28e/PLANO%20DE%20REATIVA%C3%87%C3%83O_BrunaBoreggio.docx)\n\n[Controle\\_Reativacao\\_BrunaBoreggio.xlsx](https://t90131929380.p.clickup-attachments.com/t90131929380/0a58a477-a29a-4248-b1c3-0e1b04377f73/Controle_Reativacao_BrunaBoreggio.xlsx)\n\nEstratégias em vigor: Parcerias, reativaçã\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefvvrc)",
+      "tags": [
+        "Cronograma",
+        "aprendizagem"
       ],
       "links": []
     },
@@ -27571,28 +27571,10 @@
       "links": []
     },
     {
-      "id": "clickup-86aj539qh",
-      "type": "clickup",
-      "titulo": "Plano de ação",
-      "data": "2026-07-10",
-      "perfil": "901313861779",
-      "listId": "901327622584",
-      "listaNodeId": "lista-901327622584",
-      "statusNodeId": "sg-901327622584-aprendizagem",
-      "parentId": "sg-901327622584-aprendizagem",
-      "status": "aprendizagem",
-      "conteudo": "**Plano de ação**\n\nLista: Cronograma\nStatus: aprendizagem\n\n[@Priscila Ferreira Leite Pereira](#user_mention#302568630) plano para nutricionistas:\n\n[plano\\_acao\\_priscila\\_nutris.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/ea6764b9-486d-4432-b96f-b44f73bdeab3/plano_acao_priscila_nutris.docx)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539qh)",
-      "tags": [
-        "Cronograma",
-        "aprendizagem"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj539qj",
       "type": "clickup",
       "titulo": "Atualização",
-      "data": "2026-07-14",
+      "data": "2026-07-15",
       "perfil": "901313861779",
       "listId": "901327622584",
       "listaNodeId": "lista-901327622584",
@@ -27603,6 +27585,24 @@
       "tags": [
         "Cronograma",
         "diário"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj539qh",
+      "type": "clickup",
+      "titulo": "Plano de ação",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622584",
+      "listaNodeId": "lista-901327622584",
+      "statusNodeId": "sg-901327622584-aprendizagem",
+      "parentId": "sg-901327622584-aprendizagem",
+      "status": "aprendizagem",
+      "conteudo": "**Plano de ação**\n\nLista: Cronograma\nStatus: aprendizagem\n\n[@Priscila Ferreira Leite Pereira](#user_mention#302568630) plano para nutricionistas:\n\n[plano\\_acao\\_priscila\\_nutris.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/ea6764b9-486d-4432-b96f-b44f73bdeab3/plano_acao_priscila_nutris.docx)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539qh)",
+      "tags": [
+        "Cronograma",
+        "aprendizagem"
       ],
       "links": []
     },
@@ -28543,24 +28543,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj539n7",
-      "type": "clickup",
-      "titulo": "LINHA EDITORIAL",
-      "data": "2026-07-14",
-      "perfil": "901313861779",
-      "listId": "901327622582",
-      "listaNodeId": "lista-901327622582",
-      "statusNodeId": "sg-901327622582-ideia",
-      "parentId": "sg-901327622582-ideia",
-      "status": "ideia",
-      "conteudo": "**LINHA EDITORIAL**\n\nLista: Conteúdo Priscila\nStatus: ideia\n\nAqui você encontra a linha editorial para conteúdos feed, ligados as comunidades para ir construindo uma malha ligando tudo\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539n7)",
-      "tags": [
-        "Conteúdo Priscila",
-        "ideia"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajh9qzk",
       "type": "clickup",
       "titulo": "Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar",
@@ -28611,6 +28593,132 @@
       "tags": [
         "Conteúdo Priscila",
         "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajhu2re",
+      "type": "clickup",
+      "titulo": "Hoje vejo minhas mentoradas nutricionistas conduzindo casos de seletividade alimentar com segurança, mesmo sem esperar anos de experiência",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-considera-o",
+      "parentId": "sg-901327622582-considera-o",
+      "status": "consideração",
+      "conteudo": "**Hoje vejo minhas mentoradas nutricionistas conduzindo casos de seletividade alimentar com segurança, mesmo sem esperar anos de experiência**\n\nLista: Conteúdo Priscila\nStatus: consideração\n\n## **Slide 01 — Headline**\n**Hoje vejo minhas mentoradas nutricionistas conduzindo casos de seletividade alimentar com segurança, mesmo sem esperar anos de experiência**\n\n* * *\n\n## **Slide 02**\n**O mercado diz:**\n\"Você só precisa fazer mais uma pós-graduação.\"\n**O que eu acredito:**\nVocê pode acumular certificados e ainda travar quando uma criança entra no consultório\nPorque segurança clínica não vem da quantidade de cursos\n\n* * *\n\n## **Slide 03**\n**O mercado diz:**\n\"Você só vai aprender quando atender muitos pacientes.\"\n**O que eu acredito:**\nVocê não precisa esperar anos para desenvolver seg\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu2re)",
+      "tags": [
+        "Conteúdo Priscila",
+        "consideração"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajhu59f",
+      "type": "clickup",
+      "titulo": "Como eu fiz uma nutricionista parar de recusar pacientes com seletividade alimentar sem ensinar mais teoria",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-decis-o",
+      "parentId": "sg-901327622582-decis-o",
+      "status": "decisão",
+      "conteudo": "**Como eu fiz uma nutricionista parar de recusar pacientes com seletividade alimentar sem ensinar mais teoria**\n\nLista: Conteúdo Priscila\nStatus: decisão\n\n# SLIDE 01\n## Headline\nComo eu fiz uma nutricionista parar de recusar pacientes com seletividade alimentar sem ensinar mais teoria\n\n* * *\n\n# SLIDE 02\nQuando a Renata começou a atender crianças, ela tinha exatamente o que a maioria das nutricionistas tem hoje:\n- [ ] Muito conhecimento\n- [ ] Pouca segurança\n- [ ] Ela chegou ao ponto de recusar dois pacientes autistas porque tinha medo de errar\nE foi aí que ela percebeu uma coisa...\nO problema não era falta de estudo\nEra outra coisa\n\n* * *\n\n# SLIDE 03\nDepois que ela desenvolveu raciocínio clínico, tudo mudou\nEla passou de 4 pacientes para atender\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu59f)",
+      "tags": [
+        "Conteúdo Priscila",
+        "decisão"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajhu5zv",
+      "type": "clickup",
+      "titulo": "A era da insegurança clínica acabou",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-recupera-o",
+      "parentId": "sg-901327622582-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**A era da insegurança clínica acabou**\n\nLista: Conteúdo Priscila\nStatus: recuperação\n\n# **Slide 01**\n## A era da insegurança clínica acabou\n\n* * *\n\n# **Slide 02**\nEsses dias eu estava conversando com uma nutricionista que tinha anos de formada\nEla me contou que evitava alguns casos porque tinha medo de errar\nPrincipalmente quando envolviam crianças com seletividade alimentar\nE sabe qual era o mais curioso?\nEla estudava muito\n\n* * *\n\n# **Slide 03**\nAinda tem muita nutricionista acreditando que seletividade alimentar se resolve com mais um protocolo\nMais uma receita\nMais uma lista de alimentos\nMais um curso cheio de teoria\nE eu preciso te dizer…\nÉ exatamente por isso que tantas p\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu5zv)",
+      "tags": [
+        "Conteúdo Priscila",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajhu6ee",
+      "type": "clickup",
+      "titulo": "Use essa estratégia para conduzir casos de seletividade alimentar com mais segurança",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-considera-o",
+      "parentId": "sg-901327622582-considera-o",
+      "status": "consideração",
+      "conteudo": "**Use essa estratégia para conduzir casos de seletividade alimentar com mais segurança**\n\nLista: Conteúdo Priscila\nStatus: consideração\n\n## **Slide 01 — Headline**\n**Use essa estratégia para conduzir casos de seletividade alimentar com mais segurança**\n\n* * *\n\n## **Slide 02 — Contextualização**\nMuitas nutricionistas acreditam que o momento mais difícil é começar um atendimento\nMas, na prática, o desespero costuma aparecer depois\nQuando a criança evolui... e você não sabe qual deve ser o próximo passo\nSe isso já aconteceu com você, saiba que não é falta de capacidade\n\n* * *\n\n## **Slide 03 — Validação**\nJá acompanhei nutricionistas que tinham exatamente essa dificuldade\nElas conseguiam iniciar o atendimento, mas travavam na condu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu6ee)",
+      "tags": [
+        "Conteúdo Priscila",
+        "consideração"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajhu76z",
+      "type": "clickup",
+      "titulo": "Eu só consegui formar nutricionistas mais seguras quando parei de focar em teoria da faculdade",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-descoberta",
+      "parentId": "sg-901327622582-descoberta",
+      "status": "descoberta",
+      "conteudo": "**Eu só consegui formar nutricionistas mais seguras quando parei de focar em teoria da faculdade**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n# Slide 1 Headline\nEu só consegui formar nutricionistas mais seguras quando parei de focar em teoria da faculdade\n\n* * *\n\n### Slide 2\nEm 2021 (ou adapte para o período correto), eu já atendia crianças e acompanhava nutricionistas que queriam atuar na Nutrição Infantil\nE eu comecei a perceber um padrão\n- [ ] Elas estudavam muito\n- [ ] Tinham feito cursos\n- [ ] Conheciam a teoria\nMas quando um caso de seletividade alimentar chegava ao consultório…\nTravavam\n\n* * *\n\n### Slide 3\nA realidade era essa:\n*   Elas não precisavam de mais conteúdo\nPrecisavam de alguém mostrando como pensar diante de uma c\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu76z)",
+      "tags": [
+        "Conteúdo Priscila",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajhu8y7",
+      "type": "clickup",
+      "titulo": "🙄 Preciso de mais experiência para atender crianças com seletividade alimentar",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-recupera-o",
+      "parentId": "sg-901327622582-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**🙄 Preciso de mais experiência para atender crianças com seletividade alimentar**\n\nLista: Conteúdo Priscila\nStatus: recuperação\n\n## **Slide 01**\n🙄 **Preciso de mais experiência para atender crianças com seletividade alimentar**\n\n* * *\n\n## **Slide 02**\nSe você trabalha com Nutrição Infantil, provavelmente já pensou isso\n- [ ] \"Vou esperar ganhar mais experiência.\"\n- [ ] \"Quando eu atender mais crianças, vou me sentir segura.\"\nSó que existe um problema nessa lógica...\n\n* * *\n\n## **Slide 03**\nExperiência não aparece simplesmente porque o tempo passou\nTem nutricionista com anos de profissão que ainda trava quando recebe um caso de seletividade alimentar\nE tem profissionais que, em poucos meses, já conduzem casos com muito \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu8y7)",
+      "tags": [
+        "Conteúdo Priscila",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj539n7",
+      "type": "clickup",
+      "titulo": "LINHA EDITORIAL",
+      "data": "2026-07-15",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-ideia",
+      "parentId": "sg-901327622582-ideia",
+      "status": "ideia",
+      "conteudo": "**LINHA EDITORIAL**\n\nLista: Conteúdo Priscila\nStatus: ideia\n\nAqui você encontra a linha editorial para conteúdos feed, ligados as comunidades para ir construindo uma malha ligando tudo\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539n7)",
+      "tags": [
+        "Conteúdo Priscila",
+        "ideia"
       ],
       "links": []
     },
@@ -42568,12 +42676,12 @@
     },
     {
       "source": "lista-901324267096",
-      "target": "sg-901324267096-aprendizagem",
+      "target": "sg-901324267096-di-rio",
       "tipo": "hierarquia"
     },
     {
       "source": "lista-901324267096",
-      "target": "sg-901324267096-di-rio",
+      "target": "sg-901324267096-aprendizagem",
       "tipo": "hierarquia"
     },
     {
@@ -42793,12 +42901,12 @@
     },
     {
       "source": "lista-901327622584",
-      "target": "sg-901327622584-aprendizagem",
+      "target": "sg-901327622584-di-rio",
       "tipo": "hierarquia"
     },
     {
       "source": "lista-901327622584",
-      "target": "sg-901327622584-di-rio",
+      "target": "sg-901327622584-aprendizagem",
       "tipo": "hierarquia"
     },
     {
@@ -48217,13 +48325,13 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901324267096-aprendizagem",
-      "target": "clickup-86aefvvrc",
+      "source": "sg-901324267096-di-rio",
+      "target": "clickup-86ah91a3y",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901324267096-di-rio",
-      "target": "clickup-86ah91a3y",
+      "source": "sg-901324267096-aprendizagem",
+      "target": "clickup-86aefvvrc",
       "tipo": "hierarquia"
     },
     {
@@ -48502,13 +48610,13 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622584-aprendizagem",
-      "target": "clickup-86aj539qh",
+      "source": "sg-901327622584-di-rio",
+      "target": "clickup-86aj539qj",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622584-di-rio",
-      "target": "clickup-86aj539qj",
+      "source": "sg-901327622584-aprendizagem",
+      "target": "clickup-86aj539qh",
       "tipo": "hierarquia"
     },
     {
@@ -48772,11 +48880,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622582-ideia",
-      "target": "clickup-86aj539n7",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901327622582-descoberta",
       "target": "clickup-86ajh9qzk",
       "tipo": "hierarquia"
@@ -48789,6 +48892,41 @@
     {
       "source": "sg-901327622582-descoberta",
       "target": "clickup-86ajha0b0",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-considera-o",
+      "target": "clickup-86ajhu2re",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-decis-o",
+      "target": "clickup-86ajhu59f",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-recupera-o",
+      "target": "clickup-86ajhu5zv",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-considera-o",
+      "target": "clickup-86ajhu6ee",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-descoberta",
+      "target": "clickup-86ajhu76z",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-recupera-o",
+      "target": "clickup-86ajhu8y7",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-ideia",
+      "target": "clickup-86aj539n7",
       "tipo": "hierarquia"
     },
     {
