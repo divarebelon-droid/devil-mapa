@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-16T02:22:46.387Z",
+  "geradoEm": "2026-07-16T08:08:59.603Z",
   "totalNodes": 2298,
   "totalLinks": 2286,
   "nodes": [
@@ -7015,24 +7015,6 @@
       "links": []
     },
     {
-      "id": "sg-901327622584-di-rio",
-      "type": "status_group",
-      "titulo": "diário",
-      "data": "2026-07-16",
-      "perfil": "901313861779",
-      "cor": "#1090e0",
-      "listId": "901327622584",
-      "listaNodeId": "lista-901327622584",
-      "parentId": "lista-901327622584",
-      "count": 1,
-      "conteudo": "**diário**\n\nLista: Cronograma\nTarefas: 1",
-      "tags": [
-        "status",
-        "diário"
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901327622584-aprendizagem",
       "type": "status_group",
       "titulo": "aprendizagem",
@@ -7047,6 +7029,24 @@
       "tags": [
         "status",
         "aprendizagem"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327622584-di-rio",
+      "type": "status_group",
+      "titulo": "diário",
+      "data": "2026-07-16",
+      "perfil": "901313861779",
+      "cor": "#1090e0",
+      "listId": "901327622584",
+      "listaNodeId": "lista-901327622584",
+      "parentId": "lista-901327622584",
+      "count": 1,
+      "conteudo": "**diário**\n\nLista: Cronograma\nTarefas: 1",
+      "tags": [
+        "status",
+        "diário"
       ],
       "links": []
     },
@@ -27571,24 +27571,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj539qj",
-      "type": "clickup",
-      "titulo": "Atualização",
-      "data": "2026-07-15",
-      "perfil": "901313861779",
-      "listId": "901327622584",
-      "listaNodeId": "lista-901327622584",
-      "statusNodeId": "sg-901327622584-di-rio",
-      "parentId": "sg-901327622584-di-rio",
-      "status": "diário",
-      "conteudo": "**Atualização**\n\nLista: Cronograma\nStatus: diário\n\n- [x] Criação de espaço de trabalho\n- [x] Inicio do Onboarding\n- [x] Apresentação do Espaço e materiais\n- [x] Planejamento para nutricionistas\n- [x] Preenchimento Espaço Clickup\n- [x] Gravar vídeo Facebook\n- [x] Após confirmação do preenchimento de informações do espaço de trabalho e esteira de serviços, vamos iniciar a pesquisa no Instagram para ver a dor do momento e essa será a base para a construção do primeiro produto da esteira, site e área de membros\n- [x] Inicio de criação de produto e site\n- [x] Falta enviar nota fiscal devido a falta de informações no contrato e para completar o cada\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539qj)",
-      "tags": [
-        "Cronograma",
-        "diário"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj539qh",
       "type": "clickup",
       "titulo": "Plano de ação",
@@ -27603,6 +27585,24 @@
       "tags": [
         "Cronograma",
         "aprendizagem"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj539qj",
+      "type": "clickup",
+      "titulo": "Atualização",
+      "data": "2026-07-16",
+      "perfil": "901313861779",
+      "listId": "901327622584",
+      "listaNodeId": "lista-901327622584",
+      "statusNodeId": "sg-901327622584-di-rio",
+      "parentId": "sg-901327622584-di-rio",
+      "status": "diário",
+      "conteudo": "**Atualização**\n\nLista: Cronograma\nStatus: diário\n\n- [x] Criação de espaço de trabalho\n- [x] Inicio do Onboarding\n- [x] Apresentação do Espaço e materiais\n- [x] Planejamento para nutricionistas\n- [x] Preenchimento Espaço Clickup\n- [x] Gravar vídeo Facebook\n- [x] Após confirmação do preenchimento de informações do espaço de trabalho e esteira de serviços, vamos iniciar a pesquisa no Instagram para ver a dor do momento e essa será a base para a construção do primeiro produto da esteira, site e área de membros\n- [x] Inicio de criação de produto e site\n- [x] Falta enviar nota fiscal devido a falta de informações no contrato e para completar o cada\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539qj)",
+      "tags": [
+        "Cronograma",
+        "diário"
       ],
       "links": []
     },
@@ -42901,12 +42901,12 @@
     },
     {
       "source": "lista-901327622584",
-      "target": "sg-901327622584-di-rio",
+      "target": "sg-901327622584-aprendizagem",
       "tipo": "hierarquia"
     },
     {
       "source": "lista-901327622584",
-      "target": "sg-901327622584-aprendizagem",
+      "target": "sg-901327622584-di-rio",
       "tipo": "hierarquia"
     },
     {
@@ -48610,13 +48610,13 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622584-di-rio",
-      "target": "clickup-86aj539qj",
+      "source": "sg-901327622584-aprendizagem",
+      "target": "clickup-86aj539qh",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622584-aprendizagem",
-      "target": "clickup-86aj539qh",
+      "source": "sg-901327622584-di-rio",
+      "target": "clickup-86aj539qj",
       "tipo": "hierarquia"
     },
     {
