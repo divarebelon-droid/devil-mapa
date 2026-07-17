@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-17T08:06:16.702Z",
+  "geradoEm": "2026-07-17T13:22:42.660Z",
   "totalNodes": 2299,
   "totalLinks": 2287,
   "nodes": [
@@ -15064,14 +15064,14 @@
       "id": "clickup-86ae2bv0r",
       "type": "clickup",
       "titulo": "Julho",
-      "data": "2026-07-12",
+      "data": "2026-07-17",
       "perfil": "90138228562",
       "listId": "901316212040",
       "listaNodeId": "lista-901316212040",
       "statusNodeId": "sg-901316212040-2026",
       "parentId": "sg-901316212040-2026",
       "status": "2026",
-      "conteudo": "**Julho**\n\nLista: Totais\nStatus: 2026\n\nEntradas: R$ 50,00\nSaidas: R$ 110,00\nResultado: R$ -60,00\n\nMes em andamento ate 12/07/2026\nAtualizado em: 12/07/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2bv0r)",
+      "conteudo": "**Julho**\n\nLista: Totais\nStatus: 2026\n\n📥 Entradas: R$ 60.00\n📤 Saídas: R$ 10.00\n💰 Resultado bruto: R$ 50.00\n🏦 Reserva caixa (30%): R$ 18.00\n🤡 DAS MEI: R$ 75.60\n😈 Disponível para retirada: R$ 0.00\n\nAtualizado em: 17/07/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2bv0r)",
       "tags": [
         "Totais",
         "2026"
