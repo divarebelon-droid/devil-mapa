@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-18T07:45:45.657Z",
+  "geradoEm": "2026-07-18T13:08:30.650Z",
   "totalNodes": 2299,
   "totalLinks": 2287,
   "nodes": [
@@ -14053,42 +14053,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajc2ybg",
-      "type": "clickup",
-      "titulo": "Use essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram",
-      "data": "2026-07-03",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**Use essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSlide 01\nUse essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram.\nSlide 02\nDurante muito tempo, eu também achei que criar uma estratégia era sentar na frente do computador e pensar em algumas ideias.\nAté perceber que era justamente por isso que tantos projetos pareciam bons... mas não geravam resultados.\nFoi quando entendi que estratégia não nasce da inspiração.\nNasce de um processo.\nSlide 03\nHoje, uma estratégia que adaptei para uma cliente nutricionista já começou a gerar respostas e agendamentos.\nE o mais interessante...\nEla não nasceu de uma trend.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc2ybg)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajc5cv4",
-      "type": "clickup",
-      "titulo": "Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.",
-      "data": "2026-07-03",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-revis-o-texto",
-      "parentId": "sg-901316452690-revis-o-texto",
-      "status": "revisão texto",
-      "conteudo": "**Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSLIDE 01\nEu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.\nFoto: Você escrevendo na lousa ou segurando um livro (não olhando para a câmera, mas trabalhando).\nSLIDE 02\nA maioria das nutricionistas acredita que toda estratégia para conseguir pacientes começa no Instagram.\nMais conteúdo.\nMais Reels.\nMais anúncios.\nSó que as melhores estratégias que já montei para minhas clientes começaram muito antes disso.\nE foi exatamente isso que aconteceu com uma nutricionista.\nFoto: Você no computador ou uma tela aberta do Instagram desfocada ao\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc5cv4)",
-      "tags": [
-        "Conteúdo",
-        "revisão texto"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajc669j",
       "type": "clickup",
       "titulo": "Não consigo agendar novos pacientes.\" 🙄",
@@ -14337,6 +14301,42 @@
       "tags": [
         "Conteúdo",
         "concluído"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc2ybg",
+      "type": "clickup",
+      "titulo": "Use essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram",
+      "data": "2026-07-18",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Use essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSlide 01\nUse essa estratégia para construir uma empresa que gera novos pacientes sem depender do Instagram.\nSlide 02\nDurante muito tempo, eu também achei que criar uma estratégia era sentar na frente do computador e pensar em algumas ideias.\nAté perceber que era justamente por isso que tantos projetos pareciam bons... mas não geravam resultados.\nFoi quando entendi que estratégia não nasce da inspiração.\nNasce de um processo.\nSlide 03\nHoje, uma estratégia que adaptei para uma cliente nutricionista já começou a gerar respostas e agendamentos.\nE o mais interessante...\nEla não nasceu de uma trend.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc2ybg)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajc5cv4",
+      "type": "clickup",
+      "titulo": "Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.",
+      "data": "2026-07-18",
+      "perfil": "90138228562",
+      "listId": "901316452690",
+      "listaNodeId": "lista-901316452690",
+      "statusNodeId": "sg-901316452690-revis-o-texto",
+      "parentId": "sg-901316452690-revis-o-texto",
+      "status": "revisão texto",
+      "conteudo": "**Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.**\n\nLista: Conteúdo\nStatus: revisão texto\n\nSLIDE 01\nEu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.\nFoto: Você escrevendo na lousa ou segurando um livro (não olhando para a câmera, mas trabalhando).\nSLIDE 02\nA maioria das nutricionistas acredita que toda estratégia para conseguir pacientes começa no Instagram.\nMais conteúdo.\nMais Reels.\nMais anúncios.\nSó que as melhores estratégias que já montei para minhas clientes começaram muito antes disso.\nE foi exatamente isso que aconteceu com uma nutricionista.\nFoto: Você no computador ou uma tela aberta do Instagram desfocada ao\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajc5cv4)",
+      "tags": [
+        "Conteúdo",
+        "revisão texto"
       ],
       "links": []
     },
@@ -44874,16 +44874,6 @@
     },
     {
       "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86ajc2ybg",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-revis-o-texto",
-      "target": "clickup-86ajc5cv4",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-revis-o-texto",
       "target": "clickup-86ajc669j",
       "tipo": "hierarquia"
     },
@@ -44950,6 +44940,16 @@
     {
       "source": "sg-901316452690-conclu-do",
       "target": "clickup-86aj939ar",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajc2ybg",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316452690-revis-o-texto",
+      "target": "clickup-86ajc5cv4",
       "tipo": "hierarquia"
     },
     {
