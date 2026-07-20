@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-20T19:32:48.398Z",
-  "totalNodes": 2491,
-  "totalLinks": 2477,
+  "geradoEm": "2026-07-20T20:45:58.880Z",
+  "totalNodes": 2489,
+  "totalLinks": 2475,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -43022,66 +43022,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-5512991216864swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 12 99121-6864",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 12 99121-6864**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-558391461976swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 83 9146-1976",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 83 9146-1976**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511996413610swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 11 99641-3610",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 11 99641-3610**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511979500282swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 11 97950-0282",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 11 97950-0282**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-554196701154swhatsappnet",
       "type": "whatsapp",
       "titulo": "Canal Karyn Casagrande",
@@ -43090,36 +43030,6 @@
       "parentId": "clickup-86ag8yt74",
       "status": "followup",
       "conteudo": "**Canal Karyn Casagrande**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-557791358090swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 77 9135-8090",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 77 9135-8090**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511984090977swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 11 98409-0977",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 11 98409-0977**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
       "tags": [
         "whatsapp",
         "followup"
@@ -43172,36 +43082,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-5521970191703swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 21 97019-1703",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 21 97019-1703**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-558197079360swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 81 9707-9360",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 81 9707-9360**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-5519996851184swhatsappnet",
       "type": "whatsapp",
       "titulo": "Suporte Painel",
@@ -43247,81 +43127,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-5511985099432swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 11 98509-9432",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 11 98509-9432**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-555192218047swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 51 9221-8047",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 51 9221-8047**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511951290016swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 11 95129-0016",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 11 95129-0016**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521980809546swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 21 98080-9546",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 21 98080-9546**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-554499105111swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 44 9910-5111",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 44 9910-5111**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-5519997101303swhatsappnet",
       "type": "whatsapp",
       "titulo": "Canal Bianca Peres",
@@ -43337,21 +43142,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-558585183242swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 85 8518-3242",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 85 8518-3242**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-5511969546951swhatsappnet",
       "type": "whatsapp",
       "titulo": "Isaías",
@@ -43360,36 +43150,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Isaías**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511961188323swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 11 96118-8323",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 11 96118-8323**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-554288737479swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 42 8873-7479",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86aa466fa",
-      "status": "followup",
-      "conteudo": "**+55 42 8873-7479**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
       "tags": [
         "whatsapp",
         "followup"
@@ -43420,36 +43180,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Vitorya**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521987217486swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 21 98721-7486",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 21 98721-7486**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-559181406932swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 91 8140-6932",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
-      "status": "followup",
-      "conteudo": "**+55 91 8140-6932**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
       "tags": [
         "whatsapp",
         "followup"
@@ -43517,36 +43247,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-554299089208swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 42 9908-9208",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86aa466fa",
-      "status": "followup",
-      "conteudo": "**+55 42 9908-9208**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-556399778580swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "+55 63 9977-8580",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86aa469ch",
-      "status": "followup",
-      "conteudo": "**+55 63 9977-8580**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-5511968764173swhatsappnet",
       "type": "whatsapp",
       "titulo": "Thalitamaedobe",
@@ -43562,13 +43262,345 @@
       "links": []
     },
     {
-      "id": "transcricao-json-Diva_Rebel_On",
+      "id": "whatsapp-554898519200swhatsappnet",
       "type": "whatsapp",
-      "titulo": "🎙️ Diva Rebel.On",
+      "titulo": "Lidiane Vieira",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Lidiane Vieira**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511962092301swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Rauni",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Rauni**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511982429272swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Doula Samara",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Doula Samara**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5521988814094swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Não Retribui As Pessoas",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Não Retribui As Pessoas**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-553491633927swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Canal Larissi Silvah",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8yt74",
+      "status": "followup",
+      "conteudo": "**Canal Larissi Silvah**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511953047733swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Pamela",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Pamela**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511998714298swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Teteu oficial",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Teteu oficial**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511943424848swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Vivi Pereira",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Vivi Pereira**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5514996564370swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Cris Nascimento",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Cris Nascimento**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-557499807823swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Canal Mayla Lima",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8yt74",
+      "status": "followup",
+      "conteudo": "**Canal Mayla Lima**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-557192811665swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Itslanavergara",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8yt74",
+      "status": "followup",
+      "conteudo": "**Itslanavergara**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511949644595swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Paschoal",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Paschoal**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5521981303357swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Paty Avila",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Paty Avila**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-556481473039swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Bandida Punida@rhayannyevely",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Bandida Punida@rhayannyevely**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-558186659116swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Allyne",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Allyne**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-559884706499swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Perla Glenyelida",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Perla Glenyelida**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-558196570057swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Jaque",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86aap0bpn",
+      "status": "followup",
+      "conteudo": "**Jaque**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-5511958380259swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Canal Gih lazari",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8yt74",
+      "status": "followup",
+      "conteudo": "**Canal Gih lazari**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-553892440729swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Bsnida Au Ig acelera @mamaedamayte",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Bsnida Au Ig acelera @mamaedamayte**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-558197540207swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Canal Samara Santos",
+      "data": "2026-06-06",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8yt74",
+      "status": "followup",
+      "conteudo": "**Canal Samara Santos**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ Nutri Regiane Silva",
+      "data": "2026-07-15",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-901313883678",
+      "conteudo": "**Transcrições — Nutri Regiane Silva**\n\n7 áudio(s)\n\n**Você:** Oi, boa tarde, tudo bem? Eu tô entrando em contato para saber se você já retornou de viagem, se você já quer marcar o bate-papo.\n\n**Você:** Oi, Regiane, bom dia. Eu já vi lá, tá, as coisinhas que você pediu para alterar, e aí a gente já fez a alteração lá, tá. A gente vai dar sequência aqui. Eu só ia pedir para você ver se você consegue me mandar hoje o contrato para eu fazer o seu cadastro aqui na oficina como cliente. Mas as outras coisas a gente já tá fazendo as alterações, completa\n\n**Nutri Regiane Silva:** Oi, Aline, tudo bem? Bom dia. Eu não escutei seu áudio ainda, tá? E ontem também não tinha finalizado de olhar lá no ClickUp, né? Não tinha finalizado. Eu parei ali na parte de anotações que você falou que são, que é o resumo, né? Essa parte eu não tô achando aqui, tá? Eu tô aqui na aba de produtor. Aqui tem sentimentos, momento, que eu já vi, info\n\n**Você:** Vou te mandar o link aqui, Regiane. Acho que fica mais fácil. Ele tá no produtor, é que ele tá escondidinho também. Ele é o último ali dos status, né? Ele é o último. E aí tem informações, aí ele tá, ele é a segunda opçãozinha embaixo de informações. Mas eu vou te mandar o linkzinho aqui.\n\n**Nutri Regiane Silva:** Oi, Aline, finalizei agora, tá, de ver o seu vídeo das instruções e já finalizei tudo. Já vi tudo que você pediu lá no vídeo, dei ok em tudo, tá. Aí eu vi que no final do vídeo você pediu a senha, né, do Gmail, que é a senha que você vai mexer no Google Meu Negócio, né. Esse Gmail que eu te passei é o mesmo, tá, do Google Meu Negócio. É, e é o mesm\n\n**Você:** Oi, Regiane. Ah, tá bom, tá ok, beleza.\n\n**Você:** Aí depois eu queria ver com você, eu acho que porque a gente vai precisar marcar a próxima call, né? Essa semana acho que eu não consigo mais, mas na terça-feira, terça-feira eu consigo. Dá para você? Aí você me fala o horário, aí eu coloco aqui o horariozinho, tá? Porque a gente precisa alinhar algumas coisas, né, em relação à esteira. E até follo",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-185787584876757lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ Priscila Leite Nutri",
+      "data": "2026-07-15",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-901313861779",
+      "conteudo": "**Transcrições — Priscila Leite Nutri**\n\n8 áudio(s)\n\n**Você:** Oi, Priscila, bom dia, tudo bem? Então depois não esquece de me confirmar aqui certinho, tá? Se pode ser às 18 e que dia da semana para a gente fazer aqui nosso bate-papo para eu te mostrar algumas coisinhas.\n\n**Você:** Hoje já não consigo mais, eu consigo na quinta-feira, pode ser? Priscila, se você quiser também de manhãzinha, tipo assim 7:30 da manhã, viu, a gente faz, porque eu acordo cedo, tá? Só uma segunda opção aí também, tá bom? Mas aí eu consigo na quinta-feira às 18. Aí você me confirma que eu já coloco na agenda.\n\n**Você:** Ah, então vou deixar aqui, Priscila, na quinta-feira, porque amanhã eu tenho evento, aí eu não vou conseguir, entendeu? Aí, para ser mais seguro, mais certinho, vou deixar aqui na quinta-feira. Aí na quinta-feira a gente faz rapidinho, porque na verdade eu vou te apresentar o site, como que ficou, e o módulo, né, aquela parte da área de membros, pa\n\n**Priscila Leite Nutri:** Então, em relação ao workshop, no workshop eu tratei muito sobre uma visão geral do que que era terapia alimentar. Então, tipo assim, é para nutres que realmente não sabem o que que é, tipo, estão fazendo transição de carreira, querem ter um vislumbre, né, do que que é essa área. E aí é uma pincelada geral, né. Então assim, talvez não vai ter assim\n\n**Priscila Leite Nutri:** Entendi certinho, porque realmente o workshop é uma coisa mais tipo uma pinceladona. E aí o como eu traria para um curso, né? Porque aí teria que ser um curso mais estruturado, nem que fosse falando de um tema só, mas o como fazer tem que ser um assunto que vai ser mais aprofundado, né? E o workshop ser mais assim tipo, ah, vamos colocar em prática\n\n**Você:** Oi, Priscila, boa tarde, tudo bem? Então, vi aqui agora, consegui olhar as coisinhas que você enviou. Em relação aqui ao print que você mandou, de que poderia trazer creches, escolas, beleza, bacana, a gente pode trazer sim. Do workshop, é o que acontece, essa questão que você falou aí da devolutiva, que não teria esses temas que estão aqui, Não sã\n\n**Você:** Bom dia, Priscila, tudo bem? Essas que você me mandou dá para usar também. O seu, quais são os seus arquétipos? Porque aí fica mais fácil para eu te dar um direcionamento, sabe? Tipo assim, olha, fotos assim, fotos assado, vão transmitir isso, vão transmitir aquilo. Você fez, já chegou a fazer uma análise de arquétipos ou não? Porque se você não fe\n\n**Você:** Já já te mando o link, tá, Priscila? Só tô vendo um negócio aqui no seu site que deu um bugzinho. Já vou mandar, pera aí.",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-120363402891316572gus",
+      "type": "whatsapp",
+      "titulo": "🎙️ Aline Lima",
       "data": "2026-07-07",
       "perfil": "oficina_dro",
       "parentId": "espaco-90138228562",
-      "conteudo": "**Transcrições de Áudio — Diva Rebel.On**\n\n28 áudio(s) transcritos\n\n**Áudio 1:**\nOi, Bruna, boa tarde, tudo bem por aí? Beleza, que agendou as consultas. Bruna, você tá seguindo aquela ideia, né, para pessoa, de tipo, não é só uma consulta, né, é um ciclo de transformação, seguindo essa, essa linha narrativa, né, para pessoa não achar que ela vai resolver a vida toda dela numa consulta só, porque é isso, a gente precisa que ela continue com você. Tá, deixa eu ver, vai olhar o \n\n---\n\n**Áudio 2:**\nOi, Bruna. Então, você me mandou o material do desafio em PDF, eu não consegui ver, tá? Hoje eu também não consegui ver, tive uns trabalhos de uma outra cliente aqui para fazer também, e aí eu não consegui parar para olhar o desafio. Aí eu vou conseguir parar para olhar ele na segunda-feira, então provavelmente na segunda-feira eu olho. Aí monta minhas ideias aqui, o que eu pensei. Aí eu entro em \n\n---\n\n**Áudio 3:**\nOi, Priscila, boa tarde, tudo bem? Então, vi aqui agora, consegui olhar as coisinhas que você enviou. Em relação aqui ao print que você mandou, de que poderia trazer creches, escolas, beleza, bacana, a gente pode trazer sim. Do workshop, é o que acontece, essa questão que você falou aí da devolutiva, que não teria esses temas que estão aqui, Não são temas do workshop, tá? Não foi definido, é só pa\n\n---\n\n**Áudio 4:**\nOi, boa tarde, tudo bem? Eu tô entrando em contato para saber se você já retornou de viagem, se você já quer marcar o bate-papo.\n\n---\n\n**Áudio 5:**\nOi, tudo bem? Então, passando para ver qual o melhor dia, bora marcar. Hoje também tive reunião o dia todo e amanhã eu tenho na parte da tarde, é na parte da tarde eu tenho assim por volta de 2 horas, aí depois eu só vou ter tipo depois das 4:30, né, ou na parte da manhã. Aí a gente atende aqui o último horário, 18 horas. Passa para mim direitinho o dia e o horário para eu pôr na agenda.",
+      "conteudo": "**Transcrições — Aline Lima**\n\n3 áudio(s)\n\n**Aline Lima:** Então, Alexia, é assim, você vai mandar a mensaginha, você vai começar assim: oi, tudo bem? A Doutora Bruna Borelli me passou o seu contato, sou Alexia, por aqui eu falo com— e aí coloca o nome dela, tá? Falo com Doutora e o nome dela. Aí espera ela responder. Quando ela responder, aí você vai mandar: então, é referente a um convite para receber um\n\n**Aline Lima:** Alexia, vamos lá. Referente à prospecção, o que muda? Você vai mandar a mensagem inicial do convite: oi, eu queria passar um convite para fulana de tal. Do mesmo jeito. O que vai mudar é a segunda mensagem em diante, que ela vai com um print do plano de ação que a pessoa recebe, tá? Então eu peguei aqui o print de uma cliente, o plano de ação dela,\n\n**Aline Lima:** Alexia, vamos lá. Referente à prospecção, o que muda? Você vai mandar a mensagem inicial do convite: oi, eu queria passar um convite para fulana de tal. Do mesmo jeito. O que vai mudar é a segunda mensagem em diante, que ela vai com um print do plano de ação que a pessoa recebe, tá? Então eu peguei aqui o print de uma cliente, o plano de ação dela,",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -43578,93 +43610,29 @@
       "links": []
     },
     {
-      "id": "transcricao-json-Aline_Lima",
+      "id": "transcricao-conv-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ Suporte Nutri Bruna",
+      "data": "2026-07-15",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138131805",
+      "conteudo": "**Transcrições — Suporte Nutri Bruna**\n\n42 áudio(s)\n\n**Você:** Oi, Bruna, boa tarde, tudo bem por aí? Beleza, que agendou as consultas. Bruna, você tá seguindo aquela ideia, né, para pessoa, de tipo, não é só uma consulta, né, é um ciclo de transformação, seguindo essa, essa linha narrativa, né, para pessoa não achar que ela vai resolver a vida toda dela numa consulta só, porque é isso, a gente precisa que ela\n\n**Suporte Nutri Bruna:** Oi, Aline. É, então tá difícil, viu? É muita coisa e eu não consigo dar conta tudo sozinha. Por isso que, ó, o que que acontece? Ontem eu fiz milhões de coisas, né? Eu saí do consultório, era 10 horas da noite, ainda atendi, atendi uma paciente, era 8 horas da noite. Aí eu consegui terminar o atendimento dela, era quase 10 horas. E então essas mens\n\n**Suporte Nutri Bruna:** Então, Aline, o que eu quero focar é no desafio agora. Eu quero focar nesse desafio aí, gravar o desafio. Se for para poder gravar alguma coisa, eu quero focar no desafio, porque entrei aqui num desafio inclusive de 21 dias que a esteticista lá do prédio que eu tenho parceria ela tá fazendo. E aí entrei aqui, vou dar uma dica para as meninas e tudo\n\n**Você:** Oi, Bruna. Então, você me mandou o material do desafio em PDF, eu não consegui ver, tá? Hoje eu também não consegui ver, tive uns trabalhos de uma outra cliente aqui para fazer também, e aí eu não consegui parar para olhar o desafio. Aí eu vou conseguir parar para olhar ele na segunda-feira, então provavelmente na segunda-feira eu olho. Aí monta mi\n\n**Suporte Nutri Bruna:** Então, Aline, quando a gente começou a parceria, eu estava focando em ter resultado rápido, né, em ter resultado logo de agendamento. E o que me atraiu foi que o rapaz, né, que fez a reunião comigo, ele me falou sobre um fluxo de mensagens, que é importante a gente ter um fluxo de mensagens. Eu acho que isso daí que realmente me atraiu. Para que eu\n\n**Você:** Oi, Bruna. Então, tá programado. Aliás, já era para estar começando a rodar. Eu programei para começar a rodar 8:53, porque eu fiz as alterações hoje de manhã, né? E aí eu coloquei 8:53. Então, a essas alturas do campeonato já era para estar ativo, entendeu? Eu dupliquei ela, entendeu? Você perguntou se eu fiz uma nova campanha. Lembra aquela que e\n\n**Você:** Então, Bruno, em relação ao nosso plano, né, que eu fiquei de falar com você depois e acabou que não falei, você tinha comentado, né, que queria o plano de R$500. Esse plano aí eu também consequentemente tem menos coisas que eu faço nele, né, dentro desse plano. O que que eu pensei? Como você tem a indicação da Regiane, a indicação geralmente eu ab\n\n**Você:** Eu acho que ficou meio confuso, né? Porque, ó, com o abatimento da Rejane, se a gente desse continuidade dessa forma que eu tô te falando, aí eu abato R$200, entendeu? Porque geralmente eu abato de R$150 a R$200, é o que eu abato no valor quando vem uma indicação. Com a indicação da Rejane, então, eu ia bater R$200 para você dessa forma. Aí esses R",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-26375528395002lid",
       "type": "whatsapp",
       "titulo": "🎙️ Aline Lima",
       "data": "2026-07-08",
-      "perfil": "oficina_dro",
-      "parentId": "espaco-90138228562",
-      "conteudo": "**Transcrições de Áudio — Aline Lima**\n\n19 áudio(s) transcritos\n\n**Áudio 1:**\nFio, então deixa eu te falar. Eu terminei minha primeira reunião agora, daqui a pouco que eu vou para outra, né? E o que acontece, eu fiz diferente. Eu apresentei o que eu tinha que apresentar para ela, fui explicando tal, tudo bonitinho, mas ali já eu já falei o meu preço para ela, o preço do plano de ação, que é de R$700. Aí ela foi, ficou meio assim, né? Ela falou que faz sentido para ela, que \n\n---\n\n**Áudio 2:**\nNossa, filho, você comprou um negócio e continua com a dificuldade do mesmo jeito para carregar esse celular. Que merda, hein!\n\n---\n\n**Áudio 3:**\nVai ter que arrumar esse coisa aí, amor. Quer dizer, a gente vai ter que pagar os 100, 130, né, que você falou, para o celular aqui, porque com esse computador aqui eu não consigo fazer o desbloqueio da conta Google, e já aproveitar e comprar o coisa desse conector de carga desse celular, entendeu? Já para resolver. Ai, mas dá uma raiva, né, amor? Porque assim, a gente sempre tem gasto. Quando voc\n\n---\n\n**Áudio 4:**\nAh, vida boa! Não, filho, não é assim não. Então, eu, o que acontece, eu ofertei para ela, eu falei que tava o plano de ação estava R$900 e que como ela foi uma indicação da Bruna, eu ia fazer a R$800 para ela. Ela super gostou, né? Só que ela falou assim, ela acabou de chegar de viagem, e aí ela falou, só que agora eu não tenho esse dinheiro para te dar. Mas eu queria muito fazer. Aí eu fui e fal\n\n---\n\n**Áudio 5:**\nE agora chegou a mensagem para ele, Sandro, só que ele ainda não me respondeu. Então assim, não se surpreenda se chegar lá e ainda ter que fazer o pedido, entendeu? Não estar adiantado.",
-      "tags": [
-        "whatsapp",
-        "transcrição",
-        "áudio",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "transcricao-json-Priscila_Leite_Nutri",
-      "type": "whatsapp",
-      "titulo": "🎙️ Priscila Leite Nutri",
-      "data": "2026-07-06",
-      "perfil": "oficina_dro",
-      "parentId": "espaco-90138228562",
-      "conteudo": "**Transcrições de Áudio — Priscila Leite Nutri**\n\n2 áudio(s) transcritos\n\n**Áudio 1:**\nEntão, em relação ao workshop, no workshop eu tratei muito sobre uma visão geral do que que era terapia alimentar. Então, tipo assim, é para nutres que realmente não sabem o que que é, tipo, estão fazendo transição de carreira, querem ter um vislumbre, né, do que que é essa área. E aí é uma pincelada geral, né. Então assim, talvez não vai ter assim como estruturar uma devolutiva, não vai ter. A ge\n\n---\n\n**Áudio 2:**\nEntendi certinho, porque realmente o workshop é uma coisa mais tipo uma pinceladona. E aí o como eu traria para um curso, né? Porque aí teria que ser um curso mais estruturado, nem que fosse falando de um tema só, mas o como fazer tem que ser um assunto que vai ser mais aprofundado, né? E o workshop ser mais assim tipo, ah, vamos colocar em prática, pega aí, faz isso, e como é que você pensaria, n",
-      "tags": [
-        "whatsapp",
-        "transcrição",
-        "áudio",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "transcricao-json-Suporte_Nutri_Bruna",
-      "type": "whatsapp",
-      "titulo": "🎙️ Suporte Nutri Bruna",
-      "data": "2026-07-04",
-      "perfil": "oficina_dro",
-      "parentId": "espaco-90138228562",
-      "conteudo": "**Transcrições de Áudio — Suporte Nutri Bruna**\n\n18 áudio(s) transcritos\n\n**Áudio 1:**\nOlha, te mandei aí os dois vídeos, tá? Eu tinha aqui no meu celular, aí já te mandei. Depois você me fala se deu certo. E coloquei mais um fundo lá, coloquei mais R$100 de anúncio, tá? Aí eu acho que eu deixei R$8 por dia, eu diminuí um pouquinho, tava R$14, e aí eu não tenho tudo isso de dinheiro para deixar rodando o mês inteiro. Mas é isso aí, depois você me fala se tá isso mesmo. Mas aqui tá a\n\n---\n\n**Áudio 2:**\nEntão, sobre o desafio, eu já quero começar o quanto antes, né? Se der para semana que vem, já vou programar, né, para tentar gravar alguma coisa. Aí eu já quero começar, só preciso estruturar, precisa estruturar os desafios, né? Eu tava pensando em fazer de 21 dias, então eu já tenho praticamente 6 desafios, né, que você vai ver aí, que os desafios gratuito, ele tem 6 desafios, e aí o sétimo é um\n\n---\n\n**Áudio 3:**\nOi, Aline. É, então tá difícil, viu? É muita coisa e eu não consigo dar conta tudo sozinha. Por isso que, ó, o que que acontece? Ontem eu fiz milhões de coisas, né? Eu saí do consultório, era 10 horas da noite, ainda atendi, atendi uma paciente, era 8 horas da noite. Aí eu consegui terminar o atendimento dela, era quase 10 horas. E então essas mensagens que eu te falei é do anúncio. Tá, do anúncio\n\n---\n\n**Áudio 4:**\nEntão, Aline, o que eu quero focar é no desafio agora. Eu quero focar nesse desafio aí, gravar o desafio. Se for para poder gravar alguma coisa, eu quero focar no desafio, porque entrei aqui num desafio inclusive de 21 dias que a esteticista lá do prédio que eu tenho parceria ela tá fazendo. E aí entrei aqui, vou dar uma dica para as meninas e tudo mais, mas assim, o foco não é tanto em vendas, é \n\n---\n\n**Áudio 5:**\nEntão, Aline, quando a gente começou a parceria, eu estava focando em ter resultado rápido, né, em ter resultado logo de agendamento. E o que me atraiu foi que o rapaz, né, que fez a reunião comigo, ele me falou sobre um fluxo de mensagens, que é importante a gente ter um fluxo de mensagens. Eu acho que isso daí que realmente me atraiu. Para que eu conseguisse fechar essas pessoas, né? Então, só q",
-      "tags": [
-        "whatsapp",
-        "transcrição",
-        "áudio",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "transcricao-json-Alexya",
-      "type": "whatsapp",
-      "titulo": "🎙️ Alexya",
-      "data": "2026-07-08",
       "perfil": "divarebel.on",
       "parentId": "espaco-90138131603",
-      "conteudo": "**Transcrições de Áudio — Alexya**\n\n17 áudio(s) transcritos\n\n**Áudio 1:**\nTá bom, depois nós conversa, tá bom? Beijo, meu amigo. Tchau.\n\n---\n\n**Áudio 2:**\nAí sim, querida, aí eu dou valor, hein? Mas ela pagou, que só fecha quando paga. Pagou, pagou, tá beleza. Aí sim, enquanto eu tô me matando aqui para ganhar 100 conto, você já faz R$700 mil num dia só, hein? Aí é a vida, hein? Essa é a boa. Daqui a pouco eu tô por aí, tá, mano?\n\n---\n\n**Áudio 3:**\nAs crianças estão bem, a lavagem melhorou, tá tudo bem por aí.\n\n---\n\n**Áudio 4:**\nTá bom, filho, daqui a pouco eu tô lá, tá bom? Aí é para pagar com dinheiro do que você me deu para minha bolsa, ou você vai mandar uns R$5.000 aí para pagar lá? Aí manda uns R$5.000 aí, beleza? Eu pago lá.\n\n---\n\n**Áudio 5:**\nAh tá, vou fingir que acredito, tá?",
-      "tags": [
-        "whatsapp",
-        "transcrição",
-        "áudio",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "transcricao-json-Voc_",
-      "type": "whatsapp",
-      "titulo": "🎙️ Você",
-      "data": "2026-07-05",
-      "perfil": "divarebel.on",
-      "parentId": "espaco-90138131603",
-      "conteudo": "**Transcrições de Áudio — Você**\n\n7 áudio(s) transcritos\n\n**Áudio 1:**\nOi, filha, bom dia, tudo bem? Como tá as coisas por aí? Tá tudo bem, meu amor? Você tá fazendo, tá assistindo sua seriezinha ou não? Tá trabalhando? E as crianças dormindo ainda? Acho que deve estar, né? Tá friozinho para caramba.\n\n---\n\n**Áudio 2:**\nNossa, filha, que bosta, hein? Que bosta! Caramba, hein? Não sei se você ia estar assistindo aí essas coisinhas sossegada. Não, mas se tiver comida, não tem nada. Você não fez o bifinho ontem? Se tiver bifinho, não precisa fazer nada não, amor. Você segue a bunda aí, vai assistir essas coisinhas. Que raiva, hein? Que bosta isso!\n\n---\n\n**Áudio 3:**\nÉ tudo para atrapalhar, né, amor? Tudo para irritar também. Pelo amor de Deus, hein? Quando é uma coisa, é outra. A gente quer facilitar, a gente quer adiantar as coisas para ficar livre das coisas, e só dá merda, só dá merda. Quando é uma coisa, é outra coisa, é outra. É foda, é foda, é embaçado. Com respeito às comidas aí, será que até a hora de eu chegar você já vai ter terminado ainda? Não, ai\n\n---\n\n**Áudio 4:**\nEntendi, filho, entendi. É, vamos ver o que que vai dar. Mas durante a manhã, se você quiser dar uma pausa e ver no computador como tá aí, não tem problema não, você não precisa descer não. E sim, uma hora eu tô indo aí para casa, uma hora já deu já, tá bom? Daqui a pouco eu tô aí, mas aí a gente almoça junto, entendeu? Qualquer coisa, se quiser Ficar um tempinho a mais aí para você terminar suas \n\n---\n\n**Áudio 5:**\nDei uma viagem aqui, eu pensei que era pertinho, longe para caralho, lá no Botujuru, lá na puta que pariu, quase em Guararema, essa porra. Agora tô voltando, até chegar aí vai demorar um pouquinho, a coisa já tá empacada já.",
-      "tags": [
-        "whatsapp",
-        "transcrição",
-        "áudio",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "transcricao-json-26375528395002",
-      "type": "whatsapp",
-      "titulo": "🎙️ 26375528395002",
-      "data": "2026-07-05",
-      "perfil": "divarebel.on",
-      "parentId": "espaco-90138131603",
-      "conteudo": "**Transcrições de Áudio — 26375528395002**\n\n9 áudio(s) transcritos\n\n**Áudio 1:**\nO bifinho deu para ontem, filho, e não tem, entendeu? Aí também, mesmo que fosse o caso, aí amanhã é folga, né? Finalmente, depois que você chegar hoje na parte da tarde, é folga. Aí eu vou ter que ter essa preocupação, entendeu? Então não tem, não tem escapatória, não tem escapatória, entendeu? É para fazer raiva, não tem o que fazer não. Aí que nem aquele dia a gente foi lá no Atacadão, Aí eu já\n\n---\n\n**Áudio 2:**\nFio, olha só como é estranho. Eu, isso aí, ó, tipo assim, foi eu adicionando dinheiro no Facebook para anunciar. Eu queria deixar aqui programado o anúncio para amanhã. Então, tipo, mesmo que eu estou ali tranquila com você, o anúncio tá rodando, e aí as pessoas entram em contato pelo WhatsApp, né? Para poder agendar as calls, as reuniões. Então, além da Alexa tá lá prospectando, aí eu posso volta\n\n---\n\n**Áudio 3:**\nÉ, filho, então pois é, eu queria adicionar o saldo, né? E aí eu subo a campanha e aí assim eu não tenho problema de cobrança, as coisas assim, né, filho? Evitar, né, amor? Mas ó, não consegui. Eu criei a campanha porque tipo eu não tô devendo nada lá, e aí ele vai me cobrar a cada R$30, tipo assim, né? Então eu criei a campanha, mas aí tipo o que que pode acontecer de ele cismar, tipo assim, ai, \n\n---\n\n**Áudio 4:**\nNão, eu vou dar uma corrida aqui, filho. Ó, filho, quando você tiver vindo, se você passar em frente algum canto que dê para trazer uma penquinha de nana, porque a nana acabou, tá? Enquanto eles não viram a nana acabar, eles não pararam de pedir. Então, se quiser, se a gente for querer fazer uma panquequinha de nana, alguma coisa, um bolinho— eu pretendia fazer um bolo de banana, sabe? Mas não dá,\n\n---\n\n**Áudio 5:**\nFio, tudo bem? Você se atrasou aí.",
+      "conteudo": "**Transcrições — Aline Lima**\n\n49 áudio(s)\n\n**Aline Lima:** Vai ter que arrumar esse coisa aí, amor. Quer dizer, a gente vai ter que pagar os 100, 130, né, que você falou, para o celular aqui, porque com esse computador aqui eu não consigo fazer o desbloqueio da conta Google, e já aproveitar e comprar o coisa desse conector de carga desse celular, entendeu? Já para resolver. Ai, mas dá uma raiva, né, amor? \n\n**Você:** Tá bom, depois nós conversa, tá bom? Beijo, meu amigo. Tchau.\n\n**Você:** Aí sim, querida, aí eu dou valor, hein? Mas ela pagou, que só fecha quando paga. Pagou, pagou, tá beleza. Aí sim, enquanto eu tô me matando aqui para ganhar 100 conto, você já faz R$700 mil num dia só, hein? Aí é a vida, hein? Essa é a boa. Daqui a pouco eu tô por aí, tá, mano?\n\n**Você:** As crianças estão bem, a lavagem melhorou, tá tudo bem por aí.\n\n**Aline Lima:** Ah, vida boa! Não, filho, não é assim não. Então, eu, o que acontece, eu ofertei para ela, eu falei que tava o plano de ação estava R$900 e que como ela foi uma indicação da Bruna, eu ia fazer a R$800 para ela. Ela super gostou, né? Só que ela falou assim, ela acabou de chegar de viagem, e aí ela falou, só que agora eu não tenho esse dinheiro para \n\n**Aline Lima:** E agora chegou a mensagem para ele, Sandro, só que ele ainda não me respondeu. Então assim, não se surpreenda se chegar lá e ainda ter que fazer o pedido, entendeu? Não estar adiantado.\n\n**Você:** Tá bom, filho, daqui a pouco eu tô lá, tá bom? Aí é para pagar com dinheiro do que você me deu para minha bolsa, ou você vai mandar uns R$5.000 aí para pagar lá? Aí manda uns R$5.000 aí, beleza? Eu pago lá.\n\n**Você:** Ah tá, vou fingir que acredito, tá?",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -43926,7 +43894,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-vejb1",
+      "id": "ig-divarebel.on-yly5a",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-20",
@@ -56044,38 +56012,8 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5512991216864swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-558391461976swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5511996413610swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5511979500282swhatsappnet",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ag8yt74",
       "target": "whatsapp-554196701154swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-557791358090swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5511984090977swhatsappnet",
       "tipo": "externo"
     },
     {
@@ -56094,16 +56032,6 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5521970191703swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-558197079360swhatsappnet",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-5519996851184swhatsappnet",
       "tipo": "externo"
@@ -56119,53 +56047,13 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5511985099432swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-555192218047swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5511951290016swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5521980809546swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-554499105111swhatsappnet",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ag8yt74",
       "target": "whatsapp-5519997101303swhatsappnet",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-558585183242swhatsappnet",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-5511969546951swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5511961188323swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86aa466fa",
-      "target": "whatsapp-554288737479swhatsappnet",
       "tipo": "externo"
     },
     {
@@ -56176,16 +56064,6 @@
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-553891052741swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-5521987217486swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-559181406932swhatsappnet",
       "tipo": "externo"
     },
     {
@@ -56209,53 +56087,133 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86aa466fa",
-      "target": "whatsapp-554299089208swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86aa469ch",
-      "target": "whatsapp-556399778580swhatsappnet",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-5511968764173swhatsappnet",
       "tipo": "externo"
     },
     {
-      "source": "espaco-90138228562",
-      "target": "transcricao-json-Diva_Rebel_On",
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-554898519200swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5511962092301swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5511982429272swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5521988814094swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8yt74",
+      "target": "whatsapp-553491633927swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5511953047733swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5511998714298swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5511943424848swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5514996564370swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8yt74",
+      "target": "whatsapp-557499807823swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8yt74",
+      "target": "whatsapp-557192811665swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5511949644595swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-5521981303357swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-556481473039swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-558186659116swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-559884706499swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86aap0bpn",
+      "target": "whatsapp-558196570057swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8yt74",
+      "target": "whatsapp-5511958380259swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-553892440729swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8yt74",
+      "target": "whatsapp-558197540207swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-901313883678",
+      "target": "transcricao-conv-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-901313861779",
+      "target": "transcricao-conv-185787584876757lid",
       "tipo": "externo"
     },
     {
       "source": "espaco-90138228562",
-      "target": "transcricao-json-Aline_Lima",
+      "target": "transcricao-conv-120363402891316572gus",
       "tipo": "externo"
     },
     {
-      "source": "espaco-90138228562",
-      "target": "transcricao-json-Priscila_Leite_Nutri",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138228562",
-      "target": "transcricao-json-Suporte_Nutri_Bruna",
+      "source": "espaco-90138131805",
+      "target": "transcricao-conv-14088298090654lid",
       "tipo": "externo"
     },
     {
       "source": "espaco-90138131603",
-      "target": "transcricao-json-Alexya",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131603",
-      "target": "transcricao-json-Voc_",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131603",
-      "target": "transcricao-json-26375528395002",
+      "target": "transcricao-conv-26375528395002lid",
       "tipo": "externo"
     },
     {
@@ -56350,7 +56308,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-vejb1",
+      "target": "ig-divarebel.on-yly5a",
       "tipo": "externo"
     },
     {
