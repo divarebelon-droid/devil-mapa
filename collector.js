@@ -17,26 +17,27 @@ fs.mkdirSync(DATA, { recursive: true });
 function hoje() { return new Date().toISOString().split('T')[0]; }
 function slugify(s) { return String(s).toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').slice(0, 40); }
 
-const COR_ESPACO = {
-  '90138228562':  '#7c3aed',
-  '90138131603':  '#ec4899',
-  '90138131805':  '#f97316',
-  '901313861779': '#06b6d4',
-  '90138131766':  '#22c55e',
-  '90138441679':  '#a78bfa',
-  '901312153685': '#fb923c',
-  '90138131840':  '#f43f5e',
-  '90138131783':  '#38bdf8',
-  '901313799671': '#84cc16',
-  '901313688913': '#a855f7',
-  '901313862831': '#14b8a6',
+// Cores fixas para espaços conhecidos; novos espaços recebem cor da paleta de fallback automaticamente
+const COR_ESPACO_FIXO = {
+  '90138228562':  '#7c3aed', // OFICINA
+  '90138131603':  '#ec4899', // HOMESCHOOLING
+  '90138131805':  '#f97316', // Bruna Boreggio
+  '901313861779': '#06b6d4', // Priscila Leite
+  '90138131766':  '#22c55e', // Home
+  '90138441679':  '#a78bfa', // Pesquisas
+  '901312153685': '#fb923c', // Entrega
+  '90138131840':  '#f43f5e', // Simone
+  '90138131783':  '#38bdf8', // Viviane Sanches
+  '901313799671': '#84cc16', // Contabilidade
+  '901313688913': '#a855f7', // OFICINA TEMPLATES
+  '901313862831': '#14b8a6', // Espaço de Trabalho
+  '901313883678': '#e879f9', // Regiane Silva
+  '901313921750': '#fb7185', // ESTELINA
 };
+const COR_FALLBACK = ['#34d399','#60a5fa','#fbbf24','#f87171','#a78bfa','#2dd4bf','#f472b6','#818cf8'];
+function corParaEspaco(id, idx) { return COR_ESPACO_FIXO[id] || COR_FALLBACK[idx % COR_FALLBACK.length]; }
 
-const SPACE_IDS = [
-  '90138228562','90138131603','90138131805','901313861779',
-  '90138131766','90138441679','901312153685','90138131840',
-  '90138131783','901313799671','901313688913','901313862831',
-];
+const TEAM_ID = '90131929380';
 
 const SKIP_LIST_NAMES = ['controle de caixa', 'fio 2025'];
 function deveSkipLista(nome) {
@@ -53,11 +54,17 @@ async function api(url) {
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function buscarEspacos() {
+  // Descoberta dinâmica — nunca precisa atualizar lista manualmente
+  const teamData = await api(`https://api.clickup.com/api/v2/team/${TEAM_ID}/space?archived=false`);
+  const todos = teamData.spaces || [];
+  console.log(`  ${todos.length} espaços encontrados no ClickUp`);
+
   const result = [];
-  for (const sid of SPACE_IDS) {
+  for (let i = 0; i < todos.length; i++) {
+    const sp = todos[i];
+    const sid = sp.id;
     try {
-      const sp = await api(`https://api.clickup.com/api/v2/space/${sid}`);
-      const entry = { id: sid, nome: sp.name || sid, pastas: [] };
+      const entry = { id: sid, nome: sp.name || sid, pastas: [], cor: corParaEspaco(sid, i) };
 
       const fd = await api(`https://api.clickup.com/api/v2/space/${sid}/folder?archived=false`);
       for (const f of (fd.folders || [])) {
@@ -77,7 +84,7 @@ async function buscarEspacos() {
       result.push(entry);
       console.log(`  OK ${entry.nome}: ${entry.pastas.length} pastas`);
     } catch (e) {
-      console.log(`  ERRO ${sid}: ${e.message}`);
+      console.log(`  ERRO ${sp.name} (${sid}): ${e.message}`);
     }
   }
   return result;
@@ -87,7 +94,7 @@ function buildHierarquia(estrutura) {
   const espacos = [], pastas = [], listas = [];
   estrutura.forEach(sp => {
     const espacoId = `espaco-${sp.id}`;
-    const cor = COR_ESPACO[sp.id] || '#666666';
+    const cor = sp.cor || COR_ESPACO_FIXO[sp.id] || '#666666';
     espacos.push({ id: espacoId, spaceId: sp.id, nome: sp.nome, cor, perfil: sp.id });
     sp.pastas.forEach(p => {
       const pastaId = `pasta-${p.id}`;
@@ -210,7 +217,7 @@ function criarConexoes(nodes) {
 async function main() {
   console.log('\nDEVIL Graph Collector (GitHub Actions)\n');
 
-  console.log('Buscando estrutura dos 12 espacos...');
+  console.log('Buscando estrutura dos espaços (dinâmico)...');
   const estrutura = await buscarEspacos();
   const hierarquia = buildHierarquia(estrutura);
   console.log(`${hierarquia.espacos.length} espacos | ${hierarquia.pastas.length} pastas | ${hierarquia.listas.length} listas`);
