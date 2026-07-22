@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-22T13:46:24.598Z",
-  "totalNodes": 2509,
-  "totalLinks": 2495,
+  "geradoEm": "2026-07-22T19:12:48.483Z",
+  "totalNodes": 2514,
+  "totalLinks": 2500,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -7598,8 +7598,8 @@
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
       "parentId": "lista-901327051958",
-      "count": 3,
-      "conteudo": "**recuperação**\n\nLista: Conteúdo Bruna\nTarefas: 3",
+      "count": 5,
+      "conteudo": "**recuperação**\n\nLista: Conteúdo Bruna\nTarefas: 5",
       "tags": [
         "status",
         "recuperação"
@@ -7616,8 +7616,8 @@
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
       "parentId": "lista-901327051958",
-      "count": 4,
-      "conteudo": "**descoberta**\n\nLista: Conteúdo Bruna\nTarefas: 4",
+      "count": 2,
+      "conteudo": "**descoberta**\n\nLista: Conteúdo Bruna\nTarefas: 2",
       "tags": [
         "status",
         "descoberta"
@@ -7661,24 +7661,6 @@
       "links": []
     },
     {
-      "id": "sg-901327051958-stories-da-semana-",
-      "type": "status_group",
-      "titulo": "stories da semana ",
-      "data": "2026-07-22",
-      "perfil": "90138131805",
-      "cor": "#ee5e99",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "parentId": "lista-901327051958",
-      "count": 1,
-      "conteudo": "**stories da semana **\n\nLista: Conteúdo Bruna\nTarefas: 1",
-      "tags": [
-        "status",
-        "stories da semana "
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901327051958-ideia",
       "type": "status_group",
       "titulo": "ideia",
@@ -7693,6 +7675,24 @@
       "tags": [
         "status",
         "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327051958-pronto",
+      "type": "status_group",
+      "titulo": "pronto",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "cor": "#000000",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "parentId": "lista-901327051958",
+      "count": 6,
+      "conteudo": "**pronto**\n\nLista: Conteúdo Bruna\nTarefas: 6",
+      "tags": [
+        "status",
+        "pronto"
       ],
       "links": []
     },
@@ -32483,60 +32483,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ahmznc9",
-      "type": "clickup",
-      "titulo": "Semana 1",
-      "data": "2026-05-22",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-stories-da-semana-",
-      "parentId": "sg-901327051958-stories-da-semana-",
-      "status": "stories da semana ",
-      "conteudo": "**Semana 1**\n\nLista: Conteúdo Bruna\nStatus: stories da semana \n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahmznc9)",
-      "tags": [
-        "Conteúdo Bruna",
-        "stories da semana "
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ahmxfdw",
-      "type": "clickup",
-      "titulo": "LINHA EDITORIAL",
-      "data": "2026-06-04",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-ideia",
-      "parentId": "sg-901327051958-ideia",
-      "status": "ideia",
-      "conteudo": "**LINHA EDITORIAL**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\nAqui você encontra a linha editorial para conteúdos feed, ligados as comunidades para ir construindo uma malha ligando tudo\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahmxfdw)",
-      "tags": [
-        "Conteúdo Bruna",
-        "ideia"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ahmyzgy",
-      "type": "clickup",
-      "titulo": "INSTRUÇÕES BRUNA",
-      "data": "2026-06-04",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-ideia",
-      "parentId": "sg-901327051958-ideia",
-      "status": "ideia",
-      "conteudo": "**INSTRUÇÕES BRUNA**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\n### A IDEIA — Copa 2026 x Linha Editorial [@Nutri Bruna Boreggio](#user_mention#302440667)\n**O ponto central:** a Copa não muda o tema — ela **contextualiza** o tema:\n> _O efeito sanfona_ **_não começa_** _só na segunda-feira. Ele começa no sábado de jogo, quando a rotina quebra, a comida muda e a culpa aparece logo depois._ **_Esse é o gancho._**\n\n* * *\n\n**Como a história da Jéssica se encaixa:**\nO que ela viveu é exatamente o que acontece durante a Copa — alguém restringe antes do jogo (\"vou me cuidar essa semana\"), chega no jogo sem estratégia, come tudo e mais um pouco, e acorda domingo co\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahmyzgy)",
-      "tags": [
-        "Conteúdo Bruna",
-        "ideia"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ahypkqk",
       "type": "clickup",
       "titulo": "Inspiração",
@@ -32576,35 +32522,17 @@
       "id": "clickup-86aj5aj6k",
       "type": "clickup",
       "titulo": "Descubra como controlar a alimentação no final de semana e emagrecer sem precisar começar tudo de novo na segunda-feira",
-      "data": "2026-06-20",
+      "data": "2026-07-22",
       "perfil": "90138131805",
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-descoberta",
-      "parentId": "sg-901327051958-descoberta",
-      "status": "descoberta",
-      "conteudo": "**Descubra como controlar a alimentação no final de semana e emagrecer sem precisar começar tudo de novo na segunda-feira**\n\nLista: Conteúdo Bruna\nStatus: descoberta\n\nSLIDE 01\nDescubra como controlar a alimentação no final de semana e emagrecer sem precisar começar tudo de novo na segunda-feira\n\n* * *\n\nSLIDE 02\nA maioria das mulheres acredita que o problema real é aquele lanchinho no final de semana, um salgadinho, uma coxinha ou os encontros com os amigos.\nSó que, na maioria dos casos, o que acontece nesses momentos começa muito antes.\nO erro normalmente está na forma como a alimentação é conduzida durante a semana.\n\n* * *\n\nSLIDE 03\nSalve este post para consultar antes do próximo final de semana.\n3 sinais de que você está entrando no ciclo que dificulta o \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5aj6k)",
+      "statusNodeId": "sg-901327051958-pronto",
+      "parentId": "sg-901327051958-pronto",
+      "status": "pronto",
+      "conteudo": "**Descubra como controlar a alimentação no final de semana e emagrecer sem precisar começar tudo de novo na segunda-feira**\n\nLista: Conteúdo Bruna\nStatus: pronto\n\nSLIDE 01\nDescubra como controlar a alimentação no final de semana e emagrecer sem precisar começar tudo de novo na segunda-feira\n\n* * *\n\nSLIDE 02\nA maioria das mulheres acredita que o problema real é aquele lanchinho no final de semana, um salgadinho, uma coxinha ou os encontros com os amigos.\nSó que, na maioria dos casos, o que acontece nesses momentos começa muito antes.\nO erro normalmente está na forma como a alimentação é conduzida durante a semana.\n\n* * *\n\nSLIDE 03\nSalve este post para consultar antes do próximo final de semana.\n3 sinais de que você está entrando no ciclo que dificulta o \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5aj6k)",
       "tags": [
         "Conteúdo Bruna",
-        "descoberta"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj5afcn",
-      "type": "clickup",
-      "titulo": "A estratégia que fez minha paciente perder 15kg sem abrir mão dos finais de semana",
-      "data": "2026-06-20",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-descoberta",
-      "parentId": "sg-901327051958-descoberta",
-      "status": "descoberta",
-      "conteudo": "**A estratégia que fez minha paciente perder 15kg sem abrir mão dos finais de semana**\n\nLista: Conteúdo Bruna\nStatus: descoberta\n\nSLIDE 01\nA estratégia que fez minha paciente perder 15kg sem abrir mão dos finais de semana\n\n* * *\n\nSLIDE 02\nA maioria das mulheres fica preocupada com o que vai comer em encontros com amigos, churrascos e comemorações.\nPrincipalmente em épocas como agora, em que sempre aparece uma ocasião para sair da rotina.\nMas uma paciente minha descobriu que o problema não era o churrasco, a pizza ou o que ela comia nos encontros com os amigos.\nE foi isso que ajudou ela a perder 15kg.\n(Tem um detalhe que quase ninguém percebe...)\n\n* * *\n\nSLIDE 03\nEla acreditava que o motivo de não emagrecer era trabalhar \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5afcn)",
-      "tags": [
-        "Conteúdo Bruna",
-        "descoberta"
+        "pronto"
       ],
       "links": []
     },
@@ -32612,35 +32540,17 @@
       "id": "clickup-86aj5b1hp",
       "type": "clickup",
       "titulo": "Eu só consegui ajudar uma paciente a perder 15kg porque não tirei a cervejinha e o lanchinho da dieta dela.",
-      "data": "2026-06-20",
+      "data": "2026-07-22",
       "perfil": "90138131805",
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-descoberta",
-      "parentId": "sg-901327051958-descoberta",
-      "status": "descoberta",
-      "conteudo": "**Eu só consegui ajudar uma paciente a perder 15kg porque não tirei a cervejinha e o lanchinho da dieta dela.**\n\nLista: Conteúdo Bruna\nStatus: descoberta\n\nSLIDE 1\nEu só consegui ajudar uma paciente a perder 15kg porque não tirei a cervejinha e o lanchinho da dieta dela.\n\nSLIDE 2\nQuando ela chegou ao consultório, acreditava que para emagrecer precisaria cortar tudo que gostava.\n\nSLIDE 3\nA realidade era essa:\n*   Ela trabalhava na madrugada.\n*   Consumiria muito álcool nos finais de semana.\n*   Gostava de sushi.\n*   Gostava de lanches.\n*   Chegava na segunda-feira se sentindo culpada.\n*   E acreditava que o motivo de não emagrecer era justamente não conseguir abrir mão dessas coisas.\n\nSLIDE 4\nEra muito esforço tentando começar de novo toda semana.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5b1hp)",
+      "statusNodeId": "sg-901327051958-pronto",
+      "parentId": "sg-901327051958-pronto",
+      "status": "pronto",
+      "conteudo": "**Eu só consegui ajudar uma paciente a perder 15kg porque não tirei a cervejinha e o lanchinho da dieta dela.**\n\nLista: Conteúdo Bruna\nStatus: pronto\n\nSLIDE 1\nEu só consegui ajudar uma paciente a perder 15kg porque não tirei a cervejinha e o lanchinho da dieta dela.\n\nSLIDE 2\nQuando ela chegou ao consultório, acreditava que para emagrecer precisaria cortar tudo que gostava.\n\nSLIDE 3\nA realidade era essa:\n*   Ela trabalhava na madrugada.\n*   Consumiria muito álcool nos finais de semana.\n*   Gostava de sushi.\n*   Gostava de lanches.\n*   Chegava na segunda-feira se sentindo culpada.\n*   E acreditava que o motivo de não emagrecer era justamente não conseguir abrir mão dessas coisas.\n\nSLIDE 4\nEra muito esforço tentando começar de novo toda semana.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5b1hp)",
       "tags": [
         "Conteúdo Bruna",
-        "descoberta"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj5agyx",
-      "type": "clickup",
-      "titulo": "A única mudança que fez minha paciente parar de perder o controle da alimentação",
-      "data": "2026-06-20",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-considera-o",
-      "parentId": "sg-901327051958-considera-o",
-      "status": "consideração",
-      "conteudo": "**A única mudança que fez minha paciente parar de perder o controle da alimentação**\n\nLista: Conteúdo Bruna\nStatus: consideração\n\nSLIDE 01\nA única mudança que fez minha paciente parar de perder o controle da alimentação.\nSLIDE 02\nE não...\nNão foi cortar cerveja.\nNão foi parar de sair.\nNão foi viver de salada.\nNão foi ter mais força de vontade.\nPorque ela já tinha tentado tudo isso antes.\nE continuava voltando para o mesmo lugar.\nSLIDE 03\nMinha paciente chegou ao consultório acreditando que a rotina dela tornava o emagrecimento impossível.\nEla achava que os horários bagunçados faziam ela perder o controle da alimentação.\nMas o verdadeiro problema era outro.\nEla passava a semana tentando compensar tudo.\nE acabava entrando \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5agyx)",
-      "tags": [
-        "Conteúdo Bruna",
-        "consideração"
+        "pronto"
       ],
       "links": []
     },
@@ -32648,53 +32558,17 @@
       "id": "clickup-86aj5amdj",
       "type": "clickup",
       "titulo": "Minha paciente bateu a meta de peso, mesmo trabalhando na madrugada.",
-      "data": "2026-06-20",
+      "data": "2026-07-22",
       "perfil": "90138131805",
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-considera-o",
-      "parentId": "sg-901327051958-considera-o",
-      "status": "consideração",
-      "conteudo": "**Minha paciente bateu a meta de peso, mesmo trabalhando na madrugada.**\n\nLista: Conteúdo Bruna\nStatus: consideração\n\nSLIDE 01\nMinha paciente bateu a meta de peso, mesmo trabalhando na madrugada.\n(E eu quero te contar o que ela fez.)\n\nSLIDE 02\nO que a maioria das pessoas acham:\n\"Quem tem uma rotina diferente, agitada e difícil dificilmente consegue emagrecer.\"\nO que ela fez:\nParou de acreditar que a rotina era o problema.\n\nSLIDE 03\nO que a maioria dos nutricionistas diz:\n\"Você precisa ter horários perfeitos para conseguir resultados.\"\n\"E precisa comer a cada 3 horas.\"\nO que ela fez:\nAprendeu a organizar a alimentação dentro da realidade dela.\n\nSLIDE 04\nO que a maioria das pessoas acham:\n\"Para emagrecer, você \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5amdj)",
+      "statusNodeId": "sg-901327051958-pronto",
+      "parentId": "sg-901327051958-pronto",
+      "status": "pronto",
+      "conteudo": "**Minha paciente bateu a meta de peso, mesmo trabalhando na madrugada.**\n\nLista: Conteúdo Bruna\nStatus: pronto\n\nSLIDE 01\nMinha paciente bateu a meta de peso, mesmo trabalhando na madrugada.\n(E eu quero te contar o que ela fez.)\n\nSLIDE 02\nO que a maioria das pessoas acham:\n\"Quem tem uma rotina diferente, agitada e difícil dificilmente consegue emagrecer.\"\nO que ela fez:\nParou de acreditar que a rotina era o problema.\n\nSLIDE 03\nO que a maioria dos nutricionistas diz:\n\"Você precisa ter horários perfeitos para conseguir resultados.\"\n\"E precisa comer a cada 3 horas.\"\nO que ela fez:\nAprendeu a organizar a alimentação dentro da realidade dela.\n\nSLIDE 04\nO que a maioria das pessoas acham:\n\"Para emagrecer, você \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5amdj)",
       "tags": [
         "Conteúdo Bruna",
-        "consideração"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj5atzm",
-      "type": "clickup",
-      "titulo": "A era de aceitar a TPM acabou",
-      "data": "2026-06-20",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-recupera-o",
-      "parentId": "sg-901327051958-recupera-o",
-      "status": "recuperação",
-      "conteudo": "**A era de aceitar a TPM acabou**\n\nLista: Conteúdo Bruna\nStatus: recuperação\n\nSlide 01\nA era de aceitar a TPM acabou\n\n* * *\n\nSlide 02\nEsses dias eu estava revisando a evolução de uma paciente e lembrei de uma frase que ela me disse logo na primeira consulta:\n\"Eu já me acostumei. Todo mês é a mesma coisa.\"\nInchaço.\nMudança de humor.\nCólicas.\nAcne.\nVontade de comer tudo que vê pela frente.\nE ela acreditava que isso era normal.\n\n* * *\n\nSlide 03\nE é justamente aí que muita mulher continua errando.\nPorque foi convencida de que TPM intensa faz parte de ser mulher.\nEntão ela sente tudo isso mês após mês...\nE simplesmente aceita.\n\n* * *\n\nSlide 04\nAceitar que a TPM é normal até \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5atzm)",
-      "tags": [
-        "Conteúdo Bruna",
-        "recuperação"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aj5b7fk",
-      "type": "clickup",
-      "titulo": "Estou assim porque estou de TPM 🙄",
-      "data": "2026-06-20",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-recupera-o",
-      "parentId": "sg-901327051958-recupera-o",
-      "status": "recuperação",
-      "conteudo": "**Estou assim porque estou de TPM 🙄**\n\nLista: Conteúdo Bruna\nStatus: recuperação\n\nSlide 01\nEstou assim porque estou de TPM 🙄\n( Isso não é normal)\n\n* * *\n\nSlide 02\nSe você também já ouviu que TPM intensa é normal, fica tranquila.\nVocê não está sozinha.\nA maioria das mulheres cresceu ouvindo exatamente a mesma coisa.\nMas existe uma diferença enorme entre ter TPM e sofrer todos os meses por causa dela.\n\n* * *\n\nSlide 03\nE antes que você pense:\n\"Então quer dizer que eu nunca mais vou sentir nada?\"\nNão.\nO ponto não é esse.\nO ponto é que inchaço excessivo, alterações intensas de humor, vontade descontrolada de doces e desconfortos que atrapalham sua rotina não deveriam ser ignora\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5b7fk)",
-      "tags": [
-        "Conteúdo Bruna",
-        "recuperação"
+        "pronto"
       ],
       "links": []
     },
@@ -32702,14 +32576,140 @@
       "id": "clickup-86aj5anw9",
       "type": "clickup",
       "titulo": "Como eu fiz uma paciente perder 15kg sem abandonar os lanches e a cervejinha do fim de semana",
-      "data": "2026-06-21",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-pronto",
+      "parentId": "sg-901327051958-pronto",
+      "status": "pronto",
+      "conteudo": "**Como eu fiz uma paciente perder 15kg sem abandonar os lanches e a cervejinha do fim de semana**\n\nLista: Conteúdo Bruna\nStatus: pronto\n\nSLIDE 01\nComo eu fiz uma paciente perder 15kg sem abandonar os lanches e a cervejinha do fim de semana\n(CAPA SÓ O TEXTO EM DESTAQUE)\n\n* * *\n\nSLIDE 02\nA maioria das mulheres consegue emagrecer.\nO problema é manter o resultado quando a vida acontece.\nMinha paciente também acreditava que o problema era a rotina dela.\nMas o que descobrimos mudou completamente os resultados que ela estava tendo.\n\n* * *\n\nSLIDE 03\nEssa paciente eliminou 15kg.\nReduziu medidas.\nGanhou massa muscular.\nVoltou a vestir roupas que evitava há anos.\nE o mais importante:\nParou de sentir culpa toda vez que saía da rotina.\n(Fot\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5anw9)",
+      "tags": [
+        "Conteúdo Bruna",
+        "pronto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj5atzm",
+      "type": "clickup",
+      "titulo": "A era de aceitar a TPM acabou",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-pronto",
+      "parentId": "sg-901327051958-pronto",
+      "status": "pronto",
+      "conteudo": "**A era de aceitar a TPM acabou**\n\nLista: Conteúdo Bruna\nStatus: pronto\n\nSlide 01\nA era de aceitar a TPM acabou\n\n* * *\n\nSlide 02\nEsses dias eu estava revisando a evolução de uma paciente e lembrei de uma frase que ela me disse logo na primeira consulta:\n\"Eu já me acostumei. Todo mês é a mesma coisa.\"\nInchaço.\nMudança de humor.\nCólicas.\nAcne.\nVontade de comer tudo que vê pela frente.\nE ela acreditava que isso era normal.\n\n* * *\n\nSlide 03\nE é justamente aí que muita mulher continua errando.\nPorque foi convencida de que TPM intensa faz parte de ser mulher.\nEntão ela sente tudo isso mês após mês...\nE simplesmente aceita.\n\n* * *\n\nSlide 04\nAceitar que a TPM é normal até \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5atzm)",
+      "tags": [
+        "Conteúdo Bruna",
+        "pronto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj5b7fk",
+      "type": "clickup",
+      "titulo": "Estou assim porque estou de TPM 🙄",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-pronto",
+      "parentId": "sg-901327051958-pronto",
+      "status": "pronto",
+      "conteudo": "**Estou assim porque estou de TPM 🙄**\n\nLista: Conteúdo Bruna\nStatus: pronto\n\nSlide 01\nEstou assim porque estou de TPM 🙄\n( Isso não é normal)\n\n* * *\n\nSlide 02\nSe você também já ouviu que TPM intensa é normal, fica tranquila.\nVocê não está sozinha.\nA maioria das mulheres cresceu ouvindo exatamente a mesma coisa.\nMas existe uma diferença enorme entre ter TPM e sofrer todos os meses por causa dela.\n\n* * *\n\nSlide 03\nE antes que você pense:\n\"Então quer dizer que eu nunca mais vou sentir nada?\"\nNão.\nO ponto não é esse.\nO ponto é que inchaço excessivo, alterações intensas de humor, vontade descontrolada de doces e desconfortos que atrapalham sua rotina não deveriam ser ignora\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5b7fk)",
+      "tags": [
+        "Conteúdo Bruna",
+        "pronto"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajngpp5",
+      "type": "clickup",
+      "titulo": "Não corte o doce para emagrecer",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-descoberta",
+      "parentId": "sg-901327051958-descoberta",
+      "status": "descoberta",
+      "conteudo": "**Não corte o doce para emagrecer**\n\nLista: Conteúdo Bruna\nStatus: descoberta\n\n# SLIDE 01\n## Não corte o doce para emagrecer\n\n* * *\n\n# SLIDE 02\nEu sei que isso parece estranho\nAfinal, a primeira coisa que muita mulher faz quando decide emagrecer é eliminar completamente tudo o que gosta\nMas, na prática, essa estratégia costuma durar pouco\nE, muitas vezes, é exatamente ela que faz você voltar a comer muito mais depois\n\n* * *\n\n# SLIDE 03\nO problema é que você entra em um ciclo\nVocê restringe\nConsegue manter por alguns dias\nDepois a vontade aumenta\nVocê exagera\nSente culpa\nE decide começar tudo de novo na segunda-feira\nNão é falta de força de vontade\nÉ um ciclo que dificilm\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajngpp5)",
+      "tags": [
+        "Conteúdo Bruna",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnh44k",
+      "type": "clickup",
+      "titulo": "A era de cortar quase tudo da sua alimentação acabou",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-recupera-o",
+      "parentId": "sg-901327051958-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**A era de cortar quase tudo da sua alimentação acabou**\n\nLista: Conteúdo Bruna\nStatus: recuperação\n\n**Slide 01**\nA era de cortar quase tudo da sua alimentação acabou\n\n* * *\n\n**Slide 02**\nEsses dias eu estava revisando a evolução de uma paciente e lembrei de uma decisão que ela tomou sozinha\nEla resolveu cortar completamente o açúcar\nAchou que, assim, finalmente conseguiria destravar o emagrecimento\n\n* * *\n\n**Slide 03**\nE é exatamente aí que muita mulher continua errando\nEla acredita que, quanto mais alimentos cortar, melhores serão os resultados\nMas, na prática, isso costuma gerar exatamente o contrário\n\n* * *\n\n**Slide 04**\nCortar tudo até funciona... por alguns dias\nO problema é que ninguém\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnh44k)",
+      "tags": [
+        "Conteúdo Bruna",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnj4rd",
+      "type": "clickup",
+      "titulo": "Faça isso para emagrecer sem cortar tudo o que você gosta",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-considera-o",
+      "parentId": "sg-901327051958-considera-o",
+      "status": "consideração",
+      "conteudo": "**Faça isso para emagrecer sem cortar tudo o que você gosta**\n\nLista: Conteúdo Bruna\nStatus: consideração\n\nCARROSSEL\nSLIDE 01\nFaça isso para emagrecer sem cortar tudo o que você gosta\nSLIDE 02\nUma das minhas pacientes chegou acreditando que precisava eliminar todos os alimentos que gostava para conseguir emagrecer\nEla começava uma dieta super motivada\nMas bastava comer um doce ou sair da rotina para sentir que tinha estragado tudo\nE aí o ciclo recomeçava\nSLIDE 03\nFoi quando ela descobriu que o problema não era falta de força de vontade\nEra a estratégia que ela estava seguindo\n\\[Inserir foto da paciente ou print do depoimento\\]\nSLIDE 04\nQuando mudamos essa estratégia:\nEla conseguiu reduzir os episód\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnj4rd)",
+      "tags": [
+        "Conteúdo Bruna",
+        "consideração"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnjgnp",
+      "type": "clickup",
+      "titulo": "Parar de focar apenas na balança e calorias fez uma das minhas pacientes finalmente destravar o emagrecimento",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-considera-o",
+      "parentId": "sg-901327051958-considera-o",
+      "status": "consideração",
+      "conteudo": "**Parar de focar apenas na balança e calorias fez uma das minhas pacientes finalmente destravar o emagrecimento**\n\nLista: Conteúdo Bruna\nStatus: consideração\n\nCARROSSEL\n**SLIDE 01**\nParar de focar apenas na balança e calorias fez uma das minhas pacientes finalmente destravar o emagrecimento\n**SLIDE 02**\nE o melhor de tudo?\nEla começou a sentir menos inchaço, mais disposição e voltou a se sentir bem nas próprias roupas\nTudo isso antes mesmo de ficar preocupada com o número da balança\n**SLIDE 03**\nImagina acordar sem aquela sensação de corpo pesado\nVestir uma roupa sem ela apertar\nPassar o dia com mais energia\nE perceber que seu corpo finalmente voltou a responder\n**SLIDE 04**\nFoi exatamente isso que aconteceu com uma das minhas pacientes\nEla me procu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnjgnp)",
+      "tags": [
+        "Conteúdo Bruna",
+        "consideração"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnkfvd",
+      "type": "clickup",
+      "titulo": "É esse o passo a passo que eu uso para destravar o emagrecimento das minhas pacientes",
+      "data": "2026-07-22",
       "perfil": "90138131805",
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
       "statusNodeId": "sg-901327051958-decis-o",
       "parentId": "sg-901327051958-decis-o",
       "status": "decisão",
-      "conteudo": "**Como eu fiz uma paciente perder 15kg sem abandonar os lanches e a cervejinha do fim de semana**\n\nLista: Conteúdo Bruna\nStatus: decisão\n\nSLIDE 01\nComo eu fiz uma paciente perder 15kg sem abandonar os lanches e a cervejinha do fim de semana\n(CAPA SÓ O TEXTO EM DESTAQUE)\n\n* * *\n\nSLIDE 02\nA maioria das mulheres consegue emagrecer.\nO problema é manter o resultado quando a vida acontece.\nMinha paciente também acreditava que o problema era a rotina dela.\nMas o que descobrimos mudou completamente os resultados que ela estava tendo.\n\n* * *\n\nSLIDE 03\nEssa paciente eliminou 15kg.\nReduziu medidas.\nGanhou massa muscular.\nVoltou a vestir roupas que evitava há anos.\nE o mais importante:\nParou de sentir culpa toda vez que saía da rotina.\n(Fot\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5anw9)",
+      "conteudo": "**É esse o passo a passo que eu uso para destravar o emagrecimento das minhas pacientes**\n\nLista: Conteúdo Bruna\nStatus: decisão\n\n## Slide 01\n**É esse o passo a passo que eu uso para destravar o emagrecimento das minhas pacientes**\n\n* * *\n\n## Slide 02\nUma das minhas pacientes também acreditava que, para emagrecer, precisava abrir mão de tudo o que gostava\nEla já tinha tentado dietas restritivas, fazia mudanças por conta própria e, mesmo assim, continuava voltando para o mesmo lugar\nFoi quando ela percebeu que o problema não era o que ela imaginava\n\n* * *\n\n## Slide 03\nO que quase ninguém te explica é que emagrecer e destravar o emagrecimento são coisas diferentes\nVocê pode até perder alguns quilos\nMas, se continuar repeti\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnkfvd)",
       "tags": [
         "Conteúdo Bruna",
         "decisão"
@@ -32717,20 +32717,110 @@
       "links": []
     },
     {
-      "id": "clickup-86aj5awcm",
+      "id": "clickup-86ajnm14t",
       "type": "clickup",
-      "titulo": "Use essa estratégia para parar de descontar suas emoções na comida.",
-      "data": "2026-06-21",
+      "titulo": "É por isso que você não emagrece",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-recupera-o",
+      "parentId": "sg-901327051958-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**É por isso que você não emagrece**\n\nLista: Conteúdo Bruna\nStatus: recuperação\n\n**Slide 01**\nÉ por isso que você não emagrece\n\n* * *\n\n**Slide 02**\nVocê faz dieta\nPerde alguns quilos\nMas logo tudo desacelera\nE parece que seu corpo simplesmente parou de responder\n\n* * *\n\n**Slide 03**\nNessa hora, a maioria das mulheres faz sempre a mesma coisa\nCome menos\nPula refeições\nProcura outra dieta na internet\nE acredita que precisa fazer ainda mais esforço\n\n* * *\n\n**Slide 04**\nSó que o problema quase nunca é esse\nSeu corpo responde ao conjunto da rotina\n• Alimentação desorganizada\n• Pouca hidratação\n• Sono ruim\n• Inflamação constante\n• Hábitos que você não consegue manter\nEnquanto is\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnm14t)",
+      "tags": [
+        "Conteúdo Bruna",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnm6hw",
+      "type": "clickup",
+      "titulo": "Erros mais comuns que eu vejo grandes perfis de emagrecimento cometendo na internet",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-recupera-o",
+      "parentId": "sg-901327051958-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**Erros mais comuns que eu vejo grandes perfis de emagrecimento cometendo na internet**\n\nLista: Conteúdo Bruna\nStatus: recuperação\n\n**Slide 01**\nErros mais comuns que eu vejo grandes perfis de emagrecimento cometendo na internet\n\n* * *\n\n**Slide 02**\n**Erro 1**\nFazer você acreditar que existe um alimento milagroso\nTodo mês aparece um novo \"segredo\" para emagrecer\n\n* * *\n\n**Slide 03**\n**Erro 2**\nResumir o emagrecimento a um antes e depois\nVocê vê o resultado\nMas nunca vê o processo que levou até ele\n\n* * *\n\n**Slide 04**\n**Erro 3**\nCriar medo de alimentos\nUma hora o pão é o vilão\nDepois é a fruta\nDepois o arroz\nEnquanto isso, você fica sem saber mais o que pode comer\n\n* * *\n\n**Slide 05**\n**Erro 4**\nPassar receitas prontas com\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnm6hw)",
+      "tags": [
+        "Conteúdo Bruna",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnmfff",
+      "type": "clickup",
+      "titulo": "Siga esse passo a passo para nunca mais cair na armadilha das dietas da internet",
+      "data": "2026-07-22",
       "perfil": "90138131805",
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
       "statusNodeId": "sg-901327051958-considera-o",
       "parentId": "sg-901327051958-considera-o",
       "status": "consideração",
-      "conteudo": "**Use essa estratégia para parar de descontar suas emoções na comida.**\n\nLista: Conteúdo Bruna\nStatus: consideração\n\nSLIDE 01\nUse essa estratégia para parar de descontar suas emoções na comida.\n\nSLIDE 02\nMuitas mulheres acreditam que o problema é falta de controle.\nMas geralmente os sinais começam muito antes.\nPor exemplo, assim é o dia a dia delas:\n*   Passam o dia correndo.\n*   Pulam refeições.\n*   Vão adiando o que precisam comer.\n*   Chegam muitas vezes do trabalho cansadas.\nE quando percebem, estão procurando na comida o alívio, a tranquilidade e o relaxamento que não encontraram durante o dia.\n\nSLIDE 03\nFoi exatamente isso que aconteceu com uma das minhas pacientes.\nEla vivia sentindo que estava sempre\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5awcm)",
+      "conteudo": "**Siga esse passo a passo para nunca mais cair na armadilha das dietas da internet**\n\nLista: Conteúdo Bruna\nStatus: consideração\n\n**SLIDE 01**\nSiga esse passo a passo para nunca mais cair na armadilha das dietas da internet\n**SLIDE 02**\nAntes...\nEra uma dieta diferente a cada semana\nUma amiga indicava\nUma influenciadora postava\nUm profissional famoso lançava um método novo\nNo começo até funcionava\nMas pouco tempo depois o peso voltava... e, muitas vezes, voltava maior\n**SLIDE 03**\nO que a maioria das pessoas fazem:\nVivem procurando a próxima dieta que promete resultado rápido\nO que eu recomendo:\nConstruir uma estratégia que você consiga manter quando a empolgação passar\n**SLIDE 04**\nPasso 1\nPare de acreditar que existe u\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnmfff)",
       "tags": [
         "Conteúdo Bruna",
         "consideração"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajnmwt8",
+      "type": "clickup",
+      "titulo": "Pare de fazer jejum se quiser emagrecer",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-recupera-o",
+      "parentId": "sg-901327051958-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**Pare de fazer jejum se quiser emagrecer**\n\nLista: Conteúdo Bruna\nStatus: recuperação\n\n**Slide 01**\nPare de fazer jejum se quiser emagrecer\n\n* * *\n\n**Slide 02**\nTem uma estratégia que muita mulher começa a fazer porque viu alguém falando na internet\nJejum\nPorque prometeram que ele iria destravar o emagrecimento\nMas quase ninguém explica para quem ele realmente faz sentido\n\n* * *\n\n**Slide 03**\nEsquece esse blá-blá-blá de que quanto mais horas você ficar sem comer, mais rápido vai emagrecer\nSe fosse assim:\nToda mulher que faz jejum teria resultados duradouros\nE a realidade está bem longe disso\n\n* * *\n\n**Slide 04**\nO que realmente faz diferença não é passar horas sem comer\nÉ conseg\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajnmwt8)",
+      "tags": [
+        "Conteúdo Bruna",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ahmyzgy",
+      "type": "clickup",
+      "titulo": "INSTRUÇÕES BRUNA",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-ideia",
+      "parentId": "sg-901327051958-ideia",
+      "status": "ideia",
+      "conteudo": "**INSTRUÇÕES BRUNA**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\n### [@Nutri Bruna Boreggio](#user_mention#302440667) sobre os conteúdos, veja esse vídeo abaixo:\n\n[https://t90131929380.p.clickup-attachments.com/t90131929380/b3aa0129-a0bf-47bd-a930-c705058d1096/b3aa0129-a0bf-47bd-a930-c705058d1096.webm?filename=screen-recording-2026-07-22-15%3A54.webm&open=true](https://t90131929380.p.clickup-attachments.com/t90131929380/b3aa0129-a0bf-47bd-a930-c705058d1096/b3aa0129-a0bf-47bd-a930-c705058d1096.webm?filename=screen-recording-2026-07-22-15%3A54.webm&open=true)\n\n###   \n\n###   \n\n### A IDEIA — Copa 2026 x Linha Editorial [@Nutri Bruna Boreggio](#user_mention#3024\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahmyzgy)",
+      "tags": [
+        "Conteúdo Bruna",
+        "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ahmxfdw",
+      "type": "clickup",
+      "titulo": "LINHA EDITORIAL",
+      "data": "2026-07-22",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-ideia",
+      "parentId": "sg-901327051958-ideia",
+      "status": "ideia",
+      "conteudo": "**LINHA EDITORIAL**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\nAqui você encontra a linha editorial para conteúdos feed, ligados as comunidades para ir construindo uma malha ligando tudo\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahmxfdw)",
+      "tags": [
+        "Conteúdo Bruna",
+        "ideia"
       ],
       "links": []
     },
@@ -46828,12 +46918,12 @@
     },
     {
       "source": "lista-901327051958",
-      "target": "sg-901327051958-stories-da-semana-",
+      "target": "sg-901327051958-ideia",
       "tipo": "hierarquia"
     },
     {
       "source": "lista-901327051958",
-      "target": "sg-901327051958-ideia",
+      "target": "sg-901327051958-pronto",
       "tipo": "hierarquia"
     },
     {
@@ -53722,21 +53812,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327051958-stories-da-semana-",
-      "target": "clickup-86ahmznc9",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327051958-ideia",
-      "target": "clickup-86ahmxfdw",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327051958-ideia",
-      "target": "clickup-86ahmyzgy",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901327051958-ideia",
       "target": "clickup-86ahypkqk",
       "tipo": "hierarquia"
@@ -53747,48 +53822,88 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327051958-descoberta",
+      "source": "sg-901327051958-pronto",
       "target": "clickup-86aj5aj6k",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327051958-descoberta",
-      "target": "clickup-86aj5afcn",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327051958-descoberta",
+      "source": "sg-901327051958-pronto",
       "target": "clickup-86aj5b1hp",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327051958-considera-o",
-      "target": "clickup-86aj5agyx",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327051958-considera-o",
+      "source": "sg-901327051958-pronto",
       "target": "clickup-86aj5amdj",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327051958-recupera-o",
-      "target": "clickup-86aj5atzm",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327051958-recupera-o",
-      "target": "clickup-86aj5b7fk",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327051958-decis-o",
+      "source": "sg-901327051958-pronto",
       "target": "clickup-86aj5anw9",
       "tipo": "hierarquia"
     },
     {
+      "source": "sg-901327051958-pronto",
+      "target": "clickup-86aj5atzm",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-pronto",
+      "target": "clickup-86aj5b7fk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-descoberta",
+      "target": "clickup-86ajngpp5",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-recupera-o",
+      "target": "clickup-86ajnh44k",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "sg-901327051958-considera-o",
-      "target": "clickup-86aj5awcm",
+      "target": "clickup-86ajnj4rd",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-considera-o",
+      "target": "clickup-86ajnjgnp",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-decis-o",
+      "target": "clickup-86ajnkfvd",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-recupera-o",
+      "target": "clickup-86ajnm14t",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-recupera-o",
+      "target": "clickup-86ajnm6hw",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-considera-o",
+      "target": "clickup-86ajnmfff",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-recupera-o",
+      "target": "clickup-86ajnmwt8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-ideia",
+      "target": "clickup-86ahmyzgy",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-ideia",
+      "target": "clickup-86ahmxfdw",
       "tipo": "hierarquia"
     },
     {
