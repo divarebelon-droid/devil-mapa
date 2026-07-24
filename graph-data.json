@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-24T14:20:43.444Z",
+  "geradoEm": "2026-07-24T15:00:05.885Z",
   "totalNodes": 2428,
   "totalLinks": 2414,
   "nodes": [
@@ -42543,7 +42543,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-23\n\n**Últimas mensagens:**\n→ Você: Aqui digita seu e-mail e avança, não precisa de senha\n→ Você: Visualiza os dois lados e me fala\n→ Você: Isso é um pouco do que eu tinha pensado\n→ Você: Precisa amadurecer mais a ideia, me fala o que acha\n← Suporte Nutri Bruna: Oiii bom dia Aline tudo bem ?\n← Suporte Nutri Bruna: Ontem saí tarde do consultório. Não consegui ver",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-23\n\n**Últimas mensagens:**\n→ Você: Isso é um pouco do que eu tinha pensado\n→ Você: Precisa amadurecer mais a ideia, me fala o que acha\n← Suporte Nutri Bruna: Oiii bom dia Aline tudo bem ?\n← Suporte Nutri Bruna: Ontem saí tarde do consultório. Não consegui ver\n← Suporte Nutri Bruna: Seu planejamento alimentar deste mês chegou! ✨\n\nOi, Célia\r\nAqui esta os dados da consulta do dia 10/07/2026. É um prazer estar com você nessa jornada!\n← Suporte Nutri Bruna: Esse é um exemplo da consulta completa. Na consultoria ficaria só o plano alimentar com as medidas",
       "tags": [
         "whatsapp",
         "followup"
@@ -42989,7 +42989,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-27n3s",
+      "id": "ig-divarebel.on-tluse",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-24",
@@ -55098,7 +55098,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-27n3s",
+      "target": "ig-divarebel.on-tluse",
       "tipo": "externo"
     },
     {
