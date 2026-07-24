@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-24T21:00:29.265Z",
+  "geradoEm": "2026-07-24T23:00:26.870Z",
   "totalNodes": 2325,
   "totalLinks": 2266,
   "nodes": [
@@ -40535,7 +40535,22 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Jaja escuto seu áudio\n→ Você: de novo\n← Suporte Nutri Bruna: Foi\n← Suporte Nutri Bruna: Bele\n← Suporte Nutri Bruna: Vou fazer uma listinha ainda não fiz\n← Suporte Nutri Bruna: Mas te mando sim",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Foi\n← Suporte Nutri Bruna: Bele\n← Suporte Nutri Bruna: Vou fazer uma listinha ainda não fiz\n← Suporte Nutri Bruna: Mas te mando sim\n← Suporte Nutri Bruna: Fiz uma lista aqui, depois me passa seu e-mail pra compartilhar\n← Suporte Nutri Bruna: Perdi seu e-mail",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-185787584876757lid",
+      "type": "whatsapp",
+      "titulo": "Priscila Leite Nutri",
+      "data": "2026-07-24",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: As outras duas não me mandaram ainda\n\nVou pedir\n← Priscila Leite Nutri: Celeste de Figueiredo \nFormada há dois anos mas nao atuante \nQueria começar mas não atendia ainda \nInsegurança para atender\nNão conseguia dar continui\n← Priscila Leite Nutri: Coisa da Celeste ☝🏽☝🏽☝🏽\n→ Você: Ah ta blz\n← Priscila Leite Nutri: DADOS DA MENTORADA\n\n1. Quem era essa nutricionista?\n\n* Recém-formada?\n* Quantos anos de profissão? Me formei em 2026 quando comecei na criarte tinha 1\n← Priscila Leite Nutri: Dados da Karine",
       "tags": [
         "whatsapp",
         "followup"
@@ -40566,21 +40581,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Como está a sua função intestinal? Está indo todos os dias, com esforço ou sem?\n← Nutri Regiane Silva: Ah maravilha então\n← Nutri Regiane Silva: Tá ok\n→ Você: https://youtu.be/AqG5zodervU\n→ Você: Roteiro para ser seu Guia\n→ Você: Ah ta ok,sem pressa fica tranquila, melhoras pra você",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185787584876757lid",
-      "type": "whatsapp",
-      "titulo": "Priscila Leite Nutri",
-      "data": "2026-07-24",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Muito obrigada\n← Priscila Leite Nutri: Show\n← Priscila Leite Nutri: As outras duas não me mandaram ainda\n\nVou pedir\n← Priscila Leite Nutri: Celeste de Figueiredo \nFormada há dois anos mas nao atuante \nQueria começar mas não atendia ainda \nInsegurança para atender\nNão conseguia dar continui\n← Priscila Leite Nutri: Coisa da Celeste ☝🏽☝🏽☝🏽\n→ Você: Ah ta blz",
       "tags": [
         "whatsapp",
         "followup"
@@ -41060,7 +41060,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-ckxp7",
+      "id": "ig-divarebel.on-aee8h",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-24",
@@ -52254,17 +52254,17 @@
     },
     {
       "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-185787584876757lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-229016397197478lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
@@ -52429,7 +52429,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-ckxp7",
+      "target": "ig-divarebel.on-aee8h",
       "tipo": "externo"
     },
     {
