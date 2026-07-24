@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-24T15:00:05.885Z",
-  "totalNodes": 2428,
-  "totalLinks": 2414,
+  "geradoEm": "2026-07-24T16:04:02.334Z",
+  "totalNodes": 2429,
+  "totalLinks": 2415,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -42536,29 +42536,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-14088298090654lid",
-      "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
-      "data": "2026-07-23",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-23\n\n**Últimas mensagens:**\n→ Você: Isso é um pouco do que eu tinha pensado\n→ Você: Precisa amadurecer mais a ideia, me fala o que acha\n← Suporte Nutri Bruna: Oiii bom dia Aline tudo bem ?\n← Suporte Nutri Bruna: Ontem saí tarde do consultório. Não consegui ver\n← Suporte Nutri Bruna: Seu planejamento alimentar deste mês chegou! ✨\n\nOi, Célia\r\nAqui esta os dados da consulta do dia 10/07/2026. É um prazer estar com você nessa jornada!\n← Suporte Nutri Bruna: Esse é um exemplo da consulta completa. Na consultoria ficaria só o plano alimentar com as medidas",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite Nutri",
-      "data": "2026-07-23",
+      "data": "2026-07-24",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-23\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Entendi,\n← Priscila Leite Nutri: Rsrs\nMelhoras \n\nEntendi\n← Priscila Leite Nutri: Eu vi o 1° e o 2°\n← Priscila Leite Nutri: Dou sim\n→ Você: Oie :). Coloquei os links de pagamento e to criando essa parte de ordebumps e outros produtos\n← Priscila Leite Nutri: Ah sim",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Muito obrigada\n← Priscila Leite Nutri: Show\n← Priscila Leite Nutri: As outras duas não me mandaram ainda\n\nVou pedir\n← Priscila Leite Nutri: Celeste de Figueiredo \nFormada há dois anos mas nao atuante \nQueria começar mas não atendia ainda \nInsegurança para atender\nNão conseguia dar continui\n← Priscila Leite Nutri: Coisa da Celeste ☝🏽☝🏽☝🏽\n→ Você: Ah ta blz",
       "tags": [
         "whatsapp",
         "followup"
@@ -42569,11 +42554,41 @@
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
-      "data": "2026-07-22",
+      "data": "2026-07-24",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-22\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Já olhei pelo celular, ficou incrível, amei\n← Nutri Regiane Silva: Vou olhar pelo pc já já\n← Nutri Regiane Silva: Depois muda minha foto por favor jkkkk\n→ Você: Ah ta blz\n→ Você: divarebel.on@gmail.com\n← Nutri Regiane Silva: Eitaaa Jesus kkkkk",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n→ Você: Podemos sim, pergunto o que lá? Me manda aqui que adiciono. Lá eu pus uma ideia mesmo\n← Nutri Regiane Silva: Como está a sua função intestinal? Está indo todos os dias, com esforço ou sem?\n← Nutri Regiane Silva: Ah maravilha então\n← Nutri Regiane Silva: Tá ok\n→ Você: https://youtu.be/AqG5zodervU\n→ Você: Roteiro para ser seu Guia",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-59549889384656lid",
+      "type": "whatsapp",
+      "titulo": "Elaine Talita",
+      "data": "2026-07-24",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-07-24",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Estou gravando agora de tarde a fase 2 do desafio\n← Suporte Nutri Bruna: Até mais tarde te mando os links dos vídeos\n← Suporte Nutri Bruna: https://youtu.be/tKL7rhR5OhY\n← Suporte Nutri Bruna: https://youtu.be/ugQTxZL6TlQ\n← Suporte Nutri Bruna: Consegui gravar mais 2 🙏🏻 \nProxima semana acredito que concluo\n← Suporte Nutri Bruna: Amanhã vou te mandar os materiais, da pra anexar em cada desafio? \n\nAs lâminas que eu mostro, os cardápios etc",
       "tags": [
         "whatsapp",
         "followup"
@@ -42989,7 +43004,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-tluse",
+      "id": "ig-divarebel.on-6tiu8",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-24",
@@ -54943,17 +54958,22 @@
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-59549889384656lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -55098,7 +55118,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-tluse",
+      "target": "ig-divarebel.on-6tiu8",
       "tipo": "externo"
     },
     {
