@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-24T13:19:35.297Z",
-  "totalNodes": 2493,
-  "totalLinks": 2479,
+  "geradoEm": "2026-07-24T13:29:31.635Z",
+  "totalNodes": 2428,
+  "totalLinks": 2414,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -42419,11 +42419,11 @@
       "id": "whatsapp-26375528395002lid",
       "type": "whatsapp",
       "titulo": "Aline Lima",
-      "data": "2026-06-06",
+      "data": "2026-07-24",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06\n\n**Últimas mensagens:**\n← Aline Lima: te amo : )\n← Aline Lima: te amo : )\n← Aline Lima: Amor deu certo?\n← Aline Lima: Amor deu certo?\n← Aline Lima: Ah tá bom fio\n← Aline Lima: Ah tá bom fio",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-24\n\n**Últimas mensagens:**\n← Aline Lima: te amo : )\n← Aline Lima: te amo : )\n← Aline Lima: Amor deu certo?\n← Aline Lima: Amor deu certo?\n← Aline Lima: Ah tá bom fio\n← Aline Lima: Ah tá bom fio",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42431,14 +42431,44 @@
       "links": []
     },
     {
-      "id": "whatsapp-5511998532255swhatsappnet",
+      "id": "whatsapp-54014163079397lid",
       "type": "whatsapp",
-      "titulo": "Aline Lima",
-      "data": "2026-06-06",
+      "titulo": "Contato LID-63079397",
+      "data": "2026-07-21",
+      "perfil": "divarebel.on",
+      "parentId": "clickup-86aa469ch",
+      "status": "prospeccao",
+      "conteudo": "**Contato LID-63079397**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-21",
+      "tags": [
+        "whatsapp",
+        "prospeccao"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-163845167386850lid",
+      "type": "whatsapp",
+      "titulo": "Alexya",
+      "data": "2026-07-20",
+      "perfil": "divarebel.on",
+      "parentId": "clickup-86aj90k6e",
+      "status": "prospeccao",
+      "conteudo": "**Alexya**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-20\n\n**Últimas mensagens:**\n→ Você: Tô indo aí fia\n→ Você: (11) 99969-1915\n→ Você: Tá bom fia\n→ Você: Nossa fia que absurdo né fia\n→ Você: Sim fia verdade",
+      "tags": [
+        "whatsapp",
+        "prospeccao"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-14680936415429lid",
+      "type": "whatsapp",
+      "titulo": "Por: Alexya",
+      "data": "2026-07-20",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06\n\n**Últimas mensagens:**\n← Aline Lima: que isso kkk\n← Aline Lima: que isso kkk\n→ Você: Bom dia mãe pode subir?\n→ Você: Bom dia mãe pode subir?\n← Aline Lima: Pode querida, tras fralda de pano da Lá pra mim tbm\n← Aline Lima: Pode querida, tras fralda de pano da Lá pra mim tbm",
+      "conteudo": "**Por: Alexya**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-20\n\n**Últimas mensagens:**\n← Por: Alexya: Contato errado\n← Por: Alexya: Contato errado\n← Por: Alexya: Contato errado\n← Por: Alexya: Contato errado\n← Por: Alexya: Contato errado\n← Por: Alexya: Contato errado",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42446,29 +42476,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-5511981198917swhatsappnet",
+      "id": "whatsapp-260781841055780lid",
       "type": "whatsapp",
-      "titulo": "Rosa Lia Arquitetura",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ag8zmav",
-      "status": "prospeccao",
-      "conteudo": "**Rosa Lia Arquitetura**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-134535706599553lid",
-      "type": "whatsapp",
-      "titulo": "Nutricionista Luciene Costa",
-      "data": "2026-06-06",
+      "titulo": "Rancho Da Moto",
+      "data": "2026-07-18",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Nutricionista Luciene Costa**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Rancho Da Moto**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-18\n\n**Últimas mensagens:**\n→ Você: E cardápio?\n→ Você: E cardápio?\n→ Você: E cardápio?\n→ Você: E cardápio?\n→ Você: E cardápio?\n→ Você: E cardápio?",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42476,14 +42491,29 @@
       "links": []
     },
     {
-      "id": "whatsapp-5511958939900swhatsappnet",
+      "id": "whatsapp-133290619097243lid",
       "type": "whatsapp",
-      "titulo": "Studio Casa Decor",
-      "data": "2026-06-06",
+      "titulo": "Contato LID-19097243",
+      "data": "2026-07-17",
+      "perfil": "divarebel.on",
+      "parentId": "clickup-86ag8z3k3",
+      "status": "prospeccao",
+      "conteudo": "**Contato LID-19097243**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-17\n\n**Últimas mensagens:**\n→ Você: Querida realmente fica difícil entender como conseguiu passar em provas e se formar, sem interpretar texto. O plano de ação era de GRAÇA (significado:\n→ Você: Querida realmente fica difícil entender como conseguiu passar em provas e se formar, sem interpretar texto. O plano de ação era de GRAÇA (significado:\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab",
+      "tags": [
+        "whatsapp",
+        "prospeccao"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-9874163367973lid",
+      "type": "whatsapp",
+      "titulo": "Sabrina Carvalho",
+      "data": "2026-07-17",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Studio Casa Decor**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Sabrina Carvalho**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-17\n\n**Últimas mensagens:**\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42491,14 +42521,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-56444510548051lid",
+      "id": "whatsapp-33853737594909lid",
       "type": "whatsapp",
-      "titulo": "Ingrid Coelho",
-      "data": "2026-06-06",
+      "titulo": "Contato LID-37594909",
+      "data": "2026-07-09",
       "perfil": "divarebel.on",
-      "parentId": "espaco-90138131603",
+      "parentId": "clickup-86aa469ch",
       "status": "prospeccao",
-      "conteudo": "**Ingrid Coelho**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Contato LID-37594909**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-09",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42506,524 +42536,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-5511913367668swhatsappnet",
+      "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
-      "titulo": "Octo Arquitetura",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ag8zmm2",
-      "status": "prospeccao",
-      "conteudo": "**Octo Arquitetura**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511911817823swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Arq Ana Paula Corrêa",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ag8yt74",
-      "status": "prospeccao",
-      "conteudo": "**Arq Ana Paula Corrêa**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-768966918355lid",
-      "type": "whatsapp",
-      "titulo": "Aline Bispo by Linear",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Aline Bispo by Linear**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511939537858swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Nutricionista Débora Alves",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Nutricionista Débora Alves**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-23592389636293lid",
-      "type": "whatsapp",
-      "titulo": "Deisi Leite Nutricionista",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Deisi Leite Nutricionista**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-259072846741600lid",
-      "type": "whatsapp",
-      "titulo": "Consultório Sabrina Orlandin",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Consultório Sabrina Orlandin**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-111549461045438lid",
-      "type": "whatsapp",
-      "titulo": "Brunaheler Nutricionista",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Brunaheler Nutricionista**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-138603191644317lid",
-      "type": "whatsapp",
-      "titulo": "Nutricionista Lucilene Macedo",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Nutricionista Lucilene Macedo**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-161950499619064lid",
-      "type": "whatsapp",
-      "titulo": "Brenda Rodrigues",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Brenda Rodrigues**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-35901698768944lid",
-      "type": "whatsapp",
-      "titulo": "Drika Passos",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Drika Passos**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-105334173646868lid",
-      "type": "whatsapp",
-      "titulo": "Duarte Freitas Arquitetura",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Duarte Freitas Arquitetura**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-147626716610795lid",
-      "type": "whatsapp",
-      "titulo": "Nei Vilaça",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Nei Vilaça**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-33741414125621lid",
-      "type": "whatsapp",
-      "titulo": "Nutricionista Débora Alves",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Nutricionista Débora Alves**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511961004421swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Nutricionista Regina Rodrigues",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Nutricionista Regina Rodrigues**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511933329249swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Bianca Denti",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Bianca Denti**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511987352163swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Marina Stancioli Arquitetura",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Marina Stancioli Arquitetura**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-148705307033602lid",
-      "type": "whatsapp",
-      "titulo": "Nutricionista Luciana Jurtic",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ag8yt74",
-      "status": "prospeccao",
-      "conteudo": "**Nutricionista Luciana Jurtic**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511941348885swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Edmar Poscidonio",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Edmar Poscidonio**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-101773662507173lid",
-      "type": "whatsapp",
-      "titulo": "Karina",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Karina**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511951600350swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Vanessa Melo",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Vanessa Melo**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-258539868176523lid",
-      "type": "whatsapp",
-      "titulo": "Flex Arquitetura",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Flex Arquitetura**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-71773265612982lid",
-      "type": "whatsapp",
-      "titulo": "Camila | Cordista Interiores e Lighting",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Camila | Cordista Interiores e Lighting**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-230214609199219lid",
-      "type": "whatsapp",
-      "titulo": "Cristiane",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Cristiane**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-100549596856421lid",
-      "type": "whatsapp",
-      "titulo": "Priscila Barbosa",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Priscila Barbosa**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511937094294swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Lá casa do gesso decor",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Lá casa do gesso decor**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-557799068468swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "ℒ𝒶𝓇𝒶𝒽 ℬℯ𝒶𝓉𝓇𝒾𝓏",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "espaco-90138131603",
-      "status": "prospeccao",
-      "conteudo": "**ℒ𝒶𝓇𝒶𝒽 ℬℯ𝒶𝓉𝓇𝒾𝓏**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-227075055206610lid",
-      "type": "whatsapp",
-      "titulo": "Elaine França",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Elaine França**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-554198910884swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Nutri Yuri Muller",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "espaco-90138131603",
-      "status": "prospeccao",
-      "conteudo": "**Nutri Yuri Muller**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511973250611swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Felipe Rodrigues",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "espaco-90138131603",
-      "status": "prospeccao",
-      "conteudo": "**Felipe Rodrigues**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-51720298176581lid",
-      "type": "whatsapp",
-      "titulo": "Suenaga Arquitetura e Interiores",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Suenaga Arquitetura e Interiores**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521964910706swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Letícia Portella",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ag8yw01",
-      "status": "prospeccao",
-      "conteudo": "**Letícia Portella**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-263225828458638lid",
-      "type": "whatsapp",
-      "titulo": "Camila Nogueira",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Camila Nogueira**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511954868041swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Galeria A",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Galeria A**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511995197655swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Camila",
-      "data": "2026-06-06",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahu77t4",
-      "status": "prospeccao",
-      "conteudo": "**Camila**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-553192407300swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Canal Jhonatan Vaz",
-      "data": "2026-06-06",
+      "titulo": "Priscila Leite Nutri",
+      "data": "2026-07-23",
       "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
+      "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Canal Jhonatan Vaz**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-23\n\n**Últimas mensagens:**\n→ Você: Oie :). Coloquei os links de pagamento e to criando essa parte de ordebumps e outros produtos\n→ Você: Oie :). Coloquei os links de pagamento e to criando essa parte de ordebumps e outros produtos\n→ Você: Oie :). Coloquei os links de pagamento e to criando essa parte de ordebumps e outros produtos\n→ Você: Oie :). Coloquei os links de pagamento e to criando essa parte de ordebumps e outros produtos\n← Priscila Leite Nutri: Ah sim\n← Priscila Leite Nutri: Ah sim",
       "tags": [
         "whatsapp",
         "followup"
@@ -43031,14 +42551,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-5521964536813swhatsappnet",
+      "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
-      "titulo": "Studio Fernanda Rossoni",
-      "data": "2026-06-06",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-07-22",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Studio Fernanda Rossoni**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-22\n\n**Últimas mensagens:**\n→ Você: Ah ta blz\n→ Você: divarebel.on@gmail.com\n→ Você: divarebel.on@gmail.com\n→ Você: divarebel.on@gmail.com\n← Nutri Regiane Silva: Eitaaa Jesus kkkkk\n← Nutri Regiane Silva: Eitaaa Jesus kkkkk",
       "tags": [
         "whatsapp",
         "followup"
@@ -43046,29 +42566,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-553189225597swhatsappnet",
+      "id": "whatsapp-14088298090654lid",
       "type": "whatsapp",
-      "titulo": "Gabiicmi2020",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86aa466fa",
-      "status": "followup",
-      "conteudo": "**Gabiicmi2020**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-553299429321swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Arthur Aires e Júlia Dinali",
-      "data": "2026-06-06",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-07-22",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Arthur Aires e Júlia Dinali**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-22\n\n**Últimas mensagens:**\n→ Você: Visualiza os dois lados e me fala\n→ Você: Visualiza os dois lados e me fala\n→ Você: Isso é um pouco do que eu tinha pensado\n→ Você: Isso é um pouco do que eu tinha pensado\n→ Você: Precisa amadurecer mais a ideia, me fala o que acha\n→ Você: Precisa amadurecer mais a ideia, me fala o que acha",
       "tags": [
         "whatsapp",
         "followup"
@@ -43076,29 +42581,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-554196701154swhatsappnet",
+      "id": "whatsapp-229016397197478lid",
       "type": "whatsapp",
-      "titulo": "Canal Karyn Casagrande",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Canal Karyn Casagrande**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521983704666swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Bruna Rodrigues",
-      "data": "2026-06-06",
+      "titulo": "estelinarafalskipereira",
+      "data": "2026-07-22",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Bruna Rodrigues**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**estelinarafalskipereira**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-22\n\n**Últimas mensagens:**\n← estelinarafalskipereira: Pode ser às 16:30\n← estelinarafalskipereira: Pode ser às 16:30\n← estelinarafalskipereira: Pode ser às 16:30\n→ Você: Ah ta ok, vou deixar aqui\n→ Você: Ah ta ok, vou deixar aqui\n→ Você: Ah ta ok, vou deixar aqui",
       "tags": [
         "whatsapp",
         "followup"
@@ -43106,14 +42596,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-5528999632184swhatsappnet",
+      "id": "whatsapp-227435798864031lid",
       "type": "whatsapp",
-      "titulo": "Leticia A",
-      "data": "2026-06-06",
+      "titulo": "Contato LID-98864031",
+      "data": "2026-07-08",
       "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yw01",
+      "parentId": "clickup-86ag8z3k3",
       "status": "followup",
-      "conteudo": "**Leticia A**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Contato LID-98864031**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-08\n\n**Últimas mensagens:**\n→ Você: Ah sim você comentou. Então eu entrei em contato porque percebi sua empolgação para aplicar o plano, mas uma certa dificuldade em aplicação. \n\nSe a qu\n→ Você: Ah sim você comentou. Então eu entrei em contato porque percebi sua empolgação para aplicar o plano, mas uma certa dificuldade em aplicação. \n\nSe a qu\n← Contato LID-98864031: Eu acho que nesse momento prefiro esperar para saber ao certo como vai ficar o orçamento e conseguir me comprometer com novas coisas, aí retomamos con\n← Contato LID-98864031: Eu acho que nesse momento prefiro esperar para saber ao certo como vai ficar o orçamento e conseguir me comprometer com novas coisas, aí retomamos con\n→ Você: Oi Dra, tudo bem? Como você já recebeu plano de ação ou fez algum encontro com  a gente, agora você tem direito a acessar nossa comunidade gratuita e \n→ Você: Oi Dra, tudo bem? Como você já recebeu plano de ação ou fez algum encontro com  a gente, agora você tem direito a acessar nossa comunidade gratuita e ",
       "tags": [
         "whatsapp",
         "followup"
@@ -43121,14 +42611,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-554384037497swhatsappnet",
+      "id": "whatsapp-145255877836818lid",
       "type": "whatsapp",
-      "titulo": "Vagabundo",
-      "data": "2026-06-06",
+      "titulo": "Contato LID-77836818",
+      "data": "2026-07-07",
       "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
+      "parentId": "clickup-86ag8z3k3",
       "status": "followup",
-      "conteudo": "**Vagabundo**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Contato LID-77836818**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-07\n\n**Últimas mensagens:**\n→ Você: Opa bom dia, vi agora. Tranquilo. Então na segunda, eu não tenho mais vaga. Teria na terça, pode ser?\n→ Você: Opa bom dia, vi agora. Tranquilo. Então na segunda, eu não tenho mais vaga. Teria na terça, pode ser?\n← Contato LID-77836818: Na terça eu estou atendendo o dia todo\n← Contato LID-77836818: Na terça eu estou atendendo o dia todo\n→ Você: Ah ta, qual seria o melhor dia?\n→ Você: Ah ta, qual seria o melhor dia?",
       "tags": [
         "whatsapp",
         "followup"
@@ -43136,479 +42626,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-5519996851184swhatsappnet",
+      "id": "whatsapp-5511953726504swhatsappnet",
       "type": "whatsapp",
-      "titulo": "Suporte Painel",
-      "data": "2026-06-06",
+      "titulo": "Alexya",
+      "data": "2026-06-29",
       "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
+      "parentId": "clickup-86aj90k6e",
       "status": "followup",
-      "conteudo": "**Suporte Painel**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-557998241974swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Andreza Golpista",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Andreza Golpista**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5515997225479swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Verônica Muniz",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Verônica Muniz**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5519997101303swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Canal Bianca Peres",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Canal Bianca Peres**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511969546951swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Isaías",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Isaías**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5516993051204swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Nah assis",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Nah assis**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-553891052741swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Vitorya",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Vitorya**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521987830716swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Juliana Reis",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Juliana Reis**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511984743939swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Kátia Romão",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Kátia Romão**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5527999115098swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Entre Céu E Terra",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Entre Céu E Terra**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5512996047386swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Marines Troca",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Marines Troca**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511968764173swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Thalitamaedobe",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Thalitamaedobe**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-554898519200swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Lidiane Vieira",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Lidiane Vieira**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511962092301swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Rauni",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Rauni**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511982429272swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Doula Samara",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Doula Samara**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521988814094swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Não Retribui As Pessoas",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Não Retribui As Pessoas**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-553491633927swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Canal Larissi Silvah",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Canal Larissi Silvah**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511953047733swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Pamela",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Pamela**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511998714298swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Teteu oficial",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Teteu oficial**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511943424848swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Vivi Pereira",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Vivi Pereira**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5514996564370swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Cris Nascimento",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Cris Nascimento**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-557499807823swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Canal Mayla Lima",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Canal Mayla Lima**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-557192811665swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Itslanavergara",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Itslanavergara**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511949644595swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Paschoal",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Paschoal**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5521981303357swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Paty Avila",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Paty Avila**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-556481473039swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Bandida Punida@rhayannyevely",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Bandida Punida@rhayannyevely**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-558186659116swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Allyne",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Allyne**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-559884706499swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Perla Glenyelida",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Perla Glenyelida**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-558196570057swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Jaque",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86aap0bpn",
-      "status": "followup",
-      "conteudo": "**Jaque**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-5511958380259swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Canal Gih lazari",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Canal Gih lazari**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-553892440729swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Bsnida Au Ig acelera @mamaedamayte",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Bsnida Au Ig acelera @mamaedamayte**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-558197540207swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Canal Samara Santos",
-      "data": "2026-06-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8yt74",
-      "status": "followup",
-      "conteudo": "**Canal Samara Santos**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-06",
+      "conteudo": "**Alexya**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-29\n\n**Últimas mensagens:**\n← Alexya: https://vt.tiktok.com/ZSCyqyaC9/\n← Alexya: https://vt.tiktok.com/ZSCyqyaC9/",
       "tags": [
         "whatsapp",
         "followup"
@@ -43964,7 +42989,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-e1b4h",
+      "id": "ig-divarebel.on-xxynl",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-24",
@@ -55882,398 +54907,73 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511998532255swhatsappnet",
+      "source": "clickup-86aa469ch",
+      "target": "whatsapp-54014163079397lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ag8zmav",
-      "target": "whatsapp-5511981198917swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-134535706599553lid",
+      "source": "clickup-86aj90k6e",
+      "target": "whatsapp-163845167386850lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511958939900swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131603",
-      "target": "whatsapp-56444510548051lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8zmm2",
-      "target": "whatsapp-5511913367668swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-5511911817823swhatsappnet",
+      "target": "whatsapp-14680936415429lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-768966918355lid",
+      "target": "whatsapp-260781841055780lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8z3k3",
+      "target": "whatsapp-133290619097243lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511939537858swhatsappnet",
+      "target": "whatsapp-9874163367973lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86aa469ch",
+      "target": "whatsapp-33853737594909lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-23592389636293lid",
+      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-259072846741600lid",
+      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-111549461045438lid",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-138603191644317lid",
+      "target": "whatsapp-229016397197478lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-161950499619064lid",
+      "source": "clickup-86ag8z3k3",
+      "target": "whatsapp-227435798864031lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-35901698768944lid",
+      "source": "clickup-86ag8z3k3",
+      "target": "whatsapp-145255877836818lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-105334173646868lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-147626716610795lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-33741414125621lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511961004421swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511933329249swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511987352163swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-148705307033602lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511941348885swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-101773662507173lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511951600350swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-258539868176523lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-71773265612982lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-230214609199219lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-100549596856421lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511937094294swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131603",
-      "target": "whatsapp-557799068468swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-227075055206610lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131603",
-      "target": "whatsapp-554198910884swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131603",
-      "target": "whatsapp-5511973250611swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-51720298176581lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yw01",
-      "target": "whatsapp-5521964910706swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-263225828458638lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511954868041swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahu77t4",
-      "target": "whatsapp-5511995197655swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-553192407300swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5521964536813swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86aa466fa",
-      "target": "whatsapp-553189225597swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-553299429321swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-554196701154swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5521983704666swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yw01",
-      "target": "whatsapp-5528999632184swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-554384037497swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5519996851184swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-557998241974swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5515997225479swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-5519997101303swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511969546951swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5516993051204swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-553891052741swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-5521987830716swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511984743939swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5527999115098swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5512996047386swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511968764173swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-554898519200swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511962092301swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511982429272swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5521988814094swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-553491633927swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511953047733swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511998714298swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511943424848swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5514996564370swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-557499807823swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-557192811665swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5511949644595swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-5521981303357swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-556481473039swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-558186659116swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-559884706499swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86aap0bpn",
-      "target": "whatsapp-558196570057swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-5511958380259swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-553892440729swhatsappnet",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8yt74",
-      "target": "whatsapp-558197540207swhatsappnet",
+      "source": "clickup-86aj90k6e",
+      "target": "whatsapp-5511953726504swhatsappnet",
       "tipo": "externo"
     },
     {
@@ -56398,7 +55098,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-e1b4h",
+      "target": "ig-divarebel.on-xxynl",
       "tipo": "externo"
     },
     {
