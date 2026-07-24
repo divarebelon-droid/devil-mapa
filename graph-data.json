@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-24T17:45:44.376Z",
-  "totalNodes": 2373,
-  "totalLinks": 2359,
+  "geradoEm": "2026-07-24T18:22:04.483Z",
+  "totalNodes": 2377,
+  "totalLinks": 2363,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -41648,6 +41648,22 @@
       "links": []
     },
     {
+      "id": "transcricao-conv-145255877836818lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ Contato LID-77836818",
+      "data": "2026-07-07",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Transcrições — Contato LID-77836818**\n\n2 áudio(s)\n\n**Você:** Ah, então tá bom. Olha, se for essa semana, eu ainda tenho na quinta ou na sexta, na parte da tarde. Agora, na semana que vem, eu tenho segunda, é, tenho na segunda parte da tarde.\n\n**Você:** Oi, tudo bem? Então, passando para ver qual o melhor dia, bora marcar. Hoje também tive reunião o dia todo e amanhã eu tenho na parte da tarde, é na parte da tarde eu tenho assim por volta de 2 horas, aí depois eu só vou ter tipo depois das 4:30, né, ou na parte da manhã. Aí a gente atende aqui o último horário, 18 horas. Passa para mim direitinho ",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "transcricao-conv-185873366819004lid",
       "type": "whatsapp",
       "titulo": "🎙️ Nutri Regiane Silva",
@@ -41703,6 +41719,54 @@
       "perfil": "oficina_dro",
       "parentId": "espaco-90138131805",
       "conteudo": "**Transcrições — Suporte Nutri Bruna**\n\n94 áudio(s)\n\n**Você:** Aí, no caso, Bruna, só para eu confirmar se eu entendi, que eu abri o material aqui, esse PDF que eu achei top. Aí seria aquela parte final, o plano alimentar, seria a lista de alimentos que você colocou a foto ali, de até dos suplementos, seria aquilo ali, e você tirar a medida da pessoa, seria isso? É só isso aí que vai entrar? Porque quando for \n\n**Suporte Nutri Bruna:** Então, Aline, te mandei aí o questionário de pré-consulta. Eu tô olhando ele aqui, ele tem perguntas sobre exame. Na consultoria eu não vou avaliar exame, tá? Aí não precisa pôr essa pergunta, mas de resto eu pergunto tudo. Se a pessoa toma suplementação, se a pessoa tem algum tipo de doença, se toma alguma medicação, tá? E tem todas as perguntinha\n\n**Suporte Nutri Bruna:** Então a consultoria ela vai funcionar assim, vai ser esse mesmo PDF com essa mesma carinha aí que eu faço, que eu faço ali tudo dentro da Anomax. Eu faço o plano alimentar do paciente, faço lista de compras, coloco a suplementação, coloco algumas orientações se precisar, né? Tem alguns casos é que é bem personalizado, né? Esse daí eu te mandei só d\n\n**Suporte Nutri Bruna:** Ah, entendi. Não, para mim não demanda tanto tempo não, é bem tranquilo porque eu monto tudo lá no Max, né? E aí no final ele já gera esse PDF para mim, então eu posso baixar e jogo na plataforma para ele aí, tranquilo. Aí fica disponível na plataforma ali para o paciente. É até melhor porque aí também tem uma diferença, né? Também já é mais um pon\n\n**Você:** Oi, Bruna, bom dia! Agora entendi, entendi. Não, porque eu falei, gente, como é que ela vai fazer? A Bruna esqueceu que é para o povo que vem de anúncio também. Agora eu entendi. Eu achei que as medidas, essas questão assim, que só daria para fazer no presencial. Não sabia que tinha também. Por isso que é bom perguntar, né? Mas tá bom, eu vou ver a\n\n**Você:** Bruna, tivemos uma quedinha, tá? Você tava lá em segundo, né? Lembra que eu comentei? E aí agora eu olhei, você tá em terceiro. Essas meninas que você fez o atendimento, pede para elas fazer uma avaliação lá no seu Google. E aí o que é interessante, Bruna, já dá uma orientada para pessoa, né? De tipo assim, ela realmente falar um textinho, falar al\n\n**Você:** Daí, se você for querer, você me manda aqui as fotos, vídeos, para eu adicionar lá para você, tá? Me fala em relação se é válido para você, se faz sentido. A próxima vez que você pensar, vou pôr no Facebook, a gente tentar colocar no Google. Eu acho que aí, porque é um público mais qualificado que já está buscando por nutricionistas, entendeu? A pe\n\n**Você:** Bruna, tô mexendo lá no site, tá? Fiz as conexões, coloquei o seu questionário lá, já criei a planilha para quando a pessoa responder no questionário já ir direto para a planilha, né? Só que eu tô meio que automatizando agora alguns processos, tá? Por isso que eu não te mandei ainda. E se caso você acessar o site, ver que uma hora de um jeito, uma ",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-229016397197478lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ estelinarafalskipereira",
+      "data": "2026-07-22",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-901313921750",
+      "conteudo": "**Transcrições — estelinarafalskipereira**\n\n6 áudio(s)\n\n**Você:** Aí depois você me passa um email porque eu vou criar o seu cadastro aqui no ClickUp. E aí aquela área de trabalho onde eu te mostrei ali, onde começa a estrutura, né, que a gente monta a estrutura comercial da empresa, aquela área de trabalho, para eu te adicionar lá eu preciso de um email. Ali onde ficam organizados conteúdos, que nem eu te falei,\n\n**Você:** Boa tarde, Estelina, tudo bem? Tudo certinho por aí? Então deixa eu te falar umas coisinhas. A gente criou aqui o seu espaço de trabalho no ClickUp para a gente começar a trabalhar, tá? Inclusive vou te apresentar, explicar aqui na nossa próxima reunião. Aí vai chegar um email aí para você falando, né, que eu te convidei aqui para o espaço e tal. A\n\n**Você:** Aí depois me manda o contrato assinado certinho, me fala se tiver alguma dificuldade, né? Porque para assinar é uma ferramenta chamada Authentic que eu costumo usar aqui. As meninas também usam do próprio governo, aquele sistema de assinatura do próprio governo, sabe? Mas dá para usar um dos dois. Eu vou te mandar o link do Authentic. Aí não sei se\n\n**Você:** Oi, Estelina, não vou conseguir esperar mais porque depois às 17 eu tenho outra reunião. Então mesmo que entrasse agora eu não conseguiria mostrar o que eu preciso te mostrar aqui para a gente conseguir dar continuidade e te ajudar a acessar as coisas e tal, tudo direitinho, para a gente dar continuidade aqui nas nossas próximas etapas. Aí me fala \n\n**Você:** Ah, tá. Então é, então aí depois que passou do horário eu não ia conseguir esperar mais, mas deixa eu ver aqui, pode ser na sexta então?\n\n**Você:** E aí, se tiver pelo computador, é até melhor, porque aí o que você não tá conseguindo acessar, a gente já faz ali no ao vivo mesmo, entendeu?",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-5511998532255swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "🎙️ Fio",
+      "data": "2026-07-24",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Transcrições — Fio**\n\n1 áudio(s)\n\n**Você:** Então a consultoria ela vai funcionar assim, vai ser esse mesmo PDF com essa mesma carinha aí que eu faço, que eu faço ali tudo dentro da Anomax. Eu faço o plano alimentar do paciente, faço lista de compras, coloco a suplementação, coloco algumas orientações se precisar, né? Tem alguns casos é que é bem personalizado, né? Esse daí eu te mandei só d",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-59549889384656lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ Elaine Talita",
+      "data": "2026-07-24",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Transcrições — Elaine Talita**\n\n1 áudio(s)\n\n**Você:** Oi, Elaine, bom dia, tudo bem? Olha, ignora minha voz que eu tô um pouquinho rouca de gripe, menina, mas então ignora esse fato, tá? Eu tô aqui preparando o contrato para te enviar direitinho, né, de 30 dias. Me passa o email para eu te adicionar aqui no espaço, porque hoje a gente já vai criar o seu espaço aqui no ClickUp para a gente se organizar",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -41996,7 +42060,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-68hoj",
+      "id": "ig-divarebel.on-bgryq",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-24",
@@ -53709,6 +53773,11 @@
       "tipo": "externo"
     },
     {
+      "source": "espaco-90138228562",
+      "target": "transcricao-conv-145255877836818lid",
+      "tipo": "externo"
+    },
+    {
       "source": "espaco-901313883678",
       "target": "transcricao-conv-185873366819004lid",
       "tipo": "externo"
@@ -53726,6 +53795,21 @@
     {
       "source": "espaco-90138131805",
       "target": "transcricao-conv-14088298090654lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-901313921750",
+      "target": "transcricao-conv-229016397197478lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "transcricao-conv-5511998532255swhatsappnet",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "transcricao-conv-59549889384656lid",
       "tipo": "externo"
     },
     {
@@ -53830,7 +53914,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-68hoj",
+      "target": "ig-divarebel.on-bgryq",
       "tipo": "externo"
     },
     {
