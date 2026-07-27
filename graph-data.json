@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-27T10:03:35.171Z",
+  "geradoEm": "2026-07-27T11:00:28.911Z",
   "totalNodes": 2336,
   "totalLinks": 2323,
   "nodes": [
@@ -41347,7 +41347,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-x8plt",
+      "id": "ig-divarebel.on-aycq5",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-27",
@@ -53001,7 +53001,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-x8plt",
+      "target": "ig-divarebel.on-aycq5",
       "tipo": "externo"
     },
     {
