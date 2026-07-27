@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-27T15:00:25.507Z",
+  "geradoEm": "2026-07-27T17:01:47.974Z",
   "totalNodes": 2336,
   "totalLinks": 2323,
   "nodes": [
@@ -31593,14 +31593,14 @@
       "id": "clickup-86ajhu5zv",
       "type": "clickup",
       "titulo": "A era da insegurança clínica acabou",
-      "data": "2026-07-23",
+      "data": "2026-07-27",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
       "statusNodeId": "sg-901327622582-recupera-o",
       "parentId": "sg-901327622582-recupera-o",
       "status": "recuperação",
-      "conteudo": "**A era da insegurança clínica acabou**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** recuperação\n\n\n**Descrição:**\n# **Slide 01**\n## A era da insegurança clínica acabou\n\n* * *\n\n# **Slide 02**\nEsses dias eu estava conversando com uma nutricionista que tinha anos de formada\nEla me contou que evitava alguns casos porque tinha medo de errar\nPrincipalmente quando envolviam crianças com seletividade alimentar\nE sabe qual era o mais curioso?\nEla estudava muito\n\n* * *\n\n# **Slide 03**\nAinda tem muita nutricionista acreditando que seletividade alimentar se resolve com mais um protocolo\nMais uma receita\nMais uma lista de alimentos\nMais um curso cheio de teoria\nE eu preciso te dizer…\nÉ exatamente por isso que tantas profissionais continuam inseguras na hora de atender\n\n* * *\n\n# **Slide 04**\nA teoria é importante\nMas ela não responde o que fazer quando a criança rejeita tudo o que você planejou\nQuando os pais começ\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajhu5zv)",
+      "conteudo": "**A era da insegurança clínica acabou**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** recuperação\n\n\n**Descrição:**\n## **Slide 01**\n# **A era da insegurança clínica acabou**\n\n* * *\n\n## **Slide 02**\nEsses dias eu estava conversando com uma nutricionista que tinha **17 anos de formada**\nEla me contou que, quando voltou para a Nutrição Infantil, ainda sentia medo durante os atendimento\nPrincipalmente quando surgiam casos de seletividade alimentar\nE sabe o que mais chamou a minha atenção?\nEla acreditava que o tempo de profissão seria suficiente para dar segurança\n\n* * *\n\n## **Slide 03**\nAinda tem muita nutricionista acreditando que experiência, sozinha, resolve a insegurança clínica\nQue basta atender mais pacientes\nEsperar o tempo passar\nGanhar mais anos de profissão\nE eu preciso te dizer...\nÉ exatamente por isso que tantas profissionais continuam inseguras quando um caso de seletividade alimentar chega ao \n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajhu5zv)",
       "tags": [
         "Conteúdo Priscila",
         "recuperação"
@@ -41347,7 +41347,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-8b090",
+      "id": "ig-divarebel.on-d6beo",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-27",
@@ -53001,7 +53001,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-8b090",
+      "target": "ig-divarebel.on-d6beo",
       "tipo": "externo"
     },
     {
