@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-27T14:27:45.984Z",
+  "geradoEm": "2026-07-27T19:23:57.897Z",
   "totalNodes": 2414,
   "totalLinks": 2401,
   "nodes": [
@@ -31884,7 +31884,7 @@
       "id": "clickup-86aj539qj",
       "type": "clickup",
       "titulo": "Atualização",
-      "data": "2026-07-22",
+      "data": "2026-07-27",
       "perfil": "901313861779",
       "listId": "901327622584",
       "listaNodeId": "lista-901327622584",
@@ -31902,7 +31902,7 @@
       "id": "clickup-86aj539qh",
       "type": "clickup",
       "titulo": "Plano de ação",
-      "data": "2026-07-22",
+      "data": "2026-07-27",
       "perfil": "901313861779",
       "listId": "901327622584",
       "listaNodeId": "lista-901327622584",
@@ -32907,42 +32907,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aj539n6",
-      "type": "clickup",
-      "titulo": "INSTRUÇÕES PRISCILA",
-      "data": "2026-07-15",
-      "perfil": "901313861779",
-      "listId": "901327622582",
-      "listaNodeId": "lista-901327622582",
-      "statusNodeId": "sg-901327622582-ideia",
-      "parentId": "sg-901327622582-ideia",
-      "status": "ideia",
-      "conteudo": "**INSTRUÇÕES PRISCILA**\n\nLista: Conteúdo Priscila\nStatus: ideia\n\n[@Priscila Ferreira Leite Pereira](#user_mention#302568630) próximos passos:\n\n[\n\nyoutu.be\n\nhttps://youtu.be/mNxJ46GhLfY\n\n](https://youtu.be/mNxJ46GhLfY)\n\nO que preciso agora:\n*   fotos suas\n*   gravação do curso\n*   o roteiro do workshop\n*   em relação a domínio, me confirmar se irá comprar do registro br ou se manterá esse do github (se for comprar, consigo te ajudar, criando a conta lá, solicitando o domínio e aí só te envio o link de pagamento)\n\nO que vamos começar a montar aqui enquanto aguardo isso da sua parte:\n*   Linha editorial de conteúdo\n*   Google Meu Negócio\n*   Conexão TAG e PIXE\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539n6)",
-      "tags": [
-        "Conteúdo Priscila",
-        "ideia"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajh9qzk",
-      "type": "clickup",
-      "titulo": "Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar",
-      "data": "2026-07-17",
-      "perfil": "901313861779",
-      "listId": "901327622582",
-      "listaNodeId": "lista-901327622582",
-      "statusNodeId": "sg-901327622582-descoberta",
-      "parentId": "sg-901327622582-descoberta",
-      "status": "descoberta",
-      "conteudo": "**Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n## Slide 01 — Headline\n**Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar**\n\n* * *\n\n## Slide 02\nTodos os dias surgem novos posts prometendo:\n- [ ] \"5 atividades para seletividade.\"\n- [ ] \"10 brincadeiras que fazem a criança comer.\"\n- [ ] \"Receitas para destravar o paciente.\"\nMas existe um problema…\nVocê pode salvar todos esses conteúdos e ainda continuar sem saber conduzir um caso real\n**E foi exatamente isso que aconteceu com uma nutricionista que hoje atende seletividade com segurança...**\n\n* * *\n\n## Slide 03\nEla já era nu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajh9qzk)",
-      "tags": [
-        "Conteúdo Priscila",
-        "descoberta"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajh9vy2",
       "type": "clickup",
       "titulo": "A única mudança que fez uma nutricionista parar de recusar casos de seletividade alimentar",
@@ -32957,24 +32921,6 @@
       "tags": [
         "Conteúdo Priscila",
         "consideração"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ajha0b0",
-      "type": "clickup",
-      "titulo": "Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança",
-      "data": "2026-07-23",
-      "perfil": "901313861779",
-      "listId": "901327622582",
-      "listaNodeId": "lista-901327622582",
-      "statusNodeId": "sg-901327622582-descoberta",
-      "parentId": "sg-901327622582-descoberta",
-      "status": "descoberta",
-      "conteudo": "**Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n## Slide 01 — Headline\n**Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança**\n\n* * *\n\n## Slide 02 — Contextualização\nUm dos maiores mitos da Nutrição Infantil é acreditar que toda criança seletiva precisa da mesma estratégia\nA verdade é que duas crianças podem apresentar exatamente a mesma queixa (\"não come\"), mas por motivos completamente diferentes\nÉ por isso que tantas nutricionistas se sentem perdidas mesmo depois de estudar tanto\n\n* * *\n\n## Slide 03 — CTA para salvar\nAntes de pensar em qualquer intervenção, responda estas 4 perguntas:\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajha0b0)",
-      "tags": [
-        "Conteúdo Priscila",
-        "descoberta"
       ],
       "links": []
     },
@@ -32997,10 +32943,64 @@
       "links": []
     },
     {
+      "id": "clickup-86ajhu5zv",
+      "type": "clickup",
+      "titulo": "A era da insegurança clínica acabou",
+      "data": "2026-07-27",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-recupera-o",
+      "parentId": "sg-901327622582-recupera-o",
+      "status": "recuperação",
+      "conteudo": "**A era da insegurança clínica acabou**\n\nLista: Conteúdo Priscila\nStatus: recuperação\n\n## **Slide 01**\n# **A era da insegurança clínica acabou**\n\n* * *\n\n## **Slide 02**\nEsses dias eu estava conversando com uma nutricionista que tinha **17 anos de formada**\nEla me contou que, quando voltou para a Nutrição Infantil, ainda sentia medo durante os atendimento\nPrincipalmente quando surgiam casos de seletividade alimentar\nE sabe o que mais chamou a minha atenção?\nEla acreditava que o tempo de profissão seria suficiente para dar segurança\n\n* * *\n\n## **Slide 03**\nAinda tem muita nutricionista acreditando que experiência, sozinha, resolve a insegurança clínica\nQue basta atender mais pacie\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu5zv)",
+      "tags": [
+        "Conteúdo Priscila",
+        "recuperação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajh9qzk",
+      "type": "clickup",
+      "titulo": "Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar",
+      "data": "2026-07-27",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-descoberta",
+      "parentId": "sg-901327622582-descoberta",
+      "status": "descoberta",
+      "conteudo": "**Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n## Slide 01 — Headline\n**Receitinhas ou raciocínio clínico? Descobri por que tantas nutricionistas continuam travando na seletividade alimentar**\n\n* * *\n\n## Slide 02\nTodos os dias surgem novos posts prometendo:\n- [ ] \"5 atividades para seletividade.\"\n- [ ] \"10 brincadeiras que fazem a criança comer.\"\n- [ ] \"Receitas para destravar o paciente.\"\nMas existe um problema…\nVocê pode salvar todos esses conteúdos e ainda continuar sem saber conduzir um caso real\n**E foi exatamente isso que aconteceu com uma nutricionista que hoje atende seletividade com segurança...**\n\n* * *\n\n## Slide 03\nEla já era nu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajh9qzk)",
+      "tags": [
+        "Conteúdo Priscila",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ajha0b0",
+      "type": "clickup",
+      "titulo": "Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança",
+      "data": "2026-07-27",
+      "perfil": "901313861779",
+      "listId": "901327622582",
+      "listaNodeId": "lista-901327622582",
+      "statusNodeId": "sg-901327622582-descoberta",
+      "parentId": "sg-901327622582-descoberta",
+      "status": "descoberta",
+      "conteudo": "**Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança**\n\nLista: Conteúdo Priscila\nStatus: descoberta\n\n## Slide 01 — Headline\n**Descubra como avaliar um caso de seletividade alimentar e conduzir o tratamento com muito mais segurança**\n\n* * *\n\n## Slide 02 — Contextualização\nUm dos maiores mitos da Nutrição Infantil é acreditar que toda criança seletiva precisa da mesma estratégia\nA verdade é que duas crianças podem apresentar exatamente a mesma queixa (\"não come\"), mas por motivos completamente diferentes\nÉ por isso que tantas nutricionistas se sentem perdidas mesmo depois de estudar tanto\n\n* * *\n\n## Slide 03 — CTA para salvar\nAntes de pensar em qualquer intervenção, responda estas 4 perguntas:\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajha0b0)",
+      "tags": [
+        "Conteúdo Priscila",
+        "descoberta"
+      ],
+      "links": []
+    },
+    {
       "id": "clickup-86ajhu59f",
       "type": "clickup",
       "titulo": "Como eu fiz uma nutricionista parar de recusar pacientes com seletividade alimentar sem ensinar mais teoria",
-      "data": "2026-07-23",
+      "data": "2026-07-27",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
@@ -33015,20 +33015,20 @@
       "links": []
     },
     {
-      "id": "clickup-86ajhu5zv",
+      "id": "clickup-86aj539n6",
       "type": "clickup",
-      "titulo": "A era da insegurança clínica acabou",
-      "data": "2026-07-23",
+      "titulo": "INSTRUÇÕES PRISCILA",
+      "data": "2026-07-27",
       "perfil": "901313861779",
       "listId": "901327622582",
       "listaNodeId": "lista-901327622582",
-      "statusNodeId": "sg-901327622582-recupera-o",
-      "parentId": "sg-901327622582-recupera-o",
-      "status": "recuperação",
-      "conteudo": "**A era da insegurança clínica acabou**\n\nLista: Conteúdo Priscila\nStatus: recuperação\n\n# **Slide 01**\n## A era da insegurança clínica acabou\n\n* * *\n\n# **Slide 02**\nEsses dias eu estava conversando com uma nutricionista que tinha anos de formada\nEla me contou que evitava alguns casos porque tinha medo de errar\nPrincipalmente quando envolviam crianças com seletividade alimentar\nE sabe qual era o mais curioso?\nEla estudava muito\n\n* * *\n\n# **Slide 03**\nAinda tem muita nutricionista acreditando que seletividade alimentar se resolve com mais um protocolo\nMais uma receita\nMais uma lista de alimentos\nMais um curso cheio de teoria\nE eu preciso te dizer…\nÉ exatamente por isso que tantas p\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajhu5zv)",
+      "statusNodeId": "sg-901327622582-ideia",
+      "parentId": "sg-901327622582-ideia",
+      "status": "ideia",
+      "conteudo": "**INSTRUÇÕES PRISCILA**\n\nLista: Conteúdo Priscila\nStatus: ideia\n\n[@Priscila Ferreira Leite Pereira](#user_mention#302568630), sobre os conteúdos:\n\n[https://t90131929380.p.clickup-attachments.com/t90131929380/2ff11cba-0cc3-4a5a-919c-be54dee54cd9/2ff11cba-0cc3-4a5a-919c-be54dee54cd9.webm?filename=screen-recording-2026-07-27-16%3A11.webm&open=true](https://t90131929380.p.clickup-attachments.com/t90131929380/2ff11cba-0cc3-4a5a-919c-be54dee54cd9/2ff11cba-0cc3-4a5a-919c-be54dee54cd9.webm?filename=screen-recording-2026-07-27-16%3A11.webm&open=true)\n\n[@Priscila Ferreira Leite Pereira](#user_mention#302568630) próximos passos:\n\n[\n\nyoutu.be\n\nhttps://youtu.be/mNxJ46Gh\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj539n6)",
       "tags": [
         "Conteúdo Priscila",
-        "recuperação"
+        "ideia"
       ],
       "links": []
     },
@@ -52155,23 +52155,8 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622582-ideia",
-      "target": "clickup-86aj539n6",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327622582-descoberta",
-      "target": "clickup-86ajh9qzk",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901327622582-considera-o",
       "target": "clickup-86ajh9vy2",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327622582-descoberta",
-      "target": "clickup-86ajha0b0",
       "tipo": "hierarquia"
     },
     {
@@ -52180,13 +52165,28 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "sg-901327622582-recupera-o",
+      "target": "clickup-86ajhu5zv",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-descoberta",
+      "target": "clickup-86ajh9qzk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327622582-descoberta",
+      "target": "clickup-86ajha0b0",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "sg-901327622582-decis-o",
       "target": "clickup-86ajhu59f",
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327622582-recupera-o",
-      "target": "clickup-86ajhu5zv",
+      "source": "sg-901327622582-ideia",
+      "target": "clickup-86aj539n6",
       "tipo": "hierarquia"
     },
     {
