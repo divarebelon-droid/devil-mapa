@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-28T19:00:26.548Z",
-  "totalNodes": 2330,
-  "totalLinks": 2317,
+  "geradoEm": "2026-07-28T19:21:24.918Z",
+  "totalNodes": 2332,
+  "totalLinks": 2319,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -40575,11 +40575,26 @@
       "id": "whatsapp-26375528395002lid",
       "type": "whatsapp",
       "titulo": "Aline Lima",
-      "data": "2026-07-25",
+      "data": "2026-07-27",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-25\n\n**Últimas mensagens:**\n← Aline Lima: Pote de sorvete do mais barato\n1 calda \n1 canudinho \n2 pipocas (daquela minha doce)\n2 salgadinhos (daquele meu)\n← Aline Lima: CAFE\n← Aline Lima: ESSE MESMO\n← Aline Lima: Ta bom fio\n← Aline Lima: sim fio\n← Aline Lima: embalei",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-27\n\n**Últimas mensagens:**\n← Aline Lima: sim fio\n→ Você: São ladrão isso sim\n← Aline Lima: sim fio\n→ Você: Eita fia que raiva em\n→ Você: Aí sim hein fia arrasou\n← Aline Lima: Ai fio, vai na mulher e vem. O que deu, deu",
+      "tags": [
+        "whatsapp",
+        "prospeccao"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-258896887308354lid",
+      "type": "whatsapp",
+      "titulo": "karolinazancanelli1",
+      "data": "2026-07-25",
+      "perfil": "divarebel.on",
+      "parentId": "clickup-86ag8z3k3",
+      "status": "prospeccao",
+      "conteudo": "**karolinazancanelli1**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-25",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -40703,6 +40718,21 @@
       "tags": [
         "whatsapp",
         "prospeccao"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-151621069754557lid",
+      "type": "whatsapp",
+      "titulo": "Lu Oliveira 🎀",
+      "data": "2026-07-25",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Lu Oliveira 🎀**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-25\n\n**Últimas mensagens:**\n← Lu Oliveira 🎀: Oi td bem",
+      "tags": [
+        "whatsapp",
+        "followup"
       ],
       "links": []
     },
@@ -41239,7 +41269,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-nk0bm",
+      "id": "ig-divarebel.on-8ivlr",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-28",
@@ -52643,6 +52673,11 @@
     },
     {
       "source": "clickup-86ag8z3k3",
+      "target": "whatsapp-258896887308354lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ag8z3k3",
       "target": "whatsapp-118103631519894lid",
       "tipo": "externo"
     },
@@ -52679,6 +52714,11 @@
     {
       "source": "clickup-86aa469ch",
       "target": "whatsapp-33853737594909lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-151621069754557lid",
       "tipo": "externo"
     },
     {
@@ -52863,7 +52903,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-nk0bm",
+      "target": "ig-divarebel.on-8ivlr",
       "tipo": "externo"
     },
     {
