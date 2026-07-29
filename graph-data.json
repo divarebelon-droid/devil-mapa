@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-29T12:27:50.759Z",
+  "geradoEm": "2026-07-29T13:00:28.342Z",
   "totalNodes": 2334,
   "totalLinks": 2321,
   "nodes": [
@@ -40575,11 +40575,11 @@
       "id": "whatsapp-26375528395002lid",
       "type": "whatsapp",
       "titulo": "Aline Lima",
-      "data": "2026-07-27",
+      "data": "2026-07-29",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-27\n\n**Últimas mensagens:**\n← Aline Lima: sim fio\n→ Você: São ladrão isso sim\n← Aline Lima: sim fio\n→ Você: Eita fia que raiva em\n→ Você: Aí sim hein fia arrasou\n← Aline Lima: Ai fio, vai na mulher e vem. O que deu, deu",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n→ Você: São ladrão isso sim\n← Aline Lima: sim fio\n→ Você: Eita fia que raiva em\n→ Você: Aí sim hein fia arrasou\n← Aline Lima: Ai fio, vai na mulher e vem. O que deu, deu\n→ Você: Sim fia na medida do possível",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -40722,6 +40722,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-138903705124985lid",
+      "type": "whatsapp",
+      "titulo": "Contato LID-05124985",
+      "data": "2026-07-29",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8z3k3",
+      "status": "followup",
+      "conteudo": "**Contato LID-05124985**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n→ Você: Olá bom dia, passando para informar que venceu o pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
@@ -40850,21 +40865,6 @@
       "parentId": "clickup-86ag8z3k3",
       "status": "followup",
       "conteudo": "**Contato LID-77836818**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-07\n\n**Últimas mensagens:**\n→ Você: Oi boa tarde, quando puder me confirma aqui certinho\n← Contato LID-77836818: Boa tarde\n← Contato LID-77836818: Me perdoe nao ter respondido antes dias corridos\n→ Você: Opa bom dia, vi agora. Tranquilo. Então na segunda, eu não tenho mais vaga. Teria na terça, pode ser?\n← Contato LID-77836818: Na terça eu estou atendendo o dia todo\n→ Você: Ah ta, qual seria o melhor dia?",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-556282038944swhatsappnet",
-      "type": "whatsapp",
-      "titulo": "Cliente Milla",
-      "data": "2026-06-30",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8ytgt",
-      "status": "followup",
-      "conteudo": "**Cliente Milla**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-30\n\n**Últimas mensagens:**\n→ Você: Olá bom dia, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá bom dia, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá boa tarde, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá bom dia, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá bom dia, passando para informar que venceu o pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n← Cliente Milla: Já está pago",
       "tags": [
         "whatsapp",
         "followup"
@@ -41299,7 +41299,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-rrf56",
+      "id": "ig-divarebel.on-l4hf6",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-29",
@@ -52747,6 +52747,11 @@
       "tipo": "externo"
     },
     {
+      "source": "clickup-86ag8z3k3",
+      "target": "whatsapp-138903705124985lid",
+      "tipo": "externo"
+    },
+    {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
@@ -52789,11 +52794,6 @@
     {
       "source": "clickup-86ag8z3k3",
       "target": "whatsapp-145255877836818lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ag8ytgt",
-      "target": "whatsapp-556282038944swhatsappnet",
       "tipo": "externo"
     },
     {
@@ -52943,7 +52943,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-rrf56",
+      "target": "ig-divarebel.on-l4hf6",
       "tipo": "externo"
     },
     {
