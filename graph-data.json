@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-29T13:00:28.342Z",
+  "geradoEm": "2026-07-29T15:00:28.160Z",
   "totalNodes": 2334,
   "totalLinks": 2321,
   "nodes": [
@@ -40579,7 +40579,7 @@
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n→ Você: São ladrão isso sim\n← Aline Lima: sim fio\n→ Você: Eita fia que raiva em\n→ Você: Aí sim hein fia arrasou\n← Aline Lima: Ai fio, vai na mulher e vem. O que deu, deu\n→ Você: Sim fia na medida do possível",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n← Aline Lima: sim fio\n→ Você: Eita fia que raiva em\n→ Você: Aí sim hein fia arrasou\n← Aline Lima: Ai fio, vai na mulher e vem. O que deu, deu\n→ Você: Sim fia na medida do possível\n← Aline Lima: vixi",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -40722,14 +40722,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-138903705124985lid",
+      "id": "whatsapp-14088298090654lid",
       "type": "whatsapp",
-      "titulo": "Contato LID-05124985",
+      "titulo": "Suporte Nutri Bruna",
       "data": "2026-07-29",
       "perfil": "oficina_dro",
-      "parentId": "clickup-86ag8z3k3",
+      "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Contato LID-05124985**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n→ Você: Olá bom dia, passando para informar que venceu o pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Lá tem o site, WhatsApp e outras coisas\n← Suporte Nutri Bruna: Ele parou de funcionar do nada\n← Suporte Nutri Bruna: Gus essa lâmina pra apresentar hoje pro rapaz da academia\n← Suporte Nutri Bruna: Oiiii\n← Suporte Nutri Bruna: Consegui ver agora\n→ Você: Site atualizado",
       "tags": [
         "whatsapp",
         "followup"
@@ -40752,6 +40752,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-138903705124985lid",
+      "type": "whatsapp",
+      "titulo": "Contato LID-05124985",
+      "data": "2026-07-29",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8z3k3",
+      "status": "followup",
+      "conteudo": "**Contato LID-05124985**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n→ Você: Olá bom dia, passando para informar que venceu o pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite Nutri",
@@ -40760,21 +40775,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n→ Você: https://sharing.clickup.com/clip/p/t90131929380/2ff11cba-0cc3-4a5a-919c-be54dee54cd9/2ff11cba-0cc3-4a5a-919c-be54dee54cd9.webm?filename=screen-recordi\n← Priscila Leite Nutri: Foi\n→ Você: foi sim :)\n→ Você: https://divarebelon-droid.github.io/portal-calculadoras/quiz-arquetipo\n→ Você: https://docs.google.com/spreadsheets/d/1Bw9RxJ872eb4-f3hciloXyb1wZmSTKPs9Bw_LoYeurQ/edit?usp=sharing\n→ Você: https://nutri4nutri.com.br/bio/",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-14088298090654lid",
-      "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
-      "data": "2026-07-28",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-28\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Ele é do link tree\n← Suporte Nutri Bruna: Lá tem o site, WhatsApp e outras coisas\n← Suporte Nutri Bruna: Ele parou de funcionar do nada\n← Suporte Nutri Bruna: Gus essa lâmina pra apresentar hoje pro rapaz da academia\n← Suporte Nutri Bruna: Oiiii\n← Suporte Nutri Bruna: Consegui ver agora",
       "tags": [
         "whatsapp",
         "followup"
@@ -41299,7 +41299,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-l4hf6",
+      "id": "ig-divarebel.on-3b34h",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-29",
@@ -52747,8 +52747,8 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ag8z3k3",
-      "target": "whatsapp-138903705124985lid",
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -52757,13 +52757,13 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185787584876757lid",
+      "source": "clickup-86ag8z3k3",
+      "target": "whatsapp-138903705124985lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
+      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
@@ -52943,7 +52943,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-l4hf6",
+      "target": "ig-divarebel.on-3b34h",
       "tipo": "externo"
     },
     {
