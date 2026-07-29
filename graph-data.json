@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-29T10:18:15.838Z",
-  "totalNodes": 2333,
-  "totalLinks": 2320,
+  "geradoEm": "2026-07-29T11:00:07.402Z",
+  "totalNodes": 2334,
+  "totalLinks": 2321,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -40857,6 +40857,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-556282038944swhatsappnet",
+      "type": "whatsapp",
+      "titulo": "Cliente Milla",
+      "data": "2026-06-30",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ag8ytgt",
+      "status": "followup",
+      "conteudo": "**Cliente Milla**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-06-30\n\n**Últimas mensagens:**\n→ Você: Olá bom dia, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá bom dia, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá boa tarde, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá bom dia, passando para informar o vencimento do pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n→ Você: Olá bom dia, passando para informar que venceu o pacote de assessoria no valor de R$160. Abaixo segue o CNPJ para pagamento:\n← Cliente Milla: Já está pago",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-5511953726504swhatsappnet",
       "type": "whatsapp",
       "titulo": "Alexya",
@@ -41284,7 +41299,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-uth4b",
+      "id": "ig-divarebel.on-k7n0r",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-29",
@@ -52777,6 +52792,11 @@
       "tipo": "externo"
     },
     {
+      "source": "clickup-86ag8ytgt",
+      "target": "whatsapp-556282038944swhatsappnet",
+      "tipo": "externo"
+    },
+    {
       "source": "clickup-86aj90k6e",
       "target": "whatsapp-5511953726504swhatsappnet",
       "tipo": "externo"
@@ -52923,7 +52943,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-uth4b",
+      "target": "ig-divarebel.on-k7n0r",
       "tipo": "externo"
     },
     {
