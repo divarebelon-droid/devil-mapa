@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-07-31T17:01:15.588Z",
-  "totalNodes": 363,
-  "totalLinks": 350,
+  "geradoEm": "2026-07-31T19:00:29.069Z",
+  "totalNodes": 365,
+  "totalLinks": 352,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -2538,6 +2538,24 @@
       "links": []
     },
     {
+      "id": "sg-901326451521-planejamento",
+      "type": "status_group",
+      "titulo": "planejamento",
+      "data": "2026-07-31",
+      "perfil": "901313688913",
+      "cor": "#f8ae00",
+      "listId": "901326451521",
+      "listaNodeId": "lista-901326451521",
+      "parentId": "lista-901326451521",
+      "count": 1,
+      "conteudo": "**planejamento**\n\nLista: Cliente Viviane Sanches (Contadora)\nTarefas: 1",
+      "tags": [
+        "status",
+        "planejamento"
+      ],
+      "links": []
+    },
+    {
       "id": "sg-901327630875-di-rio",
       "type": "status_group",
       "titulo": "diário",
@@ -4266,6 +4284,24 @@
       "links": []
     },
     {
+      "id": "clickup-86ag8zqk0",
+      "type": "clickup",
+      "titulo": "Cliente Viviane (Contadora)",
+      "data": "2026-03-18",
+      "perfil": "901313688913",
+      "listId": "901326451521",
+      "listaNodeId": "lista-901326451521",
+      "statusNodeId": "sg-901326451521-planejamento",
+      "parentId": "sg-901326451521-planejamento",
+      "status": "planejamento",
+      "conteudo": "**Cliente Viviane (Contadora)**\n\n📋 **Lista:** Cliente Viviane Sanches (Contadora)\n🔖 **Status:** planejamento\n\n\n**Descrição:**\n**Definição de Pronto:**\nCriei o resumo de tudo que precisa feito, agora preciso reler, analisar o que é aplicável, montar o plano de ação, diagramar para apresentar em reunião para ela.\n- [ ] Reler e copiar o analisado\n- [ ] Criar o plano\n- [ ] Diagramar para apresentar\n\n**Objetivo da Campanha:**\nO objetivo desse plano de ação é que ela conquiste 2 clientes. Caso ninguém da indicação feche o serviço comigo, para dar continuidade a parceria, ela precisa pagar pelo serviço ou será encerrada\n\n**Descrição base do cadastro do cliente:**\nA cliente é uma contadora iniciante, ainda não tem CNPJ e atua como CLT. É disposta a fazer reunião, porém não dá para demorar muito porque ela faz no ambiente de trabalho. Máximo 45 minutos, exceto se ela prolongar. Sua meta é atingir 10 clientes mensais, poré\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8zqk0)",
+      "tags": [
+        "Cliente Viviane Sanches (Contadora)",
+        "planejamento"
+      ],
+      "links": []
+    },
+    {
       "id": "clickup-86aj5n38d",
       "type": "clickup",
       "titulo": "Atualização",
@@ -5101,7 +5137,7 @@
       "perfil": "divarebel.on",
       "parentId": "espaco-90138131603",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Aline Lima: vixi\n→ Você: Exatamente fia\n→ Você: Tá bom então fia boa reunião\n← Aline Lima: exatamente, venha\n→ Você: Tá bom então fia, precisar de me fala tá que eu corro pra i\n← Aline Lima: Te amo fio",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n→ Você: Tá bom então fia boa reunião\n← Aline Lima: exatamente, venha\n→ Você: Tá bom então fia, precisar de me fala tá que eu corro pra i\n← Aline Lima: Te amo fio\n→ Você: Nossa fia que raiva\n→ Você: Pior né,fais perder um tempão",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -5266,7 +5302,7 @@
       "perfil": "oficina_dro",
       "parentId": "espaco-90138228562",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Ta bom\n← Suporte Nutri Bruna: Pra ele eu passei 250$ cada consulta\n← Suporte Nutri Bruna: Acho que vou fazer 230$ pra ele, pra cada pessoa\n→ Você: Deu certo? 😅\n← Suporte Nutri Bruna: Beleza mandei aqui vamos ver\n← Suporte Nutri Bruna: Depois vou fazer algo assim em grupo ou casal, normalmente eu cobro 250$ de cada mesmo",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Pra ele eu passei 250$ cada consulta\n← Suporte Nutri Bruna: Acho que vou fazer 230$ pra ele, pra cada pessoa\n→ Você: Deu certo? 😅\n← Suporte Nutri Bruna: Beleza mandei aqui vamos ver\n← Suporte Nutri Bruna: Depois vou fazer algo assim em grupo ou casal, normalmente eu cobro 250$ de cada mesmo\n← Suporte Nutri Bruna: Estava vendo aqui, quando clico na consultoria em “adquirir” ele aparece em breve \n\nEsse botão ia direcionar para o WhatsApp ? Ou para o Assas?",
       "tags": [
         "whatsapp",
         "followup"
@@ -5821,7 +5857,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-jx017",
+      "id": "ig-divarebel.on-zi8zq",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-31",
@@ -6654,6 +6690,11 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "lista-901326451521",
+      "target": "sg-901326451521-planejamento",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "lista-901327630875",
       "target": "sg-901327630875-di-rio",
       "tipo": "hierarquia"
@@ -7134,6 +7175,11 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "sg-901326451521-planejamento",
+      "target": "clickup-86ag8zqk0",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "sg-901327630875-di-rio",
       "target": "clickup-86aj5n38d",
       "tipo": "hierarquia"
@@ -7610,7 +7656,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-jx017",
+      "target": "ig-divarebel.on-zi8zq",
       "tipo": "externo"
     },
     {
