@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-31T09:17:24.446Z",
+  "geradoEm": "2026-07-31T10:03:26.137Z",
   "totalNodes": 1668,
   "totalLinks": 1655,
   "nodes": [
@@ -28756,7 +28756,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Vídeos dos desafios 👇🏻\n← Suporte Nutri Bruna: https://youtu.be/U0Va0TK8Hrk\n← Suporte Nutri Bruna: https://youtu.be/Y0_xau0wVnY\n← Suporte Nutri Bruna: https://youtu.be/QfC_QAcvdG0\n← Suporte Nutri Bruna: Falta só mais 2 desafios pra finalizar 🙏🏻🙏🏻\n← Suporte Nutri Bruna: Agora estou morrendo de dor de cabeça, amanhã coloco no drive os materiais desses desafios de agora",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Vídeos dos desafios 👇🏻\n← Suporte Nutri Bruna: https://youtu.be/QfC_QAcvdG0\n← Suporte Nutri Bruna: https://youtu.be/U0Va0TK8Hrk\n← Suporte Nutri Bruna: https://youtu.be/Y0_xau0wVnY\n← Suporte Nutri Bruna: Falta só mais 2 desafios pra finalizar 🙏🏻🙏🏻\n← Suporte Nutri Bruna: Agora estou morrendo de dor de cabeça, amanhã coloco no drive os materiais desses desafios de agora",
       "tags": [
         "whatsapp",
         "followup"
@@ -29311,7 +29311,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-axcdh",
+      "id": "ig-divarebel.on-ersdx",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-31",
@@ -37625,7 +37625,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-axcdh",
+      "target": "ig-divarebel.on-ersdx",
       "tipo": "externo"
     },
     {
