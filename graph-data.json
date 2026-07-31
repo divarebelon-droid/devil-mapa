@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-07-31T11:00:30.392Z",
+  "geradoEm": "2026-07-31T13:00:29.484Z",
   "totalNodes": 1668,
   "totalLinks": 1655,
   "nodes": [
@@ -28584,6 +28584,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-26375528395002lid",
+      "type": "whatsapp",
+      "titulo": "Aline Lima",
+      "data": "2026-07-31",
+      "perfil": "divarebel.on",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "prospeccao",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n→ Você: Sim fia na medida do possível\n← Aline Lima: vixi\n→ Você: Exatamente fia\n→ Você: Tá bom então fia boa reunião\n← Aline Lima: exatamente, venha\n→ Você: Tá bom então fia, precisar de me fala tá que eu corro pra i",
+      "tags": [
+        "whatsapp",
+        "prospeccao"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-281389731717165lid",
       "type": "whatsapp",
       "titulo": "Contato LID-31717165",
@@ -28592,21 +28607,6 @@
       "parentId": "clickup-86aa469ch",
       "status": "prospeccao",
       "conteudo": "**Contato LID-31717165**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-30",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-26375528395002lid",
-      "type": "whatsapp",
-      "titulo": "Aline Lima",
-      "data": "2026-07-29",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-29\n\n**Últimas mensagens:**\n← Aline Lima: Ai fio, vai na mulher e vem. O que deu, deu\n→ Você: Sim fia na medida do possível\n← Aline Lima: vixi\n→ Você: Exatamente fia\n→ Você: Tá bom então fia boa reunião\n← Aline Lima: exatamente, venha",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -28749,14 +28749,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-14088298090654lid",
+      "id": "whatsapp-227435798864031lid",
       "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
+      "titulo": "Contato LID-98864031",
       "data": "2026-07-31",
       "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
+      "parentId": "clickup-86aa469ch",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Vídeos dos desafios 👇🏻\n← Suporte Nutri Bruna: https://youtu.be/QfC_QAcvdG0\n← Suporte Nutri Bruna: https://youtu.be/U0Va0TK8Hrk\n← Suporte Nutri Bruna: https://youtu.be/Y0_xau0wVnY\n← Suporte Nutri Bruna: Falta só mais 2 desafios pra finalizar 🙏🏻🙏🏻\n← Suporte Nutri Bruna: Agora estou morrendo de dor de cabeça, amanhã coloco no drive os materiais desses desafios de agora",
+      "conteudo": "**Contato LID-98864031**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Contato LID-98864031: Aahhh que legal ❤️ fico feliz que tenha gostado!!!\n← Contato LID-98864031: Eu estou me organizando do lado de cá, por aquela questão do CNPJ que comentei contigo, que a abertura + contabilidade vai pesar bastante agora em jun\n← Contato LID-98864031: Não sei se essa proposta tem validade, mas adoraria que a gente voltasse a falar um pouco mais adiante para colocar tudo em prática\n→ Você: Ah sim você comentou. Então eu entrei em contato porque percebi sua empolgação para aplicar o plano, mas uma certa dificuldade em aplicação. \n\nSe a qu\n← Contato LID-98864031: Eu acho que nesse momento prefiro esperar para saber ao certo como vai ficar o orçamento e conseguir me comprometer com novas coisas, aí retomamos con\n→ Você: Oi Dra, tudo bem? Como você já recebeu plano de ação ou fez algum encontro com  a gente, agora você tem direito a acessar nossa comunidade gratuita e ",
       "tags": [
         "whatsapp",
         "followup"
@@ -28767,11 +28767,26 @@
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
-      "data": "2026-07-30",
+      "data": "2026-07-31",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-30\n\n**Últimas mensagens:**\n→ Você: Fiz um teste e foi\n← Nutri Regiane Silva: Show\n← Nutri Regiane Silva: Vou adicionar aqui então\n→ Você: blz\n← Nutri Regiane Silva: Está indooo\n→ Você: Eita Glória kkkkk",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Está indooo\n→ Você: Eita Glória kkkkk\n← Nutri Regiane Silva: Bom dia Aline, tudo bem?\n← Nutri Regiane Silva: https://youtu.be/UYpU9vAm7yQ?is=-JmRKN-rBzwEJmW3\n← Nutri Regiane Silva: O vídeo\n→ Você: Bom dia :), blz",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-07-31",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Vídeos dos desafios 👇🏻\n← Suporte Nutri Bruna: https://youtu.be/QfC_QAcvdG0\n← Suporte Nutri Bruna: https://youtu.be/U0Va0TK8Hrk\n← Suporte Nutri Bruna: https://youtu.be/Y0_xau0wVnY\n← Suporte Nutri Bruna: Falta só mais 2 desafios pra finalizar 🙏🏻🙏🏻\n← Suporte Nutri Bruna: Agora estou morrendo de dor de cabeça, amanhã coloco no drive os materiais desses desafios de agora",
       "tags": [
         "whatsapp",
         "followup"
@@ -28862,21 +28877,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-24",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-227435798864031lid",
-      "type": "whatsapp",
-      "titulo": "Contato LID-98864031",
-      "data": "2026-07-08",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86aa469ch",
-      "status": "followup",
-      "conteudo": "**Contato LID-98864031**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-08\n\n**Últimas mensagens:**\n← Contato LID-98864031: Aahhh que legal ❤️ fico feliz que tenha gostado!!!\n← Contato LID-98864031: Eu estou me organizando do lado de cá, por aquela questão do CNPJ que comentei contigo, que a abertura + contabilidade vai pesar bastante agora em jun\n← Contato LID-98864031: Não sei se essa proposta tem validade, mas adoraria que a gente voltasse a falar um pouco mais adiante para colocar tudo em prática\n→ Você: Ah sim você comentou. Então eu entrei em contato porque percebi sua empolgação para aplicar o plano, mas uma certa dificuldade em aplicação. \n\nSe a qu\n← Contato LID-98864031: Eu acho que nesse momento prefiro esperar para saber ao certo como vai ficar o orçamento e conseguir me comprometer com novas coisas, aí retomamos con\n→ Você: Oi Dra, tudo bem? Como você já recebeu plano de ação ou fez algum encontro com  a gente, agora você tem direito a acessar nossa comunidade gratuita e ",
       "tags": [
         "whatsapp",
         "followup"
@@ -29311,7 +29311,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-kt0ca",
+      "id": "ig-divarebel.on-1jpoe",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-07-31",
@@ -37379,13 +37379,13 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "clickup-86aa469ch",
-      "target": "whatsapp-281389731717165lid",
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-26375528395002lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-26375528395002lid",
+      "source": "clickup-86aa469ch",
+      "target": "whatsapp-281389731717165lid",
       "tipo": "externo"
     },
     {
@@ -37434,13 +37434,18 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
+      "source": "clickup-86aa469ch",
+      "target": "whatsapp-227435798864031lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -37471,11 +37476,6 @@
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-59549889384656lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86aa469ch",
-      "target": "whatsapp-227435798864031lid",
       "tipo": "externo"
     },
     {
@@ -37625,7 +37625,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-kt0ca",
+      "target": "ig-divarebel.on-1jpoe",
       "tipo": "externo"
     },
     {
