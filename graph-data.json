@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-03T18:34:29.076Z",
+  "geradoEm": "2026-08-03T19:00:07.758Z",
   "totalNodes": 1952,
   "totalLinks": 1938,
   "nodes": [
@@ -33794,36 +33794,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-131194222055613lid",
-      "type": "whatsapp",
-      "titulo": "Cleuza",
-      "data": "2026-08-03",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Cleuza**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Cleuza: Olá boa tarde",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185787584876757lid",
-      "type": "whatsapp",
-      "titulo": "Priscila Leite Nutri",
-      "data": "2026-08-03",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Bom dia\n← Priscila Leite Nutri: A coisa está andando mais lento do que eu gostaria\n← Priscila Leite Nutri: Mas no drive no nutri4nutri\n← Priscila Leite Nutri: Já tem um doc com alguns links\n← Priscila Leite Nutri: Dos vídeos\n← Priscila Leite Nutri: Atualizado",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
@@ -33831,7 +33801,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Bom dia Aline tudo bem?\n← Nutri Regiane Silva: Perdão não ter te respondido ontem, estava no plantão da academia\n← Nutri Regiane Silva: Hoje e amanhã vou estar em curso, então não vou conseguir responder aqui ta?! \n\nNa segunda já faço tudo que você me pediu\n← Nutri Regiane Silva: Já enviei o pix também\n← Nutri Regiane Silva: Oi Aline, bom dia tudo bem?\n← Nutri Regiane Silva: Hoje você tem algum horário que de pra fazer uma reunião?",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Maravilha\n→ Você: Te ajuda esse horário?\n← Nutri Regiane Silva: Pode ser sim\n← Nutri Regiane Silva: Muitooo\n→ Você: Então blz :)\n← Nutri Regiane Silva: https://photos.app.goo.gl/rVgoFzeWu5EDLvV58",
       "tags": [
         "whatsapp",
         "followup"
@@ -33846,7 +33816,37 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n→ Você: Atualizado para parar amanhã às 17h\n← Suporte Nutri Bruna: Show ta ótimo\n← Suporte Nutri Bruna: Beleza combinado\n← Suporte Nutri Bruna: Oiii bom dia Aline tudo bem ?\n← Suporte Nutri Bruna: Vendi uma consultoria, preciso enviar pra ela o questionário de pré consulta. Só que não sei como fazer \nMando o link do site na área de membros ?\n← Suporte Nutri Bruna: O e-mail dela não é do Google, será que ela consegue acessar ?",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: O e-mail dela não é do Google, será que ela consegue acessar ?\n→ Você: Oi Bruna boa tarde\n→ Você: Vou te mandar o link\n→ Você: https://nutricionistabrunaboreggio.com.br/area-membros/ Por aqui, a pessoa faz o login por conta Google. Agora vou te mandar do seu controle para libe\n→ Você: https://docs.google.com/spreadsheets/d/1NIaMUbVOnf24gqqj57kTO-JTizp9R1r9ze_0HCoyVoY/edit?usp=sharing\n→ Você: Quando você adiciona a paciente nessa planilha, libera pra ela lá",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-185787584876757lid",
+      "type": "whatsapp",
+      "titulo": "Priscila Leite Nutri",
+      "data": "2026-08-03",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Mas no drive no nutri4nutri\n← Priscila Leite Nutri: Já tem um doc com alguns links\n← Priscila Leite Nutri: Dos vídeos\n← Priscila Leite Nutri: Atualizado\n→ Você: Oi Priscila boa tarde. Tá bem vou ver lá\n→ Você: Então, estamos vendo uma solução para te auxiliar com isso",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-131194222055613lid",
+      "type": "whatsapp",
+      "titulo": "Cleuza",
+      "data": "2026-08-03",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Cleuza**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Cleuza: Olá boa tarde\n→ Você: Oi boa tarde",
       "tags": [
         "whatsapp",
         "followup"
@@ -33857,11 +33857,11 @@
       "id": "whatsapp-227435798864031lid",
       "type": "whatsapp",
       "titulo": "Ana Beatriz Bento",
-      "data": "2026-07-31",
+      "data": "2026-08-03",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahpcjfq",
       "status": "followup",
-      "conteudo": "**Ana Beatriz Bento**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-07-31\n\n**Últimas mensagens:**\n→ Você: Oi Dra, tudo bem? Como você já recebeu plano de ação ou fez algum encontro com  a gente, agora você tem direito a acessar nossa comunidade gratuita e \n← Ana Beatriz Bento: Oieeee! Me desculpa pela demora em responder\n← Ana Beatriz Bento: Ainda não apliquei\n← Ana Beatriz Bento: Não de forma completa pelo menos, mas fiz a parte de entrar em contato com alguns leads e de tentar ser mais intencional nos meus conteúdos\n← Ana Beatriz Bento: Acho que tem sido bem positivo\n← Ana Beatriz Bento: No geral acho que me acomodei um pouco em colocar as coisas em prática porque foi um mês com muitos novos pacientes entrando no acompanhamento, então ",
+      "conteudo": "**Ana Beatriz Bento**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Ana Beatriz Bento: Oieeee! Me desculpa pela demora em responder\n← Ana Beatriz Bento: Ainda não apliquei\n← Ana Beatriz Bento: Não de forma completa pelo menos, mas fiz a parte de entrar em contato com alguns leads e de tentar ser mais intencional nos meus conteúdos\n← Ana Beatriz Bento: Acho que tem sido bem positivo\n← Ana Beatriz Bento: No geral acho que me acomodei um pouco em colocar as coisas em prática porque foi um mês com muitos novos pacientes entrando no acompanhamento, então \n→ Você: Oi boa tarde :), obrigada peli feedback",
       "tags": [
         "whatsapp",
         "followup"
@@ -34386,7 +34386,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-k3jrj",
+      "id": "ig-divarebel.on-extu5",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-03",
@@ -43915,7 +43915,12 @@
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-131194222055613lid",
+      "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -43925,12 +43930,7 @@
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185873366819004lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
+      "target": "whatsapp-131194222055613lid",
       "tipo": "externo"
     },
     {
@@ -44115,7 +44115,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-k3jrj",
+      "target": "ig-divarebel.on-extu5",
       "tipo": "externo"
     },
     {
