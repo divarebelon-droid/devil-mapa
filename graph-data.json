@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-04T13:00:38.360Z",
+  "geradoEm": "2026-08-04T15:00:37.218Z",
   "totalNodes": 2411,
   "totalLinks": 2397,
   "nodes": [
@@ -41861,11 +41861,11 @@
       "id": "whatsapp-26375528395002lid",
       "type": "whatsapp",
       "titulo": "Aline Lima",
-      "data": "2026-08-03",
+      "data": "2026-08-04",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Aline Lima: Te amo fio\n→ Você: Nossa fia que raiva\n→ Você: Pior né,fais perder um tempão\n→ Você: Tá bom então fia\n← Aline Lima: Amor ainda estou fazendo o tete viu. O feijão nem pegou pressão\n← Aline Lima: https://nutricionistabrunaboreggio.com.br/area-membros/",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Aline Lima: Te amo fio\n→ Você: Nossa fia que raiva\n→ Você: Pior né,fais perder um tempão\n→ Você: Tá bom então fia\n← Aline Lima: Amor ainda estou fazendo o tete viu. O feijão nem pegou pressão\n← Aline Lima: https://nutricionistabrunaboreggio.com.br/area-membros/",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42646,7 +42646,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-ygq01",
+      "id": "ig-divarebel.on-6l959",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-04",
@@ -54670,7 +54670,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-ygq01",
+      "target": "ig-divarebel.on-6l959",
       "tipo": "externo"
     },
     {
