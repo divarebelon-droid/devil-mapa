@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-04T14:04:01.114Z",
-  "totalNodes": 755,
-  "totalLinks": 741,
+  "geradoEm": "2026-08-04T19:28:13.022Z",
+  "totalNodes": 806,
+  "totalLinks": 791,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -196,6 +196,20 @@
       "tags": [
         "espaco",
         "Espaço de Trabalho"
+      ],
+      "links": []
+    },
+    {
+      "id": "espaco-901313958060",
+      "type": "espaco",
+      "titulo": "Malu (Nutricionista)",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "cor": "#f472b6",
+      "conteudo": "**Malu (Nutricionista)**\n\nEspaco ClickUp",
+      "tags": [
+        "espaco",
+        "Malu (Nutricionista)"
       ],
       "links": []
     },
@@ -673,6 +687,21 @@
       "cor": "#14b8a6",
       "parentId": "espaco-901313862831",
       "conteudo": "**Plano de ação 30 dias**\n\nPasta em Espaço de Trabalho",
+      "tags": [
+        "pasta",
+        "Plano de ação 30 dias"
+      ],
+      "links": []
+    },
+    {
+      "id": "pasta-901318717514",
+      "type": "pasta",
+      "titulo": "Plano de ação 30 dias",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "cor": "#f472b6",
+      "parentId": "espaco-901313958060",
+      "conteudo": "**Plano de ação 30 dias**\n\nPasta em Malu (Nutricionista)",
       "tags": [
         "pasta",
         "Plano de ação 30 dias"
@@ -2675,6 +2704,111 @@
       "links": []
     },
     {
+      "id": "lista-901328086336",
+      "type": "lista",
+      "titulo": "Cronograma",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086336",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Cronograma**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Cronograma"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086341",
+      "type": "lista",
+      "titulo": "NDD",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086341",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**NDD**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "NDD"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086338",
+      "type": "lista",
+      "titulo": "Produtor",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086338",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Produtor**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Produtor"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086335",
+      "type": "lista",
+      "titulo": "Percurso do paciente",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086335",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Percurso do paciente**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Percurso do paciente"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086337",
+      "type": "lista",
+      "titulo": "Central de Campanha",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086337",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Central de Campanha**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Central de Campanha"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086339",
+      "type": "lista",
+      "titulo": "Biblioteca de Atração",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086339",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Biblioteca de Atração**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Biblioteca de Atração"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086340",
+      "type": "lista",
+      "titulo": "Conteúdo Priscila",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086340",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Conteúdo Priscila**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Conteúdo Priscila"
+      ],
+      "links": []
+    },
+    {
       "id": "sg-901315882709-mam-e",
       "type": "status_group",
       "titulo": "mamãe",
@@ -4435,6 +4569,240 @@
       "tags": [
         "status",
         "2026"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901326921302-janeiro-2026",
+      "type": "status_group",
+      "titulo": "janeiro 2026",
+      "data": "2026-08-04",
+      "perfil": "90138131603",
+      "cor": "#1090e0",
+      "listId": "901326921302",
+      "listaNodeId": "lista-901326921302",
+      "parentId": "lista-901326921302",
+      "count": 1,
+      "conteudo": "**janeiro 2026**\n\nLista: Devil Chat - Planejamento Anual\nTarefas: 1",
+      "tags": [
+        "status",
+        "janeiro 2026"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901326921632-comprou",
+      "type": "status_group",
+      "titulo": "comprou",
+      "data": "2026-08-04",
+      "perfil": "90138131603",
+      "cor": "#f8ae00",
+      "listId": "901326921632",
+      "listaNodeId": "lista-901326921632",
+      "parentId": "lista-901326921632",
+      "count": 2,
+      "conteudo": "**comprou**\n\nLista: CRM DEVIL CHAT\nTarefas: 2",
+      "tags": [
+        "status",
+        "comprou"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901326921632-n-o-cadastrados",
+      "type": "status_group",
+      "titulo": "não cadastrados",
+      "data": "2026-08-04",
+      "perfil": "90138131603",
+      "cor": "#f76808",
+      "listId": "901326921632",
+      "listaNodeId": "lista-901326921632",
+      "parentId": "lista-901326921632",
+      "count": 1,
+      "conteudo": "**não cadastrados**\n\nLista: CRM DEVIL CHAT\nTarefas: 1",
+      "tags": [
+        "status",
+        "não cadastrados"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316453240-identidade-visual",
+      "type": "status_group",
+      "titulo": "identidade visual",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#3db88b",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "parentId": "lista-901316453240",
+      "count": 1,
+      "conteudo": "**identidade visual**\n\nLista: Minha marca \nTarefas: 1",
+      "tags": [
+        "status",
+        "identidade visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316453240-hist-ria",
+      "type": "status_group",
+      "titulo": "história",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#0197a7",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "parentId": "lista-901316453240",
+      "count": 5,
+      "conteudo": "**história**\n\nLista: Minha marca \nTarefas: 5",
+      "tags": [
+        "status",
+        "história"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316453240-cultura-da-marca",
+      "type": "status_group",
+      "titulo": "cultura da  marca",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#5d4037",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "parentId": "lista-901316453240",
+      "count": 2,
+      "conteudo": "**cultura da  marca**\n\nLista: Minha marca \nTarefas: 2",
+      "tags": [
+        "status",
+        "cultura da  marca"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316453240-lembretes",
+      "type": "status_group",
+      "titulo": "lembretes",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#1b5e20",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "parentId": "lista-901316453240",
+      "count": 1,
+      "conteudo": "**lembretes**\n\nLista: Minha marca \nTarefas: 1",
+      "tags": [
+        "status",
+        "lembretes"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316453240-swat",
+      "type": "status_group",
+      "titulo": "swat",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#afb42b",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "parentId": "lista-901316453240",
+      "count": 1,
+      "conteudo": "**swat**\n\nLista: Minha marca \nTarefas: 1",
+      "tags": [
+        "status",
+        "swat"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901323651369-passo-1",
+      "type": "status_group",
+      "titulo": "passo 1",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#d33d44",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "parentId": "lista-901323651369",
+      "count": 1,
+      "conteudo": "**passo 1**\n\nLista: NDD\nTarefas: 1",
+      "tags": [
+        "status",
+        "passo 1"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901323651369-passo-2",
+      "type": "status_group",
+      "titulo": "passo 2",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#f8ae00",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "parentId": "lista-901323651369",
+      "count": 1,
+      "conteudo": "**passo 2**\n\nLista: NDD\nTarefas: 1",
+      "tags": [
+        "status",
+        "passo 2"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901323651369-passo-3",
+      "type": "status_group",
+      "titulo": "passo 3",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "var(--cu-status-purple)",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "parentId": "lista-901323651369",
+      "count": 1,
+      "conteudo": "**passo 3**\n\nLista: NDD\nTarefas: 1",
+      "tags": [
+        "status",
+        "passo 3"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901323651369-passo-4",
+      "type": "status_group",
+      "titulo": "passo 4",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#1090e0",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "parentId": "lista-901323651369",
+      "count": 1,
+      "conteudo": "**passo 4**\n\nLista: NDD\nTarefas: 1",
+      "tags": [
+        "status",
+        "passo 4"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316453200-tipos",
+      "type": "status_group",
+      "titulo": "tipos",
+      "data": "2026-08-04",
+      "perfil": "90138228562",
+      "cor": "#0197a7",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "parentId": "lista-901316453200",
+      "count": 11,
+      "conteudo": "**tipos**\n\nLista: Infoprodutos \nTarefas: 11",
+      "tags": [
+        "status",
+        "tipos"
       ],
       "links": []
     },
@@ -13041,6 +13409,528 @@
         "2026"
       ],
       "links": []
+    },
+    {
+      "id": "clickup-86agzq8xa",
+      "type": "clickup",
+      "titulo": "[Tipo] Nome do Conteúdo ou Objetivo",
+      "data": "2026-04-22",
+      "perfil": "90138131603",
+      "listId": "901326921302",
+      "listaNodeId": "lista-901326921302",
+      "statusNodeId": "sg-901326921302-janeiro-2026",
+      "parentId": "sg-901326921302-janeiro-2026",
+      "status": "janeiro 2026",
+      "conteudo": "**[Tipo] Nome do Conteúdo ou Objetivo**\n\nLista: Devil Chat - Planejamento Anual\nStatus: janeiro 2026\n\nRegra de Entrada: Se usuário novo = \\[Mencionar a Tarefa de Cadastro usando @\\] Se usuário conhecido = Continuar fluxo abaixo.\n\\--- ETAPA 1 ---Mensagem: \\[Sua primeira mensagem puxando assunto ou introduzindo o conteúdo. Ex: Oi {Nome}, que bom que você pediu o material!\\]\nRegra: Aguarde 5 segundos e avance (simulando que você está digitando a próxima mensagem).\n\\--- ETAPA 2 ---Mensagem: \\[A explicação do passo a passo ou a construção da narrativa. Ex: Para você aplicar isso na sua operação, o primeiro passo é...\\]\nBotão: \\[Nome do Botão\\] | \\[Ação ou Link\\]\nRegra: Aguarde o usuário responder e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86agzq8xa)",
+      "tags": [
+        "Devil Chat - Planejamento Anual",
+        "janeiro 2026"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ah13apk",
+      "type": "clickup",
+      "titulo": "exemplo",
+      "data": "2026-04-22",
+      "perfil": "90138131603",
+      "listId": "901326921632",
+      "listaNodeId": "lista-901326921632",
+      "statusNodeId": "sg-901326921632-comprou",
+      "parentId": "sg-901326921632-comprou",
+      "status": "comprou",
+      "conteudo": "**exemplo**\n\nLista: CRM DEVIL CHAT\nStatus: comprou\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah13apk)",
+      "tags": [
+        "CRM DEVIL CHAT",
+        "comprou"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ah15bzu",
+      "type": "clickup",
+      "titulo": "exemplo",
+      "data": "2026-04-22",
+      "perfil": "90138131603",
+      "listId": "901326921632",
+      "listaNodeId": "lista-901326921632",
+      "statusNodeId": "sg-901326921632-comprou",
+      "parentId": "sg-901326921632-comprou",
+      "status": "comprou",
+      "conteudo": "**exemplo**\n\nLista: CRM DEVIL CHAT\nStatus: comprou\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah15bzu)",
+      "tags": [
+        "CRM DEVIL CHAT",
+        "comprou"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ah1ffda",
+      "type": "clickup",
+      "titulo": "@123456789",
+      "data": "2026-04-22",
+      "perfil": "90138131603",
+      "listId": "901326921632",
+      "listaNodeId": "lista-901326921632",
+      "statusNodeId": "sg-901326921632-n-o-cadastrados",
+      "parentId": "sg-901326921632-n-o-cadastrados",
+      "status": "não cadastrados",
+      "conteudo": "**@123456789**\n\nLista: CRM DEVIL CHAT\nStatus: não cadastrados\n\nLead capturado pelo Devil Chat (@divarebel.on).\nInstagram ID: 123456789\nPost de origem: DM direto\nData: 22/04/2026, 16:07:03\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ah1ffda)",
+      "tags": [
+        "CRM DEVIL CHAT",
+        "não cadastrados"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk7d",
+      "type": "clickup",
+      "titulo": "IDENTIDADE VISUAL",
+      "data": "2025-07-16",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-identidade-visual",
+      "parentId": "sg-901316453240-identidade-visual",
+      "status": "identidade visual",
+      "conteudo": "**IDENTIDADE VISUAL**\n\nLista: Minha marca \nStatus: identidade visual\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk7d)",
+      "tags": [
+        "Minha marca ",
+        "identidade visual"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk6r",
+      "type": "clickup",
+      "titulo": "[BASE DE NARRATIVA]",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-hist-ria",
+      "parentId": "sg-901316453240-hist-ria",
+      "status": "história",
+      "conteudo": "**[BASE DE NARRATIVA]**\n\nLista: Minha marca \nStatus: história\n\nAqui deixe sua história, o que motivou você a abrir o seu negócio e o motivo.\nA história precisa responder as perguntas abaixo.\nEspaço da história:\n\nComecei no digital como consultora de imagem e estilo, queria vender um curso nesse nicho. Cresci meu perfil, mas não conseguia vender. Contratei agência e foi só decadência. Fiz parceria e foi pior ainda. Decidi estudar para ampliar meu negócio, comecei a pegar clientes nessa área e só dei continuidade.\n\nQuando dobrei as visualizações nos stories da Thamires que proporcionou parcerias melhores pra ela\nMinha paciência com a Simone\n\nQuando fiz a Mô\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk6r)",
+      "tags": [
+        "Minha marca ",
+        "história"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jkak",
+      "type": "clickup",
+      "titulo": "Habilidades",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-hist-ria",
+      "parentId": "sg-901316453240-hist-ria",
+      "status": "história",
+      "conteudo": "**Habilidades**\n\nLista: Minha marca \nStatus: história\n\nListe 5 habilidades e defina 3 para usar no seu negócio:\n\n| Minhas habilidades | Habilidades em uso | Habilidade do diferencial |\n| ---| ---| --- |\n| Criativa Autêntica<br>Fora do padrão<br>Ideias fora caixa<br>Liderança | Autêntica<br>Liderança<br>Fora do padrão | Criar conteúdo dentro de um plano de negócio |\n\n[\n\nbr.pinterest.com\n\nhttps://br.pinterest.com/divacemdinheiro\\_/moodboard-atual/?invite\\_code=d289f98fe7e34410816260f77ae0a526&sender=808114864294794729\n\n](https://br.pinterest.com/divacemdinheiro_/moodboard-atual/?invite_code=d289f98fe7e34410816260f77ae0a526&sender=808114864294794729)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jkak)",
+      "tags": [
+        "Minha marca ",
+        "história"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk8n",
+      "type": "clickup",
+      "titulo": "Transformação",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-hist-ria",
+      "parentId": "sg-901316453240-hist-ria",
+      "status": "história",
+      "conteudo": "**Transformação**\n\nLista: Minha marca \nStatus: história\n\nDescreva aqui, de forma ampla, 3 transformações que você gera para quem adquire seu produto ou serviço:\n\n* * *\n\nAumento de faturamento\nClareza do negócio\nEstrutura anti concorrente\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk8n)",
+      "tags": [
+        "Minha marca ",
+        "história"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jkdu",
+      "type": "clickup",
+      "titulo": "Definição",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-hist-ria",
+      "parentId": "sg-901316453240-hist-ria",
+      "status": "história",
+      "conteudo": "**Definição**\n\nLista: Minha marca \nStatus: história\n\nAdicione aqui palavras que resumem a sua proposta:\n\n| **Audiência** | **Marca** | **Produto/Serviço** |\n| ---| ---| --- |\n| Empreendedores | Autêntica | Faturamento |\n| B2B | Fora do padrão | Clareza |\n|  | Líder | Estrutura |\n|  |  |  |\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jkdu)",
+      "tags": [
+        "Minha marca ",
+        "história"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jkcf",
+      "type": "clickup",
+      "titulo": "Bora causar?",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-hist-ria",
+      "parentId": "sg-901316453240-hist-ria",
+      "status": "história",
+      "conteudo": "**Bora causar?**\n\nLista: Minha marca \nStatus: história\n\nAqui você vai expressar aquilo que inspira você, aquilo em que acredita de verdade e que fará parte do seu movimento, conectando e atraindo as pessoas até você:\n\n| **Acredito** | **O que dizem** | **O que é mentira** |\n| ---| ---| --- |\n| O que da certo para grandes, nem sempre da certo para outros negocios.<br> | Siga o método XYZ para vender para seus clientes | 6 em 7<br>AIDA<br>Conteúdo que vende<br>Gatilhos mentais são uma farsa |\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jkcf)",
+      "tags": [
+        "Minha marca ",
+        "história"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jkd3",
+      "type": "clickup",
+      "titulo": "CULTURA DA MARCA - MVV",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-cultura-da-marca",
+      "parentId": "sg-901316453240-cultura-da-marca",
+      "status": "cultura da  marca",
+      "conteudo": "**CULTURA DA MARCA - MVV**\n\nLista: Minha marca \nStatus: cultura da  marca\n\nAqui você vai separar seus valores, missão e etc... Isso ajuda a manter o foco na sua linha editorial e narrativa. Aqui é a virada de chave em que você irá entender que encher seu feed de trend, não trará vendas. Responda as perguntas abaixo:\n\nVamos começar pela MISSÃO:\n> A missão é o motivo pelo qual o negócio existe, é o que ele entrega ao mundo. É a partir dela que nasce o magnetismo que atrai as pessoas e as faz querer estar ao seu lado.\n\n| PERGUNTAS | RESPOSTAS |\n| ---| --- |\n| Por que sua empresa nasceu? | Minha empresa nasceu depois de ser enganada com esses marketeiros falsos |\n| Por q\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jkd3)",
+      "tags": [
+        "Minha marca ",
+        "cultura da  marca"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk9v",
+      "type": "clickup",
+      "titulo": "LEMBRETES",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-lembretes",
+      "parentId": "sg-901316453240-lembretes",
+      "status": "lembretes",
+      "conteudo": "**LEMBRETES**\n\nLista: Minha marca \nStatus: lembretes\n\n**Meta**\n10k mês\n\nObjetivo\nFechar 3 clientes em 1 semana\n\nPassos\nIniciar as prospecções por WhatsApp\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk9v)",
+      "tags": [
+        "Minha marca ",
+        "lembretes"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aezv2je",
+      "type": "clickup",
+      "titulo": "PRINCIPIOS DA MARCA",
+      "data": "2026-02-01",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-cultura-da-marca",
+      "parentId": "sg-901316453240-cultura-da-marca",
+      "status": "cultura da  marca",
+      "conteudo": "**PRINCIPIOS DA MARCA**\n\nLista: Minha marca \nStatus: cultura da  marca\n\n## Audiência, Posicionamento e Essência do Negócio\n### 1\\. O QUE FAZEMOS (ESSÊNCIA DO NEGÓCIO)\nNosso negócio **não é marketing**.\nNão vendemos:\n*   gestão de Instagram\n*   social media\n*   tráfego pago isolado\n*   conteúdo por conteúdo\n*   engajamento, curtidas ou seguidores\nNosso trabalho é **análise estratégica de negócios**, baseada em:\n*   Percurso / jornada do cliente\n*   Estrutura de descoberta, conversão e retenção\n*   Diagnóstico de onde o negócio está perdendo dinheiro\n*   Organização do processo de vendas\n*   Construção de previsibilidade, estabilidade e controle\nO marketing (conteúd\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aezv2je)",
+      "tags": [
+        "Minha marca ",
+        "cultura da  marca"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86afnxdma",
+      "type": "clickup",
+      "titulo": "Análise",
+      "data": "2026-06-27",
+      "perfil": "90138228562",
+      "listId": "901316453240",
+      "listaNodeId": "lista-901316453240",
+      "statusNodeId": "sg-901316453240-swat",
+      "parentId": "sg-901316453240-swat",
+      "status": "swat",
+      "conteudo": "**Análise**\n\nLista: Minha marca \nStatus: swat\n\nForças:\n\nO que fazemos bem?\nO que diferencia a nossa organização?\nDe que o nosso público-alvo gosta na nossa organização?\n\nFraquezas:\n\nQuais iniciativas estão com desempenho abaixo do esperado e porquê?\nO que poderia melhorar?\nQuais recursos poderiam melhorar nosso desempenho?\n\nOportunidades:\n\nQuais recursos podemos usar para melhorar nossas fraquezas?\nExistem lacunas de mercado nos serviços que prestamos?\nQuais são as nossas metas para o ano?\n\nAmeaças:\n\nQuais mudanças na indústria são motivos de preocupação?\nQuais são as novas tendências de mercado no horizonte?\nEm que pontos nossos concorren\n\n[Abrir no ClickUp](https://app.clickup.com/t/86afnxdma)",
+      "tags": [
+        "Minha marca ",
+        "swat"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae2c5ax",
+      "type": "clickup",
+      "titulo": "Necessidade",
+      "data": "2026-06-27",
+      "perfil": "90138228562",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "statusNodeId": "sg-901323651369-passo-1",
+      "parentId": "sg-901323651369-passo-1",
+      "status": "passo 1",
+      "conteudo": "**Necessidade**\n\nLista: NDD\nStatus: passo 1\n\n## NECESSIDADE — Passo 1 do NDD\n\nA necessidade nunca é o que a nutricionista verbaliza na primeira frase. É o que está por baixo.\n\n* * *\n\n### Necessidade falada (o que ela diz)\n\n*   \"Quero mais pacientes.\"\n*   \"Preciso lotar minha agenda.\"\n*   \"Quero crescer no Instagram.\"\n*   \"Preciso vender mais.\"\n*   \"Quero fazer anúncios.\"\n\n* * *\n\n### Necessidade sentida (o que ela realmente quer)\n\n*   Segurança financeira.\n*   Previsibilidade de faturamento.\n*   Parar de ter medo do próximo mês.\n*   Sentir que o negócio está crescendo de verdade.\n*   Ter controle sobre o que acontece com a empresa.\n\n* * *\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2c5ax)",
+      "tags": [
+        "NDD",
+        "passo 1"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae2c5b2",
+      "type": "clickup",
+      "titulo": "Desejo",
+      "data": "2026-06-27",
+      "perfil": "90138228562",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "statusNodeId": "sg-901323651369-passo-2",
+      "parentId": "sg-901323651369-passo-2",
+      "status": "passo 2",
+      "conteudo": "**Desejo**\n\nLista: NDD\nStatus: passo 2\n\n## DESEJO — Passo 2 do NDD\n\nO desejo é o que diferencia. Duas nutricionistas podem ter a mesma necessidade e desejos completamente diferentes. É aqui que a comunicação se torna personalizada e poderosa.\n\n* * *\n\n### Fórmula do desejo aplicada à nutricionista:\n\n**Necessidade + Comportamento + Estilo de vida + Momento da empresa = Desejo**\n\n* * *\n\n### O que ela deseja (em palavras dela)\n\n*   \"Quero acordar na segunda-feira sabendo que minha semana já está cheia.\"\n*   \"Quero parar de ficar ansiosa quando olho para a agenda.\"\n*   \"Quero sentir que o que estou construindo está indo para frente.\"\n*  \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2c5b2)",
+      "tags": [
+        "NDD",
+        "passo 2"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae2c5av",
+      "type": "clickup",
+      "titulo": "Demanda",
+      "data": "2026-06-27",
+      "perfil": "90138228562",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "statusNodeId": "sg-901323651369-passo-3",
+      "parentId": "sg-901323651369-passo-3",
+      "status": "passo 3",
+      "conteudo": "**Demanda**\n\nLista: NDD\nStatus: passo 3\n\n## DEMANDA — Passo 3 do NDD\n\nA demanda valida se existe mercado para a solução neste momento. Nem toda necessidade gera oportunidade. É preciso entender em que tipo de demanda a nutricionista se encontra para saber como abordá-la.\n\n* * *\n\n### Tipos de demanda presentes no público da Diva Rebel.on\n\n* * *\n\n**🔴 Demanda negativa**\nA nutricionista já teve experiência ruim com social media ou agência e perdeu confiança.\n\n*   Como abordar: mostrar que a Diva Rebel.on não vende marketing. Vende estrutura empresarial. É uma categoria diferente.\n\n* * *\n\n**🟠 Demanda inexistente**\nEla não sabe que exist\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2c5av)",
+      "tags": [
+        "NDD",
+        "passo 3"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ae2c5aq",
+      "type": "clickup",
+      "titulo": "Oportunidade e Oferta",
+      "data": "2026-06-27",
+      "perfil": "90138228562",
+      "listId": "901323651369",
+      "listaNodeId": "lista-901323651369",
+      "statusNodeId": "sg-901323651369-passo-4",
+      "parentId": "sg-901323651369-passo-4",
+      "status": "passo 4",
+      "conteudo": "**Oportunidade e Oferta**\n\nLista: NDD\nStatus: passo 4\n\n## OPORTUNIDADE E OFERTA — Passo 4 do NDD\n\nA oportunidade nasce quando Necessidade + Desejo + Demanda se alinham. A oferta é a materialização dessa oportunidade.\n\n* * *\n\n### A Oportunidade\n\nO mercado de saúde possui milhares de profissionais tecnicamente excelentes, empresarialmente despreparados, saturados de promessas de marketing e com uma dor real e urgente: **imprevisibilidade**.\n\nNinguém está resolvendo o problema certo. Todos estão vendendo ferramentas (conteúdo, tráfego, Instagram) para um problema estrutural (empresa sem processo).\n\n**A oportunidade da Diva Rebel.on é ocupar a categor\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae2c5aq)",
+      "tags": [
+        "NDD",
+        "passo 4"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk4a",
+      "type": "clickup",
+      "titulo": "Ferramenta",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Ferramenta**\n\nLista: Infoprodutos \nStatus: tipos\n\nProdutos ou serviços de entrada, trazem uma solução a curto prazo. Servem de pontapé inicia rumo a fidelização.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk4a)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjk4",
+      "type": "clickup",
+      "titulo": "E-book",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**E-book**\n\nLista: Infoprodutos \nStatus: tipos\n\nServem como presente de atração, só compensa vender para perfis maiores. Também podem ser usados como bônus ou orderbump.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjk4)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjvb",
+      "type": "clickup",
+      "titulo": "Masterclass",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Masterclass**\n\nLista: Infoprodutos \nStatus: tipos\n\nIdeal para atração de audiência, produto de entrada para adquirir confiança e mais conexão com a audiência. Tem em torno de 3 horas no máximo. Só vale a pena dentro de um contexto de estrutura de venda\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjvb)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjqk",
+      "type": "clickup",
+      "titulo": "Pacotes",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Pacotes**\n\nLista: Infoprodutos \nStatus: tipos\n\nNão são bem vistos, o mercado mudou bastante e se tornaram amador. O cliente quer vender.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjqk)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjy8",
+      "type": "clickup",
+      "titulo": "Desafio",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Desafio**\n\nLista: Infoprodutos \nStatus: tipos\n\nPodem ser usados como produto de entrada ou para melhorar a proximidade com a audiência. Vale a pena, principalmente se tiver premiação de Indicação, porque o lucro aqui, vem em quantidade de pessoas.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjy8)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjua",
+      "type": "clickup",
+      "titulo": "Curso",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Curso**\n\nLista: Infoprodutos \nStatus: tipos\n\nDentro de uma esteira, pode ser usado como produto de media entrada para um público que ja conhece a marca e tem pouca barreira de entrada.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjua)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjj0",
+      "type": "clickup",
+      "titulo": "Comunidade",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Comunidade**\n\nLista: Infoprodutos \nStatus: tipos\n\nGeralmente usada como benefício, mas pode sim ser vendida como um produto de recorrência por exemplo.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjj0)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjp4",
+      "type": "clickup",
+      "titulo": "Formação",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Formação**\n\nLista: Infoprodutos \nStatus: tipos\n\nSó vale a pena quando a audiência é aquecida, são produtos de preço mais alto.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjp4)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk31",
+      "type": "clickup",
+      "titulo": "Consultoria",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Consultoria**\n\nLista: Infoprodutos \nStatus: tipos\n\nPode ser vendido tanto individual com em grupo. Em relação a conteúdo, entregamos o O QUE FAZEMOS e o PASSO A PASSO para aplicação com materiais que facilitam isso.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk31)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jk1m",
+      "type": "clickup",
+      "titulo": "Mentoria em grupo",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Mentoria em grupo**\n\nLista: Infoprodutos \nStatus: tipos\n\nA única diferença da consultoria é que acompanhamos a aplicação e vamos dando direcionamento em grupo, no máximo 2 vezes na semana.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jk1m)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa9jjx2",
+      "type": "clickup",
+      "titulo": "Mentoria individual",
+      "data": "2025-12-21",
+      "perfil": "90138228562",
+      "listId": "901316453200",
+      "listaNodeId": "lista-901316453200",
+      "statusNodeId": "sg-901316453200-tipos",
+      "parentId": "sg-901316453200-tipos",
+      "status": "tipos",
+      "conteudo": "**Mentoria individual**\n\nLista: Infoprodutos \nStatus: tipos\n\nA mesma coisa da mentoria em grupo, porém de forma mais individualizada e personalizada para cada negócio.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa9jjx2)",
+      "tags": [
+        "Infoprodutos ",
+        "tipos"
+      ],
+      "links": []
     }
   ],
   "links": [
@@ -13202,6 +14092,11 @@
     {
       "source": "espaco-901313862831",
       "target": "pasta-901318485090",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "espaco-901313958060",
+      "target": "pasta-901318717514",
       "tipo": "hierarquia"
     },
     {
@@ -13870,6 +14765,41 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086336",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086341",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086338",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086335",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086337",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086339",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086340",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "lista-901315882709",
       "target": "sg-901315882709-mam-e",
       "tipo": "hierarquia"
@@ -14357,6 +15287,71 @@
     {
       "source": "lista-901316217440",
       "target": "sg-901316217440-2026",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901326921302",
+      "target": "sg-901326921302-janeiro-2026",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901326921632",
+      "target": "sg-901326921632-comprou",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901326921632",
+      "target": "sg-901326921632-n-o-cadastrados",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316453240",
+      "target": "sg-901316453240-identidade-visual",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316453240",
+      "target": "sg-901316453240-hist-ria",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316453240",
+      "target": "sg-901316453240-cultura-da-marca",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316453240",
+      "target": "sg-901316453240-lembretes",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316453240",
+      "target": "sg-901316453240-swat",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901323651369",
+      "target": "sg-901323651369-passo-1",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901323651369",
+      "target": "sg-901323651369-passo-2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901323651369",
+      "target": "sg-901323651369-passo-3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901323651369",
+      "target": "sg-901323651369-passo-4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316453200",
+      "target": "sg-901316453200-tipos",
       "tipo": "hierarquia"
     },
     {
@@ -16747,6 +17742,151 @@
     {
       "source": "sg-901316217440-2026",
       "target": "clickup-86aa6e789",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901326921302-janeiro-2026",
+      "target": "clickup-86agzq8xa",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901326921632-comprou",
+      "target": "clickup-86ah13apk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901326921632-comprou",
+      "target": "clickup-86ah15bzu",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901326921632-n-o-cadastrados",
+      "target": "clickup-86ah1ffda",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-identidade-visual",
+      "target": "clickup-86aa9jk7d",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-hist-ria",
+      "target": "clickup-86aa9jk6r",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-hist-ria",
+      "target": "clickup-86aa9jkak",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-hist-ria",
+      "target": "clickup-86aa9jk8n",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-hist-ria",
+      "target": "clickup-86aa9jkdu",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-hist-ria",
+      "target": "clickup-86aa9jkcf",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-cultura-da-marca",
+      "target": "clickup-86aa9jkd3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-lembretes",
+      "target": "clickup-86aa9jk9v",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-cultura-da-marca",
+      "target": "clickup-86aezv2je",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453240-swat",
+      "target": "clickup-86afnxdma",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901323651369-passo-1",
+      "target": "clickup-86ae2c5ax",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901323651369-passo-2",
+      "target": "clickup-86ae2c5b2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901323651369-passo-3",
+      "target": "clickup-86ae2c5av",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901323651369-passo-4",
+      "target": "clickup-86ae2c5aq",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jk4a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjk4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjvb",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjqk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjy8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjua",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjj0",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjp4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jk31",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jk1m",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316453200-tipos",
+      "target": "clickup-86aa9jjx2",
       "tipo": "hierarquia"
     }
   ]
