@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-04T22:26:10.143Z",
+  "geradoEm": "2026-08-04T23:00:17.233Z",
   "totalNodes": 1181,
   "totalLinks": 1166,
   "nodes": [
@@ -19852,21 +19852,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-14088298090654lid",
-      "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
-      "data": "2026-08-04",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n→ Você: Oi Bruna, blz\n← Suporte Nutri Bruna: Oii Aline\n← Suporte Nutri Bruna: Beleza\n→ Você: https://meet.google.com/vja-foam-qfc\n← Suporte Nutri Bruna: Entrando\n→ Você: aqui",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite Nutri",
@@ -19874,7 +19859,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Coloquei no o nutri 4nutri\n← Priscila Leite Nutri: Ah que bacana\n← Priscila Leite Nutri: Pq deu um trabalho\n← Priscila Leite Nutri: Ah blz\nPode ser hoje a noite\n← Priscila Leite Nutri: 19:45\n← Priscila Leite Nutri: Show",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: 19:45\n← Priscila Leite Nutri: Show\n← Priscila Leite Nutri: Pronto\n← Priscila Leite Nutri: Vai ser Google mid ou vai ser ligação por aqui mesmo\n→ Você: https://meet.google.com/yqk-jqaf-huf\n→ Você: To lá",
       "tags": [
         "whatsapp",
         "followup"
@@ -19889,7 +19874,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ajk7vfg",
       "status": "followup",
-      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Elaine Talita: Sexta?\n← Elaine Talita: Deixa marcado pra 17h30.\n← Elaine Talita: Quinta\n← Elaine Talita: Quinta não. Pq não vou conseguir a tempo.\n← Elaine Talita: Sexta!\n← Elaine Talita: Quinta tenho médico em ctba. E até retornar pra casa demora .",
+      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Elaine Talita: Sexta!\n← Elaine Talita: Quinta tenho médico em ctba. E até retornar pra casa demora .\n← Elaine Talita: Pode ser sábado\n← Elaine Talita: Perfeito\n← Elaine Talita: Ótimo\n← Elaine Talita: Sábado 10h30",
       "tags": [
         "whatsapp",
         "followup"
@@ -19899,12 +19884,27 @@
     {
       "id": "whatsapp-150152140591131lid",
       "type": "whatsapp",
-      "titulo": "Contato LID-40591131",
+      "titulo": "Malu Rilou Nutricionista",
       "data": "2026-08-04",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Contato LID-40591131**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04",
+      "conteudo": "**Malu Rilou Nutricionista**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Malu Rilou Nutricionista: Malu Rilou agradece seu contato. Como podemos ajudar?",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-08-04",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n→ Você: Oi Bruna, blz\n← Suporte Nutri Bruna: Oii Aline\n← Suporte Nutri Bruna: Beleza\n→ Você: https://meet.google.com/vja-foam-qfc\n← Suporte Nutri Bruna: Entrando\n→ Você: aqui",
       "tags": [
         "whatsapp",
         "followup"
@@ -20475,7 +20475,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-4nzy1",
+      "id": "ig-divarebel.on-yx443",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-04",
@@ -26134,11 +26134,6 @@
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
@@ -26150,6 +26145,11 @@
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-150152140591131lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -26344,7 +26344,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-4nzy1",
+      "target": "ig-divarebel.on-yx443",
       "tipo": "externo"
     },
     {
