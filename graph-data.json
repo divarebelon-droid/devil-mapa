@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-04T17:01:42.066Z",
-  "totalNodes": 1171,
-  "totalLinks": 1157,
+  "geradoEm": "2026-08-04T19:00:38.308Z",
+  "totalNodes": 1180,
+  "totalLinks": 1165,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -196,6 +196,20 @@
       "tags": [
         "espaco",
         "Espaço de Trabalho"
+      ],
+      "links": []
+    },
+    {
+      "id": "espaco-901313958060",
+      "type": "espaco",
+      "titulo": "Malu (Nutricionista)",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "cor": "#f472b6",
+      "conteudo": "**Malu (Nutricionista)**\n\nEspaço ClickUp",
+      "tags": [
+        "espaco",
+        "Malu (Nutricionista)"
       ],
       "links": []
     },
@@ -643,6 +657,21 @@
       "cor": "#14b8a6",
       "parentId": "espaco-901313862831",
       "conteudo": "**Plano de ação 30 dias**\n\nPasta em Espaço de Trabalho",
+      "tags": [
+        "pasta",
+        "Plano de ação 30 dias"
+      ],
+      "links": []
+    },
+    {
+      "id": "pasta-901318717514",
+      "type": "pasta",
+      "titulo": "Plano de ação 30 dias",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "cor": "#f472b6",
+      "parentId": "espaco-901313958060",
+      "conteudo": "**Plano de ação 30 dias**\n\nPasta em Malu (Nutricionista)",
       "tags": [
         "pasta",
         "Plano de ação 30 dias"
@@ -2502,6 +2531,111 @@
       "perfil": "901313862831",
       "listId": "901327630871",
       "parentId": "pasta-901318485090",
+      "conteudo": "**Conteúdo Priscila**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Conteúdo Priscila"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086336",
+      "type": "lista",
+      "titulo": "Cronograma",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086336",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Cronograma**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Cronograma"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086341",
+      "type": "lista",
+      "titulo": "NDD",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086341",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**NDD**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "NDD"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086338",
+      "type": "lista",
+      "titulo": "Produtor",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086338",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Produtor**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Produtor"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086335",
+      "type": "lista",
+      "titulo": "Percurso do paciente",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086335",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Percurso do paciente**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Percurso do paciente"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086337",
+      "type": "lista",
+      "titulo": "Central de Campanha",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086337",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Central de Campanha**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Central de Campanha"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086339",
+      "type": "lista",
+      "titulo": "Biblioteca de Atração",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086339",
+      "parentId": "pasta-901318717514",
+      "conteudo": "**Biblioteca de Atração**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Biblioteca de Atração"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328086340",
+      "type": "lista",
+      "titulo": "Conteúdo Priscila",
+      "data": "2026-08-04",
+      "perfil": "901313958060",
+      "listId": "901328086340",
+      "parentId": "pasta-901318717514",
       "conteudo": "**Conteúdo Priscila**\n\nLista em Plano de ação 30 dias",
       "tags": [
         "lista",
@@ -19725,7 +19859,22 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n→ Você: https://manychat.com\n→ Você: Ideia de story:\n\nTema\n\nExiste uma coisa que muita gente acredita sobre saúde que é a maior mentira e tenho certeza que você acreditou nisso até agora\n\n← Nutri Regiane Silva: Maravilha Aline, no caso o único story que vai ser por foto será o 1 né?? O resto é tudo eu falando?\n← Nutri Regiane Silva: Entendi, arrasou\n← Nutri Regiane Silva: Tá certo, vou fazer isso assim que chegar lá em sp\n← Nutri Regiane Silva: Pronto posts zerados kk mãos a obra 😮‍💨 deixei esses destaques por enquanto e já já posto o story 🥳",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Entendi, arrasou\n← Nutri Regiane Silva: Tá certo, vou fazer isso assim que chegar lá em sp\n← Nutri Regiane Silva: Pronto posts zerados kk mãos a obra 😮‍💨 deixei esses destaques por enquanto e já já posto o story 🥳\n→ Você: https://docs.google.com/spreadsheets/d/1-13n-7EhzF9b45OC--ijZBVQYMOJZr8PrWquUot1G7E/edit?usp=sharing\n← Nutri Regiane Silva: Oie Aline, já postei tudo lá no story, to ansiosaaaa\n← Nutri Regiane Silva: Depois se der, dá uma olhadinha lá 🥳",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-08-04",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n→ Você: https://nutricionistabrunaboreggio.com.br/area-membros/ Por aqui, a pessoa faz o login por conta Google. Agora vou te mandar do seu controle para libe\n→ Você: https://docs.google.com/spreadsheets/d/1NIaMUbVOnf24gqqj57kTO-JTizp9R1r9ze_0HCoyVoY/edit?usp=sharing\n→ Você: Quando você adiciona a paciente nessa planilha, libera pra ela lá\n→ Você: Oi Bruna, blz\n← Suporte Nutri Bruna: Oii Aline\n← Suporte Nutri Bruna: Beleza",
       "tags": [
         "whatsapp",
         "followup"
@@ -19740,22 +19889,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Veja se agora foi\n→ Você: Oie :) já venho\n→ Você: Ah ta blz\n→ Você: Sobre essa quetão, em um jeito mais fácil. Tem um tempinho essa semana para nos reunirmos e eu te mostrar para os próximos?\n→ Você: Se aprovado, sim. Vou ver lá se você deixou alguma alteração, mas se não, pode sim\n→ Você: Pra mim aqui aparece ok, mas ainda vou verificar a fundo para implementar no site",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-14088298090654lid",
-      "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
-      "data": "2026-08-03",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: O e-mail dela não é do Google, será que ela consegue acessar ?\n→ Você: Oi Bruna boa tarde\n→ Você: Vou te mandar o link\n→ Você: https://nutricionistabrunaboreggio.com.br/area-membros/ Por aqui, a pessoa faz o login por conta Google. Agora vou te mandar do seu controle para libe\n→ Você: https://docs.google.com/spreadsheets/d/1NIaMUbVOnf24gqqj57kTO-JTizp9R1r9ze_0HCoyVoY/edit?usp=sharing\n→ Você: Quando você adiciona a paciente nessa planilha, libera pra ela lá",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n→ Você: Sobre essa quetão, em um jeito mais fácil. Tem um tempinho essa semana para nos reunirmos e eu te mostrar para os próximos?\n→ Você: Se aprovado, sim. Vou ver lá se você deixou alguma alteração, mas se não, pode sim\n→ Você: Pra mim aqui aparece ok, mas ainda vou verificar a fundo para implementar no site\n← Priscila Leite Nutri: Coloquei no o nutri 4nutri\n← Priscila Leite Nutri: Ah que bacana\n← Priscila Leite Nutri: Pq deu um trabalho",
       "tags": [
         "whatsapp",
         "followup"
@@ -20326,7 +20460,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-0lkvt",
+      "id": "ig-divarebel.on-vobrx",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-04",
@@ -20531,6 +20665,11 @@
     {
       "source": "espaco-901313862831",
       "target": "pasta-901318485090",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "espaco-901313958060",
+      "target": "pasta-901318717514",
       "tipo": "hierarquia"
     },
     {
@@ -21151,6 +21290,41 @@
     {
       "source": "pasta-901318485090",
       "target": "lista-901327630871",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086336",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086341",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086338",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086335",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086337",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086339",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318717514",
+      "target": "lista-901328086340",
       "tipo": "hierarquia"
     },
     {
@@ -25950,12 +26124,12 @@
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185787584876757lid",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
+      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
@@ -26150,7 +26324,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-0lkvt",
+      "target": "ig-divarebel.on-vobrx",
       "tipo": "externo"
     },
     {
