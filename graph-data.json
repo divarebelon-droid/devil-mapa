@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-04T09:57:44.643Z",
-  "totalNodes": 2410,
-  "totalLinks": 2396,
+  "geradoEm": "2026-08-04T11:00:35.263Z",
+  "totalNodes": 2411,
+  "totalLinks": 2397,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -42038,6 +42038,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-08-04",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Tá certo\n← Nutri Regiane Silva: Vou fazer aqui\n← Nutri Regiane Silva: O meu não apareceu configurações da empresa\n← Nutri Regiane Silva: Apareceu\n→ Você: isso\n← Nutri Regiane Silva: Bom dia Aline, tudo bem?\nA reunião eu consigo às 10h também tá, se ficar melhor pra você",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite Nutri",
@@ -42061,21 +42076,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: O e-mail dela não é do Google, será que ela consegue acessar ?\n→ Você: Oi Bruna boa tarde\n→ Você: Vou te mandar o link\n→ Você: https://nutricionistabrunaboreggio.com.br/area-membros/ Por aqui, a pessoa faz o login por conta Google. Agora vou te mandar do seu controle para libe\n→ Você: https://docs.google.com/spreadsheets/d/1NIaMUbVOnf24gqqj57kTO-JTizp9R1r9ze_0HCoyVoY/edit?usp=sharing\n→ Você: Quando você adiciona a paciente nessa planilha, libera pra ela lá",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185873366819004lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Regiane Silva",
-      "data": "2026-08-03",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-03\n\n**Últimas mensagens:**\n→ Você: business.facebook.com/latest/home\n← Nutri Regiane Silva: Tá certo\n← Nutri Regiane Silva: Vou fazer aqui\n← Nutri Regiane Silva: O meu não apareceu configurações da empresa\n← Nutri Regiane Silva: Apareceu\n→ Você: isso",
       "tags": [
         "whatsapp",
         "followup"
@@ -42237,10 +42237,10 @@
       "id": "transcricao-conv-185873366819004lid",
       "type": "whatsapp",
       "titulo": "🎙️ Nutri Regiane Silva",
-      "data": "2026-07-30",
+      "data": "2026-08-03",
       "perfil": "oficina_dro",
       "parentId": "espaco-901313883678",
-      "conteudo": "**Transcrições — Nutri Regiane Silva**\n\n84 áudio(s)\n\n**Nutri Regiane Silva:** Se eu clicar em continuar, concluir, ele vai só 180 minutos, que aí dá 3 minutos, né, mais ou menos. Aí fica cortado.\n\n**Você:** Ai, Regiane, deu erro lá nas coisas deles. Aí eu fui tentar fazer de novo, né, para te mandar o código aí. Aí já deu isso aí, ó, muitas tentativas na segunda vez, porque uma vez eu te mandei, você mandou o código, né, validou. Aí só que não validaram. Aí eu fui coisar agora a segunda vez, aí deu isso daí, ó, vamos ter que esperar, entendeu?\n\n**Você:** Porque para você poder adicionar vídeo maior, a conta tem que ser verificada. E aí você tem que colocar pelo YouTube Estúdio de Criação, né? É por lá que coloca. Mas é, tá assim.\n\n**Nutri Regiane Silva:** Tá, agora vamos esperar até eles, até a boa vontade deles para liberar, né? E o que que é mais que eu tô devendo para mandar para você? Aí você pode mandar aqui para mim, por favor, que eu já esqueci. É que aí eu já vou fazendo as outras coisas então que eu tô devendo.\n\n**Você:** Então, porque eu quero saber do site, se você vai querer mudar alguma coisa, porque aí se não for eu já vou começar a implementar, né, fazer as conexões, porque ia postar ele porque ele tá tipo mais para você visualizar como seria, né, mas eu preciso fazer as conexões também das fotos. Você ficou de montar uma pastinha, né? Para eu ter fotos aqui p\n\n**Você:** A calculadora você preenche como que tava antes da gente começar, entendeu? E aí isso no cenário atual. E aí na parte da meta, aí você preenche lá suas metas, né, de acordo com as suas metas lá, entendeu? Aí a gente geralmente pede assim para tipo toda sexta-feira, ou pelo menos a cada 15 dias, aí vai atualizando, entendeu, com novos pacientes e ta\n\n**Você:** As informações da calculadora, então cada vez que você for acessar ela não vai estar lá as suas últimas informações, tá? Então, por exemplo, você colocou lá que é 3 pessoas agendaram e uma foi na consulta dessas 3, né? Quando você for acessar ela de novo não vão estar essas métricas lá, tá? Porque essa calculadora aí ela é para eu acompanhar result\n\n**Você:** Beleza, Regiane, tá por aí? O site lá já corrigi, tá? Que bom que você gostou do site, eu também achei que ficou bem daorinha. Eu já corrigi o número lá, eu vou te mandar o código, tá? Tá por aí?",
+      "conteudo": "**Transcrições — Nutri Regiane Silva**\n\n103 áudio(s)\n\n**Nutri Regiane Silva:** Entendi, Aline. E por onde, aonde que eu vou para poder fazer isso lá no Facebook? Que aba que é? Você sabe me dizer? Eu não sei se você já chegou a me passar algum vídeo falando sobre, mas se você puder me passar, por favor, que aí eu já faço isso agora. Onde que eu vou para compartilhar com você?\n\n**Nutri Regiane Silva:** Maravilha, Aline. Inclusive, eu já estou oferecendo check-up, já estou oferecendo check-up porque eu tô fazendo um método de recap de pacientes. Eu vou te passar isso tudo amanhã na reunião, foi tudo que eu aprendi, tô tentando aplicar aqui algumas coisas hoje já. E aí eu já tô tentando entender em qual estágio está o paciente, se eles vão querer i\n\n**Nutri Regiane Silva:** Tá certo, Aline, entendi. Você vai mandar o link agora? Como que vai ser? Que eu já tô com o Facebook aberto aqui para já poder fazer isso. Bastante coisa, né? Eu assisti o tutorial, mas eu vou assistindo aos pouquinhos enquanto eu vou fazendo. Eu vou assistindo para fazer tudo certinho.\n\n**Você:** Então, que é esse email aí, ó, esse email é esse link aí, ó, Business do Facebook. Quando você acessar, ele é tipo aquela parte do Business Suite, sabe, que conecta o Facebook com o Instagram, essa parte aí, tá bom?\n\n**Nutri Regiane Silva:** Ah, então eu acho que, ó, eu vou mostrar para você como que tá o meu, tá? Eu acho que é esse que você tá falando, né?\n\n**Você:** Isso, tá certinho, é naquele pedacinho ali mesmo. Você abriu um pouquinho diferente, né, mas é ali mesmo. Não, não necessariamente tem que ir pelo meu link, tá? O meu link é só para você ter uma noção, né, da onde que é, mas é esse pedacinho mesmo. Como o Facebook tá sempre atualizando, né, aí por isso que eu explico, olha, lá do Meta Business Suit\n\n**Você:** Então, quando acontece isso, aí o que que eu faço? Eu clico no gerenciador de anúncio, aí ele vai abrir, vai carregar aquela parte lá de anúncios ali do Instagram. Daí do ladinho tem essa barrinha, você vai nessa barrinha aí normal, clicou nessa barrinha, aí vai ter aquele todas as ferramentas. Daí você clica ali, daí em cima aonde fica essa listin\n\n**Nutri Regiane Silva:** Oi, Aline, já mandei, já criei a conta aqui de anúncio, tá? Agora naquela parte lá de pessoas, de adicionar, você falou para eu ir em pessoas, né, no final. Eita, vai mouse, mouse não tá aí. Aí você já tá convidada aqui. Agora nessa parte atribuir ativos eu não tô conseguindo, eu vou ter que colocar o seu email de novo ou eu espero você receber pri",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -42253,10 +42253,10 @@
       "id": "transcricao-conv-185787584876757lid",
       "type": "whatsapp",
       "titulo": "🎙️ Priscila Leite Nutri",
-      "data": "2026-07-29",
+      "data": "2026-07-31",
       "perfil": "oficina_dro",
       "parentId": "espaco-901313861779",
-      "conteudo": "**Transcrições — Priscila Leite Nutri**\n\n48 áudio(s)\n\n**Priscila Leite Nutri:** Oi, Aline, bom dia. Tá marcada para hoje à tarde. Aí hoje eu já vou gravar os 3 módulos já e aquelas, aqueles takes iniciais, tipo da aula de, ai, seja bem-vindo, que não sei o quê, não sei o quê, entendeu? E aí hoje eu vou gravar tudo à tarde novamente, entendeu? Só que agora é o módulo certo, né? Porque da primeira vez eu gravei a coisa errada. D\n\n**Priscila Leite Nutri:** Então, em relação ao Google Meu Negócio, tem que fazer dentro da minha casa, né? Porque o endereço que foi dado foi da minha casa. Não, não fiz. Vou fazer hoje à noite, tá? Que aí hoje à noite eu já chego com tempo disponível também e já faço, tá? Não fiz, vou fazer.\n\n**Você:** Ah, então tá bom, Priscila. Eu vou subir eles lá então como tipo material extra, né, para ser liberado depois do bom, depois que passa os 7 dias, né. E que mais quer falar? Ah, não esquece de dar uma olhadinha nos conteúdos, tá. E aí eu vi aqui no seu site que ainda tá aquele não seguro, né. Eu vou aproveitar para corrigir isso aqui agora então, já\n\n**Priscila Leite Nutri:** No caso, esses módulos aí, eles vão entrar embaixo da aula, né? Por exemplo, os slides da aula. Aí, no caso, assim, salvar em PDF e ser disponibilizado os slides da aula, correto?\n\n**Você:** Então, Priscila, como tá sem aulas lá, eu coloquei ele lá na parte de materiais extras, coloquei assim para ser liberado daqui 7 dias, tipo assim, né? Mas aí, se você quiser, depois que entrarem as aulas e eu colocar, tipo assim, as aulas do módulo 1, aí dá para, tipo, depois de todas as aulas do módulo 1, colocar uma aula tipo material do módulo, \n\n**Você:** Corrigimos aqui lá no site, tá, que tava mostrando não seguro quando a pessoa acessa lá naquela barrinha do domínio, né? Aí agora já tá mostrando, viu?\n\n**Você:** Bom, Priscila, fizemos também aqui a correção daquele, o link da bio, tá? Vou mandar o link aqui para você, para você já conseguir adicionar o link lá na bio, é aquele topo, né, que a gente falou na reunião. Então acabamos de corrigir ele e já já vai aparecer aí para você. E também, Priscila, quando a pessoa preencher lá, ela colocar na newsletter \n\n**Você:** Nessa parte aí, ó, você consegue acompanhar um dashboard que, por exemplo, vamos supor, a pessoa respondeu o quiz e aí no final do quiz ela vai ter acesso ali aos erros, né, as dificuldades. E aí um conteúdozinho de tipo assim, olha, você precisa corrigir isso, isso e isso, três pontinhos ali para ela, vai entregar um conteúdo para ela. E logo em s",
+      "conteudo": "**Transcrições — Priscila Leite Nutri**\n\n49 áudio(s)\n\n**Priscila Leite Nutri:** Então, em relação ao Google Meu Negócio, tem que fazer dentro da minha casa, né? Porque o endereço que foi dado foi da minha casa. Não, não fiz. Vou fazer hoje à noite, tá? Que aí hoje à noite eu já chego com tempo disponível também e já faço, tá? Não fiz, vou fazer.\n\n**Você:** Ah, então tá bom, Priscila. Eu vou subir eles lá então como tipo material extra, né, para ser liberado depois do bom, depois que passa os 7 dias, né. E que mais quer falar? Ah, não esquece de dar uma olhadinha nos conteúdos, tá. E aí eu vi aqui no seu site que ainda tá aquele não seguro, né. Eu vou aproveitar para corrigir isso aqui agora então, já\n\n**Priscila Leite Nutri:** No caso, esses módulos aí, eles vão entrar embaixo da aula, né? Por exemplo, os slides da aula. Aí, no caso, assim, salvar em PDF e ser disponibilizado os slides da aula, correto?\n\n**Você:** Então, Priscila, como tá sem aulas lá, eu coloquei ele lá na parte de materiais extras, coloquei assim para ser liberado daqui 7 dias, tipo assim, né? Mas aí, se você quiser, depois que entrarem as aulas e eu colocar, tipo assim, as aulas do módulo 1, aí dá para, tipo, depois de todas as aulas do módulo 1, colocar uma aula tipo material do módulo, \n\n**Você:** Corrigimos aqui lá no site, tá, que tava mostrando não seguro quando a pessoa acessa lá naquela barrinha do domínio, né? Aí agora já tá mostrando, viu?\n\n**Você:** Bom, Priscila, fizemos também aqui a correção daquele, o link da bio, tá? Vou mandar o link aqui para você, para você já conseguir adicionar o link lá na bio, é aquele topo, né, que a gente falou na reunião. Então acabamos de corrigir ele e já já vai aparecer aí para você. E também, Priscila, quando a pessoa preencher lá, ela colocar na newsletter \n\n**Você:** Nessa parte aí, ó, você consegue acompanhar um dashboard que, por exemplo, vamos supor, a pessoa respondeu o quiz e aí no final do quiz ela vai ter acesso ali aos erros, né, as dificuldades. E aí um conteúdozinho de tipo assim, olha, você precisa corrigir isso, isso e isso, três pontinhos ali para ela, vai entregar um conteúdo para ela. E logo em s\n\n**Você:** Oi, Priscila, bom dia, tudo bem? Deu certo a gravação? Você conseguiu ver as coisinhas que eu te mandei aí?",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -42268,11 +42268,11 @@
     {
       "id": "transcricao-conv-120363402891316572gus",
       "type": "whatsapp",
-      "titulo": "🎙️ Aline Lima",
-      "data": "2026-07-07",
+      "titulo": "🎙️ Diva Rebel.On",
+      "data": "2026-07-30",
       "perfil": "oficina_dro",
       "parentId": "espaco-90138228562",
-      "conteudo": "**Transcrições — Aline Lima**\n\n3 áudio(s)\n\n**Aline Lima:** Então, Alexia, é assim, você vai mandar a mensaginha, você vai começar assim: oi, tudo bem? A Doutora Bruna Borelli me passou o seu contato, sou Alexia, por aqui eu falo com— e aí coloca o nome dela, tá? Falo com Doutora e o nome dela. Aí espera ela responder. Quando ela responder, aí você vai mandar: então, é referente a um convite para receber um\n\n**Aline Lima:** Alexia, vamos lá. Referente à prospecção, o que muda? Você vai mandar a mensagem inicial do convite: oi, eu queria passar um convite para fulana de tal. Do mesmo jeito. O que vai mudar é a segunda mensagem em diante, que ela vai com um print do plano de ação que a pessoa recebe, tá? Então eu peguei aqui o print de uma cliente, o plano de ação dela,\n\n**Aline Lima:** Alexia, vamos lá. Referente à prospecção, o que muda? Você vai mandar a mensagem inicial do convite: oi, eu queria passar um convite para fulana de tal. Do mesmo jeito. O que vai mudar é a segunda mensagem em diante, que ela vai com um print do plano de ação que a pessoa recebe, tá? Então eu peguei aqui o print de uma cliente, o plano de ação dela,",
+      "conteudo": "**Transcrições — Diva Rebel.On**\n\n5 áudio(s)\n\n**Aline Lima:** Então, Alexia, é assim, você vai mandar a mensaginha, você vai começar assim: oi, tudo bem? A Doutora Bruna Borelli me passou o seu contato, sou Alexia, por aqui eu falo com— e aí coloca o nome dela, tá? Falo com Doutora e o nome dela. Aí espera ela responder. Quando ela responder, aí você vai mandar: então, é referente a um convite para receber um\n\n**Aline Lima:** Alexia, vamos lá. Referente à prospecção, o que muda? Você vai mandar a mensagem inicial do convite: oi, eu queria passar um convite para fulana de tal. Do mesmo jeito. O que vai mudar é a segunda mensagem em diante, que ela vai com um print do plano de ação que a pessoa recebe, tá? Então eu peguei aqui o print de uma cliente, o plano de ação dela,\n\n**Aline Lima:** Alexia, vamos lá. Referente à prospecção, o que muda? Você vai mandar a mensagem inicial do convite: oi, eu queria passar um convite para fulana de tal. Do mesmo jeito. O que vai mudar é a segunda mensagem em diante, que ela vai com um print do plano de ação que a pessoa recebe, tá? Então eu peguei aqui o print de uma cliente, o plano de ação dela,\n\n**Diva Rebel.On:** Alexia, aquela daí de sextas, 16:30, que você tá falando, é assim, ó, você marcou assim, ó, tá ok, então eu posso deixar agendado às 16:30? Não, o certo é: tá ok, então eu vou deixar agendado às 16:30. É isso, tá?\n\n**Diva Rebel.On:** Porque eu olhei lá, ela já tinha marcado, só posso às 16:30. Aí você vai, joga outra pergunta: então, então você quer às 16:30? Ó, você quer? Lembra que eu já expliquei sobre isso? A gente não faz isso. Então é: tá bom, vou deixar agendado às 16:30. Vai ser difícil conseguir recuperar ela aqui, mas eu já falei, tira esse posso, você quer. Já falei,",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -42285,10 +42285,10 @@
       "id": "transcricao-conv-14088298090654lid",
       "type": "whatsapp",
       "titulo": "🎙️ Suporte Nutri Bruna",
-      "data": "2026-07-30",
+      "data": "2026-08-03",
       "perfil": "oficina_dro",
       "parentId": "espaco-90138131805",
-      "conteudo": "**Transcrições — Suporte Nutri Bruna**\n\n111 áudio(s)\n\n**Você:** Oi, Bruna, bom dia! Ah, tá ok, depois você me manda assim direitinho. Hoje a gente vai fazer a adição lá da consultoria, tá lá na página do site, você vai ver. Creio que até o final da semana a gente termine aqui em relação ao da bio, né, para te apresentar, para você dar uma olhadinha. E que mais que eu ia falar? Ela lá tá aqui comigo, esqueci, pe\n\n**Você:** Ah, lembrei, lá no Asas, aquela parte dos webhooks que eu pedi para você fazer, você colocar um link lá e tal. Então temos uma questão, eu pensei assim, quando a pessoa acessa, aí ela coloca os dados dela lá, emite um boleto, por exemplo, né, e acaba não pagando esse boleto. Ou então quando a pessoa chega a digitar, gerar o código Pix, gerar as coi\n\n**Você:** A Bruna, é outra questão que tava acontecendo. Não sei se eu, não sei se eu falei aí em cima, mas enfim, que acontece: a pessoa da consultoria respondeu o quiz, né? Aí o que que tava acontecendo? Ao enviar, ao invés de enviar para ela as respostas que ela deu no quiz, né, o que ela marcou ali, tava enviando tipo o link da planilha. A planilha que é\n\n**Suporte Nutri Bruna:** Oi, Aline. Então, sobre anúncio, realmente eu recebi aqui uma notificação que tá muito bom, né, que tá uma boa conversão. E é boa conversão não, né, bom, o pessoal tá mandando mensagem. A maioria manda no WhatsApp, assim, vou dizer para você que 50/50, né. Então 50% manda no WhatsApp e os outros 50% manda no Instagram. Aí no Instagram eu não tenho \n\n**Você:** Oi, Bruna, podemos ver sim. Ó, eu tenho vaga aqui na terça-feira, aí você me confirma se dá para você. Se você quiser, a gente pode marcar para terça. Deixa eu só confirmar o horário, peraí, rapidão. Deixa eu confirmar o horário aqui para não falar besteira, né? Na parte da tarde, na parte da tarde. Eu tenho 2 horas, eu já tenho. Pera aí, às 2 eu j\n\n**Você:** Essa mensagem é do site, tá? Esse olá, gostaria de agendar uma consulta é do site. Eu configurei lá para quando a pessoa acessar o site, né, e clicar no WhatsApp, em qualquer canto lá do WhatsApp, ou na bolinha, ou contato com você, ela vai enviar assim para você, entendeu? Então significa que tá dando certo em relação ao Google começar a mostrar m\n\n**Você:** Eu não tinha visto isso aqui, gente. Acho que eu fui fazer alguma alteração e sem querer xeretei aqui no negócio que já tava pronto, porque a gente faz o site por código, né? Não é por assim tipo design assim, é por código. Mas eu vou colocar lá.\n\n**Você:** Então, do Asaas, aí se você quiser na reunião, aí você já entra na reunião pelo computador, que aí qualquer coisa eu vou te auxiliando. É que aí depois que eu pensei nisso, entendeu? Eu fiz um teste aqui, só que assim, com um produto meu, né? Claro que eu sempre testo comigo para depois passar para vocês. E o que é bom do Asaas é que se a pessoa el",
+      "conteudo": "**Transcrições — Suporte Nutri Bruna**\n\n138 áudio(s)\n\n**Suporte Nutri Bruna:** Ah, sim, entendi. Beleza, então é porque consulta o pessoal paga normalmente no Pix e tudo mais, não faz o pagamento online ali, né? Mas fechou então, tá? Eu vou dar uma olhada aqui na ClickUp. Esses últimos dias acabei não olhando, mas vou olhar os conteúdos para já começar a fazer próxima semana, né? Próxima semana já é agosto. E beleza, amanhã e\n\n**Suporte Nutri Bruna:** Então, na academia, eu vou lá segunda-feira, fechei lá parceria com eles. Eu não lembro se eu te falei que eu ia fazer lá uma ação, né? Então vou fazer uma ação dos alimentos com açúcar e com sódio. Aí eu separei alguns, imprimi, né, o rótulo de alguns alimentos. Aí eu vou fazer na cartolina mesmo, uma cartolina, colocar ali uns saquinhos de gramag\n\n**Você:** Ah, Bruna, legal, legal. Acho que vai dar bom por ser assim uma coisa interativa e tal, de não ser só uma palestra chata e blá blá blá blá, muita falação e pouca ação, né, interativa assim. Eu acho que vai dar certo sim. E aí a consultoria é o ideal mesmo, é o idealzinho. Vamos alinhar ela na terça-feira, deixar tudo ok, né? Tá, então na terça-feir\n\n**Você:** Essa planilha aí, Bruna, ela tá no seu email, tá? Naquele que você me passou a senha. Aí ela tá nele, naquela parte de Google Planilhas, você encontra ela lá. Só esqueci o nome que eu deixei. Acho que eu deixei o nome de consultoria nutricional mesmo. Aí lá é aquela que eu te mostrei, entendeu? Aí quando você adiciona ali a paciente, o email dela, \n\n**Você:** É que eu ia testar com você em reunião amanhã, entendeu? Aí por isso que eu não tinha detalhado essa parte com você, porque eu ia testar com você amanhã para ver o funcionamento, entendeu? Tipo você respondendo e eu vejo aqui se chega, entendeu? Era, eu ia testar, mas é isso.\n\n**Você:** Eu testei aqui, tá, Bruna? Testei com outro email aqui e assim que eu coloquei na planilha liberou o acesso, tá? Então sempre que você vender a consultoria nutricional é só ir na planilha adicionar o email da pessoa, aí você libera para ela o acesso automaticamente quando ela clicar lá no, para acessar, né, o email. Aí já libera. Pode ter uma inter\n\n**Você:** Quando ela responder o questionário, esqueci de falar também, aí as respostas que ela der no questionário vai carregar na planilha para você, né? Ali você vai ter todas as informações. E a gente, eu pensei aqui agora, né, mas eu acabei de colocar aqui para configurar também para você receber por email. Assim você tem essas duas opções de receber a \n\n**Suporte Nutri Bruna:** Oi, Aline, tudo bem? Obrigada por mandar. Mas aqui para as duas, já vendi a segunda consultoria, e para as duas eu mandei o Forms, aquele Forms que eu te mandei, sabe, com questionário de pré-consulta. E aí amanhã a gente testa certinho para mim deixar isso mais automatizado, que aí eu já vou deixar uma mensagem pronta para conseguir enviar assim q",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -42333,10 +42333,26 @@
       "id": "transcricao-conv-59549889384656lid",
       "type": "whatsapp",
       "titulo": "🎙️ Elaine Talita",
-      "data": "2026-07-24",
+      "data": "2026-07-31",
       "perfil": "oficina_dro",
       "parentId": "espaco-901313951230",
-      "conteudo": "**Transcrições — Elaine Talita**\n\n1 áudio(s)\n\n**Você:** Oi, Elaine, bom dia, tudo bem? Olha, ignora minha voz que eu tô um pouquinho rouca de gripe, menina, mas então ignora esse fato, tá? Eu tô aqui preparando o contrato para te enviar direitinho, né, de 30 dias. Me passa o email para eu te adicionar aqui no espaço, porque hoje a gente já vai criar o seu espaço aqui no ClickUp para a gente se organizar",
+      "conteudo": "**Transcrições — Elaine Talita**\n\n3 áudio(s)\n\n**Você:** Oi, Elaine, bom dia, tudo bem? Olha, ignora minha voz que eu tô um pouquinho rouca de gripe, menina, mas então ignora esse fato, tá? Eu tô aqui preparando o contrato para te enviar direitinho, né, de 30 dias. Me passa o email para eu te adicionar aqui no espaço, porque hoje a gente já vai criar o seu espaço aqui no ClickUp para a gente se organizar\n\n**Você:** Oi, Elaine, vou deixar aqui para você as informações, tá? Vou deixar o link de cadastro do ClickUp, caso você não tenha ainda. Também já vou deixar o link do plano de ação, do espaço que a gente criou lá para o plano de ação, caso não chegue no seu email, né? Aí pelo menos tem o link aqui para você acessar. Vou deixar aqui o contrato para você ler \n\n**Você:** Aí esse encontro de terça-feira, o objetivo é fazer o onboarding, tá? Eu te apresentar o ClickUp, te apresentar os próximos passos que a gente faz, o que a gente precisa para conseguir aplicar o plano, tal, tudo certinho, tá? Então é mais uma reunião de onboarding para você entender quais são os próximos passos direitinho.",
+      "tags": [
+        "whatsapp",
+        "transcrição",
+        "áudio",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "transcricao-conv-227435798864031lid",
+      "type": "whatsapp",
+      "titulo": "🎙️ Ana Beatriz Bento",
+      "data": "2026-07-31",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Transcrições — Ana Beatriz Bento**\n\n1 áudio(s)\n\n**Você:** Oi, Bia, tudo bem? Tudo certinho por aí? Tô entrando em contato, menina. Faz tempo que eu tenho que te mandar mensagem, eu esqueço, esqueço na correria. Mas eu queria saber se você aplicou o plano de ação e se você tem um feedback para me dar em relação a isso, se deu tudo certo, como foi, se você aplicou, entendeu? Aí, se você puder me passar dire",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -42349,10 +42365,10 @@
       "id": "transcricao-conv-26375528395002lid",
       "type": "whatsapp",
       "titulo": "🎙️ Aline Lima",
-      "data": "2026-07-29",
+      "data": "2026-08-02",
       "perfil": "divarebel.on",
       "parentId": "espaco-90138131603",
-      "conteudo": "**Transcrições — Aline Lima**\n\n191 áudio(s)\n\n**Você:** É, então infelizmente é isso, né? Já foi falado que não é para deixar. Vai tirar tudo, vai tirar a TV, vai tirar o computador, vai tirar o celular, vai tirar tudo. Computador vai ser apenas para ela trabalhar só.\n\n**Você:** É, então já deu. Já, eles têm que aprender a obedecer as coisas, fazer as obrigações deles, entendeu? E é isso, infelizmente vai ficar sem celular, sem computador, sem TV. E é isso, os dois. Pode falar para o moleque que tá proibido, e quando a Alexa chegar também tá proibida.\n\n**Aline Lima:** É, então, querido, agora mudando um pouco de assunto, mano, não vejo a hora do dia passar, Sandro, para voltar a nossa folga. Ai, tô vagabunda! Ai, tô virando vagabunda!\n\n**Você:** Ai, nem me fala, nem me fala, que por mim eu nem trabalhava mais, tanto que eu quero ficar em casa. Fala nem que horas que é as reuniões.\n\n**Aline Lima:** É, filho, ainda bem que assim metade do dia já foi, né? Mas tô ansiosinha para chegar ao fim do dia logo, entendeu? Porque, ah, não sei, sabe? Ai, me sinto cansada, eu me sinto cansada. É aquilo que você falou, a gente precisava tipo assim uns 10 dias de férias, mas uns 10 dias sem preocupação, sem, né, filho, tendo compra, tendo as coisas, Conta p\n\n**Aline Lima:** Ah, filho, você tinha perguntado, eu esqueci de falar, mas a minha reunião é agora às 14 horas e a outra às 16, umas 2 e umas 4.\n\n**Aline Lima:** Fio, é aonde você tá? Porque eu tô achando o tempinho muito feio. Você não quer dar um pulinho aqui em casa? Embora eu vou estar em reunião, né? Mas é que lá para baixo tá todo branco, o vento terrível. Nem coloquei a roupa no varal porque eu colocar vai voar.\n\n**Você:** Tá, filha, tô indo aí. Tinha parado aqui no parque, aqui na área industrial. Parei aqui no parque para comer um pouquinho, mas eu tô indo aí então, tá bom?",
+      "conteudo": "**Transcrições — Aline Lima**\n\n211 áudio(s)\n\n**Aline Lima:** Sim, filho, vou no mercado sim, tá? E tá fraco aí, amor, que você tá vendo, tá respondendo rapidinho.\n\n**Você:** Tá mais ou menos, tá dando para pegar um pouquinho alto de energia do teste aí, tá quase.\n\n**Aline Lima:** Fio, terminei meu trabalho agora, viu?\n\n**Você:** Oi amor, bom dia, tudo bem? Como tá as coisas por aí? Tá tudo bem? As crianças dormindo ainda? Você, como você tá? Tudo certo por aí? Tô com saudade, viu? Amanhã eu tô por aí. Beijo, amor, tchau.\n\n**Aline Lima:** Oi, filho, aqui tá tudo bem, amor. As crianças acho que estão dormindo ainda porque estão tudo quietinho lá embaixo. Aí eu tô aproveitando para adiantar meu serviço de amanhã, né, amor, que amanhã é a folga. Aí amanhã eu não fico fazendo coisa aqui, então eu tô adiantando o servicinho de amanhã, entendeu? Que daqui a pouco é aula, aula começa às 10\n\n**Você:** Entendi, filha. Tá bom então. Então boa aula para você então, tá bom? E amanhã eu tô por aí. Beijo.\n\n**Aline Lima:** Mais tarde, né, querido? Mais tarde você tá aqui, que você vem almoçar.\n\n**Você:** É, mas de qualquer maneira eu tô indo para casa já. Tô aqui no shopping, mas tô indo para casa. O celular tá 1% só. De qualquer maneira eu tô indo.",
       "tags": [
         "whatsapp",
         "transcrição",
@@ -42630,7 +42646,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-uiwmr",
+      "id": "ig-divarebel.on-46m5t",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-04",
@@ -54449,17 +54465,17 @@
     },
     {
       "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-14088298090654lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
@@ -54545,6 +54561,11 @@
     {
       "source": "espaco-901313951230",
       "target": "transcricao-conv-59549889384656lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "transcricao-conv-227435798864031lid",
       "tipo": "externo"
     },
     {
@@ -54649,7 +54670,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-uiwmr",
+      "target": "ig-divarebel.on-46m5t",
       "tipo": "externo"
     },
     {
