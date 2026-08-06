@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-06T11:00:13.986Z",
+  "geradoEm": "2026-08-06T13:00:37.647Z",
   "totalNodes": 2081,
   "totalLinks": 2066,
   "nodes": [
@@ -35875,11 +35875,11 @@
       "id": "whatsapp-26375528395002lid",
       "type": "whatsapp",
       "titulo": "Aline Lima",
-      "data": "2026-08-04",
+      "data": "2026-08-06",
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-04\n\n**Últimas mensagens:**\n← Aline Lima: Amor ainda estou fazendo o tete viu. O feijão nem pegou pressão\n← Aline Lima: https://nutricionistabrunaboreggio.com.br/area-membros/\n→ Você: Sim fia verdade tomara que dê certo\n→ Você: Sim fia vai dar certo\n→ Você: Oi fia vc comeu?\n← Aline Lima: calma querido",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-06\n\n**Últimas mensagens:**\n← Aline Lima: Amor ainda estou fazendo o tete viu. O feijão nem pegou pressão\n← Aline Lima: https://nutricionistabrunaboreggio.com.br/area-membros/\n→ Você: Sim fia verdade tomara que dê certo\n→ Você: Sim fia vai dar certo\n→ Você: Oi fia vc comeu?\n← Aline Lima: calma querido",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -36059,7 +36059,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-06\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Aaaa tá entendi\n← Nutri Regiane Silva: Tá certo\n← Nutri Regiane Silva: Oie Aline bom dia tudo bem?\n← Nutri Regiane Silva: Já já vou gravar o vídeo do pronunciamento, você teria alguma ideia de fala pra iniciar o vídeo?\n→ Você: Bom dia Regiane :), melhoras e boa recuperação dessa extração\n→ Você: Isso, tem bastante coisa para ir contra, só precisamos destacar um em especial que realmente represente todo seu trabalho, que seria esse do valor de ",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-06\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Bom dia Aline, obrigada\n← Nutri Regiane Silva: Tá certo, vou vê se consigo fazer essa edição aqui kkk\n← Nutri Regiane Silva: Entendi\n← Nutri Regiane Silva: Vou tentar fazer aqui\n← Nutri Regiane Silva: Ta certo\n← Nutri Regiane Silva: Tá, entendi perfeitamente, vou começar a analisar isso tudo",
       "tags": [
         "whatsapp",
         "followup"
@@ -36675,7 +36675,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-4spr2",
+      "id": "ig-divarebel.on-fkhxl",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-06",
@@ -47044,7 +47044,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-4spr2",
+      "target": "ig-divarebel.on-fkhxl",
       "tipo": "externo"
     },
     {
