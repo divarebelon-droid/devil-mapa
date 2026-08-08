@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-08T13:00:35.041Z",
-  "totalNodes": 2456,
-  "totalLinks": 2396,
+  "geradoEm": "2026-08-08T15:00:35.351Z",
+  "totalNodes": 2455,
+  "totalLinks": 2395,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -74,6 +74,20 @@
       "links": []
     },
     {
+      "id": "espaco-901313951230",
+      "type": "espaco",
+      "titulo": "Elaine Talita (Nutricionista)",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "cor": "#2dd4bf",
+      "conteudo": "**Elaine Talita (Nutricionista)**\n\nEspaço ClickUp",
+      "tags": [
+        "espaco",
+        "Elaine Talita (Nutricionista)"
+      ],
+      "links": []
+    },
+    {
       "id": "espaco-90138131805",
       "type": "espaco",
       "titulo": "Bruna Boreggio (Nutricionista)",
@@ -112,20 +126,6 @@
       "tags": [
         "espaco",
         "Regiane Silva (Nutricionista)"
-      ],
-      "links": []
-    },
-    {
-      "id": "espaco-901313951230",
-      "type": "espaco",
-      "titulo": "Elaine Talita (Nutricionista)",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "cor": "#34d399",
-      "conteudo": "**Elaine Talita (Nutricionista)**\n\nEspaço ClickUp",
-      "tags": [
-        "espaco",
-        "Elaine Talita (Nutricionista)"
       ],
       "links": []
     },
@@ -470,6 +470,21 @@
       "links": []
     },
     {
+      "id": "pasta-901318701246",
+      "type": "pasta",
+      "titulo": "Plano de ação 30 dias",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "cor": "#2dd4bf",
+      "parentId": "espaco-901313951230",
+      "conteudo": "**Plano de ação 30 dias**\n\nPasta em Elaine Talita (Nutricionista)",
+      "tags": [
+        "pasta",
+        "Plano de ação 30 dias"
+      ],
+      "links": []
+    },
+    {
       "id": "pasta-901318129467",
       "type": "pasta",
       "titulo": "Plano de ação 30 dias",
@@ -508,21 +523,6 @@
       "cor": "#e879f9",
       "parentId": "espaco-901313883678",
       "conteudo": "**Plano de ação 30 dias**\n\nPasta em Regiane Silva (Nutricionista)",
-      "tags": [
-        "pasta",
-        "Plano de ação 30 dias"
-      ],
-      "links": []
-    },
-    {
-      "id": "pasta-901318701246",
-      "type": "pasta",
-      "titulo": "Plano de ação 30 dias",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "cor": "#34d399",
-      "parentId": "espaco-901313951230",
-      "conteudo": "**Plano de ação 30 dias**\n\nPasta em Elaine Talita (Nutricionista)",
       "tags": [
         "pasta",
         "Plano de ação 30 dias"
@@ -1565,6 +1565,111 @@
       "links": []
     },
     {
+      "id": "lista-901328053272",
+      "type": "lista",
+      "titulo": "Cronograma",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053272",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Cronograma**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Cronograma"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053280",
+      "type": "lista",
+      "titulo": "NDD",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053280",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**NDD**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "NDD"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053275",
+      "type": "lista",
+      "titulo": "Produtor",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053275",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Produtor**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Produtor"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053271",
+      "type": "lista",
+      "titulo": "Percurso do paciente",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053271",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Percurso do paciente**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Percurso do paciente"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053274",
+      "type": "lista",
+      "titulo": "Central de Campanha",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053274",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Central de Campanha**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Central de Campanha"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053277",
+      "type": "lista",
+      "titulo": "Biblioteca de Atração",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053277",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Biblioteca de Atração**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Biblioteca de Atração"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053279",
+      "type": "lista",
+      "titulo": "Conteúdo Elaine",
+      "data": "2026-08-08",
+      "perfil": "901313951230",
+      "listId": "901328053279",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Conteúdo Elaine**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Conteúdo Elaine"
+      ],
+      "links": []
+    },
+    {
       "id": "lista-901324267096",
       "type": "lista",
       "titulo": "Cronograma",
@@ -1876,111 +1981,6 @@
       "tags": [
         "lista",
         "Conteúdo Regiane"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053272",
-      "type": "lista",
-      "titulo": "Cronograma",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053272",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**Cronograma**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Cronograma"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053280",
-      "type": "lista",
-      "titulo": "NDD",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053280",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**NDD**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "NDD"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053275",
-      "type": "lista",
-      "titulo": "Produtor",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053275",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**Produtor**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Produtor"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053271",
-      "type": "lista",
-      "titulo": "Percurso do paciente",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053271",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**Percurso do paciente**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Percurso do paciente"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053274",
-      "type": "lista",
-      "titulo": "Central de Campanha",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053274",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**Central de Campanha**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Central de Campanha"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053277",
-      "type": "lista",
-      "titulo": "Biblioteca de Atração",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053277",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**Biblioteca de Atração**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Biblioteca de Atração"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901328053279",
-      "type": "lista",
-      "titulo": "Conteúdo Elaine",
-      "data": "2026-08-08",
-      "perfil": "901313951230",
-      "listId": "901328053279",
-      "parentId": "pasta-901318701246",
-      "conteudo": "**Conteúdo Elaine**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Conteúdo Elaine"
       ],
       "links": []
     },
@@ -42601,7 +42601,7 @@
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-08\n\n**Últimas mensagens:**\n← Aline Lima: Ta bom fio\n→ Você: Entendi fia tá bom então\n→ Você: Tô com saudades fia\n← Aline Lima: exatamente fio, ta foda isso\n→ Você: É fia pior que é\n→ Você: É fia que raiva em, mais tomara que dê certo",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-08\n\n**Últimas mensagens:**\n→ Você: Tô com saudades fia\n← Aline Lima: exatamente fio, ta foda isso\n→ Você: É fia pior que é\n→ Você: É fia que raiva em, mais tomara que dê certo\n→ Você: Boa reunião fia\n→ Você: Pior fia que é verdade que raiva em",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -42759,17 +42759,32 @@
       "links": []
     },
     {
-      "id": "whatsapp-33853737594909lid",
+      "id": "whatsapp-59549889384656lid",
       "type": "whatsapp",
-      "titulo": "Contato LID-37594909",
-      "data": "2026-07-09",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86aa469ch",
-      "status": "prospeccao",
-      "conteudo": "**Contato LID-37594909**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-09",
+      "titulo": "Elaine Talita",
+      "data": "2026-08-08",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ajw5zr1",
+      "status": "followup",
+      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-08\n\n**Últimas mensagens:**\n← Elaine Talita: Ótimo\n← Elaine Talita: Sábado 10h30\n← Elaine Talita: Oi é 10h30? Isso?\n→ Você: Isso mesmo\n→ Você: https://meet.google.com/ucc-zjcu-fnx\n← Elaine Talita: ta conectando",
       "tags": [
         "whatsapp",
-        "prospeccao"
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-08-08",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-08\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Sabe quando você vai ao médico e ele olha os seus exames e fala que está tudo OK?! Na verdade NÃO! \nAqui você vai vê que esses exames não estão tão co\n← Nutri Regiane Silva: Assim?\n← Nutri Regiane Silva: Prontooo postei\n← Nutri Regiane Silva: Acha válido pedir para os meus pacientes já comentarem alguma coisa lá?\n→ Você: https://youtu.be/T4Zb_X5xpmQ?si=9O1KMjUXxOqnn-f2\n← Nutri Regiane Silva: Tá ok, obrigada",
+      "tags": [
+        "whatsapp",
+        "followup"
       ],
       "links": []
     },
@@ -42782,36 +42797,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-08\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Nao entendi muito bem como faz, copia isso e cola lá ?\n← Suporte Nutri Bruna: Show beleza\n← Suporte Nutri Bruna: https://youtu.be/YtCwQj6Fehg\n← Suporte Nutri Bruna: DIA 09: Vamos planejar uma refeição livre na semana ou fazer uma receita fit \n\nCheck in\nMeta de agua\nOrganizou a refeição do dia\nAlimentação colorida \n← Suporte Nutri Bruna: Aqui a organização dos botões do desafio 👆🏻\n→ Você: https://ads.google.com/aw/campaigns/new/search/draft?campaignId=281499088256314&ocid=8324605801&workspaceId=0&cmpnInfo=%7B%221%22%3A1%2C%223%22%3A%22h",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-59549889384656lid",
-      "type": "whatsapp",
-      "titulo": "Elaine Talita",
-      "data": "2026-08-08",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ajw5zr1",
-      "status": "followup",
-      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-08\n\n**Últimas mensagens:**\n← Elaine Talita: Pode ser sábado\n← Elaine Talita: Perfeito\n← Elaine Talita: Ótimo\n← Elaine Talita: Sábado 10h30\n← Elaine Talita: Oi é 10h30? Isso?\n→ Você: Isso mesmo",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185873366819004lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Regiane Silva",
-      "data": "2026-08-06",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-06\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Sabe quando você vai ao médico e ele olha os seus exames e fala que está tudo OK?! Na verdade NÃO! \nAqui você vai vê que esses exames não estão tão co\n← Nutri Regiane Silva: Assim?\n← Nutri Regiane Silva: Prontooo postei\n← Nutri Regiane Silva: Acha válido pedir para os meus pacientes já comentarem alguma coisa lá?\n→ Você: https://youtu.be/T4Zb_X5xpmQ?si=9O1KMjUXxOqnn-f2\n← Nutri Regiane Silva: Tá ok, obrigada",
       "tags": [
         "whatsapp",
         "followup"
@@ -43367,7 +43352,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-avrn1",
+      "id": "ig-divarebel.on-sglgy",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-08",
@@ -43515,6 +43500,11 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "espaco-901313951230",
+      "target": "pasta-901318701246",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "espaco-90138131805",
       "target": "pasta-901318129467",
       "tipo": "hierarquia"
@@ -43527,11 +43517,6 @@
     {
       "source": "espaco-901313883678",
       "target": "pasta-901318563492",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "espaco-901313951230",
-      "target": "pasta-901318701246",
       "tipo": "hierarquia"
     },
     {
@@ -43880,6 +43865,41 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053272",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053280",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053275",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053271",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053274",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053277",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053279",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "pasta-901318129467",
       "target": "lista-901324267096",
       "tipo": "hierarquia"
@@ -43982,41 +44002,6 @@
     {
       "source": "pasta-901318563492",
       "target": "lista-901327803184",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053272",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053280",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053275",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053271",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053274",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053277",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318701246",
-      "target": "lista-901328053279",
       "tipo": "hierarquia"
     },
     {
@@ -55180,16 +55165,6 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86aa469ch",
-      "target": "whatsapp-33853737594909lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ajw5zr1",
       "target": "whatsapp-59549889384656lid",
       "tipo": "externo"
@@ -55197,6 +55172,11 @@
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -55386,7 +55366,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-avrn1",
+      "target": "ig-divarebel.on-sglgy",
       "tipo": "externo"
     },
     {
