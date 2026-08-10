@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-10T17:01:52.895Z",
+  "geradoEm": "2026-08-10T19:00:35.352Z",
   "totalNodes": 1012,
   "totalLinks": 998,
   "nodes": [
@@ -16874,6 +16874,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-08-10",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-10\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: O anúncio do Google ficou certinho ?\n← Suporte Nutri Bruna: Pode me mandar\n← Suporte Nutri Bruna: Ahh beleza tá bom\n← Suporte Nutri Bruna: Se não responder aqui me manda no outro WhatsApp\n→ Você: Bruna ainda fazendo aqui, na parte da tarde te chamo, por volta das 15h\n← Suporte Nutri Bruna: Beleza tô por aqui",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
@@ -16896,22 +16911,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-10\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Pronto\n← Priscila Leite Nutri: Vai ser Google mid ou vai ser ligação por aqui mesmo\n→ Você: https://meet.google.com/yqk-jqaf-huf\n→ Você: To lá\n← Priscila Leite Nutri: Oiiii boa tarde\n← Priscila Leite Nutri: Show",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-14088298090654lid",
-      "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
-      "data": "2026-08-10",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-10\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Só preciso gravar o último desafio e fazer as mensagens do WhatsApp \n\nExemplo: mensagem de boas vindas no dia 1, direcionar para assistir a aula \n\nDia\n← Suporte Nutri Bruna: O anúncio do Google ficou certinho ?\n← Suporte Nutri Bruna: Pode me mandar\n← Suporte Nutri Bruna: Ahh beleza tá bom\n← Suporte Nutri Bruna: Se não responder aqui me manda no outro WhatsApp\n→ Você: Bruna ainda fazendo aqui, na parte da tarde te chamo, por volta das 15h",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-10\n\n**Últimas mensagens:**\n→ Você: https://meet.google.com/yqk-jqaf-huf\n→ Você: To lá\n← Priscila Leite Nutri: Oiiii boa tarde\n← Priscila Leite Nutri: Show\n← Priscila Leite Nutri: Aline nem terminei de ouvir os áudios vou voltar aqui\n← Priscila Leite Nutri: https://www.instagram.com/stories/nutri4nutri/3960252412762111633?utm_source=ig_story_item_share&igsh=MTJ3ZDB4ZDk2Z3pwcA==",
       "tags": [
         "whatsapp",
         "followup"
@@ -17467,7 +17467,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-fy7mb",
+      "id": "ig-divarebel.on-qksoz",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-10",
@@ -22296,17 +22296,17 @@
     },
     {
       "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -22496,7 +22496,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-fy7mb",
+      "target": "ig-divarebel.on-qksoz",
       "tipo": "externo"
     },
     {
