@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-12T21:00:36.445Z",
-  "totalNodes": 2413,
-  "totalLinks": 2399,
+  "geradoEm": "2026-08-12T23:00:35.598Z",
+  "totalNodes": 2362,
+  "totalLinks": 2302,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -631,21 +631,6 @@
       "tags": [
         "pasta",
         "Time"
-      ],
-      "links": []
-    },
-    {
-      "id": "pasta-901318485090",
-      "type": "pasta",
-      "titulo": "Plano de ação 30 dias",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#14b8a6",
-      "parentId": "espaco-901313862831",
-      "conteudo": "**Plano de ação 30 dias**\n\nPasta em Espaço de Trabalho",
-      "tags": [
-        "pasta",
-        "Plano de ação 30 dias"
       ],
       "links": []
     },
@@ -2401,111 +2386,6 @@
       "tags": [
         "lista",
         "Cliente Viviane Sanches"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630875",
-      "type": "lista",
-      "titulo": "Cronograma",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630875",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**Cronograma**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Cronograma"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630874",
-      "type": "lista",
-      "titulo": "NDD",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630874",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**NDD**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "NDD"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630868",
-      "type": "lista",
-      "titulo": "Produtor",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630868",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**Produtor**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Produtor"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630873",
-      "type": "lista",
-      "titulo": "Percurso do paciente",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630873",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**Percurso do paciente**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Percurso do paciente"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630867",
-      "type": "lista",
-      "titulo": "Central de Campanha",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630867",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**Central de Campanha**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Central de Campanha"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630869",
-      "type": "lista",
-      "titulo": "Biblioteca de Atração",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630869",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**Biblioteca de Atração**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Biblioteca de Atração"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901327630871",
-      "type": "lista",
-      "titulo": "Conteúdo Priscila",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "listId": "901327630871",
-      "parentId": "pasta-901318485090",
-      "conteudo": "**Conteúdo Priscila**\n\nLista em Plano de ação 30 dias",
-      "tags": [
-        "lista",
-        "Conteúdo Priscila"
       ],
       "links": []
     },
@@ -12406,780 +12286,6 @@
       "tags": [
         "status",
         "planejamento"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630875-di-rio",
-      "type": "status_group",
-      "titulo": "diário",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#1090e0",
-      "listId": "901327630875",
-      "listaNodeId": "lista-901327630875",
-      "parentId": "lista-901327630875",
-      "count": 1,
-      "conteudo": "**diário**\n\nLista: Cronograma\nTarefas: 1",
-      "tags": [
-        "status",
-        "diário"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630875-aprendizagem",
-      "type": "status_group",
-      "titulo": "aprendizagem",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901327630875",
-      "listaNodeId": "lista-901327630875",
-      "parentId": "lista-901327630875",
-      "count": 1,
-      "conteudo": "**aprendizagem**\n\nLista: Cronograma\nTarefas: 1",
-      "tags": [
-        "status",
-        "aprendizagem"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630874-passo-4",
-      "type": "status_group",
-      "titulo": "passo 4",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#1090e0",
-      "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "parentId": "lista-901327630874",
-      "count": 1,
-      "conteudo": "**passo 4**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 4"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630874-passo-1",
-      "type": "status_group",
-      "titulo": "passo 1",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#d33d44",
-      "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "parentId": "lista-901327630874",
-      "count": 1,
-      "conteudo": "**passo 1**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 1"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630874-passo-3",
-      "type": "status_group",
-      "titulo": "passo 3",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "parentId": "lista-901327630874",
-      "count": 1,
-      "conteudo": "**passo 3**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 3"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630874-passo-2",
-      "type": "status_group",
-      "titulo": "passo 2",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#f8ae00",
-      "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "parentId": "lista-901327630874",
-      "count": 1,
-      "conteudo": "**passo 2**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 2"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-depoimentos",
-      "type": "status_group",
-      "titulo": "depoimentos",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**depoimentos**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "depoimentos"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-transforma-o-",
-      "type": "status_group",
-      "titulo": "transformação:",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**transformação:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "transformação:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-sentimento-",
-      "type": "status_group",
-      "titulo": "sentimento:",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-open)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**sentimento:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "sentimento:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-obje-o-",
-      "type": "status_group",
-      "titulo": "objeção:",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**objeção:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "objeção:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-benef-cios-",
-      "type": "status_group",
-      "titulo": "benefícios:",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**benefícios:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "benefícios:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-momento-",
-      "type": "status_group",
-      "titulo": "momento:",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-open)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**momento:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "momento:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630868-novidade-",
-      "type": "status_group",
-      "titulo": "novidade:",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-yellow)",
-      "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "parentId": "lista-901327630868",
-      "count": 1,
-      "conteudo": "**novidade:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "novidade:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630873-considera-o",
-      "type": "status_group",
-      "titulo": "consideração",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#f8ae00",
-      "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "parentId": "lista-901327630873",
-      "count": 1,
-      "conteudo": "**consideração**\n\nLista: Percurso do paciente\nTarefas: 1",
-      "tags": [
-        "status",
-        "consideração"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630873-descoberta",
-      "type": "status_group",
-      "titulo": "descoberta",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#d33d44",
-      "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "parentId": "lista-901327630873",
-      "count": 1,
-      "conteudo": "**descoberta**\n\nLista: Percurso do paciente\nTarefas: 1",
-      "tags": [
-        "status",
-        "descoberta"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630873-decis-o",
-      "type": "status_group",
-      "titulo": "decisão",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#0f9d9f",
-      "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "parentId": "lista-901327630873",
-      "count": 1,
-      "conteudo": "**decisão**\n\nLista: Percurso do paciente\nTarefas: 1",
-      "tags": [
-        "status",
-        "decisão"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630873-fideliza-o",
-      "type": "status_group",
-      "titulo": "fidelização",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#4466ff",
-      "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "parentId": "lista-901327630873",
-      "count": 1,
-      "conteudo": "**fidelização**\n\nLista: Percurso do paciente\nTarefas: 1",
-      "tags": [
-        "status",
-        "fidelização"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-necessidade",
-      "type": "status_group",
-      "titulo": "necessidade",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-pink)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**necessidade**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "necessidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-slogan",
-      "type": "status_group",
-      "titulo": "slogan",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-open)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**slogan**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "slogan"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-futuro-feliz",
-      "type": "status_group",
-      "titulo": "futuro feliz",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**futuro feliz**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "futuro feliz"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-futuro-triste",
-      "type": "status_group",
-      "titulo": "futuro triste",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**futuro triste**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "futuro triste"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-conclus-o",
-      "type": "status_group",
-      "titulo": "conclusão",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**conclusão**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "conclusão"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-curiosidade",
-      "type": "status_group",
-      "titulo": "curiosidade",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-open)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**curiosidade**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "curiosidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-provas",
-      "type": "status_group",
-      "titulo": "provas",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**provas**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "provas"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-mentiras",
-      "type": "status_group",
-      "titulo": "mentiras",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-mint)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**mentiras**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "mentiras"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-sonho",
-      "type": "status_group",
-      "titulo": "sonho",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-pink)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**sonho**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "sonho"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-posicionamento",
-      "type": "status_group",
-      "titulo": "posicionamento",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-red)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**posicionamento**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "posicionamento"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-ponto-a-b",
-      "type": "status_group",
-      "titulo": "ponto a-b",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**ponto a-b**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "ponto a-b"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-protocolo",
-      "type": "status_group",
-      "titulo": "protocolo",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**protocolo**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "protocolo"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-consequ-ncia",
-      "type": "status_group",
-      "titulo": "consequência",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**consequência**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "consequência"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-choque",
-      "type": "status_group",
-      "titulo": "choque",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-red)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**choque**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "choque"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-novidade",
-      "type": "status_group",
-      "titulo": "novidade",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-open)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**novidade**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "novidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867--ngulo",
-      "type": "status_group",
-      "titulo": "ângulo",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**ângulo**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "ângulo"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-seguindo-a-manada",
-      "type": "status_group",
-      "titulo": "seguindo a manada",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**seguindo a manada**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "seguindo a manada"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-pedra-no-sapato",
-      "type": "status_group",
-      "titulo": "pedra no sapato",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-azure-blue)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**pedra no sapato**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "pedra no sapato"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-erro",
-      "type": "status_group",
-      "titulo": "erro",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-yellow)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**erro**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "erro"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630867-persona",
-      "type": "status_group",
-      "titulo": "persona",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-grey)",
-      "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "parentId": "lista-901327630867",
-      "count": 1,
-      "conteudo": "**persona**\n\nLista: Central de Campanha\nTarefas: 1",
-      "tags": [
-        "status",
-        "persona"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630871-ideia",
-      "type": "status_group",
-      "titulo": "ideia",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#87909e",
-      "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "parentId": "lista-901327630871",
-      "count": 4,
-      "conteudo": "**ideia**\n\nLista: Conteúdo Priscila\nTarefas: 4",
-      "tags": [
-        "status",
-        "ideia"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630871-descoberta",
-      "type": "status_group",
-      "titulo": "descoberta",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#f8ae00",
-      "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "parentId": "lista-901327630871",
-      "count": 1,
-      "conteudo": "**descoberta**\n\nLista: Conteúdo Priscila\nTarefas: 1",
-      "tags": [
-        "status",
-        "descoberta"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630871-recupera-o",
-      "type": "status_group",
-      "titulo": "recuperação",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#d33d44",
-      "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "parentId": "lista-901327630871",
-      "count": 1,
-      "conteudo": "**recuperação**\n\nLista: Conteúdo Priscila\nTarefas: 1",
-      "tags": [
-        "status",
-        "recuperação"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630871-considera-o",
-      "type": "status_group",
-      "titulo": "consideração",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#4466ff",
-      "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "parentId": "lista-901327630871",
-      "count": 1,
-      "conteudo": "**consideração**\n\nLista: Conteúdo Priscila\nTarefas: 1",
-      "tags": [
-        "status",
-        "consideração"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630871-sequ-ncia",
-      "type": "status_group",
-      "titulo": "sequência",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "parentId": "lista-901327630871",
-      "count": 1,
-      "conteudo": "**sequência**\n\nLista: Conteúdo Priscila\nTarefas: 1",
-      "tags": [
-        "status",
-        "sequência"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901327630871-decis-o",
-      "type": "status_group",
-      "titulo": "decisão",
-      "data": "2026-08-12",
-      "perfil": "901313862831",
-      "cor": "#b660e0",
-      "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "parentId": "lista-901327630871",
-      "count": 1,
-      "conteudo": "**decisão**\n\nLista: Conteúdo Priscila\nTarefas: 1",
-      "tags": [
-        "status",
-        "decisão"
       ],
       "links": []
     },
@@ -41072,9 +40178,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630875",
-      "listaNodeId": "lista-901327630875",
-      "statusNodeId": "sg-901327630875-di-rio",
-      "parentId": "sg-901327630875-di-rio",
+      "statusNodeId": null,
       "status": "diário",
       "conteudo": "**Atualização**\n\n📋 **Lista:** Cronograma\n🔖 **Status:** diário\n\n\n**Descrição:**\n- [x] Criação de espaço de trabalho\n- [ ] Inicio do Onboarding\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n38d)",
       "tags": [
@@ -41090,9 +40194,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630875",
-      "listaNodeId": "lista-901327630875",
-      "statusNodeId": "sg-901327630875-aprendizagem",
-      "parentId": "sg-901327630875-aprendizagem",
+      "statusNodeId": null,
       "status": "aprendizagem",
       "conteudo": "**Plano de ação**\n\n📋 **Lista:** Cronograma\n🔖 **Status:** aprendizagem\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n38e)",
       "tags": [
@@ -41108,9 +40210,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "statusNodeId": "sg-901327630874-passo-4",
-      "parentId": "sg-901327630874-passo-4",
+      "statusNodeId": null,
       "status": "passo 4",
       "conteudo": "**Oportunidade e Oferta**\n\n📋 **Lista:** NDD\n🔖 **Status:** passo 4\n\n\n**Descrição:**\n### Com necessidades, desejo e demanda estruturado, conseguimos encontrar uma oportunidade para criar uma oferta única:\n- [ ] A oportunidade encontramos dentro de necessidades e desejos\n- [ ] A oferta criamos com base na demanda\n> Exemplo:  \n>   \n> Dentro das necessidades e desejo do exemplo que já citei, temos a oportunidade de vender bolo na porta de saída do trabalho, com a segmentação de padrão, escolhemos que tipo de bolo venderemos. Pode ser vegano, fit ou sem glúten ou comum. Se a demanda for latente, venderemos a oferta pode ser criada em cima de praticidade ou agilidade. Se a demanda for inexistente, criamos a oferta em cima da curiosidade: Sabia que esse bolo tem 30g de proteína e 20g de fibra que pode substituir uma janta e te propor saciedade pelas próximas 4 horas? Ela descobr\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n382)",
       "tags": [
@@ -41126,9 +40226,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "statusNodeId": "sg-901327630874-passo-1",
-      "parentId": "sg-901327630874-passo-1",
+      "statusNodeId": null,
       "status": "passo 1",
       "conteudo": "**Necessidade**\n\n📋 **Lista:** NDD\n🔖 **Status:** passo 1\n\n\n**Descrição:**\n> O produto ou curso precisa resolver uma necessidade que a audiência tem pressa para resolver, isso facilita a compra porque de forma inconsciente já gera um desejo. Isso é super válido principalmente em produto de entrada\n\n**Tipos de necessidade:**\n*   _Necessidade falada:_\n\n    Aquela que o cliente chega falando exatamente o que quer\n\n*   _Necessidade sentida:_\n\n    O cliente precisa suprir alguma expectativa\n\n*   _Necessidade carente:_\n\n    O famoso: Nunca ninguém me deu nada! O cliente precisa sentir que levou vantagem, ganhou algo\n\n*   _Necessidade oculta:_\n\n    O cliente quer ser visto como?\n\n**Necessidades do meu negócio:**\n*   _Necessidade falada:_\n\n*   _Necessidade sentida:_\n\n*   _Necessidade carente:_\n\n*   _Necessidade oculta:_\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n383)",
       "tags": [
@@ -41144,9 +40242,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "statusNodeId": "sg-901327630874-passo-3",
-      "parentId": "sg-901327630874-passo-3",
+      "statusNodeId": null,
       "status": "passo 3",
       "conteudo": "**Demanda**\n\n📋 **Lista:** NDD\n🔖 **Status:** passo 3\n\n\n**Descrição:**\nDescobrimos a demanda em cima da segmentação e ela mantém um negócio vivo.\n\n```css\nA demanda vai além de necessidades e desejos, ela pode levar o negócio a falência. Aqui entra cálculos para saber se um negócio vale a pena.\n```\n\n> O cliente final pode ter a necessidade e e desejo, mas se ele não tiver condições de comprar seu produto, é em vão.\nExemplo:\nAlguns precisam de carro (necessidade), sonham em ter um camaro (desejo), mas quantos realmente podem comprar? ( A quantidade que pode comprar, supre todas as necessidades de se manter um negócio aberto e em que tipo de demanda seu produto, serviço ou infoproduto se enquadra?)\n\nTipos de demanda:\n*   Demanda negativa\n\n    O cliente não gosta do produto e evita comprar (pirataria)\n\n*   Demanda inexistente\n\n    O cliente ainda não conhece o pr\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n387)",
       "tags": [
@@ -41162,9 +40258,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630874",
-      "listaNodeId": "lista-901327630874",
-      "statusNodeId": "sg-901327630874-passo-2",
-      "parentId": "sg-901327630874-passo-2",
+      "statusNodeId": null,
       "status": "passo 2",
       "conteudo": "**Desejo**\n\n📋 **Lista:** NDD\n🔖 **Status:** passo 2\n\n\n**Descrição:**\n> A partir do desejo, conseguimos trazer diferencial para o produto, infoproduto ou serviço.\n\n### Estimulação:\n> **O desejo é a junção da necessidade com o comportamento, interesse e estilo de vida**\nAs estratégias de marketing são trabalhadas em cima de desejo. Tem a ver com apresentar o produto certo, no momento certo. Exemplo:\n\n> **Segmentação:** Saí do serviço sexta-feira as 18h do serviço e em casa ainda tenho que fazer a janta. (comportamento, interesse e estilo de vida)  \n> **Necessidade falada:** Matar a fome sem me cansar mais  \n> **Necessidade sentida:** Quero agilidade  \n> **Necessidade carente:** Qual o tamanho dessa porção? O que mais vem junto?  \n> **Necessidade oculta:** Praticidade\n\nDentro das necessidades, encontramos um padrões de comportamento: toda sexta-feira estará sa\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n38a)",
       "tags": [
@@ -41180,9 +40274,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-depoimentos",
-      "parentId": "sg-901327630868-depoimentos",
+      "statusNodeId": null,
       "status": "depoimentos",
       "conteudo": "**Maria**\n\n📋 **Lista:** Produtor\n🔖 **Status:** depoimentos\n\n\n**Descrição:**\n| PRODUTO |  |\n| ---| --- |\n| RESULTADO |  |\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xm)",
       "tags": [
@@ -41198,9 +40290,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-transforma-o-",
-      "parentId": "sg-901327630868-transforma-o-",
+      "statusNodeId": null,
       "status": "transformação:",
       "conteudo": "**➡ Vida futura**\n\n📋 **Lista:** Produtor\n🔖 **Status:** transformação:\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xp)",
       "tags": [
@@ -41216,9 +40306,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-sentimento-",
-      "parentId": "sg-901327630868-sentimento-",
+      "statusNodeId": null,
       "status": "sentimento:",
       "conteudo": "**➡ Sensação  ➡ Insegurança  ➡ Emocional**\n\n📋 **Lista:** Produtor\n🔖 **Status:** sentimento:\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xq)",
       "tags": [
@@ -41234,9 +40322,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-obje-o-",
-      "parentId": "sg-901327630868-obje-o-",
+      "statusNodeId": null,
       "status": "objeção:",
       "conteudo": "**➡ O que ela acredita fielmente ➡ O que não deu certo **\n\n📋 **Lista:** Produtor\n🔖 **Status:** objeção:\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xr)",
       "tags": [
@@ -41252,9 +40338,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-benef-cios-",
-      "parentId": "sg-901327630868-benef-cios-",
+      "statusNodeId": null,
       "status": "benefícios:",
       "conteudo": "**➡ Como ajudo a audiência**\n\n📋 **Lista:** Produtor\n🔖 **Status:** benefícios:\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xt)",
       "tags": [
@@ -41270,9 +40354,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-momento-",
-      "parentId": "sg-901327630868-momento-",
+      "statusNodeId": null,
       "status": "momento:",
       "conteudo": "**➡ Ações que faz agora e dá errado**\n\n📋 **Lista:** Produtor\n🔖 **Status:** momento:\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2z4)",
       "tags": [
@@ -41288,9 +40370,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630868",
-      "listaNodeId": "lista-901327630868",
-      "statusNodeId": "sg-901327630868-novidade-",
-      "parentId": "sg-901327630868-novidade-",
+      "statusNodeId": null,
       "status": "novidade:",
       "conteudo": "**➡ O que apresento como novo para essa audiência**\n\n📋 **Lista:** Produtor\n🔖 **Status:** novidade:\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2z5)",
       "tags": [
@@ -41306,9 +40386,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "statusNodeId": "sg-901327630873-considera-o",
-      "parentId": "sg-901327630873-considera-o",
+      "statusNodeId": null,
       "status": "consideração",
       "conteudo": "**Fonte de informações**\n\n📋 **Lista:** Percurso do paciente\n🔖 **Status:** consideração\n\n\n**Descrição:**\n**_Essa etapa só acontece se a de atração acontecer de forma bem feita_**\nÉ o momento que a pessoa está com interesse e está pensando em comprar, então ela começa a buscar informações sobre.\nAqui entra em ação opinião de familiares, amigos, colegas, influencers, react de Tiktok. Também essa pessoa pode ir buscar no reclame aqui, perfil do Instagram, então entra em ação os feedbacks\n\n### Como acontece essa etapa?\n- [ ] Pesquisando no Google, fórum ou comunidades\n- [ ] Falando com conhecidos\n- [ ] Perguntando para o time de vendas\n- [ ] Assistindo vídeos de react\n> Um ponto a considerar é que, por mais que a própria marca fala todas as informações do seu produto, é muito melhor quando outra pessoa que usou, fale. Porque a marca sempre puxa a sardinha para o lado dela. Temos agências de influ\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n35w)",
       "tags": [
@@ -41324,9 +40402,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "statusNodeId": "sg-901327630873-descoberta",
-      "parentId": "sg-901327630873-descoberta",
+      "statusNodeId": null,
       "status": "descoberta",
       "conteudo": "**Assimilação e Atração**\n\n📋 **Lista:** Percurso do paciente\n🔖 **Status:** descoberta\n\n\n**Descrição:**\nDescobrir a existência, passa a saber que a marca existe. Pode ser através de anúncios, propagandas, e-mails, prospecção ativa, panfletagem, conteúdo, recomendação de outros e etc..\n\nAqui entra a diferença de alcance e atração. Alcançar fará a pessoa descobrir a marca e esquecer, passar a adiante, ao passo que atrair colocará uma pulga atrás da orelha, desperta a curiosidade. Ela tem um certo nível de interesse, mas não é o suficiente. Aqui um concorrente ainda pode ganhar essa venda.\n\n### Como acontece a etapa 1?\n- [ ] Anúncios online\n- [ ] Recomendação de amigos, familiares ou clientes\n- [ ] Panfletagem\n- [ ] Conteúdo gratuito\n- [ ] Recomendação de Influenciadores\n### Como acontece a etapa 2?\n- [ ] Ao clicar em um anúncio\n- [ ] Acessando uma página de vendas, formulário\n- [ ] Preenchendo\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n35v)",
       "tags": [
@@ -41342,9 +40418,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "statusNodeId": "sg-901327630873-decis-o",
-      "parentId": "sg-901327630873-decis-o",
+      "statusNodeId": null,
       "status": "decisão",
       "conteudo": "**Positivo, Negativo e Modo Zumbi**\n\n📋 **Lista:** Percurso do paciente\n🔖 **Status:** decisão\n\n\n**Descrição:**\nO momento em que ela decide comprar, isso pode ser positivo ou negativo. Toda sua pesquisa e experiência pode fazer a pessoa optar em seguir com a marca ou fortalecer o desejo de ir para o concorrente.\nPor isso, é vital que na pesquisa ela tenha acesso a:\n> feedbacks positivos  \n> notas altas  \n> facilitação  \n> boa experiência  \n> algo em comum  \n> encontrar o solucionador\n\n### Como acontece essa etapa?\n- [ ] Ao clicar em um anúncio\n- [ ] Acessando uma página de vendas, formulário\n- [ ] Preenchendo formulário para ter contato\n#### Coisas que vão influenciar na decisão\n- [ ] Checkout\n- [ ] Preço\n- [ ] Definição de preço\n\n### O que o cliente pensa?\n#### Positivo\n> Vou comprar\n#### Negativo\n> Deixa para a próxima  \n> Não tenho dinheiro agora  \n> Prefiro o concorrente  \n> Não quero  \n> Não pr\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n35u)",
       "tags": [
@@ -41360,9 +40434,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630873",
-      "listaNodeId": "lista-901327630873",
-      "statusNodeId": "sg-901327630873-fideliza-o",
-      "parentId": "sg-901327630873-fideliza-o",
+      "statusNodeId": null,
       "status": "fidelização",
       "conteudo": "**Fãs**\n\n📋 **Lista:** Percurso do paciente\n🔖 **Status:** fidelização\n\n\n**Descrição:**\nFidelizar o cliente, aumenta o LTV da empresa e diminui o CAC. Porque além de ele passar a se posicionar a favor da marca, ele vai levar outras pessoas para ela sempre que tiver uma oportunidade.\n\nAumenta o LTV, porque o mesmo cliente compra mais vezes, aumenta lucro e diminui custo\nDiminui CAC, porque ele indica para outras pessoas que chegam mais qualificadas para a compra. Ele fará pela marca o processo de **descoberta** e **consideração**\n\n### Coisas que vão influenciar\n- [ ] Experiência com o produto\n- [ ] Experiência com loja fisíca ou online\n- [ ] Atendimento\n- [ ] Suporte\n- [ ] Pós venda\n\n### O que o cliente pensa?\n> Recomendo  \n> Vou te indicar  \n> Tenho uma amiga que...\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n360)",
       "tags": [
@@ -41378,9 +40450,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-necessidade",
-      "parentId": "sg-901327630867-necessidade",
+      "statusNodeId": null,
       "status": "necessidade",
       "conteudo": "**Solução para a persona:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** necessidade\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xu)",
       "tags": [
@@ -41396,9 +40466,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-slogan",
-      "parentId": "sg-901327630867-slogan",
+      "statusNodeId": null,
       "status": "slogan",
       "conteudo": "**Mensagem da campanha:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** slogan\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xv)",
       "tags": [
@@ -41414,9 +40482,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-futuro-feliz",
-      "parentId": "sg-901327630867-futuro-feliz",
+      "statusNodeId": null,
       "status": "futuro feliz",
       "conteudo": "**Transformação positiva:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** futuro feliz\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xx)",
       "tags": [
@@ -41432,9 +40498,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-futuro-triste",
-      "parentId": "sg-901327630867-futuro-triste",
+      "statusNodeId": null,
       "status": "futuro triste",
       "conteudo": "**Transformação negativa:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** futuro triste\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2xy)",
       "tags": [
@@ -41450,9 +40514,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-conclus-o",
-      "parentId": "sg-901327630867-conclus-o",
+      "statusNodeId": null,
       "status": "conclusão",
       "conteudo": "**Conclusão triste:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** conclusão\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2z9)",
       "tags": [
@@ -41468,9 +40530,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-curiosidade",
-      "parentId": "sg-901327630867-curiosidade",
+      "statusNodeId": null,
       "status": "curiosidade",
       "conteudo": "**Ativação de curiosidade:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** curiosidade\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2zc)",
       "tags": [
@@ -41486,9 +40546,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-provas",
-      "parentId": "sg-901327630867-provas",
+      "statusNodeId": null,
       "status": "provas",
       "conteudo": "**Validação:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** provas\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2zf)",
       "tags": [
@@ -41504,9 +40562,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-mentiras",
-      "parentId": "sg-901327630867-mentiras",
+      "statusNodeId": null,
       "status": "mentiras",
       "conteudo": "**Mentiras que acreditam:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** mentiras\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2zg)",
       "tags": [
@@ -41522,9 +40578,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-sonho",
-      "parentId": "sg-901327630867-sonho",
+      "statusNodeId": null,
       "status": "sonho",
       "conteudo": "**Big Idea:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** sonho\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n2zh)",
       "tags": [
@@ -41540,9 +40594,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-posicionamento",
-      "parentId": "sg-901327630867-posicionamento",
+      "statusNodeId": null,
       "status": "posicionamento",
       "conteudo": "**Oponente:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** posicionamento\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n30y)",
       "tags": [
@@ -41558,9 +40610,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-ponto-a-b",
-      "parentId": "sg-901327630867-ponto-a-b",
+      "statusNodeId": null,
       "status": "ponto a-b",
       "conteudo": "**Mudança (disso para isso):**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** ponto a-b\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n311)",
       "tags": [
@@ -41576,9 +40626,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-protocolo",
-      "parentId": "sg-901327630867-protocolo",
+      "statusNodeId": null,
       "status": "protocolo",
       "conteudo": "**Protocolo( método):**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** protocolo\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n313)",
       "tags": [
@@ -41594,9 +40642,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-consequ-ncia",
-      "parentId": "sg-901327630867-consequ-ncia",
+      "statusNodeId": null,
       "status": "consequência",
       "conteudo": "**Tortura**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** consequência\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n314)",
       "tags": [
@@ -41612,9 +40658,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-choque",
-      "parentId": "sg-901327630867-choque",
+      "statusNodeId": null,
       "status": "choque",
       "conteudo": "**Frase de impacto:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** choque\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n315)",
       "tags": [
@@ -41630,9 +40674,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-novidade",
-      "parentId": "sg-901327630867-novidade",
+      "statusNodeId": null,
       "status": "novidade",
       "conteudo": "**O que você entrega que é novo para a audiência:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** novidade\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n322)",
       "tags": [
@@ -41648,9 +40690,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867--ngulo",
-      "parentId": "sg-901327630867--ngulo",
+      "statusNodeId": null,
       "status": "ângulo",
       "conteudo": "**Novo ângulo:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** ângulo\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n324)",
       "tags": [
@@ -41666,9 +40706,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-seguindo-a-manada",
-      "parentId": "sg-901327630867-seguindo-a-manada",
+      "statusNodeId": null,
       "status": "seguindo a manada",
       "conteudo": "**Consequências dessas mentiras:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** seguindo a manada\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n327)",
       "tags": [
@@ -41684,9 +40722,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-pedra-no-sapato",
-      "parentId": "sg-901327630867-pedra-no-sapato",
+      "statusNodeId": null,
       "status": "pedra no sapato",
       "conteudo": "**Dor latejante:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** pedra no sapato\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n328)",
       "tags": [
@@ -41702,9 +40738,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-erro",
-      "parentId": "sg-901327630867-erro",
+      "statusNodeId": null,
       "status": "erro",
       "conteudo": "**O que fazem de errado que interfere no resultado:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** erro\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n329)",
       "tags": [
@@ -41720,9 +40754,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630867",
-      "listaNodeId": "lista-901327630867",
-      "statusNodeId": "sg-901327630867-persona",
-      "parentId": "sg-901327630867-persona",
+      "statusNodeId": null,
       "status": "persona",
       "conteudo": "**Quem é a persona:**\n\n📋 **Lista:** Central de Campanha\n🔖 **Status:** persona\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n33m)",
       "tags": [
@@ -41738,9 +40770,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-ideia",
-      "parentId": "sg-901327630871-ideia",
+      "statusNodeId": null,
       "status": "ideia",
       "conteudo": "**LINHA EDITORIAL**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** ideia\n\n\n**Descrição:**\nAqui você encontra a linha editorial para conteúdos feed, ligados as comunidades para ir construindo uma malha ligando tudo\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n34g)",
       "tags": [
@@ -41756,9 +40786,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-descoberta",
-      "parentId": "sg-901327630871-descoberta",
+      "statusNodeId": null,
       "status": "descoberta",
       "conteudo": "**Narrativa: Eu não sabia disso(Curiosidade) [Visita no perfil]**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** descoberta\n\n\n**Descrição:**\n> Em um chá revelação, as pessoas vão morrendo de curiosidade para saber qual o sexo do bebe, gera uma curiosidade em torno do assunto com entretenimento, criatividade e dinamismo. É isso que precisa criar com seu conteúdo.\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n34h)",
       "tags": [
@@ -41774,9 +40802,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-ideia",
-      "parentId": "sg-901327630871-ideia",
+      "statusNodeId": null,
       "status": "ideia",
       "conteudo": "**BASE CONTEÚDO **\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** ideia\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n34j)",
       "tags": [
@@ -41792,9 +40818,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-ideia",
-      "parentId": "sg-901327630871-ideia",
+      "statusNodeId": null,
       "status": "ideia",
       "conteudo": "**INSTRUÇÕES PRISCILA**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** ideia\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n34k)",
       "tags": [
@@ -41810,9 +40834,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-ideia",
-      "parentId": "sg-901327630871-ideia",
+      "statusNodeId": null,
       "status": "ideia",
       "conteudo": "**Inspiração**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** ideia\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n34m)",
       "tags": [
@@ -41828,9 +40850,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-recupera-o",
-      "parentId": "sg-901327630871-recupera-o",
+      "statusNodeId": null,
       "status": "recuperação",
       "conteudo": "**Narrativa: Pra mim deu, quero evoluir para melhor (raiva do presente) [decidirem escolher seu produto ou serviço] **\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** recuperação\n\n\n**Descrição:**\n_Aqui é aquele momento saco cheio, deu por hoje, você vai cutucar até a pessoa comprar._\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n35q)",
       "tags": [
@@ -41846,9 +40866,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-considera-o",
-      "parentId": "sg-901327630871-considera-o",
+      "statusNodeId": null,
       "status": "consideração",
       "conteudo": "**Narrativa: Acho que isso pode me ajudar (identificação) [encontrarem o que vendo]**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** consideração\n\n\n**Descrição:**\n_Aqui a pessoa começa a se identificar com a narrativa que você esta trazendo e começa a sentir que está falando com ela, então talvez seu produto ou serviço a ajude. Essa deve ser a sensação._\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n35y)",
       "tags": [
@@ -41864,9 +40882,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-sequ-ncia",
-      "parentId": "sg-901327630871-sequ-ncia",
+      "statusNodeId": null,
       "status": "sequência",
       "conteudo": "**Sequência**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** sequência\n\n\n**Descrição:**\nSlide 1: Headline chamativa ( curiosidade, impacto ou quebra de padrão)\n\nSlide 2: Vai aparecer nas impressões, deve ser uma continuidade da capa mas com identificação e gancho para incentivar a pessoa arrastar\n\nSlide 3: Aqui vem um reforço de identificação, queremos que a pessoa sinta que estamos falando com ela, que sabemos exatamente a situação atual que ela está, falando como se ela estivesse falando\n\nSlide 4: Aqui trazemos a nossa história atual, começamos a introduzir autoridade, aqui vale o momento atual do expert ou o como ele chegou até aqui\n\nSlide 5: Damos continuidade passando o conteúdo, mas trazendo em tom de história, contando o que o expert fala. Também destacamos posicionamento, mostramos que seguindo o que outro fala, não está dando certo.\n\nSlide 6: Validação, hora de começ\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n361)",
       "tags": [
@@ -41882,9 +40898,7 @@
       "data": "2026-06-22",
       "perfil": "901313862831",
       "listId": "901327630871",
-      "listaNodeId": "lista-901327630871",
-      "statusNodeId": "sg-901327630871-decis-o",
-      "parentId": "sg-901327630871-decis-o",
+      "statusNodeId": null,
       "status": "decisão",
       "conteudo": "**Narrativa: Nossa, ela é a melhor nisso (inspiração) [verem que você é a pessoa ideal para guia-la]**\n\n📋 **Lista:** Conteúdo Priscila\n🔖 **Status:** decisão\n\n\n**Descrição:**\n_A consistência fortalece o cérebro repetição é a chave para fortalecer o seu branding, sua narrativa vai fazer a pessoa passar a se inspirar, se você conseguiu, ela também consegue. Ao despertar inspiração, ela estará quase pronta para comprar._\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aj5n362)",
       "tags": [
@@ -42074,6 +41088,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-14088298090654lid",
+      "type": "whatsapp",
+      "titulo": "Suporte Nutri Bruna",
+      "data": "2026-08-12",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n→ Você: feito\n← Suporte Nutri Bruna: https://youtu.be/WX6j2yWlMJE\n← Suporte Nutri Bruna: https://youtu.be/0BBwewGL9Fs\n← Suporte Nutri Bruna: Os materiais posso te mandar aqui ?\n→ Você: Ta la ja Bruna\n← Suporte Nutri Bruna: Obrigadaa",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
@@ -42081,7 +41110,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Oie Aline. Já subi o vídeo lá no clickup\n→ Você: ja vi e dei meu pitaco kkkkk\n→ Você: eu gostei bastante, isso\n← Nutri Regiane Silva: O segredo nem sempre será olhar somente para o resultado do exame.\n\nO método de tratar e olhar para a causa raiz sempre será a peça peça chave para um\n← Nutri Regiane Silva: Para a legenda, tá bom?\n→ Você: esta si",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n→ Você: eu gostei bastante, isso\n← Nutri Regiane Silva: O segredo nem sempre será olhar somente para o resultado do exame.\n\nO método de tratar e olhar para a causa raiz sempre será a peça peça chave para um\n← Nutri Regiane Silva: Para a legenda, tá bom?\n→ Você: esta si\n→ Você: o email é o mesmo do git hub, cadastrei esse\n→ Você: ah ta blz",
       "tags": [
         "whatsapp",
         "followup"
@@ -42112,21 +41141,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Ah sim, mas pelo menos já apareceu\n← Priscila Leite Nutri: Vou entrar pelo computador\n→ Você: e  nessa parte e conta do instagram\n← Priscila Leite Nutri: Vê se é essa\n← Priscila Leite Nutri: Acho que foi\n→ Você: Ae blz",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-14088298090654lid",
-      "type": "whatsapp",
-      "titulo": "Suporte Nutri Bruna",
-      "data": "2026-08-12",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Aqui nesse botão ver mais também\n← Suporte Nutri Bruna: Ele vai direto para área de membros\n→ Você: feito\n← Suporte Nutri Bruna: https://youtu.be/WX6j2yWlMJE\n← Suporte Nutri Bruna: https://youtu.be/0BBwewGL9Fs\n← Suporte Nutri Bruna: Os materiais posso te mandar aqui ?",
       "tags": [
         "whatsapp",
         "followup"
@@ -42682,7 +41696,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-tpnc3",
+      "id": "ig-divarebel.on-ep489",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-12",
@@ -42882,11 +41896,6 @@
     {
       "source": "espaco-901313688913",
       "target": "pasta-901317818869",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "espaco-901313862831",
-      "target": "pasta-901318485090",
       "tipo": "hierarquia"
     },
     {
@@ -43472,41 +42481,6 @@
     {
       "source": "pasta-901317819005",
       "target": "lista-901326451517",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630875",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630874",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630868",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630873",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630867",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630869",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901318485090",
-      "target": "lista-901327630871",
       "tipo": "hierarquia"
     },
     {
@@ -46257,221 +45231,6 @@
     {
       "source": "lista-901326451521",
       "target": "sg-901326451521-planejamento",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630875",
-      "target": "sg-901327630875-di-rio",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630875",
-      "target": "sg-901327630875-aprendizagem",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630874",
-      "target": "sg-901327630874-passo-4",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630874",
-      "target": "sg-901327630874-passo-1",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630874",
-      "target": "sg-901327630874-passo-3",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630874",
-      "target": "sg-901327630874-passo-2",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-depoimentos",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-transforma-o-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-sentimento-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-obje-o-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-benef-cios-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-momento-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630868",
-      "target": "sg-901327630868-novidade-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630873",
-      "target": "sg-901327630873-considera-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630873",
-      "target": "sg-901327630873-descoberta",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630873",
-      "target": "sg-901327630873-decis-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630873",
-      "target": "sg-901327630873-fideliza-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-necessidade",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-slogan",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-futuro-feliz",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-futuro-triste",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-conclus-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-curiosidade",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-provas",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-mentiras",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-sonho",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-posicionamento",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-ponto-a-b",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-protocolo",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-consequ-ncia",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-choque",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-novidade",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867--ngulo",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-seguindo-a-manada",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-pedra-no-sapato",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-erro",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630867",
-      "target": "sg-901327630867-persona",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630871",
-      "target": "sg-901327630871-ideia",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630871",
-      "target": "sg-901327630871-descoberta",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630871",
-      "target": "sg-901327630871-recupera-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630871",
-      "target": "sg-901327630871-considera-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630871",
-      "target": "sg-901327630871-sequ-ncia",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901327630871",
-      "target": "sg-901327630871-decis-o",
       "tipo": "hierarquia"
     },
     {
@@ -54220,236 +52979,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327630875-di-rio",
-      "target": "clickup-86aj5n38d",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630875-aprendizagem",
-      "target": "clickup-86aj5n38e",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630874-passo-4",
-      "target": "clickup-86aj5n382",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630874-passo-1",
-      "target": "clickup-86aj5n383",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630874-passo-3",
-      "target": "clickup-86aj5n387",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630874-passo-2",
-      "target": "clickup-86aj5n38a",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-depoimentos",
-      "target": "clickup-86aj5n2xm",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-transforma-o-",
-      "target": "clickup-86aj5n2xp",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-sentimento-",
-      "target": "clickup-86aj5n2xq",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-obje-o-",
-      "target": "clickup-86aj5n2xr",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-benef-cios-",
-      "target": "clickup-86aj5n2xt",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-momento-",
-      "target": "clickup-86aj5n2z4",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630868-novidade-",
-      "target": "clickup-86aj5n2z5",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630873-considera-o",
-      "target": "clickup-86aj5n35w",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630873-descoberta",
-      "target": "clickup-86aj5n35v",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630873-decis-o",
-      "target": "clickup-86aj5n35u",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630873-fideliza-o",
-      "target": "clickup-86aj5n360",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-necessidade",
-      "target": "clickup-86aj5n2xu",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-slogan",
-      "target": "clickup-86aj5n2xv",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-futuro-feliz",
-      "target": "clickup-86aj5n2xx",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-futuro-triste",
-      "target": "clickup-86aj5n2xy",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-conclus-o",
-      "target": "clickup-86aj5n2z9",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-curiosidade",
-      "target": "clickup-86aj5n2zc",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-provas",
-      "target": "clickup-86aj5n2zf",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-mentiras",
-      "target": "clickup-86aj5n2zg",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-sonho",
-      "target": "clickup-86aj5n2zh",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-posicionamento",
-      "target": "clickup-86aj5n30y",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-ponto-a-b",
-      "target": "clickup-86aj5n311",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-protocolo",
-      "target": "clickup-86aj5n313",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-consequ-ncia",
-      "target": "clickup-86aj5n314",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-choque",
-      "target": "clickup-86aj5n315",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-novidade",
-      "target": "clickup-86aj5n322",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867--ngulo",
-      "target": "clickup-86aj5n324",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-seguindo-a-manada",
-      "target": "clickup-86aj5n327",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-pedra-no-sapato",
-      "target": "clickup-86aj5n328",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-erro",
-      "target": "clickup-86aj5n329",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630867-persona",
-      "target": "clickup-86aj5n33m",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-ideia",
-      "target": "clickup-86aj5n34g",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-descoberta",
-      "target": "clickup-86aj5n34h",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-ideia",
-      "target": "clickup-86aj5n34j",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-ideia",
-      "target": "clickup-86aj5n34k",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-ideia",
-      "target": "clickup-86aj5n34m",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-recupera-o",
-      "target": "clickup-86aj5n35q",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-considera-o",
-      "target": "clickup-86aj5n35y",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-sequ-ncia",
-      "target": "clickup-86aj5n361",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901327630871-decis-o",
-      "target": "clickup-86aj5n362",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-26375528395002lid",
       "tipo": "externo"
@@ -54511,6 +53040,11 @@
     },
     {
       "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-14088298090654lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
@@ -54522,11 +53056,6 @@
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -54716,7 +53245,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-tpnc3",
+      "target": "ig-divarebel.on-ep489",
       "tipo": "externo"
     },
     {
