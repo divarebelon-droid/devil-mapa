@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-12T13:00:13.632Z",
+  "geradoEm": "2026-08-12T15:00:33.946Z",
   "totalNodes": 2410,
   "totalLinks": 2396,
   "nodes": [
@@ -42045,7 +42045,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Coloco qual URL?\n← Suporte Nutri Bruna: Esse negócio acho complicado de mexer kkkk\n← Suporte Nutri Bruna: Sobre o desafio, vou gravar agora de manhã o último 🙌🏻\nUma paciente desmarcou aí vou ter tempo, assim que finalizar esse desafio já vou programar o \n← Suporte Nutri Bruna: Esse link que vai no Asaas ?\n← Suporte Nutri Bruna: Beleza\n← Suporte Nutri Bruna: To nessa página",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n→ Você: blz\n← Suporte Nutri Bruna: Vou gravar as boas vindas da consultoria e te mando também\n← Suporte Nutri Bruna: Beleza\n← Suporte Nutri Bruna: Essa mensagem está vindo do Google ?\n← Suporte Nutri Bruna: O comando lá ficou assim ?\n→ Você: Isso, começou",
       "tags": [
         "whatsapp",
         "followup"
@@ -42060,7 +42060,22 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Ta certo\n← Nutri Regiane Silva: Ainda não, vou vê tudo agora\n← Nutri Regiane Silva: Tá ok, vou vê se já gravo os vídeos até quarta e te envio\n← Nutri Regiane Silva: Maravilha\n← Nutri Regiane Silva: Tá ok\n→ Você: Bom dia Regiane,pode mandar sim. Sobe ele na clickup para não perder qualidade, que já olho",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Deixa o link assim mesmo ou personaliza?\n← Nutri Regiane Silva: Acho que vou ficar com essa\n→ Você: blz\n← Nutri Regiane Silva: Pronto, já alterei a bio\n← Nutri Regiane Silva: Deu até um alívio\n← Nutri Regiane Silva: Tá certo, vou olhar lá",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-59549889384656lid",
+      "type": "whatsapp",
+      "titulo": "Elaine Talita",
+      "data": "2026-08-12",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ajw5zr1",
+      "status": "followup",
+      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Elaine Talita: E já realizo o pagamento\n→ Você: Bom dia Elaine, tá ok :)\n→ Você: Bom dia Elaine, está melhor? Passando para avisar que até o fim dessa semana te aviso aqui dos preenchimento que te falei no clickup. Outra coisa, com\n← Elaine Talita: Oi tudo bem. Estou melhor sim. Já vou ver o contrato pra te mandar.\n← Elaine Talita: Sim já te mando as referências.\n→ Você: Ah blz",
       "tags": [
         "whatsapp",
         "followup"
@@ -42076,21 +42091,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Priscila Leite Nutri: Mandei só para nutris\n→ Você: Oie bom dia\n→ Você: Achei top\n→ Você: Principalmente porque elas já falaram a dificuldade\n→ Você: Da pra trabalhar em cima disso\n→ Você: Conseguiu ver meus áudios?",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-59549889384656lid",
-      "type": "whatsapp",
-      "titulo": "Elaine Talita",
-      "data": "2026-08-11",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ajw5zr1",
-      "status": "followup",
-      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-11\n\n**Últimas mensagens:**\n← Elaine Talita: Agora de manhã não tô muito bem. Assim. Que melhorar um.pouco já faço isso.\n→ Você: Ah ta ok, melhoras ☺️\n← Elaine Talita: Oi bom dia\n← Elaine Talita: Hj finalizo a assinatura do contrato\n← Elaine Talita: E já realizo o pagamento\n→ Você: Bom dia Elaine, tá ok :)",
       "tags": [
         "whatsapp",
         "followup"
@@ -42631,7 +42631,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-5fc65",
+      "id": "ig-divarebel.on-vczj8",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-12",
@@ -54459,13 +54459,13 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185787584876757lid",
+      "source": "clickup-86ajw5zr1",
+      "target": "whatsapp-59549889384656lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ajw5zr1",
-      "target": "whatsapp-59549889384656lid",
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
@@ -54650,7 +54650,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-5fc65",
+      "target": "ig-divarebel.on-vczj8",
       "tipo": "externo"
     },
     {
