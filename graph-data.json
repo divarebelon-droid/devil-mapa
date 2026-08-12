@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-12T12:42:39.154Z",
+  "geradoEm": "2026-08-12T13:00:13.632Z",
   "totalNodes": 2410,
   "totalLinks": 2396,
   "nodes": [
@@ -42045,7 +42045,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Oiii bom dia Aline\n← Suporte Nutri Bruna: Vou colocar agora pra não esquecer\n← Suporte Nutri Bruna: Coloco qual URL?\n← Suporte Nutri Bruna: Esse negócio acho complicado de mexer kkkk\n← Suporte Nutri Bruna: Sobre o desafio, vou gravar agora de manhã o último 🙌🏻\nUma paciente desmarcou aí vou ter tempo, assim que finalizar esse desafio já vou programar o \n← Suporte Nutri Bruna: Esse link que vai no Asaas ?",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Coloco qual URL?\n← Suporte Nutri Bruna: Esse negócio acho complicado de mexer kkkk\n← Suporte Nutri Bruna: Sobre o desafio, vou gravar agora de manhã o último 🙌🏻\nUma paciente desmarcou aí vou ter tempo, assim que finalizar esse desafio já vou programar o \n← Suporte Nutri Bruna: Esse link que vai no Asaas ?\n← Suporte Nutri Bruna: Beleza\n← Suporte Nutri Bruna: To nessa página",
       "tags": [
         "whatsapp",
         "followup"
@@ -42631,7 +42631,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-bd836",
+      "id": "ig-divarebel.on-5fc65",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-12",
@@ -54650,7 +54650,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-bd836",
+      "target": "ig-divarebel.on-5fc65",
       "tipo": "externo"
     },
     {
