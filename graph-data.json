@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-12T19:01:59.255Z",
-  "totalNodes": 2412,
-  "totalLinks": 2398,
+  "geradoEm": "2026-08-12T21:00:36.445Z",
+  "totalNodes": 2413,
+  "totalLinks": 2399,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -42074,6 +42074,36 @@
       "links": []
     },
     {
+      "id": "whatsapp-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-08-12",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Oie Aline. Já subi o vídeo lá no clickup\n→ Você: ja vi e dei meu pitaco kkkkk\n→ Você: eu gostei bastante, isso\n← Nutri Regiane Silva: O segredo nem sempre será olhar somente para o resultado do exame.\n\nO método de tratar e olhar para a causa raiz sempre será a peça peça chave para um\n← Nutri Regiane Silva: Para a legenda, tá bom?\n→ Você: esta si",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-193909535858835lid",
+      "type": "whatsapp",
+      "titulo": "Contato LID-35858835",
+      "data": "2026-08-12",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86aa469ch",
+      "status": "followup",
+      "conteudo": "**Contato LID-35858835**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite Nutri",
@@ -42097,21 +42127,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Aqui nesse botão ver mais também\n← Suporte Nutri Bruna: Ele vai direto para área de membros\n→ Você: feito\n← Suporte Nutri Bruna: https://youtu.be/WX6j2yWlMJE\n← Suporte Nutri Bruna: https://youtu.be/0BBwewGL9Fs\n← Suporte Nutri Bruna: Os materiais posso te mandar aqui ?",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185873366819004lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Regiane Silva",
-      "data": "2026-08-12",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-12\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Oie Aline. Já subi o vídeo lá no clickup\n→ Você: ja vi e dei meu pitaco kkkkk\n→ Você: eu gostei bastante, isso\n← Nutri Regiane Silva: O segredo nem sempre será olhar somente para o resultado do exame.\n\nO método de tratar e olhar para a causa raiz sempre será a peça peça chave para um\n← Nutri Regiane Silva: Para a legenda, tá bom?\n→ Você: esta si",
       "tags": [
         "whatsapp",
         "followup"
@@ -42667,7 +42682,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-fnw2k",
+      "id": "ig-divarebel.on-tpnc3",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-12",
@@ -54496,17 +54511,22 @@
     },
     {
       "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86aa469ch",
+      "target": "whatsapp-193909535858835lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-14088298090654lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
@@ -54696,7 +54716,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-fnw2k",
+      "target": "ig-divarebel.on-tpnc3",
       "tipo": "externo"
     },
     {
