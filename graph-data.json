@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-15T21:00:35.132Z",
+  "geradoEm": "2026-08-15T23:00:36.092Z",
   "totalNodes": 2415,
   "totalLinks": 2401,
   "nodes": [
@@ -42096,7 +42096,7 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n→ Você: O vídeos não estão aparecendo porque estamos vendo a possibilidade que alei no áudio\n→ Você: Sobre stories e conteúdo, segunda te mando\n← Nutri Bruna Boreggio: Oii Aline\n← Nutri Bruna Boreggio: Os vídeos sumiram\n← Nutri Bruna Boreggio: Ahhh entendi, tomei um susto kkk achei que tinha sumido tudo\n← Nutri Bruna Boreggio: Beleza",
+      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n← Nutri Bruna Boreggio: Oii Aline\n← Nutri Bruna Boreggio: Os vídeos sumiram\n← Nutri Bruna Boreggio: Ahhh entendi, tomei um susto kkk achei que tinha sumido tudo\n← Nutri Bruna Boreggio: Beleza\n→ Você: https://script.google.com/macros/s/AKfycbwrni9YNH5lkLDKYtJ6MQZrFrJ4H_PsWXPWd68aUSGYEFg6BWzS2yojdevN3n9J_Dk/exec\n→ Você: troca a url lá por essa",
       "tags": [
         "whatsapp",
         "followup"
@@ -42712,7 +42712,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-bfs5a",
+      "id": "ig-divarebel.on-eg4r4",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-15",
@@ -54756,7 +54756,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-bfs5a",
+      "target": "ig-divarebel.on-eg4r4",
       "tipo": "externo"
     },
     {
