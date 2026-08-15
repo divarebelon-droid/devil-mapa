@@ -10,7 +10,7 @@
       "data": "2026-08-15",
       "perfil": "90138131766",
       "cor": "#22c55e",
-      "conteudo": "**Home**\n\nEspaço ClickUp",
+      "conteudo": "**Home**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Home"
@@ -24,7 +24,7 @@
       "data": "2026-08-15",
       "perfil": "90138131603",
       "cor": "#ec4899",
-      "conteudo": "**HOMESCHOOLING**\n\nEspaço ClickUp",
+      "conteudo": "**HOMESCHOOLING**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "HOMESCHOOLING"
@@ -38,7 +38,7 @@
       "data": "2026-08-15",
       "perfil": "90138228562",
       "cor": "#7c3aed",
-      "conteudo": "**OFICINA**\n\nEspaço ClickUp",
+      "conteudo": "**OFICINA**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "OFICINA"
@@ -52,7 +52,7 @@
       "data": "2026-08-15",
       "perfil": "90138441679",
       "cor": "#a78bfa",
-      "conteudo": "**Pesquisas**\n\nEspaço ClickUp",
+      "conteudo": "**Pesquisas**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Pesquisas"
@@ -66,7 +66,7 @@
       "data": "2026-08-15",
       "perfil": "901312153685",
       "cor": "#fb923c",
-      "conteudo": "**Entrega**\n\nEspaço ClickUp",
+      "conteudo": "**Entrega**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Entrega"
@@ -80,7 +80,7 @@
       "data": "2026-08-15",
       "perfil": "901313951230",
       "cor": "#2dd4bf",
-      "conteudo": "**Elaine Talita (Nutricionista)**\n\nEspaço ClickUp",
+      "conteudo": "**Elaine Talita (Nutricionista)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Elaine Talita (Nutricionista)"
@@ -94,7 +94,7 @@
       "data": "2026-08-15",
       "perfil": "90138131805",
       "cor": "#f97316",
-      "conteudo": "**Bruna Boreggio (Nutricionista)**\n\nEspaço ClickUp",
+      "conteudo": "**Bruna Boreggio (Nutricionista)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Bruna Boreggio (Nutricionista)"
@@ -108,7 +108,7 @@
       "data": "2026-08-15",
       "perfil": "901313861779",
       "cor": "#06b6d4",
-      "conteudo": "**Priscila Leite (Nutricionista)**\n\nEspaço ClickUp",
+      "conteudo": "**Priscila Leite (Nutricionista)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Priscila Leite (Nutricionista)"
@@ -122,7 +122,7 @@
       "data": "2026-08-15",
       "perfil": "901313883678",
       "cor": "#e879f9",
-      "conteudo": "**Regiane Silva (Nutricionista)**\n\nEspaço ClickUp",
+      "conteudo": "**Regiane Silva (Nutricionista)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Regiane Silva (Nutricionista)"
@@ -136,7 +136,7 @@
       "data": "2026-08-15",
       "perfil": "90138131840",
       "cor": "#f43f5e",
-      "conteudo": "**Simone (Nutricionista)**\n\nEspaço ClickUp",
+      "conteudo": "**Simone (Nutricionista)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Simone (Nutricionista)"
@@ -150,7 +150,7 @@
       "data": "2026-08-15",
       "perfil": "90138131783",
       "cor": "#38bdf8",
-      "conteudo": "**Viviane Sanches (Contadora)**\n\nEspaço ClickUp",
+      "conteudo": "**Viviane Sanches (Contadora)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Viviane Sanches (Contadora)"
@@ -164,7 +164,7 @@
       "data": "2026-08-15",
       "perfil": "901313799671",
       "cor": "#84cc16",
-      "conteudo": "**Contabilidade**\n\nEspaço ClickUp",
+      "conteudo": "**Contabilidade**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Contabilidade"
@@ -178,7 +178,7 @@
       "data": "2026-08-15",
       "perfil": "901313688913",
       "cor": "#a855f7",
-      "conteudo": "**OFICINA (TEMPLATES)**\n\nEspaço ClickUp",
+      "conteudo": "**OFICINA (TEMPLATES)**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "OFICINA (TEMPLATES)"
@@ -192,7 +192,7 @@
       "data": "2026-08-15",
       "perfil": "901313862831",
       "cor": "#14b8a6",
-      "conteudo": "**Espaço de Trabalho**\n\nEspaço ClickUp",
+      "conteudo": "**Espaço de Trabalho**\n\nEspaco ClickUp",
       "tags": [
         "espaco",
         "Espaço de Trabalho"
@@ -470,6 +470,21 @@
       "links": []
     },
     {
+      "id": "pasta-foltas-901312153685",
+      "type": "pasta",
+      "titulo": "Entrega (geral)",
+      "data": "2026-08-15",
+      "perfil": "901312153685",
+      "cor": "#fb923c",
+      "parentId": "espaco-901312153685",
+      "conteudo": "**Entrega (geral)**\n\nPasta em Entrega",
+      "tags": [
+        "pasta",
+        "Entrega (geral)"
+      ],
+      "links": []
+    },
+    {
       "id": "pasta-901318701246",
       "type": "pasta",
       "titulo": "Plano de ação 30 dias",
@@ -526,6 +541,21 @@
       "tags": [
         "pasta",
         "Plano de ação 30 dias"
+      ],
+      "links": []
+    },
+    {
+      "id": "pasta-foltas-90138131783",
+      "type": "pasta",
+      "titulo": "Viviane Sanches (Contadora) (geral)",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "cor": "#38bdf8",
+      "parentId": "espaco-90138131783",
+      "conteudo": "**Viviane Sanches (Contadora) (geral)**\n\nPasta em Viviane Sanches (Contadora)",
+      "tags": [
+        "pasta",
+        "Viviane Sanches (Contadora) (geral)"
       ],
       "links": []
     },
@@ -1565,6 +1595,36 @@
       "links": []
     },
     {
+      "id": "lista-901323697021",
+      "type": "lista",
+      "titulo": "PLANEJAMENTO 2026 ",
+      "data": "2026-08-15",
+      "perfil": "901312153685",
+      "listId": "901323697021",
+      "parentId": "pasta-foltas-901312153685",
+      "conteudo": "**PLANEJAMENTO 2026 **\n\nLista em Entrega (geral)",
+      "tags": [
+        "lista",
+        "PLANEJAMENTO 2026 "
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901323697032",
+      "type": "lista",
+      "titulo": "AÇÃO ",
+      "data": "2026-08-15",
+      "perfil": "901312153685",
+      "listId": "901323697032",
+      "parentId": "pasta-foltas-901312153685",
+      "conteudo": "**AÇÃO **\n\nLista em Entrega (geral)",
+      "tags": [
+        "lista",
+        "AÇÃO "
+      ],
+      "links": []
+    },
+    {
       "id": "lista-901328053272",
       "type": "lista",
       "titulo": "Cronograma",
@@ -1981,6 +2041,111 @@
       "tags": [
         "lista",
         "Conteúdo Regiane"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901315883033",
+      "type": "lista",
+      "titulo": "Cronograma Viviane",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901315883033",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**Cronograma Viviane**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "Cronograma Viviane"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901323021014",
+      "type": "lista",
+      "titulo": "Produtor",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901323021014",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**Produtor**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "Produtor"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901323020911",
+      "type": "lista",
+      "titulo": "Biblioteca de Atração",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901323020911",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**Biblioteca de Atração**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "Biblioteca de Atração"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901315882876",
+      "type": "lista",
+      "titulo": "Conteúdo",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901315882876",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**Conteúdo**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "Conteúdo"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901323644788",
+      "type": "lista",
+      "titulo": "NDD",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901323644788",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**NDD**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "NDD"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901323020994",
+      "type": "lista",
+      "titulo": "Central de Campanha",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901323020994",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**Central de Campanha**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "Central de Campanha"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901323020807",
+      "type": "lista",
+      "titulo": "Percurso do cliente",
+      "data": "2026-08-15",
+      "perfil": "90138131783",
+      "listId": "901323020807",
+      "parentId": "pasta-foltas-90138131783",
+      "conteudo": "**Percurso do cliente**\n\nLista em Viviane Sanches (Contadora) (geral)",
+      "tags": [
+        "lista",
+        "Percurso do cliente"
       ],
       "links": []
     },
@@ -10494,7 +10659,7 @@
       "statusNodeId": "sg-901315882709-mam-e",
       "parentId": "sg-901315882709-mam-e",
       "status": "mamãe",
-      "conteudo": "**☕ Café da manhã com as crianças — 9h (diário)**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** mamãe\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr2vnq)",
+      "conteudo": "**☕ Café da manhã com as crianças — 9h (diário)**\n\nLista: Programação Family\nStatus: mamãe\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr2vnq)",
       "tags": [
         "Programação Family",
         "mamãe"
@@ -10512,7 +10677,7 @@
       "statusNodeId": "sg-901315882709-mam-e",
       "parentId": "sg-901315882709-mam-e",
       "status": "mamãe",
-      "conteudo": "**🧹 Limpeza da casa — Sexta (7h)**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** mamãe\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr2vrb)",
+      "conteudo": "**🧹 Limpeza da casa — Sexta (7h)**\n\nLista: Programação Family\nStatus: mamãe\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr2vrb)",
       "tags": [
         "Programação Family",
         "mamãe"
@@ -10530,7 +10695,7 @@
       "statusNodeId": "sg-901315882709-mam-e",
       "parentId": "sg-901315882709-mam-e",
       "status": "mamãe",
-      "conteudo": "**🛒 Mercado — Sexta (16h, final do dia)**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** mamãe\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr2vtp)",
+      "conteudo": "**🛒 Mercado — Sexta (16h, final do dia)**\n\nLista: Programação Family\nStatus: mamãe\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr2vtp)",
       "tags": [
         "Programação Family",
         "mamãe"
@@ -10548,7 +10713,7 @@
       "statusNodeId": "sg-901315882709-mam-e",
       "parentId": "sg-901315882709-mam-e",
       "status": "mamãe",
-      "conteudo": "**🍳 Dia de cozinha — Domingo (7h)**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** mamãe\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr2vw4)",
+      "conteudo": "**🍳 Dia de cozinha — Domingo (7h)**\n\nLista: Programação Family\nStatus: mamãe\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr2vw4)",
       "tags": [
         "Programação Family",
         "mamãe"
@@ -10566,7 +10731,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**🔍 Prospecção de clientes — Qui e Sáb (tarde)**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr2vy3)",
+      "conteudo": "**🔍 Prospecção de clientes — Qui e Sáb (tarde)**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr2vy3)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10584,7 +10749,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**📚 Estudos + Escola — Qua, Sex e Dom**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr2w4d)",
+      "conteudo": "**📚 Estudos + Escola — Qua, Sex e Dom**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr2w4d)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10602,7 +10767,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**🔍 Prospecção de clientes — Hoje (Terça 28/07)**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr342d)",
+      "conteudo": "**🔍 Prospecção de clientes — Hoje (Terça 28/07)**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr342d)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10620,7 +10785,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**📚 Estudos + Escola — Qua 13h**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr3923)",
+      "conteudo": "**📚 Estudos + Escola — Qua 13h**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr3923)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10638,7 +10803,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**📚 Estudos + Escola — Sex 13h**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr394k)",
+      "conteudo": "**📚 Estudos + Escola — Sex 13h**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr394k)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10656,7 +10821,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**📚 Estudos + Escola — Dom 13h**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr399a)",
+      "conteudo": "**📚 Estudos + Escola — Dom 13h**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr399a)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10674,7 +10839,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**🚿 Lavagem do banheiro — Sex 14h30**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr35x6)",
+      "conteudo": "**🚿 Lavagem do banheiro — Sex 14h30**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr35x6)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10692,7 +10857,7 @@
       "statusNodeId": "sg-901315882709-lel-",
       "parentId": "sg-901315882709-lel-",
       "status": "lelé",
-      "conteudo": "**🛏️ Limpeza dos quartos com o Lek — Qua 14h30**\n\n📋 **Lista:** Programação Family\n🔖 **Status:** lelé\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajr35v0)",
+      "conteudo": "**🛏️ Limpeza dos quartos com o Lek — Qua 14h30**\n\nLista: Programação Family\nStatus: lelé\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajr35v0)",
       "tags": [
         "Programação Family",
         "lelé"
@@ -10710,7 +10875,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Como fazer**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\nVou realizar todas as tarefas dessa lista por SERVIÇO\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk0b)",
+      "conteudo": "**Como fazer**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\nVou realizar todas as tarefas dessa lista por SERVIÇO\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk0b)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10728,7 +10893,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Debriefing de 2025**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n## O que deu certo?\n\n\\- ⁠Conseguimos manter nome limpo por um período\n\\- ⁠Nubank nos ofereceu crédito\n\\- Aline com mais tempo com filhos\n\n## O que deu errado?\n\n\\- Não conquistamos nosso carro\n\\- ⁠Continuamos afundados em dívida\n\\- ⁠Só o Sandro trabalhando praticamente\n\n| Forças | Oportunidades | Fraqueza | Ameaças |\n| ---| ---| ---| --- |\n| Somos unidos<br>Não temos preguiça<br>Um ajuda o outro | Cada um faz a sua parte para juntos conquistarmos nossos objetivos | Estamos cansado devido a um desgaste enorme por causa da LM | Se não conseguirmos um resultado positivo logo, podemos desistir. Cansaço total. |\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk0w)",
+      "conteudo": "**Debriefing de 2025**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n## O que deu certo?\n\n\\- ⁠Conseguimos manter nome limpo por um período\n\\- ⁠Nubank nos ofereceu crédito\n\\- Aline com mais tempo com filhos\n\n## O que deu errado?\n\n\\- Não conquistamos nosso carro\n\\- ⁠Continuamos afundados em dívida\n\\- ⁠Só o Sandro trabalhando praticamente\n\n| Forças | Oportunidades | Fraqueza | Ameaças |\n| ---| ---| ---| --- |\n| Somos unidos<br>Não temos preguiça<br>Um ajuda o outro | Cada um faz a sua parte para juntos conquistarmos nossos objetivos | Estamos cansado devido a um desgaste enorme por causa da LM | Se não conseguirmos um resultado positivo logo, podemos desistir. Can\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk0w)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10746,7 +10911,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Faturamento anual**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n# Quanto você quer faturar no ano?\n\n**R$200.000 juntos**\n\n# Quanto isso dá por mês?\n\n**R$16,700**\n\n# Quanto dá por semana?\n\n**R$4,175**\n\n# E por dia?\n\n**R$140**\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk1a)",
+      "conteudo": "**Faturamento anual**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n# Quanto você quer faturar no ano?\n\n**R$200.000 juntos**\n\n# Quanto isso dá por mês?\n\n**R$16,700**\n\n# Quanto dá por semana?\n\n**R$4,175**\n\n# E por dia?\n\n**R$140**\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk1a)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10764,7 +10929,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Organização Casa**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n### **Situação atual que precisamos corrigir dentro do prazo:**\n- [ ] Nubank Alex **(R$ 2000)**\n- [ ] Precisamos organizar MEI **(R$2000)**\n- [ ] CNH Aline **(R$750)**\n- [ ] Nubank Aline **(R$ 2000)**\n- [ ] Governo Alex **(R$7500)**\n- [ ] Governo Aline **(R$5000)**\n### TOTAL: R$19,250\n\n| Qual foi a ação que mais te gerou retorno $$ esse ano? | Nenhuma, só pagamos contas |\n| ---| --- |\n|  |\n| <br>Em relação a nossa vida, qual foi a maior frustração esse ano? | Só pagar contas e não usufruir de todo ganho |\n| Entre esses tópicos, o que você acredita que ainda tem dificuldade ou é uma fraqueza no sua vida? | Ter que conquistar o que queremos na raça, não fazer parte de pessoas com sorte ou com benção de Deus |\n| O que você julga que tem impedido o seu crescimento/vendas | Inveja, Deus e gover\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qjzv)",
+      "conteudo": "**Organização Casa**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n### **Situação atual que precisamos corrigir dentro do prazo:**\n- [ ] Nubank Alex **(R$ 2000)**\n- [ ] Precisamos organizar MEI **(R$2000)**\n- [ ] CNH Aline **(R$750)**\n- [ ] Nubank Aline **(R$ 2000)**\n- [ ] Governo Alex **(R$7500)**\n- [ ] Governo Aline **(R$5000)**\n### TOTAL: R$19,250\n\n| Qual foi a ação que mais te gerou retorno $$ esse ano? | Nenhuma, só pagamos contas |\n| ---| --- |\n|  |\n| <br>Em relação a nossa vida, qual foi a maior frustração esse ano? | Só pagar contas e não usufruir de todo ganho |\n| Entre esses tópicos, o que você acredita que ainda tem dificuldade ou é uma fraqueza no\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qjzv)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10782,7 +10947,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Informações sobre nossas metas**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n# Qual foi seu faturamento anual?\n\n**Em torno de R$120,000**\n\n# Qual em média era teu faturamento mensal?\n\n**Em torno de R$6000**\n\n# Onde você perdeu dinheiro?\n\nAntes pagávamos aluguel de veículo, agora estamos com moto, ganhamos menos, mas gastamos menos. Perdemos dinheiro em pagar tudo em atraso e estar sempre um passo a atrás, além do governo como encosto no pé\n\n# Qual teu serviço mais lucrativo? Serviço Ouro\n\nFoi a Uber, agora é 99\n\n# O que você deixou de fazer e não deveria?\n\nPrivamos todas as nossas necessidades básicas para pagar LM e outras contas e no final não tivemos retorno algum, além de estresse e desgaste emocional\n\n# Qual produto teu não é lucrativo?\n\nServiço meu, Aline. Simplesmente foi decaindo por pura inveja alheia e macumba\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk0y)",
+      "conteudo": "**Informações sobre nossas metas**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n# Qual foi seu faturamento anual?\n\n**Em torno de R$120,000**\n\n# Qual em média era teu faturamento mensal?\n\n**Em torno de R$6000**\n\n# Onde você perdeu dinheiro?\n\nAntes pagávamos aluguel de veículo, agora estamos com moto, ganhamos menos, mas gastamos menos. Perdemos dinheiro em pagar tudo em atraso e estar sempre um passo a atrás, além do governo como encosto no pé\n\n# Qual teu serviço mais lucrativo? Serviço Ouro\n\nFoi a Uber, agora é 99\n\n# O que você deixou de fazer e não deveria?\n\nPrivamos todas as nossas necessidades básicas para pagar LM e outras contas e no final não tivemos retorno algum, \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk0y)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10800,7 +10965,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Contratações**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n# Quais funcionários você precisa contratar para 2026?\n\nFaxineira\n\n# Quanto custa cada um?\n\n**R$1000**\n\n# Onde você pode encontrá-los?\n\n**Grupos no Facebook**\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk12)",
+      "conteudo": "**Contratações**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n# Quais funcionários você precisa contratar para 2026?\n\nFaxineira\n\n# Quanto custa cada um?\n\n**R$1000**\n\n# Onde você pode encontrá-los?\n\n**Grupos no Facebook**\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk12)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10818,7 +10983,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Coloque meta de faturamento nas ações**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n### Meta:\n- [ ] Adiantar contas em 2 meses e terminar obra do quarto em 3 meses\n- [ ] Adiantar obra quarto crianças em 4 meses e comprar carro\n- [ ] Finalizar cozinha e começar a juntar dinheiro carro em 3 meses\n- [ ] Finalizar pagamento Mottu em Maio de 2027\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk14)",
+      "conteudo": "**Coloque meta de faturamento nas ações**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n### Meta:\n- [ ] Adiantar contas em 2 meses e terminar obra do quarto em 3 meses\n- [ ] Adiantar obra quarto crianças em 4 meses e comprar carro\n- [ ] Finalizar cozinha e começar a juntar dinheiro carro em 3 meses\n- [ ] Finalizar pagamento Mottu em Maio de 2027\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk14)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10836,7 +11001,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Ação de faturamento Mai/Jun 2026**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n## Concentrar em objetivos semanais:\n- [ ] Liquidar três contas por semana, se forem grandes. no mínimo duas contas por semana\n- [ ] Fechar uma venda por semana e colocar RG para rodar\n- [ ] Avaliar retorno quinzenalmente\n- [ ] Retorno para Ifood, trabalhar 3 vezes na semana\n- [ ] Fazer guarda - roupa, cama, mesa quarto e finalizar mesa escritório\n\n## Definir nossa dor latejante: Estresse, tristeza e cansaço\nVivemos apagando incêndio.\n\n## Separar torturas: Inveja, raiva e insatisfação\nTudo é fácil para quem não merece\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qjzu)",
+      "conteudo": "**Ação de faturamento Mai/Jun 2026**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\n## Concentrar em objetivos semanais:\n- [ ] Liquidar três contas por semana, se forem grandes. no mínimo duas contas por semana\n- [ ] Fechar uma venda por semana e colocar RG para rodar\n- [ ] Avaliar retorno quinzenalmente\n- [ ] Retorno para Ifood, trabalhar 3 vezes na semana\n- [ ] Fazer guarda - roupa, cama, mesa quarto e finalizar mesa escritório\n\n## Definir nossa dor latejante: Estresse, tristeza e cansaço\nVivemos apagando incêndio.\n\n## Separar torturas: Inveja, raiva e insatisfação\nTudo é fácil para quem não merece\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qjzu)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10854,7 +11019,7 @@
       "statusNodeId": "sg-901323737034-to-do",
       "parentId": "sg-901323737034-to-do",
       "status": "to do",
-      "conteudo": "**Checkpoint**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\nMapear situação atual, revisar metas ativas, identificar pontos de perda. Entregar relatório com 5 ações de correção rápida para os próximos 7 dias:\n*   Ação 1:\n\n    Consegui fechar minha primeira cliente, dar meu máximo para entregar resultado e fechar mais uma até dia 20\n\n*   Ação 2:\n\n    Amor precisa fazer R$2500 até dia 20 pelo menos\n\n*   Ação 3:\n\n    Melhorar prospecção, montar listas rigorosamente para a Alexya e realmente fazer minhas prospecções\n\n*   Ação 4:\n\n    Definir um nicho para eu prospectar\n\n*   Ação 5:\n\n    Estamos relaxando com a folga do fio, precisamos melhorar o foco\n\n### KPIs:\n*   **Quantas contas foram pagas essa semana?**\n\n    Estamos quase terminando compra semana\n\n*   **Quantas contas faltam pagar esses mês?**\n\n    Todas ainda, exceto o que adiantei mês passado\n\n*\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qjzt)",
+      "conteudo": "**Checkpoint**\n\nLista: PLANEJAMENTO  OFICINA 2026\nStatus: to do\n\nMapear situação atual, revisar metas ativas, identificar pontos de perda. Entregar relatório com 5 ações de correção rápida para os próximos 7 dias:\n*   Ação 1:\n\n    Consegui fechar minha primeira cliente, dar meu máximo para entregar resultado e fechar mais uma até dia 20\n\n*   Ação 2:\n\n    Amor precisa fazer R$2500 até dia 20 pelo menos\n\n*   Ação 3:\n\n    Melhorar prospecção, montar listas rigorosamente para a Alexya e realmente fazer minhas prospecções\n\n*   Ação 4:\n\n    Definir um nicho para eu prospectar\n\n*   Ação 5:\n\n    Estamos relaxando com a folga do fio, precisamos melhorar o foco\n\n### \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qjzt)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -10872,7 +11037,7 @@
       "statusNodeId": "sg-901323737035-contas-em-dia",
       "parentId": "sg-901323737035-contas-em-dia",
       "status": "contas em dia",
-      "conteudo": "**Iniciativas**\n\n📋 **Lista:** AÇÃO\n🔖 **Status:** contas em dia\n\n\n**Descrição:**\n### Trabalhar por objetivos da semana\nPrimeira semana:\n- [ ] Pagar uma conta de luz\n- [ ] Passeio casal\n- [ ] Compra 2 semanas\n- [ ] Reservar R$114,00 moto toda vez que o fio trabalhar\n\n### Para isso, tem que respeitar a programação\n- [ ] R$412,00\n- [ ] R$200,00\n- [ ] R$130,00\n- [ ] R$570,00\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk1h)",
+      "conteudo": "**Iniciativas**\n\nLista: AÇÃO\nStatus: contas em dia\n\n### Trabalhar por objetivos da semana\nPrimeira semana:\n- [ ] Pagar uma conta de luz\n- [ ] Passeio casal\n- [ ] Compra 2 semanas\n- [ ] Reservar R$114,00 moto toda vez que o fio trabalhar\n\n### Para isso, tem que respeitar a programação\n- [ ] R$412,00\n- [ ] R$200,00\n- [ ] R$130,00\n- [ ] R$570,00\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk1h)",
       "tags": [
         "AÇÃO",
         "contas em dia"
@@ -10890,7 +11055,7 @@
       "statusNodeId": "sg-901323737035-reforma-",
       "parentId": "sg-901323737035-reforma-",
       "status": "reforma ",
-      "conteudo": "**Iniciativas**\n\n📋 **Lista:** AÇÃO\n🔖 **Status:** reforma \n\n\n**Descrição:**\n### PLANTA QUARTO:\n- [ ] Comprar parte elétrica\n- [ ] Fazer guarda-roupa\n- [ ] Fazer cama\n- [ ] Fazer mesa\n- [ ] Finalizar mesa escritório\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk1u)",
+      "conteudo": "**Iniciativas**\n\nLista: AÇÃO\nStatus: reforma \n\n### PLANTA QUARTO:\n- [ ] Comprar parte elétrica\n- [ ] Fazer guarda-roupa\n- [ ] Fazer cama\n- [ ] Fazer mesa\n- [ ] Finalizar mesa escritório\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk1u)",
       "tags": [
         "AÇÃO",
         "reforma "
@@ -10908,7 +11073,7 @@
       "statusNodeId": "sg-901323737035-mei-ok",
       "parentId": "sg-901323737035-mei-ok",
       "status": "mei ok",
-      "conteudo": "**Iniciativas**\n\n📋 **Lista:** AÇÃO\n🔖 **Status:** mei ok\n\n\n**Descrição:**\n### Fazer negociação com o objetivo de adiantar para esse roubo acabar\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae4qk13)",
+      "conteudo": "**Iniciativas**\n\nLista: AÇÃO\nStatus: mei ok\n\n### Fazer negociação com o objetivo de adiantar para esse roubo acabar\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ae4qk13)",
       "tags": [
         "AÇÃO",
         "mei ok"
@@ -10926,7 +11091,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Janeiro**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nJaneiro 2025 | Renda: 99 R$777,20 + Uber R$4.892,71 = R$5.669,91 | Despesas: Combustível R$744,00 + Aluguel R$2.780,00 = R$3.524,00 | Base tributável: R$2.145,91\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24ee)",
+      "conteudo": "**Janeiro**\n\nLista: Totais\nStatus: 2025\n\nJaneiro 2025 | Renda: 99 R$777,20 + Uber R$4.892,71 = R$5.669,91 | Despesas: Combustível R$744,00 + Aluguel R$2.780,00 = R$3.524,00 | Base tributável: R$2.145,91\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24ee)",
       "tags": [
         "Totais",
         "2025"
@@ -10944,7 +11109,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Fevereiro**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nFevereiro 2025 | Renda: 99 R$2.296,63 + Uber R$6.384,06 = R$8.680,69 | Despesas: Combustível R$2.067,67 + Aluguel R$2.780,00 = R$4.847,67 | Base tributável: R$3.833,02\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24fm)",
+      "conteudo": "**Fevereiro**\n\nLista: Totais\nStatus: 2025\n\nFevereiro 2025 | Renda: 99 R$2.296,63 + Uber R$6.384,06 = R$8.680,69 | Despesas: Combustível R$2.067,67 + Aluguel R$2.780,00 = R$4.847,67 | Base tributável: R$3.833,02\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24fm)",
       "tags": [
         "Totais",
         "2025"
@@ -10962,7 +11127,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Março**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nMarço 2025 | Renda: 99 R$2.780,66 + Uber R$5.918,42 = R$8.699,08 | Despesas: Combustível R$2.225,40 + Aluguel R$3.475,00 = R$5.700,40 | Base tributável: R$2.998,68\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24fx)",
+      "conteudo": "**Março**\n\nLista: Totais\nStatus: 2025\n\nMarço 2025 | Renda: 99 R$2.780,66 + Uber R$5.918,42 = R$8.699,08 | Despesas: Combustível R$2.225,40 + Aluguel R$3.475,00 = R$5.700,40 | Base tributável: R$2.998,68\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24fx)",
       "tags": [
         "Totais",
         "2025"
@@ -10980,7 +11145,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Abril**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nAbril 2025 | Renda: 99 R$4.418,65 + Uber R$5.744,83 = R$10.163,48 | Despesas: Combustível R$1.863,78 + Aluguel R$2.780,00 = R$4.643,78 | Base tributável: R$5.519,70\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24g9)",
+      "conteudo": "**Abril**\n\nLista: Totais\nStatus: 2025\n\nAbril 2025 | Renda: 99 R$4.418,65 + Uber R$5.744,83 = R$10.163,48 | Despesas: Combustível R$1.863,78 + Aluguel R$2.780,00 = R$4.643,78 | Base tributável: R$5.519,70\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24g9)",
       "tags": [
         "Totais",
         "2025"
@@ -10998,7 +11163,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Maio**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nMaio 2025 | Renda: 99 R$4.550,56 + Uber R$6.201,55 = R$10.752,11 | Despesas: Combustível R$2.269,62 + Aluguel R$2.780,00 = R$5.049,62 | Base tributável: R$5.702,49\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24gf)",
+      "conteudo": "**Maio**\n\nLista: Totais\nStatus: 2025\n\nMaio 2025 | Renda: 99 R$4.550,56 + Uber R$6.201,55 = R$10.752,11 | Despesas: Combustível R$2.269,62 + Aluguel R$2.780,00 = R$5.049,62 | Base tributável: R$5.702,49\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24gf)",
       "tags": [
         "Totais",
         "2025"
@@ -11016,7 +11181,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Junho**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nJunho 2025 | Renda: 99 R$5.111,23 + Uber R$5.977,90 = R$11.089,13 | Despesas: Combustível R$1.931,85 + Aluguel R$3.475,00 = R$5.406,85 | Base tributável: R$5.682,28\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24gm)",
+      "conteudo": "**Junho**\n\nLista: Totais\nStatus: 2025\n\nJunho 2025 | Renda: 99 R$5.111,23 + Uber R$5.977,90 = R$11.089,13 | Despesas: Combustível R$1.931,85 + Aluguel R$3.475,00 = R$5.406,85 | Base tributável: R$5.682,28\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24gm)",
       "tags": [
         "Totais",
         "2025"
@@ -11034,7 +11199,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Dezembro**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nDezembro 2025 | Renda: 99 R$4.937,00 + Uber R$4.496,33 = R$9.433,33 | Despesas: Combustível R$142,05 + Manutenção R$87,00 + Aluguel R$3.475,00 = R$3.704,05 | Base tributável: R$5.729,28\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa65pnj)",
+      "conteudo": "**Dezembro**\n\nLista: Totais\nStatus: 2025\n\nDezembro 2025 | Renda: 99 R$4.937,00 + Uber R$4.496,33 = R$9.433,33 | Despesas: Combustível R$142,05 + Manutenção R$87,00 + Aluguel R$3.475,00 = R$3.704,05 | Base tributável: R$5.729,28\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa65pnj)",
       "tags": [
         "Totais",
         "2025"
@@ -11052,7 +11217,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Novembro**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nNovembro 2025 | Renda: 99 R$4.894,00 + Uber R$4.812,65 = R$9.706,65 | Despesas: Combustível R$533,90 + Manutenção R$431,00 + Aluguel R$2.780,00 = R$3.744,90 | Base tributável: R$5.961,75\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa65pmu)",
+      "conteudo": "**Novembro**\n\nLista: Totais\nStatus: 2025\n\nNovembro 2025 | Renda: 99 R$4.894,00 + Uber R$4.812,65 = R$9.706,65 | Despesas: Combustível R$533,90 + Manutenção R$431,00 + Aluguel R$2.780,00 = R$3.744,90 | Base tributável: R$5.961,75\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa65pmu)",
       "tags": [
         "Totais",
         "2025"
@@ -11070,7 +11235,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Outubro**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nOutubro 2025 | Renda: 99 R$3.458,00 + Uber R$5.903,27 = R$9.361,27 | Despesas: Combustível R$2.132,56 + Aluguel R$2.780,00 = R$4.912,56 | Base tributável: R$4.448,71\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa65pkz)",
+      "conteudo": "**Outubro**\n\nLista: Totais\nStatus: 2025\n\nOutubro 2025 | Renda: 99 R$3.458,00 + Uber R$5.903,27 = R$9.361,27 | Despesas: Combustível R$2.132,56 + Aluguel R$2.780,00 = R$4.912,56 | Base tributável: R$4.448,71\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa65pkz)",
       "tags": [
         "Totais",
         "2025"
@@ -11088,7 +11253,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Setembro**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nSetembro 2025 | Renda: 99 R$3.376,00 + Uber R$6.438,92 = R$9.814,92 | Despesas: Combustível R$2.200,06 + Manutenção R$29,00 + Aluguel R$3.475,00 = R$5.704,06 | Base tributável: R$4.110,86\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa65pjj)",
+      "conteudo": "**Setembro**\n\nLista: Totais\nStatus: 2025\n\nSetembro 2025 | Renda: 99 R$3.376,00 + Uber R$6.438,92 = R$9.814,92 | Despesas: Combustível R$2.200,06 + Manutenção R$29,00 + Aluguel R$3.475,00 = R$5.704,06 | Base tributável: R$4.110,86\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa65pjj)",
       "tags": [
         "Totais",
         "2025"
@@ -11106,7 +11271,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Agosto**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nAgosto 2025 | Renda: 99 R$3.037,00 + Uber R$5.884,11 = R$8.921,11 | Despesas: Combustível R$2.188,32 + Aluguel R$2.780,00 = R$4.968,32 | Base tributável: R$3.952,79\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa65phu)",
+      "conteudo": "**Agosto**\n\nLista: Totais\nStatus: 2025\n\nAgosto 2025 | Renda: 99 R$3.037,00 + Uber R$5.884,11 = R$8.921,11 | Despesas: Combustível R$2.188,32 + Aluguel R$2.780,00 = R$4.968,32 | Base tributável: R$3.952,79\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa65phu)",
       "tags": [
         "Totais",
         "2025"
@@ -11124,7 +11289,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Julho**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nJulho 2025 | Renda: 99 R$4.001,00 + Uber R$5.663,48 = R$9.664,48 | Despesas: Combustível R$2.178,95 + Aluguel R$2.780,00 = R$4.958,95 | Base tributável: R$4.705,53\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa65efj)",
+      "conteudo": "**Julho**\n\nLista: Totais\nStatus: 2025\n\nJulho 2025 | Renda: 99 R$4.001,00 + Uber R$5.663,48 = R$9.664,48 | Despesas: Combustível R$2.178,95 + Aluguel R$2.780,00 = R$4.958,95 | Base tributável: R$4.705,53\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa65efj)",
       "tags": [
         "Totais",
         "2025"
@@ -11142,7 +11307,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**✅ TOTAL 99 — 2025**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nTotal 99PAY recebido via conta pessoal Nubank — ano completo 2025. Jan R$777,20 | Fev R$2.296,63 | Mar R$2.780,66 | Abr R$4.418,65 | Mai R$4.550,56 | Jun R$5.111,23 | Jul R$4.001,00 | Ago R$3.037,00 | Set R$3.376,00 | Out R$3.458,00 | Nov R$4.894,00 | Dez R$4.937,00\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24gx)",
+      "conteudo": "**✅ TOTAL 99 — 2025**\n\nLista: Totais\nStatus: 2025\n\nTotal 99PAY recebido via conta pessoal Nubank — ano completo 2025. Jan R$777,20 | Fev R$2.296,63 | Mar R$2.780,66 | Abr R$4.418,65 | Mai R$4.550,56 | Jun R$5.111,23 | Jul R$4.001,00 | Ago R$3.037,00 | Set R$3.376,00 | Out R$3.458,00 | Nov R$4.894,00 | Dez R$4.937,00\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24gx)",
       "tags": [
         "Totais",
         "2025"
@@ -11160,7 +11325,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**✅ TOTAL UBER — 2025**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n**Descrição:**\nTotal Uber recebido — ano completo 2025. Jan R$4.892,71 | Fev R$6.384,06 | Mar R$5.918,42 | Abr R$5.744,83 | Mai R$6.201,55 | Jun R$5.977,90 | Jul R$5.663,48 | Ago R$5.884,11 | Set R$6.438,92 | Out R$5.903,27 | Nov R$4.812,65 | Dez R$4.496,33\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd24h5)",
+      "conteudo": "**✅ TOTAL UBER — 2025**\n\nLista: Totais\nStatus: 2025\n\nTotal Uber recebido — ano completo 2025. Jan R$4.892,71 | Fev R$6.384,06 | Mar R$5.918,42 | Abr R$5.744,83 | Mai R$6.201,55 | Jun R$5.977,90 | Jul R$5.663,48 | Ago R$5.884,11 | Set R$6.438,92 | Out R$5.903,27 | Nov R$4.812,65 | Dez R$4.496,33\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd24h5)",
       "tags": [
         "Totais",
         "2025"
@@ -11178,7 +11343,7 @@
       "statusNodeId": "sg-901316187526-2026",
       "parentId": "sg-901316187526-2026",
       "status": "2026",
-      "conteudo": "**Extratos**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2026\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahd6c7v)",
+      "conteudo": "**Extratos**\n\nLista: Totais\nStatus: 2026\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahd6c7v)",
       "tags": [
         "Totais",
         "2026"
@@ -11196,7 +11361,7 @@
       "statusNodeId": "sg-901316187526-2025",
       "parentId": "sg-901316187526-2025",
       "status": "2025",
-      "conteudo": "**Imposto de renda 2025**\n\n📋 **Lista:** Totais\n🔖 **Status:** 2025\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ahhmvj4)",
+      "conteudo": "**Imposto de renda 2025**\n\nLista: Totais\nStatus: 2025\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahhmvj4)",
       "tags": [
         "Totais",
         "2025"
@@ -11214,7 +11379,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Avançado 2**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/gjvePTdkxy4\n\n](https://youtu.be/gjvePTdkxy4)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/H6nIt88kl4U\n\n](https://youtu.be/H6nIt88kl4U)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/2b\\_jVxaSaxU\n\n](https://youtu.be/2b_jVxaSaxU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/NQf6ylS9dvE\n\n](https://youtu.be/NQf6ylS9dvE)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/17ZlZsUS\\_WI\n\n](https://youtu.be/17ZlZsUS_WI)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa74kdf)",
+      "conteudo": "**Avançado 2**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/gjvePTdkxy4\n\n](https://youtu.be/gjvePTdkxy4)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/H6nIt88kl4U\n\n](https://youtu.be/H6nIt88kl4U)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/2b\\_jVxaSaxU\n\n](https://youtu.be/2b_jVxaSaxU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/NQf6ylS9dvE\n\n](https://youtu.be/NQf6ylS9dvE)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/17ZlZsUS\\_WI\n\n](https://youtu.be/17ZlZsUS_WI)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa74kdf)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11232,7 +11397,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Avançado 3**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/Qr3X5inx\\_y8\n\n](https://youtu.be/Qr3X5inx_y8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/BvkRVEyELsU\n\n](https://youtu.be/BvkRVEyELsU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/uPzI3gGz-Qc\n\n](https://youtu.be/uPzI3gGz-Qc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/8WpaN8HQAoA\n\n](https://youtu.be/8WpaN8HQAoA)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/\\_dCfHEOcobY\n\n](https://youtu.be/_dCfHEOcobY)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa74krj)",
+      "conteudo": "**Avançado 3**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Qr3X5inx\\_y8\n\n](https://youtu.be/Qr3X5inx_y8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/BvkRVEyELsU\n\n](https://youtu.be/BvkRVEyELsU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/uPzI3gGz-Qc\n\n](https://youtu.be/uPzI3gGz-Qc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/8WpaN8HQAoA\n\n](https://youtu.be/8WpaN8HQAoA)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/\\_dCfHEOcobY\n\n](https://youtu.be/_dCfHEOcobY)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa74krj)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11250,7 +11415,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Mobilidade**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/3dmvlV6tV8w\n\n](https://youtu.be/3dmvlV6tV8w)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aaneg8e)",
+      "conteudo": "**Mobilidade**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/3dmvlV6tV8w\n\n](https://youtu.be/3dmvlV6tV8w)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aaneg8e)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11268,7 +11433,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Bônus**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aanek7x)",
+      "conteudo": "**Bônus**\n\nLista: Treinos\nStatus: treinos jaque\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aanek7x)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11286,7 +11451,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Desafio de 21 dias**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/PSecnMapydI\n\n](https://youtu.be/PSecnMapydI)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/dIrwq\\_ILTeE\n\n](https://youtu.be/dIrwq_ILTeE)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ewrltIxPGlY\n\n](https://youtu.be/ewrltIxPGlY)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ue\\_Ml4CGmy8\n\n](https://youtu.be/ue_Ml4CGmy8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/T4CtKhYlbgc\n\n](https://youtu.be/T4CtKhYlbgc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ieS8Dy8DJyQ\n\n](https://youtu.be/ieS8Dy8DJyQ)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Ccpu9jcfQWA\n\n](https://youtu.be/Ccpu9jcfQWA)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/NSQg3l-butw\n\n](https://youtu.be/NSQg3l-butw)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/xFhV-PvQWCI\n\n](https://youtu.be/xFhV-PvQWCI)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/dx1qD\\_Aj\\_uM\n\n](https://youtu.be/dx1qD_Aj_uM)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Oyrx3Y\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aanence)",
+      "conteudo": "**Desafio de 21 dias**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/PSecnMapydI\n\n](https://youtu.be/PSecnMapydI)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/dIrwq\\_ILTeE\n\n](https://youtu.be/dIrwq_ILTeE)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ewrltIxPGlY\n\n](https://youtu.be/ewrltIxPGlY)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ue\\_Ml4CGmy8\n\n](https://youtu.be/ue_Ml4CGmy8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/T4CtKhYlbgc\n\n](https://youtu.be/T4CtKhYlbgc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ieS8Dy8DJyQ\n\n](https://youtu.be/ieS8Dy8DJyQ)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Ccpu9jcfQWA\n\n](https://youtu.be/Ccpu9jcfQWA)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/NSQg3l-butw\n\n](https://youtu.be/NSQg\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aanence)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11304,7 +11469,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Desafio Bumbum Empinado - FAIXA ELASTICA**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/EvZaY190yxk\n\n](https://youtu.be/EvZaY190yxk)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/CqTGmbmqb2g\n\n](https://youtu.be/CqTGmbmqb2g)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/TGCBolsDYB8\n\n](https://youtu.be/TGCBolsDYB8)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aap036t)",
+      "conteudo": "**Desafio Bumbum Empinado - FAIXA ELASTICA**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/EvZaY190yxk\n\n](https://youtu.be/EvZaY190yxk)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/CqTGmbmqb2g\n\n](https://youtu.be/CqTGmbmqb2g)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/TGCBolsDYB8\n\n](https://youtu.be/TGCBolsDYB8)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aap036t)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11322,7 +11487,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Comece por aqui**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/skOYVYdqqIw\n\n](https://youtu.be/skOYVYdqqIw)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/fu1EbqFD7q4\n\n](https://youtu.be/fu1EbqFD7q4)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/b8BDExsUS6c\n\n](https://youtu.be/b8BDExsUS6c)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/FFvdCGulm1c\n\n](https://youtu.be/FFvdCGulm1c)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aap05av)",
+      "conteudo": "**Comece por aqui**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/skOYVYdqqIw\n\n](https://youtu.be/skOYVYdqqIw)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/fu1EbqFD7q4\n\n](https://youtu.be/fu1EbqFD7q4)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/b8BDExsUS6c\n\n](https://youtu.be/b8BDExsUS6c)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/FFvdCGulm1c\n\n](https://youtu.be/FFvdCGulm1c)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aap05av)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11340,7 +11505,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Plano alimentar**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/lyPCmFP\\_xa4\n\n](https://youtu.be/lyPCmFP_xa4)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aap07ze)",
+      "conteudo": "**Plano alimentar**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/lyPCmFP\\_xa4\n\n](https://youtu.be/lyPCmFP_xa4)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aap07ze)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11358,7 +11523,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Avançado 1**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/icw8cknGHlc\n\n](https://youtu.be/icw8cknGHlc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/77xfUDoFAlQ\n\n](https://youtu.be/77xfUDoFAlQ)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Rzjao-l02Go\n\n](https://youtu.be/Rzjao-l02Go)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/qpH4lE5AcR8\n\n](https://youtu.be/qpH4lE5AcR8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ez3DQN4x17Y\n\n](https://youtu.be/ez3DQN4x17Y)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa73v7v)",
+      "conteudo": "**Avançado 1**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/icw8cknGHlc\n\n](https://youtu.be/icw8cknGHlc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/77xfUDoFAlQ\n\n](https://youtu.be/77xfUDoFAlQ)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Rzjao-l02Go\n\n](https://youtu.be/Rzjao-l02Go)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/qpH4lE5AcR8\n\n](https://youtu.be/qpH4lE5AcR8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ez3DQN4x17Y\n\n](https://youtu.be/ez3DQN4x17Y)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa73v7v)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11376,7 +11541,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Assista antes de treinar**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/X3BHecApFNc\n\n](https://youtu.be/X3BHecApFNc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/5au6xsf1zcM\n\n](https://youtu.be/5au6xsf1zcM)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/FR1Dbg4wzxk\n\n](https://youtu.be/FR1Dbg4wzxk)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/BIl2ZdULO3E\n\n](https://youtu.be/BIl2ZdULO3E)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/9SxoyuJfAUU\n\n](https://youtu.be/9SxoyuJfAUU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/MFq1Tac8-UM\n\n](https://youtu.be/MFq1Tac8-UM)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ot6V4WnxMgU\n\n](https://youtu.be/ot6V4WnxMgU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/5tdVF5zuSP8\n\n](https://youtu.be/5tdVF5zuSP8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/HW-0W9XOOvg\n\n](https://youtu.be/HW-0W9XOOvg)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ppGLXYQX1sk\n\n](https://youtu.be/ppGLXYQX1sk)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aap0j5c)",
+      "conteudo": "**Assista antes de treinar**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/X3BHecApFNc\n\n](https://youtu.be/X3BHecApFNc)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/5au6xsf1zcM\n\n](https://youtu.be/5au6xsf1zcM)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/FR1Dbg4wzxk\n\n](https://youtu.be/FR1Dbg4wzxk)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/BIl2ZdULO3E\n\n](https://youtu.be/BIl2ZdULO3E)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/9SxoyuJfAUU\n\n](https://youtu.be/9SxoyuJfAUU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/MFq1Tac8-UM\n\n](https://youtu.be/MFq1Tac8-UM)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/ot6V4WnxMgU\n\n](https://youtu.be/ot6V4WnxMgU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/5tdVF5zuSP8\n\n](https://youtu.be/5tdVF5\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aap0j5c)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11394,7 +11559,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Jaque Responde - Dúvidas Frequentes**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/VoMYbJctApU\n\n](https://youtu.be/VoMYbJctApU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Q8VfJwG2AhA\n\n](https://youtu.be/Q8VfJwG2AhA)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/wJWQSnPN4z8\n\n](https://youtu.be/wJWQSnPN4z8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/d-9\\_P-L-q-w\n\n](https://youtu.be/d-9_P-L-q-w)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/AAQ9ck3widI\n\n](https://youtu.be/AAQ9ck3widI)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/41xqc70SVjg\n\n](https://youtu.be/41xqc70SVjg)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/MLMvBbooe6w\n\n](https://youtu.be/MLMvBbooe6w)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/6Fh1K1wOYWo\n\n](https://youtu.be/6Fh1K1wOYWo)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/i4ir2iLdKEU\n\n](https://youtu.be/i4ir2iLdKEU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/l5u6BMtCxlI\n\n](https://youtu.be/l5u6BMtCxlI)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/MkmB29cJj\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aap0bpn)",
+      "conteudo": "**Jaque Responde - Dúvidas Frequentes**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/VoMYbJctApU\n\n](https://youtu.be/VoMYbJctApU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/Q8VfJwG2AhA\n\n](https://youtu.be/Q8VfJwG2AhA)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/wJWQSnPN4z8\n\n](https://youtu.be/wJWQSnPN4z8)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/d-9\\_P-L-q-w\n\n](https://youtu.be/d-9_P-L-q-w)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/AAQ9ck3widI\n\n](https://youtu.be/AAQ9ck3widI)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/41xqc70SVjg\n\n](https://youtu.be/41xqc70SVjg)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/MLMvBbooe6w\n\n](https://youtu.be/MLMvBbooe6w)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/6Fh1K1wOYWo\n\n](https://youtu.be/6Fh1K\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aap0bpn)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11412,7 +11577,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Avançado 4**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/dBPrYOtkxcs\n\n](https://youtu.be/dBPrYOtkxcs)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/T1Exf74Roaw\n\n](https://youtu.be/T1Exf74Roaw)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/9hAUFnd-u84\n\n](https://youtu.be/9hAUFnd-u84)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/C\\_t3hgmYuCs\n\n](https://youtu.be/C_t3hgmYuCs)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/xVnFZRU7a-Y\n\n](https://youtu.be/xVnFZRU7a-Y)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa74kxr)",
+      "conteudo": "**Avançado 4**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/dBPrYOtkxcs\n\n](https://youtu.be/dBPrYOtkxcs)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/T1Exf74Roaw\n\n](https://youtu.be/T1Exf74Roaw)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/9hAUFnd-u84\n\n](https://youtu.be/9hAUFnd-u84)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/C\\_t3hgmYuCs\n\n](https://youtu.be/C_t3hgmYuCs)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/xVnFZRU7a-Y\n\n](https://youtu.be/xVnFZRU7a-Y)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa74kxr)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -11430,7 +11595,7 @@
       "statusNodeId": "sg-901316278493-treinos-jaque",
       "parentId": "sg-901316278493-treinos-jaque",
       "status": "treinos jaque",
-      "conteudo": "**Iniciante**\n\n📋 **Lista:** Treinos\n🔖 **Status:** treinos jaque\n\n\n**Descrição:**\n[\n\nyoutu.be\n\nhttps://youtu.be/9YgCswa3Ogo\n\n](https://youtu.be/9YgCswa3Ogo)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/IrvZfu-p4o0\n\n](https://youtu.be/IrvZfu-p4o0)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/W5Sa6Dq30Ug\n\n](https://youtu.be/W5Sa6Dq30Ug)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/lhbqjy1MHEU\n\n](https://youtu.be/lhbqjy1MHEU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/g3QI-j2XiCc\n\n](https://youtu.be/g3QI-j2XiCc)\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86aa741d5)",
+      "conteudo": "**Iniciante**\n\nLista: Treinos\nStatus: treinos jaque\n\n[\n\nyoutu.be\n\nhttps://youtu.be/9YgCswa3Ogo\n\n](https://youtu.be/9YgCswa3Ogo)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/IrvZfu-p4o0\n\n](https://youtu.be/IrvZfu-p4o0)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/W5Sa6Dq30Ug\n\n](https://youtu.be/W5Sa6Dq30Ug)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/lhbqjy1MHEU\n\n](https://youtu.be/lhbqjy1MHEU)\n\n[\n\nyoutu.be\n\nhttps://youtu.be/g3QI-j2XiCc\n\n](https://youtu.be/g3QI-j2XiCc)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa741d5)",
       "tags": [
         "Treinos",
         "treinos jaque"
@@ -35534,6 +35699,11 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "espaco-901312153685",
+      "target": "pasta-foltas-901312153685",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "espaco-901313951230",
       "target": "pasta-901318701246",
       "tipo": "hierarquia"
@@ -35551,6 +35721,11 @@
     {
       "source": "espaco-901313883678",
       "target": "pasta-901318563492",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "espaco-90138131783",
+      "target": "pasta-foltas-90138131783",
       "tipo": "hierarquia"
     },
     {
@@ -35899,6 +36074,16 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "pasta-foltas-901312153685",
+      "target": "lista-901323697021",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-901312153685",
+      "target": "lista-901323697032",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "pasta-901318701246",
       "target": "lista-901328053272",
       "tipo": "hierarquia"
@@ -36036,6 +36221,41 @@
     {
       "source": "pasta-901318563492",
       "target": "lista-901327803184",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901315883033",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901323021014",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901323020911",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901315882876",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901323644788",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901323020994",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-foltas-90138131783",
+      "target": "lista-901323020807",
       "tipo": "hierarquia"
     },
     {
