@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-15T11:51:35.278Z",
+  "geradoEm": "2026-08-15T13:00:32.098Z",
   "totalNodes": 2006,
   "totalLinks": 1992,
   "nodes": [
@@ -34755,7 +34755,22 @@
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n→ Você: Ae blz\n→ Você: Oi Priscila bom dia, tem mais design de conteúdo para verificar no clickup.\n\nTambém queria ver com você uma data para o Workshop, já tem algumas aulas\n← Priscila Leite Nutri: Certo \nNa hora do almoço eu vejo a\nData\n← Priscila Leite Nutri: https://notes.granola.ai/t/d0cecf4f-8f7a-48f5-988e-00c1b3e07362\n← Priscila Leite Nutri: Menina, que maravilha\n← Priscila Leite Nutri: Ameiiiiiii",
+      "conteudo": "**Priscila Leite Nutri**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n→ Você: Oi Priscila bom dia, tem mais design de conteúdo para verificar no clickup.\n\nTambém queria ver com você uma data para o Workshop, já tem algumas aulas\n← Priscila Leite Nutri: Certo \nNa hora do almoço eu vejo a\nData\n← Priscila Leite Nutri: https://notes.granola.ai/t/d0cecf4f-8f7a-48f5-988e-00c1b3e07362\n← Priscila Leite Nutri: Menina, que maravilha\n← Priscila Leite Nutri: Ameiiiiiii\n→ Você: Oiê :), que bom que deu certo, essas ferramentas são Mara",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-08-15",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Certo, vou postar as 20:55 então\n→ Você: Blz :)\n← Nutri Regiane Silva: Legenda de hoje:\n\nO fato de receber um diagnóstico de diabetes não significa parar totalmente a vida e sim olhar para o seu organismo de uma forma dif\n← Nutri Regiane Silva: Tá bom?\n← Nutri Regiane Silva: Já vou deixar agendado para postar, se não as 20:55 eu esqueço kkk porque vou estar jantando\n→ Você: Bom dia Regiane, só vi agora :(, ontem foi corrido. Mas ficou bom sim viu, os próximos eu já deixo uma base lá pra ficar mais fácil pra você",
       "tags": [
         "whatsapp",
         "followup"
@@ -34771,21 +34786,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-14\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Aline, ainda não tem pessoas entrando em contato pelo Google \nFoi só aquele lead, vou fazer follow up hoje com ela, pois parou de me responder \nO Goog\n→ Você: Oi Bruna vou verificar como tá lá\n→ Você: Outra coisa Bruna, até segunda feira te mando o contrato com a atualização do plano para aquele de 500 reais viu, não tive tempo pra fazer ainda\n← Suporte Nutri Bruna: Oii Aline\n← Suporte Nutri Bruna: Ahh entendi, vamos ver se melhora\n← Suporte Nutri Bruna: Beleza tranquilo",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185873366819004lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Regiane Silva",
-      "data": "2026-08-14",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-14\n\n**Últimas mensagens:**\n→ Você: Então falta o das 21h e das 9h\n← Nutri Regiane Silva: Certo, vou postar as 20:55 então\n→ Você: Blz :)\n← Nutri Regiane Silva: Legenda de hoje:\n\nO fato de receber um diagnóstico de diabetes não significa parar totalmente a vida e sim olhar para o seu organismo de uma forma dif\n← Nutri Regiane Silva: Tá bom?\n← Nutri Regiane Silva: Já vou deixar agendado para postar, se não as 20:55 eu esqueço kkk porque vou estar jantando",
       "tags": [
         "whatsapp",
         "followup"
@@ -35356,7 +35356,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-rvmwv",
+      "id": "ig-divarebel.on-67k13",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-15",
@@ -45155,12 +45155,12 @@
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-14088298090654lid",
+      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185873366819004lid",
+      "target": "whatsapp-14088298090654lid",
       "tipo": "externo"
     },
     {
@@ -45355,7 +45355,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-rvmwv",
+      "target": "ig-divarebel.on-67k13",
       "tipo": "externo"
     },
     {
