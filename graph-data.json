@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-15T13:00:32.098Z",
-  "totalNodes": 2006,
-  "totalLinks": 1992,
+  "geradoEm": "2026-08-15T15:00:34.149Z",
+  "totalNodes": 2007,
+  "totalLinks": 1993,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -34748,6 +34748,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-08-15",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ahz5nv3",
+      "status": "followup",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n→ Você: Bom dia Regiane, só vi agora :(, ontem foi corrido. Mas ficou bom sim viu, os próximos eu já deixo uma base lá pra ficar mais fácil pra você\n← Nutri Regiane Silva: Oie bom diaa\n← Nutri Regiane Silva: Tá certo\n← Nutri Regiane Silva: Eu postei ontem as 21h, porém não teve muitas curtidas não\n← Nutri Regiane Silva: Nem visualização\n→ Você: Hum, por isso que é bom testar. A semana que vem, já teremos um mehor horário para criar rotina",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite Nutri",
@@ -34763,14 +34778,14 @@
       "links": []
     },
     {
-      "id": "whatsapp-185873366819004lid",
+      "id": "whatsapp-191216406761607lid",
       "type": "whatsapp",
-      "titulo": "Nutri Regiane Silva",
+      "titulo": "Nutri Bruna Boreggio",
       "data": "2026-08-15",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Certo, vou postar as 20:55 então\n→ Você: Blz :)\n← Nutri Regiane Silva: Legenda de hoje:\n\nO fato de receber um diagnóstico de diabetes não significa parar totalmente a vida e sim olhar para o seu organismo de uma forma dif\n← Nutri Regiane Silva: Tá bom?\n← Nutri Regiane Silva: Já vou deixar agendado para postar, se não as 20:55 eu esqueço kkk porque vou estar jantando\n→ Você: Bom dia Regiane, só vi agora :(, ontem foi corrido. Mas ficou bom sim viu, os próximos eu já deixo uma base lá pra ficar mais fácil pra você",
+      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n→ Você: Bruna bom dia, ta por ai?\n← Nutri Bruna Boreggio: Oiii\n← Nutri Bruna Boreggio: Estou\n← Nutri Bruna Boreggio: Estava atendendo\n← Nutri Bruna Boreggio: foi\n→ Você: blz",
       "tags": [
         "whatsapp",
         "followup"
@@ -34781,11 +34796,11 @@
       "id": "whatsapp-14088298090654lid",
       "type": "whatsapp",
       "titulo": "Suporte Nutri Bruna",
-      "data": "2026-08-14",
+      "data": "2026-08-15",
       "perfil": "oficina_dro",
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
-      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-14\n\n**Últimas mensagens:**\n← Suporte Nutri Bruna: Aline, ainda não tem pessoas entrando em contato pelo Google \nFoi só aquele lead, vou fazer follow up hoje com ela, pois parou de me responder \nO Goog\n→ Você: Oi Bruna vou verificar como tá lá\n→ Você: Outra coisa Bruna, até segunda feira te mando o contrato com a atualização do plano para aquele de 500 reais viu, não tive tempo pra fazer ainda\n← Suporte Nutri Bruna: Oii Aline\n← Suporte Nutri Bruna: Ahh entendi, vamos ver se melhora\n← Suporte Nutri Bruna: Beleza tranquilo",
+      "conteudo": "**Suporte Nutri Bruna**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-15\n\n**Últimas mensagens:**\n→ Você: Oi Bruna vou verificar como tá lá\n→ Você: Outra coisa Bruna, até segunda feira te mando o contrato com a atualização do plano para aquele de 500 reais viu, não tive tempo pra fazer ainda\n← Suporte Nutri Bruna: Oii Aline\n← Suporte Nutri Bruna: Ahh entendi, vamos ver se melhora\n← Suporte Nutri Bruna: Beleza tranquilo\n→ Você: Bruna bom dia, ta por ai?",
       "tags": [
         "whatsapp",
         "followup"
@@ -35356,7 +35371,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-67k13",
+      "id": "ig-divarebel.on-13qxg",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-15",
@@ -45150,12 +45165,17 @@
     },
     {
       "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-185873366819004lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "clickup-86ahz5nv3",
       "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185873366819004lid",
+      "target": "whatsapp-191216406761607lid",
       "tipo": "externo"
     },
     {
@@ -45355,7 +45375,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-67k13",
+      "target": "ig-divarebel.on-13qxg",
       "tipo": "externo"
     },
     {
