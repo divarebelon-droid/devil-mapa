@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-16T11:00:10.085Z",
-  "totalNodes": 2323,
-  "totalLinks": 2309,
+  "geradoEm": "2026-08-16T13:00:32.068Z",
+  "totalNodes": 2321,
+  "totalLinks": 2307,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -40403,36 +40403,6 @@
       "links": []
     },
     {
-      "id": "whatsapp-133290619097243lid",
-      "type": "whatsapp",
-      "titulo": "Contato LID-19097243",
-      "data": "2026-07-17",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86aa469ch",
-      "status": "prospeccao",
-      "conteudo": "**Contato LID-19097243**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-17\n\n**Últimas mensagens:**\n→ Você: Querida realmente fica difícil entender como conseguiu passar em provas e se formar, sem interpretar texto. O plano de ação era de GRAÇA (significado:\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-9874163367973lid",
-      "type": "whatsapp",
-      "titulo": "Sabrina Carvalho",
-      "data": "2026-07-17",
-      "perfil": "divarebel.on",
-      "parentId": "clickup-86ahz5nv3",
-      "status": "prospeccao",
-      "conteudo": "**Sabrina Carvalho**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-07-17\n\n**Últimas mensagens:**\n← Sabrina Carvalho: Coitada né, precisa ficar ofendendo as pessoas para se sentir melhor, isso mostra o quanto o seu trabalho é uma porcaria, nem de graça as pessoas estã\n→ Você: Você tá aqui ainda kkkkk, só pode ser mulherzinha mal comida e sem trabalho, nem li o que falou,  mas minha resposta independente é vai se fuder, acab",
-      "tags": [
-        "whatsapp",
-        "prospeccao"
-      ],
-      "links": []
-    },
-    {
       "id": "whatsapp-191216406761607lid",
       "type": "whatsapp",
       "titulo": "Nutri Bruna Boreggio",
@@ -41056,7 +41026,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-ht82u",
+      "id": "ig-divarebel.on-1hfmm",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-16",
@@ -52419,16 +52389,6 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86aa469ch",
-      "target": "whatsapp-133290619097243lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-9874163367973lid",
-      "tipo": "externo"
-    },
-    {
       "source": "clickup-86ahz5nv3",
       "target": "whatsapp-191216406761607lid",
       "tipo": "externo"
@@ -52640,7 +52600,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-ht82u",
+      "target": "ig-divarebel.on-1hfmm",
       "tipo": "externo"
     },
     {
