@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-18T06:41:18.928Z",
-  "totalNodes": 2389,
-  "totalLinks": 2376,
+  "geradoEm": "2026-08-18T12:41:11.082Z",
+  "totalNodes": 2391,
+  "totalLinks": 2378,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -7608,8 +7608,8 @@
       "listId": "901327051958",
       "listaNodeId": "lista-901327051958",
       "parentId": "lista-901327051958",
-      "count": 5,
-      "conteudo": "**ideia**\n\nLista: Conteúdo Bruna\nTarefas: 5",
+      "count": 6,
+      "conteudo": "**ideia**\n\nLista: Conteúdo Bruna\nTarefas: 6",
       "tags": [
         "status",
         "ideia"
@@ -9354,8 +9354,8 @@
       "listId": "901327803182",
       "listaNodeId": "lista-901327803182",
       "parentId": "lista-901327803182",
-      "count": 1,
-      "conteudo": "**complete**\n\nLista: Biblioteca de Atração\nTarefas: 1",
+      "count": 2,
+      "conteudo": "**complete**\n\nLista: Biblioteca de Atração\nTarefas: 2",
       "tags": [
         "status",
         "complete"
@@ -30138,7 +30138,7 @@
       "id": "clickup-86ah91a3y",
       "type": "clickup",
       "titulo": "Atualização",
-      "data": "2026-08-17",
+      "data": "2026-08-18",
       "perfil": "90138131805",
       "listId": "901324267096",
       "listaNodeId": "lista-901324267096",
@@ -30156,7 +30156,7 @@
       "id": "clickup-86aefvvrc",
       "type": "clickup",
       "titulo": "Plano de ação",
-      "data": "2026-08-17",
+      "data": "2026-08-18",
       "perfil": "90138131805",
       "listId": "901324267096",
       "listaNodeId": "lista-901324267096",
@@ -31251,24 +31251,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ak1z8dx",
-      "type": "clickup",
-      "titulo": "Conteúdo apresentação",
-      "data": "2026-08-17",
-      "perfil": "90138131805",
-      "listId": "901327051958",
-      "listaNodeId": "lista-901327051958",
-      "statusNodeId": "sg-901327051958-ideia",
-      "parentId": "sg-901327051958-ideia",
-      "status": "ideia",
-      "conteudo": "**Conteúdo apresentação**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\n**Slide 01 — Capa**\nEu criei um desafio de 10 dias para você destravar o seu emagrecimento\n( Ou aqui pode trazer a mesma ideia de headline dos stories)\n\n* * *\n\n**Slide 02 — O problema**\nQuantas vezes você já:\nComeçou uma dieta\nTentou se controlar\nMudou a alimentação\nE alguns dias depois...\nvoltou para os mesmos hábitos\nO problema é que começar de novo nunca foi o mais difícil\nO mais difícil é saber **o que fazer para continuar, manter o processo e sem sofrer**\n\n* * *\n\n**Slide 03 — Por que eu criei**\nDepois de acompanhar tantas mulheres no consultório, percebi uma coisa:\nelas não precisavam de \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ak1z8dx)",
-      "tags": [
-        "Conteúdo Bruna",
-        "ideia"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ahypkqk",
       "type": "clickup",
       "titulo": "Inspiração",
@@ -31280,6 +31262,42 @@
       "parentId": "sg-901327051958-ideia",
       "status": "ideia",
       "conteudo": "**Inspiração**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\n[\n\nwww.instagram.com\n\nhttps://www.instagram.com/p/DY18zFDkVwy/?igsh=enVlN2docjcxMXNo\n\n](https://www.instagram.com/p/DY18zFDkVwy/?igsh=enVlN2docjcxMXNo)\n\n[\n\nwww.instagram.com\n\nhttps://www.instagram.com/reel/DZNSSFXzcWF/?igsh=MXIydW45ajFmbGQwNg==\n\n](https://www.instagram.com/reel/DZNSSFXzcWF/?igsh=MXIydW45ajFmbGQwNg==)\n\n[\n\nwww.instagram.com\n\nhttps://www.instagram.com/reel/DY2wwTttiIv/?igsh=MWcyNWQybDk0ZGxobg==\n\n](https://www.instagram.com/reel/DY2wwTttiIv/?igsh=MWcyNWQybDk0ZGxobg==)\n\n[https://www.instagram.com/p/DZdwYEtlTqy/?igsh=MW1vMGs0NzhpcmFmeA==](https://www.instagram.com/p/DZdwYEtlTqy/?igs\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ahypkqk)",
+      "tags": [
+        "Conteúdo Bruna",
+        "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ak23mne",
+      "type": "clickup",
+      "titulo": "Conteúdo Esteira",
+      "data": "2026-08-18",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-ideia",
+      "parentId": "sg-901327051958-ideia",
+      "status": "ideia",
+      "conteudo": "**Conteúdo Esteira**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\nSlide 01 — Capa\n\nQual dos meus serviços é melhor para você?\n\nNem toda mulher precisa do mesmo nível de acompanhamento para começar a transformar o próprio emagrecimento saudável \n\nPor isso, criei caminhos diferentes para momentos diferentes\n\nSlide 02 \n\nAntes de escolher\n\nTalvez você esteja pensando:\n\n\"Eu preciso emagrecer, mas não sei por onde começar.\"\n\nOu talvez já tenha tentado várias vezes e esteja procurando algo que finalmente consiga manter\n\nA verdade é que você não precisa começar pelo acompanhamento mais completo\n\nPrecisa começar pelo próximo passo que faz sentido para você\n\nSlide 03 \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ak23mne)",
+      "tags": [
+        "Conteúdo Bruna",
+        "ideia"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ak1z8dx",
+      "type": "clickup",
+      "titulo": "Conteúdo apresentação",
+      "data": "2026-08-18",
+      "perfil": "90138131805",
+      "listId": "901327051958",
+      "listaNodeId": "lista-901327051958",
+      "statusNodeId": "sg-901327051958-ideia",
+      "parentId": "sg-901327051958-ideia",
+      "status": "ideia",
+      "conteudo": "**Conteúdo apresentação**\n\nLista: Conteúdo Bruna\nStatus: ideia\n\n**Slide 01 — Capa**\nEu criei um desafio de 10 dias para você destravar o seu emagrecimento\n( Ou aqui pode trazer a mesma ideia de headline dos stories)\n\n* * *\n\n**Slide 02 — O problema**\nQuantas vezes você já:\nComeçou uma dieta\nTentou se controlar\nMudou a alimentação\nE alguns dias depois...\nvoltou para os mesmos hábitos\nO problema é que começar de novo nunca foi o mais difícil\nO mais difícil é saber **o que fazer para continuar, manter o processo e sem sofrer**\n\n* * *\n\n**Slide 03 — Por que eu criei**\nDepois de acompanhar tantas mulheres no consultório, percebi uma coisa:\nelas não precisavam de \n\n[Abrir no ClickUp](https://app.clickup.com/t/86ak1z8dx)",
       "tags": [
         "Conteúdo Bruna",
         "ideia"
@@ -33224,6 +33242,24 @@
       "parentId": "sg-901327803182-complete",
       "status": "complete",
       "conteudo": "**Esteira resumida**\n\nLista: Biblioteca de Atração\nStatus: complete\n\n[Esteira\\_6\\_Produtos\\_Regiane\\_Silva.docx](https://t90131929380.p.clickup-attachments.com/t90131929380/e5c62f4c-2454-450e-9c7a-4fd196acec03/Esteira_6_Produtos_Regiane_Silva.docx)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ajjgm4j)",
+      "tags": [
+        "Biblioteca de Atração",
+        "complete"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ak23tt7",
+      "type": "clickup",
+      "titulo": "Roteiros para a plataforma",
+      "data": "2026-08-18",
+      "perfil": "901313883678",
+      "listId": "901327803182",
+      "listaNodeId": "lista-901327803182",
+      "statusNodeId": "sg-901327803182-complete",
+      "parentId": "sg-901327803182-complete",
+      "status": "complete",
+      "conteudo": "**Roteiros para a plataforma**\n\nLista: Biblioteca de Atração\nStatus: complete\n\n### **INTESTINO**\n\n> Tema: \"Seu intestino está falando com você: o que prisão de ventre, gases e inchaço podem estar mostrando?\"  \n> Objetivo: fazer o paciente entender que funcionamento intestinal não é apenas \"ir ao banheiro\"\n\n#### **Roteiro**\nAbertura\n\"Hoje eu quero conversar com você sobre uma coisa que parece simples, mas que diz muito sobre a nossa saúde: o intestino.\nMuita gente só pensa no intestino quando está constipada, com gases ou com a barriga muito inchada. Mas o funcionamento intestinal é uma parte importante da nossa saúde como um todo.\nE uma coisa que eu quero que você entend\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ak23tt7)",
       "tags": [
         "Biblioteca de Atração",
         "complete"
@@ -51246,12 +51282,17 @@
     },
     {
       "source": "sg-901327051958-ideia",
-      "target": "clickup-86ak1z8dx",
+      "target": "clickup-86ahypkqk",
       "tipo": "hierarquia"
     },
     {
       "source": "sg-901327051958-ideia",
-      "target": "clickup-86ahypkqk",
+      "target": "clickup-86ak23mne",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327051958-ideia",
+      "target": "clickup-86ak1z8dx",
       "tipo": "hierarquia"
     },
     {
@@ -51792,6 +51833,11 @@
     {
       "source": "sg-901327803182-complete",
       "target": "clickup-86ajjgm4j",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327803182-complete",
+      "target": "clickup-86ak23tt7",
       "tipo": "hierarquia"
     },
     {
