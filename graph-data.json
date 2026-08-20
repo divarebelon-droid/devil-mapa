@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-20T12:41:42.366Z",
-  "totalNodes": 935,
-  "totalLinks": 922,
+  "geradoEm": "2026-08-20T18:34:42.757Z",
+  "totalNodes": 954,
+  "totalLinks": 940,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -70,6 +70,20 @@
       "tags": [
         "espaco",
         "Entrega"
+      ],
+      "links": []
+    },
+    {
+      "id": "espaco-901313951230",
+      "type": "espaco",
+      "titulo": "Elaine Talita (Nutricionista)",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "cor": "#2dd4bf",
+      "conteudo": "**Elaine Talita (Nutricionista)**\n\nEspaco ClickUp",
+      "tags": [
+        "espaco",
+        "Elaine Talita (Nutricionista)"
       ],
       "links": []
     },
@@ -467,6 +481,21 @@
       "tags": [
         "pasta",
         "Entrega (geral)"
+      ],
+      "links": []
+    },
+    {
+      "id": "pasta-901318701246",
+      "type": "pasta",
+      "titulo": "Plano de ação 30 dias",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "cor": "#2dd4bf",
+      "parentId": "espaco-901313951230",
+      "conteudo": "**Plano de ação 30 dias**\n\nPasta em Elaine Talita (Nutricionista)",
+      "tags": [
+        "pasta",
+        "Plano de ação 30 dias"
       ],
       "links": []
     },
@@ -1592,6 +1621,111 @@
       "tags": [
         "lista",
         "AÇÃO "
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053272",
+      "type": "lista",
+      "titulo": "Cronograma",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053272",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Cronograma**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Cronograma"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053280",
+      "type": "lista",
+      "titulo": "NDD",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053280",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**NDD**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "NDD"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053275",
+      "type": "lista",
+      "titulo": "Produtor",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053275",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Produtor**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Produtor"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053271",
+      "type": "lista",
+      "titulo": "Percurso do paciente",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053271",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Percurso do paciente**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Percurso do paciente"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053274",
+      "type": "lista",
+      "titulo": "Central de Campanha",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053274",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Central de Campanha**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Central de Campanha"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053277",
+      "type": "lista",
+      "titulo": "Biblioteca de Atração",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053277",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Biblioteca de Atração**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Biblioteca de Atração"
+      ],
+      "links": []
+    },
+    {
+      "id": "lista-901328053279",
+      "type": "lista",
+      "titulo": "Conteúdo Elaine",
+      "data": "2026-08-20",
+      "perfil": "901313951230",
+      "listId": "901328053279",
+      "parentId": "pasta-901318701246",
+      "conteudo": "**Conteúdo Elaine**\n\nLista em Plano de ação 30 dias",
+      "tags": [
+        "lista",
+        "Conteúdo Elaine"
       ],
       "links": []
     },
@@ -5543,6 +5677,96 @@
       "tags": [
         "status",
         "2026"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316384934-pr-aquisi-o",
+      "type": "status_group",
+      "titulo": "pré aquisição",
+      "data": "2026-08-20",
+      "perfil": "90138228562",
+      "cor": "var(--cu-status-red)",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "parentId": "lista-901316384934",
+      "count": 1,
+      "conteudo": "**pré aquisição**\n\nLista: Linha do tempo\nTarefas: 1",
+      "tags": [
+        "status",
+        "pré aquisição"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316384934-onboarding",
+      "type": "status_group",
+      "titulo": "onboarding",
+      "data": "2026-08-20",
+      "perfil": "90138228562",
+      "cor": "var(--cu-status-teal)",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "parentId": "lista-901316384934",
+      "count": 1,
+      "conteudo": "**onboarding**\n\nLista: Linha do tempo\nTarefas: 1",
+      "tags": [
+        "status",
+        "onboarding"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316384934-planejamento",
+      "type": "status_group",
+      "titulo": "planejamento",
+      "data": "2026-08-20",
+      "perfil": "90138228562",
+      "cor": "var(--cu-status-neon-blue)",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "parentId": "lista-901316384934",
+      "count": 1,
+      "conteudo": "**planejamento**\n\nLista: Linha do tempo\nTarefas: 1",
+      "tags": [
+        "status",
+        "planejamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316384934-a-o",
+      "type": "status_group",
+      "titulo": "ação",
+      "data": "2026-08-20",
+      "perfil": "90138228562",
+      "cor": "#ee5e99",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "parentId": "lista-901316384934",
+      "count": 1,
+      "conteudo": "**ação**\n\nLista: Linha do tempo\nTarefas: 1",
+      "tags": [
+        "status",
+        "ação"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316384934-aquisi-o",
+      "type": "status_group",
+      "titulo": "aquisição",
+      "data": "2026-08-20",
+      "perfil": "90138228562",
+      "cor": "var(--cu-status-yellow)",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "parentId": "lista-901316384934",
+      "count": 1,
+      "conteudo": "**aquisição**\n\nLista: Linha do tempo\nTarefas: 1",
+      "tags": [
+        "status",
+        "aquisição"
       ],
       "links": []
     },
@@ -16309,6 +16533,96 @@
         "2026"
       ],
       "links": []
+    },
+    {
+      "id": "clickup-86aa8kgpg",
+      "type": "clickup",
+      "titulo": "PF",
+      "data": "2026-03-21",
+      "perfil": "90138228562",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "statusNodeId": "sg-901316384934-pr-aquisi-o",
+      "parentId": "sg-901316384934-pr-aquisi-o",
+      "status": "pré aquisição",
+      "conteudo": "**PF**\n\nLista: Linha do tempo\nStatus: pré aquisição\n\n# Prospecção e Filtragem, levar em conta:\n#### Separar um nicho por vez para prospectar\nVamos fazer a pesquisa de nicho, precisamos olhar:\n- [x] como está o mercado\n- [x] ⁠principais concorrentes\n- [x] ⁠principais dificuldades em geral\n- [x] ⁠audiência geral (público alvo)\n#### Depois vamos fazer a pesquisa individual da empresa:\n- [x] CNPJ\n- [x] ⁠Capital Inicial\n- [x] ⁠Sócios\n- [x] ⁠Ativo em quais redes sociais\n- [x] ⁠Reclame aqui\n- [x] ⁠Dificuldades\n\n```plain\nO potencial cliente deve ser tomador de decisão\nQuando querem iniciar o projeto\n```\n\n> Mensurar se está tendo resultado e como está se\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa8kgpg)",
+      "tags": [
+        "Linha do tempo",
+        "pré aquisição"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa8kve9",
+      "type": "clickup",
+      "titulo": "Onboarding",
+      "data": "2026-05-04",
+      "perfil": "90138228562",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "statusNodeId": "sg-901316384934-onboarding",
+      "parentId": "sg-901316384934-onboarding",
+      "status": "onboarding",
+      "conteudo": "**Onboarding**\n\nLista: Linha do tempo\nStatus: onboarding\n\n### Equipe Comercial\n### **PASSO 1:**\n- [ ] Dar boas vindas\n- [ ] Agradecer a confiança depositada no nosso trabalho\n- [ ] Explicar as fases do projeto\n- [ ] Importância do resultado\n- [ ] Como foi definido\n- [ ] Explicar metodologia, prazos e primeiras entregas\n\n### **Equipe Executora**\n### **PASSO 2:**\n\n- [ ] **Brainstorm:** Passada de bastão, quem cuidará dos projetos do cliente. Apresentar todos presentes, explicar funções, habilidades, formalizar conhecimentos, _elevando a percepção de valor do cliente._\n- [ ] **Briefing:** Apresentar a área do cliente e ensinar como usar, pegar acessos n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa8kve9)",
+      "tags": [
+        "Linha do tempo",
+        "onboarding"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa8kzzy",
+      "type": "clickup",
+      "titulo": "Estratégia",
+      "data": "2026-05-04",
+      "perfil": "90138228562",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "statusNodeId": "sg-901316384934-planejamento",
+      "parentId": "sg-901316384934-planejamento",
+      "status": "planejamento",
+      "conteudo": "**Estratégia**\n\nLista: Linha do tempo\nStatus: planejamento\n\n### Definição de aplicação:\n- [ ] Inicio do Projeto (Essa fase **não é** para Júnior)\n- [ ] Preencher espaço de trabalho\n- [ ] Definir quantidade de criativos ( 4 a 8 para cada oferta na primeira semana). Pesquisar criativos na biblioteca de anúncios e concorrência\n- [ ] Definir oferta (copy por ângulos de perspectiva)\n- [ ] Desenhar o fluxo da campanha\n- [ ] Apresentar o planejamento para o cliente com o objetivo de alinhar expectativas (se ainda não tiver feito)\n- [ ] Indispensável para a execução: **Gestão de Projeto,** **Gestão de Tráfego, Designer Gráfico, Copywriter, Web Designer, Editor\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa8kzzy)",
+      "tags": [
+        "Linha do tempo",
+        "planejamento"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa8m9jd",
+      "type": "clickup",
+      "titulo": "Mão na massa",
+      "data": "2026-05-04",
+      "perfil": "90138228562",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "statusNodeId": "sg-901316384934-a-o",
+      "parentId": "sg-901316384934-a-o",
+      "status": "ação",
+      "conteudo": "**Mão na massa**\n\nLista: Linha do tempo\nStatus: ação\n\n### Aplicação:\n- [ ] Iniciar o processo de criação de copys, criativos e **tudo que for necessário** para o projeto andar\n- [ ] Fase total: **Planejamento, execução, lançamento, mensuração, correção e repetição**\n\nHora de executar tudo que foi planejado. Importante ressaltar que o cliente deve estar a par de todo o processo e de tudo que está sendo feito diariamente e com relatórios\n\n```plain\nOBS: Esse processe deve ser iniciado no dia 05 após o fechamento do contrato, começa pela apresentação do que será executado\n```\n\n### Aqui iniciamos o fluxo de atendimento ao cliente:\n_O que precisa ser l\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa8m9jd)",
+      "tags": [
+        "Linha do tempo",
+        "ação"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aa8kjve",
+      "type": "clickup",
+      "titulo": "Venda",
+      "data": "2026-06-21",
+      "perfil": "90138228562",
+      "listId": "901316384934",
+      "listaNodeId": "lista-901316384934",
+      "statusNodeId": "sg-901316384934-aquisi-o",
+      "parentId": "sg-901316384934-aquisi-o",
+      "status": "aquisição",
+      "conteudo": "**Venda**\n\nLista: Linha do tempo\nStatus: aquisição\n\n### Reunião de venda\n**Alinhamento:** É importante deixar claro para o cliente o que será entregue. Tem muito marketeiro no mercado e o cliente pode imaginar que vamos entregar que não vamos. Alinhe expectativas de entrega\n\n**Camaleão:** Seja o que seu lead é. Adaptar personalidade ajuda a vender. O objetivo é gerar identificação\n\n**Venda explicativa:** Necessário mostrar como funciona o processo do nosso trabalho, precisamos deixar claro a oportunidade que estamos apresentando pra ele. Ele precisa entender perda e consequências de não fechar\n\n**Requisitos:** Perfil de cliente ideal. É necessá\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aa8kjve)",
+      "tags": [
+        "Linha do tempo",
+        "aquisição"
+      ],
+      "links": []
     }
   ],
   "links": [
@@ -16405,6 +16719,11 @@
     {
       "source": "espaco-901312153685",
       "target": "pasta-foltas-901312153685",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "espaco-901313951230",
+      "target": "pasta-901318701246",
       "tipo": "hierarquia"
     },
     {
@@ -16780,6 +17099,41 @@
     {
       "source": "pasta-foltas-901312153685",
       "target": "lista-901323697032",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053272",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053280",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053275",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053271",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053274",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053277",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "pasta-901318701246",
+      "target": "lista-901328053279",
       "tipo": "hierarquia"
     },
     {
@@ -17930,6 +18284,31 @@
     {
       "source": "lista-901316212040",
       "target": "sg-901316212040-2026",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316384934",
+      "target": "sg-901316384934-pr-aquisi-o",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316384934",
+      "target": "sg-901316384934-onboarding",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316384934",
+      "target": "sg-901316384934-planejamento",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316384934",
+      "target": "sg-901316384934-a-o",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316384934",
+      "target": "sg-901316384934-aquisi-o",
       "tipo": "hierarquia"
     },
     {
@@ -20920,6 +21299,31 @@
     {
       "source": "sg-901316212040-2026",
       "target": "clickup-86ae2bv36",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316384934-pr-aquisi-o",
+      "target": "clickup-86aa8kgpg",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316384934-onboarding",
+      "target": "clickup-86aa8kve9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316384934-planejamento",
+      "target": "clickup-86aa8kzzy",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316384934-a-o",
+      "target": "clickup-86aa8m9jd",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316384934-aquisi-o",
+      "target": "clickup-86aa8kjve",
       "tipo": "hierarquia"
     }
   ]
