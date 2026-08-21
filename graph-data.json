@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-21T18:53:30.384Z",
+  "geradoEm": "2026-08-21T19:00:11.155Z",
   "totalNodes": 1882,
   "totalLinks": 1868,
   "nodes": [
@@ -32507,6 +32507,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-191216406761607lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Bruna Boreggio",
+      "data": "2026-08-21",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "status": "followup",
+      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-21\n\n**Últimas mensagens:**\n← Nutri Bruna Boreggio: Pode ser sim\n← Nutri Bruna Boreggio: Beleza\n← Nutri Bruna Boreggio: Ahh legal, vou olhar lá no click up\n→ Você: blz\n→ Você: Ainda não ta lá, estamos elaborando pra você\n← Nutri Bruna Boreggio: Oii boa tarde Aline tudo bem ? \nO Google deu certo, está rodando ?",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
@@ -32522,6 +32537,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-59549889384656lid",
+      "type": "whatsapp",
+      "titulo": "Elaine Talita",
+      "data": "2026-08-21",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ajw5zr1",
+      "status": "followup",
+      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-21\n\n**Últimas mensagens:**\n→ Você: Oi Elaine bom dia :)\n→ Você: Me passa as referências que ficou de me mandar\n← Elaine Talita: Bom dia. Sim\n→ Você: Ah ta ok, vamos começar a produzir por aqui\n← Elaine Talita: https://www.instagram.com/elizabethpinheiro.oficial?igsi=aHRjbGFxNTduOHp2\n→ Você: Oi Elaine boa tarde, só dando um parecer, estamos montando um croqui se baseando nessa inspiração que voce mandou, até segunda já te apresento ele viu",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite nutricionista",
@@ -32530,36 +32560,6 @@
       "parentId": "espaco-90138228562",
       "status": "followup",
       "conteudo": "**Priscila Leite nutricionista**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-21\n\n**Últimas mensagens:**\n→ Você: Anima a participação lá, será nossa base\n→ Você: O curso você me mandou algumas aulas\n→ Você: Já carreguei lá na plataforma\n← Priscila Leite nutricionista: Não na verdade é lembra que eu gravei o workshop pensando que era o curso\n← Priscila Leite nutricionista: Na primeira vez que eu gravei lembra\n→ Você: Aqui voce já começou",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-191216406761607lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Bruna Boreggio",
-      "data": "2026-08-20",
-      "perfil": "oficina_dro",
-      "parentId": "espaco-90138228562",
-      "status": "followup",
-      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-20\n\n**Últimas mensagens:**\n← Nutri Bruna Boreggio: Oiii bom dia\n← Nutri Bruna Boreggio: Pode ser sim\n← Nutri Bruna Boreggio: Beleza\n← Nutri Bruna Boreggio: Ahh legal, vou olhar lá no click up\n→ Você: blz\n→ Você: Ainda não ta lá, estamos elaborando pra você",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-59549889384656lid",
-      "type": "whatsapp",
-      "titulo": "Elaine Talita",
-      "data": "2026-08-20",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ajw5zr1",
-      "status": "followup",
-      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-20\n\n**Últimas mensagens:**\n← Elaine Talita: Boa tarde\n→ Você: Oi Elaine bom dia :)\n→ Você: Me passa as referências que ficou de me mandar\n← Elaine Talita: Bom dia. Sim\n→ Você: Ah ta ok, vamos começar a produzir por aqui\n← Elaine Talita: https://www.instagram.com/elizabethpinheiro.oficial?igsi=aHRjbGFxNTduOHp2",
       "tags": [
         "whatsapp",
         "followup"
@@ -33130,7 +33130,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-4zj9s",
+      "id": "ig-divarebel.on-j2ian",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-21",
@@ -42299,22 +42299,22 @@
     },
     {
       "source": "espaco-90138228562",
-      "target": "whatsapp-185873366819004lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138228562",
-      "target": "whatsapp-185787584876757lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138228562",
       "target": "whatsapp-191216406761607lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
       "source": "clickup-86ajw5zr1",
       "target": "whatsapp-59549889384656lid",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
@@ -42509,7 +42509,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-4zj9s",
+      "target": "ig-divarebel.on-j2ian",
       "tipo": "externo"
     },
     {
