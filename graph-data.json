@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-08-23T11:44:02.997Z",
+  "geradoEm": "2026-08-23T11:52:24.074Z",
   "totalNodes": 2200,
   "totalLinks": 2186,
   "nodes": [
@@ -38103,7 +38103,7 @@
       "perfil": "divarebel.on",
       "parentId": "clickup-86ahz5nv3",
       "status": "prospeccao",
-      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-22\n\n**Últimas mensagens:**\n← Aline Lima: Aqui tem um todo escuro,Loja de xerox impressão em frente lava rápido ⏩.\n← Aline Lima: Em frente lava rápido,\n← Aline Lima: Nesse local\n← Aline Lima: Descrição do anúncio \n\nPequeno Notebook Sony VAIO da série Y ,Hdmi VGA wi-fi, windows 10 versão leve,bom trabalho etc.\n.HD 320GB. 4GB DDR3 ..\nEstá sem\n← Aline Lima: Senão me engano é botujuru amor\n→ Você: Tá bom então fia",
+      "conteudo": "**Aline Lima**\n\nCanal: WhatsApp Prospecção\nÚltima atualização: 2026-08-22\n\n**Últimas mensagens:**\n← Aline Lima: É fio até a gente pegar o tranco de novo, vamo sofrer. Mas agora somos obrigados a pegar tranco, senão as contas atrasa. Por isso que era bom ter um a\n← Aline Lima: Esse teu olho aí não to entendendo, será que o bicho que te mordeu ontem era venenoso?\n→ Você: Não sei fia fia mais estou estranho, não me sinto bem não\n← Aline Lima: Eu acho que foi o bichinho ontem\n← Aline Lima: Nossa fio, que merda hein\nAmor depois a gente se fala, senão não consigo terminar minhas tarefas\n→ Você: Tá bom fia",
       "tags": [
         "whatsapp",
         "prospeccao"
@@ -38231,6 +38231,21 @@
       "links": []
     },
     {
+      "id": "whatsapp-59549889384656lid",
+      "type": "whatsapp",
+      "titulo": "Elaine Talita",
+      "data": "2026-08-22",
+      "perfil": "oficina_dro",
+      "parentId": "clickup-86ajw5zr1",
+      "status": "followup",
+      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-22\n\n**Últimas mensagens:**\n← Elaine Talita: https://www.instagram.com/elizabethpinheiro.oficial?igsi=aHRjbGFxNTduOHp2\n→ Você: Oi Elaine boa tarde, só dando um parecer, estamos montando um croqui se baseando nessa inspiração que voce mandou, até segunda já te apresento ele viu\n← Elaine Talita: Oi não visualizei. Vou entrar lá.\n→ Você: Ainda vou colocar lá. Lá só deixei no cronograma para voce saber o que está sendo feito\n← Elaine Talita: Oi Aline vou procurar. E te envio por aqui!\n← Elaine Talita: Entendi!",
+      "tags": [
+        "whatsapp",
+        "followup"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185873366819004lid",
       "type": "whatsapp",
       "titulo": "Nutri Regiane Silva",
@@ -38239,21 +38254,6 @@
       "parentId": "clickup-86ahz5nv3",
       "status": "followup",
       "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-22\n\n**Últimas mensagens:**\n← Nutri Regiane Silva: Finalmenteeee\n← Nutri Regiane Silva: Kkkkk\n→ Você: haha\n→ Você: Consegue ver pra mim?\n← Nutri Regiane Silva: Pronto\n→ Você: deu certo :)",
-      "tags": [
-        "whatsapp",
-        "followup"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-59549889384656lid",
-      "type": "whatsapp",
-      "titulo": "Elaine Talita",
-      "data": "2026-08-21",
-      "perfil": "oficina_dro",
-      "parentId": "clickup-86ajw5zr1",
-      "status": "followup",
-      "conteudo": "**Elaine Talita**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-08-21\n\n**Últimas mensagens:**\n← Elaine Talita: Bom dia. Sim\n→ Você: Ah ta ok, vamos começar a produzir por aqui\n← Elaine Talita: https://www.instagram.com/elizabethpinheiro.oficial?igsi=aHRjbGFxNTduOHp2\n→ Você: Oi Elaine boa tarde, só dando um parecer, estamos montando um croqui se baseando nessa inspiração que voce mandou, até segunda já te apresento ele viu\n← Elaine Talita: Oi não visualizei. Vou entrar lá.\n→ Você: Ainda vou colocar lá. Lá só deixei no cronograma para voce saber o que está sendo feito",
       "tags": [
         "whatsapp",
         "followup"
@@ -38854,7 +38854,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-w0fz2",
+      "id": "ig-divarebel.on-h2x4w",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-08-23",
@@ -49612,13 +49612,13 @@
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ahz5nv3",
-      "target": "whatsapp-185873366819004lid",
+      "source": "clickup-86ajw5zr1",
+      "target": "whatsapp-59549889384656lid",
       "tipo": "externo"
     },
     {
-      "source": "clickup-86ajw5zr1",
-      "target": "whatsapp-59549889384656lid",
+      "source": "clickup-86ahz5nv3",
+      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
@@ -49823,7 +49823,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-w0fz2",
+      "target": "ig-divarebel.on-h2x4w",
       "tipo": "externo"
     },
     {
