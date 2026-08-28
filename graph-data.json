@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-08-28T08:57:16.435Z",
-  "totalNodes": 986,
-  "totalLinks": 972,
+  "geradoEm": "2026-08-28T21:42:41.319Z",
+  "totalNodes": 989,
+  "totalLinks": 975,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -5641,6 +5641,24 @@
       "tags": [
         "status",
         "2026"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901316212040-open",
+      "type": "status_group",
+      "titulo": "Open",
+      "data": "2026-08-28",
+      "perfil": "90138228562",
+      "cor": "#87909e",
+      "listId": "901316212040",
+      "listaNodeId": "lista-901316212040",
+      "parentId": "lista-901316212040",
+      "count": 2,
+      "conteudo": "**Open**\n\nLista: Totais\nTarefas: 2",
+      "tags": [
+        "status",
+        "Open"
       ],
       "links": []
     },
@@ -17111,6 +17129,42 @@
       "links": []
     },
     {
+      "id": "clickup-86ak7v0a9",
+      "type": "clickup",
+      "titulo": "Totais Agosto 2026",
+      "data": "2026-08-28",
+      "perfil": "90138228562",
+      "listId": "901316212040",
+      "listaNodeId": "lista-901316212040",
+      "statusNodeId": "sg-901316212040-open",
+      "parentId": "sg-901316212040-open",
+      "status": "Open",
+      "conteudo": "**Totais Agosto 2026**\n\nLista: Totais\nStatus: Open\n\n\\===== AGOSTO 2026 =====\nENTRADAS: R$ 2520,00\nPriscila R$840 | Elaine R$750 | Regiane R$540 | Bruna R$250 | Isabela R$140\nDESPESAS EMPRESA: R$ 300,19\nNomade ClickUp R$150 | Transfeera R$20 | Uber R$50,19 | Notebook R$80\nPESSOAL POR ENGANO: R$ 102,87\nCinema R$43,32 | Uber cinema R$30 | 99 R$17,15 | Mottu R$12,40\nPRO-LABORE: R$ 1233,42\nSantander R$617,59 | MP/Nubank R$615,83\nFAMILIA (Alex): R$ 452,00\nTOTAL SAIDAS: R$ 2088,48\nRESULTADO: R$ 431,52\nSaldo Asaas: R$0,00\nPENDENTE: Anthropic 29/08 subtrair do Santander\nLista agosto: 901328324655\nAtualizado: 28/08/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ak7v0a9)",
+      "tags": [
+        "Totais",
+        "Open"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86ak7v938",
+      "type": "clickup",
+      "titulo": "Totais Agosto 2026",
+      "data": "2026-08-28",
+      "perfil": "90138228562",
+      "listId": "901316212040",
+      "listaNodeId": "lista-901316212040",
+      "statusNodeId": "sg-901316212040-open",
+      "parentId": "sg-901316212040-open",
+      "status": "Open",
+      "conteudo": "**Totais Agosto 2026**\n\nLista: Totais\nStatus: Open\n\n\\===== AGOSTO 2026 =====\nENTRADAS: R$ 2520,00\nPriscila R$840 | Elaine R$750 | Regiane R$540 | Bruna R$250 | Isabela R$140\nDESPESAS EMPRESA: R$ 300,19\nNomade ClickUp R$150 | Transfeera R$20 | Uber R$50,19 | Notebook R$80\nPESSOAL POR ENGANO: R$ 102,87\nCinema R$43,32 | Uber cinema R$30 | 99 R$17,15 | Mottu R$12,40\nPRO-LABORE: R$ 1233,42\nSantander R$617,59 | MP/Nubank R$615,83\nFAMILIA Alex: R$ 452,00\nTOTAL SAIDAS: R$ 2088,48\nRESULTADO: R$ 431,52\nSaldo Asaas: R$0,00\nPENDENTE: Anthropic 29/08 subtrair do Santander\nLista: 901328324713 | Atualizado: 28/08/2026\n\n[Abrir no ClickUp](https://app.clickup.com/t/86ak7v938)",
+      "tags": [
+        "Totais",
+        "Open"
+      ],
+      "links": []
+    },
+    {
       "id": "clickup-86aa8kgpg",
       "type": "clickup",
       "titulo": "PF",
@@ -18850,6 +18904,11 @@
     {
       "source": "lista-901316212040",
       "target": "sg-901316212040-2026",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901316212040",
+      "target": "sg-901316212040-open",
       "tipo": "hierarquia"
     },
     {
@@ -22035,6 +22094,16 @@
     {
       "source": "sg-901316212040-2026",
       "target": "clickup-86ae2bv36",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316212040-open",
+      "target": "clickup-86ak7v0a9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901316212040-open",
+      "target": "clickup-86ak7v938",
       "tipo": "hierarquia"
     },
     {
