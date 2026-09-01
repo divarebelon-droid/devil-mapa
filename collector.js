@@ -38,6 +38,7 @@ const COR_FALLBACK = ['#34d399','#60a5fa','#fbbf24','#f87171','#a78bfa','#2dd4bf
 function corParaEspaco(id, idx) { return COR_ESPACO_FIXO[id] || COR_FALLBACK[idx % COR_FALLBACK.length]; }
 
 const TEAM_ID = '90131929380';
+const EXCLUDED_SPACE_IDS = new Set(['901313799671']);
 
 const SKIP_LIST_NAMES = ['controle de caixa', 'fio 2025'];
 function deveSkipLista(nome) {
@@ -56,7 +57,7 @@ async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 async function buscarEspacos() {
   // Descoberta dinâmica — nunca precisa atualizar lista manualmente
   const teamData = await api(`https://api.clickup.com/api/v2/team/${TEAM_ID}/space?archived=false`);
-  const todos = teamData.spaces || [];
+  const todos = (teamData.spaces || []).filter(sp => !EXCLUDED_SPACE_IDS.has(String(sp.id)));
   console.log(`  ${todos.length} espaços encontrados no ClickUp`);
 
   const result = [];
@@ -222,6 +223,18 @@ async function main() {
   const hierarquia = buildHierarquia(estrutura);
   console.log(`${hierarquia.espacos.length} espacos | ${hierarquia.pastas.length} pastas | ${hierarquia.listas.length} listas`);
 
+  // O GitHub não acessa o WhatsApp local. Preserve os nós locais publicados
+  // (WhatsApp, transcrições, reuniões, Instagram e conteúdo) em vez de apagá-los.
+  let preservedNodes = [];
+  const currentOutput = path.join(__dirname, 'graph-data.json');
+  if (fs.existsSync(currentOutput)) {
+    try {
+      const current = JSON.parse(fs.readFileSync(currentOutput, 'utf8'));
+      const preservedTypes = new Set(['whatsapp', 'meeting', 'instagram', 'content']);
+      preservedNodes = (current.nodes || []).filter(n => preservedTypes.has(n.type));
+    } catch (_) {}
+  }
+
   const nodes = [];
   nodes.push(...criarNosHierarquia(hierarquia));
 
@@ -231,6 +244,8 @@ async function main() {
   const statusGroups = criarStatusGroups(apiTasks, hierarquia);
   nodes.push(...statusGroups);
   nodes.push(...criarNosTask(apiTasks, hierarquia));
+  const validIds = new Set(nodes.map(n => n.id));
+  nodes.push(...preservedNodes.filter(n => !n.parentId || validIds.has(n.parentId)));
 
   const links = criarConexoes(nodes);
 
