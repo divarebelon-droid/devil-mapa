@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-09-01T13:00:12.312Z",
-  "totalNodes": 2500,
-  "totalLinks": 2487,
+  "geradoEm": "2026-09-01T13:08:21.579Z",
+  "totalNodes": 2529,
+  "totalLinks": 2516,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -44176,7 +44176,442 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-hgqeq",
+      "id": "youtube-wlHPbxFPP9U",
+      "type": "meeting",
+      "titulo": "▶ E1 - KACIMARA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 - KACIMARA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=wlHPbxFPP9U)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-agr5NXH54Lk",
+      "type": "meeting",
+      "titulo": "▶ E1 - ELAINE TALITA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 - ELAINE TALITA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=agr5NXH54Lk)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-8cOpUIRx_I8",
+      "type": "meeting",
+      "titulo": "▶ E1 - HESTHEFNI | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 - HESTHEFNI | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=8cOpUIRx_I8)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-3fw0EfTQQ_8",
+      "type": "meeting",
+      "titulo": "▶ E1 PRISCILA REGINA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 PRISCILA REGINA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=3fw0EfTQQ_8)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-FqeBKqnnTus",
+      "type": "meeting",
+      "titulo": "▶ E1 VANESSA ARAUJO | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 VANESSA ARAUJO | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=FqeBKqnnTus)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-H6Mg1ehXQAo",
+      "type": "meeting",
+      "titulo": "▶ E1 - JENIFER | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 - JENIFER | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=H6Mg1ehXQAo)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-mvNkqGaC_f0",
+      "type": "meeting",
+      "titulo": "▶ E1 - MARIA FERNANDA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 - MARIA FERNANDA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=mvNkqGaC_f0)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-GRdToLOqims",
+      "type": "meeting",
+      "titulo": "▶ E1 PRISCILA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 PRISCILA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=GRdToLOqims)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-Lkcjh_J1TkQ",
+      "type": "meeting",
+      "titulo": "▶ E1 BIA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 BIA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=Lkcjh_J1TkQ)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-P_oS5XpzFMs",
+      "type": "meeting",
+      "titulo": "▶ E1 CAMILA DANTAS | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 CAMILA DANTAS | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=P_oS5XpzFMs)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-KJWeEUzTnlw",
+      "type": "meeting",
+      "titulo": "▶ E1 MARCELE | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 MARCELE | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=KJWeEUzTnlw)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-NowcbkJmPug",
+      "type": "meeting",
+      "titulo": "▶ E1 GISELLE | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 GISELLE | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=NowcbkJmPug)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-tih0B_33fE0",
+      "type": "meeting",
+      "titulo": "▶ Carla Coelho E1 | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Carla Coelho E1 | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=tih0B_33fE0)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-EPGvYRTCTd4",
+      "type": "meeting",
+      "titulo": "▶ Encontro Rayssa R1 | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Encontro Rayssa R1 | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=EPGvYRTCTd4)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-IMIETyX0c3s",
+      "type": "meeting",
+      "titulo": "▶ Encontro Raquel Rosa - R1 | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Encontro Raquel Rosa - R1 | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=IMIETyX0c3s)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-K2s7RfZanvc",
+      "type": "meeting",
+      "titulo": "▶ RV Andreia | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**RV Andreia | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=K2s7RfZanvc)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-qlb44v_eS2U",
+      "type": "meeting",
+      "titulo": "▶ RV Michele | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**RV Michele | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=qlb44v_eS2U)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-2ZhuzHB_T7I",
+      "type": "meeting",
+      "titulo": "▶ RV Julia Rios | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**RV Julia Rios | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=2ZhuzHB_T7I)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-GSR1I5z8YVQ",
+      "type": "meeting",
+      "titulo": "▶ RV Viviane | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**RV Viviane | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E1 / A1\n\n[Assistir reunião](https://www.youtube.com/watch?v=GSR1I5z8YVQ)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E1 / A1"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-_PZtmWXUem0",
+      "type": "meeting",
+      "titulo": "▶ E1 - ESTELINA - VENDA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E1 - ESTELINA - VENDA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=_PZtmWXUem0)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-c29OfsvDrgI",
+      "type": "meeting",
+      "titulo": "▶ E2 - REGIANE | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E2 - REGIANE | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=c29OfsvDrgI)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-KRD4uV6-7VM",
+      "type": "meeting",
+      "titulo": "▶ E2 - PRISCILA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E2 - PRISCILA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=KRD4uV6-7VM)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-WdBryJHg5k8",
+      "type": "meeting",
+      "titulo": "▶ E2 - CAMILA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E2 - CAMILA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=WdBryJHg5k8)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-0oCB1Fbuz_k",
+      "type": "meeting",
+      "titulo": "▶ E2 - PRISCILA | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E2 - PRISCILA | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=0oCB1Fbuz_k)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-15CrU-ecnco",
+      "type": "meeting",
+      "titulo": "▶ E2 BIA BENTO | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**E2 BIA BENTO | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=15CrU-ecnco)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-6sjJYEndixM",
+      "type": "meeting",
+      "titulo": "▶ Encontro Bruna Boreggio - R2 | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Encontro Bruna Boreggio - R2 | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=6sjJYEndixM)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-uuRDewsMwa4",
+      "type": "meeting",
+      "titulo": "▶ Processo Simone | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Processo Simone | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=uuRDewsMwa4)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-Qw_5V4nXo_c",
+      "type": "meeting",
+      "titulo": "▶ Reunião E2 | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Reunião E2 | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=Qw_5V4nXo_c)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "youtube-qWgyHdtPj9A",
+      "type": "meeting",
+      "titulo": "▶ Reunião E2 | Diva Rebel.On",
+      "data": "2026-09-01",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138228562",
+      "conteudo": "**Reunião E2 | Diva Rebel.On**\n\nFonte alternativa: YouTube\nPlaylist: E2 / A2\n\n[Assistir reunião](https://www.youtube.com/watch?v=qWgyHdtPj9A)",
+      "tags": [
+        "reunião",
+        "youtube",
+        "E2 / A2"
+      ],
+      "links": []
+    },
+    {
+      "id": "ig-divarebel.on-sblin",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-09-01",
@@ -56649,8 +57084,153 @@
       "tipo": "externo"
     },
     {
+      "source": "espaco-90138228562",
+      "target": "youtube-wlHPbxFPP9U",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-agr5NXH54Lk",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-8cOpUIRx_I8",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-3fw0EfTQQ_8",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-FqeBKqnnTus",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-H6Mg1ehXQAo",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-mvNkqGaC_f0",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-GRdToLOqims",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-Lkcjh_J1TkQ",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-P_oS5XpzFMs",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-KJWeEUzTnlw",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-NowcbkJmPug",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-tih0B_33fE0",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-EPGvYRTCTd4",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-IMIETyX0c3s",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-K2s7RfZanvc",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-qlb44v_eS2U",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-2ZhuzHB_T7I",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-GSR1I5z8YVQ",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-_PZtmWXUem0",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-c29OfsvDrgI",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-KRD4uV6-7VM",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-WdBryJHg5k8",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-0oCB1Fbuz_k",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-15CrU-ecnco",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-6sjJYEndixM",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-uuRDewsMwa4",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-Qw_5V4nXo_c",
+      "tipo": "externo"
+    },
+    {
+      "source": "espaco-90138228562",
+      "target": "youtube-qWgyHdtPj9A",
+      "tipo": "externo"
+    },
+    {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-hgqeq",
+      "target": "ig-divarebel.on-sblin",
       "tipo": "externo"
     },
     {
