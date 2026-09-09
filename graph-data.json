@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-09T11:01:12.346Z",
+  "geradoEm": "2026-09-09T13:00:46.170Z",
   "totalNodes": 2641,
   "totalLinks": 2629,
   "nodes": [
@@ -45482,6 +45482,22 @@
       "links": []
     },
     {
+      "id": "whatsapp-191216406761607lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Bruna Boreggio",
+      "data": "2026-09-09",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-90138131805",
+      "status": "followup",
+      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-09-09\nRelacionado a: Bruna Boreggio (Nutricionista)\n\n**Últimas mensagens:**\n← Nutri Bruna Boreggio: Esse eu vi, digo aquele outro post que falou na reunião \nSobre mim, quem é a Bruna, lembra ? \n\nAnotei aqui pra deixar 3 posts fixo\n\n1: explicando sobr\n← Nutri Bruna Boreggio: Belezaa\n← Nutri Bruna Boreggio: Oiii bom dia Aline tudo bem? \nDeu certo aqui, vamos fechar a parte do marketing, preciso pra ontem kkk \n\nPodemos marcar uma reunião? \nEu compartilho o\n← Nutri Bruna Boreggio: Recebi esse e-mail do ADS, oque faço ?\n→ Você: Buenos : )\n→ Você: Opa blz, tenho na sexta de tardinha, pode ser? Tipo 17h",
+      "tags": [
+        "whatsapp",
+        "followup",
+        "Bruna Boreggio (Nutricionista)"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite nutricionista",
@@ -45489,7 +45505,7 @@
       "perfil": "oficina_dro",
       "parentId": "espaco-901313861779",
       "status": "followup",
-      "conteudo": "**Priscila Leite nutricionista**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-09-09\nRelacionado a: Priscila Leite (Nutricionista)\n\n**Últimas mensagens:**\n→ Você: Adicionei novos conteúdos no clickup para ver\n→ Você: O que você está sentindo das meninas por esses dias? Em relação a engajamento, interação?\n← Priscila Leite nutricionista: Eu vou ter que tomar uma coisa mais forte, pq essa semana tô meio revolts\n→ Você: Depois me confirma das coisinhas, que te mandei porque ai a gente já põe a mão na massa\n→ Você: Eu deixei uns vídeos de react pra você no clickup e mandei alguns no tik tok, to com medo hahaha\n→ Você: Viu duas meninas na planilha que criamos?",
+      "conteudo": "**Priscila Leite nutricionista**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-09-09\nRelacionado a: Priscila Leite (Nutricionista)\n\n**Últimas mensagens:**\n→ Você: Buenos :)\n→ Você: Agora que vi que voce tinha mandado mais dois videos, ja vejo\n→ Você: Olha essa coisa lindaaa: https://nutri4nutri.com.br/landing-workshop-seletividade-2026\n→ Você: Diminuímos o tamanho, troquei a copy, eu tava incomodada\n→ Você: Precisa ver nas versões desktop, mobile e tablet por conta  da experiência do usuário\n→ Você: ah ta blz",
       "tags": [
         "whatsapp",
         "followup",
@@ -45510,22 +45526,6 @@
         "whatsapp",
         "followup",
         "Regiane Silva (Nutricionista)"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-191216406761607lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Bruna Boreggio",
-      "data": "2026-09-08",
-      "perfil": "oficina_dro",
-      "parentId": "espaco-90138131805",
-      "status": "followup",
-      "conteudo": "**Nutri Bruna Boreggio**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-09-08\nRelacionado a: Bruna Boreggio (Nutricionista)\n\n**Últimas mensagens:**\n→ Você: https://app.clickup.com/t/90131929380/86ak23mne\n← Nutri Bruna Boreggio: Até amanhã te confirmo; só estou vendo as contas aqui kk ficaria dia 15 e dia 30 ne ?\n← Nutri Bruna Boreggio: Ahh você perguntou sobre as meninas do link da bio? Já mandei mensagem sim\n← Nutri Bruna Boreggio: Hoje vou mandar para os números do sorteio\n← Nutri Bruna Boreggio: Esse eu vi, digo aquele outro post que falou na reunião \nSobre mim, quem é a Bruna, lembra ? \n\nAnotei aqui pra deixar 3 posts fixo\n\n1: explicando sobr\n← Nutri Bruna Boreggio: Belezaa",
-      "tags": [
-        "whatsapp",
-        "followup",
-        "Bruna Boreggio (Nutricionista)"
       ],
       "links": []
     },
@@ -46630,7 +46630,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-gqkod",
+      "id": "ig-divarebel.on-zyg5c",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-09-09",
@@ -59433,6 +59433,11 @@
       "tipo": "externo"
     },
     {
+      "source": "espaco-90138131805",
+      "target": "whatsapp-191216406761607lid",
+      "tipo": "externo"
+    },
+    {
       "source": "espaco-901313861779",
       "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
@@ -59440,11 +59445,6 @@
     {
       "source": "espaco-901313883678",
       "target": "whatsapp-185873366819004lid",
-      "tipo": "externo"
-    },
-    {
-      "source": "espaco-90138131805",
-      "target": "whatsapp-191216406761607lid",
       "tipo": "externo"
     },
     {
@@ -59814,7 +59814,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-gqkod",
+      "target": "ig-divarebel.on-zyg5c",
       "tipo": "externo"
     },
     {
