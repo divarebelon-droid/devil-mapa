@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-09-10T13:00:44.948Z",
+  "geradoEm": "2026-09-10T15:00:44.797Z",
   "totalNodes": 2638,
   "totalLinks": 2626,
   "nodes": [
@@ -45428,6 +45428,22 @@
       "links": []
     },
     {
+      "id": "whatsapp-185873366819004lid",
+      "type": "whatsapp",
+      "titulo": "Nutri Regiane Silva",
+      "data": "2026-09-10",
+      "perfil": "oficina_dro",
+      "parentId": "espaco-901313883678",
+      "status": "followup",
+      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-09-10\nRelacionado a: Regiane Silva (Nutricionista)\n\n**Últimas mensagens:**\n→ Você: Depois de postar a sequencia, ai poderia postar outras coisas, mas precisaria respeitar essa ordem\n→ Você: Também adicionei no clickup o restante da ideia daqueles posts fixados. Tem lá o da esteira, o sobre você e historia de paciente\n→ Você: Voltando para a estrategia, seria tentar forçar essa metade de audiencia que poderia ser paciente, se pronuncia e as lives seria para te deixar proxim\n→ Você: Eles poderiam entrar em live com voce, tirar duvidas, mostrar exames, coisas assim\n→ Você: Poderíamos criar esse ritual, e assim para participar da live com voce, disputar a vaga, jogariamos eles para o feed, para interagir em post e trabalh\n→ Você: Seria mais ou menos isso",
+      "tags": [
+        "whatsapp",
+        "followup",
+        "Regiane Silva (Nutricionista)"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-185787584876757lid",
       "type": "whatsapp",
       "titulo": "Priscila Leite nutricionista",
@@ -45440,22 +45456,6 @@
         "whatsapp",
         "followup",
         "Priscila Leite (Nutricionista)"
-      ],
-      "links": []
-    },
-    {
-      "id": "whatsapp-185873366819004lid",
-      "type": "whatsapp",
-      "titulo": "Nutri Regiane Silva",
-      "data": "2026-09-09",
-      "perfil": "oficina_dro",
-      "parentId": "espaco-901313883678",
-      "status": "followup",
-      "conteudo": "**Nutri Regiane Silva**\n\nCanal: WhatsApp Follow-up\nÚltima atualização: 2026-09-09\nRelacionado a: Regiane Silva (Nutricionista)\n\n**Últimas mensagens:**\n→ Você: Quando quiser já podemos anunciar. O seu perfil tá bom pra isso\n→ Você: Ah tá blz. Então enquanto você aguarda a resposta deles, vou levar os próximos conteúdos para exames que o paciente deu a ideia. Porque se fosse ter d\n→ Você: Muito bom que o paciente veio do Google, última vez que olhei você tava em quinto na primeira página\n→ Você: Dos stories vamos mudar um pouco a estratégia pra ver. Me diz uma coisa, a maioria que te segue no Instagram, são amigos e parentes? Ou potenciais pac\n← Nutri Regiane Silva: Blz\n← Nutri Regiane Silva: Bom né, fiquei feliz",
-      "tags": [
-        "whatsapp",
-        "followup",
-        "Regiane Silva (Nutricionista)"
       ],
       "links": []
     },
@@ -46576,7 +46576,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-0chjc",
+      "id": "ig-divarebel.on-8dw3s",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-09-10",
@@ -59364,13 +59364,13 @@
       "tipo": "externo"
     },
     {
-      "source": "espaco-901313861779",
-      "target": "whatsapp-185787584876757lid",
+      "source": "espaco-901313883678",
+      "target": "whatsapp-185873366819004lid",
       "tipo": "externo"
     },
     {
-      "source": "espaco-901313883678",
-      "target": "whatsapp-185873366819004lid",
+      "source": "espaco-901313861779",
+      "target": "whatsapp-185787584876757lid",
       "tipo": "externo"
     },
     {
@@ -59745,7 +59745,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-0chjc",
+      "target": "ig-divarebel.on-8dw3s",
       "tipo": "externo"
     },
     {
