@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-09-11T11:22:21.950Z",
-  "totalNodes": 1919,
-  "totalLinks": 1907,
+  "geradoEm": "2026-09-11T11:22:55.621Z",
+  "totalNodes": 1869,
+  "totalLinks": 1857,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -1462,21 +1462,6 @@
       "links": []
     },
     {
-      "id": "lista-901316179544",
-      "type": "lista",
-      "titulo": "Cliente Viviane Sanches (Contadora)",
-      "data": "2026-09-11",
-      "perfil": "90138228562",
-      "listId": "901316179544",
-      "parentId": "pasta-901310287405",
-      "conteudo": "**Cliente Viviane Sanches (Contadora)**\n\nLista em Operação",
-      "tags": [
-        "lista",
-        "Cliente Viviane Sanches (Contadora)"
-      ],
-      "links": []
-    },
-    {
       "id": "lista-901316212651",
       "type": "lista",
       "titulo": "Cliente Simone Sebrian",
@@ -2107,21 +2092,6 @@
       "links": []
     },
     {
-      "id": "lista-901326451134",
-      "type": "lista",
-      "titulo": "Central de Campanha (Contadoras)",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "parentId": "pasta-901317818836",
-      "conteudo": "**Central de Campanha (Contadoras)**\n\nLista em Marketing",
-      "tags": [
-        "lista",
-        "Central de Campanha (Contadoras)"
-      ],
-      "links": []
-    },
-    {
       "id": "lista-901326451238",
       "type": "lista",
       "titulo": "Produtor",
@@ -2418,21 +2388,6 @@
       "tags": [
         "lista",
         "Cliente Camilla"
-      ],
-      "links": []
-    },
-    {
-      "id": "lista-901326451521",
-      "type": "lista",
-      "titulo": "Cliente Viviane Sanches (Contadora)",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "listId": "901326451521",
-      "parentId": "pasta-901317819005",
-      "conteudo": "**Cliente Viviane Sanches (Contadora)**\n\nLista em Operação",
-      "tags": [
-        "lista",
-        "Cliente Viviane Sanches (Contadora)"
       ],
       "links": []
     },
@@ -5137,8 +5092,8 @@
       "listId": "901316452690",
       "listaNodeId": "lista-901316452690",
       "parentId": "lista-901316452690",
-      "count": 20,
-      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 20",
+      "count": 19,
+      "conteudo": "**em análise**\n\nLista: Conteúdo\nTarefas: 19",
       "tags": [
         "status",
         "em análise"
@@ -5191,8 +5146,8 @@
       "listId": "901323575881",
       "listaNodeId": "lista-901323575881",
       "parentId": "lista-901323575881",
-      "count": 14,
-      "conteudo": "**to do**\n\nLista: PLANEJAMENTO  OFICINA 2026\nTarefas: 14",
+      "count": 13,
+      "conteudo": "**to do**\n\nLista: PLANEJAMENTO  OFICINA 2026\nTarefas: 13",
       "tags": [
         "status",
         "to do"
@@ -7612,366 +7567,6 @@
       "links": []
     },
     {
-      "id": "sg-901326451134-mentiras",
-      "type": "status_group",
-      "titulo": "mentiras",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-mint)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**mentiras**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "mentiras"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-ponto-a-b",
-      "type": "status_group",
-      "titulo": "ponto a-b",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**ponto a-b**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "ponto a-b"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-futuro-triste",
-      "type": "status_group",
-      "titulo": "futuro triste",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**futuro triste**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "futuro triste"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-futuro-feliz",
-      "type": "status_group",
-      "titulo": "futuro feliz",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**futuro feliz**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "futuro feliz"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-posicionamento",
-      "type": "status_group",
-      "titulo": "posicionamento",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-red)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**posicionamento**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "posicionamento"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-erro",
-      "type": "status_group",
-      "titulo": "erro",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-yellow)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**erro**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "erro"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-persona",
-      "type": "status_group",
-      "titulo": "persona",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-grey)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**persona**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "persona"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-choque",
-      "type": "status_group",
-      "titulo": "choque",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-red)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**choque**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "choque"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-slogan",
-      "type": "status_group",
-      "titulo": "slogan",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-open)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**slogan**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "slogan"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-novidade",
-      "type": "status_group",
-      "titulo": "novidade",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-open)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**novidade**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "novidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-curiosidade",
-      "type": "status_group",
-      "titulo": "curiosidade",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-open)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**curiosidade**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "curiosidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-sonho",
-      "type": "status_group",
-      "titulo": "sonho",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-pink)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**sonho**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "sonho"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134--ngulo",
-      "type": "status_group",
-      "titulo": "ângulo",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**ângulo**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "ângulo"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-provas",
-      "type": "status_group",
-      "titulo": "provas",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**provas**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "provas"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-necessidade",
-      "type": "status_group",
-      "titulo": "necessidade",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-pink)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**necessidade**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "necessidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-protocolo",
-      "type": "status_group",
-      "titulo": "protocolo",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**protocolo**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "protocolo"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-pedra-no-sapato",
-      "type": "status_group",
-      "titulo": "pedra no sapato",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-azure-blue)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**pedra no sapato**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "pedra no sapato"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-consequ-ncia",
-      "type": "status_group",
-      "titulo": "consequência",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**consequência**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "consequência"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-conclus-o",
-      "type": "status_group",
-      "titulo": "conclusão",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**conclusão**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "conclusão"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451134-seguindo-a-manada",
-      "type": "status_group",
-      "titulo": "seguindo a manada",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "parentId": "lista-901326451134",
-      "count": 1,
-      "conteudo": "**seguindo a manada**\n\nLista: Central de Campanha (Contadoras)\nTarefas: 1",
-      "tags": [
-        "status",
-        "seguindo a manada"
-      ],
-      "links": []
-    },
-    {
       "id": "sg-901326451238-momento-",
       "type": "status_group",
       "titulo": "momento:",
@@ -8161,8 +7756,8 @@
       "listId": "901326451138",
       "listaNodeId": "lista-901326451138",
       "parentId": "lista-901326451138",
-      "count": 8,
-      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 8",
+      "count": 7,
+      "conteudo": "**programado**\n\nLista: Conteúdo\nTarefas: 7",
       "tags": [
         "status",
         "programado"
@@ -8233,8 +7828,8 @@
       "listId": "901326451268",
       "listaNodeId": "lista-901326451268",
       "parentId": "lista-901326451268",
-      "count": 14,
-      "conteudo": "**to do**\n\nLista: PLANEJAMENTO  OFICINA 2026\nTarefas: 14",
+      "count": 13,
+      "conteudo": "**to do**\n\nLista: PLANEJAMENTO  OFICINA 2026\nTarefas: 13",
       "tags": [
         "status",
         "to do"
@@ -8413,8 +8008,8 @@
       "listId": "901326451289",
       "listaNodeId": "lista-901326451289",
       "parentId": "lista-901326451289",
-      "count": 5,
-      "conteudo": "**a fazer**\n\nLista: Organização  Empresa\nTarefas: 5",
+      "count": 4,
+      "conteudo": "**a fazer**\n\nLista: Organização  Empresa\nTarefas: 4",
       "tags": [
         "status",
         "a fazer"
@@ -9354,24 +8949,6 @@
       "tags": [
         "status",
         "iniciada"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901326451521-planejamento",
-      "type": "status_group",
-      "titulo": "planejamento",
-      "data": "2026-09-11",
-      "perfil": "901313688913",
-      "cor": "#f8ae00",
-      "listId": "901326451521",
-      "listaNodeId": "lista-901326451521",
-      "parentId": "lista-901326451521",
-      "count": 1,
-      "conteudo": "**planejamento**\n\nLista: Cliente Viviane Sanches (Contadora)\nTarefas: 1",
-      "tags": [
-        "status",
-        "planejamento"
       ],
       "links": []
     },
@@ -20374,24 +19951,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ajg23ef",
-      "type": "clickup",
-      "titulo": "Passo a passo ",
-      "data": "2026-08-30",
-      "perfil": "90138228562",
-      "listId": "901316452690",
-      "listaNodeId": "lista-901316452690",
-      "statusNodeId": "sg-901316452690-em-an-lise",
-      "parentId": "sg-901316452690-em-an-lise",
-      "status": "em análise",
-      "conteudo": "**Passo a passo **\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** em análise\n\n\n**Descrição:**\n🟦 SLIDE 1 — HEADLINE\n\nEsse é o passo a passo que eu uso para parar de atrair clientes errados e destravar faturamento sem baixar preço.\n\n⸻\n\n🟦 SLIDE 2 — QUEBRA DE CRENÇAS / OBJEÇÕES\n\n“Meu serviço é caro.”\n“O problema é falta de divulgação.”\n“Só empresa pequena me procura.”\n\n👉 Foi exatamente isso que uma contadora me disse antes do plano de ação.\n\n⸻\n\n🟦 SLIDE 3 — AFASTAMENTO DO MUNDO COMUM\n\nO mercado ensina que o caminho é:\n• postar mais conteúdo\n• rodar tráfego\n• atrair mais leads\n\nMas isso não resolve quando:\n• o público chega errado\n• a percepção de valor é baixa\n• a decisão trava no atendimento\n\nMais marketing em negócio desestruturado só acelera o erro.\n\n⸻\n\n🟦 SLIDE 4 — PASSO 1 (O QUÊ, NÃO O COMO)\n\nTudo começa no percurso do cliente.\n\nAntes de qualquer campanha, eu mapeio:\n• como ess\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ajg23ef)",
-      "tags": [
-        "Conteúdo",
-        "em análise"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajc5cv4",
       "type": "clickup",
       "titulo": "Eu só consegui trazer novos pacientes para uma cliente nutricionista porque a estratégia não nasceu no Instagram.",
@@ -20583,24 +20142,6 @@
       "parentId": "sg-901323575881-to-do",
       "status": "to do",
       "conteudo": "**Como fazer**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\nVou realizar todas as tarefas dessa lista por SERVIÇO\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae0nhyk)",
-      "tags": [
-        "PLANEJAMENTO  OFICINA 2026",
-        "to do"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ae0nhx9",
-      "type": "clickup",
-      "titulo": "Contratações",
-      "data": "2026-04-29",
-      "perfil": "90138228562",
-      "listId": "901323575881",
-      "listaNodeId": "lista-901323575881",
-      "statusNodeId": "sg-901323575881-to-do",
-      "parentId": "sg-901323575881-to-do",
-      "status": "to do",
-      "conteudo": "**Contratações**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n# Quais funcionários você precisa contratar para 2026?\n\n**Contadora e ferramentas**\n\n# Quanto custa cada um?\n\nEm torno de R$600,00\n\n# Onde você pode encontrá-los?\n\n**Grupos de alunos dos cursos que fiz, grupos do telegram ou posso pesquisar**\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ae0nhx9)",
       "tags": [
         "PLANEJAMENTO  OFICINA 2026",
         "to do"
@@ -24406,366 +23947,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ag8ym41",
-      "type": "clickup",
-      "titulo": "Mentiras que acreditam:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-mentiras",
-      "parentId": "sg-901326451134-mentiras",
-      "status": "mentiras",
-      "conteudo": "**Mentiras que acreditam:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** mentiras\n\n\n**Descrição:**\nQue o vender acompanhamento de finanças é a melhor opção na maioria dos casos\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym41)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "mentiras"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym46",
-      "type": "clickup",
-      "titulo": "Mudança (disso para isso):",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-ponto-a-b",
-      "parentId": "sg-901326451134-ponto-a-b",
-      "status": "ponto a-b",
-      "conteudo": "**Mudança (disso para isso):**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** ponto a-b\n\n\n**Descrição:**\nDe fazer posts de gatilhos mentais a uma empresa procurada e com aumento de LTV\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym46)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "ponto a-b"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym4n",
-      "type": "clickup",
-      "titulo": "Transformação negativa:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-futuro-triste",
-      "parentId": "sg-901326451134-futuro-triste",
-      "status": "futuro triste",
-      "conteudo": "**Transformação negativa:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** futuro triste\n\n\n**Descrição:**\nFica a mercê de fazer conta o tempo todo\nFaturar mais significa consumir mais tempo\nPerde para concorrentes que são grandes\nNão consegue ter um escritório independente\nFica vista como mais do mesmo por ter pouca barreira de entrada\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym4n)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "futuro triste"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym5t",
-      "type": "clickup",
-      "titulo": "Transformação positiva:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-futuro-feliz",
-      "parentId": "sg-901326451134-futuro-feliz",
-      "status": "futuro feliz",
-      "conteudo": "**Transformação positiva:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** futuro feliz\n\n\n**Descrição:**\nLiberdade de escritório\nAumento de clientes\nVárias fonte de renda\nNegócio estruturado e próspero\nIndependência financeira\nSe transforma em referência\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym5t)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "futuro feliz"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym5z",
-      "type": "clickup",
-      "titulo": "Oponente:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-posicionamento",
-      "parentId": "sg-901326451134-posicionamento",
-      "status": "posicionamento",
-      "conteudo": "**Oponente:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** posicionamento\n\n\n**Descrição:**\nMeu oponente só pensa em estratégia de marketing digital e esquece de olhar um negócio como um todo, porque só conteúdo não vende.\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym5z)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "posicionamento"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym65",
-      "type": "clickup",
-      "titulo": "O que fazem de errado que interfere no resultado:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-erro",
-      "parentId": "sg-901326451134-erro",
-      "status": "erro",
-      "conteudo": "**O que fazem de errado que interfere no resultado:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** erro\n\n\n**Descrição:**\nPostar entrando em trends para ter mais visualizações achando que mais pessoas vendo o perfil são mais vendas saindo\nFazem estratégia de marketng de grandes players\nSobem campanhas de anúncios sem estrutura\nFicam usando frase de efeito para chamar atenção em conteúdo\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym65)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "erro"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym68",
-      "type": "clickup",
-      "titulo": "Quem é a persona:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-persona",
-      "parentId": "sg-901326451134-persona",
-      "status": "persona",
-      "conteudo": "**Quem é a persona:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** persona\n\n\n**Descrição:**\nEmpresas que estão devendo para a receita\nAutônomos que desejam deixar finanças mais organizada\nEmpresários que são obrigados por lei a terem contador devido a modalidade do CNPJ\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym68)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "persona"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym6m",
-      "type": "clickup",
-      "titulo": "Frase de impacto:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-choque",
-      "parentId": "sg-901326451134-choque",
-      "status": "choque",
-      "conteudo": "**Frase de impacto:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** choque\n\n\n**Descrição:**\nMenos cálculos, mais dinheiro\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym6m)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "choque"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym6y",
-      "type": "clickup",
-      "titulo": "Mensagem da campanha:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-slogan",
-      "parentId": "sg-901326451134-slogan",
-      "status": "slogan",
-      "conteudo": "**Mensagem da campanha:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** slogan\n\n\n**Descrição:**\nMenos é mais\n\nA contadora fixa muito a mente no atendimento individualizado de cada empresa e esquece de outras possibilidades\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym6y)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "slogan"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym7v",
-      "type": "clickup",
-      "titulo": "O que você entrega que é novo para a audiência:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-novidade",
-      "parentId": "sg-901326451134-novidade",
-      "status": "novidade",
-      "conteudo": "**O que você entrega que é novo para a audiência:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** novidade\n\n\n**Descrição:**\nCriação de conteúdos baseada em plano de negócios, não em marketing digital\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym7v)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "novidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym86",
-      "type": "clickup",
-      "titulo": "Ativação de curiosidade:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-curiosidade",
-      "parentId": "sg-901326451134-curiosidade",
-      "status": "curiosidade",
-      "conteudo": "**Ativação de curiosidade:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** curiosidade\n\n\n**Descrição:**\nAumento de faturamento em menos de 30 dias\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym86)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "curiosidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym8h",
-      "type": "clickup",
-      "titulo": "Big Idea:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-sonho",
-      "parentId": "sg-901326451134-sonho",
-      "status": "sonho",
-      "conteudo": "**Big Idea:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** sonho\n\n\n**Descrição:**\nSer uma referência no mercado de finanças possibilitando converter mais empresas e autônomos com menos esforço.\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym8h)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "sonho"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym8x",
-      "type": "clickup",
-      "titulo": "Novo ângulo:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134--ngulo",
-      "parentId": "sg-901326451134--ngulo",
-      "status": "ângulo",
-      "conteudo": "**Novo ângulo:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** ângulo\n\n\n**Descrição:**\nPrecisa enxergar novas possibilidades de LTV por grupos de empresas e ao mesmo tempo de forma personalizada\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym8x)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "ângulo"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym9e",
-      "type": "clickup",
-      "titulo": "Validação:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-provas",
-      "parentId": "sg-901326451134-provas",
-      "status": "provas",
-      "conteudo": "**Validação:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** provas\n\n\n**Descrição:**\nPara validar, preciso fazer a parceria com empresa que tem meu cliente como cliente, construir 2 cases de sucesso com provas\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym9e)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "provas"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ym9z",
-      "type": "clickup",
-      "titulo": "Solução para a persona:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-necessidade",
-      "parentId": "sg-901326451134-necessidade",
-      "status": "necessidade",
-      "conteudo": "**Solução para a persona:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** necessidade\n\n\n**Descrição:**\nSair do óbvio. Hedlines criando necessidades não vendem mais que o concorrente. Um nicho com pouca barreira de entrada, precisa fujir do óbvio para crecer como empresa.\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ym9z)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "necessidade"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ymah",
-      "type": "clickup",
-      "titulo": "Protocolo( método):",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-protocolo",
-      "parentId": "sg-901326451134-protocolo",
-      "status": "protocolo",
-      "conteudo": "**Protocolo( método):**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** protocolo\n\n\n**Descrição:**\nO objetivo é aumento de faturamento, então procuro buracos que estão sendo deixados para trás e que fazem diferença no faturamento final, por isso a entrega de resultado vem em menos de 30 dias.\nMonto um plano de negócio e encaixo várias estratégias dentro desse plano.\nNa prática fica assim:\nUma estratégia de conteúdo dentro dentro de uma campanha, uma campanha que cobre um buraco dentro de um plano de negócio. É UMA TEIA DE NEGÓCIO\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymah)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "protocolo"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ymaz",
-      "type": "clickup",
-      "titulo": "Dor latejante:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-pedra-no-sapato",
-      "parentId": "sg-901326451134-pedra-no-sapato",
-      "status": "pedra no sapato",
-      "conteudo": "**Dor latejante:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** pedra no sapato\n\n\n**Descrição:**\nAumento de faturamento com mais facilidade, sem ter que criar a necessidade na audiência\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymaz)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "pedra no sapato"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ymbb",
-      "type": "clickup",
-      "titulo": "Tortura",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-consequ-ncia",
-      "parentId": "sg-901326451134-consequ-ncia",
-      "status": "consequência",
-      "conteudo": "**Tortura**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** consequência\n\n\n**Descrição:**\nNão conseguir equilibrar tudo que precisa ser feito para manter o negócio\nFazer tudo sozinha\nSer muito técnico e clichê, perdendo para concorrentes maiores que falam a mesma coisa\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymbb)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "consequência"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ymbw",
-      "type": "clickup",
-      "titulo": "Conclusão triste:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-conclus-o",
-      "parentId": "sg-901326451134-conclus-o",
-      "status": "conclusão",
-      "conteudo": "**Conclusão triste:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** conclusão\n\n\n**Descrição:**\nVem o desgaste mental achando que errou na escolha de profissão ou que já está saturado.\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymbw)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "conclusão"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ymcb",
-      "type": "clickup",
-      "titulo": "Consequências dessas mentiras:",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451134",
-      "listaNodeId": "lista-901326451134",
-      "statusNodeId": "sg-901326451134-seguindo-a-manada",
-      "parentId": "sg-901326451134-seguindo-a-manada",
-      "status": "seguindo a manada",
-      "conteudo": "**Consequências dessas mentiras:**\n\n📋 **Lista:** Central de Campanha (Contadoras)\n🔖 **Status:** seguindo a manada\n\n\n**Descrição:**\nFica igual a qualquer outra contadora\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymcb)",
-      "tags": [
-        "Central de Campanha (Contadoras)",
-        "seguindo a manada"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ag8yt0a",
       "type": "clickup",
       "titulo": "➡ Ações que faz agora e dá errado",
@@ -25479,24 +24660,6 @@
       "parentId": "sg-901326451138-programado",
       "status": "programado",
       "conteudo": "**Faça isso para vender mais\nsem precisar atrair mais clientes**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n**SLIDE 1 — HEADLINE (faça isso para + conquista inesperada)**\n\nFaça isso para vender mais\nsem precisar atrair mais clientes.\n\n**SLIDE 2 — CONTEXTO (mais curto)**\n\nDurante muito tempo, eu achei que vender mais\nera só trazer mais gente.\n\nMais tráfego.\nMais esforço.\nMais conteúdo\nMesmo resultado.\n\n**SLIDE 3 — A GRANDE DESCOBERTA**\n\nO problema não era quem não chegava.\nEra o que acontecia depois que chegava.\n\nSem um caminho claro, o cliente entra…\nmas não avança para a compra.\n\n**SLIDE 4 — RESULTADO / PROVA**\n\nQuando o foco mudou para o percurso do cliente:\n\n• conversas viraram vendas\n• objeções diminuíram\n• decisões ficaram mais simples\n• o faturamento parou de oscilar\n\nO fluxo era o mesmo.\nO resultado, não.\n\n**SLIDE 5 — ATRATIVO INESPERADO**\n\nO detalhe que quase ninguém considera:\n\n*   Mais\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymma)",
-      "tags": [
-        "Conteúdo",
-        "programado"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8ymn0",
-      "type": "clickup",
-      "titulo": "Esse é o passo a passo que eu uso para parar de atrair público errado para meus clientes e destravar faturamento da empresa",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451138",
-      "listaNodeId": "lista-901326451138",
-      "statusNodeId": "sg-901326451138-programado",
-      "parentId": "sg-901326451138-programado",
-      "status": "programado",
-      "conteudo": "**Esse é o passo a passo que eu uso para parar de atrair público errado para meus clientes e destravar faturamento da empresa**\n\n📋 **Lista:** Conteúdo\n🔖 **Status:** programado\n\n\n**Descrição:**\n🟦 SLIDE 1 — HEADLINE\n\nEsse é o passo a passo que eu uso para parar de atrair público errado para meus clientes e destravar faturamento da empresa\n\n⸻\n\n🟦 SLIDE 2 — QUEBRA DE CRENÇAS / OBJEÇÕES\n\n“Meu serviço é caro.”\n“O problema é falta de divulgação.”\n“Só empresa pequena me procura.”\n\nFoi exatamente isso que uma cliente contadora me disse antes do plano de ação, ela percebia que quando passava o preço, perdia para o concorrente\n\n⸻\n\n🟦 SLIDE 3 — AFASTAMENTO DO MUNDO COMUM\n\nO mercado te ensina que o caminho é:\n• conteúdo estratégico\n• rodar tráfego no facebook\n• atrair mais leads\n\nMas isso não resolve quando:\n• o público chega errado\n• a percepção de valor é baixa\n• a decisão trava no atendimento\n\nMais marketing em negócio desestruturado só acelera o erro.\n\n⸻\n\n🟦 SLIDE 4 — PASSO 1 (O QUÊ, NÃ\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8ymn0)",
       "tags": [
         "Conteúdo",
         "programado"
@@ -26224,24 +25387,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ag8yvbu",
-      "type": "clickup",
-      "titulo": "Contratações",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451268",
-      "listaNodeId": "lista-901326451268",
-      "statusNodeId": "sg-901326451268-to-do",
-      "parentId": "sg-901326451268-to-do",
-      "status": "to do",
-      "conteudo": "**Contratações**\n\n📋 **Lista:** PLANEJAMENTO  OFICINA 2026\n🔖 **Status:** to do\n\n\n**Descrição:**\n# Quais funcionários você precisa contratar para 2026?\n\n**Designer, social media. gestora de tráfego e contadora**\n\n# Quanto custa cada um?\n\n**R$2000**\n\n# Onde você pode encontrá-los?\n\n**Grupos de alunos dos cursos que fiz ou grupos do telegram**\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8yvbu)",
-      "tags": [
-        "PLANEJAMENTO  OFICINA 2026",
-        "to do"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ag8yvca",
       "type": "clickup",
       "titulo": "Coloque meta de faturamento nas ações e lançamentos",
@@ -26487,24 +25632,6 @@
       "parentId": "sg-901326451289-a-fazer",
       "status": "a fazer",
       "conteudo": "**Criar 15 criativos**\n\n📋 **Lista:** Organização  Empresa\n🔖 **Status:** a fazer\n\n\n**Descrição:**\n- [ ] Gravar 6 em vídeo\n- [ ] Criar 9 em estático\n- [ ] Escrever copys\n- [ ] Criar campanha\n- [ ] Programar\n- [ ] Adicionar saldo da semana\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8yvv5)",
-      "tags": [
-        "Organização  Empresa",
-        "a fazer"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86ag8yvvm",
-      "type": "clickup",
-      "titulo": "Contabilidade empresa",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451289",
-      "listaNodeId": "lista-901326451289",
-      "statusNodeId": "sg-901326451289-a-fazer",
-      "parentId": "sg-901326451289-a-fazer",
-      "status": "a fazer",
-      "conteudo": "**Contabilidade empresa**\n\n📋 **Lista:** Organização  Empresa\n🔖 **Status:** a fazer\n\n\n**Descrição:**\n- [ ] Organizar controle de caixa e emissão de notas\n- [ ] Agendar pagamentos\n- [ ] Vencimento de faturas empresa\n- [ ] Soma para Imposto de Renda\n- [ ] Parcelar MEI\n- [ ] Pagar MEI\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8yvvm)",
       "tags": [
         "Organização  Empresa",
         "a fazer"
@@ -30868,24 +29995,6 @@
       "links": []
     },
     {
-      "id": "clickup-86ag8zqk0",
-      "type": "clickup",
-      "titulo": "Cliente Viviane (Contadora)",
-      "data": "2026-03-18",
-      "perfil": "901313688913",
-      "listId": "901326451521",
-      "listaNodeId": "lista-901326451521",
-      "statusNodeId": "sg-901326451521-planejamento",
-      "parentId": "sg-901326451521-planejamento",
-      "status": "planejamento",
-      "conteudo": "**Cliente Viviane (Contadora)**\n\n📋 **Lista:** Cliente Viviane Sanches (Contadora)\n🔖 **Status:** planejamento\n\n\n**Descrição:**\n**Definição de Pronto:**\nCriei o resumo de tudo que precisa feito, agora preciso reler, analisar o que é aplicável, montar o plano de ação, diagramar para apresentar em reunião para ela.\n- [ ] Reler e copiar o analisado\n- [ ] Criar o plano\n- [ ] Diagramar para apresentar\n\n**Objetivo da Campanha:**\nO objetivo desse plano de ação é que ela conquiste 2 clientes. Caso ninguém da indicação feche o serviço comigo, para dar continuidade a parceria, ela precisa pagar pelo serviço ou será encerrada\n\n**Descrição base do cadastro do cliente:**\nA cliente é uma contadora iniciante, ainda não tem CNPJ e atua como CLT. É disposta a fazer reunião, porém não dá para demorar muito porque ela faz no ambiente de trabalho. Máximo 45 minutos, exceto se ela prolongar. Sua meta é atingir 10 clientes mensais, poré\n\n[🔗 Abrir no ClickUp](https://app.clickup.com/t/86ag8zqk0)",
-      "tags": [
-        "Cliente Viviane Sanches (Contadora)",
-        "planejamento"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aj5n38d",
       "type": "clickup",
       "titulo": "Atualização",
@@ -33632,7 +32741,7 @@
       "links": []
     },
     {
-      "id": "ig-divarebel.on-28128",
+      "id": "ig-divarebel.on-7u9e9",
       "type": "instagram",
       "titulo": "Post Instagram",
       "data": "2026-09-11",
@@ -34121,11 +33230,6 @@
     },
     {
       "source": "pasta-901310287405",
-      "target": "lista-901316179544",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901310287405",
       "target": "lista-901316212651",
       "tipo": "hierarquia"
     },
@@ -34336,11 +33440,6 @@
     },
     {
       "source": "pasta-901317818836",
-      "target": "lista-901326451134",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901317818836",
       "target": "lista-901326451238",
       "tipo": "hierarquia"
     },
@@ -34437,11 +33536,6 @@
     {
       "source": "pasta-901317819005",
       "target": "lista-901326451523",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "pasta-901317819005",
-      "target": "lista-901326451521",
       "tipo": "hierarquia"
     },
     {
@@ -35890,106 +34984,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-mentiras",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-ponto-a-b",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-futuro-triste",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-futuro-feliz",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-posicionamento",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-erro",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-persona",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-choque",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-slogan",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-novidade",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-curiosidade",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-sonho",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134--ngulo",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-provas",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-necessidade",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-protocolo",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-pedra-no-sapato",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-consequ-ncia",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-conclus-o",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451134",
-      "target": "sg-901326451134-seguindo-a-manada",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "lista-901326451238",
       "target": "sg-901326451238-momento-",
       "tipo": "hierarquia"
@@ -36372,11 +35366,6 @@
     {
       "source": "lista-901326451523",
       "target": "sg-901326451523-iniciada",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901326451521",
-      "target": "sg-901326451521-planejamento",
       "tipo": "hierarquia"
     },
     {
@@ -39436,11 +38425,6 @@
     },
     {
       "source": "sg-901316452690-em-an-lise",
-      "target": "clickup-86ajg23ef",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901316452690-em-an-lise",
       "target": "clickup-86ajc5cv4",
       "tipo": "hierarquia"
     },
@@ -39492,11 +38476,6 @@
     {
       "source": "sg-901323575881-to-do",
       "target": "clickup-86ae0nhyk",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901323575881-to-do",
-      "target": "clickup-86ae0nhx9",
       "tipo": "hierarquia"
     },
     {
@@ -40555,106 +39534,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901326451134-mentiras",
-      "target": "clickup-86ag8ym41",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-ponto-a-b",
-      "target": "clickup-86ag8ym46",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-futuro-triste",
-      "target": "clickup-86ag8ym4n",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-futuro-feliz",
-      "target": "clickup-86ag8ym5t",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-posicionamento",
-      "target": "clickup-86ag8ym5z",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-erro",
-      "target": "clickup-86ag8ym65",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-persona",
-      "target": "clickup-86ag8ym68",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-choque",
-      "target": "clickup-86ag8ym6m",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-slogan",
-      "target": "clickup-86ag8ym6y",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-novidade",
-      "target": "clickup-86ag8ym7v",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-curiosidade",
-      "target": "clickup-86ag8ym86",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-sonho",
-      "target": "clickup-86ag8ym8h",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134--ngulo",
-      "target": "clickup-86ag8ym8x",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-provas",
-      "target": "clickup-86ag8ym9e",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-necessidade",
-      "target": "clickup-86ag8ym9z",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-protocolo",
-      "target": "clickup-86ag8ymah",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-pedra-no-sapato",
-      "target": "clickup-86ag8ymaz",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-consequ-ncia",
-      "target": "clickup-86ag8ymbb",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-conclus-o",
-      "target": "clickup-86ag8ymbw",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451134-seguindo-a-manada",
-      "target": "clickup-86ag8ymcb",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901326451238-momento-",
       "target": "clickup-86ag8yt0a",
       "tipo": "hierarquia"
@@ -40852,11 +39731,6 @@
     {
       "source": "sg-901326451138-programado",
       "target": "clickup-86ag8ymma",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451138-programado",
-      "target": "clickup-86ag8ymn0",
       "tipo": "hierarquia"
     },
     {
@@ -41061,11 +39935,6 @@
     },
     {
       "source": "sg-901326451268-to-do",
-      "target": "clickup-86ag8yvbu",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451268-to-do",
       "target": "clickup-86ag8yvca",
       "tipo": "hierarquia"
     },
@@ -41132,11 +40001,6 @@
     {
       "source": "sg-901326451289-a-fazer",
       "target": "clickup-86ag8yvv5",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901326451289-a-fazer",
-      "target": "clickup-86ag8yvvm",
       "tipo": "hierarquia"
     },
     {
@@ -42350,11 +41214,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901326451521-planejamento",
-      "target": "clickup-86ag8zqk0",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901327630875-di-rio",
       "target": "clickup-86aj5n38d",
       "tipo": "hierarquia"
@@ -43206,7 +42065,7 @@
     },
     {
       "source": "espaco-90138131603",
-      "target": "ig-divarebel.on-28128",
+      "target": "ig-divarebel.on-7u9e9",
       "tipo": "externo"
     },
     {
