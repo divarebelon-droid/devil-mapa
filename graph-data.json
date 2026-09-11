@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-09-11T15:50:15.198Z",
-  "totalNodes": 1145,
-  "totalLinks": 1132,
+  "geradoEm": "2026-09-11T20:25:06.440Z",
+  "totalNodes": 1148,
+  "totalLinks": 1135,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -2940,8 +2940,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 1,
-      "conteudo": "**terça**\n\nLista: MAPA ROTINA ALINE\nTarefas: 1",
+      "count": 2,
+      "conteudo": "**terça**\n\nLista: MAPA ROTINA ALINE\nTarefas: 2",
       "tags": [
         "status",
         "terça"
@@ -2976,8 +2976,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 3,
-      "conteudo": "**sexta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 3",
+      "count": 4,
+      "conteudo": "**sexta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 4",
       "tags": [
         "status",
         "sexta"
@@ -2994,8 +2994,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 3,
-      "conteudo": "**segunda**\n\nLista: MAPA ROTINA ALINE\nTarefas: 3",
+      "count": 4,
+      "conteudo": "**segunda**\n\nLista: MAPA ROTINA ALINE\nTarefas: 4",
       "tags": [
         "status",
         "segunda"
@@ -8219,6 +8219,60 @@
       "tags": [
         "MAPA ROTINA ALINE",
         "segunda"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akgzzpx",
+      "type": "clickup",
+      "titulo": "Reuniao com Claudia Babo",
+      "data": "2026-09-11",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-ter-a",
+      "parentId": "sg-901325435867-ter-a",
+      "status": "terça",
+      "conteudo": "**Reuniao com Claudia Babo**\n\nLista: MAPA ROTINA ALINE\nStatus: terça\n\n1 Reunião\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akgzzpx)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "terça"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akh044h",
+      "type": "clickup",
+      "titulo": "Reuniao com Talita Soares",
+      "data": "2026-09-11",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-segunda",
+      "parentId": "sg-901325435867-segunda",
+      "status": "segunda",
+      "conteudo": "**Reuniao com Talita Soares**\n\nLista: MAPA ROTINA ALINE\nStatus: segunda\n\n1 Reunião\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akh044h)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "segunda"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akh2w2t",
+      "type": "clickup",
+      "titulo": "Reuniao com Fernanda Linhares",
+      "data": "2026-09-11",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-sexta",
+      "parentId": "sg-901325435867-sexta",
+      "status": "sexta",
+      "conteudo": "**Reuniao com Fernanda Linhares**\n\nLista: MAPA ROTINA ALINE\nStatus: sexta\n\n1 Reunião\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akh2w2t)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "sexta"
       ],
       "links": []
     },
@@ -22095,6 +22149,21 @@
     {
       "source": "sg-901325435867-segunda",
       "target": "clickup-86akgt7m3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-ter-a",
+      "target": "clickup-86akgzzpx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-segunda",
+      "target": "clickup-86akh044h",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-sexta",
+      "target": "clickup-86akh2w2t",
       "tipo": "hierarquia"
     },
     {
