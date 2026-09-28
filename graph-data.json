@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-09-28T12:51:34.460Z",
-  "totalNodes": 1190,
-  "totalLinks": 1177,
+  "geradoEm": "2026-09-28T22:55:46.327Z",
+  "totalNodes": 1194,
+  "totalLinks": 1181,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -3012,8 +3012,8 @@
       "listId": "901325435867",
       "listaNodeId": "lista-901325435867",
       "parentId": "lista-901325435867",
-      "count": 3,
-      "conteudo": "**quarta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 3",
+      "count": 7,
+      "conteudo": "**quarta**\n\nLista: MAPA ROTINA ALINE\nTarefas: 7",
       "tags": [
         "status",
         "quarta"
@@ -8435,6 +8435,78 @@
       "tags": [
         "MAPA ROTINA ALINE",
         "terça"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akqbjev",
+      "type": "clickup",
+      "titulo": "Reuniao com Reunião com Bruna (Cliente)",
+      "data": "2026-09-28",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quarta",
+      "parentId": "sg-901325435867-quarta",
+      "status": "quarta",
+      "conteudo": "**Reuniao com Reunião com Bruna (Cliente)**\n\nLista: MAPA ROTINA ALINE\nStatus: quarta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akqbjev)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quarta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akqbmem",
+      "type": "clickup",
+      "titulo": "Reuniao com Reunião com Regiane",
+      "data": "2026-09-28",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quarta",
+      "parentId": "sg-901325435867-quarta",
+      "status": "quarta",
+      "conteudo": "**Reuniao com Reunião com Regiane**\n\nLista: MAPA ROTINA ALINE\nStatus: quarta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akqbmem)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quarta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akqbubr",
+      "type": "clickup",
+      "titulo": "Reuniao com Reunião com Elaine",
+      "data": "2026-09-28",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quarta",
+      "parentId": "sg-901325435867-quarta",
+      "status": "quarta",
+      "conteudo": "**Reuniao com Reunião com Elaine**\n\nLista: MAPA ROTINA ALINE\nStatus: quarta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akqbubr)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quarta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akqbw1c",
+      "type": "clickup",
+      "titulo": "Reuniao com Reunião com Priscila (Cliente)",
+      "data": "2026-09-28",
+      "perfil": "90138131766",
+      "listId": "901325435867",
+      "listaNodeId": "lista-901325435867",
+      "statusNodeId": "sg-901325435867-quarta",
+      "parentId": "sg-901325435867-quarta",
+      "status": "quarta",
+      "conteudo": "**Reuniao com Reunião com Priscila (Cliente)**\n\nLista: MAPA ROTINA ALINE\nStatus: quarta\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akqbw1c)",
+      "tags": [
+        "MAPA ROTINA ALINE",
+        "quarta"
       ],
       "links": []
     },
@@ -22890,6 +22962,26 @@
     {
       "source": "sg-901325435867-ter-a",
       "target": "clickup-86akpyqcq",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quarta",
+      "target": "clickup-86akqbjev",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quarta",
+      "target": "clickup-86akqbmem",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quarta",
+      "target": "clickup-86akqbubr",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901325435867-quarta",
+      "target": "clickup-86akqbw1c",
       "tipo": "hierarquia"
     },
     {
