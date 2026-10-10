@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-10-10T04:14:07.806Z",
-  "totalNodes": 1468,
-  "totalLinks": 1455,
+  "geradoEm": "2026-10-10T11:53:00.421Z",
+  "totalNodes": 1472,
+  "totalLinks": 1459,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -5819,6 +5819,42 @@
       "tags": [
         "status",
         "treinamentos"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327630875-di-rio",
+      "type": "status_group",
+      "titulo": "diário",
+      "data": "2026-10-10",
+      "perfil": "901313862831",
+      "cor": "#1090e0",
+      "listId": "901327630875",
+      "listaNodeId": "lista-901327630875",
+      "parentId": "lista-901327630875",
+      "count": 1,
+      "conteudo": "**diário**\n\nLista: Cronograma\nTarefas: 1",
+      "tags": [
+        "status",
+        "diário"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901327630875-aprendizagem",
+      "type": "status_group",
+      "titulo": "aprendizagem",
+      "data": "2026-10-10",
+      "perfil": "901313862831",
+      "cor": "var(--cu-status-brown)",
+      "listId": "901327630875",
+      "listaNodeId": "lista-901327630875",
+      "parentId": "lista-901327630875",
+      "count": 1,
+      "conteudo": "**aprendizagem**\n\nLista: Cronograma\nTarefas: 1",
+      "tags": [
+        "status",
+        "aprendizagem"
       ],
       "links": []
     },
@@ -21519,6 +21555,42 @@
       "links": []
     },
     {
+      "id": "clickup-86aj5n38d",
+      "type": "clickup",
+      "titulo": "Atualização",
+      "data": "2026-06-22",
+      "perfil": "901313862831",
+      "listId": "901327630875",
+      "listaNodeId": "lista-901327630875",
+      "statusNodeId": "sg-901327630875-di-rio",
+      "parentId": "sg-901327630875-di-rio",
+      "status": "diário",
+      "conteudo": "**Atualização**\n\nLista: Cronograma\nStatus: diário\n\n- [x] Criação de espaço de trabalho\n- [ ] Inicio do Onboarding\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5n38d)",
+      "tags": [
+        "Cronograma",
+        "diário"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86aj5n38e",
+      "type": "clickup",
+      "titulo": "Plano de ação",
+      "data": "2026-06-22",
+      "perfil": "901313862831",
+      "listId": "901327630875",
+      "listaNodeId": "lista-901327630875",
+      "statusNodeId": "sg-901327630875-aprendizagem",
+      "parentId": "sg-901327630875-aprendizagem",
+      "status": "aprendizagem",
+      "conteudo": "**Plano de ação**\n\nLista: Cronograma\nStatus: aprendizagem\n\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aj5n38e)",
+      "tags": [
+        "Cronograma",
+        "aprendizagem"
+      ],
+      "links": []
+    },
+    {
       "id": "clickup-86aj5n382",
       "type": "clickup",
       "titulo": "Oportunidade e Oferta",
@@ -27035,6 +27107,16 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "lista-901327630875",
+      "target": "sg-901327630875-di-rio",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "lista-901327630875",
+      "target": "sg-901327630875-aprendizagem",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "lista-901327630874",
       "target": "sg-901327630874-passo-4",
       "tipo": "hierarquia"
@@ -31392,6 +31474,16 @@
     {
       "source": "sg-901316378350-treinamentos",
       "target": "clickup-86aau2wju",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327630875-di-rio",
+      "target": "clickup-86aj5n38d",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327630875-aprendizagem",
+      "target": "clickup-86aj5n38e",
       "tipo": "hierarquia"
     },
     {
