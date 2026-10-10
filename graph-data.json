@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-10-10T16:56:16.333Z",
-  "totalNodes": 1201,
-  "totalLinks": 1188,
+  "geradoEm": "2026-10-10T21:07:58.090Z",
+  "totalNodes": 1302,
+  "totalLinks": 1289,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -5333,6 +5333,24 @@
       "tags": [
         "status",
         "revisão design"
+      ],
+      "links": []
+    },
+    {
+      "id": "sg-901329186361-a-fazer",
+      "type": "status_group",
+      "titulo": "a fazer",
+      "data": "2026-10-10",
+      "perfil": "90138228562",
+      "cor": "#656f7d",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "parentId": "lista-901329186361",
+      "count": 100,
+      "conteudo": "**a fazer**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nTarefas: 100",
+      "tags": [
+        "status",
+        "a fazer"
       ],
       "links": []
     },
@@ -17505,6 +17523,1806 @@
       "links": []
     },
     {
+      "id": "clickup-86akr1qpr",
+      "type": "clickup",
+      "titulo": "🌈 LEIA-ME — Como usar este banco de ideias",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🌈 LEIA-ME — Como usar este banco de ideias**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n# Banco de ideias para Nutricionistas\n\nEsta lista e a biblioteca de inspiracoes. Ela nao substitui e nao altera a lista Conteudo.\n\n## Organizacao visual\n*   🎙️ REUNIAO: ideia nascida de conversa ou reuniao.\n*   👁️ MINHA VISAO: referencia que combina com o posicionamento da Diva Rebel.\n*   🎨 FORMATO: estrutura de copy, roteiro ou design reaproveitavel.\n*   ✨ NOVA IDEIA: ainda nao transformada em pauta.\n\nCada nova tarefa deve conservar a fonte original, o link, o publico e uma sugestao de abordagem. Quando uma ideia for escolhida para producao, ela podera ser levada depois para a lista Conteu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1qpr)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tb1",
+      "type": "clickup",
+      "titulo": "Nutricionista: seu acompanhamento tem preço ou tem cálculo?",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Nutricionista: seu acompanhamento tem preço ou tem cálculo?**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Precificação, margem, pró-labore e preço da hora\n**Aprendizado central:** Preço sustentável considera custos, horas produtivas, margem, impostos, reserva e capacidade real de entrega.\n\n**Como aplicar:** Traduzir custo, tempo clínico, suporte e margem para a rotina da nutricionista.\n\n**Resultado esperado:** Atrair nutricionistas que precisam profissionalizar o consultório.\n\n* * *\n\n**Fonte:** Aula com Bia Menezes\n**ID da aula:** aula-precificacao-bia-menezes-2026-09-23\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tb1)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tb8",
+      "type": "clickup",
+      "titulo": "Anúncio — Agenda cheia e caixa vazio não é crescimento",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Anúncio — Agenda cheia e caixa vazio não é crescimento**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Precificação, margem, pró-labore e preço da hora\n**Aprendizado central:** Preço sustentável considera custos, horas produtivas, margem, impostos, reserva e capacidade real de entrega.\n\n**Como aplicar:** Criativo de dor mostrando que volume de pacientes sem margem pode piorar a operação.\n\n**Resultado esperado:** Levar nutricionistas para diagnóstico da Oficina.\n\n* * *\n\n**Fonte:** Aula com Bia Menezes\n**ID da aula:** aula-precificacao-bia-menezes-2026-09-23\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tb8)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tbe",
+      "type": "clickup",
+      "titulo": "Live — Como saber se o valor do acompanhamento sustenta o consultório",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Live — Como saber se o valor do acompanhamento sustenta o consultório**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Precificação, margem, pró-labore e preço da hora\n**Aprendizado central:** Preço sustentável considera custos, horas produtivas, margem, impostos, reserva e capacidade real de entrega.\n\n**Como aplicar:** Mostrar custos invisíveis: consulta, preparo, suporte, ferramentas e aquisição.\n\n**Resultado esperado:** Aumentar percepção de valor da gestão comercial.\n\n* * *\n\n**Fonte:** Aula com Bia Menezes\n**ID da aula:** aula-precificacao-bia-menezes-2026-09-23\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tbe)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tbm",
+      "type": "clickup",
+      "titulo": "Aula — Do preço da consulta à esteira de serviços",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Aula — Do preço da consulta à esteira de serviços**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Precificação, margem, pró-labore e preço da hora\n**Aprendizado central:** Preço sustentável considera custos, horas produtivas, margem, impostos, reserva e capacidade real de entrega.\n\n**Como aplicar:** Ensinar a conectar preço, capacidade, porta de entrada e acompanhamento principal.\n\n**Resultado esperado:** Ajudar nutricionistas a construir oferta rentável.\n\n* * *\n\n**Fonte:** Aula com Bia Menezes\n**ID da aula:** aula-precificacao-bia-menezes-2026-09-23\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tbm)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tbx",
+      "type": "clickup",
+      "titulo": "Criativo — O valor da consulta não é só o tempo em chamada",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Criativo — O valor da consulta não é só o tempo em chamada**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Precificação, margem, pró-labore e preço da hora\n**Aprendizado central:** Preço sustentável considera custos, horas produtivas, margem, impostos, reserva e capacidade real de entrega.\n\n**Como aplicar:** Visualizar tudo que acontece antes, durante e depois da consulta.\n\n**Resultado esperado:** Quebrar objeção sobre preço do acompanhamento.\n\n* * *\n\n**Fonte:** Aula com Bia Menezes\n**ID da aula:** aula-precificacao-bia-menezes-2026-09-23\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tbx)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tc2",
+      "type": "clickup",
+      "titulo": "Estratégia — Mapear lucratividade de cada serviço da nutricionista",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Estratégia — Mapear lucratividade de cada serviço da nutricionista**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Precificação, margem, pró-labore e preço da hora\n**Aprendizado central:** Preço sustentável considera custos, horas produtivas, margem, impostos, reserva e capacidade real de entrega.\n\n**Como aplicar:** Cruzar ticket, horas, retenção, suporte e taxa de renovação.\n\n**Resultado esperado:** Priorizar serviços que sustentam crescimento e recorrência.\n\n* * *\n\n**Fonte:** Aula com Bia Menezes\n**ID da aula:** aula-precificacao-bia-menezes-2026-09-23\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tc2)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tdr",
+      "type": "clickup",
+      "titulo": "Seu consultório aprende com as conversas das pacientes?",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Seu consultório aprende com as conversas das pacientes?**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Engenharia de contexto e cérebro operacional da empresa\n**Aprendizado central:** Conhecimento útil precisa ser indexado, conectado às fontes e convertido em decisões, ativos e rotinas reutilizáveis.\n\n**Como aplicar:** Mostrar como dúvidas e objeções recorrentes podem orientar conteúdo sem expor pacientes.\n\n**Resultado esperado:** Gerar consciência sobre uso estratégico do conhecimento clínico e comercial.\n\n* * *\n\n**Fonte:** Resumo e transcrição da aula de engenharia de contexto\n**ID da aula:** aula-engenharia-contexto-lucas-2026-09\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tdr)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4te9",
+      "type": "clickup",
+      "titulo": "Anúncio — Você responde a mesma dúvida toda semana",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Anúncio — Você responde a mesma dúvida toda semana**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Engenharia de contexto e cérebro operacional da empresa\n**Aprendizado central:** Conhecimento útil precisa ser indexado, conectado às fontes e convertido em decisões, ativos e rotinas reutilizáveis.\n\n**Como aplicar:** Transformar repetição no direct e em consulta em argumento para criar uma aula ou material de entrada.\n\n**Resultado esperado:** Atrair nutricionistas para estruturar a jornada de captação.\n\n* * *\n\n**Fonte:** Resumo e transcrição da aula de engenharia de contexto\n**ID da aula:** aula-engenharia-contexto-lucas-2026-09\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4te9)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tez",
+      "type": "clickup",
+      "titulo": "Live — Como transformar dúvidas de pacientes em uma linha editorial",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Live — Como transformar dúvidas de pacientes em uma linha editorial**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Engenharia de contexto e cérebro operacional da empresa\n**Aprendizado central:** Conhecimento útil precisa ser indexado, conectado às fontes e convertido em decisões, ativos e rotinas reutilizáveis.\n\n**Como aplicar:** Ensinar captura ética de padrões, organização por tema e conversão em pautas.\n\n**Resultado esperado:** Criar autoridade para a Oficina.\n\n* * *\n\n**Fonte:** Resumo e transcrição da aula de engenharia de contexto\n**ID da aula:** aula-engenharia-contexto-lucas-2026-09\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tez)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tfm",
+      "type": "clickup",
+      "titulo": "Aula — O banco de conhecimento do consultório",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Aula — O banco de conhecimento do consultório**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Engenharia de contexto e cérebro operacional da empresa\n**Aprendizado central:** Conhecimento útil precisa ser indexado, conectado às fontes e convertido em decisões, ativos e rotinas reutilizáveis.\n\n**Como aplicar:** Ensinar a organizar protocolos, dúvidas, conteúdos, objeções e aprendizados sem dados sensíveis.\n\n**Resultado esperado:** Oferecer uma ferramenta prática para nutricionistas.\n\n* * *\n\n**Fonte:** Resumo e transcrição da aula de engenharia de contexto\n**ID da aula:** aula-engenharia-contexto-lucas-2026-09\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tfm)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4tg9",
+      "type": "clickup",
+      "titulo": "Criativo — Uma reunião pode virar seis ativos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Criativo — Uma reunião pode virar seis ativos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Engenharia de contexto e cérebro operacional da empresa\n**Aprendizado central:** Conhecimento útil precisa ser indexado, conectado às fontes e convertido em decisões, ativos e rotinas reutilizáveis.\n\n**Como aplicar:** Diagrama com reunião no centro ligada a conteúdo, anúncio, live, aula, criativo e estratégia.\n\n**Resultado esperado:** Mostrar a multiplicação do trabalho já realizado.\n\n* * *\n\n**Fonte:** Resumo e transcrição da aula de engenharia de contexto\n**ID da aula:** aula-engenharia-contexto-lucas-2026-09\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4tg9)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr4th3",
+      "type": "clickup",
+      "titulo": "Estratégia — Ciclo mensal de inteligência da Oficina",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Estratégia — Ciclo mensal de inteligência da Oficina**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Aula:** Engenharia de contexto e cérebro operacional da empresa\n**Aprendizado central:** Conhecimento útil precisa ser indexado, conectado às fontes e convertido em decisões, ativos e rotinas reutilizáveis.\n\n**Como aplicar:** Consolidar reuniões, conversas, salvos e resultados em decisões de campanha e ofertas.\n\n**Resultado esperado:** Manter a comunicação conectada ao que o mercado realmente pergunta.\n\n* * *\n\n**Fonte:** Resumo e transcrição da aula de engenharia de contexto\n**ID da aula:** aula-engenharia-contexto-lucas-2026-09\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr4th3)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48yd",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Reel de bastidor usando a ideia casa de ferreiro",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Reel de bastidor usando a ideia casa de ferreiro**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nReel de bastidor usando a ideia casa de ferreiro.\n\n**Fonte original:** [https://www.instagram.com/anacapistranonutri/reel/Dbdfj7XRED6/](https://www.instagram.com/anacapistranonutri/reel/Dbdfj7XRED6/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48yd)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48xf",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Mudança alimentar sustentável começa com pequenas escolhas repetidas",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Mudança alimentar sustentável começa com pequenas escolhas repetidas**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nMudança alimentar sustentável começa com pequenas escolhas repetidas.\n\n**Fonte original:** [https://www.instagram.com/plenitudeeducacao/p/DdRMYmViO-1/](https://www.instagram.com/plenitudeeducacao/p/DdRMYmViO-1/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48xf)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48wx",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Formato de série com convite para uma parte dois",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Formato de série com convite para uma parte dois**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nFormato de série com convite para uma parte dois.\n\n**Fonte original:** [https://www.instagram.com/nutrislab/p/DdABv-sGVXx/](https://www.instagram.com/nutrislab/p/DdABv-sGVXx/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48wx)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48w9",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Normalizar a fome durante o processo de emagrecimento",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Normalizar a fome durante o processo de emagrecimento**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nNormalizar a fome durante o processo de emagrecimento.\n\n**Fonte original:** [https://www.instagram.com/nutrimatheussilvestre/p/DdJ5e4sERTw/](https://www.instagram.com/nutrimatheussilvestre/p/DdJ5e4sERTw/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48w9)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48w3",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Conteúdo direcionado para nutricionistas de consultório",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Conteúdo direcionado para nutricionistas de consultório**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nConteúdo direcionado para nutricionistas de consultório.\n\n**Fonte original:** [https://www.instagram.com/nutrislab/p/DdZIdJbDl28/](https://www.instagram.com/nutrislab/p/DdZIdJbDl28/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48w3)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48vr",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: O que estudantes de nutrição precisam saber",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: O que estudantes de nutrição precisam saber**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nO que estudantes de nutrição precisam saber.\n\n**Fonte original:** [https://www.instagram.com/isadoravalderramas/p/DdFOyv6iTA4/](https://www.instagram.com/isadoravalderramas/p/DdFOyv6iTA4/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48vr)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48vm",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Aprendizados de três anos produzindo conteúdo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Aprendizados de três anos produzindo conteúdo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nAprendizados de três anos produzindo conteúdo.\n\n**Fonte original:** [https://www.instagram.com/nutrislab/p/DdhLgR6Djjr/](https://www.instagram.com/nutrislab/p/DdhLgR6Djjr/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48vm)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48uw",
+      "type": "clickup",
+      "titulo": "💜 Priscila — 🎨 Adaptar: Um dia na vida de uma nutricionista",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💜 Priscila — 🎨 Adaptar: Um dia na vida de uma nutricionista**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: PRISCILA\n**Destino:** 💜 Priscila\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de PRISCILA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nUm dia na vida de uma nutricionista.\n\n**Fonte original:** [https://www.instagram.com/jujupelli.nutri/p/DdkWlE0CUg9/](https://www.instagram.com/jujupelli.nutri/p/DdkWlE0CUg9/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48uw)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48u7",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Nutrição possível, prazerosa e com praticidade",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Nutrição possível, prazerosa e com praticidade**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nNutrição possível, prazerosa e com praticidade.\n\n**Fonte original:** [https://www.instagram.com/biabentonutri/p/DdcZrHQkW73/](https://www.instagram.com/biabentonutri/p/DdcZrHQkW73/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48u7)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48tf",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: O treino não compensa uma alimentação desorganizada",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: O treino não compensa uma alimentação desorganizada**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nO treino não compensa uma alimentação desorganizada.\n\n**Fonte original:** [https://www.instagram.com/nutri.anadutras/p/DdZDdnTCnk3/](https://www.instagram.com/nutri.anadutras/p/DdZDdnTCnk3/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48tf)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48t3",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Reel leve e bem-humorado de identificação",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Reel leve e bem-humorado de identificação**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nReel leve e bem-humorado de identificação.\n\n**Fonte original:** [https://www.instagram.com/carolbertoni.nutri/reel/DaibQn-ufIL/](https://www.instagram.com/carolbertoni.nutri/reel/DaibQn-ufIL/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48t3)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48rj",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Conteúdo curto de identificação e celebração",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Conteúdo curto de identificação e celebração**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nConteúdo curto de identificação e celebração.\n\n**Fonte original:** [https://www.instagram.com/rayane.babi/p/DdZzFB0jypo/](https://www.instagram.com/rayane.babi/p/DdZzFB0jypo/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48rj)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48r2",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Como o Instagram distorce nossa régua de comparação",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Como o Instagram distorce nossa régua de comparação**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nComo o Instagram distorce nossa régua de comparação.\n\n**Fonte original:** [https://www.instagram.com/melinaferrazdermato/p/DdjVKuBjjVq/](https://www.instagram.com/melinaferrazdermato/p/DdjVKuBjjVq/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48r2)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48qj",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Não existe alimento proibido; existe contexto e objetivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Não existe alimento proibido; existe contexto e objetivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nNão existe alimento proibido; existe contexto e objetivo.\n\n**Fonte original:** [https://www.instagram.com/nutricaoby.duda/p/DdSMeUAkTug/](https://www.instagram.com/nutricaoby.duda/p/DdSMeUAkTug/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48qj)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48p1",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Frutas, distensão abdominal e tolerância individual",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Frutas, distensão abdominal e tolerância individual**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nFrutas, distensão abdominal e tolerância individual.\n\n**Fonte original:** [https://www.instagram.com/carlacoelho.nutri/p/DdjF57AEVp6/](https://www.instagram.com/carlacoelho.nutri/p/DdjF57AEVp6/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48p1)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48mz",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Mitos sobre água, jejum, mel, sal rosa e banana",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Mitos sobre água, jejum, mel, sal rosa e banana**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nMitos sobre água, jejum, mel, sal rosa e banana.\n\n**Fonte original:** [https://www.instagram.com/nutrilorenamaitino/p/DdZ0QmFjxc8/](https://www.instagram.com/nutrilorenamaitino/p/DdZ0QmFjxc8/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48mz)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48k9",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Comparar frutas e mostrar por que variar é interessante",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Comparar frutas e mostrar por que variar é interessante**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nComparar frutas e mostrar por que variar é interessante.\n\n**Fonte original:** [https://www.instagram.com/marianamellonutri/p/DceooS-lBny/](https://www.instagram.com/marianamellonutri/p/DceooS-lBny/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48k9)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48jt",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Um dia na vida de uma nutricionista",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Um dia na vida de uma nutricionista**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nUm dia na vida de uma nutricionista.\n\n**Fonte original:** [https://www.instagram.com/jujupelli.nutri/p/DdkWlE0CUg9/](https://www.instagram.com/jujupelli.nutri/p/DdkWlE0CUg9/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48jt)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48j8",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Verdades sobre nutrição que contrariam crenças populares",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Verdades sobre nutrição que contrariam crenças populares**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nVerdades sobre nutrição que contrariam crenças populares.\n\n**Fonte original:** [https://www.instagram.com/laurasantiago.nutri/p/DdbvgbdEfF7/](https://www.instagram.com/laurasantiago.nutri/p/DdbvgbdEfF7/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48j8)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48hj",
+      "type": "clickup",
+      "titulo": "💚 Regiane — 🎨 Adaptar: Diet, light ou zero?",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💚 Regiane — 🎨 Adaptar: Diet, light ou zero?**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: REGIANE\n**Destino:** 💚 Regiane\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de REGIANE, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nDiet, light ou zero?\n\n**Fonte original:** [https://www.instagram.com/nutrilaurademari/p/DdU2MF6FADo/](https://www.instagram.com/nutrilaurademari/p/DdU2MF6FADo/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48hj)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48h8",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Antes de buscar suplementos, conferir se o básico está em dia",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Antes de buscar suplementos, conferir se o básico está em dia**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nAntes de buscar suplementos, conferir se o básico está em dia.\n\n**Fonte original:** [https://www.instagram.com/nutri.anadutras/p/DcOhUAEoN0-/](https://www.instagram.com/nutri.anadutras/p/DcOhUAEoN0-/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48h8)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48h7",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Diferenças entre light, diet e zero",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Diferenças entre light, diet e zero**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nDiferenças entre light, diet e zero.\n\n**Fonte original:** [https://www.instagram.com/nutribyjuliaa/p/DbZGJv4gQzm/](https://www.instagram.com/nutribyjuliaa/p/DbZGJv4gQzm/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48h7)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48gu",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: A composição importa mais do que a frente da embalagem",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: A composição importa mais do que a frente da embalagem**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nA composição importa mais do que a frente da embalagem.\n\n**Fonte original:** [https://www.instagram.com/isadorafrizo.nutri/p/Dbnta-WFkoP/](https://www.instagram.com/isadorafrizo.nutri/p/Dbnta-WFkoP/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48gu)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48gf",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: A história silenciosa por trás do descontrole com a comida",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: A história silenciosa por trás do descontrole com a comida**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nA história silenciosa por trás do descontrole com a comida.\n\n**Fonte original:** [https://www.instagram.com/nutricamicastagna/p/DcEmto8qczw/](https://www.instagram.com/nutricamicastagna/p/DcEmto8qczw/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48gf)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48g3",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Conteúdo de mercado com leveza e proximidade",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Conteúdo de mercado com leveza e proximidade**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nConteúdo de mercado com leveza e proximidade.\n\n**Fonte original:** [https://www.instagram.com/nutriamandapatricio/p/DdB6Ep8lIod/](https://www.instagram.com/nutriamandapatricio/p/DdB6Ep8lIod/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48g3)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48ft",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Lista prática para salvar e consultar depois",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Lista prática para salvar e consultar depois**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nLista prática para salvar e consultar depois.\n\n**Fonte original:** [https://www.instagram.com/brunafontanella/p/DdWiSYHoH-m/](https://www.instagram.com/brunafontanella/p/DdWiSYHoH-m/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48ft)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48fm",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Mudança alimentar sustentável começa com pequenas escolhas repetidas",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Mudança alimentar sustentável começa com pequenas escolhas repetidas**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nMudança alimentar sustentável começa com pequenas escolhas repetidas.\n\n**Fonte original:** [https://www.instagram.com/plenitudeeducacao/p/DdRMYmViO-1/](https://www.instagram.com/plenitudeeducacao/p/DdRMYmViO-1/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48fm)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48fd",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Verdade provocativa sobre dieta e alimentação",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Verdade provocativa sobre dieta e alimentação**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nVerdade provocativa sobre dieta e alimentação.\n\n**Fonte original:** [https://www.instagram.com/nicolecarniel.nutri/p/DdkWlSACYRl/](https://www.instagram.com/nicolecarniel.nutri/p/DdkWlSACYRl/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48fd)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48ew",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Conteúdo para acalmar o coração da audiência",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Conteúdo para acalmar o coração da audiência**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nConteúdo para acalmar o coração da audiência.\n\n**Fonte original:** [https://www.instagram.com/juliaabuffon/p/DdbjDbBkfNh/](https://www.instagram.com/juliaabuffon/p/DdbjDbBkfNh/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48ew)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48em",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Antes de buscar um suplemento novo, olhar a estratégia alimentar",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Antes de buscar um suplemento novo, olhar a estratégia alimentar**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nAntes de buscar um suplemento novo, olhar a estratégia alimentar.\n\n**Fonte original:** [https://www.instagram.com/ceciliamelonutri/p/DdkLyUmgbiq/](https://www.instagram.com/ceciliamelonutri/p/DdkLyUmgbiq/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48em)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48e8",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Diet, light ou zero?",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Diet, light ou zero?**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nDiet, light ou zero?\n\n**Fonte original:** [https://www.instagram.com/nutrilaurademari/p/DdU2MF6FADo/](https://www.instagram.com/nutrilaurademari/p/DdU2MF6FADo/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48e8)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48dx",
+      "type": "clickup",
+      "titulo": "💗 Bruna — 🎨 Adaptar: Uma ligação para minha versão do passado",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**💗 Bruna — 🎨 Adaptar: Uma ligação para minha versão do passado**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** CLIENTE: BRUNA\n**Destino:** 💗 Bruna\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para o conteúdo específico de BRUNA, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nUma ligação para minha versão do passado.\n\n**Fonte original:** [https://www.instagram.com/luanagoes.c/reel/DW4qBN4kqsH/](https://www.instagram.com/luanagoes.c/reel/DW4qBN4kqsH/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48dx)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr48c5",
+      "type": "clickup",
+      "titulo": "O que publicar antes de abrir inscrições para um workshop",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**O que publicar antes de abrir inscrições para um workshop**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Explicar a sequência de validação do tema, aquecimento, desejo e convite para nutricionistas.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-08-29\n**Fonte:** Granola\n**ID de origem:** 6cf013fb-daa5-4ed6-b1a3-562040bd78e5\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr48c5)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y8y",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Conteúdo utilitário com chamada direta para salvar como referência",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Conteúdo utilitário com chamada direta para salvar como referência**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nConteúdo utilitário com chamada direta para salvar como referência.\n\n**Fonte original:** [https://www.instagram.com/biamenesess/p/Dcj14vZqzjS/](https://www.instagram.com/biamenesess/p/Dcj14vZqzjS/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y8y)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y80",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Vídeo curto de bastidores e celebração da dimensão do trabalho realizado",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Vídeo curto de bastidores e celebração da dimensão do trabalho realizado**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nVídeo curto de bastidores e celebração da dimensão do trabalho realizado.\n\n**Fonte original:** [https://www.instagram.com/anacarvalhorp/reel/Dci-ajrRfW0/](https://www.instagram.com/anacarvalhorp/reel/Dci-ajrRfW0/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y80)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y7c",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Metáfora provocativa: qual água você estuda há tempo demais sem entrar?",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Metáfora provocativa: qual água você estuda há tempo demais sem entrar?**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nMetáfora provocativa: qual água você estuda há tempo demais sem entrar?\n\n**Fonte original:** [https://www.instagram.com/biamenesess/p/DcgChRwRPqt/](https://www.instagram.com/biamenesess/p/DcgChRwRPqt/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y7c)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y6b",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Gancho usando o medo comum de um procedimento ou transformação",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Gancho usando o medo comum de um procedimento ou transformação**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nGancho usando o medo comum de um procedimento ou transformação.\n\n**Fonte original:** [https://www.instagram.com/dra.palmyrasantarosa/reel/Dav6mApPZ2a/](https://www.instagram.com/dra.palmyrasantarosa/reel/Dav6mApPZ2a/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y6b)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y5g",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Post sobre parceria, corresponsabilidade e organização da rotina de conteúdos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Post sobre parceria, corresponsabilidade e organização da rotina de conteúdos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nPost sobre parceria, corresponsabilidade e organização da rotina de conteúdos.\n\n**Fonte original:** [https://www.instagram.com/duardamedina/p/DcyfAOhEQ7K/](https://www.instagram.com/duardamedina/p/DcyfAOhEQ7K/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y5g)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y4u",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Formato quem é quem para apresentar participantes, especialistas ou clientes de um projeto",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Formato quem é quem para apresentar participantes, especialistas ou clientes de um projeto**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nFormato quem é quem para apresentar participantes, especialistas ou clientes de um projeto.\n\n**Fonte original:** [https://www.instagram.com/gilpinna/p/DdKJNVjlkie/](https://www.instagram.com/gilpinna/p/DdKJNVjlkie/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y4u)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y4b",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Lista de ferramentas úteis com fechamento para uma calculadora gratuita de prospecção",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Lista de ferramentas úteis com fechamento para uma calculadora gratuita de prospecção**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nLista de ferramentas úteis com fechamento para uma calculadora gratuita de prospecção.\n\n**Fonte original:** [https://www.instagram.com/intensa/p/DcOg1SYjReT/](https://www.instagram.com/intensa/p/DcOg1SYjReT/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y4b)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y3r",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Carrossel com ajustes de mentalidade e comunicação para se destacar como social media",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Carrossel com ajustes de mentalidade e comunicação para se destacar como social media**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nCarrossel com ajustes de mentalidade e comunicação para se destacar como social media.\n\n**Fonte original:** [https://www.instagram.com/academiabrsocialmedia/p/Dc1vS3nHwGR/](https://www.instagram.com/academiabrsocialmedia/p/Dc1vS3nHwGR/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y3r)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y3c",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Copy provocativa: o social media leva a culpa de tudo, mas qual resultado era esperado?",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Copy provocativa: o social media leva a culpa de tudo, mas qual resultado era esperado?**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nCopy provocativa: o social media leva a culpa de tudo, mas qual resultado era esperado?\n\n**Fonte original:** [https://www.instagram.com/portalpublicitario/p/Dc9Mc98iRW5/](https://www.instagram.com/portalpublicitario/p/Dc9Mc98iRW5/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y3c)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y2a",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Seleção de trends da gringa que não exigem superprodução",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Seleção de trends da gringa que não exigem superprodução**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nSeleção de trends da gringa que não exigem superprodução.\n\n**Fonte original:** [https://www.instagram.com/kabritodigital/p/DdJ9ENnFvFj/](https://www.instagram.com/kabritodigital/p/DdJ9ENnFvFj/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y2a)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y1e",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Garimpo de trends internacionais simples para adaptar a diferentes nichos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Garimpo de trends internacionais simples para adaptar a diferentes nichos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nGarimpo de trends internacionais simples para adaptar a diferentes nichos.\n\n**Fonte original:** [https://www.instagram.com/kabritodigital/p/Dc1phJ\\_GTOZ/](https://www.instagram.com/kabritodigital/p/Dc1phJ_GTOZ/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y1e)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1y0a",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Edição dinâmica de looks, cortes e transições para adaptar a outros nichos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Edição dinâmica de looks, cortes e transições para adaptar a outros nichos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nEdição dinâmica de looks, cortes e transições para adaptar a outros nichos.\n\n**Fonte original:** [https://www.instagram.com/alessandro.marfella/p/DdjU2kZiMPp/](https://www.instagram.com/alessandro.marfella/p/DdjU2kZiMPp/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1y0a)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1xz4",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Formato visual POV com objeto em primeiro plano e efeito de tendência",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Formato visual POV com objeto em primeiro plano e efeito de tendência**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nFormato visual POV com objeto em primeiro plano e efeito de tendência.\n\n**Fonte original:** [https://www.instagram.com/rafa.creando/p/Ddl\\_3gQIOXG/](https://www.instagram.com/rafa.creando/p/Ddl_3gQIOXG/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1xz4)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1xy5",
+      "type": "clickup",
+      "titulo": "🎨 Adaptar: Quebra de padrão visual para capturar atenção",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**🎨 Adaptar: Quebra de padrão visual para capturar atenção**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Referência salva no Instagram\n\n**Coleção:** FORMATOS\n**Aplicação:** adaptar a ideia, a copy ou a construção visual para nutricionistas, sem copiar o conteúdo original.\n\n**Trecho da referência:**\nQuebra de padrão visual para capturar atenção.\n\n**Fonte original:** [https://www.instagram.com/thebranding.ai/reel/DcORDV6phDM/](https://www.instagram.com/thebranding.ai/reel/DcORDV6phDM/)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1xy5)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1xx9",
+      "type": "clickup",
+      "titulo": "Nem toda conversa precisa virar venda para gerar diagnóstico",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Nem toda conversa precisa virar venda para gerar diagnóstico**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Mostrar como conversas comerciais revelam objeções, linguagem e oportunidades de conteúdo.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-04\n**Fonte:** Granola\n**ID de origem:** 9b022349-f481-4422-89f8-822af13edd7a\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1xx9)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1v2c",
+      "type": "clickup",
+      "titulo": "O que publicar antes de abrir inscrições para um workshop",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**O que publicar antes de abrir inscrições para um workshop**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Explicar a sequência de validação do tema, aquecimento, desejo e convite para nutricionistas.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-15\n**Fonte:** Granola\n**ID de origem:** 2ab607be-2410-4e02-9397-e59011b273c0\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1v2c)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1v1h",
+      "type": "clickup",
+      "titulo": "Nem toda paciente precisa começar pelo seu serviço mais caro",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Nem toda paciente precisa começar pelo seu serviço mais caro**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Usar esteira de serviços e porta de entrada sem desvalorizar o acompanhamento principal.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-17\n**Fonte:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n**ID de origem:** 86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1v1h)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1v1a",
+      "type": "clickup",
+      "titulo": "Sua paciente não decide marcar consulta em um único post",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Sua paciente não decide marcar consulta em um único post**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Traduzir jornada de compra para a realidade da nutricionista: consciência, confiança e decisão.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-18\n**Fonte:** [https://app.granola.ai/notes/181a61b5-44d9-454f-a96f-cac3f09381b7](https://app.granola.ai/notes/181a61b5-44d9-454f-a96f-cac3f09381b7)\n**ID de origem:** 181a61b5-44d9-454f-a96f-cac3f09381b7\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1v1a)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1v11",
+      "type": "clickup",
+      "titulo": "Nem toda conversa precisa virar venda para gerar diagnóstico",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Nem toda conversa precisa virar venda para gerar diagnóstico**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Mostrar como conversas comerciais revelam objeções, linguagem e oportunidades de conteúdo.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-18\n**Fonte:** [https://app.granola.ai/notes/f2cd5347-8a0c-443f-8c24-35ea96062d7f](https://app.granola.ai/notes/f2cd5347-8a0c-443f-8c24-35ea96062d7f)\n**ID de origem:** f2cd5347-8a0c-443f-8c24-35ea96062d7f\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1v11)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1v0e",
+      "type": "clickup",
+      "titulo": "O que publicar antes de abrir inscrições para um workshop",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**O que publicar antes de abrir inscrições para um workshop**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Explicar a sequência de validação do tema, aquecimento, desejo e convite para nutricionistas.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-18\n**Fonte:** [https://app.granola.ai/notes/e5547528-3a49-440a-9935-f47967171058](https://app.granola.ai/notes/e5547528-3a49-440a-9935-f47967171058)\n**ID de origem:** e5547528-3a49-440a-9935-f47967171058\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1v0e)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr1uzr",
+      "type": "clickup",
+      "titulo": "O acompanhamento não termina quando a nutricionista entrega o plano",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**O acompanhamento não termina quando a nutricionista entrega o plano**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Ideia extraída de reunião\n\n**Abordagem sugerida:** Mostrar como acompanhamento, ajustes e orientação sustentam a evolução do paciente.\n\n**Cuidado editorial:** usar o aprendizado geral sem citar nome, condição ou informação particular da cliente.\n\n* * *\n\n**Origem:** reunião de 2026-09-18\n**Fonte:** [https://app.granola.ai/notes/967f3a51-bec9-4c0d-bde0-b8d1c883fcda](https://app.granola.ai/notes/967f3a51-bec9-4c0d-bde0-b8d1c883fcda)\n**ID de origem:** 967f3a51-bec9-4c0d-bde0-b8d1c883fcda\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr1uzr)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pab",
+      "type": "clickup",
+      "titulo": "Oficina — Conteúdo — O que Grazielle Matos ensina na prática",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Conteúdo — O que Grazielle Matos ensina na prática**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Grazielle Matos\n**Aprendizado central:** Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Como aplicar:** Transformar o principal aprendizado em uma explicação curta, com exemplo aplicado ao público do espaço. Adaptar especificamente para Oficina. Insight-base: Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Resultado esperado:** Aplicar o aprendizado do encontro em Oficina.\n\n* * *\n\n**Link:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pab)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pam",
+      "type": "clickup",
+      "titulo": "Oficina — Anúncio — A dor que Grazielle Matos ajuda a resolver",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Anúncio — A dor que Grazielle Matos ajuda a resolver**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Grazielle Matos\n**Aprendizado central:** Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Como aplicar:** Usar a tensão central da aula como gancho e conduzir para a solução ou oferta relacionada. Adaptar especificamente para Oficina. Insight-base: Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Resultado esperado:** Aplicar o aprendizado do encontro em Oficina.\n\n* * *\n\n**Link:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n**ID de orig\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pam)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pb7",
+      "type": "clickup",
+      "titulo": "Oficina — Live — Aplicando Grazielle Matos ao vivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Live — Aplicando Grazielle Matos ao vivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Grazielle Matos\n**Aprendizado central:** Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Como aplicar:** Demonstrar o raciocínio da aula em um caso prático, com diagnóstico e perguntas da audiência. Adaptar especificamente para Oficina. Insight-base: Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Resultado esperado:** Aplicar o aprendizado do encontro em Oficina.\n\n* * *\n\n**Link:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n**ID de o\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pb7)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pbu",
+      "type": "clickup",
+      "titulo": "Oficina — Aula — Método prático de Grazielle Matos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Aula — Método prático de Grazielle Matos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Grazielle Matos\n**Aprendizado central:** Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Como aplicar:** Organizar o aprendizado em contexto, etapas, exemplo, exercício e próximo passo. Adaptar especificamente para Oficina. Insight-base: Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Resultado esperado:** Aplicar o aprendizado do encontro em Oficina.\n\n* * *\n\n**Link:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n**ID de origem:** 86bb\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pbu)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pd5",
+      "type": "clickup",
+      "titulo": "Oficina — Criativo — Antes e depois de aplicar Grazielle Matos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Criativo — Antes e depois de aplicar Grazielle Matos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Grazielle Matos\n**Aprendizado central:** Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Como aplicar:** Criar uma comparação visual entre improvisar e aplicar o princípio aprendido na aula. Adaptar especificamente para Oficina. Insight-base: Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Resultado esperado:** Aplicar o aprendizado do encontro em Oficina.\n\n* * *\n\n**Link:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n**ID de origem:**\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pd5)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pde",
+      "type": "clickup",
+      "titulo": "Oficina — Estratégia — Implementação de Grazielle Matos",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Estratégia — Implementação de Grazielle Matos**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Grazielle Matos\n**Aprendizado central:** Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Como aplicar:** Converter o aprendizado em uma rotina com responsável, frequência, indicador e revisão. Adaptar especificamente para Oficina. Insight-base: Reunião realizada em 17/09/2026, confirmada pelo Granola.\n\n**Resultado esperado:** Aplicar o aprendizado do encontro em Oficina.\n\n* * *\n\n**Link:** [https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62](https://app.granola.ai/notes/86bb50a1-1fb9-48ff-a57a-2b87bbdc7e62)\n**ID de origem:\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pde)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pgt",
+      "type": "clickup",
+      "titulo": "Oficina — Conteúdo — O que Encontro 2 — Dra. Maria Fernanda ensina na prática",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Conteúdo — O que Encontro 2 — Dra. Maria Fernanda ensina na prática**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Encontro 2 — Dra. Maria Fernanda\n**Aprendizado central:** Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Como aplicar:** Transformar o principal aprendizado em uma explicação curta, com exemplo aplicado ao público do espaço. Adaptar especificamente para Oficina. Insight-base: Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Resultado esperado:**\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pgt)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5phk",
+      "type": "clickup",
+      "titulo": "Oficina — Anúncio — A dor que Encontro 2 — Dra. Maria Fernanda ajuda a resolver",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Anúncio — A dor que Encontro 2 — Dra. Maria Fernanda ajuda a resolver**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Encontro 2 — Dra. Maria Fernanda\n**Aprendizado central:** Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Como aplicar:** Usar a tensão central da aula como gancho e conduzir para a solução ou oferta relacionada. Adaptar especificamente para Oficina. Insight-base: Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Resultado esperado:** Aplicar o ap\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5phk)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pj4",
+      "type": "clickup",
+      "titulo": "Oficina — Live — Aplicando Encontro 2 — Dra. Maria Fernanda ao vivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Live — Aplicando Encontro 2 — Dra. Maria Fernanda ao vivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Encontro 2 — Dra. Maria Fernanda\n**Aprendizado central:** Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Como aplicar:** Demonstrar o raciocínio da aula em um caso prático, com diagnóstico e perguntas da audiência. Adaptar especificamente para Oficina. Insight-base: Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Resultado esperado:** Aplicar o\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pj4)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pjh",
+      "type": "clickup",
+      "titulo": "Oficina — Aula — Método prático de Encontro 2 — Dra. Maria Fernanda",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Aula — Método prático de Encontro 2 — Dra. Maria Fernanda**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Encontro 2 — Dra. Maria Fernanda\n**Aprendizado central:** Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Como aplicar:** Organizar o aprendizado em contexto, etapas, exemplo, exercício e próximo passo. Adaptar especificamente para Oficina. Insight-base: Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Resultado esperado:** Aplicar o aprendizado \n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pjh)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pjt",
+      "type": "clickup",
+      "titulo": "Oficina — Criativo — Antes e depois de aplicar Encontro 2 — Dra. Maria Fernanda",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Criativo — Antes e depois de aplicar Encontro 2 — Dra. Maria Fernanda**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Encontro 2 — Dra. Maria Fernanda\n**Aprendizado central:** Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Como aplicar:** Criar uma comparação visual entre improvisar e aplicar o princípio aprendido na aula. Adaptar especificamente para Oficina. Insight-base: Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Resultado esperado:** Aplicar o aprendi\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pjt)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pk8",
+      "type": "clickup",
+      "titulo": "Oficina — Estratégia — Implementação de Encontro 2 — Dra. Maria Fernanda",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Estratégia — Implementação de Encontro 2 — Dra. Maria Fernanda**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Encontro 2 — Dra. Maria Fernanda\n**Aprendizado central:** Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Como aplicar:** Converter o aprendizado em uma rotina com responsável, frequência, indicador e revisão. Adaptar especificamente para Oficina. Insight-base: Maria Fernanda **Data:** 22 de junho de 2026 **Tipo:** Segundo encontro de acompanhamento ### Contexto Segundo encontro de acompanhamento com a Dra.\n\n**Resultado esperado:** Aplicar o apren\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pk8)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pmq",
+      "type": "clickup",
+      "titulo": "Oficina — Conteúdo — O que Início de Projeto — Dra. Priscila Leite (cliente) ensina na prática",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Conteúdo — O que Início de Projeto — Dra. Priscila Leite (cliente) ensina na prática**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Transformar o principal aprendizado em uma explicação curta, com exemplo aplicado ao público do espa\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pmq)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pn5",
+      "type": "clickup",
+      "titulo": "Oficina — Anúncio — A dor que Início de Projeto — Dra. Priscila Leite (cliente) ajuda a resolver",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Anúncio — A dor que Início de Projeto — Dra. Priscila Leite (cliente) ajuda a resolver**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Usar a tensão central da aula como gancho e conduzir para a solução ou oferta relacionada. Adaptar e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pn5)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pnk",
+      "type": "clickup",
+      "titulo": "Oficina — Live — Aplicando Início de Projeto — Dra. Priscila Leite (cliente) ao vivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Live — Aplicando Início de Projeto — Dra. Priscila Leite (cliente) ao vivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Demonstrar o raciocínio da aula em um caso prático, com diagnóstico e perguntas da audiência. Adapta\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pnk)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pp2",
+      "type": "clickup",
+      "titulo": "Oficina — Aula — Método prático de Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Aula — Método prático de Início de Projeto — Dra. Priscila Leite (cliente)**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Organizar o aprendizado em contexto, etapas, exemplo, exercício e próximo passo. Adaptar especificam\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pp2)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ppc",
+      "type": "clickup",
+      "titulo": "Oficina — Criativo — Antes e depois de aplicar Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Criativo — Antes e depois de aplicar Início de Projeto — Dra. Priscila Leite (cliente)**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Criar uma comparação visual entre improvisar e aplicar o princípio aprendido na aula. Adaptar especi\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ppc)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ppy",
+      "type": "clickup",
+      "titulo": "Oficina — Estratégia — Implementação de Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Estratégia — Implementação de Início de Projeto — Dra. Priscila Leite (cliente)**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Converter o aprendizado em uma rotina com responsável, frequência, indicador e revisão. Adaptar espe\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ppy)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pt4",
+      "type": "clickup",
+      "titulo": "Priscila — Conteúdo — O que Início de Projeto — Dra. Priscila Leite (cliente) ensina na prática",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Priscila — Conteúdo — O que Início de Projeto — Dra. Priscila Leite (cliente) ensina na prática**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Transformar o principal aprendizado em uma explicação curta, com exemplo aplicado ao público do espa\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pt4)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pt8",
+      "type": "clickup",
+      "titulo": "Priscila — Anúncio — A dor que Início de Projeto — Dra. Priscila Leite (cliente) ajuda a resolver",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Priscila — Anúncio — A dor que Início de Projeto — Dra. Priscila Leite (cliente) ajuda a resolver**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Usar a tensão central da aula como gancho e conduzir para a solução ou oferta relacionada. Adaptar e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pt8)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ptb",
+      "type": "clickup",
+      "titulo": "Priscila — Live — Aplicando Início de Projeto — Dra. Priscila Leite (cliente) ao vivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Priscila — Live — Aplicando Início de Projeto — Dra. Priscila Leite (cliente) ao vivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Demonstrar o raciocínio da aula em um caso prático, com diagnóstico e perguntas da audiência. Adapta\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ptb)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pte",
+      "type": "clickup",
+      "titulo": "Priscila — Aula — Método prático de Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Priscila — Aula — Método prático de Início de Projeto — Dra. Priscila Leite (cliente)**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Organizar o aprendizado em contexto, etapas, exemplo, exercício e próximo passo. Adaptar especificam\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pte)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ptj",
+      "type": "clickup",
+      "titulo": "Priscila — Criativo — Antes e depois de aplicar Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Priscila — Criativo — Antes e depois de aplicar Início de Projeto — Dra. Priscila Leite (cliente)**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Criar uma comparação visual entre improvisar e aplicar o princípio aprendido na aula. Adaptar especi\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ptj)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ptk",
+      "type": "clickup",
+      "titulo": "Priscila — Estratégia — Implementação de Início de Projeto — Dra. Priscila Leite (cliente)",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Priscila — Estratégia — Implementação de Início de Projeto — Dra. Priscila Leite (cliente)**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** Início de Projeto — Dra. Priscila Leite (cliente)\n**Aprendizado central:** ## Início de Projeto — Dra. Priscila Leite **Cliente:** Dra. Priscila Leite (nutricionista pediátrica) **Data:** 22 de junho de 2026 **Tipo:** Reunião de onboarding / início de projeto ### O que foi abordado **Onboarding no ClickUp:** - Apresentação do sistema da Oficina: NDD (Necessidade, Desejo, Demanda), Percurso do Paciente, Central de Campanha - Cada cl\n\n**Como aplicar:** Converter o aprendizado em uma rotina com responsável, frequência, indicador e revisão. Adaptar espe\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ptk)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ptq",
+      "type": "clickup",
+      "titulo": "Oficina — Conteúdo — O que Aula Horta em espiral — colheita, manutenção e plantio com Carol ensina na prática",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Conteúdo — O que Aula Horta em espiral — colheita, manutenção e plantio com Carol ensina na prática**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Fonte:** Aula Horta em espiral — colheita, manutenção e plantio com Carol\n**Aprendizado central:** ## Aula Horta em Espiral — com Carol **Data:** 21 de junho de 2026 **Tipo:** Aula prática (contexto pessoal/aprendizado) ### Tópicos - Técnicas de colheita de horta em espiral - Manutenção e cuidados com plantas - Plantio e rotação de culturas Aula prática registrada no Granola.\n\n**Como aplicar:** Transformar o principal aprendizado em uma explicação curta, com exemplo aplicado ao público do espaço. Adaptar especificamente para Oficina. Insight-base: ## Aula Horta\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ptq)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ptu",
+      "type": "clickup",
+      "titulo": "Oficina — Anúncio — A dor que Aula Horta em espiral — colheita, manutenção e plantio com Carol ajuda a resolver",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Anúncio — A dor que Aula Horta em espiral — colheita, manutenção e plantio com Carol ajuda a resolver**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Fonte:** Aula Horta em espiral — colheita, manutenção e plantio com Carol\n**Aprendizado central:** ## Aula Horta em Espiral — com Carol **Data:** 21 de junho de 2026 **Tipo:** Aula prática (contexto pessoal/aprendizado) ### Tópicos - Técnicas de colheita de horta em espiral - Manutenção e cuidados com plantas - Plantio e rotação de culturas Aula prática registrada no Granola.\n\n**Como aplicar:** Usar a tensão central da aula como gancho e conduzir para a solução ou oferta relacionada. Adaptar especificamente para Oficina. Insight-base: ## Aula Horta em Espiral —\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ptu)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5ptx",
+      "type": "clickup",
+      "titulo": "Oficina — Live — Aplicando Aula Horta em espiral — colheita, manutenção e plantio com Carol ao vivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Live — Aplicando Aula Horta em espiral — colheita, manutenção e plantio com Carol ao vivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Fonte:** Aula Horta em espiral — colheita, manutenção e plantio com Carol\n**Aprendizado central:** ## Aula Horta em Espiral — com Carol **Data:** 21 de junho de 2026 **Tipo:** Aula prática (contexto pessoal/aprendizado) ### Tópicos - Técnicas de colheita de horta em espiral - Manutenção e cuidados com plantas - Plantio e rotação de culturas Aula prática registrada no Granola.\n\n**Como aplicar:** Demonstrar o raciocínio da aula em um caso prático, com diagnóstico e perguntas da audiência. Adaptar especificamente para Oficina. Insight-base: ## Aula Horta em Espira\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5ptx)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pu0",
+      "type": "clickup",
+      "titulo": "Oficina — Aula — Método prático de Aula Horta em espiral — colheita, manutenção e plantio com Carol",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Aula — Método prático de Aula Horta em espiral — colheita, manutenção e plantio com Carol**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Fonte:** Aula Horta em espiral — colheita, manutenção e plantio com Carol\n**Aprendizado central:** ## Aula Horta em Espiral — com Carol **Data:** 21 de junho de 2026 **Tipo:** Aula prática (contexto pessoal/aprendizado) ### Tópicos - Técnicas de colheita de horta em espiral - Manutenção e cuidados com plantas - Plantio e rotação de culturas Aula prática registrada no Granola.\n\n**Como aplicar:** Organizar o aprendizado em contexto, etapas, exemplo, exercício e próximo passo. Adaptar especificamente para Oficina. Insight-base: ## Aula Horta em Espiral — com Carol\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pu0)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pub",
+      "type": "clickup",
+      "titulo": "Oficina — Criativo — Antes e depois de aplicar Aula Horta em espiral — colheita, manutenção e plantio com Carol",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Criativo — Antes e depois de aplicar Aula Horta em espiral — colheita, manutenção e plantio com Carol**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Fonte:** Aula Horta em espiral — colheita, manutenção e plantio com Carol\n**Aprendizado central:** ## Aula Horta em Espiral — com Carol **Data:** 21 de junho de 2026 **Tipo:** Aula prática (contexto pessoal/aprendizado) ### Tópicos - Técnicas de colheita de horta em espiral - Manutenção e cuidados com plantas - Plantio e rotação de culturas Aula prática registrada no Granola.\n\n**Como aplicar:** Criar uma comparação visual entre improvisar e aplicar o princípio aprendido na aula. Adaptar especificamente para Oficina. Insight-base: ## Aula Horta em Espiral — com \n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pub)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pud",
+      "type": "clickup",
+      "titulo": "Oficina — Estratégia — Implementação de Aula Horta em espiral — colheita, manutenção e plantio com Carol",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Estratégia — Implementação de Aula Horta em espiral — colheita, manutenção e plantio com Carol**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de aula\n\n**Fonte:** Aula Horta em espiral — colheita, manutenção e plantio com Carol\n**Aprendizado central:** ## Aula Horta em Espiral — com Carol **Data:** 21 de junho de 2026 **Tipo:** Aula prática (contexto pessoal/aprendizado) ### Tópicos - Técnicas de colheita de horta em espiral - Manutenção e cuidados com plantas - Plantio e rotação de culturas Aula prática registrada no Granola.\n\n**Como aplicar:** Converter o aprendizado em uma rotina com responsável, frequência, indicador e revisão. Adaptar especificamente para Oficina. Insight-base: ## Aula Horta em Espiral — co\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pud)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pv6",
+      "type": "clickup",
+      "titulo": "Oficina — Conteúdo — O que E2 - Camila ensina na prática",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Conteúdo — O que E2 - Camila ensina na prática**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** E2 - Camila\n**Aprendizado central:** Camila Dantas (nutricionista recém-formada) **Data:** 17 de junho de 2026 **Tipo:** Segundo encontro / entrega do plano de ação ### Contexto Continuação da reunião inicial de 05/06.\n\n**Como aplicar:** Transformar o principal aprendizado em uma explicação curta, com exemplo aplicado ao público do espaço. Adaptar especificamente para Oficina. Insight-base: Camila Dantas (nutricionista recém-formada) **Data:** 17 de junho de 2026 **Tipo:** Segundo encontro / entrega do plano de ação ### Contexto Continuação da reuni\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pv6)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pvb",
+      "type": "clickup",
+      "titulo": "Oficina — Anúncio — A dor que E2 - Camila ajuda a resolver",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Anúncio — A dor que E2 - Camila ajuda a resolver**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** E2 - Camila\n**Aprendizado central:** Camila Dantas (nutricionista recém-formada) **Data:** 17 de junho de 2026 **Tipo:** Segundo encontro / entrega do plano de ação ### Contexto Continuação da reunião inicial de 05/06.\n\n**Como aplicar:** Usar a tensão central da aula como gancho e conduzir para a solução ou oferta relacionada. Adaptar especificamente para Oficina. Insight-base: Camila Dantas (nutricionista recém-formada) **Data:** 17 de junho de 2026 **Tipo:** Segundo encontro / entrega do plano de ação ### Contexto Continuação da reunião inicial de\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pvb)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akr5pvk",
+      "type": "clickup",
+      "titulo": "Oficina — Live — Aplicando E2 - Camila ao vivo",
+      "data": "2026-09-30",
+      "perfil": "90138228562",
+      "listId": "901329186361",
+      "listaNodeId": "lista-901329186361",
+      "statusNodeId": "sg-901329186361-a-fazer",
+      "parentId": "sg-901329186361-a-fazer",
+      "status": "a fazer",
+      "conteudo": "**Oficina — Live — Aplicando E2 - Camila ao vivo**\n\nLista: 💡 BANCO DE IDEIAS — NUTRICIONISTAS\nStatus: a fazer\n\n## Aplicação extraída de reunião\n\n**Fonte:** E2 - Camila\n**Aprendizado central:** Camila Dantas (nutricionista recém-formada) **Data:** 17 de junho de 2026 **Tipo:** Segundo encontro / entrega do plano de ação ### Contexto Continuação da reunião inicial de 05/06.\n\n**Como aplicar:** Demonstrar o raciocínio da aula em um caso prático, com diagnóstico e perguntas da audiência. Adaptar especificamente para Oficina. Insight-base: Camila Dantas (nutricionista recém-formada) **Data:** 17 de junho de 2026 **Tipo:** Segundo encontro / entrega do plano de ação ### Contexto Continuação da reunião inicial\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akr5pvk)",
+      "tags": [
+        "💡 BANCO DE IDEIAS — NUTRICIONISTAS",
+        "a fazer"
+      ],
+      "links": []
+    },
+    {
       "id": "whatsapp-26375528395002lid",
       "type": "whatsapp",
       "titulo": "Aline Lima",
@@ -22094,6 +23912,11 @@
       "tipo": "hierarquia"
     },
     {
+      "source": "lista-901329186361",
+      "target": "sg-901329186361-a-fazer",
+      "tipo": "hierarquia"
+    },
+    {
       "source": "sg-901315882709-mam-e",
       "target": "clickup-86ajr2vnq",
       "tipo": "hierarquia"
@@ -25471,6 +27294,506 @@
     {
       "source": "sg-901316452690-revis-o-design",
       "target": "clickup-86ak88z9g",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1qpr",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tb1",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tb8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tbe",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tbm",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tbx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tc2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tdr",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4te9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tez",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tfm",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4tg9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr4th3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48yd",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48xf",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48wx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48w9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48w3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48vr",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48vm",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48uw",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48u7",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48tf",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48t3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48rj",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48r2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48qj",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48p1",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48mz",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48k9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48jt",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48j8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48hj",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48h8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48h7",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48gu",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48gf",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48g3",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48ft",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48fm",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48fd",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48ew",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48em",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48e8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48dx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr48c5",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y8y",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y80",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y7c",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y6b",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y5g",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y4u",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y4b",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y3r",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y3c",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y2a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y1e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1y0a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1xz4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1xy5",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1xx9",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1v2c",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1v1h",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1v1a",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1v11",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1v0e",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr1uzr",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pab",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pam",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pb7",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pbu",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pd5",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pde",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pgt",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5phk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pj4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pjh",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pjt",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pk8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pmq",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pn5",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pnk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pp2",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ppc",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ppy",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pt4",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pt8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ptb",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pte",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ptj",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ptk",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ptq",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ptu",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5ptx",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pu0",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pub",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pud",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pv6",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pvb",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901329186361-a-fazer",
+      "target": "clickup-86akr5pvk",
       "tipo": "hierarquia"
     },
     {
