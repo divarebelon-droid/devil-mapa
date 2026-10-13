@@ -1,7 +1,7 @@
 {
-  "geradoEm": "2026-10-13T13:32:03.655Z",
-  "totalNodes": 2388,
-  "totalLinks": 2375,
+  "geradoEm": "2026-10-13T22:16:56.459Z",
+  "totalNodes": 2366,
+  "totalLinks": 2353,
   "nodes": [
     {
       "id": "espaco-90138131766",
@@ -5333,204 +5333,6 @@
       "tags": [
         "status",
         "revisão design"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266636-passo-2",
-      "type": "status_group",
-      "titulo": "passo 2",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "#f8ae00",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "parentId": "lista-901324266636",
-      "count": 1,
-      "conteudo": "**passo 2**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 2"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266636-passo-1",
-      "type": "status_group",
-      "titulo": "passo 1",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "#d33d44",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "parentId": "lista-901324266636",
-      "count": 1,
-      "conteudo": "**passo 1**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 1"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266636-passo-3",
-      "type": "status_group",
-      "titulo": "passo 3",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "parentId": "lista-901324266636",
-      "count": 1,
-      "conteudo": "**passo 3**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 3"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266636-passo-4",
-      "type": "status_group",
-      "titulo": "passo 4",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "#1090e0",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "parentId": "lista-901324266636",
-      "count": 1,
-      "conteudo": "**passo 4**\n\nLista: NDD\nTarefas: 1",
-      "tags": [
-        "status",
-        "passo 4"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-benef-cios-",
-      "type": "status_group",
-      "titulo": "benefícios:",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-orange)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**benefícios:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "benefícios:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-transforma-o-",
-      "type": "status_group",
-      "titulo": "transformação:",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-brown)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**transformação:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "transformação:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-novidade-",
-      "type": "status_group",
-      "titulo": "novidade:",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-yellow)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**novidade:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "novidade:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-sentimento-",
-      "type": "status_group",
-      "titulo": "sentimento:",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-open)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**sentimento:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "sentimento:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-momento-",
-      "type": "status_group",
-      "titulo": "momento:",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-open)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**momento:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "momento:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-obje-o-",
-      "type": "status_group",
-      "titulo": "objeção:",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-purple)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**objeção:**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "objeção:"
-      ],
-      "links": []
-    },
-    {
-      "id": "sg-901324266694-depoimentos",
-      "type": "status_group",
-      "titulo": "depoimentos",
-      "data": "2026-10-13",
-      "perfil": "90138131805",
-      "cor": "var(--cu-status-teal)",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "parentId": "lista-901324266694",
-      "count": 1,
-      "conteudo": "**depoimentos**\n\nLista: Produtor\nTarefas: 1",
-      "tags": [
-        "status",
-        "depoimentos"
       ],
       "links": []
     },
@@ -24399,204 +24201,6 @@
       "links": []
     },
     {
-      "id": "clickup-86aefu7vt",
-      "type": "clickup",
-      "titulo": "Desejo",
-      "data": "2026-05-19",
-      "perfil": "90138131805",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "statusNodeId": "sg-901324266636-passo-2",
-      "parentId": "sg-901324266636-passo-2",
-      "status": "passo 2",
-      "conteudo": "**Desejo**\n\nLista: NDD\nStatus: passo 2\n\n> A partir do desejo, conseguimos trazer diferencial para o produto, infoproduto ou serviço.\n\n### Estimulação:\n> **O desejo é a junção da necessidade com o comportamento, interesse e estilo de vida**\nAs estratégias de marketing são trabalhadas em cima de desejo. Tem a ver com apresentar o produto certo, no momento certo. Exemplo:\n\n> **Segmentação:** Saí do serviço sexta-feira as 18h do serviço e em casa ainda tenho que fazer a janta. (comportamento, interesse e estilo de vida)  \n> **Necessidade falada:** Matar a fome sem me cansar mais  \n> **Necessidade sentida:** Quero agilidade  \n> **Necessi\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu7vt)",
-      "tags": [
-        "NDD",
-        "passo 2"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu7vm",
-      "type": "clickup",
-      "titulo": "Necessidade",
-      "data": "2026-05-26",
-      "perfil": "90138131805",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "statusNodeId": "sg-901324266636-passo-1",
-      "parentId": "sg-901324266636-passo-1",
-      "status": "passo 1",
-      "conteudo": "**Necessidade**\n\nLista: NDD\nStatus: passo 1\n\n> O produto ou curso precisa resolver uma necessidade que a audiência tem pressa para resolver, isso facilita a compra porque de forma inconsciente já gera um desejo. Isso é super válido principalmente em produto de entrada\n\n**Tipos de necessidade:**\n*   _Necessidade falada:_\n\n    Aquela que o cliente chega falando exatamente o que quer\n\n*   _Necessidade sentida:_\n\n    O cliente precisa suprir alguma expectativa\n\n*   _Necessidade carente:_\n\n    O famoso: Nunca ninguém me deu nada! O cliente precisa sentir que levou vantagem, ganhou algo\n\n*   _Necessidade oculta:_\n\n    O cliente quer ser visto \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu7vm)",
-      "tags": [
-        "NDD",
-        "passo 1"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu7wb",
-      "type": "clickup",
-      "titulo": "Demanda",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "statusNodeId": "sg-901324266636-passo-3",
-      "parentId": "sg-901324266636-passo-3",
-      "status": "passo 3",
-      "conteudo": "**Demanda**\n\nLista: NDD\nStatus: passo 3\n\nDescobrimos a demanda em cima da segmentação e ela mantém um negócio vivo.\n\n```css\nA demanda vai além de necessidades e desejos, ela pode levar o negócio a falência. Aqui entra cálculos para saber se um negócio vale a pena.\n```\n\n> O cliente final pode ter a necessidade e e desejo, mas se ele não tiver condições de comprar seu produto, é em vão.\nExemplo:\nAlguns precisam de carro (necessidade), sonham em ter um camaro (desejo), mas quantos realmente podem comprar? ( A quantidade que pode comprar, supre todas as necessidades de se manter um negócio aberto e em que tipo de demanda seu produto, ser\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu7wb)",
-      "tags": [
-        "NDD",
-        "passo 3"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu7vz",
-      "type": "clickup",
-      "titulo": "Oportunidade e Oferta",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266636",
-      "listaNodeId": "lista-901324266636",
-      "statusNodeId": "sg-901324266636-passo-4",
-      "parentId": "sg-901324266636-passo-4",
-      "status": "passo 4",
-      "conteudo": "**Oportunidade e Oferta**\n\nLista: NDD\nStatus: passo 4\n\n### Com necessidades, desejo e demanda estruturado, conseguimos encontrar uma oportunidade para criar uma oferta única:\n- [ ] A oportunidade encontramos dentro de necessidades e desejos\n- [ ] A oferta criamos com base na demanda\n> Exemplo:  \n>   \n> Dentro das necessidades e desejo do exemplo que já citei, temos a oportunidade de vender bolo na porta de saída do trabalho, com a segmentação de padrão, escolhemos que tipo de bolo venderemos. Pode ser vegano, fit ou sem glúten ou comum. Se a demanda for latente, venderemos a oferta pode ser criada em cima de praticidade ou agilidade. Se a demanda \n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu7vz)",
-      "tags": [
-        "NDD",
-        "passo 4"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8qv",
-      "type": "clickup",
-      "titulo": "➡ Como ajudo a audiência",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-benef-cios-",
-      "parentId": "sg-901324266694-benef-cios-",
-      "status": "benefícios:",
-      "conteudo": "**➡ Como ajudo a audiência**\n\nLista: Produtor\nStatus: benefícios:\n\n*   Vestir uma roupa sem pensar no corpo o tempo inteiro.\n*   Parar de negociar consigo mesma sobre comida.\n*   Viajar sem culpa.\n*   Comer um doce sem perder o controle.\n*   Olhar fotos sem querer apagar.\n*   Confiar no próprio corpo novamente.\n*   Sentir que tem controle sobre as próprias escolhas.\n*   Não precisar recomeçar toda segunda-feira.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8qv)",
-      "tags": [
-        "Produtor",
-        "benefícios:"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8pt",
-      "type": "clickup",
-      "titulo": "➡ Vida futura",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-transforma-o-",
-      "parentId": "sg-901324266694-transforma-o-",
-      "status": "transformação:",
-      "conteudo": "**➡ Vida futura**\n\nLista: Produtor\nStatus: transformação:\n\n*   Não pensa em dieta.\n*   Não vive compensando refeições.\n*   Não sente culpa ao comer.\n*   Entende seu corpo.\n*   Tem exames melhores.\n*   Veste o que gosta.\n*   Mantém o peso sem sofrimento.\n*   Não vive mais no ciclo de recomeços.\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8pt)",
-      "tags": [
-        "Produtor",
-        "transformação:"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8r9",
-      "type": "clickup",
-      "titulo": "➡ O que apresento como novo para essa audiência",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-novidade-",
-      "parentId": "sg-901324266694-novidade-",
-      "status": "novidade:",
-      "conteudo": "**➡ O que apresento como novo para essa audiência**\n\nLista: Produtor\nStatus: novidade:\n\n**Vender liberdade do ciclo.**\nPara entender melhor a linha de raciocínio, segue uma frase de impacto que pode te ajudar:\n> _Existe uma diferença entre emagrecer e deixar de ser uma pessoa que precisa emagrecer todo ano._\n\nEmagreça de um jeito que você não precise emagrecer de novo.\nO objetivo não é emagrecer. É nunca mais precisar emagrecer.\n\n### Ideias de frase para bio:\nAjudo mulheres a emagrecerem de um jeito que não precise emagrecer de novo.\nEmagrecimento que continua funcionando quando a motivação acaba.\n\nE a que eu considero mais forte estrategicamente:\n**Nutricionista Funcional**\n**Eu\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8r9)",
-      "tags": [
-        "Produtor",
-        "novidade:"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8qd",
-      "type": "clickup",
-      "titulo": "➡ Sensação  ➡ Insegurança  ➡ Emocional",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-sentimento-",
-      "parentId": "sg-901324266694-sentimento-",
-      "status": "sentimento:",
-      "conteudo": "**➡ Sensação  ➡ Insegurança  ➡ Emocional**\n\nLista: Produtor\nStatus: sentimento:\n\n*   Frustração\n*   Vergonha\n*   Culpa\n*   Exaustão\n*   Impotência\n*   Injustiça\nEspecialmente injustiça.\nPorque ela pensa:\n> **_Eu estou tentando mais do que muita gente e mesmo assim não consigo._**\n\nOutros sentimentos:\n*   Medo de nunca conseguir\n*   Medo de piorar com a idade\n*   Medo de decepcionar a si mesma novamente\n*   Sensação de fracasso\n*   Sensação de estar quebrada\n*   Perda de confiança no próprio corpo\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8qd)",
-      "tags": [
-        "Produtor",
-        "sentimento:"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8py",
-      "type": "clickup",
-      "titulo": "➡ Ações que faz agora e dá errado",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-momento-",
-      "parentId": "sg-901324266694-momento-",
-      "status": "momento:",
-      "conteudo": "**➡ Ações que faz agora e dá errado**\n\nLista: Produtor\nStatus: momento:\n\n*   Segunda-feira começa uma dieta nova.\n*   Sexta-feira já desistiu.\n*   Compra uma roupa menor e guarda esperando emagrecer.\n*   Evita fotos.\n*   Se arruma para sair e troca de roupa várias vezes.\n*   Come pouco durante a semana e exagera no fim de semana.\n*   Emagrece e recupera tudo meses depois.\n*   Come por ansiedade.\n*   Come escondido.\n*   Faz exame e descobre alterações hormonais.\n*   Treina e não vê resultado.\n*   Tem medo de viajar porque perde o controle da alimentação.\n*   Não sabe o que pedir quando come fora.\n*   Se sente julgada por familiares.\n*   Se compara com mulheres que e\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8py)",
-      "tags": [
-        "Produtor",
-        "momento:"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8r3",
-      "type": "clickup",
-      "titulo": "➡ O que ela acredita fielmente ➡ O que não deu certo ",
-      "data": "2026-06-19",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-obje-o-",
-      "parentId": "sg-901324266694-obje-o-",
-      "status": "objeção:",
-      "conteudo": "**➡ O que ela acredita fielmente ➡ O que não deu certo **\n\nLista: Produtor\nStatus: objeção:\n\n*   \"Já tentei de tudo.\"\n*   \"Meu problema é hormonal.\"\n*   \"Meu metabolismo é lento.\"\n*   \"Eu não consigo ter disciplina.\"\n*   \"Não tenho tempo.\"\n*   \"Nutricionista já não funcionou para mim.\"\n*   \"Vou pagar e abandonar igual das outras vezes.\"\n*   \"Não consigo seguir plano alimentar.\"\n*   \"Minha ansiedade estraga tudo.\"\n*   \"Não adianta porque eu sempre volto a engordar.\"\n*   \" Sou gorda, mas não é porque como muito\"\n*   \" eu como pouco mas não emagreço\"\n*   \"não entendo porque sou gorda\"\n*   \"meu marido me atrapalha\"\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8r3)",
-      "tags": [
-        "Produtor",
-        "objeção:"
-      ],
-      "links": []
-    },
-    {
-      "id": "clickup-86aefu8qk",
-      "type": "clickup",
-      "titulo": "Maria",
-      "data": "2026-08-12",
-      "perfil": "90138131805",
-      "listId": "901324266694",
-      "listaNodeId": "lista-901324266694",
-      "statusNodeId": "sg-901324266694-depoimentos",
-      "parentId": "sg-901324266694-depoimentos",
-      "status": "depoimentos",
-      "conteudo": "**Maria**\n\nLista: Produtor\nStatus: depoimentos\n\n| PRODUTO |  |\n| ---| --- |\n| RESULTADO |  |\n\n[Abrir no ClickUp](https://app.clickup.com/t/86aefu8qk)",
-      "tags": [
-        "Produtor",
-        "depoimentos"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86aefu94x",
       "type": "clickup",
       "titulo": "Fonte de informações",
@@ -29691,24 +29295,6 @@
       "links": []
     },
     {
-      "id": "clickup-86akmf04q",
-      "type": "clickup",
-      "titulo": "Exames de referência",
-      "data": "2026-09-20",
-      "perfil": "901313883678",
-      "listId": "901327803184",
-      "listaNodeId": "lista-901327803184",
-      "statusNodeId": "sg-901327803184-considera-o",
-      "parentId": "sg-901327803184-considera-o",
-      "status": "consideração",
-      "conteudo": "**Exames de referência**\n\nLista: Conteúdo Regiane\nStatus: consideração\n\n### Slide 01 — Headline\n**Seu exame pode estar “dentro da referência” e seu corpo não estar bem**\n### Slide 02\nA gente aprendeu a olhar exame assim:\nestá dentro da faixa = tudo certo\nestá fora = tem problema\nSó que o corpo não funciona desse jeito\n**Um número isolado não conta a história inteira**\n### Slide 03\nO valor de referência ajuda a interpretar aquele marcador\nMas ele não mostra sozinho:\n*   como você está se sentindo\n*   como está sua alimentação\n*   o que mudou nos últimos meses\n*   nem o que outros exames estão mostrando junto\n### Slide 04\nEu tive um paciente que chegou querendo cuid\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akmf04q)",
-      "tags": [
-        "Conteúdo Regiane",
-        "consideração"
-      ],
-      "links": []
-    },
-    {
       "id": "clickup-86ajfcr75",
       "type": "clickup",
       "titulo": "Inspiração",
@@ -29903,6 +29489,24 @@
       "tags": [
         "Conteúdo Regiane",
         "descoberta"
+      ],
+      "links": []
+    },
+    {
+      "id": "clickup-86akmf04q",
+      "type": "clickup",
+      "titulo": "Exames de referência",
+      "data": "2026-10-13",
+      "perfil": "901313883678",
+      "listId": "901327803184",
+      "listaNodeId": "lista-901327803184",
+      "statusNodeId": "sg-901327803184-considera-o",
+      "parentId": "sg-901327803184-considera-o",
+      "status": "consideração",
+      "conteudo": "**Exames de referência**\n\nLista: Conteúdo Regiane\nStatus: consideração\n\n### Slide 01 — Headline\n**Seu exame pode estar “dentro da referência” e seu corpo não estar bem**\n### Slide 02\nA gente aprendeu a olhar exame assim:\nestá dentro da faixa = tudo certo\nestá fora = tem problema\nSó que o corpo não funciona desse jeito\n**Um número isolado não conta a história inteira**\n### Slide 03\nO valor de referência ajuda a interpretar aquele marcador\nMas ele não mostra sozinho:\n*   como você está se sentindo\n*   como está sua alimentação\n*   o que mudou nos últimos meses\n*   nem o que outros exames estão mostrando junto\n### Slide 04\nEu tive um paciente que chegou querendo cuid\n\n[Abrir no ClickUp](https://app.clickup.com/t/86akmf04q)",
+      "tags": [
+        "Conteúdo Regiane",
+        "consideração"
       ],
       "links": []
     },
@@ -43458,61 +43062,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "lista-901324266636",
-      "target": "sg-901324266636-passo-2",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266636",
-      "target": "sg-901324266636-passo-1",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266636",
-      "target": "sg-901324266636-passo-3",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266636",
-      "target": "sg-901324266636-passo-4",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-benef-cios-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-transforma-o-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-novidade-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-sentimento-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-momento-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-obje-o-",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "lista-901324266694",
-      "target": "sg-901324266694-depoimentos",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "lista-901324266706",
       "target": "sg-901324266706-considera-o",
       "tipo": "hierarquia"
@@ -48753,61 +48302,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901324266636-passo-2",
-      "target": "clickup-86aefu7vt",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266636-passo-1",
-      "target": "clickup-86aefu7vm",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266636-passo-3",
-      "target": "clickup-86aefu7wb",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266636-passo-4",
-      "target": "clickup-86aefu7vz",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-benef-cios-",
-      "target": "clickup-86aefu8qv",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-transforma-o-",
-      "target": "clickup-86aefu8pt",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-novidade-",
-      "target": "clickup-86aefu8r9",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-sentimento-",
-      "target": "clickup-86aefu8qd",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-momento-",
-      "target": "clickup-86aefu8py",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-obje-o-",
-      "target": "clickup-86aefu8r3",
-      "tipo": "hierarquia"
-    },
-    {
-      "source": "sg-901324266694-depoimentos",
-      "target": "clickup-86aefu8qk",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901324266706-considera-o",
       "target": "clickup-86aefu94x",
       "tipo": "hierarquia"
@@ -50223,11 +49717,6 @@
       "tipo": "hierarquia"
     },
     {
-      "source": "sg-901327803184-considera-o",
-      "target": "clickup-86akmf04q",
-      "tipo": "hierarquia"
-    },
-    {
       "source": "sg-901327803184-ideia",
       "target": "clickup-86ajfcr75",
       "tipo": "hierarquia"
@@ -50280,6 +49769,11 @@
     {
       "source": "sg-901327803184-descoberta",
       "target": "clickup-86akm97k8",
+      "tipo": "hierarquia"
+    },
+    {
+      "source": "sg-901327803184-considera-o",
+      "target": "clickup-86akmf04q",
       "tipo": "hierarquia"
     },
     {
