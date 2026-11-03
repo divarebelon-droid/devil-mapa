@@ -208,7 +208,9 @@ function adaptLibraryStory(source,template,ctx,stage){
   text=text.replace(/\[([^\[\]]+)\]/g,(whole,label)=>{
     if(/^INFORMAR:/i.test(label))return whole;
     if(/^(?:ENQUETE|CAIXINHA):/i.test(label)){interaction=label;return''}
-    return librarySlot(label,ctx,source.order)||issue(label);
+    let value=librarySlot(label,ctx,source.order);
+    if(value&&/resultado concreto e observavel/.test(libraryKey(label)))value=value.replace(/^(?:hoje\s+)?(?:eu\s+)?passei a\s+/i,'').replace(/[.!]+$/,'');
+    return value||issue(label);
   });
   const inline=text.match(/\bENQUETE:\s*(.+)$/i);if(inline){interaction='ENQUETE: '+inline[1];text=text.slice(0,inline.index)}
   // Factual source copy is not automatically true for the active profile.
@@ -223,7 +225,11 @@ function adaptLibraryStory(source,template,ctx,stage){
   // A repost does not promise to send anything by Direct.
   if(template.id==='devil-02'&&source.order===18&&!/direct/i.test(text))needed.splice(0,needed.length);
   missing.push(...needed.map(x=>'CONFIRMAR '+x));
-  text=clean(text).replace(/^[“”]|[“”]$/g,'').replace(/”\s+“/g,'\n');
+  text=text.replace(/”\s+“/g,'\n').replace(/[“”]/g,'');
+  text=clean(text).replace(/\bmesmo fazendo (?=[\p{L}]+(?:ar|er|ir)\b)/gu,'mesmo tentando ')
+    .replace(/\bsentiu que (?=mais |menos |culpa|medo|insegurança|frustração)/gi,'sentiu ');
+  if(/^[\p{L}]+(?:ar|er|ir)\b/u.test(ctx.goal))text=text.split('alcançar '+ctx.goal).join(ctx.goal);
+  text=text.replace(/[.!]+\s*,/g,',').replace(/\.\./g,'.');
   if(needed.length)text='[CONFIRMAR: '+needed.join('; ')+']\n'+text;
   if(!text)text=interaction||issue('TEXTO DA TELA');
   // Keep the original spoken opening in the title; do not add canned headlines.
