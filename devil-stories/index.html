@@ -75,7 +75,7 @@ function libraryFields(text){
   const lines=String(text||'').replace(/\r/g,'').split(/\n|;|\s+(?=(?:Objetivo|Tema|Público|Audiência|Método|Desejo|Problema|Roteiro)\s*:)/i);
   for(let i=0;i<lines.length;i++){
     const m=lines[i].match(/^\s*(?:#{1,6}\s*)?([^:]{2,150})\s*:\s*(.*)$/);
-    if(m){const value=clean(m[2]||lines[i+1]);if(value)fields.set(libraryKey(m[1]),value)}
+    if(m){const following=lines[i+1]||'';const value=clean(m[2]||(!/^[^:]{2,150}:/.test(following)?following:''));if(value)fields.set(libraryKey(m[1]),value)}
   }
   return fields;
 }
@@ -232,7 +232,15 @@ function adaptLibraryStory(source,template,ctx,stage){
     const match=text.match(/^(.{4,100}?[.!?…])\s+([\s\S]+)$/);
     if(match){headline=match[1];body=match[2]}
   }
-  if(!headline){headline=ctx.topic||template.name;body=text}
+  if(!headline){
+    const split=!text.startsWith('[')&&text.length>65?text.lastIndexOf(' ',65):-1;
+    if(split>12){headline=text.slice(0,split);body=text.slice(split+1)}
+    else{headline=source.label.split(/ PONTO | INTERAÇÃO | TRANSIÇÃO /)[0].toLocaleLowerCase('pt-BR');headline=headline.charAt(0).toUpperCase()+headline.slice(1);body=text}
+  }
+  if(/formal|tecnic|institucional/.test(libraryKey(ctx.voice))){
+    const formal=s=>s.replace(/\bTô\b/g,'Estou').replace(/\btô\b/g,'estou').replace(/\bpra\b/g,'para');
+    headline=formal(headline);body=formal(body);
+  }
   if(interaction&&!body.includes(interaction))body+='\n\n'+interaction;
   const role=source.label.toUpperCase();
   const point=role.includes('PARTIDA')?points[0]:role.includes('INTERMEDIÁRIO')?points[1]:role.includes('DÚVIDA')?points[4]:role.includes('PROVOCATIVO')?points[5]:role.includes('DECISÃO')?points[6]:role.includes('SUPERIOR')||role.includes('SOLUÇÃO')?points[3]:points[2];
