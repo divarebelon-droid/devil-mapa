@@ -15,7 +15,7 @@
  <aside class="sidebar"><div class="logo"><span class="logo-mark">D</span><div><b>DEVIL</b><small>STORIES</small></div></div><nav class="nav"><button class="active" data-view="studio">✦ Estúdio</button><button data-view="series">◷ Séries</button><button data-view="profiles">◎ Perfis</button></nav><div id="saveStatus" hidden></div></aside>
  <main class="main"><header class="top"><div><p class="eyebrow">PLANEJAMENTO E CRIAÇÃO DE STORIES</p><h1 id="pageTitle">Estúdio de Stories</h1><p class="retention-note" id="accountInfo" aria-hidden="true"></p></div><div class="action-row"><span class="account-chip" id="accountEmail"></span><button class="button soft" id="logoutBtn">Sair</button><button class="button primary" id="newProfileBtn">+ Novo perfil</button></div></header>
   <section class="view active" id="view-studio"><div class="layout"><section class="panel brief"><div class="panel-head"><div><p class="eyebrow">01 / ESTRATÉGIA</p><h2>Desenhe o episódio</h2></div></div>
-    <label class="field">Perfil<select id="clientSelect"></select></label><label class="field">Etapa<select id="stage"><option>Descoberta</option><option>Consideração</option><option>Decisão</option><option>Recuperação</option></select></label><label class="field">Série / estratégia ativa<select id="seriesSelect"><option value="">Sem série de campanha</option></select></label><label class="field">O que aconteceu ou qual assunto você quer contar?<input id="storyMoment" placeholder="Uma situação do dia, uma conversa, uma ideia…"></label><div hidden>
+    <label class="field">Perfil<select id="clientSelect"></select></label><label class="field">Etapa<select id="stage"><option>Descoberta</option><option>Consideração</option><option>Decisão</option><option>Recuperação</option></select></label><label class="field">Série / estratégia ativa<select id="seriesSelect"><option value="">Sem série de campanha</option></select></label><label class="field">Qual é o objetivo e o assunto dos Stories de hoje?<input id="storyMoment" placeholder="Ex.: gerar identificação com minha rotina; explicar uma dúvida; apresentar um resultado real…"></label><div hidden>
     <label class="field">Produto ou oferta<select id="productSelect"></select></label><label class="field">Dor ou situação da audiência<input id="pain" placeholder="Ex.: dificuldade em fechar clientes"></label><div class="grid2"><label class="field">Sentimento<input id="feeling" placeholder="Ex.: insegurança"></label><label class="field">Desejo<input id="desire" placeholder="Ex.: vender com constância"></label></div><label class="field">Nova percepção desejada<input id="perception" placeholder="O que a pessoa deve compreender?"></label><label class="field">Último ou próximo conteúdo do feed<textarea id="feed" rows="2" placeholder="Tema que os Stories devem conectar"></textarea></label><div class="grid2"><label class="field">Chamada para ação<select id="cta"><option>Responder à enquete</option><option>Enviar uma palavra no Direct</option><option>Conhecer a oferta</option><option>Comprar</option><option>Acessar conteúdo</option><option>Fazer uma pergunta</option></select></label><label class="field">Telas<input id="storyCount" type="number" min="5" max="20" value="7"></label></div><label class="field">Prova real que pode ser usada<textarea id="proof" rows="2" placeholder="Deixe vazio se não houver prova autorizada"></textarea></label></div><button class="button primary wide" id="generateBtn">Criar sequência</button>
    </section><section class="work"><section class="panel editor" id="editor" hidden><div class="panel-head"><div><p class="eyebrow">02 / RASCUNHO EDITÁVEL</p><input class="title-input" id="sequenceTheme" placeholder="Tema da sequência"></div><div class="action-row"><button class="button soft" id="saveEpisode">Salvar episódio</button><button class="button soft" id="exportAll">Baixar PNGs</button></div></div><label class="field">Objetivo<textarea id="sequenceObjective" rows="2"></textarea></label><div class="style-tools"><b>Estilo geral</b><label>Fundo <input type="color" id="globalBg" value="#241a33"></label><label>Texto <input type="color" id="globalText" value="#fff8f1"></label><label>Fonte <select id="globalFont" class="control"><option>Manrope</option><option>DM Sans</option><option>Georgia</option></select></label><button class="button tiny" id="applyStyle">Aplicar a todas</button></div><div class="bulk-tools"><input id="findAll" class="control" placeholder="Texto a substituir" style="max-width:220px"><input id="replaceAll" class="control" placeholder="Substituir por" style="max-width:220px"><button class="button tiny" id="replaceAllBtn">Substituir em todas</button><button class="button tiny" id="shortenAll">Encurtar todas</button></div><div id="storyList" class="story-list"></div><div class="editor-tools"><button class="button soft" id="addStory">+ Adicionar tela</button><span class="micro" id="sourceNote"></span></div><div class="tips" id="designTips"></div></section></section></div></section>
   <section class="view" id="view-series"><section class="panel"><div class="panel-head"><div><p class="eyebrow">ESTRATÉGIA E CONTINUIDADE</p><h2>Séries e campanhas</h2></div><button class="button primary" id="newSeries">+ Nova série</button></div><div id="seriesList" class="cards"></div></section></section>
@@ -66,103 +66,195 @@ function createSeries(id,name,clientId,strategyText,sourceName=''){let s=app.ser
 function renderSeries(){$('#seriesList').innerHTML=app.series.map(s=>{const c=app.clients.find(x=>x.id===s.clientId);return`<article class="client-card"><div class="panel-head"><div><h3>${esc(s.name)}</h3><p>${esc(c?.name||'Perfil')} · ${s.sourceName?`estratégia: ${esc(s.sourceName)}`:'briefing salvo'}</p></div><div class="action-row"><button class="button tiny" data-edit-series="${s.id}">Editar</button><button class="button tiny" data-use-series="${s.id}">Usar no Estúdio</button><button class="button tiny" data-delete-series="${s.id}">Excluir</button></div></div><p class="micro">${esc((s.strategyText||'').slice(0,380))}${(s.strategyText||'').length>380?'…':''}</p></article>`}).join('')||'<p class="no-data">Adicione a estratégia de uma campanha para conectar com o Estúdio.</p>'}
 function useSeries(id){const s=app.series.find(x=>x.id===id);if(!s)return;app.activeSeriesId=s.id;app.activeClientId=s.clientId;$('#clientSelect').value=s.clientId;fillSelects();$('#seriesSelect').value=s.id;app.currentEpisode=null;$('#editor').hidden=true;setView('studio');toast('Estratégia da campanha conectada ao Estúdio')}
 function clean(s){return String(s||'').trim().replace(/\s+/g,' ')}function oneOf(a,i){return a[((i%a.length)+a.length)%a.length]}
-function generateDraft(){
-  const c=activeClient();
-  if(!c){toast('Escolha ou crie um perfil.');return null}
-  const profile=c.profile||{},product=(c.products||[]).find(x=>x.id===$('#productSelect').value)||c.products?.[0]||{};
-  const series=activeSeries()?.clientId===c.id?activeSeries():null;
-  const moment=clean($('#storyMoment').value),stage=$('#stage').value;
-  const material=(c.assets||[]).map(x=>x.text||'').filter(Boolean).join(' ').slice(0,6000);
-  const campaign=clean(series?.strategyText||''),reference=campaign+' '+material;
-  const facts=reference.split(/[\n.!?]+/).map(clean).filter(x=>x.length>18);
-  const fact=(re)=>facts.find(x=>re.test(x))||'';
-  const pain=clean($('#pain').value||product.problem||profile.niche);
-  const feeling=clean($('#feeling').value),desire=clean($('#desire').value||product.promise);
-  const perception=clean($('#perception').value||fact(/por tr[aá]s|mecanismo|percep[cç][aã]o|problema invis[ií]vel/i));
-  const method=clean(product.delivery||fact(/m[eé]todo|processo|estrutura|passo a passo|funciona assim/i));
-  const objection=clean(product.objections||fact(/obje[cç][aã]o|d[uú]vida|medo|inseguran[cç]a/i));
-  const proof=clean($('#proof').value||product.proof),offer=clean(product.name);
-  const topic=pain||clean(series?.name)||offer||clean(profile.niche)||'essa situação';
-  const font=c.branding?.fontFamily||$('#globalFont').value||'Manrope';
-  const count=Math.max(5,Math.min(20,Number($('#storyCount').value)||7));
-  const explicitScene=moment.length>0;
-  const sourceLower=moment.toLocaleLowerCase('pt-BR');
-  const sourceKind=/direct|mensagem|caixinha|coment[aá]rio|conversa/.test(sourceLower)?'conversa':/post|reel|feed|live|publica[cç][aã]o/.test(sourceLower)?'feed':/bastidor|aqui no|estou fazendo|estava fazendo|atendendo|rotina/.test(sourceLower)?'bastidor':explicitScene?'relato':'hipotese';
-  const stageName=['Descoberta','Consideração','Decisão','Recuperação'].includes(stage)?stage:'Descoberta';
-  const cleanSentence=s=>clean(s).replace(/[.!?]+$/,'');
-  const sentence=s=>cleanSentence(s)+( /[.!?]$/.test(clean(s))?'':'.');
-  const quote=s=>'“'+cleanSentence(s)+'”';
-  const name=clean(profile.name||profile.brandName||'');
-  const audience=clean(profile.audience||profile.targetAudience||'');
-  const audiencePhrase=audience?' '+audience:'';
-  const spokenThought=feeling?'“'+cleanSentence(feeling)+'”':('“'+cleanSentence(topic)+'”');
-  const scene=explicitScene?moment:'Imagina: você abre '+(sourceKind==='feed'?'o rascunho de um post':sourceKind==='conversa'?'uma conversa no Direct':'o material que separou para trabalhar')+' sobre '+topic+' e percebe que está tentando resolver tudo de uma vez.';
-  const opening=explicitScene?moment:scene;
-  const belief=clean(perception)||'Talvez você esteja tentando corrigir o que aparece, sem olhar para o que está provocando isso.';
-  const want=desire||'entender qual próximo passo faz sentido para o seu momento';
-  const mechanism=method?('O caminho que eu aplico é este: '+method):'Antes de escolher uma solução, eu separo o que aconteceu, o que você já tentou e o que ainda está impedindo o avanço.';
-  const realProof=proof?('O que temos de concreto é: '+proof):(fact(/caso|resultado|depoimento|n[uú]mero|cliente|aluna/i)?fact(/caso|resultado|depoimento|n[uú]mero|cliente|aluna/i):'');
-  const offerCta=clean(product.cta);
-  const gentleCta='Se quiser, me conta por mensagem qual parte disso aparece no seu caso.';
-  const decisionCta=offerCta|| (offer?'Se quiser avaliar se '+offer+' combina com seu momento, me chama no Direct para conversarmos.':gentleCta);
-  const recoveryQuestion=objection?'“'+cleanSentence(objection)+'”':'o que ainda precisa ficar claro para você';
-  let sequence=[];
-  if(stageName==='Descoberta'){
-    sequence=[
-      {point:points[0],headline:'Olha essa cena',text:opening},
-      {point:points[1],headline:'O que passa pela cabeça',text:explicitScene?'Na hora, talvez a primeira reação seja pensar: '+spokenThought+'.':'E nessa hora talvez venha o pensamento: '+spokenThought+'.'},
-      {point:points[2],headline:'Mas tem um detalhe',text:'Quando isso se repete, olhar só para '+topic+' pode esconder o que começou a situação: '+belief+'.'},
-      {point:points[3],headline:'O custo aparece depois',text:feeling?'E isso pesa: '+feeling+'.':'A consequência é gastar energia tentando ajustar a ponta, enquanto a causa continua fora de vista.'},
-      {point:points[4],headline:'Uma leitura diferente',text:perception?'Talvez a pergunta não seja “como faço mais?”, mas: '+belief+'.':'Talvez a pergunta não seja “como faço mais?”, mas “o que ainda não entendi sobre '+topic+'?”.'},
-      {point:points[5],headline:'Um teste pequeno',text:'Antes de mudar tudo, anota o que aconteceu, o que você fez em seguida e o que esperava que acontecesse. Esse registro já ajuda a localizar a conversa certa.'},
-      {point:points[6],headline:'Me conta',text:gentleCta}
-    ];
-  }else if(stageName==='Consideração'){
-    sequence=[
-      {point:points[0],headline:'Deixa eu te contar',text:opening},
-      {point:points[1],headline:'A parte que fica quieta',text:'E enquanto isso acontece, pode aparecer um pensamento difícil de dizer em voz alta: '+spokenThought+'.'},
-      {point:points[2],headline:'Não é falta de vontade',text:'Quando você já tentou e mesmo assim volta ao mesmo ponto, faz sentido cansar. Isso não prova que você falhou; mostra que vale olhar para o que ainda não foi compreendido.'},
-      {point:points[3],headline:'O que eu perguntaria',text:'Eu começaria por uma pergunta bem concreta: o que aconteceu imediatamente antes de '+topic+'? A resposta costuma dar mais contexto do que se cobrar para fazer mais.'},
-      {point:points[4],headline:'Por onde eu começaria',text:mechanism},
-      {point:points[5],headline:'Sem fórmula pronta',text:'Não vou presumir que conheço seu caso. Primeiro eu escutaria o contexto; depois, a gente escolhe um passo que caiba na sua realidade.'},
-      {point:points[6],headline:'Pode me contar',text:'Se quiser, me manda uma mensagem com o que você já tentou e onde travou. Eu continuo essa conversa com você.'}
-    ];
-  }else if(stageName==='Decisão'){
-    sequence=[
-      {point:points[0],headline:'Antes de escolher',text:opening},
-      {point:points[1],headline:'A dúvida é legítima',text:objection?'Talvez a pergunta seja '+quote(objection)+'. É justo querer entender isso antes de investir tempo ou dinheiro.':'Talvez você esteja pensando se este é o momento certo. É justo querer clareza antes de decidir.'},
-      {point:points[2],headline:'O que precisa mudar',text:'O primeiro passo é sair de '+topic+' como um problema solto e entender o que está mantendo essa situação.'},
-      {point:points[3],headline:'Como eu trabalho',text:mechanism},
-      {point:points[4],headline:realProof?'O que dá para verificar':'Sem prometer resultado',text:realProof?realProof:'Eu não vou inventar garantia nem dizer que serve para todo mundo. Posso explicar o processo, os limites e conferir com você se faz sentido.'},
-      {point:points[5],headline:'Para quem faz sentido',text:offer?'A proposta de '+offer+' é '+(desire||'trabalhar esse ponto com acompanhamento e contexto')+'. A indicação depende do que você precisa e do que o produto realmente oferece.':'A decisão precisa considerar sua situação, o que você busca e o que consigo entregar de verdade.'},
-      {point:points[6],headline:'Próximo passo',text:decisionCta}
-    ];
-  }else{
-    sequence=[
-      {point:points[0],headline:'Talvez tenha ficado isso',text:opening},
-      {point:points[1],headline:'Sua dúvida merece espaço',text:objection?'A pergunta que ficou pode ser '+quote(objection)+'. Não vou diminuir essa preocupação nem te apressar.':'Se ficou uma dúvida ou você adiou, isso merece uma conversa honesta, sem pressão.'},
-      {point:points[2],headline:'Vamos olhar o contexto',text:'O que aconteceu, o que você já tentou e o que precisa mudar para essa escolha caber na sua vida?'},
-      {point:points[3],headline:'O que consigo esclarecer',text:mechanism},
-      {point:points[4],headline:realProof?'Fatos, sem enfeite':'Limites claros',text:realProof?realProof:'Eu posso explicar o que está incluído e o que não está. Sem promessa de resultado e sem decidir por você.'},
-      {point:points[5],headline:'A escolha continua sua',text:offer?'Se '+offer+' não combinar com seu momento, tudo bem. Se combinar, a gente esclarece as condições antes de seguir.':'Você pode retomar essa conversa quando tiver as informações de que precisa.'},
-      {point:points[6],headline:'Se quiser continuar',text:objection?'Se quiser, me diga se essa dúvida ainda é a principal ou se apareceu outra.':'Se quiser, me conta o que ainda precisa ficar claro. Sem pressão.'}
-    ];
+const DEVIL_LIBRARY = {"source":"Biblioteca_Devil_Sequencias_Prontas.pdf","version":"2026-11-03","templates":[{"id":"devil-01","name":"Resultados inesperados de uma ação","screenCount":11,"sourcePages":[3,4],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Durante o [TIPO DE AÇÃO QUE VOCÊ FEZ: desafio, campanha, série de conteúdos, sequência especial] a gente testou [NOVIDADE QUE VOCÊ VAI LIBERAR].” [ENQUETE: Você chegou a ver?]"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Quero te mostrar o que aconteceu quando a gente aplicou essa ideia de forma estratégica.”"},{"order":3,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“O mais curioso foi que surgiram alguns efeitos colaterais que a gente nem estava buscando…” [RESULTADO SURPREENDENTE QUE ACONTECEU MESMO SEM SER O FOCO PRINCIPAL]"},{"order":4,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"[MELHORIA EM ALGO QUE GERALMENTE CAI DURANTE ESSE PERÍODO]"},{"order":5,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"[RESULTADO EXTRA: vendas, novos leads, alcance, impacto, etc.]"},{"order":6,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"[EFEITO DE LONGO PRAZO GERADO PELA AÇÃO: retenção, recorrência, engajamento etc.]"},{"order":7,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“A verdade é que isso não foi sorte — eu uso essa abordagem faz tempo.” Inclusive, dentro do [NOME DO PROGRAMA/MENTORIA], ela é aplicada em [ETAPA OU DESAFIO ESPECÍFICO]."},{"order":8,"label":"VALIDAÇÃO SOCIAL PONTO DE DÚVIDA","sourceText":"“A repercussão foi tão grande que várias pessoas começaram a perguntar se existia algum conteúdo específico sobre isso.”"},{"order":9,"label":"PROVA PONTO DE DÚVIDA","sourceText":"[PRINTS ou FEEDBACKS mostrando pessoas comentando sobre a ação, pedindo mais detalhes ou se interessando]"},{"order":10,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Foi aí que eu percebi que só entregar um conteúdo não era o bastante…” “Então decidi criar algo que realmente pudesse [TRANSFORMAÇÃO QUE O PÚBLICO DESEJA] — de um jeito que nunca mais vai se repetir.”"},{"order":11,"label":"ATIVADOR PONTO DE DECISÃO","sourceText":"“Mas eu só vou liberar isso quando o story anterior bater [META SIMBÓLICA DE ENGAJAMENTO].” “Eu prometo que você vai entender o porquê.”"}]},{"id":"devil-02","name":"Dúvidas da audiência e nova oportunidade","screenCount":18,"sourcePages":[5,7],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Me responde uma coisa…” ENQUETE: Você já [Estratégia comum que a sua audiência costuma utilizar para atingir determinado resultado]?"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Eu recebo essas perguntas com frequência…”"},{"order":3,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"[PRINTS DE PERGUNTAS REAIS SOBRE O TEMA]"},{"order":4,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Não sei como [AÇÃO IMPORTANTE RELACIONADA AO TEMA].”"},{"order":5,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Minha audiência não demonstra interesse em [OFERTA/CONTEÚDO].”"},{"order":6,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Quero alcançar [OBJETIVO], mas não sei por onde começar.”"},{"order":7,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Decidi [AÇÃO IMPORTANTE], mas como faço para ter resultados?”"},{"order":8,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Como eu faço para meu público [AÇÃO DESEJADA]?”"},{"order":9,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“Eu sei que essas perguntas já passaram pela sua cabeça. E seria impossível não terem passado — porque [MOTIVO PELO QUAL ISSO ESTÁ ACONTECENDO].”"},{"order":10,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“[TENTATIVA COMUM DE TER RESULTADO] (exemplo: fazer dietas) já não é o suficiente.”"},{"order":11,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“X não é o suficiente. Ser um bom X não é o suficiente.”"},{"order":12,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Antes, bastava fazer [AÇÃO QUE FUNCIONAVA NO PASSADO]. Mas agora, [CENÁRIO ATUAL].”"},{"order":13,"label":"ENGAJAMENTO INTERAÇÃO INTERMEDIÁRIA","sourceText":"“Você já [EXPERIMENTOU A ESTRATÉGIA ANTIGA]?” [ENQUETE: SIM OU NÃO?]"},{"order":14,"label":"CONTEXTO ATUAL PONTO INTERMEDIÁRIO","sourceText":"“Era muito comum, mas hoje [DESAFIO ATUAL].” [ENQUETE: Surpreendente, não é? SIM OU NÃO?]"},{"order":15,"label":"PROVOCAÇÃO FINAL PONTO PROVOCATIVO","sourceText":"“Mas… e se [RESULTADO ESPERADO] sem [COISA QUE ELES VALORIZAM E NÃO GOSTARIAM DE ABRIR MÃO]” [PRINTS DE CLIENTES QUE CONSEGUIRAM]"},{"order":16,"label":"ENTREGA DE CONTEÚDO TRANSIÇÃO PARA SOLUÇÃO","sourceText":"“E você faz isso com [PRINCIPAL ESTRATÉGIA].”"},{"order":17,"label":"ENTREGA DE CONTEÚDO TRANSIÇÃO PARA SOLUÇÃO","sourceText":"“Vou compartilhar um roteiro/checklist/método… de como aplicamos isso e conseguimos [RESULTADOS].”"},{"order":18,"label":"ACIONADOR — DOIS CAMINHOS PONTO DE DECISÃO","sourceText":"A — Existe perpétuo para vender ou lançamento para captar (sem isca) “Quem entrar pra [TIPO DE ACESSO: lista, pré-inscrição, comunidade] recebe [BENEFÍCIO EXCLUSIVO OU DIFERENCIAL].” “Quer saber mais sobre [NOME DO PRODUTO / MÉTODO]?” “Responde esse story com o código [CÓDIGO CURTO/LINK] que eu te envio no direct.” B — Não existe venda; há isca ou post para gerar movimento “É só responder esse story com o código [XXX] que eu te envio no direct.” OU: Repostar um conteúdo do feed que fale sobre o tema e dizer que explicou como resolver o problema lá."}]},{"id":"devil-03","name":"Experimento de percepção e autoridade","screenCount":19,"sourcePages":[8,10],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Meu foco é sempre [RESULTADO PRINCIPAL QUE VOCÊ GERA] — e ontem eu perguntei o que tem impedido você de alcançar o mesmo…”"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"[PRINTS DAS RESPOSTAS DA AUDIÊNCIA] “Não consigo [AÇÃO IMPORTANTE PARA O RESULTADO]” “Não sei como [CRIAR/EXECUTAR ELEMENTO ESSENCIAL]” “Tô começando, e ainda não tenho [FERRAMENTA/RECURSO CHAVE]”"},{"order":3,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“O que talvez você não saiba é que essas pequenas coisas impactam MUITO mais do que parecem…”"},{"order":4,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Só de olhar para [ELEMENTO VISUAL, AUDITIVO OU COMPORTAMENTAL RELEVANTE], já é possível formar uma opinião sobre você.”"},{"order":5,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":6,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":7,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":8,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":9,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“E se eu te disser que por trás disso tem alguém [CARACTERÍSTICA POSITIVA CONTRASTANTE]?”"},{"order":10,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você falaria que essa pessoa [FAZ O QUE VOCÊ ENSINA]?”"},{"order":11,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você confiaria o suficiente pra comprar dela?” “Se a resposta é não… é porque [RAZÃO DA FALTA DE DESEJO / AUTORIDADE].”"},{"order":12,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Parece bobo, mas é real. E é exatamente o que pode estar te impedindo de crescer/vender/ser visto.” [CAIXINHA: “Você sente que transmite o que gostaria?” / “Seu público entende o seu diferencial de cara?”]"},{"order":13,"label":"ATIVADOR INTERAÇÃO INTERMEDIÁRIA","sourceText":"[ENQUETE: “Você acha que transmite o que precisa para alcançar [RESULTADO]?”]"},{"order":14,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Se você votou que não… dá pra resolver. Esse era o meu [EXEMPLO REAL DE COMUNICAÇÃO DESALINHADA].”"},{"order":15,"label":"OBJEÇÃO PONTO DE DÚVIDA","sourceText":"“‘Ah, mas você era iniciante…’”"},{"order":16,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“Na verdade, eu já tinha [RESULTADOS OU EXPERIÊNCIAS RELEVANTES], mas mesmo assim não gerava [DESEJO / CREDIBILIDADE / RESULTADO ESPERADO].”"},{"order":17,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“O que faltava era aprender a usar [NOME DO MÉTODO / ESTRUTURA / FERRAMENTA] pra alinhar o que eu sou com o que mostro.”"},{"order":18,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“É isso que eu ensino dentro do [NOME DO POST / AULA / MATERIAL], pra você conseguir [TRANSFORMAÇÃO PRINCIPAL].”"},{"order":19,"label":"ATIVADOR PONTO DE DECISÃO","sourceText":"“Expliquei tudo nesse post 👇” [COMPARTILHAR POST COM CONTEÚDO E CHAMADA DISCRETA PARA AÇÃO]"}]},{"id":"devil-04","name":"Eu também passei por isso","screenCount":8,"sourcePages":[11,12],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Você já sentiu que, mesmo fazendo [AÇÃO QUE O CLIENTE FAZ COM FREQUÊNCIA], os resultados não chegam como deveriam?” [ENQUETE: “Sim, total” / “Às vezes”]"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você já tentou seguir tudo o que dizem que ‘funciona’, mas sentiu que [EFEITO COLATERAL NEGATIVO: ficou mais confuso, travou, perdeu o prazer]?” [ENQUETE: “Sim, isso acontece” / “Já senti isso”]"},{"order":3,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você gostaria de conseguir [RESULTADO SIMPLES, PRÁTICO E DESEJADO PELO SEU PÚBLICO], sem precisar [AÇÃO QUE ELES NÃO AGUENTAM MAIS FAZER]?” [ENQUETE: “Sim, com certeza” / “Seria ótimo”]"},{"order":4,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“Eu também passei por isso…” [INSERIR REFERÊNCIA DE QUANDO VOCÊ VIVIA ESSE CENÁRIO: imagem, rotina, frase, dúvida ou sensação real]"},{"order":5,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Eu percebi que não conseguia alcançar [RESULTADO QUE O CLIENTE DESEJAVA ALCANÇAR], porque sempre que tentava [AÇÃO FREQUENTE QUE PARECIA CERTA], sentia que algo não encaixava.”"},{"order":6,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Resultado?” [CONSEQUÊNCIA VISÍVEL: baixa procura, poucas mensagens, desânimo] [CONSEQUÊNCIA INTERNA: insegurança, desconexão, frustração] [PADRÃO COMPORTAMENTAL: mudar de ideia, testar tudo, parar e recomeçar]"},{"order":7,"label":"ENGAJAMENTO INTERAÇÃO INTERMEDIÁRIA","sourceText":"“E você?” [ENQUETE: “Me identifico” / “Já passei por isso”]"},{"order":8,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“Foi quando eu comecei a aplicar o [NOME DO MÉTODO / PROCESSO / ABORDAGEM] que as coisas começaram a mudar.” “Hoje eu consigo [RESULTADO CONCRETO E OBSERVÁVEL], e decidi compartilhar essa estrutura com [GRUPO QUE VAI RECEBER: mentorandos, alunos, turma nova, etc.].”"}]},{"id":"devil-05","name":"Minha rotina: antes e depois","screenCount":7,"sourcePages":[13,14],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Hoje toda minha manhã foi dedicada a [TIPO DE ATIVIDADE OPERACIONAL RELEVANTE PARA O NICHO], e a tarde…”"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“É loucura pensar que em [ANO], isso era impossível pra mim.” [BREVE RELATO DE COMO ERA SUA ROTINA EXAUSTIVA: horários extremos, falta de tempo, sobrecarga física/ mental]"},{"order":3,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“A realidade era essa:” [DESCRIÇÃO DE COMO VOCÊ PASSAVA O DIA: trabalhando sem pausas, apagando incêndios] “Sem saber exatamente o que precisava ser feito para alcançar [RESULTADO DESEJADO].”"},{"order":4,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“Em [DATA MARCANTE], apenas [QUANTIDADE DE TEMPO] depois de mudar minha estrutura de trabalho…” [MOMENTO DE CONQUISTA INUSITADO: vendendo, fechando contratos, sendo reconhecido enquanto fazia outra atividade.]"},{"order":5,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“E não, eu não estou dizendo que daqui a [PERÍODO] você vai estar [IMAGEM IDEALIZADA: trabalhando da praia, largando tudo].” “(Seria lindo, mas eu não vou mentir pra você.)”"},{"order":6,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“O que eu estou dizendo é que em [PERÍODO], você pode:” “Estar construindo [PRIMEIRA GRANDE EVOLUÇÃO: equipe, rotina, estrutura]” “Estar vendo [RESULTADO PRÁTICO: vendas diárias, agenda cheia, mais confiança dos clientes]” “Estar recebendo [PEDIDOS PROATIVOS DO PÚBLICO: agendamento, compra, contato espontâneo]”"},{"order":7,"label":"ATIVADOR PONTO DE DECISÃO","sourceText":"“Se quiser saber como, responde esse story e eu te explico.”"}]}]};
+// Local adaptation only. A draft must always retain one complete approved script.
+function libraryKey(s){return clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
+function libraryFields(text){
+  const fields=new Map();
+  // Headings in brand PDFs and inline brief fields are both accepted.
+  const lines=String(text||'').replace(/\r/g,'').split(/\n|;|\s+(?=(?:Objetivo|Tema|Público|Audiência|Método|Desejo|Problema|Roteiro)\s*:)/i);
+  for(let i=0;i<lines.length;i++){
+    const m=lines[i].match(/^\s*(?:#{1,6}\s*)?([^:]{2,150})\s*:\s*(.*)$/);
+    if(m){const value=clean(m[2]||lines[i+1]);if(value)fields.set(libraryKey(m[1]),value)}
   }
-  const chosen=sequence.slice(0,count);
-  while(chosen.length<count){
-    const i=chosen.length;
-    const bridges=[
-      {point:points[2],headline:'Volta um instante',text:'Volta para a cena do começo: qual foi o primeiro sinal de que algo não estava encaixando?'},
-      {point:points[3],headline:'Repara no detalhe',text:'Escolhe um momento específico dessa situação e observa o que veio antes, durante e depois.'},
-      {point:points[4],headline:'O que essa cena mostra',text:'A cena não prova uma história inteira, mas pode mostrar qual pergunta está faltando.'},
-      {point:points[5],headline:'Faz esse registro',text:'Anota uma frase sobre o que aconteceu e outra sobre o que você precisava naquele momento.'}
-    ];
-    chosen.splice(chosen.length-1,0,bridges[(i-7)%bridges.length]);
-  }
-  const items=chosen.map((beat,i)=>({id:uid(),order:i+1,point:beat.point,headline:beat.headline,text:sentence(beat.text),format:'Texto sobre fundo',interaction:'',design:{background:c.branding?.secondary||'#241a33',textColor:c.branding?.text||'#fff8f1',font,align:'left',assetId:'',headlineX:50,headlineY:34,textX:50,textY:64,headlineSize:31,textSize:19}}));
-  return{id:uid(),clientId:c.id,seriesId:series?.id||'',createdAt:new Date().toISOString(),stage:stageName,theme:moment||series?.name||topic,objective:'Uma narrativa falada sobre '+topic+'.',designTips:[],notes:'',stories:items,brief:{topic:moment||topic,source:sourceKind,seriesId:series?.id||'',brandReference:(campaign+' '+material).slice(0,1000)}}
+  return fields;
 }
-function showEpisode(ep){app.currentEpisode=ep;$('#editor').hidden=false;$('#sequenceTheme').value=ep.theme||'';$('#sequenceObjective').value=ep.objective||'';renderStories()}
+function libraryContext(c,series,moment,product){
+  const profile=c.profile||{};
+  // Profile documents first; campaign and today's explicit brief can override them.
+  const fields=libraryFields((c.assets||[]).filter(a=>!/(biblioteca.*sequencias|manual.*copywriting)/i.test(a.name||'')).map(a=>a.text||'').join('\n')+'\n'+(series?.strategyText||'')+'\n'+moment);
+  const pick=(...names)=>{for(const name of names){const value=fields.get(libraryKey(name));if(value)return value}return''};
+  const value=(...values)=>values.map(clean).find(Boolean)||'';
+  const ctx={fields,pick,moment,profile,product,
+    audience:value(pick('público','público-alvo','audiência','persona'),profile.audience),
+    voice:value(pick('tom de voz','voz da marca'),profile.voice),
+    niche:value(pick('nicho','segmento','atuação'),profile.niche),
+    offer:value(product.name,profile.productName,pick('oferta','produto','nome do produto')),
+    method:value(pick('nome do método','método','processo','abordagem'),product.delivery,profile.productDelivery),
+    goal:value(pick('resultado desejado','transformação desejada','desejo','benefício principal'),product.promise,profile.productPromise),
+    pain:value(pick('dor principal','problema','dor'),product.problem,profile.productProblem),
+    proof:value(pick('prova autorizada','provas reais autorizadas'),product.proof,profile.productProof),
+    cta:value(pick('cta','link da oferta'),product.cta,profile.productCta),
+    topic:value(pick('tema','assunto'),moment),
+    objective:value(pick('objetivo do dia','objetivo'),moment)
+  };
+  return ctx;
+}
+function chooseLibraryTemplate(ctx,stage,previousId){
+  const intent=libraryKey(ctx.moment+' '+ctx.objective+' '+ctx.topic);
+  const explicit=intent.match(/(?:roteiro|sequencia|modelo)\s*0?([1-5])\b/);
+  if(explicit)return{template:DEVIL_LIBRARY.templates[Number(explicit[1])-1],reason:'Roteiro solicitado no objetivo do dia'};
+  const scores={'devil-01':0,'devil-02':2,'devil-03':0,'devil-04':0,'devil-05':0};
+  const add=(id,re,n)=>{if(re.test(intent))scores[id]+=n};
+  add('devil-01',/campanha|desafio|teste|testamos|efeito colateral|resultado inesperado|repercussao|lancamento/,12);
+  add('devil-02',/duvida|pergunta|enquete|oportunidade|ensinar|explicar|conteudo|educar|obje[cç]ao|recuper/,10);
+  add('devil-03',/percepcao|primeira impressao|imagem|autoridade|credibilidade|experimento|visual|diferencial|comunicacao desalinhada/,12);
+  add('devil-04',/identifica|eu tambem|minha historia|passei por|empatia|me senti|conectar|conexao/,12);
+  add('devil-05',/rotina|antes e depois|sobrecarga|dia a dia|qualidade de vida|organizacao do dia/,12);
+  if(stage==='Consideração'){scores['devil-04']+=3;scores['devil-05']+=2}
+  if(stage==='Decisão')scores['devil-01']+=2;
+  if(stage==='Recuperação')scores['devil-02']+=4;
+  if(ctx.pick('história pessoal','experiência pessoal'))scores['devil-04']+=2;
+  if(ctx.pick('rotina anterior','rotina atual'))scores['devil-05']+=2;
+  const ranked=DEVIL_LIBRARY.templates.map(template=>({template,score:scores[template.id]})).sort((a,b)=>b.score-a.score||(a.template.id===previousId?1:0)-(b.template.id===previousId?1:0));
+  return{template:ranked[0].template,reason:'Compatibilidade do objetivo e da etapa com a estrutura do roteiro: '+ranked[0].template.name};
+}
+function librarySlot(label,ctx,storyNumber){
+  const key=libraryKey(label),pick=ctx.pick;
+  // Exact, explicitly supplied field always wins. No document prose is treated as proof.
+  const direct=pick(label,label.split(':')[0]);if(direct)return direct;
+  const aliases=[
+    [/tipo de acao que voce fez/,()=>pick('ação realizada','campanha realizada','tipo de ação')],
+    [/novidade que voce vai liberar/,()=>pick('novidade','novidade que vai liberar')],
+    [/resultado surpreendente/,()=>pick('resultado surpreendente','efeito inesperado')],
+    [/melhoria em algo/,()=>pick('melhoria observada')],
+    [/resultado extra/,()=>pick('resultado extra')],
+    [/efeito de longo prazo/,()=>pick('efeito de longo prazo')],
+    [/nome do programa|nome do produto/,()=>ctx.offer],
+    [/etapa ou desafio especifico/,()=>pick('etapa do método','desafio específico')],
+    [/transformacao que o publico|transformacao principal|resultado simples|resultado que o cliente desejava|resultado desejado|resultado esperado$/,()=>ctx.goal],
+    [/meta simbolica/,()=>pick('meta de engajamento confirmada')],
+    [/estrategia comum|tentativa comum|acao que o cliente faz|acao frequente/,()=>pick('ação frequente','tentativa comum','estratégia comum')],
+    [/acao importante|criar executar elemento/,()=>pick('ação importante','ação desejada','ação frequente')],
+    [/oferta conteudo/,()=>ctx.offer||ctx.topic],
+    [/^objetivo$/,()=>ctx.goal],
+    [/acao desejada/,()=>pick('ação desejada')],
+    [/motivo pelo qual|razao da falta/,()=>pick('causa do problema','problema invisível','causa')],
+    [/acao que funcionava|experimentou a estrategia antiga/,()=>pick('estratégia antiga','ação que funcionava no passado')],
+    [/cenario atual|desafio atual/,()=>pick('cenário atual','desafio atual')],
+    [/coisa que eles valorizam|acao que eles nao aguentam/,()=>pick('o que não quer abrir mão','sacrifício a evitar','ação desgastante')],
+    [/principal estrategia|nome do metodo/,()=>ctx.method],
+    [/tipo de acesso/,()=>pick('tipo de acesso')],
+    [/beneficio exclusivo/,()=>pick('benefício exclusivo confirmado')],
+    [/codigo curto|^xxx$/,()=>pick('código do CTA','palavra do direct')],
+    [/resultado principal que voce gera/,()=>pick('resultado comprovado','resultado principal comprovado')],
+    [/ferramenta recurso/,()=>pick('recurso necessário','ferramenta')],
+    [/elemento visual/,()=>pick('elemento de percepção','elemento visual')],
+    [/imagens sinais exemplos/,()=>pick('exemplo visual '+storyNumber,'exemplo '+(storyNumber-4),'exemplo de percepção')],
+    [/caracteristica positiva/,()=>pick('característica real do expert','característica contrastante')],
+    [/faz o que voce ensina/,()=>pick('competência demonstrada','ação ensinada')],
+    [/^resultado$/,()=>ctx.goal],
+    [/exemplo real de comunicacao/,()=>pick('comunicação anterior','exemplo real de comunicação desalinhada')],
+    [/resultados ou experiencias/,()=>pick('experiência comprovada','resultado comprovado')],
+    [/desejo credibilidade/,()=>pick('resultado que faltava')],
+    [/nome do post|compartilhar post/,()=>pick('post relacionado','conteúdo do feed','material disponível')],
+    [/efeito colateral negativo/,()=>pick('efeito negativo','sentimento da audiência')],
+    [/inserir referencia de quando/,()=>pick('história pessoal','experiência pessoal')],
+    [/consequencia visivel/,()=>pick('consequência visível')],
+    [/consequencia interna/,()=>pick('consequência interna','sentimento da audiência')],
+    [/padrao comportamental/,()=>pick('padrão comportamental')],
+    [/resultado concreto e observavel|^resultados$/,()=>pick('resultado comprovado')],
+    [/grupo que vai receber/,()=>pick('grupo que vai receber')],
+    [/tipo de atividade operacional/,()=>pick('atividade de hoje','atividade operacional')],
+    [/^ano$/,()=>pick('ano da rotina anterior','ano')],
+    [/breve relato|descricao de como/,()=>pick('rotina anterior','história pessoal')],
+    [/data marcante/,()=>pick('data da conquista','data marcante')],
+    [/quantidade de tempo/,()=>pick('tempo até a conquista')],
+    [/momento de conquista/,()=>pick('conquista real')],
+    [/^periodo$/,()=>pick('período confirmado')],
+    [/imagem idealizada/,()=>pick('imagem idealizada')],
+    [/primeira grande evolucao/,()=>pick('evolução possível')],
+    [/resultado pratico/,()=>pick('resultado possível')],
+    [/pedidos proativos/,()=>pick('pedidos possíveis')],
+    [/prints|feedbacks/,()=>pick('print autorizado '+storyNumber,'print autorizado','feedback autorizado')||ctx.proof]
+  ];
+  for(const[re,read]of aliases)if(re.test(key))return clean(read());
+  return'';
+}
+function adaptLibraryStory(source,template,ctx,stage){
+  let text=source.sourceText,interaction='',missing=[];
+  const issue=label=>{const marker='[INFORMAR: '+clean(label)+']';missing.push(clean(label));return marker};
+  // Only the original model 2 has alternative endings; select exactly one.
+  let ctaVariant='';
+  if(template.id==='devil-02'&&source.order===18){
+    const commercial=['Decisão','Recuperação'].includes(stage)&&ctx.offer&&!/indisponivel/.test(libraryKey(ctx.product.status));
+    const a=text.indexOf('“Quem entrar'),b=text.indexOf('“É só responder');
+    text=commercial?text.slice(a,text.indexOf('B —')):text.slice(b);
+    text=text.replace(/\s*OU:.*$/,'');ctaVariant=commercial?'A':'B';
+    if(!commercial&&!ctx.pick('material disponível','isca disponível')&&!ctx.pick('código do CTA','palavra do direct')){
+      // Original B also explicitly permits reposting an existing feed post.
+      const feed=ctx.pick('post relacionado','conteúdo do feed');
+      if(feed)text='Expliquei como trabalhar esse ponto neste conteúdo: '+feed;
+    }
+  }
+  // Original literal X is a field, never a new slogan invented by the generator.
+  if(template.id==='devil-02'&&source.order===11){
+    const action=ctx.pick('ação frequente','tentativa comum'),profession=ctx.pick('profissão da audiência','profissão');
+    text=(action||issue('AÇÃO FREQUENTE'))+' não é o suficiente. Ser um bom '+(profession||issue('PROFISSÃO DA AUDIÊNCIA'))+' não é o suficiente.';
+  }
+  // Resolve inner slots before processing outer interaction instructions.
+  text=text.replace(/\[RESULTADO\]/g,()=>ctx.goal||issue('RESULTADO DESEJADO'));
+  text=text.replace(/\[(ENQUETE|CAIXINHA):\s*([^\[\]]*(?:\[INFORMAR:[^\]]+\][^\[\]]*)?)\]/gi,(_,kind,value)=>{interaction=kind+': '+value;return''});
+  text=text.replace(/\[([^\[\]]+)\]/g,(whole,label)=>{
+    if(/^INFORMAR:/i.test(label))return whole;
+    if(/^(?:ENQUETE|CAIXINHA):/i.test(label)){interaction=label;return''}
+    return librarySlot(label,ctx,source.order)||issue(label);
+  });
+  const inline=text.match(/\bENQUETE:\s*(.+)$/i);if(inline){interaction='ENQUETE: '+inline[1];text=text.slice(0,inline.index)}
+  // Factual source copy is not automatically true for the active profile.
+  const requirements={
+    'devil-01':{1:['ação realizada'],2:['ação realizada'],3:['resultado surpreendente'],7:['experiência com a abordagem'],8:['perguntas recebidas'],10:['decisão de criar a novidade','exclusividade confirmada'],11:['meta de engajamento confirmada','liberação confirmada']},
+    'devil-02':{2:['perguntas recebidas'],9:['causa do problema'],10:['estratégia antiga','cenário atual'],11:['causa do problema'],12:['estratégia antiga','cenário atual'],14:['cenário atual'],17:['material disponível','resultado comprovado'],18:ctaVariant==='A'?['tipo de acesso','benefício exclusivo confirmado','envio confirmado']:['envio confirmado']},
+    'devil-03':{1:['pergunta feita ontem','resultado comprovado'],3:['impacto comprovado'],4:['elemento de percepção'],9:['característica real do expert'],11:['causa do problema'],12:['impacto comprovado'],14:['comunicação anterior'],16:['experiência comprovada'],17:['experiência com o método'],18:['material disponível'],19:['post relacionado']},
+    'devil-04':{4:['história pessoal'],5:['história pessoal'],6:['história pessoal'],8:['experiência com o método','resultado comprovado','compartilhamento confirmado']},
+    'devil-05':{1:['atividade de hoje'],2:['rotina anterior','ano'],3:['rotina anterior'],4:['conquista real','data da conquista','tempo até a conquista'],6:['evolução possível','resultado possível','pedidos possíveis','período confirmado'],7:['atendimento no direct confirmado']}
+  };
+  const needed=(requirements[template.id]?.[source.order]||[]).filter(label=>!ctx.pick(label));
+  // A repost does not promise to send anything by Direct.
+  if(template.id==='devil-02'&&source.order===18&&!/direct/i.test(text))needed.splice(0,needed.length);
+  missing.push(...needed.map(x=>'CONFIRMAR '+x));
+  text=clean(text).replace(/^[“”]|[“”]$/g,'').replace(/”\s+“/g,'\n');
+  if(needed.length)text='[CONFIRMAR: '+needed.join('; ')+']\n'+text;
+  if(!text)text=interaction||issue('TEXTO DA TELA');
+  // Keep the original spoken opening in the title; do not add canned headlines.
+  let headline='',body=text;
+  if(!text.startsWith('[')){
+    const match=text.match(/^(.{4,100}?[.!?…])\s+([\s\S]+)$/);
+    if(match){headline=match[1];body=match[2]}
+  }
+  if(!headline){headline=ctx.topic||template.name;body=text}
+  if(interaction&&!body.includes(interaction))body+='\n\n'+interaction;
+  const role=source.label.toUpperCase();
+  const point=role.includes('PARTIDA')?points[0]:role.includes('INTERMEDIÁRIO')?points[1]:role.includes('DÚVIDA')?points[4]:role.includes('PROVOCATIVO')?points[5]:role.includes('DECISÃO')?points[6]:role.includes('SUPERIOR')||role.includes('SOLUÇÃO')?points[3]:points[2];
+  return{headline,text:body,interaction,point,sourceOrder:source.order,sourceRole:source.label,sourceText:source.sourceText,templateId:template.id,ctaVariant,missing:[...new Set(missing)]};
+}
+function generateDraft(){
+  const c=activeClient();if(!c){toast('Escolha ou crie um perfil.');return null}
+  if(!DEVIL_LIBRARY?.templates?.length){toast('A biblioteca validada não carregou. A criação foi interrompida.');return null}
+  const moment=clean($('#storyMoment').value);if(!moment){toast('Informe o objetivo e o assunto dos Stories de hoje.');return null}
+  const product=(c.products||[]).find(p=>p.id===$('#productSelect').value)||c.products?.[0]||{};
+  const series=activeSeries()?.clientId===c.id?activeSeries():null,ctx=libraryContext(c,series,moment,product);
+  const stage=stages.includes($('#stage').value)?$('#stage').value:'Descoberta';
+  const selection=chooseLibraryTemplate(ctx,stage,series?.lastDraft?.brief?.templateId),template=selection.template;
+  const font=c.branding?.fontFamily||$('#globalFont').value||'Manrope';
+  const stories=template.stories.map(source=>({id:uid(),order:source.order,...adaptLibraryStory(source,template,ctx,stage),format:'Texto sobre fundo',design:{background:c.branding?.secondary||'#241a33',textColor:c.branding?.text||'#fff8f1',font,align:'left',assetId:'',headlineX:50,headlineY:34,textX:50,textY:64,headlineSize:31,textSize:19}}));
+  if(stories.length!==template.screenCount||stories.some(s=>s.templateId!==template.id))throw Error('Roteiro validado incompleto.');
+  const missing=[...new Set(stories.flatMap(s=>s.missing))];
+  return{id:uid(),clientId:c.id,seriesId:series?.id||'',createdAt:new Date().toISOString(),stage,theme:ctx.topic,objective:ctx.objective,designTips:[],notes:missing.length?'Rascunho: revise os campos sinalizados antes de publicar.':'Rascunho adaptado do roteiro validado.',stories,
+    brief:{topic:ctx.topic,source:'biblioteca-validada',libraryVersion:DEVIL_LIBRARY.version,templateId:template.id,templateName:template.name,selectionReason:selection.reason,sourcePages:template.sourcePages,screenCount:template.screenCount,missing,context:{audience:ctx.audience,niche:ctx.niche,voice:ctx.voice,offer:ctx.offer},seriesId:series?.id||''}};
+}
+
+function showEpisode(ep){const source=$('#sourceNote');if(source)source.textContent=ep.brief?.templateName?`Roteiro validado: ${ep.brief.templateName} · ${ep.stories.length} telas${ep.brief.missing?.length?' · '+ep.brief.missing.length+' informações para revisar':''}`:'';app.currentEpisode=ep;$('#editor').hidden=false;$('#sequenceTheme').value=ep.theme||'';$('#sequenceObjective').value=ep.objective||'';renderStories()}
 function renderStories(){$('#storyList').innerHTML=(app.currentEpisode?.stories||[]).map((s,i)=>{s.design=s.design||{};const d=s.design;return`<article class="story-card"><div class="story-edit"><div class="story-head"><span>TELA ${i+1} · ${esc(s.point||'Story')}</span><button data-remove-story="${s.id}">Remover</button></div><label>Título<textarea data-field="headline" data-id="${s.id}" rows="2">${esc(s.headline||'')}</textarea></label><label>Texto principal<textarea data-field="text" data-id="${s.id}" rows="4">${esc(s.text||'')}</textarea></label><div class="grid2"><label>Tamanho do título<input type="number" min="12" max="72" data-design="headlineSize" data-id="${s.id}" value="${d.headlineSize||31}"></label><label>Tamanho do texto<input type="number" min="10" max="48" data-design="textSize" data-id="${s.id}" value="${d.textSize||19}"></label></div><label>Função<select data-field="point" data-id="${s.id}">${points.map(p=>`<option ${p===s.point?'selected':''}>${p}</option>`).join('')}</select></label><div class="screen-tools"><label>Fundo <input type="color" data-design="background" data-id="${s.id}" value="${d.background||'#241a33'}"></label><label>Texto <input type="color" data-design="textColor" data-id="${s.id}" value="${d.textColor||'#fff8f1'}"></label><label>Foto da tela <select data-design="assetId" data-id="${s.id}"><option value="">Sem foto</option>${(activeClient()?.assets||[]).filter(a=>a.mimeType?.startsWith('image/')).map(a=>`<option value="${a.id}" ${d.assetId===a.id?'selected':''}>${esc(a.name)}</option>`).join('')}</select></label><label class="button tiny">Carregar foto<input type="file" accept="image/*" data-photo-upload="${s.id}" hidden></label><label>Alinhar <select data-design="align" data-id="${s.id}"><option value="left" ${d.align==='left'?'selected':''}>Esquerda</option><option value="center" ${d.align==='center'?'selected':''}>Centro</option><option value="right" ${d.align==='right'?'selected':''}>Direita</option></select></label><button class="button tiny" data-export-one="${s.id}">Baixar PNG</button></div><p class="micro">Arraste o título e o texto no preview para posicionar.</p></div><div class="story-visual" id="visual-${s.id}" style="background-color:${d.background||'#241a33'};color:${d.textColor||'#fff8f1'};font-family:${esc(d.font||activeClient()?.branding?.fontFamily||'Manrope')}"><small>${esc(s.point||'Story')}</small><div class="story-layer headline" data-layer="headline" data-id="${s.id}" style="left:${d.headlineX??50}%;top:${d.headlineY??38}%;font-size:${d.headlineSize||31}px">${esc(s.headline||'Título')}</div><div class="story-layer text" data-layer="text" data-id="${s.id}" style="left:${d.textX??50}%;top:${d.textY??62}%;font-size:${d.textSize||19}px">${esc(s.text||'Texto do story')}</div></div></article>`}).join('');(app.currentEpisode?.stories||[]).forEach(s=>{if(s.design?.assetId)loadImage(s.design.assetId,s.id)})}
 function updateStory(field,id,value,design=false){const s=app.currentEpisode?.stories.find(x=>x.id===id);if(!s)return;if(design){s.design=s.design||{};s.design[field]=value;if(field==='assetId')loadImage(value,id)}else s[field]=value;const vis=$('#visual-'+id);if(vis){if(field==='text'||field==='headline'){const layer=vis.querySelector('.'+field);if(layer)layer.textContent=value|| (field==='headline'?'Título':'Texto do story')}if(field==='point'){const top=vis.querySelector('small');if(top)top.textContent=value}if(field==='background')vis.style.backgroundColor=value;if(field==='textColor')vis.style.color=value;if(field==='align')vis.querySelectorAll('.story-layer').forEach(x=>x.style.textAlign=value);if(field==='headlineSize'){const x=vis.querySelector('.headline');if(x)x.style.fontSize=value+'px'}if(field==='textSize'){const x=vis.querySelector('.text');if(x)x.style.fontSize=value+'px'}}save()}
 async function loadImage(assetId,storyId){try{const u=assetId?await getFileUrl(assetId):'',el=$('#visual-'+storyId);if(el)el.style.backgroundImage=u?`linear-gradient(0deg,#0006,#0002),url(${JSON.stringify(u)})`:''}catch{}}
@@ -233,5 +325,6 @@ $('#storyList').addEventListener('input',e=>{const id=e.target.dataset.id,f=e.ta
 $('#replaceAllBtn').onclick=()=>{if(!app.currentEpisode)return;const f=$('#findAll').value;if(!f){toast('Digite o texto que deseja substituir.');return}app.currentEpisode.stories.forEach(s=>s.text=s.text.split(f).join($('#replaceAll').value));renderStories();save();toast('Substituição aplicada à sequência')};$('#shortenAll').onclick=()=>{if(!app.currentEpisode)return;app.currentEpisode.stories.forEach(s=>{if(s.text.length>150)s.text=s.text.slice(0,147).replace(/\s+\S*$/,'')+'…'});renderStories();save();toast('Textos encurtados; revise cada tela')};
 $('#newSeries').onclick=()=>{if(!app.clients.length){toast('Cadastre um perfil antes.');return}openSeriesDialog();$('#seriesDialog').showModal()};$('#seriesForm').onsubmit=async e=>{e.preventDefault();const f=e.currentTarget,id=f.elements.id.value,file=$('#seriesFile').files[0];let strategyText=f.elements.strategyText.value.trim();if(file){try{const text=await readFileText(file);strategyText=(strategyText+'\n\n'+text).trim()}catch(err){toast('Não consegui ler a estratégia: '+err.message);return}}if(!strategyText){toast('Inclua o briefing ou anexe um PDF/TXT/Markdown.');return}createSeries(id,f.elements.name.value.trim(),f.elements.clientId.value,strategyText,file?.name||app.series.find(x=>x.id===id)?.sourceName||'');$('#seriesDialog').close()};
 </script></body></html>
+
 
 
