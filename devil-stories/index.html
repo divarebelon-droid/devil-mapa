@@ -74,7 +74,7 @@ function generateDraft(){
   const moment=clean($('#storyMoment').value),stage=$('#stage').value;
   const material=(c.assets||[]).map(x=>x.text||'').filter(Boolean).join(' ').slice(0,6000);
   const campaign=clean(series?.strategyText||''),reference=campaign+' '+material;
-  const facts=reference.split(/[\\n.!?]+/).map(clean).filter(x=>x.length>18);
+  const facts=reference.split(/[\n.!?]+/).map(clean).filter(x=>x.length>18);
   const fact=(re)=>facts.find(x=>re.test(x))||'';
   const pain=clean($('#pain').value||product.problem||profile.niche);
   const feeling=clean($('#feeling').value);
@@ -206,13 +206,13 @@ async function canvasPng(s){
     try{await document.fonts.load(st.fontWeight+' '+fontSize+'px '+st.fontFamily)}catch{}
     ctx.save();ctx.beginPath();ctx.rect((r.left-vr.left)*scaleX,(r.top-vr.top)*scaleY,r.width*scaleX,r.height*scaleY);ctx.clip();
     ctx.font=st.fontWeight+' '+fontSize+'px '+st.fontFamily;ctx.fillStyle=st.color;ctx.textAlign=st.textAlign;ctx.textBaseline='top';
-    const shadow=(st.textShadow||'').match(/(-?[\\d.]+)px\\s+(-?[\\d.]+)px\\s+([\\d.]+)px\\s+(rgba?\\([^)]+\\)|#[\\da-fA-F]+)/);
+    const shadow=(st.textShadow||'').match(/(-?[\d.]+)px\s+(-?[\d.]+)px\s+([\d.]+)px\s+(rgba?\([^)]+\)|#[\da-fA-F]+)/);
     if(shadow){ctx.shadowOffsetX=parseFloat(shadow[1])*scaleX;ctx.shadowOffsetY=parseFloat(shadow[2])*scaleY;ctx.shadowBlur=parseFloat(shadow[3])*scaleX;ctx.shadowColor=shadow[4]}
     const letter=parseFloat(st.letterSpacing);if('letterSpacing'in ctx&&Number.isFinite(letter))ctx.letterSpacing=(letter*scaleX)+'px';
     const maxWidth=r.width*scaleX,lineHeight=(parseFloat(st.lineHeight)||parseFloat(st.fontSize)*1.22)*scaleY,text=layer.innerText||'';
     const lines=[];
-    for(const para of text.split('\\n')){
-      const words=para.split(/\\s+/);let line='';
+    for(const para of text.split('\n')){
+      const words=para.split(/\s+/);let line='';
       for(const word of words){
         if(!word)continue;const candidate=line?line+' '+word:word;
         if(line&&ctx.measureText(candidate).width>maxWidth){lines.push(line);line=word}
