@@ -83,75 +83,84 @@ function generateDraft(){
   const objection=clean(product.objections||fact(/obje[cç][aã]o|d[uú]vida|medo|inseguran[cç]a/i));
   const proof=clean($('#proof').value||product.proof),offer=clean(product.name);
   const topic=pain||clean(series?.name)||offer||clean(profile.niche)||'essa situação';
-  const outcome=desire||'um jeito mais leve de lidar com isso';
   const font=c.branding?.fontFamily||$('#globalFont').value||'Manrope';
   const count=Math.max(5,Math.min(20,Number($('#storyCount').value)||7));
+  const explicitScene=moment.length>0;
   const sourceLower=moment.toLocaleLowerCase('pt-BR');
-  const sourceKind=/direct|mensagem|caixinha|coment[aá]rio/.test(sourceLower)?'conversa':/post|reel|feed|live|publica[cç][aã]o/.test(sourceLower)?'feed':/bastidor|aqui no|estou fazendo|estava fazendo|atendendo|rotina/.test(sourceLower)?'bastidor':'assunto';
-  let opening=moment,openingHeadline='Deixa eu te contar';
-  if(moment&&sourceKind==='conversa'){openingHeadline='Olha o que chegou por aqui';if(!/direct|mensagem|caixinha|coment[aá]rio/.test(sourceLower))opening='Essa conversa me fez pensar: '+moment}
-  else if(moment&&sourceKind==='feed'){openingHeadline='Quero continuar essa conversa';opening='Eu trouxe esse assunto no Feed: '+moment+'. E tem uma parte que eu queria conversar com você por aqui.'}
-  else if(moment&&sourceKind==='bastidor'){openingHeadline='Uma coisa que aconteceu por aqui';opening='No meio desse bastidor — '+moment+' — eu parei para pensar numa coisa.'}
-  else if(moment){openingHeadline='Olha o que aconteceu';opening='Deixa eu começar pelo que aconteceu: '+moment+'.'}
-  else{openingHeadline='Você já reparou nisso?';opening='Sabe quando '+topic+'? Eu queria te contar o detalhe que me fez olhar para isso de outro jeito.'}
-  const methodLine=method?'No meu trabalho, eu começo por aqui: '+method+'.':'Eu começo entendendo o contexto antes de sugerir um próximo passo.';
-  const proofLine=proof?'E se a dúvida é “será que isso funciona?”, olha esta prova com contexto: '+proof+'.':objection?'Talvez você esteja pensando “'+objection+'”. O que eu consigo te explicar com clareza é '+(method||'como eu avalio se esse caminho faz sentido para cada caso')+'.':'Se você está se perguntando se isso serve para o seu caso, eu prefiro entender seu contexto antes de te responder.';
-  const copy={
-    'Descoberta':{
-      context:'À primeira vista, parece que a questão é '+topic+'. Só que eu fui olhar para o que acontece antes disso.',
-      link:perception?'E foi aí que eu percebi uma coisa: '+perception+'.':'O detalhe que costuma passar batido é justamente o que pode estar por trás de '+topic+'. Quando a gente enxerga isso, fica mais fácil chegar a '+outcome+'.',
-      authority:methodLine,doubt:proofLine,
-      provoke:'Se a gente continuar olhando só para '+topic+', o que pode ficar sem resposta? Eu começaria por essa pergunta.',
-      close:'Me conta: isso também acontece com você?'
-    },
-    'Consideração':{
-      context:feeling?'Quando isso se repete, eu imagino que bata '+feeling+'. E dá para entender o cansaço.':'Quando isso se repete, é fácil pensar que falta se esforçar mais. Eu queria olhar para isso com você.',
-      link:'O que eu quero entender primeiro é o que você já tentou e o que continua acontecendo. Porque no fundo não é só sobre '+topic+'; é sobre conseguir '+outcome+'.',
-      authority:methodLine,doubt:proofLine,
-      provoke:'E se o próximo passo não fosse fazer mais do mesmo, mas entender o que está desalinhado?',
-      close:'Me conta: qual parte dessa situação mais parece com o que você vive?'
-    },
-    'Decisão':{
-      context:'Quando '+topic+' começa a pesar, escolher qualquer solução no impulso pode deixar a mesma dúvida de antes.',
-      link:offer&&desire?'Foi pensando nisso que eu organizei '+offer+': '+desire+'.':methodLine,
-      authority:methodLine,doubt:proofLine,
-      provoke:'Talvez a pergunta não seja “será que existe uma solução?”, mas “qual caminho cabe no meu momento?”.',
-      close:offer?'Se você quiser ver se '+offer+' faz sentido para o seu momento, '+(clean(product.cta)||'me chama no Direct e eu te explico com calma')+'.':'Se quiser pensar no próximo passo comigo, me chama no Direct.'
-    },
-    'Recuperação':{
-      context:objection?'Se a sua dúvida é '+objection+', eu quero conversar sobre ela sem te apressar.':'Se você viu essa possibilidade e ainda não decidiu, tudo bem. Talvez tenha ficado uma pergunta em aberto.',
-      link:'Às vezes não falta vontade; falta uma informação que deixe a decisão mais segura. O que você precisa saber para entender se isso combina com o que está vivendo?',
-      authority:methodLine,doubt:proofLine,
-      provoke:'Você não precisa decidir no escuro nem por pressão. Primeiro, vamos esclarecer o que ainda está pesando.',
-      close:'Se quiser, me conta qual dúvida ficou. Eu respondo com o que é real para o seu caso.'
-    }
-  }[stage]||null;
-  const plan=copy||{
-    context:'À primeira vista, parece que a questão é '+topic+'. Só que eu fui olhar para o que acontece antes disso.',
-    link:'Quando a gente enxerga esse detalhe, fica mais fácil chegar a '+outcome+'.',
-    authority:methodLine,doubt:proofLine,provoke:'O que pode continuar sem resposta se a gente olhar só para '+topic+'?',
-    close:'Me conta: isso também acontece com você?'
-  };
-  const beats=[
-    {point:'Ponto de Partida',headline:openingHeadline,text:opening},
-    {point:'Ponto Intermediário',headline:'Aí eu fui olhar melhor',text:plan.context},
-    {point:'Ponto de Ligação',headline:'Foi aqui que fez sentido',text:plan.link},
-    {point:'Ponto Superior',headline:'O jeito que eu passei a olhar',text:plan.authority},
-    {point:'Ponto de Dúvida',headline:'Talvez você esteja pensando',text:plan.doubt},
-    {point:'Ponto Provocativo',headline:'E agora fica a pergunta',text:plan.provoke},
-    {point:'Ponto de Decisão',headline:'Me conta uma coisa',text:plan.close}
-  ];
-  const chosen=count<7?(count===5?[beats[0],beats[1],beats[2],beats[5],beats[6]]:[beats[0],beats[1],beats[2],beats[3],beats[5],beats[6]]):beats.slice();
-  const expansions=[
-    {point:'Ponto Intermediário',headline:'Tem mais uma parte',text:'Quando eu separo '+topic+' do resto, consigo enxergar melhor onde a conversa precisa começar.'},
-    {point:'Ponto de Ligação',headline:'E isso muda o quê?',text:'É esse detalhe que aproxima o que está acontecendo hoje de '+outcome+'.'},
-    {point:'Ponto Superior',headline:'Na prática, eu olho assim',text:methodLine},
-    {point:'Ponto de Dúvida',headline:'Uma dúvida justa',text:proofLine},
-    {point:'Ponto Provocativo',headline:'Pensa comigo',text:'O que continua igual se a gente não mexer nesse ponto?'}
-  ];
-  while(chosen.length<count){const extra=expansions[(chosen.length-7)%expansions.length];chosen.splice(chosen.length-1,0,extra)}
-  const items=chosen.map((beat,i)=>({id:uid(),order:i+1,point:beat.point,headline:beat.headline,text:beat.text,format:'Texto sobre fundo',interaction:'',design:{background:c.branding?.secondary||'#241a33',textColor:c.branding?.text||'#fff8f1',font,align:'left',assetId:'',headlineX:50,headlineY:34,textX:50,textY:64,headlineSize:31,textSize:19}}));
-  return{id:uid(),clientId:c.id,seriesId:series?.id||'',createdAt:new Date().toISOString(),stage,theme:moment||series?.name||topic,objective:'Uma conversa curta e natural sobre '+topic+'.',designTips:[],notes:'',stories:items,brief:{topic:moment||topic,source:sourceKind,seriesId:series?.id||'',brandReference:(campaign+' '+material).slice(0,1000)}}
+  const sourceKind=/direct|mensagem|caixinha|coment[aá]rio|conversa/.test(sourceLower)?'conversa':/post|reel|feed|live|publica[cç][aã]o/.test(sourceLower)?'feed':/bastidor|aqui no|estou fazendo|estava fazendo|atendendo|rotina/.test(sourceLower)?'bastidor':explicitScene?'relato':'hipotese';
+  const stageName=['Descoberta','Consideração','Decisão','Recuperação'].includes(stage)?stage:'Descoberta';
+  const cleanSentence=s=>clean(s).replace(/[.!?]+$/,'');
+  const sentence=s=>cleanSentence(s)+( /[.!?]$/.test(clean(s))?'':'.');
+  const quote=s=>'“'+cleanSentence(s)+'”';
+  const name=clean(profile.name||profile.brandName||'');
+  const audience=clean(profile.audience||profile.targetAudience||'');
+  const audiencePhrase=audience?' '+audience:'';
+  const spokenThought=feeling?'“'+cleanSentence(feeling)+'”':('“'+cleanSentence(topic)+'”');
+  const scene=explicitScene?moment:'Imagina: você abre '+(sourceKind==='feed'?'o rascunho de um post':sourceKind==='conversa'?'uma conversa no Direct':'o material que separou para trabalhar')+' sobre '+topic+' e percebe que está tentando resolver tudo de uma vez.';
+  const opening=explicitScene?moment:scene;
+  const belief=clean(perception)||'Talvez você esteja tentando corrigir o que aparece, sem olhar para o que está provocando isso.';
+  const want=desire||'entender qual próximo passo faz sentido para o seu momento';
+  const mechanism=method?('O caminho que eu aplico é este: '+method):'Antes de escolher uma solução, eu separo o que aconteceu, o que você já tentou e o que ainda está impedindo o avanço.';
+  const realProof=proof?('O que temos de concreto é: '+proof):(fact(/caso|resultado|depoimento|n[uú]mero|cliente|aluna/i)?fact(/caso|resultado|depoimento|n[uú]mero|cliente|aluna/i):'');
+  const offerCta=clean(product.cta);
+  const gentleCta='Se quiser, me conta por mensagem qual parte disso aparece no seu caso.';
+  const decisionCta=offerCta|| (offer?'Se quiser avaliar se '+offer+' combina com seu momento, me chama no Direct para conversarmos.':gentleCta);
+  const recoveryQuestion=objection?'“'+cleanSentence(objection)+'”':'o que ainda precisa ficar claro para você';
+  let sequence=[];
+  if(stageName==='Descoberta'){
+    sequence=[
+      {point:points[0],headline:'Olha essa cena',text:opening},
+      {point:points[1],headline:'O que passa pela cabeça',text:explicitScene?'Na hora, talvez a primeira reação seja pensar: '+spokenThought+'.':'E nessa hora talvez venha o pensamento: '+spokenThought+'.'},
+      {point:points[2],headline:'Mas tem um detalhe',text:'Quando isso se repete, olhar só para '+topic+' pode esconder o que começou a situação: '+belief+'.'},
+      {point:points[3],headline:'O custo aparece depois',text:feeling?'E isso pesa: '+feeling+'.':'A consequência é gastar energia tentando ajustar a ponta, enquanto a causa continua fora de vista.'},
+      {point:points[4],headline:'Uma leitura diferente',text:perception?'Talvez a pergunta não seja “como faço mais?”, mas: '+belief+'.':'Talvez a pergunta não seja “como faço mais?”, mas “o que ainda não entendi sobre '+topic+'?”.'},
+      {point:points[5],headline:'Um teste pequeno',text:'Antes de mudar tudo, anota o que aconteceu, o que você fez em seguida e o que esperava que acontecesse. Esse registro já ajuda a localizar a conversa certa.'},
+      {point:points[6],headline:'Me conta',text:gentleCta}
+    ];
+  }else if(stageName==='Consideração'){
+    sequence=[
+      {point:points[0],headline:'Deixa eu te contar',text:opening},
+      {point:points[1],headline:'A parte que fica quieta',text:'E enquanto isso acontece, pode aparecer um pensamento difícil de dizer em voz alta: '+spokenThought+'.'},
+      {point:points[2],headline:'Não é falta de vontade',text:'Quando você já tentou e mesmo assim volta ao mesmo ponto, faz sentido cansar. Isso não prova que você falhou; mostra que vale olhar para o que ainda não foi compreendido.'},
+      {point:points[3],headline:'O que eu perguntaria',text:'Eu começaria por uma pergunta bem concreta: o que aconteceu imediatamente antes de '+topic+'? A resposta costuma dar mais contexto do que se cobrar para fazer mais.'},
+      {point:points[4],headline:'Por onde eu começaria',text:mechanism},
+      {point:points[5],headline:'Sem fórmula pronta',text:'Não vou presumir que conheço seu caso. Primeiro eu escutaria o contexto; depois, a gente escolhe um passo que caiba na sua realidade.'},
+      {point:points[6],headline:'Pode me contar',text:'Se quiser, me manda uma mensagem com o que você já tentou e onde travou. Eu continuo essa conversa com você.'}
+    ];
+  }else if(stageName==='Decisão'){
+    sequence=[
+      {point:points[0],headline:'Antes de escolher',text:opening},
+      {point:points[1],headline:'A dúvida é legítima',text:objection?'Talvez a pergunta seja '+quote(objection)+'. É justo querer entender isso antes de investir tempo ou dinheiro.':'Talvez você esteja pensando se este é o momento certo. É justo querer clareza antes de decidir.'},
+      {point:points[2],headline:'O que precisa mudar',text:'O primeiro passo é sair de '+topic+' como um problema solto e entender o que está mantendo essa situação.'},
+      {point:points[3],headline:'Como eu trabalho',text:mechanism},
+      {point:points[4],headline:realProof?'O que dá para verificar':'Sem prometer resultado',text:realProof?realProof:'Eu não vou inventar garantia nem dizer que serve para todo mundo. Posso explicar o processo, os limites e conferir com você se faz sentido.'},
+      {point:points[5],headline:'Para quem faz sentido',text:offer?'A proposta de '+offer+' é '+(desire||'trabalhar esse ponto com acompanhamento e contexto')+'. A indicação depende do que você precisa e do que o produto realmente oferece.':'A decisão precisa considerar sua situação, o que você busca e o que consigo entregar de verdade.'},
+      {point:points[6],headline:'Próximo passo',text:decisionCta}
+    ];
+  }else{
+    sequence=[
+      {point:points[0],headline:'Talvez tenha ficado isso',text:opening},
+      {point:points[1],headline:'Sua dúvida merece espaço',text:objection?'A pergunta que ficou pode ser '+quote(objection)+'. Não vou diminuir essa preocupação nem te apressar.':'Se ficou uma dúvida ou você adiou, isso merece uma conversa honesta, sem pressão.'},
+      {point:points[2],headline:'Vamos olhar o contexto',text:'O que aconteceu, o que você já tentou e o que precisa mudar para essa escolha caber na sua vida?'},
+      {point:points[3],headline:'O que consigo esclarecer',text:mechanism},
+      {point:points[4],headline:realProof?'Fatos, sem enfeite':'Limites claros',text:realProof?realProof:'Eu posso explicar o que está incluído e o que não está. Sem promessa de resultado e sem decidir por você.'},
+      {point:points[5],headline:'A escolha continua sua',text:offer?'Se '+offer+' não combinar com seu momento, tudo bem. Se combinar, a gente esclarece as condições antes de seguir.':'Você pode retomar essa conversa quando tiver as informações de que precisa.'},
+      {point:points[6],headline:'Se quiser continuar',text:objection?'Se quiser, me diga se essa dúvida ainda é a principal ou se apareceu outra.':'Se quiser, me conta o que ainda precisa ficar claro. Sem pressão.'}
+    ];
+  }
+  const chosen=sequence.slice(0,count);
+  while(chosen.length<count){
+    const i=chosen.length;
+    const bridges=[
+      {point:points[2],headline:'Volta um instante',text:'Volta para a cena do começo: qual foi o primeiro sinal de que algo não estava encaixando?'},
+      {point:points[3],headline:'Repara no detalhe',text:'Escolhe um momento específico dessa situação e observa o que veio antes, durante e depois.'},
+      {point:points[4],headline:'O que essa cena mostra',text:'A cena não prova uma história inteira, mas pode mostrar qual pergunta está faltando.'},
+      {point:points[5],headline:'Faz esse registro',text:'Anota uma frase sobre o que aconteceu e outra sobre o que você precisava naquele momento.'}
+    ];
+    chosen.splice(chosen.length-1,0,bridges[(i-7)%bridges.length]);
+  }
+  const items=chosen.map((beat,i)=>({id:uid(),order:i+1,point:beat.point,headline:beat.headline,text:sentence(beat.text),format:'Texto sobre fundo',interaction:'',design:{background:c.branding?.secondary||'#241a33',textColor:c.branding?.text||'#fff8f1',font,align:'left',assetId:'',headlineX:50,headlineY:34,textX:50,textY:64,headlineSize:31,textSize:19}}));
+  return{id:uid(),clientId:c.id,seriesId:series?.id||'',createdAt:new Date().toISOString(),stage:stageName,theme:moment||series?.name||topic,objective:'Uma narrativa falada sobre '+topic+'.',designTips:[],notes:'',stories:items,brief:{topic:moment||topic,source:sourceKind,seriesId:series?.id||'',brandReference:(campaign+' '+material).slice(0,1000)}}
 }
 function showEpisode(ep){app.currentEpisode=ep;$('#editor').hidden=false;$('#sequenceTheme').value=ep.theme||'';$('#sequenceObjective').value=ep.objective||'';renderStories()}
 function renderStories(){$('#storyList').innerHTML=(app.currentEpisode?.stories||[]).map((s,i)=>{s.design=s.design||{};const d=s.design;return`<article class="story-card"><div class="story-edit"><div class="story-head"><span>TELA ${i+1} · ${esc(s.point||'Story')}</span><button data-remove-story="${s.id}">Remover</button></div><label>Título<textarea data-field="headline" data-id="${s.id}" rows="2">${esc(s.headline||'')}</textarea></label><label>Texto principal<textarea data-field="text" data-id="${s.id}" rows="4">${esc(s.text||'')}</textarea></label><div class="grid2"><label>Tamanho do título<input type="number" min="12" max="72" data-design="headlineSize" data-id="${s.id}" value="${d.headlineSize||31}"></label><label>Tamanho do texto<input type="number" min="10" max="48" data-design="textSize" data-id="${s.id}" value="${d.textSize||19}"></label></div><label>Função<select data-field="point" data-id="${s.id}">${points.map(p=>`<option ${p===s.point?'selected':''}>${p}</option>`).join('')}</select></label><div class="screen-tools"><label>Fundo <input type="color" data-design="background" data-id="${s.id}" value="${d.background||'#241a33'}"></label><label>Texto <input type="color" data-design="textColor" data-id="${s.id}" value="${d.textColor||'#fff8f1'}"></label><label>Foto da tela <select data-design="assetId" data-id="${s.id}"><option value="">Sem foto</option>${(activeClient()?.assets||[]).filter(a=>a.mimeType?.startsWith('image/')).map(a=>`<option value="${a.id}" ${d.assetId===a.id?'selected':''}>${esc(a.name)}</option>`).join('')}</select></label><label class="button tiny">Carregar foto<input type="file" accept="image/*" data-photo-upload="${s.id}" hidden></label><label>Alinhar <select data-design="align" data-id="${s.id}"><option value="left" ${d.align==='left'?'selected':''}>Esquerda</option><option value="center" ${d.align==='center'?'selected':''}>Centro</option><option value="right" ${d.align==='right'?'selected':''}>Direita</option></select></label><button class="button tiny" data-export-one="${s.id}">Baixar PNG</button></div><p class="micro">Arraste o título e o texto no preview para posicionar.</p></div><div class="story-visual" id="visual-${s.id}" style="background-color:${d.background||'#241a33'};color:${d.textColor||'#fff8f1'};font-family:${esc(d.font||activeClient()?.branding?.fontFamily||'Manrope')}"><small>${esc(s.point||'Story')}</small><div class="story-layer headline" data-layer="headline" data-id="${s.id}" style="left:${d.headlineX??50}%;top:${d.headlineY??38}%;font-size:${d.headlineSize||31}px">${esc(s.headline||'Título')}</div><div class="story-layer text" data-layer="text" data-id="${s.id}" style="left:${d.textX??50}%;top:${d.textY??62}%;font-size:${d.textSize||19}px">${esc(s.text||'Texto do story')}</div></div></article>`}).join('');(app.currentEpisode?.stories||[]).forEach(s=>{if(s.design?.assetId)loadImage(s.design.assetId,s.id)})}
