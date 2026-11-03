@@ -77,84 +77,69 @@ function generateDraft(){
   const facts=reference.split(/[\n.!?]+/).map(clean).filter(x=>x.length>18);
   const fact=(re)=>facts.find(x=>re.test(x))||'';
   const pain=clean($('#pain').value||product.problem||profile.niche);
-  const feeling=clean($('#feeling').value);
-  const desire=clean($('#desire').value||product.promise);
+  const feeling=clean($('#feeling').value),desire=clean($('#desire').value||product.promise);
   const perception=clean($('#perception').value||fact(/por tr[aá]s|mecanismo|percep[cç][aã]o|problema invis[ií]vel/i));
   const method=clean(product.delivery||fact(/m[eé]todo|processo|estrutura|passo a passo|funciona assim/i));
   const objection=clean(product.objections||fact(/obje[cç][aã]o|d[uú]vida|medo|inseguran[cç]a/i));
-  const proof=clean($('#proof').value||product.proof);
-  const offer=clean(product.name),topic=pain||clean(series?.name)||clean(product.name)||clean(profile.niche)||'essa situação';
-  const audience=clean(profile.audience);
+  const proof=clean($('#proof').value||product.proof),offer=clean(product.name);
+  const topic=pain||clean(series?.name)||offer||clean(profile.niche)||'essa situação';
+  const outcome=desire||'um jeito mais leve de lidar com isso';
   const font=c.branding?.fontFamily||$('#globalFont').value||'Manrope';
   const count=Math.max(5,Math.min(20,Number($('#storyCount').value)||7));
   const sourceLower=moment.toLocaleLowerCase('pt-BR');
   const sourceKind=/direct|mensagem|caixinha|coment[aá]rio/.test(sourceLower)?'conversa':/post|reel|feed|live|publica[cç][aã]o/.test(sourceLower)?'feed':/bastidor|aqui no|estou fazendo|estava fazendo|atendendo|rotina/.test(sourceLower)?'bastidor':'assunto';
-  let opening=moment;
-  let openingHeadline='Deixa eu te contar';
-  if(moment&&sourceKind==='conversa'){
-    openingHeadline='Olha o que chegou por aqui';
-    if(!/direct|mensagem|caixinha|coment[aá]rio/.test(sourceLower))opening='Essa conversa me fez pensar: '+moment;
-  }else if(moment&&sourceKind==='feed'){
-    openingHeadline='Quero continuar essa conversa';
-    opening='Eu trouxe esse assunto no Feed: '+moment+'. E tem uma parte que eu queria conversar com você por aqui.';
-  }else if(moment&&sourceKind==='bastidor'){
-    openingHeadline='Uma coisa que aconteceu por aqui';
-    opening='No meio desse bastidor — '+moment+' — eu parei para pensar numa coisa.';
-  }else if(moment){
-    openingHeadline='Olha o que aconteceu';
-    opening='Deixa eu começar pelo que aconteceu: '+moment+'.';
-  }else{
-    openingHeadline='Você já reparou nisso?';
-    opening='Sabe quando '+topic+'? Eu queria te contar o detalhe que me fez olhar para isso de outro jeito.';
-  }
-  const outcome=desire||'um jeito mais leve de lidar com isso';
+  let opening=moment,openingHeadline='Deixa eu te contar';
+  if(moment&&sourceKind==='conversa'){openingHeadline='Olha o que chegou por aqui';if(!/direct|mensagem|caixinha|coment[aá]rio/.test(sourceLower))opening='Essa conversa me fez pensar: '+moment}
+  else if(moment&&sourceKind==='feed'){openingHeadline='Quero continuar essa conversa';opening='Eu trouxe esse assunto no Feed: '+moment+'. E tem uma parte que eu queria conversar com você por aqui.'}
+  else if(moment&&sourceKind==='bastidor'){openingHeadline='Uma coisa que aconteceu por aqui';opening='No meio desse bastidor — '+moment+' — eu parei para pensar numa coisa.'}
+  else if(moment){openingHeadline='Olha o que aconteceu';opening='Deixa eu começar pelo que aconteceu: '+moment+'.'}
+  else{openingHeadline='Você já reparou nisso?';opening='Sabe quando '+topic+'? Eu queria te contar o detalhe que me fez olhar para isso de outro jeito.'}
   const methodLine=method?'No meu trabalho, eu começo por aqui: '+method+'.':'Eu começo entendendo o contexto antes de sugerir um próximo passo.';
   const proofLine=proof?'E se a dúvida é “será que isso funciona?”, olha esta prova com contexto: '+proof+'.':objection?'Talvez você esteja pensando “'+objection+'”. O que eu consigo te explicar com clareza é '+(method||'como eu avalio se esse caminho faz sentido para cada caso')+'.':'Se você está se perguntando se isso serve para o seu caso, eu prefiro entender seu contexto antes de te responder.';
-  const stageText={
-    'Descoberta':[
-      'À primeira vista, parece que a questão é '+topic+'. Só que eu fui olhar para o que acontece antes disso.',
-      perception?'E foi aí que eu percebi uma coisa: '+perception+'.':'O detalhe que costuma passar batido é justamente o que pode estar por trás de '+topic+'.',
-      'Quando a gente enxerga esse pedaço, fica mais fácil aproximar o problema de '+outcome+'.',
-      methodLine,
-      proofLine,
-      'Se a gente continuar olhando só para '+topic+', o que pode ficar sem resposta? Eu começaria por essa pergunta.'
-    ],
-    'Consideração':[
-      feeling?'Quando isso se repete, eu imagino que bata '+feeling+'. E dá para entender o cansaço.':'Quando isso se repete, é fácil pensar que falta se esforçar mais. Eu queria olhar para isso com você.',
-      'O que eu quero entender primeiro é o que você já tentou e o que continua acontecendo.',
-      'Porque no fundo não é só sobre '+topic+'; é sobre conseguir '+outcome+'.',
-      methodLine,
-      proofLine,
-      'E se o próximo passo não fosse fazer mais do mesmo, mas entender o que está desalinhado?'
-    ],
-    'Decisão':[
-      'Quando '+topic+' começa a pesar, escolher qualquer solução no impulso pode deixar a mesma dúvida de antes.',
-      'Eu olho para o que você precisa agora e para o tipo de apoio que combina com a sua realidade.',
-      offer&&desire?'Foi pensando nisso que eu organizei '+offer+': '+desire+'.':methodLine,
-      proofLine,
-      'Talvez a pergunta não seja “será que existe uma solução?”, mas “qual caminho cabe no meu momento?”.',
-      offer?'Se você quiser ver se '+offer+' faz sentido para o seu momento, '+(clean(product.cta)||'me chama no Direct e eu te explico com calma')+'.':'Se quiser pensar no próximo passo comigo, me chama no Direct.'
-    ],
-    'Recuperação':[
-      objection?'Se a sua dúvida é '+objection+', eu quero conversar sobre ela sem te apressar.':'Se você viu essa possibilidade e ainda não decidiu, tudo bem. Talvez tenha ficado uma pergunta em aberto.',
-      'Às vezes não falta vontade; falta uma informação que deixe a decisão mais segura.',
-      'O que você precisa saber para entender se isso combina com o que está vivendo?',
-      methodLine,
-      proofLine,
-      'Você não precisa decidir no escuro nem por pressão. Primeiro, vamos esclarecer o que ainda está pesando.',
-      'Se quiser, me conta qual dúvida ficou. Eu respondo com o que é real para o seu caso.'
-    ]
+  const copy={
+    'Descoberta':{
+      context:'À primeira vista, parece que a questão é '+topic+'. Só que eu fui olhar para o que acontece antes disso.',
+      link:perception?'E foi aí que eu percebi uma coisa: '+perception+'.':'O detalhe que costuma passar batido é justamente o que pode estar por trás de '+topic+'. Quando a gente enxerga isso, fica mais fácil chegar a '+outcome+'.',
+      authority:methodLine,doubt:proofLine,
+      provoke:'Se a gente continuar olhando só para '+topic+', o que pode ficar sem resposta? Eu começaria por essa pergunta.',
+      close:'Me conta: isso também acontece com você?'
+    },
+    'Consideração':{
+      context:feeling?'Quando isso se repete, eu imagino que bata '+feeling+'. E dá para entender o cansaço.':'Quando isso se repete, é fácil pensar que falta se esforçar mais. Eu queria olhar para isso com você.',
+      link:'O que eu quero entender primeiro é o que você já tentou e o que continua acontecendo. Porque no fundo não é só sobre '+topic+'; é sobre conseguir '+outcome+'.',
+      authority:methodLine,doubt:proofLine,
+      provoke:'E se o próximo passo não fosse fazer mais do mesmo, mas entender o que está desalinhado?',
+      close:'Me conta: qual parte dessa situação mais parece com o que você vive?'
+    },
+    'Decisão':{
+      context:'Quando '+topic+' começa a pesar, escolher qualquer solução no impulso pode deixar a mesma dúvida de antes.',
+      link:offer&&desire?'Foi pensando nisso que eu organizei '+offer+': '+desire+'.':methodLine,
+      authority:methodLine,doubt:proofLine,
+      provoke:'Talvez a pergunta não seja “será que existe uma solução?”, mas “qual caminho cabe no meu momento?”.',
+      close:offer?'Se você quiser ver se '+offer+' faz sentido para o seu momento, '+(clean(product.cta)||'me chama no Direct e eu te explico com calma')+'.':'Se quiser pensar no próximo passo comigo, me chama no Direct.'
+    },
+    'Recuperação':{
+      context:objection?'Se a sua dúvida é '+objection+', eu quero conversar sobre ela sem te apressar.':'Se você viu essa possibilidade e ainda não decidiu, tudo bem. Talvez tenha ficado uma pergunta em aberto.',
+      link:'Às vezes não falta vontade; falta uma informação que deixe a decisão mais segura. O que você precisa saber para entender se isso combina com o que está vivendo?',
+      authority:methodLine,doubt:proofLine,
+      provoke:'Você não precisa decidir no escuro nem por pressão. Primeiro, vamos esclarecer o que ainda está pesando.',
+      close:'Se quiser, me conta qual dúvida ficou. Eu respondo com o que é real para o seu caso.'
+    }
+  }[stage]||null;
+  const plan=copy||{
+    context:'À primeira vista, parece que a questão é '+topic+'. Só que eu fui olhar para o que acontece antes disso.',
+    link:'Quando a gente enxerga esse detalhe, fica mais fácil chegar a '+outcome+'.',
+    authority:methodLine,doubt:proofLine,provoke:'O que pode continuar sem resposta se a gente olhar só para '+topic+'?',
+    close:'Me conta: isso também acontece com você?'
   };
-  const details=stageText[stage]||stageText['Descoberta'];
-  const ending=stage==='Decisão'?details[5]:stage==='Recuperação'?details[5]:'Me conta: '+(feeling?'isso também acontece com você?':'qual parte dessa situação mais parece com o que você vive?');
   const beats=[
     {point:'Ponto de Partida',headline:openingHeadline,text:opening},
-    {point:'Ponto Intermediário',headline:'Aí eu fui olhar melhor',text:details[0]},
-    {point:'Ponto de Ligação',headline:'Foi aqui que fez sentido',text:details[1]+' '+details[2]},
-    {point:'Ponto Superior',headline:'O jeito que eu passei a olhar',text:details[3]},
-    {point:'Ponto de Dúvida',headline:'Talvez você esteja pensando',text:details[4]},
-    {point:'Ponto Provocativo',headline:'E agora fica a pergunta',text:details[5]},
-    {point:'Ponto de Decisão',headline:'Me conta uma coisa',text:ending}
+    {point:'Ponto Intermediário',headline:'Aí eu fui olhar melhor',text:plan.context},
+    {point:'Ponto de Ligação',headline:'Foi aqui que fez sentido',text:plan.link},
+    {point:'Ponto Superior',headline:'O jeito que eu passei a olhar',text:plan.authority},
+    {point:'Ponto de Dúvida',headline:'Talvez você esteja pensando',text:plan.doubt},
+    {point:'Ponto Provocativo',headline:'E agora fica a pergunta',text:plan.provoke},
+    {point:'Ponto de Decisão',headline:'Me conta uma coisa',text:plan.close}
   ];
   const chosen=count<7?(count===5?[beats[0],beats[1],beats[2],beats[5],beats[6]]:[beats[0],beats[1],beats[2],beats[3],beats[5],beats[6]]):beats.slice();
   const expansions=[
