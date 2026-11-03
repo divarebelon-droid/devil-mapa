@@ -68,6 +68,7 @@ function useSeries(id){const s=app.series.find(x=>x.id===id);if(!s)return;app.ac
 function clean(s){return String(s||'').trim().replace(/\s+/g,' ')}function oneOf(a,i){return a[((i%a.length)+a.length)%a.length]}
 const COPY_API_ENDPOINT = 'https://script.google.com/macros/s/AKfycbz4K4YzrsPfALc298E9zfejWIr6sZvuxxAXaESpS6DrxvlWovRAwFE4xVaorw1wTx3RMQ/exec';
 let copyGenerationPending=false;
+let lastCopyRequest=null;
 function copyText(value,max=2000){return String(value||'').trim().slice(0,max)}
 function copyInput(c,series,objective){
   const product=(c.products||[]).find(x=>x.id===$('#productSelect').value)||c.products?.[0]||{};
@@ -85,24 +86,23 @@ function copyInput(c,series,objective){
     campaign:copyText(series?.strategyText,10000),
     continuity:previous&&previous.clientId===c.id?{theme:copyText(previous.theme,300),objective:copyText(previous.objective,500),lastStories:(previous.stories||[]).slice(-2).map(s=>({headline:copyText(s.headline,120),text:copyText(s.text,500)})),nextQuestion:copyText(previous.brief?.nextQuestion,500)}:null};
 }
-function requestCopy(input,idToken){
-  const requestId=uid(),name='devilCopyTransport'+requestId.replace(/-/g,'');
-  return new Promise((resolve,reject)=>{
-    const iframe=document.createElement('iframe');iframe.name=name;iframe.hidden=true;iframe.setAttribute('aria-hidden','true');
-    const form=document.createElement('form');form.method='POST';form.action=COPY_API_ENDPOINT;form.target=name;form.hidden=true;
-    const field=document.createElement('input');field.type='hidden';field.name='payload';field.value=JSON.stringify({action:'generate',transport:'iframe',requestId,idToken,input});form.appendChild(field);
-    let settled=false;
-    const finish=(error,result)=>{if(settled)return;settled=true;clearTimeout(timer);window.removeEventListener('message',onMessage);form.remove();iframe.remove();error?reject(error):resolve(result)};
-    const onMessage=event=>{
-      if(!/^https:\/\/[a-z0-9-]+\.googleusercontent\.com$/.test(event.origin)&&event.origin!=='https://script.google.com')return;
-      const result=event.data;
-      if(!result||typeof result!=='object'||result.requestId!==requestId)return;
-      if(!result.ok)finish(Error(copyText(result.error||'Não foi possível gerar agora.',400)));else finish(null,result.episode);
-    };
-    const timer=setTimeout(()=>finish(Error('A geração demorou além do esperado. Seu rascunho foi preservado. Aguarde antes de tentar outra vez.')),150000);
-    window.addEventListener('message',onMessage);document.body.appendChild(iframe);document.body.appendChild(form);
-    try{form.submit();field.value='';form.remove()}catch{finish(Error('Não consegui conectar ao gerador. Seu rascunho foi preservado.'))}
-  });
+async function requestCopy(input,idToken){
+  const fingerprint=JSON.stringify(input),now=Date.now();
+  if(!lastCopyRequest||lastCopyRequest.fingerprint!==fingerprint||now-lastCopyRequest.createdAt>540000)lastCopyRequest={fingerprint,createdAt:now,requestId:uid()};
+  const requestId=lastCopyRequest.requestId,controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),150000);
+  try{
+    // A simple POST avoids preflight; credentials are never sent as cookies or URLs.
+    const response=await fetch(COPY_API_ENDPOINT,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},credentials:'omit',signal:controller.signal,body:JSON.stringify({action:'generate',requestId,idToken,input})});
+    if(!response.ok)throw Error('O gerador não respondeu (HTTP '+response.status+'). Seu rascunho foi preservado.');
+    const result=await response.json();
+    if(result.requestId!==requestId)throw Error('A resposta não corresponde ao pedido. Seu rascunho foi preservado.');
+    if(!result.ok)throw Error(copyText(result.error||'Não foi possível gerar agora.',400));
+    lastCopyRequest=null;return result.episode;
+  }catch(error){
+    if(error.name==='AbortError'||error instanceof TypeError)throw Error('Não consegui receber a narrativa. Seu rascunho foi preservado. Uma nova tentativa com o mesmo objetivo recupera o pedido sem gerar outra cobrança, enquanto ele estiver no cache.');
+    throw error;
+  }finally{clearTimeout(timer)}
 }
 function copyEpisode(result,c,series,input){
   if(!result||!Array.isArray(result.stories)||result.stories.length<5||result.stories.length>20)throw Error('A resposta não contém uma sequência completa.');
