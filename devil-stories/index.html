@@ -66,209 +66,74 @@ function createSeries(id,name,clientId,strategyText,sourceName=''){let s=app.ser
 function renderSeries(){$('#seriesList').innerHTML=app.series.map(s=>{const c=app.clients.find(x=>x.id===s.clientId);return`<article class="client-card"><div class="panel-head"><div><h3>${esc(s.name)}</h3><p>${esc(c?.name||'Perfil')} · ${s.sourceName?`estratégia: ${esc(s.sourceName)}`:'briefing salvo'}</p></div><div class="action-row"><button class="button tiny" data-edit-series="${s.id}">Editar</button><button class="button tiny" data-use-series="${s.id}">Usar no Estúdio</button><button class="button tiny" data-delete-series="${s.id}">Excluir</button></div></div><p class="micro">${esc((s.strategyText||'').slice(0,380))}${(s.strategyText||'').length>380?'…':''}</p></article>`}).join('')||'<p class="no-data">Adicione a estratégia de uma campanha para conectar com o Estúdio.</p>'}
 function useSeries(id){const s=app.series.find(x=>x.id===id);if(!s)return;app.activeSeriesId=s.id;app.activeClientId=s.clientId;$('#clientSelect').value=s.clientId;fillSelects();$('#seriesSelect').value=s.id;app.currentEpisode=null;$('#editor').hidden=true;setView('studio');toast('Estratégia da campanha conectada ao Estúdio')}
 function clean(s){return String(s||'').trim().replace(/\s+/g,' ')}function oneOf(a,i){return a[((i%a.length)+a.length)%a.length]}
-const DEVIL_LIBRARY = {"source":"Biblioteca_Devil_Sequencias_Prontas.pdf","version":"2026-11-03","templates":[{"id":"devil-01","name":"Resultados inesperados de uma ação","screenCount":11,"sourcePages":[3,4],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Durante o [TIPO DE AÇÃO QUE VOCÊ FEZ: desafio, campanha, série de conteúdos, sequência especial] a gente testou [NOVIDADE QUE VOCÊ VAI LIBERAR].” [ENQUETE: Você chegou a ver?]"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Quero te mostrar o que aconteceu quando a gente aplicou essa ideia de forma estratégica.”"},{"order":3,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“O mais curioso foi que surgiram alguns efeitos colaterais que a gente nem estava buscando…” [RESULTADO SURPREENDENTE QUE ACONTECEU MESMO SEM SER O FOCO PRINCIPAL]"},{"order":4,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"[MELHORIA EM ALGO QUE GERALMENTE CAI DURANTE ESSE PERÍODO]"},{"order":5,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"[RESULTADO EXTRA: vendas, novos leads, alcance, impacto, etc.]"},{"order":6,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"[EFEITO DE LONGO PRAZO GERADO PELA AÇÃO: retenção, recorrência, engajamento etc.]"},{"order":7,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“A verdade é que isso não foi sorte — eu uso essa abordagem faz tempo.” Inclusive, dentro do [NOME DO PROGRAMA/MENTORIA], ela é aplicada em [ETAPA OU DESAFIO ESPECÍFICO]."},{"order":8,"label":"VALIDAÇÃO SOCIAL PONTO DE DÚVIDA","sourceText":"“A repercussão foi tão grande que várias pessoas começaram a perguntar se existia algum conteúdo específico sobre isso.”"},{"order":9,"label":"PROVA PONTO DE DÚVIDA","sourceText":"[PRINTS ou FEEDBACKS mostrando pessoas comentando sobre a ação, pedindo mais detalhes ou se interessando]"},{"order":10,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Foi aí que eu percebi que só entregar um conteúdo não era o bastante…” “Então decidi criar algo que realmente pudesse [TRANSFORMAÇÃO QUE O PÚBLICO DESEJA] — de um jeito que nunca mais vai se repetir.”"},{"order":11,"label":"ATIVADOR PONTO DE DECISÃO","sourceText":"“Mas eu só vou liberar isso quando o story anterior bater [META SIMBÓLICA DE ENGAJAMENTO].” “Eu prometo que você vai entender o porquê.”"}]},{"id":"devil-02","name":"Dúvidas da audiência e nova oportunidade","screenCount":18,"sourcePages":[5,7],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Me responde uma coisa…” ENQUETE: Você já [Estratégia comum que a sua audiência costuma utilizar para atingir determinado resultado]?"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Eu recebo essas perguntas com frequência…”"},{"order":3,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"[PRINTS DE PERGUNTAS REAIS SOBRE O TEMA]"},{"order":4,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Não sei como [AÇÃO IMPORTANTE RELACIONADA AO TEMA].”"},{"order":5,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Minha audiência não demonstra interesse em [OFERTA/CONTEÚDO].”"},{"order":6,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Quero alcançar [OBJETIVO], mas não sei por onde começar.”"},{"order":7,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Decidi [AÇÃO IMPORTANTE], mas como faço para ter resultados?”"},{"order":8,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Como eu faço para meu público [AÇÃO DESEJADA]?”"},{"order":9,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“Eu sei que essas perguntas já passaram pela sua cabeça. E seria impossível não terem passado — porque [MOTIVO PELO QUAL ISSO ESTÁ ACONTECENDO].”"},{"order":10,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“[TENTATIVA COMUM DE TER RESULTADO] (exemplo: fazer dietas) já não é o suficiente.”"},{"order":11,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“X não é o suficiente. Ser um bom X não é o suficiente.”"},{"order":12,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Antes, bastava fazer [AÇÃO QUE FUNCIONAVA NO PASSADO]. Mas agora, [CENÁRIO ATUAL].”"},{"order":13,"label":"ENGAJAMENTO INTERAÇÃO INTERMEDIÁRIA","sourceText":"“Você já [EXPERIMENTOU A ESTRATÉGIA ANTIGA]?” [ENQUETE: SIM OU NÃO?]"},{"order":14,"label":"CONTEXTO ATUAL PONTO INTERMEDIÁRIO","sourceText":"“Era muito comum, mas hoje [DESAFIO ATUAL].” [ENQUETE: Surpreendente, não é? SIM OU NÃO?]"},{"order":15,"label":"PROVOCAÇÃO FINAL PONTO PROVOCATIVO","sourceText":"“Mas… e se [RESULTADO ESPERADO] sem [COISA QUE ELES VALORIZAM E NÃO GOSTARIAM DE ABRIR MÃO]” [PRINTS DE CLIENTES QUE CONSEGUIRAM]"},{"order":16,"label":"ENTREGA DE CONTEÚDO TRANSIÇÃO PARA SOLUÇÃO","sourceText":"“E você faz isso com [PRINCIPAL ESTRATÉGIA].”"},{"order":17,"label":"ENTREGA DE CONTEÚDO TRANSIÇÃO PARA SOLUÇÃO","sourceText":"“Vou compartilhar um roteiro/checklist/método… de como aplicamos isso e conseguimos [RESULTADOS].”"},{"order":18,"label":"ACIONADOR — DOIS CAMINHOS PONTO DE DECISÃO","sourceText":"A — Existe perpétuo para vender ou lançamento para captar (sem isca) “Quem entrar pra [TIPO DE ACESSO: lista, pré-inscrição, comunidade] recebe [BENEFÍCIO EXCLUSIVO OU DIFERENCIAL].” “Quer saber mais sobre [NOME DO PRODUTO / MÉTODO]?” “Responde esse story com o código [CÓDIGO CURTO/LINK] que eu te envio no direct.” B — Não existe venda; há isca ou post para gerar movimento “É só responder esse story com o código [XXX] que eu te envio no direct.” OU: Repostar um conteúdo do feed que fale sobre o tema e dizer que explicou como resolver o problema lá."}]},{"id":"devil-03","name":"Experimento de percepção e autoridade","screenCount":19,"sourcePages":[8,10],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Meu foco é sempre [RESULTADO PRINCIPAL QUE VOCÊ GERA] — e ontem eu perguntei o que tem impedido você de alcançar o mesmo…”"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"[PRINTS DAS RESPOSTAS DA AUDIÊNCIA] “Não consigo [AÇÃO IMPORTANTE PARA O RESULTADO]” “Não sei como [CRIAR/EXECUTAR ELEMENTO ESSENCIAL]” “Tô começando, e ainda não tenho [FERRAMENTA/RECURSO CHAVE]”"},{"order":3,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“O que talvez você não saiba é que essas pequenas coisas impactam MUITO mais do que parecem…”"},{"order":4,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Só de olhar para [ELEMENTO VISUAL, AUDITIVO OU COMPORTAMENTAL RELEVANTE], já é possível formar uma opinião sobre você.”"},{"order":5,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":6,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":7,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":8,"label":"EXPERIMENTO SENSORIAL INTERAÇÃO / PONTO DE LIGAÇÃO","sourceText":"[IMAGENS / SINAIS / EXEMPLOS PARA AVALIAÇÃO]"},{"order":9,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“E se eu te disser que por trás disso tem alguém [CARACTERÍSTICA POSITIVA CONTRASTANTE]?”"},{"order":10,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você falaria que essa pessoa [FAZ O QUE VOCÊ ENSINA]?”"},{"order":11,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você confiaria o suficiente pra comprar dela?” “Se a resposta é não… é porque [RAZÃO DA FALTA DE DESEJO / AUTORIDADE].”"},{"order":12,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Parece bobo, mas é real. E é exatamente o que pode estar te impedindo de crescer/vender/ser visto.” [CAIXINHA: “Você sente que transmite o que gostaria?” / “Seu público entende o seu diferencial de cara?”]"},{"order":13,"label":"ATIVADOR INTERAÇÃO INTERMEDIÁRIA","sourceText":"[ENQUETE: “Você acha que transmite o que precisa para alcançar [RESULTADO]?”]"},{"order":14,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Se você votou que não… dá pra resolver. Esse era o meu [EXEMPLO REAL DE COMUNICAÇÃO DESALINHADA].”"},{"order":15,"label":"OBJEÇÃO PONTO DE DÚVIDA","sourceText":"“‘Ah, mas você era iniciante…’”"},{"order":16,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“Na verdade, eu já tinha [RESULTADOS OU EXPERIÊNCIAS RELEVANTES], mas mesmo assim não gerava [DESEJO / CREDIBILIDADE / RESULTADO ESPERADO].”"},{"order":17,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“O que faltava era aprender a usar [NOME DO MÉTODO / ESTRUTURA / FERRAMENTA] pra alinhar o que eu sou com o que mostro.”"},{"order":18,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“É isso que eu ensino dentro do [NOME DO POST / AULA / MATERIAL], pra você conseguir [TRANSFORMAÇÃO PRINCIPAL].”"},{"order":19,"label":"ATIVADOR PONTO DE DECISÃO","sourceText":"“Expliquei tudo nesse post 👇” [COMPARTILHAR POST COM CONTEÚDO E CHAMADA DISCRETA PARA AÇÃO]"}]},{"id":"devil-04","name":"Eu também passei por isso","screenCount":8,"sourcePages":[11,12],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Você já sentiu que, mesmo fazendo [AÇÃO QUE O CLIENTE FAZ COM FREQUÊNCIA], os resultados não chegam como deveriam?” [ENQUETE: “Sim, total” / “Às vezes”]"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você já tentou seguir tudo o que dizem que ‘funciona’, mas sentiu que [EFEITO COLATERAL NEGATIVO: ficou mais confuso, travou, perdeu o prazer]?” [ENQUETE: “Sim, isso acontece” / “Já senti isso”]"},{"order":3,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Você gostaria de conseguir [RESULTADO SIMPLES, PRÁTICO E DESEJADO PELO SEU PÚBLICO], sem precisar [AÇÃO QUE ELES NÃO AGUENTAM MAIS FAZER]?” [ENQUETE: “Sim, com certeza” / “Seria ótimo”]"},{"order":4,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“Eu também passei por isso…” [INSERIR REFERÊNCIA DE QUANDO VOCÊ VIVIA ESSE CENÁRIO: imagem, rotina, frase, dúvida ou sensação real]"},{"order":5,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“Eu percebi que não conseguia alcançar [RESULTADO QUE O CLIENTE DESEJAVA ALCANÇAR], porque sempre que tentava [AÇÃO FREQUENTE QUE PARECIA CERTA], sentia que algo não encaixava.”"},{"order":6,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“Resultado?” [CONSEQUÊNCIA VISÍVEL: baixa procura, poucas mensagens, desânimo] [CONSEQUÊNCIA INTERNA: insegurança, desconexão, frustração] [PADRÃO COMPORTAMENTAL: mudar de ideia, testar tudo, parar e recomeçar]"},{"order":7,"label":"ENGAJAMENTO INTERAÇÃO INTERMEDIÁRIA","sourceText":"“E você?” [ENQUETE: “Me identifico” / “Já passei por isso”]"},{"order":8,"label":"AUTORIDADE PONTO SUPERIOR","sourceText":"“Foi quando eu comecei a aplicar o [NOME DO MÉTODO / PROCESSO / ABORDAGEM] que as coisas começaram a mudar.” “Hoje eu consigo [RESULTADO CONCRETO E OBSERVÁVEL], e decidi compartilhar essa estrutura com [GRUPO QUE VAI RECEBER: mentorandos, alunos, turma nova, etc.].”"}]},{"id":"devil-05","name":"Minha rotina: antes e depois","screenCount":7,"sourcePages":[13,14],"stories":[{"order":1,"label":"INICIALIZADOR PONTO DE PARTIDA","sourceText":"“Hoje toda minha manhã foi dedicada a [TIPO DE ATIVIDADE OPERACIONAL RELEVANTE PARA O NICHO], e a tarde…”"},{"order":2,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“É loucura pensar que em [ANO], isso era impossível pra mim.” [BREVE RELATO DE COMO ERA SUA ROTINA EXAUSTIVA: horários extremos, falta de tempo, sobrecarga física/ mental]"},{"order":3,"label":"CONTEXTUALIZADOR PONTO INTERMEDIÁRIO","sourceText":"“A realidade era essa:” [DESCRIÇÃO DE COMO VOCÊ PASSAVA O DIA: trabalhando sem pausas, apagando incêndios] “Sem saber exatamente o que precisava ser feito para alcançar [RESULTADO DESEJADO].”"},{"order":4,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“Em [DATA MARCANTE], apenas [QUANTIDADE DE TEMPO] depois de mudar minha estrutura de trabalho…” [MOMENTO DE CONQUISTA INUSITADO: vendendo, fechando contratos, sendo reconhecido enquanto fazia outra atividade.]"},{"order":5,"label":"PROVOCADOR PONTO PROVOCATIVO","sourceText":"“E não, eu não estou dizendo que daqui a [PERÍODO] você vai estar [IMAGEM IDEALIZADA: trabalhando da praia, largando tudo].” “(Seria lindo, mas eu não vou mentir pra você.)”"},{"order":6,"label":"CONECTOR PONTO DE LIGAÇÃO","sourceText":"“O que eu estou dizendo é que em [PERÍODO], você pode:” “Estar construindo [PRIMEIRA GRANDE EVOLUÇÃO: equipe, rotina, estrutura]” “Estar vendo [RESULTADO PRÁTICO: vendas diárias, agenda cheia, mais confiança dos clientes]” “Estar recebendo [PEDIDOS PROATIVOS DO PÚBLICO: agendamento, compra, contato espontâneo]”"},{"order":7,"label":"ATIVADOR PONTO DE DECISÃO","sourceText":"“Se quiser saber como, responde esse story e eu te explico.”"}]}]};
-// Local adaptation only. A draft must always retain one complete approved script.
-function libraryKey(s){return clean(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
-function libraryFields(text){
-  const fields=new Map();
-  // Headings in brand PDFs and inline brief fields are both accepted.
-  const lines=String(text||'').replace(/\r/g,'').split(/\n|;|\s+(?=(?:Objetivo|Tema|Público|Audiência|Método|Desejo|Problema|Roteiro)\s*:)/i);
-  for(let i=0;i<lines.length;i++){
-    const m=lines[i].match(/^\s*(?:#{1,6}\s*)?([^:]{2,150})\s*:\s*(.*)$/);
-    if(m){const following=lines[i+1]||'';const value=clean(m[2]||(!/^[^:]{2,150}:/.test(following)?following:''));if(value)fields.set(libraryKey(m[1]),value)}
-  }
-  return fields;
+const COPY_API_ENDPOINT = 'https://script.google.com/macros/s/AKfycbz4K4YzrsPfALc298E9zfejWIr6sZvuxxAXaESpS6DrxvlWovRAwFE4xVaorw1wTx3RMQ/exec';
+let copyGenerationPending=false;
+function copyText(value,max=2000){return String(value||'').trim().slice(0,max)}
+function copyInput(c,series,objective){
+  const product=(c.products||[]).find(x=>x.id===$('#productSelect').value)||c.products?.[0]||{};
+  const p=c.profile||{};
+  const profile={};
+  for(const key of ['name','niche','audience','voice','archetypes'])profile[key]=copyText(p[key]);
+  const offer={};for(const key of ['name','status','promise','problem','delivery','objections','proof','cta'])offer[key]=copyText(product[key]);
+  let remaining=52000;
+  const documents=(c.assets||[]).filter(a=>a.text&&!/biblioteca.*sequencias|stories\.rtf/i.test(a.name||'')).map(a=>{
+    const text=copyText(a.text,Math.min(26000,remaining));remaining-=text.length;
+    return{name:copyText(a.name,150),text};
+  }).filter(a=>a.text);
+  const previous=series?.lastDraft;
+  return{client:{name:copyText(c.name,150),profile,offer},objective:copyText(objective,4000),stage:stages.includes($('#stage').value)?$('#stage').value:'Descoberta',documents,
+    campaign:copyText(series?.strategyText,10000),
+    continuity:previous&&previous.clientId===c.id?{theme:copyText(previous.theme,300),objective:copyText(previous.objective,500),lastStories:(previous.stories||[]).slice(-2).map(s=>({headline:copyText(s.headline,120),text:copyText(s.text,500)})),nextQuestion:copyText(previous.brief?.nextQuestion,500)}:null};
 }
-function libraryContext(c,series,moment,product){
-  const profile=c.profile||{};
-  // Profile documents first; campaign and today's explicit brief can override them.
-  const fields=libraryFields((c.assets||[]).filter(a=>!/(biblioteca.*sequencias|manual.*copywriting)/i.test(a.name||'')).map(a=>a.text||'').join('\n')+'\n'+(series?.strategyText||'')+'\n'+moment);
-  const pick=(...names)=>{for(const name of names){const value=fields.get(libraryKey(name));if(value)return value}return''};
-  const value=(...values)=>values.map(clean).find(Boolean)||'';
-  const ctx={fields,pick,moment,profile,product,
-    audience:value(pick('público','público-alvo','audiência','persona'),profile.audience),
-    voice:value(pick('tom de voz','voz da marca'),profile.voice),
-    niche:value(pick('nicho','segmento','atuação'),profile.niche),
-    offer:value(product.name,profile.productName,pick('oferta','produto','nome do produto')),
-    method:value(pick('nome do método','método','processo','abordagem'),product.delivery,profile.productDelivery),
-    goal:value(pick('resultado desejado','transformação desejada','desejo','benefício principal'),product.promise,profile.productPromise),
-    pain:value(pick('dor principal','problema','dor'),product.problem,profile.productProblem),
-    proof:value(pick('prova autorizada','provas reais autorizadas'),product.proof,profile.productProof),
-    cta:value(pick('cta','link da oferta'),product.cta,profile.productCta),
-    topic:value(pick('tema','assunto'),moment),
-    objective:value(pick('objetivo do dia','objetivo'),moment)
-  };
-  return ctx;
-}
-function chooseLibraryTemplate(ctx,stage,previousId){
-  const intent=libraryKey(ctx.moment+' '+ctx.objective+' '+ctx.topic);
-  const explicit=intent.match(/(?:roteiro|sequencia|modelo)\s*0?([1-5])\b/);
-  if(explicit)return{template:DEVIL_LIBRARY.templates[Number(explicit[1])-1],reason:'Roteiro solicitado no objetivo do dia'};
-  const scores={'devil-01':0,'devil-02':2,'devil-03':0,'devil-04':0,'devil-05':0};
-  const add=(id,re,n)=>{if(re.test(intent))scores[id]+=n};
-  add('devil-01',/campanha|desafio|teste|testamos|efeito colateral|resultado inesperado|repercussao|lancamento/,12);
-  add('devil-02',/duvida|pergunta|enquete|oportunidade|ensinar|explicar|conteudo|educar|obje[cç]ao|recuper/,10);
-  add('devil-03',/percepcao|primeira impressao|imagem|autoridade|credibilidade|experimento|visual|diferencial|comunicacao desalinhada/,12);
-  add('devil-04',/identifica|eu tambem|minha historia|passei por|empatia|me senti|conectar|conexao/,12);
-  add('devil-05',/rotina|antes e depois|sobrecarga|dia a dia|qualidade de vida|organizacao do dia/,12);
-  if(stage==='Consideração'){scores['devil-04']+=3;scores['devil-05']+=2}
-  if(stage==='Decisão')scores['devil-01']+=2;
-  if(stage==='Recuperação')scores['devil-02']+=4;
-  if(ctx.pick('história pessoal','experiência pessoal'))scores['devil-04']+=2;
-  if(ctx.pick('rotina anterior','rotina atual'))scores['devil-05']+=2;
-  const ranked=DEVIL_LIBRARY.templates.map(template=>({template,score:scores[template.id]})).sort((a,b)=>b.score-a.score||(a.template.id===previousId?1:0)-(b.template.id===previousId?1:0));
-  return{template:ranked[0].template,reason:'Compatibilidade do objetivo e da etapa com a estrutura do roteiro: '+ranked[0].template.name};
-}
-function librarySlot(label,ctx,storyNumber){
-  const key=libraryKey(label),pick=ctx.pick;
-  // Exact, explicitly supplied field always wins. No document prose is treated as proof.
-  const direct=pick(label,label.split(':')[0]);if(direct)return direct;
-  const aliases=[
-    [/tipo de acao que voce fez/,()=>pick('ação realizada','campanha realizada','tipo de ação')],
-    [/novidade que voce vai liberar/,()=>pick('novidade','novidade que vai liberar')],
-    [/resultado surpreendente/,()=>pick('resultado surpreendente','efeito inesperado')],
-    [/melhoria em algo/,()=>pick('melhoria observada')],
-    [/resultado extra/,()=>pick('resultado extra')],
-    [/efeito de longo prazo/,()=>pick('efeito de longo prazo')],
-    [/nome do programa|nome do produto/,()=>ctx.offer],
-    [/etapa ou desafio especifico/,()=>pick('etapa do método','desafio específico')],
-    [/transformacao que o publico|transformacao principal|resultado simples|resultado que o cliente desejava|resultado desejado|resultado esperado$/,()=>ctx.goal],
-    [/meta simbolica/,()=>pick('meta de engajamento confirmada')],
-    [/estrategia comum|tentativa comum|acao que o cliente faz|acao frequente/,()=>pick('ação frequente','tentativa comum','estratégia comum')],
-    [/acao importante|criar executar elemento/,()=>pick('ação importante','ação desejada','ação frequente')],
-    [/oferta conteudo/,()=>ctx.offer||ctx.topic],
-    [/^objetivo$/,()=>ctx.goal],
-    [/acao desejada/,()=>pick('ação desejada')],
-    [/motivo pelo qual|razao da falta/,()=>pick('causa do problema','problema invisível','causa')],
-    [/acao que funcionava|experimentou a estrategia antiga/,()=>pick('estratégia antiga','ação que funcionava no passado')],
-    [/cenario atual|desafio atual/,()=>pick('cenário atual','desafio atual')],
-    [/coisa que eles valorizam|acao que eles nao aguentam/,()=>pick('o que não quer abrir mão','sacrifício a evitar','ação desgastante')],
-    [/principal estrategia|nome do metodo/,()=>ctx.method],
-    [/tipo de acesso/,()=>pick('tipo de acesso')],
-    [/beneficio exclusivo/,()=>pick('benefício exclusivo confirmado')],
-    [/codigo curto|^xxx$/,()=>pick('código do CTA','palavra do direct')],
-    [/resultado principal que voce gera/,()=>pick('resultado comprovado','resultado principal comprovado')],
-    [/ferramenta recurso/,()=>pick('recurso necessário','ferramenta')],
-    [/elemento visual/,()=>pick('elemento de percepção','elemento visual')],
-    [/imagens sinais exemplos/,()=>pick('exemplo visual '+storyNumber,'exemplo '+(storyNumber-4),'exemplo de percepção')],
-    [/caracteristica positiva/,()=>pick('característica real do expert','característica contrastante')],
-    [/faz o que voce ensina/,()=>pick('competência demonstrada','ação ensinada')],
-    [/^resultado$/,()=>ctx.goal],
-    [/exemplo real de comunicacao/,()=>pick('comunicação anterior','exemplo real de comunicação desalinhada')],
-    [/resultados ou experiencias/,()=>pick('experiência comprovada','resultado comprovado')],
-    [/desejo credibilidade/,()=>pick('resultado que faltava')],
-    [/nome do post|compartilhar post/,()=>pick('post relacionado','conteúdo do feed','material disponível')],
-    [/efeito colateral negativo/,()=>pick('efeito negativo','sentimento da audiência')],
-    [/inserir referencia de quando/,()=>pick('história pessoal','experiência pessoal')],
-    [/consequencia visivel/,()=>pick('consequência visível')],
-    [/consequencia interna/,()=>pick('consequência interna','sentimento da audiência')],
-    [/padrao comportamental/,()=>pick('padrão comportamental')],
-    [/resultado concreto e observavel|^resultados$/,()=>pick('resultado comprovado')],
-    [/grupo que vai receber/,()=>pick('grupo que vai receber')],
-    [/tipo de atividade operacional/,()=>pick('atividade de hoje','atividade operacional')],
-    [/^ano$/,()=>pick('ano da rotina anterior','ano')],
-    [/breve relato|descricao de como/,()=>pick('rotina anterior','história pessoal')],
-    [/data marcante/,()=>pick('data da conquista','data marcante')],
-    [/quantidade de tempo/,()=>pick('tempo até a conquista')],
-    [/momento de conquista/,()=>pick('conquista real')],
-    [/^periodo$/,()=>pick('período confirmado')],
-    [/imagem idealizada/,()=>pick('imagem idealizada')],
-    [/primeira grande evolucao/,()=>pick('evolução possível')],
-    [/resultado pratico/,()=>pick('resultado possível')],
-    [/pedidos proativos/,()=>pick('pedidos possíveis')],
-    [/prints|feedbacks/,()=>pick('print autorizado '+storyNumber,'print autorizado','feedback autorizado')||ctx.proof]
-  ];
-  for(const[re,read]of aliases)if(re.test(key))return clean(read());
-  return'';
-}
-function adaptLibraryStory(source,template,ctx,stage){
-  let text=source.sourceText,interaction='',missing=[];
-  const issue=label=>{const marker='[INFORMAR: '+clean(label)+']';missing.push(clean(label));return marker};
-  // Only the original model 2 has alternative endings; select exactly one.
-  let ctaVariant='';
-  if(template.id==='devil-02'&&source.order===18){
-    const commercial=['Decisão','Recuperação'].includes(stage)&&ctx.offer&&!/indisponivel/.test(libraryKey(ctx.product.status));
-    const a=text.indexOf('“Quem entrar'),b=text.indexOf('“É só responder');
-    text=commercial?text.slice(a,text.indexOf('B —')):text.slice(b);
-    text=text.replace(/\s*OU:.*$/,'');ctaVariant=commercial?'A':'B';
-    if(!commercial&&!ctx.pick('material disponível','isca disponível')&&!ctx.pick('código do CTA','palavra do direct')){
-      // Original B also explicitly permits reposting an existing feed post.
-      const feed=ctx.pick('post relacionado','conteúdo do feed');
-      if(feed)text='Expliquei como trabalhar esse ponto neste conteúdo: '+feed;
-    }
-  }
-  // Original literal X is a field, never a new slogan invented by the generator.
-  if(template.id==='devil-02'&&source.order===11){
-    const action=ctx.pick('ação frequente','tentativa comum'),profession=ctx.pick('profissão da audiência','profissão');
-    text=(action||issue('AÇÃO FREQUENTE'))+' não é o suficiente. Ser um bom '+(profession||issue('PROFISSÃO DA AUDIÊNCIA'))+' não é o suficiente.';
-  }
-  // Resolve inner slots before processing outer interaction instructions.
-  text=text.replace(/\[RESULTADO\]/g,()=>ctx.goal||issue('RESULTADO DESEJADO'));
-  text=text.replace(/\[(ENQUETE|CAIXINHA):\s*([^\[\]]*(?:\[INFORMAR:[^\]]+\][^\[\]]*)?)\]/gi,(_,kind,value)=>{interaction=kind+': '+value;return''});
-  text=text.replace(/\[([^\[\]]+)\]/g,(whole,label)=>{
-    if(/^INFORMAR:/i.test(label))return whole;
-    if(/^(?:ENQUETE|CAIXINHA):/i.test(label)){interaction=label;return''}
-    let value=librarySlot(label,ctx,source.order);
-    if(value&&/resultado concreto e observavel/.test(libraryKey(label)))value=value.replace(/^(?:hoje\s+)?(?:eu\s+)?passei a\s+/i,'').replace(/[.!]+$/,'');
-    return value||issue(label);
+function requestCopy(input,idToken){
+  const requestId=uid(),name='devilCopyTransport'+requestId.replace(/-/g,'');
+  return new Promise((resolve,reject)=>{
+    const iframe=document.createElement('iframe');iframe.name=name;iframe.hidden=true;iframe.setAttribute('aria-hidden','true');
+    const form=document.createElement('form');form.method='POST';form.action=COPY_API_ENDPOINT;form.target=name;form.hidden=true;
+    const field=document.createElement('input');field.type='hidden';field.name='payload';field.value=JSON.stringify({action:'generate',transport:'iframe',requestId,idToken,input});form.appendChild(field);
+    let settled=false;
+    const finish=(error,result)=>{if(settled)return;settled=true;clearTimeout(timer);window.removeEventListener('message',onMessage);form.remove();iframe.remove();error?reject(error):resolve(result)};
+    const onMessage=event=>{
+      if(!/^https:\/\/[a-z0-9-]+\.googleusercontent\.com$/.test(event.origin)&&event.origin!=='https://script.google.com')return;
+      const result=event.data;
+      if(!result||typeof result!=='object'||result.requestId!==requestId)return;
+      if(!result.ok)finish(Error(copyText(result.error||'Não foi possível gerar agora.',400)));else finish(null,result.episode);
+    };
+    const timer=setTimeout(()=>finish(Error('A geração demorou além do esperado. Seu rascunho foi preservado. Aguarde antes de tentar outra vez.')),150000);
+    window.addEventListener('message',onMessage);document.body.appendChild(iframe);document.body.appendChild(form);
+    try{form.submit();field.value='';form.remove()}catch{finish(Error('Não consegui conectar ao gerador. Seu rascunho foi preservado.'))}
   });
-  const inline=text.match(/\bENQUETE:\s*(.+)$/i);if(inline){interaction='ENQUETE: '+inline[1];text=text.slice(0,inline.index)}
-  // Factual source copy is not automatically true for the active profile.
-  const requirements={
-    'devil-01':{1:['ação realizada'],2:['ação realizada'],3:['resultado surpreendente'],7:['experiência com a abordagem'],8:['perguntas recebidas'],10:['decisão de criar a novidade','exclusividade confirmada'],11:['meta de engajamento confirmada','liberação confirmada']},
-    'devil-02':{2:['perguntas recebidas'],9:['causa do problema'],10:['estratégia antiga','cenário atual'],11:['causa do problema'],12:['estratégia antiga','cenário atual'],14:['cenário atual'],17:['material disponível','resultado comprovado'],18:ctaVariant==='A'?['tipo de acesso','benefício exclusivo confirmado','envio confirmado']:['envio confirmado']},
-    'devil-03':{1:['pergunta feita ontem','resultado comprovado'],3:['impacto comprovado'],4:['elemento de percepção'],9:['característica real do expert'],11:['causa do problema'],12:['impacto comprovado'],14:['comunicação anterior'],16:['experiência comprovada'],17:['experiência com o método'],18:['material disponível'],19:['post relacionado']},
-    'devil-04':{4:['história pessoal'],5:['história pessoal'],6:['história pessoal'],8:['experiência com o método','resultado comprovado','compartilhamento confirmado']},
-    'devil-05':{1:['atividade de hoje'],2:['rotina anterior','ano'],3:['rotina anterior'],4:['conquista real','data da conquista','tempo até a conquista'],6:['evolução possível','resultado possível','pedidos possíveis','período confirmado'],7:['atendimento no direct confirmado']}
-  };
-  const needed=(requirements[template.id]?.[source.order]||[]).filter(label=>!ctx.pick(label));
-  // A repost does not promise to send anything by Direct.
-  if(template.id==='devil-02'&&source.order===18&&!/direct/i.test(text))needed.splice(0,needed.length);
-  missing.push(...needed.map(x=>'CONFIRMAR '+x));
-  text=text.replace(/”\s+“/g,'\n').replace(/[“”]/g,'');
-  text=clean(text).replace(/\bmesmo fazendo (?=[\p{L}]+(?:ar|er|ir)\b)/gu,'mesmo tentando ')
-    .replace(/\bsentiu que (?=mais |menos |culpa|medo|insegurança|frustração)/gi,'sentiu ');
-  if(/^[\p{L}]+(?:ar|er|ir)\b/u.test(ctx.goal))text=text.split('alcançar '+ctx.goal).join(ctx.goal);
-  text=text.replace(/[.!]+\s*,/g,',').replace(/\.\./g,'.');
-  if(needed.length)text='[CONFIRMAR: '+needed.join('; ')+']\n'+text;
-  if(!text)text=interaction||issue('TEXTO DA TELA');
-  // Keep the original spoken opening in the title; do not add canned headlines.
-  let headline='',body=text;
-  if(!text.startsWith('[')){
-    const match=text.match(/^(.{4,100}?[.!?…])\s+([\s\S]+)$/);
-    if(match){headline=match[1];body=match[2]}
-  }
-  if(!headline){
-    const split=!text.startsWith('[')&&text.length>65?text.lastIndexOf(' ',65):-1;
-    if(split>12){headline=text.slice(0,split);body=text.slice(split+1)}
-    else{headline=source.label.split(/ PONTO | INTERAÇÃO | TRANSIÇÃO /)[0].toLocaleLowerCase('pt-BR');headline=headline.charAt(0).toUpperCase()+headline.slice(1);body=text}
-  }
-  if(/formal|tecnic|institucional/.test(libraryKey(ctx.voice))){
-    const formal=s=>s.replace(/\bTô\b/g,'Estou').replace(/\btô\b/g,'estou').replace(/\bpra\b/g,'para');
-    headline=formal(headline);body=formal(body);
-  }
-  if(interaction&&!body.includes(interaction))body+='\n\n'+interaction;
-  const role=source.label.toUpperCase();
-  const point=role.includes('PARTIDA')?points[0]:role.includes('INTERMEDIÁRIO')?points[1]:role.includes('DÚVIDA')?points[4]:role.includes('PROVOCATIVO')?points[5]:role.includes('DECISÃO')?points[6]:role.includes('SUPERIOR')||role.includes('SOLUÇÃO')?points[3]:points[2];
-  return{headline,text:body,interaction,point,sourceOrder:source.order,sourceRole:source.label,sourceText:source.sourceText,templateId:template.id,ctaVariant,missing:[...new Set(missing)]};
 }
-function generateDraft(){
-  const c=activeClient();if(!c){toast('Escolha ou crie um perfil.');return null}
-  if(!DEVIL_LIBRARY?.templates?.length){toast('A biblioteca validada não carregou. A criação foi interrompida.');return null}
-  const moment=clean($('#storyMoment').value);if(!moment){toast('Informe o objetivo e o assunto dos Stories de hoje.');return null}
-  const product=(c.products||[]).find(p=>p.id===$('#productSelect').value)||c.products?.[0]||{};
-  const series=activeSeries()?.clientId===c.id?activeSeries():null,ctx=libraryContext(c,series,moment,product);
-  const stage=stages.includes($('#stage').value)?$('#stage').value:'Descoberta';
-  const selection=chooseLibraryTemplate(ctx,stage,series?.lastDraft?.brief?.templateId),template=selection.template;
+function copyEpisode(result,c,series,input){
+  if(!result||!Array.isArray(result.stories)||result.stories.length<5||result.stories.length>20)throw Error('A resposta não contém uma sequência completa.');
   const font=c.branding?.fontFamily||$('#globalFont').value||'Manrope';
-  const stories=template.stories.map(source=>({id:uid(),order:source.order,...adaptLibraryStory(source,template,ctx,stage),format:'Texto sobre fundo',design:{background:c.branding?.secondary||'#241a33',textColor:c.branding?.text||'#fff8f1',font,align:'left',assetId:'',headlineX:50,headlineY:34,textX:50,textY:64,headlineSize:31,textSize:19}}));
-  if(stories.length!==template.screenCount||stories.some(s=>s.templateId!==template.id))throw Error('Roteiro validado incompleto.');
-  const missing=[...new Set(stories.flatMap(s=>s.missing))];
-  return{id:uid(),clientId:c.id,seriesId:series?.id||'',createdAt:new Date().toISOString(),stage,theme:ctx.topic,objective:ctx.objective,designTips:[],notes:missing.length?'Rascunho: revise os campos sinalizados antes de publicar.':'Rascunho adaptado do roteiro validado.',stories,
-    brief:{topic:ctx.topic,source:'biblioteca-validada',libraryVersion:DEVIL_LIBRARY.version,templateId:template.id,templateName:template.name,selectionReason:selection.reason,sourcePages:template.sourcePages,screenCount:template.screenCount,missing,context:{audience:ctx.audience,niche:ctx.niche,voice:ctx.voice,offer:ctx.offer},seriesId:series?.id||''}};
+  const stories=result.stories.map((s,i)=>{
+    if(!points.includes(s.point)||typeof s.headline!=='string'||s.headline.length>120||typeof s.text!=='string'||!s.text.trim()||s.text.length>1400)throw Error('A resposta contém uma tela inválida. Seu rascunho foi preservado.');
+    return{id:uid(),order:i+1,point:s.point,headline:s.headline,text:s.text,interaction:copyText(s.interaction,600),format:'Texto sobre fundo',design:{background:c.branding?.secondary||'#241a33',textColor:c.branding?.text||'#fff8f1',font,align:'left',assetId:'',headlineX:50,headlineY:34,textX:50,textY:64,headlineSize:31,textSize:19}};
+  });
+  if(stories.at(-1).point!=='Ponto de Decisão')throw Error('A sequência veio sem fechamento. Seu rascunho foi preservado.');
+  const notes=Array.isArray(result.notes)?result.notes.map(x=>copyText(x,500)):[];
+  return{id:uid(),clientId:c.id,seriesId:series?.id||'',createdAt:new Date().toISOString(),stage:input.stage,theme:copyText(result.theme,300)||input.objective,objective:copyText(result.objective,800)||input.objective,stories,notes:notes.join('\n'),designTips:[],
+    brief:{source:'openai',topic:input.objective,axis:copyText(result.axis,800),perceptionShift:copyText(result.perceptionShift,800),nextQuestion:copyText(result.nextQuestion,800),factChecks:notes,seriesId:series?.id||'',model:result.generation?.model||'gpt-6-luna',usage:result.generation?.usage||{}}};
+}
+async function generateDraft(){
+  if(copyGenerationPending){toast('A narrativa já está sendo escrita.');return null}
+  const c=activeClient(),objective=copyText($('#storyMoment').value,4000),user=currentUser;
+  if(!user){toast('Entre na sua conta para gerar os Stories.');return null}
+  if(!c){toast('Escolha ou crie um perfil.');return null}
+  if(!objective){toast('Conte o objetivo e o assunto dos Stories de hoje.');return null}
+  const series=activeSeries()?.clientId===c.id?activeSeries():null;
+  const clientId=c.id,seriesId=series?.id||'',input=copyInput(c,series,objective),button=$('#generateBtn'),previousLabel=button.textContent;
+  copyGenerationPending=true;button.disabled=true;button.textContent='Escrevendo a narrativa…';
+  try{
+    const idToken=await user.getIdToken();
+    const result=await requestCopy(input,idToken);
+    if(currentUser?.uid!==user.uid||activeClient()?.id!==clientId||(activeSeries()?.id||'')!==seriesId)throw Error('O perfil ou a série mudou durante a geração. A resposta não substituiu seu rascunho.');
+    return copyEpisode(result,c,series,input);
+  }finally{copyGenerationPending=false;button.disabled=false;button.textContent=previousLabel}
 }
 
-function showEpisode(ep){const source=$('#sourceNote');if(source)source.textContent=ep.brief?.templateName?`Roteiro validado: ${ep.brief.templateName} · ${ep.stories.length} telas${ep.brief.missing?.length?' · '+ep.brief.missing.length+' informações para revisar':''}`:'';app.currentEpisode=ep;$('#editor').hidden=false;$('#sequenceTheme').value=ep.theme||'';$('#sequenceObjective').value=ep.objective||'';renderStories()}
+function showEpisode(ep){const source=$('#sourceNote');if(source)source.textContent=ep.brief?.source==='openai'?('Narrativa escrita com OpenAI'+(ep.brief.factChecks?.length?' · '+ep.brief.factChecks.length+' informações para revisar':'')):'';app.currentEpisode=ep;$('#editor').hidden=false;$('#sequenceTheme').value=ep.theme||'';$('#sequenceObjective').value=ep.objective||'';renderStories()}
 function renderStories(){$('#storyList').innerHTML=(app.currentEpisode?.stories||[]).map((s,i)=>{s.design=s.design||{};const d=s.design;return`<article class="story-card"><div class="story-edit"><div class="story-head"><span>TELA ${i+1} · ${esc(s.point||'Story')}</span><button data-remove-story="${s.id}">Remover</button></div><label>Título<textarea data-field="headline" data-id="${s.id}" rows="2">${esc(s.headline||'')}</textarea></label><label>Texto principal<textarea data-field="text" data-id="${s.id}" rows="4">${esc(s.text||'')}</textarea></label><div class="grid2"><label>Tamanho do título<input type="number" min="12" max="72" data-design="headlineSize" data-id="${s.id}" value="${d.headlineSize||31}"></label><label>Tamanho do texto<input type="number" min="10" max="48" data-design="textSize" data-id="${s.id}" value="${d.textSize||19}"></label></div><label>Função<select data-field="point" data-id="${s.id}">${points.map(p=>`<option ${p===s.point?'selected':''}>${p}</option>`).join('')}</select></label><div class="screen-tools"><label>Fundo <input type="color" data-design="background" data-id="${s.id}" value="${d.background||'#241a33'}"></label><label>Texto <input type="color" data-design="textColor" data-id="${s.id}" value="${d.textColor||'#fff8f1'}"></label><label>Foto da tela <select data-design="assetId" data-id="${s.id}"><option value="">Sem foto</option>${(activeClient()?.assets||[]).filter(a=>a.mimeType?.startsWith('image/')).map(a=>`<option value="${a.id}" ${d.assetId===a.id?'selected':''}>${esc(a.name)}</option>`).join('')}</select></label><label class="button tiny">Carregar foto<input type="file" accept="image/*" data-photo-upload="${s.id}" hidden></label><label>Alinhar <select data-design="align" data-id="${s.id}"><option value="left" ${d.align==='left'?'selected':''}>Esquerda</option><option value="center" ${d.align==='center'?'selected':''}>Centro</option><option value="right" ${d.align==='right'?'selected':''}>Direita</option></select></label><button class="button tiny" data-export-one="${s.id}">Baixar PNG</button></div><p class="micro">Arraste o título e o texto no preview para posicionar.</p></div><div class="story-visual" id="visual-${s.id}" style="background-color:${d.background||'#241a33'};color:${d.textColor||'#fff8f1'};font-family:${esc(d.font||activeClient()?.branding?.fontFamily||'Manrope')}"><small>${esc(s.point||'Story')}</small><div class="story-layer headline" data-layer="headline" data-id="${s.id}" style="left:${d.headlineX??50}%;top:${d.headlineY??38}%;font-size:${d.headlineSize||31}px">${esc(s.headline||'Título')}</div><div class="story-layer text" data-layer="text" data-id="${s.id}" style="left:${d.textX??50}%;top:${d.textY??62}%;font-size:${d.textSize||19}px">${esc(s.text||'Texto do story')}</div></div></article>`}).join('');(app.currentEpisode?.stories||[]).forEach(s=>{if(s.design?.assetId)loadImage(s.design.assetId,s.id)})}
 function updateStory(field,id,value,design=false){const s=app.currentEpisode?.stories.find(x=>x.id===id);if(!s)return;if(design){s.design=s.design||{};s.design[field]=value;if(field==='assetId')loadImage(value,id)}else s[field]=value;const vis=$('#visual-'+id);if(vis){if(field==='text'||field==='headline'){const layer=vis.querySelector('.'+field);if(layer)layer.textContent=value|| (field==='headline'?'Título':'Texto do story')}if(field==='point'){const top=vis.querySelector('small');if(top)top.textContent=value}if(field==='background')vis.style.backgroundColor=value;if(field==='textColor')vis.style.color=value;if(field==='align')vis.querySelectorAll('.story-layer').forEach(x=>x.style.textAlign=value);if(field==='headlineSize'){const x=vis.querySelector('.headline');if(x)x.style.fontSize=value+'px'}if(field==='textSize'){const x=vis.querySelector('.text');if(x)x.style.fontSize=value+'px'}}save()}
 async function loadImage(assetId,storyId){try{const u=assetId?await getFileUrl(assetId):'',el=$('#visual-'+storyId);if(el)el.style.backgroundImage=u?`linear-gradient(0deg,#0006,#0002),url(${JSON.stringify(u)})`:''}catch{}}
@@ -333,7 +198,7 @@ function learnBrandMaterial(c){c.profile=c.profile||{};c.branding=c.branding||{}
 document.addEventListener('click',async e=>{const n=e.target.closest('[data-view]');if(n)setView(n.dataset.view);const cl=e.target.closest('[data-close]');if(cl)$('#'+cl.dataset.close).close();const edit=e.target.closest('[data-edit-profile]');if(edit)openProfile(edit.dataset.editProfile);const useProfile=e.target.closest('[data-use-profile]');if(useProfile){app.activeClientId=useProfile.dataset.useProfile;app.activeSeriesId='';$('#clientSelect').value=app.activeClientId;fillSelects();setView('studio')}const use=e.target.closest('[data-use-series]');if(use)useSeries(use.dataset.useSeries);const es=e.target.closest('[data-edit-series]');if(es){openSeriesDialog(es.dataset.editSeries);$('#seriesDialog').showModal()}const del=e.target.closest('[data-delete-series]');if(del){app.series=app.series.filter(x=>x.id!==del.dataset.deleteSeries);if(app.activeSeriesId===del.dataset.deleteSeries)app.activeSeriesId='';save();renderAll()}const rm=e.target.closest('[data-remove-story]');if(rm){app.currentEpisode.stories=app.currentEpisode.stories.filter(x=>x.id!==rm.dataset.removeStory);renderStories();save()}const ex=e.target.closest('[data-export-one]');if(ex)await exportOne(ex.dataset.exportOne)});
 $('#newProfileBtn').onclick=$('#newProfileBtn2').onclick=()=>openProfile();$('#toggleProfileDetails').onclick=()=>{const d=$('#profileDialog').classList;d.toggle('show-profile-details');$('#toggleProfileDetails').textContent=d.contains('show-profile-details')?'Ocultar detalhes':'Mais detalhes (opcional)'};$('#profileForm').onsubmit=async e=>{e.preventDefault();const f=e.currentTarget,id=f.elements.id.value,old=app.clients.find(x=>x.id===id),c=profileFromForm(f,old);if(old)Object.assign(old,c);else app.clients.push(c);await uploadFiles(c);app.activeClientId=c.id;save();renderAll();$('#profileDialog').close();toast('Perfil salvo na sua conta')};
 $('#clientSelect').onchange=()=>{app.activeClientId=$('#clientSelect').value;if(!app.series.some(x=>x.id===app.activeSeriesId&&x.clientId===app.activeClientId))app.activeSeriesId='';fillSelects();loadBrandFont(activeClient());save()};$('#seriesSelect').onchange=()=>{app.activeSeriesId=$('#seriesSelect').value||'';save()};$('#stage').onchange=()=>{app.currentEpisode=null;$('#editor').hidden=true;save()};
-$('#generateBtn').onclick=()=>{const ep=generateDraft();if(!ep)return;app.currentEpisode=ep;showEpisode(ep);save();toast('Sequência pronta')};
+$('#generateBtn').onclick=async()=>{try{const ep=await generateDraft();if(!ep)return;app.currentEpisode=ep;showEpisode(ep);save();toast('Narrativa pronta')}catch(error){toast(error.message||'Não foi possível gerar agora. Seu rascunho foi preservado.')}};
 $('#saveEpisode').onclick=saveEpisode;$('#exportAll').onclick=exportAll;$('#applyStyle').onclick=()=>{if(!app.currentEpisode)return;app.currentEpisode.stories.forEach(s=>{s.design={...s.design,background:$('#globalBg').value,textColor:$('#globalText').value,font:$('#globalFont').value}});renderStories();save()};$('#addStory').onclick=()=>{if(!app.currentEpisode)return;app.currentEpisode.stories.push({id:uid(),order:app.currentEpisode.stories.length+1,point:'Ponto de Ligação',headline:'',text:'',format:'Texto sobre fundo',interaction:'',design:{background:$('#globalBg').value,textColor:$('#globalText').value,font:$('#globalFont').value,align:'left',headlineX:50,headlineY:38,textX:50,textY:62,headlineSize:31,textSize:19}});renderStories();save()};
 $('#storyList').addEventListener('input',e=>{const id=e.target.dataset.id,f=e.target.dataset.field,d=e.target.dataset.design;if(f)updateStory(f,id,e.target.value);if(d)updateStory(d,id,e.target.value,true)});$('#storyList').addEventListener('change',e=>{const id=e.target.dataset.id,f=e.target.dataset.field,d=e.target.dataset.design;if(e.target.matches('[data-photo-upload]'))uploadStoryPhoto(e.target.dataset.photoUpload,e.target.files[0]);if(f)updateStory(f,id,e.target.value);if(d)updateStory(d,id,e.target.value,true)});let drag=null;$('#storyList').addEventListener('pointerdown',e=>{const layer=e.target.closest('.story-layer');if(!layer)return;const visual=layer.closest('.story-visual'),sid=layer.dataset.id,kind=layer.dataset.layer,s=app.currentEpisode?.stories.find(x=>x.id===sid);if(!s)return;e.preventDefault();layer.setPointerCapture(e.pointerId);drag={layer,visual,s,kind}});$('#storyList').addEventListener('pointermove',e=>{if(!drag)return;const r=drag.visual.getBoundingClientRect(),x=Math.max(8,Math.min(92,(e.clientX-r.left)/r.width*100)),y=Math.max(8,Math.min(92,(e.clientY-r.top)/r.height*100)),d=drag.s.design,pre=drag.kind==='headline'?'headline':'text';d[pre+'X']=x;d[pre+'Y']=y;drag.layer.style.left=x+'%';drag.layer.style.top=y+'%'});$('#storyList').addEventListener('pointerup',()=>{if(drag){save();drag=null}});$('#storyList').addEventListener('pointercancel',()=>{if(drag){save();drag=null}});$('#sequenceTheme').oninput=()=>{if(app.currentEpisode)app.currentEpisode.theme=$('#sequenceTheme').value;save()};$('#sequenceObjective').oninput=()=>{if(app.currentEpisode)app.currentEpisode.objective=$('#sequenceObjective').value;save()};
 $('#replaceAllBtn').onclick=()=>{if(!app.currentEpisode)return;const f=$('#findAll').value;if(!f){toast('Digite o texto que deseja substituir.');return}app.currentEpisode.stories.forEach(s=>s.text=s.text.split(f).join($('#replaceAll').value));renderStories();save();toast('Substituição aplicada à sequência')};$('#shortenAll').onclick=()=>{if(!app.currentEpisode)return;app.currentEpisode.stories.forEach(s=>{if(s.text.length>150)s.text=s.text.slice(0,147).replace(/\s+\S*$/,'')+'…'});renderStories();save();toast('Textos encurtados; revise cada tela')};
