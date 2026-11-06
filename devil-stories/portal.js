@@ -149,3 +149,4 @@ async function loadAdmin() {
 window.devilPortal = { checkEmail, loadCustomer, loadAdmin, render, request };
 window.addEventListener('devil:data-ready', () => { window.__devilPortalMode = false; });
 if (window.devilContents) window.devilContents.portalApi = request;
+
