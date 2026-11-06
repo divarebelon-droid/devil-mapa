@@ -13,7 +13,7 @@ if (!document.querySelector('#clientPortalRoot')) {
 if (!document.querySelector('#devilPortalStyles')) {
   const style = document.createElement('style');
   style.id = 'devilPortalStyles';
-  style.textContent = `#clientPortalRoot{min-height:100vh;background:#11100f;color:#f4f1ee;padding:24px;font-family:inherit}.portal-shell{max-width:1180px;margin:auto}.portal-top{display:flex;align-items:center;gap:12px;padding:12px 0 22px;border-bottom:1px solid #393532}.portal-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#d7a8ef;color:#17121b;font-size:23px}.portal-top small,.portal-top em{display:block;color:#b9a8c7;font-size:10px;letter-spacing:.15em}.portal-spacer{flex:1}.portal-top button,.portal-tabs button,.portal-post button{border:1px solid #514a54;border-radius:10px;background:#211e23;color:#f5eef8;padding:9px 13px;cursor:pointer}.portal-tabs{display:flex;gap:9px;margin:22px 0}.portal-tabs button.active{background:#d7a8ef;color:#201628}.portal-feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}.portal-post,.portal-idea{overflow:hidden;border:1px solid #383238;border-radius:18px;background:#1c191d;padding:16px}.portal-post header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.portal-media{position:relative;display:grid;place-items:center;background:#0e0d0f;aspect-ratio:4/5;overflow:hidden;border-radius:12px}.portal-media img{width:100%;height:100%;object-fit:contain}.portal-art{white-space:pre-wrap;padding:12%;font-size:22px;line-height:1.2}.portal-prev,.portal-next{position:absolute;top:48%;font-size:22px}.portal-prev{left:7px}.portal-next{right:7px}.portal-dots{text-align:center;padding:8px}.portal-caption{white-space:pre-wrap;line-height:1.5}.portal-review{border-top:1px solid #383238;padding-top:12px}.portal-review textarea{display:block;box-sizing:border-box;width:100%;min-height:74px;margin:10px 0;background:#100f11;color:#f5f1f6;border:1px solid #514a54;border-radius:10px;padding:10px}.portal-review details{padding:10px 0;border-top:1px solid #39343b}.portal-comments p{padding:8px;border-left:2px solid #d7a8ef;background:#211e23;white-space:pre-wrap}.portal-ideas{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}.portal-idea iframe{width:100%;height:430px;border:0;border-radius:12px}.portal-idea a{display:inline-block;margin-top:10px;color:#dfb5ff}.portal-empty{color:#b8b0b8}@media(max-width:640px){#clientPortalRoot{padding:12px}.portal-feed{grid-template-columns:1fr}.portal-top{flex-wrap:wrap}}`;
+  style.textContent = `#clientPortalRoot{min-height:100vh;background:#1a1a1a;color:#dcdad9;padding:24px;font-family:inherit}.portal-shell{max-width:1180px;margin:auto}.portal-top{display:flex;align-items:center;gap:12px;padding:12px 0 22px;border-bottom:1px solid #494947}.portal-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#dcdad9;color:#1a1a1a;font-size:23px}.portal-top small,.portal-top em{display:block;color:#9fa4a2;font-size:10px;letter-spacing:.15em}.portal-spacer{flex:1}.portal-top button,.portal-tabs button,.portal-post button{border:1px solid #494947;border-radius:9px;background:#242423;color:#dcdad9;padding:9px 13px;cursor:pointer}.portal-tabs{display:flex;gap:9px;margin:22px 0}.portal-tabs button.active{background:#dcdad9;color:#1a1a1a}.portal-feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}.portal-post,.portal-idea{overflow:hidden;border:1px solid #494947;border-radius:13px;background:#242423;padding:14px}.portal-post header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.portal-media{position:relative;display:grid;place-items:center;background:#101010;aspect-ratio:4/5;overflow:hidden;border-radius:8px}.portal-media img{width:100%;height:100%;object-fit:cover}.portal-art{white-space:pre-wrap;padding:12%;font-size:22px;line-height:1.2}.portal-prev,.portal-next{position:absolute;top:48%;font-size:22px}.portal-prev{left:7px}.portal-next{right:7px}.portal-dots{text-align:center;padding:8px;color:#9fa4a2}.portal-caption{white-space:pre-wrap;line-height:1.5}.portal-review{display:none;border-top:1px solid #494947;padding-top:12px}.portal-detail-slot .portal-review{display:block}.portal-review textarea{display:block;box-sizing:border-box;width:100%;min-height:74px;margin:10px 0;background:#1a1a1a;color:#dcdad9;border:1px solid #494947;border-radius:8px;padding:10px}.portal-review details{padding:10px 0;border-top:1px solid #494947}.portal-comments p{padding:8px;border-left:2px solid #9fa4a2;background:#30302e;white-space:pre-wrap}.portal-ideas{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}.portal-idea iframe{width:100%;height:430px;border:0;border-radius:8px}.portal-idea a{display:inline-block;margin-top:10px;color:#dcdad9}.portal-empty{color:#9fa4a2}.portal-open{width:100%;margin-top:8px}.portal-detail{width:min(1000px,96vw);max-height:94vh;padding:18px;border:1px solid #494947;border-radius:13px;background:#1a1a1a;color:#dcdad9}.portal-detail::backdrop{background:#000b}.portal-detail-slot{max-height:84vh;overflow:auto}.portal-detail-slot .portal-post{max-width:920px;margin:auto;border:0;background:transparent}.portal-detail-close{display:block;margin:0 0 12px auto}@media(max-width:640px){#clientPortalRoot{padding:12px}.portal-feed{grid-template-columns:1fr}.portal-top{flex-wrap:wrap}.portal-detail{padding:10px}.portal-detail-slot .portal-post{padding:4px}}`;
   document.head.append(style);
 }
 
@@ -49,7 +49,7 @@ function ideaCard(item) {
 function postCard(item) {
   const slides = item.slides || [];
   const first = slides[0] || {};
-  const art = first.imageDataUrl ? '<img src="' + esc(first.imageDataUrl) + '" alt="Arte para aprovação">' :
+  const art = (first.imageDataUrl || first.imageUrl) ? '<img src="' + esc(first.imageDataUrl || first.imageUrl) + '" alt="Arte para aprova??o">' :
     '<div class="portal-art">' + esc([first.headline, first.text].filter(Boolean).join(' ') || item.title) + '</div>';
   return '<article class="portal-post"><header><b>' + esc(item.profileName || 'Perfil') + '</b><small>' +
     esc(item.format || 'Conteúdo') + '</small></header><div class="portal-media" data-index="0" data-slides="' +
@@ -71,7 +71,7 @@ function render(data, target = document.querySelector('#clientPortalRoot'), prev
   if (!target) return;
   const name = data?.profileName || data?.client?.profileName || 'Seu perfil';
   const ideas = data?.ideas || [];
-  const posts = data?.approvals || [];
+  const posts = (data?.approvals || []).slice().sort((a,b) => String(a.publishDate||'').localeCompare(String(b.publishDate||'')));
   target.innerHTML = '<section class="portal-shell"><header class="portal-top"><b class="portal-mark">D</b>' +
     '<div><b>DEVIL CONTEÚDOS</b><small>ESPAÇO DA CLIENTE</small></div><span class="portal-spacer"></span><strong>' +
     esc(name) + '</strong>' + (preview ? '<em>PRÉVIA DA CLIENTE</em>' : '<button id="portalLogout">Sair</button>') +
@@ -82,6 +82,19 @@ function render(data, target = document.querySelector('#clientPortalRoot'), prev
     '</div></section><section data-portal-page="ideas" hidden><p class="eyebrow">REFERÊNCIAS DA SUA PASTA</p>' +
     '<h1>Banco de ideias</h1><div class="portal-ideas">' + (ideas.map(ideaCard).join('') ||
     '<p class="portal-empty">Ainda não há ideias associadas ao seu perfil.</p>') + '</div></section></section>';
+  const detail = document.createElement('dialog');
+  detail.className = 'portal-detail';
+  detail.innerHTML = '<button class="portal-detail-close">Fechar</button><div class="portal-detail-slot"></div>';
+  target.querySelector('.portal-shell').append(detail);
+  const slot = detail.querySelector('.portal-detail-slot');
+  let openedCard = null, placeholder = null;
+  target.querySelectorAll('.portal-post').forEach(card => {
+    const trigger = document.createElement('button'); trigger.className = 'portal-open';
+    trigger.textContent = 'Ver publica??o como no Instagram'; card.append(trigger);
+    trigger.onclick = () => { if(openedCard)return; openedCard=card; placeholder=document.createComment('publication-card'); card.parentNode.insertBefore(placeholder,card); slot.append(card); detail.showModal(); };
+  });
+  detail.querySelector('.portal-detail-close').onclick=()=>detail.close();
+  detail.onclose=()=>{if(openedCard&&placeholder?.parentNode)placeholder.parentNode.insertBefore(openedCard,placeholder);placeholder?.remove();openedCard=placeholder=null};
   target.querySelectorAll('[data-portal-tab]').forEach(button => button.onclick = () => {
     target.querySelectorAll('[data-portal-tab]').forEach(el => el.classList.toggle('active', el === button));
     target.querySelectorAll('[data-portal-page]').forEach(el => el.hidden = el.dataset.portalPage !== button.dataset.portalTab);
@@ -92,7 +105,7 @@ function render(data, target = document.querySelector('#clientPortalRoot'), prev
     box.dataset.index = index;
     const slide = slides[index];
     box.querySelector('img,.portal-art')?.remove();
-    if (slide.imageDataUrl) { const img = document.createElement('img'); img.src = slide.imageDataUrl; box.prepend(img); }
+    if (slide.imageDataUrl || slide.imageUrl) { const img = document.createElement('img'); img.src = slide.imageDataUrl || slide.imageUrl; box.prepend(img); }
     else { const art = document.createElement('div'); art.className = 'portal-art'; art.textContent = [slide.headline, slide.text].filter(Boolean).join('\n\n'); box.prepend(art); }
     box.parentElement.querySelector('.portal-dots').textContent = slides.map((_, i) => i === index ? '●' : '○').join(' ');
   });
