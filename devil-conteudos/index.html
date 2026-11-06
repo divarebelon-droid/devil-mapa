@@ -27,7 +27,16 @@ body{background:radial-gradient(ellipse at 75% -10%,rgba(124,124,120,.2),transpa
 @media(max-width:880px){.auth-gate{grid-template-columns:minmax(0,1fr) minmax(300px,420px);gap:26px;padding:22px 30px}}
 @media(max-height:700px) and (min-width:681px){.auth-gate{gap:24px;padding:14px 30px}.cinema-description,.cinema-index{display:none}.cinema-overline{margin:12px 0 8px}.auth-cinema-copy h1{font-size:clamp(38px,6vh,48px)}.auth-card{padding:19px}.auth-card-top{margin-bottom:12px}.auth-intro{margin-bottom:10px}.auth-card .field{margin:7px 0}.auth-card .field input,.auth-card .button{height:38px}.auth-divider{margin:10px 0}}
 @media(max-width:680px){.auth-gate{grid-template-columns:1fr;align-content:start;gap:14px;padding:18px;overflow-y:auto}.auth-cinema-copy{padding:0}.cinema-overline{margin:12px 0 7px}.auth-cinema-copy h1{font-size:clamp(38px,10vw,52px)}.auth-card{padding:20px}.auth-card-top{margin-bottom:15px}}
-</style><style>.title-input{width:min(500px,100%);max-width:100%;min-width:0}.panel-head>div{min-width:0;max-width:100%}#sourceNote{display:none!important}.story-layer{overflow-wrap:anywhere;word-break:normal}</style></head>
+</style><style>.title-input{width:min(500px,100%);max-width:100%;min-width:0}.panel-head>div{min-width:0;max-width:100%}#sourceNote{display:none!important}.story-layer{overflow-wrap:anywhere;word-break:normal}</style><style id="devil-sidebar-menu-fit">
+@media (min-width:681px){
+  .sidebar{min-height:0;overflow:hidden}
+  .sidebar .nav{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;align-content:start;gap:4px;padding:0 3px 8px 0;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#494947 transparent}
+  .sidebar .nav button{min-height:34px;padding:8px 10px;font-size:12px;line-height:1.2}
+  .sidebar .nav::-webkit-scrollbar{width:5px}
+  .sidebar .nav::-webkit-scrollbar-thumb{background:#494947;border-radius:8px}
+}
+</style>
+</head>
 <body>
 <section class="auth-gate" id="authGate"><div class="auth-cinema-copy"><div class="cinema-kicker"><span></span> IDEIA, ESTRATÉGIA, PRESENÇA</div><p class="cinema-overline">DEVIL CONTEÚDOS · ESTÚDIO CRIATIVO</p><h1>Seu próximo<br><em>grande conteúdo</em><br>começa aqui.</h1><p class="cinema-description">Da primeira ideia ao design final, com a sua voz, a sua estratégia e tudo no mesmo lugar.</p><div class="cinema-index"><span>01</span><i></i><span>Uma boa história muda o jeito de ver.</span></div><div class="cinema-orbit" aria-hidden="true"><b>D</b></div></div><div class="auth-card"><div class="auth-card-top"><div class="logo"><span class="logo-mark">D</span><div><b>DEVIL</b><small>CONTE&#xDA;DOS</small></div></div><span class="auth-edition">SEU ESTÚDIO</span></div><p class="eyebrow">ENTRADA PRIVADA</p><h2>Entre na sua conta</h2><p class="auth-intro">Seus perfis, referências e criações esperam por você.</p><button class="button primary wide" id="googleSignIn" type="button">Continuar com Google</button><div class="auth-divider"><span>ou use seu e-mail</span></div><label class="field">Seu e-mail<input id="authEmail" type="email" autocomplete="email" placeholder="voce@exemplo.com" required></label><button class="button wide email-entry" id="emailSignIn" type="button">Receber acesso por e-mail</button><div class="auth-status" id="authStatus" role="status"></div></div></section>
 <div class="app">
