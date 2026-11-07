@@ -942,5 +942,66 @@ document.addEventListener('click', function(e) {
 
 loadData();
 </script>
+
+<style id="devil-site-accessibility-cruella-v3">
+:root{
+ --devil-cruella:#a31635;--devil-cruella-hover:#811329;
+ --accent:#a31635;--pink:#be2947;--text:var(--ink);
+}
+html[data-theme="light"]{
+ color-scheme:light;--bg:#f6f6f5;--panel:#fff;--panel2:#f3f3f1;--line:#deded9;
+ --ink:#242421;--text:#242421;--muted:#55554f;--accent:#a31635;--pink:#be2947;
+ --surface:#fff;--surface-soft:#f3f3f1;
+}
+html[data-theme="dark"]{
+ color-scheme:dark;--bg:#151313;--panel:#211d1e;--panel2:#302a2b;--line:#57494c;
+ --ink:#fff8f6;--text:#fff8f6;--muted:#e2d5d4;--accent:#a31635;--pink:#ed536c;
+ --surface:#211d1e;--surface-soft:#302a2b;
+}
+html[data-theme="dark"] body,
+html[data-theme="dark"] body :where(p,li,dt,dd,legend,label,summary,small,strong,em,b,i,span,div,button,a,h1,h2,h3,h4,h5,h6,td,th,caption){
+ color:var(--ink);
+}
+html[data-theme="dark"] :where(.micro,.help,.hint,.field small,.privacy,.sidebar-note,.nav-group-title,.empty,.no-data,.account-chip,.profile-voice-status,.settings-hint,.form-help,.idea-meta,.caption-meta){
+ color:var(--muted)!important;
+}
+html[data-theme="dark"] :where(.panel,.story-card,.client-card,.form-block,.dialog,.auth-card,.design-audit,.tips,.series-card,.idea-card,.idea-task-dialog,.approval-package,.settings-extra,.rep-item,.rep-form,.voice-field,.history-card,.template-card,.approval-card){
+ color:var(--ink)!important;background:var(--panel)!important;border-color:var(--line)!important;
+}
+html[data-theme="dark"] :where(input:not([type="color"]),select,textarea,.control,[contenteditable="true"]){
+ color:var(--ink)!important;background:var(--panel2)!important;border-color:#67575a!important;
+}
+html[data-theme="dark"] :where(input,textarea,[contenteditable="true"])::placeholder{color:#cfc0bf!important;opacity:1}
+html[data-theme="dark"] :where(button,.button){color:var(--ink)}
+html[data-theme="dark"] :where(.primary,.button.primary,.button.wide,.toast,[aria-pressed="true"]){
+ color:#fff!important;background:var(--devil-cruella)!important;border-color:var(--devil-cruella)!important;
+}
+html[data-theme="dark"] :where(.nav button,.nav-group-title){color:var(--muted)!important}
+html[data-theme="dark"] :where(.nav button.active,.nav button:hover){color:#fff!important;background:#3b3032!important}
+html[data-theme="dark"] :where(.studio-hero h2,.studio-hero-copy>p,.top h1,.client-card h3,.empty strong,.rep-item h3){color:var(--ink)!important}
+html[data-theme="dark"] :where(.studio-hero h2 em,.eyebrow,.story-head,.tips b){color:#ed536c!important}
+html[data-theme="dark"] :where(.logo-mark,.portal-mark){background:var(--devil-cruella)!important;color:#fff!important}
+html[data-theme="dark"] :where(.portal-top small,.portal-top em,.portal-empty,.portal-dots){color:var(--muted)!important}
+html[data-theme="dark"] #clientPortalRoot,
+html[data-theme="dark"] .portal-detail{background:var(--bg)!important;color:var(--ink)!important;border-color:var(--line)!important}
+html[data-theme="dark"] :where(.portal-post,.portal-idea,.portal-detail-slot .portal-post){background:var(--panel)!important;color:var(--ink)!important;border-color:var(--line)!important}
+html[data-theme="dark"] .portal-review textarea{background:var(--panel2)!important;color:var(--ink)!important;border-color:var(--line)!important}
+html[data-theme="light"] body{color:#242421}
+html[data-theme="light"] :where(.field,.field label,.story-edit label,.nav button,.nav-group-title,.micro,.help,.hint,.privacy,.form-help,.idea-meta){color:#4b4b46}
+html[data-theme="light"] :where(.micro,.help,.hint,.privacy,.form-help,.idea-meta,.sidebar-note,.client-card p,.empty,.no-data){color:#595952}
+html[data-theme="light"] :where(.studio-hero h2 em,.logo-mark,.portal-mark){color:#fff}
+html[data-theme="light"] .studio-hero h2 em{color:var(--devil-cruella)!important}
+html[data-theme="light"] :where(.logo-mark,.portal-mark){background:var(--devil-cruella)!important}
+html[data-theme="light"] :where(.primary,.button.primary,.button.wide,.toast){background:var(--devil-cruella)!important;border-color:var(--devil-cruella)!important;color:#fff!important}
+html[data-theme="light"] :where(.portal-top small,.portal-top em,.portal-empty,.portal-dots){color:#595952!important}
+html[data-theme="light"] #clientPortalRoot{background:#f6f6f5!important;color:#242421!important}
+html[data-theme="light"] .portal-detail{background:#fff!important;color:#242421!important}
+html[data-theme="light"] :where(.portal-post,.portal-idea){background:#fff!important;color:#242421!important}
+html[data-theme="light"] .portal-review textarea{background:#fff!important;color:#242421!important}
+:where(.view,.portal-shell,.main) :where(.field,.field label,.story-edit label){font-size:13px}
+:where(.view,.portal-shell,.main) :where(.micro,.help,.hint,.privacy,.form-help,.settings-hint,.profile-voice-status){font-size:12px;line-height:1.5}
+@media(min-width:681px){.sidebar .nav button,.nav-group button{font-size:14px!important;line-height:1.4;min-height:42px}.nav-group-title{font-size:11px!important}}
+@media(max-width:680px){.sidebar .nav button,.nav-group button{font-size:13px!important;line-height:1.35;min-height:38px}}
+</style>
 </body>
 </html>
