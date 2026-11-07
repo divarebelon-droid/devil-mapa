@@ -52,12 +52,12 @@ function postCard(item) {
   const art = (first.imageDataUrl || first.imageUrl) ? '<img src="' + esc(first.imageDataUrl || first.imageUrl) + '" alt="Arte para aprova??o">' :
     '<div class="portal-art">' + esc([first.headline, first.text].filter(Boolean).join(' ') || item.title) + '</div>';
   return '<article class="portal-post"><header><b>' + esc(item.profileName || 'Perfil') + '</b><small>' +
-    esc(item.format || 'Conteúdo') + '</small></header><div class="portal-media" data-index="0" data-slides="' +
+    esc(item.format || 'Conteúdo') + '</small></header>' + (item.publishDate ? '<small class="portal-publish-date">' + esc(new Date(item.publishDate + 'T12:00:00').toLocaleDateString('pt-BR')) + '</small>' : '') + '<div class="portal-media" data-index="0" data-slides="' +
     esc(JSON.stringify(slides)) + '">' + art + (slides.length > 1 ?
       '<button data-slide-step="-1" class="portal-prev">‹</button><button data-slide-step="1" class="portal-next">›</button>' : '') +
     '</div>' + (slides.length > 1 ? '<div class="portal-dots">' + slides.map((_, i) => i ? '○' : '●').join(' ') + '</div>' : '') +
     '<p class="portal-caption"><b>' + esc(item.profileName || '') + '</b> ' + esc(item.caption || item.title || '') +
-    '</p><section class="portal-review"><label><input type="checkbox" data-portal-approve="' + esc(item.id) +
+    '</p>' + (item.copy ? '<details class="portal-copy"><summary>Ver conteúdo e roteiro</summary><div>' + esc(item.copy) + '</div></details>' : '') + '<section class="portal-review"><label><input type="checkbox" data-portal-approve="' + esc(item.id) +
     '" ' + (item.approved ? 'checked' : '') + '> ' + (item.approved ? 'Aprovado' : 'Aprovar conteúdo') + '</label>' +
     '<div class="portal-comments">' + (item.comments || []).map(c => '<p>' + esc(c.text) + '</p>').join('') +
     '</div><textarea placeholder="Comente a publicação"></textarea><button data-portal-comment data-id="' + esc(item.id) +
