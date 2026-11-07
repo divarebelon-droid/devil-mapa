@@ -71,17 +71,20 @@ function render(data, target = document.querySelector('#clientPortalRoot'), prev
   if (!target) return;
   const name = data?.profileName || data?.client?.profileName || 'Seu perfil';
   const ideas = data?.ideas || [];
+  const brandProfile = data?.brandProfile || {};
+  const brandRows = Object.entries(brandProfile).filter(([key,value]) => key !== 'brandMaterials' && value && typeof value === 'string').map(([key,value]) => '<article class="portal-post"><b>' + esc(key === 'instagramHandle' ? '@ do Instagram' : key) + '</b><p class="portal-caption">' + esc(value) + '</p></article>');
+  const brandMaterials = (brandProfile.brandMaterials || []).map(item => '<article class="portal-post"><b>' + esc(item.name) + '</b><p class="portal-caption">' + esc(item.text) + '</p></article>');
   const posts = (data?.approvals || []).slice().sort((a,b) => String(a.publishDate||'').localeCompare(String(b.publishDate||'')));
   target.innerHTML = '<section class="portal-shell"><header class="portal-top"><b class="portal-mark">D</b>' +
     '<div><b>DEVIL CONTEÚDOS</b><small>ESPAÇO DA CLIENTE</small></div><span class="portal-spacer"></span><strong>' +
     esc(name) + '</strong>' + (preview ? '<em>PRÉVIA DA CLIENTE</em>' : '<button id="portalLogout">Sair</button>') +
     '</header><nav class="portal-tabs"><button class="active" data-portal-tab="posts">Aprovações <b>' + posts.length +
-    '</b></button><button data-portal-tab="ideas">Banco de ideias <b>' + ideas.length + '</b></button></nav>' +
+    '</b></button><button data-portal-tab="ideas">Banco de ideias <b>' + ideas.length + '</b></button><button data-portal-tab="profile">Perfil da marca</button></nav>' +
     '<section data-portal-page="posts"><p class="eyebrow">SEU FEED EM REVISÃO</p><h1>Conteúdos para aprovar</h1>' +
     '<div class="portal-feed">' + (posts.map(postCard).join('') || '<p class="portal-empty">Ainda não há conteúdos aqui.</p>') +
     '</div></section><section data-portal-page="ideas" hidden><p class="eyebrow">REFERÊNCIAS DA SUA PASTA</p>' +
     '<h1>Banco de ideias</h1><div class="portal-ideas">' + (ideas.map(ideaCard).join('') ||
-    '<p class="portal-empty">Ainda não há ideias associadas ao seu perfil.</p>') + '</div></section></section>';
+    '<p class="portal-empty">Ainda não há ideias associadas ao seu perfil.</p>') + '</div></section><section data-portal-page="profile" hidden><p class="eyebrow">CONTEXTO DA SUA MARCA</p><h1>Perfil da marca</h1><div class="portal-ideas">' + (brandRows.join('') || '<p class="portal-empty">O perfil ainda está sendo preparado pela equipe.</p>') + brandMaterials.join('') + '</div></section></section>';
   const detail = document.createElement('dialog');
   detail.className = 'portal-detail';
   detail.innerHTML = '<button class="portal-detail-close">Fechar</button><div class="portal-detail-slot"></div>';
