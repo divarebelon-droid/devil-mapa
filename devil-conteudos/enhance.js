@@ -209,6 +209,7 @@ function saveApprovalCalendarLink(){const c=(app().clients||[]).find(x=>x.id===$
     const heading=line=>{const s=line.trim().replace(/^#{1,6}\s*/,'').replace(/^\*\*(.*?)\*\*$/,'$1').replace(/^__(.*?)__$/,'$1').trim();if(!s)return null;
       let m=s.match(/^(explica(?:ção|cao)|contexto|direcionamento)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Explicação',tail:m[2]||''};
       m=s.match(/^(formato sugerido)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Explicação',tail:m[2]?'Formato sugerido: '+m[2]:''};
+      m=s.match(/^(direção visual|direcao visual|orientação visual|orientacao visual)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Direção visual',tail:m[2]||''};
       m=s.match(/^(texto da arte|copy(?:\s+do\s+slide)?(?:\s*\d+)?|slide\s*\d+)(?:\s*:\s*(.*))?$/i);if(m){const n=s.match(/(?:slide)\s*(\d+)/i);return{label:n?'Copy do slide '+n[1]:'Copy dos slides',tail:m[2]||''}}
       m=s.match(/^(legenda(?:\s+(?:da\s+publicação|do\s+post))?|caption)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Legenda',tail:m[2]||''};
       return null};
