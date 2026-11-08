@@ -3,7 +3,7 @@
   "short_name": "DEVIL",
   "start_url": "./",
   "scope": "./",
-  "display": "standalone",
+  "display": "browser",
   "background_color": "#fbf8f8",
   "theme_color": "#a31635",
   "icons": [
