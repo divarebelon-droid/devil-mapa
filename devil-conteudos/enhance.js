@@ -204,19 +204,19 @@ function saveApprovalCalendarLink(){const c=(app().clients||[]).find(x=>x.id===$
     const raw=String(p?.copy||p?.caption||'').replace(/\r/g,'').trim();if(!raw)return[];
     const lines=raw.split('\n'),parts=[];let current={label:'Explicação',lines:[]},hasSeparator=false,nextLabel='Copy dos slides';
     const flush=()=>{const text=current.lines.join('\n').trim();if(text)parts.push({label:current.label,text});current={label:nextLabel,lines:[]};nextLabel='Copy dos slides'};
-    const separator=line=>/^(?:(?:\\*|_|-|—|–|·)\\s*){3,}$/.test(line.trim())||/^\\*\\s+\\*\\s+\\*$/.test(line.trim());
-    const heading=line=>{const s=line.trim().replace(/^#{1,6}\\s*/,'').replace(/^\\*\\*(.*?)\\*\\*$/,'$1').replace(/^__(.*?)__$/,'$1').trim();if(!s)return null;
-      let m=s.match(/^(explica(?:ção|cao)|contexto|direcionamento)(?:\\s*:\\s*(.*))?$/i);if(m)return{label:'Explicação',tail:m[2]||''};
-      m=s.match(/^(formato sugerido)(?:\\s*:\\s*(.*))?$/i);if(m)return{label:'Explicação',tail:m[2]?'Formato sugerido: '+m[2]:''};
-      m=s.match(/^(texto da arte|copy(?:\\s+do\\s+slide)?(?:\\s*\\d+)?|slide\\s*\\d+)(?:\\s*:\\s*(.*))?$/i);if(m){const n=s.match(/(?:slide)\\s*(\\d+)/i);return{label:n?'Copy do slide '+n[1]:'Copy dos slides',tail:m[2]||''}}
-      m=s.match(/^(legenda(?:\\s+(?:da\\s+publicação|do\\s+post))?|caption)(?:\\s*:\\s*(.*))?$/i);if(m)return{label:'Legenda',tail:m[2]||''};
+    const separator=line=>/^(?:-{3,}|(?:\*\s*){3,}|_{3,}|(?:\*\s+){2}\*)$/.test(line.trim());
+    const heading=line=>{const s=line.trim().replace(/^#{1,6}\s*/,'').replace(/^\*\*(.*?)\*\*$/,'$1').replace(/^__(.*?)__$/,'$1').trim();if(!s)return null;
+      let m=s.match(/^(explica(?:ção|cao)|contexto|direcionamento)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Explicação',tail:m[2]||''};
+      m=s.match(/^(formato sugerido)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Explicação',tail:m[2]?'Formato sugerido: '+m[2]:''};
+      m=s.match(/^(texto da arte|copy(?:\s+do\s+slide)?(?:\s*\d+)?|slide\s*\d+)(?:\s*:\s*(.*))?$/i);if(m){const n=s.match(/(?:slide)\s*(\d+)/i);return{label:n?'Copy do slide '+n[1]:'Copy dos slides',tail:m[2]||''}}
+      m=s.match(/^(legenda(?:\s+(?:da\s+publicação|do\s+post))?|caption)(?:\s*:\s*(.*))?$/i);if(m)return{label:'Legenda',tail:m[2]||''};
       return null};
     for(const line of lines){if(separator(line)){flush();hasSeparator=true;nextLabel='Copy dos slides';continue}
       const h=heading(line);if(h){flush();current.label=h.label;if(h.tail)current.lines.push(h.tail);continue}
       current.lines.push(line)}
     flush();
     if(!hasSeparator&&!parts.some(x=>x.label==='Legenda'))return[{label:'Descrição da tarefa',text:raw}];
-    if(!parts.some(x=>x.label==='Legenda')&&parts.length>1){const last=parts[parts.length-1];if(/(?:#\\w+\\s*){2,}/.test(last.text))last.label='Legenda'}
+    if(!parts.some(x=>x.label==='Legenda')&&parts.length>1){const last=parts[parts.length-1];if(/(?:#\w+\s*){2,}/.test(last.text))last.label='Legenda'}
     return parts.length?parts:[{label:'Descrição da tarefa',text:raw}]
   }
   function appendApprovalTaskCopy(body,p){const parts=approvalTaskCopyParts(p);if(!parts.length)return;const section=document.createElement('section');section.className='approval-task-copy';for(const part of parts){const block=document.createElement('div');block.className='approval-task-copy-part';const heading=document.createElement('h3');heading.textContent=part.label;const text=document.createElement('div');text.className='approval-task-copy-text';text.textContent=part.text;block.append(heading,text);section.append(block)}body.append(section)}
