@@ -62,7 +62,28 @@ function init(){
     if(autoGenerate&&!ep.designCandidateReady&&!ep.designReady){const generate=()=>{if(!dialog.open||app().currentEpisode?.designCandidateReady||app().currentEpisode?.designReady)return;const button=$('#approveCopyDesign');if(button&&!button.disabled)button.click()};requestAnimationFrame(()=>setTimeout(generate,80))}
   }
   function installStudioReview(){
-    document.addEventListener('click',async event=>{const button=event.target.closest('[data-delete-profile]');if(!button)return;const id=button.dataset.deleteProfile,client=(app().clients||[]).find(item=>item.id===id);if(!client||client.name!=='Bruna Boreggio')return; if(!window.confirm('Excluir o perfil Bruna Boreggio e os dados vinculados a esse cadastro?'))return;const snapshot=structuredClone(app());try{const data=app();data.clients=data.clients.filter(item=>item.id!==id);for(const key of ['brain','series','history','sosHistory','analysisHistory','instagramIdeas','designReferences','approvals'])if(Array.isArray(data[key]))data[key]=data[key].filter(item=>item.clientId!==id);if(data.currentEpisode?.clientId===id)data.currentEpisode=null;if(data.activeClientId===id)data.activeClientId=data.clients[0]?.id||'';api.renderAll();api.save();await api.syncNow();window.toast?.('Perfil excluído da conta.')||console.info('Perfil excluído da conta.')}catch(error){api.app=snapshot;api.renderAll();api.save();window.toast?.('Não consegui excluir o perfil: '+error.message)||console.error(error)}});
+    document.addEventListener('click',async event=>{
+      const button=event.target.closest('[data-delete-profile]');if(!button)return;
+      const id=button.dataset.deleteProfile,client=(app().clients||[]).find(item=>item.id===id);
+      if(!client||client.name!=='Bruna Boreggio')return;
+      const snapshot=structuredClone(app());
+      try{
+        const next={...snapshot,clients:snapshot.clients.filter(item=>item.id!==id)};
+        for(const key of ['brain','series','history','sosHistory','analysisHistory','instagramIdeas','designReferences','approvals'])if(Array.isArray(next[key]))next[key]=next[key].filter(item=>item.clientId!==id);
+        if(next.currentEpisode?.clientId===id)next.currentEpisode=null;
+        if(next.activeClientId===id)next.activeClientId=next.clients[0]?.id||'';
+        api.app=next;
+        api.renderAll();
+        api.save();
+        await api.syncNow();
+        window.dispatchEvent(new Event('devil:data-ready'));
+        window.toast?.('Perfil excluído da conta.')||console.info('Perfil excluído da conta.');
+      }catch(error){
+        api.app=snapshot;api.renderAll();api.save();
+        const status=$('#saveStatus');if(status)status.textContent='Falha ao excluir o perfil: '+(error?.message||'erro de sincronização');
+        window.toast?.('Não consegui excluir o perfil: '+(error?.message||'erro de sincronização'))||console.error('Falha ao excluir perfil',error);
+      }
+    });
     const originalCopyInput=api.copyInput.bind(api);api.copyInput=(...args)=>{const input=originalCopyInput(...args),client=args[0]||api.activeClient();input.selectedStory=selectedStoryFor(client);return input};
     syncStoryPicker(true);
     $('#clientSelect')?.addEventListener('change',()=>syncStoryPicker(true));
