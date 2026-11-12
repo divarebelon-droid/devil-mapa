@@ -81,11 +81,12 @@ function init(){
         api.save();
         await api.syncNow();
         window.dispatchEvent(new Event('devil:data-ready'));
-        window.toast?.('Perfil excluído da conta.')||console.info('Perfil excluído da conta.');
+        const status=$('#saveStatus');if(status)status.textContent='Perfil excluído e sincronizado na sua conta.';
+        console.info('Perfil excluído e sincronizado na conta.');
       }catch(error){
         api.app=snapshot;api.renderAll();api.save();
         const status=$('#saveStatus');if(status)status.textContent='Falha ao excluir o perfil: '+(error?.message||'erro de sincronização');
-        window.toast?.('Não consegui excluir o perfil: '+(error?.message||'erro de sincronização'))||console.error('Falha ao excluir perfil',error);
+        console.error('Falha ao excluir perfil',error);
       }
     });
     const originalCopyInput=api.copyInput.bind(api);api.copyInput=(...args)=>{const input=originalCopyInput(...args),client=args[0]||api.activeClient();input.selectedStory=selectedStoryFor(client);return input};
