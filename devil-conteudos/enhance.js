@@ -12,20 +12,23 @@ function init(){
   ensure();
 
   function selectedStoryFor(client){
-    const select=$('#selectedStoryHistory'),id=client?.id||api.activeClient()?.id||'',brain=(app().brain||[]).find(x=>x.clientId===id),items=brain?.storyItems||[];
-    if(!select||!id||select.dataset.clientId!==id||select.value==='none')return null;
-    const item=items.find((x,i)=>String(x.id||('story-'+i))===select.value);
-    return item?{clientId:id,title:String(item.title||'História sem título'),text:String(item.text||''),summary:item.summary?summaryPlain(item.summary):''}:null;
+    const select=$('#selectedStoryHistory'),id=client?.id||api.activeClient()?.id||'',brain=(app().brain||[]).find(x=>x.clientId===id);
+    if(!select||!id||select.dataset.clientId!==id||select.value==='none')return{mode:'none',clientId:id};
+    const [kind,...rest]=select.value.split(':'),itemId=rest.join(':'),map={history:'storyItems',routine:'routineItems',backstage:'backstageItems'},field=map[kind],items=brain?.[field]||[],item=items.find((x,i)=>String(x.id||kind+'-'+i)===itemId);
+    return item?{mode:kind,clientId:id,title:String(item.title||'Momento sem título'),text:String(item.text||''),summary:item.summary?summaryPlain(item.summary):'',source:kind==='routine'?'Rotina':kind==='backstage'?'Bastidores':'História'}:{mode:'none',clientId:id};
   }
   function syncStoryPicker(reset=false){
     const select=$('#selectedStoryHistory'),client=api.activeClient(),id=client?.id||$('#clientSelect')?.value||'';
     if(!select)return;
-    const previous=select.value,brain=(app().brain||[]).find(x=>x.clientId===id),items=brain?.storyItems||[];
-    select.replaceChildren(new Option('Sem história específica — não usar relato salvo','none'),...items.map((item,index)=>new Option(item.title||'História '+(index+1),String(item.id||('story-'+index)))));
+    const previous=select.value,brain=(app().brain||[]).find(x=>x.clientId===id);
+    const groups=[['Rotina','routine',brain?.routineItems||[]],['Bastidores','backstage',brain?.backstageItems||[]],['Histórias','history',brain?.storyItems||[]]];
+    select.replaceChildren(new Option('Sem momento específico — não usar relato salvo','none'));
+    for(const [label,kind,items] of groups){if(!items.length)continue;const group=document.createElement('optgroup');group.label=label;items.forEach((item,index)=>group.append(new Option(item.title||label+' '+(index+1),kind+':'+String(item.id||kind+'-'+index))));select.append(group)}
     select.dataset.clientId=id;
-    if(reset||!items.some((item,index)=>String(item.id||('story-'+index))===previous))select.value='none';else select.value=previous;
+    const values=[...select.options].map(option=>option.value);
+    if(reset||!values.includes(previous))select.value='none';else select.value=previous;
     const help=$('#storyHistoryHelp');
-    if(help)help.textContent=items.length?'As histórias são deste perfil. A Devil só usa uma história específica quando você a selecionar.':'Este perfil ainda não tem histórias salvas. A Devil não inventará um relato pessoal.';
+    if(help)help.textContent='Escolha um momento salvo em Rotina, Bastidores ou Histórias. A Devil usa apenas o material selecionado e deste perfil.';
   }
   function renderManualCopy(ep){
     const box=$('#manualCopyReview'),parts=$('#manualCopyParts');
@@ -56,9 +59,10 @@ function init(){
     if(!dialog||!mount||!editor||!ep)return;
     if(editor.parentElement!==mount)mount.append(editor);
     editor.hidden=false;api.openEpisode(ep);if(!dialog.open)dialog.showModal();
-    if(autoGenerate&&!ep.designCandidateReady&&!ep.designReady)$('#approveCopyDesign')?.click();
+    if(autoGenerate&&!ep.designCandidateReady&&!ep.designReady){const generate=()=>{if(!dialog.open||app().currentEpisode?.designCandidateReady||app().currentEpisode?.designReady)return;const button=$('#approveCopyDesign');if(button&&!button.disabled)button.click()};requestAnimationFrame(()=>setTimeout(generate,80))}
   }
   function installStudioReview(){
+    const originalCopyInput=api.copyInput.bind(api);api.copyInput=(...args)=>{const input=originalCopyInput(...args),client=args[0]||api.activeClient();input.selectedStory=selectedStoryFor(client);return input};
     syncStoryPicker(true);
     $('#clientSelect')?.addEventListener('change',()=>syncStoryPicker(true));
     window.addEventListener('devil:data-ready',()=>syncStoryPicker(true));const savedStories=$('#brainStoriesItems');if(savedStories)new MutationObserver(()=>syncStoryPicker()).observe(savedStories,{childList:true,subtree:true,characterData:true});
@@ -66,6 +70,9 @@ function init(){
     $('#manualApproveDesign')?.addEventListener('click',openDesignReview);
     const editor=$('#editor'),mount=$('#designReviewMount'),storyList=$('#storyList');
     if(editor&&mount)mount.append(editor);
+    const decorateSlides=()=>{if(!storyList)return;for(const card of storyList.querySelectorAll('.story-card')){if(!card.querySelector('.design-slide-edit')){const edit=document.createElement('button');edit.type='button';edit.className='button tiny design-slide-edit';edit.textContent='Editar este slide';edit.addEventListener('click',()=>{const opening=!card.classList.contains('is-editing');card.classList.toggle('is-editing',opening);edit.textContent=opening?'Fechar edição':'Editar este slide'});const visual=card.querySelector('.story-visual');if(visual)visual.after(edit);else card.append(edit)}card.classList.toggle('design-ready-preview',!!app().currentEpisode?.designCandidateReady||!!app().currentEpisode?.designReady)}};
+    if(storyList){new MutationObserver(()=>requestAnimationFrame(decorateSlides)).observe(storyList,{childList:true,subtree:true});window.addEventListener('devil:design-approved',decorateSlides);window.addEventListener('devil:content-generated',()=>{if(app().currentEpisode)app().currentEpisode.designCandidateReady=false;decorateSlides()});decorateSlides()}
+
     window.addEventListener('devil:content-generated',event=>{const ep=event.detail?.episode;if(ep)renderManualCopy(ep)});
     if(storyList&&!$('#designCarouselNav')){
       const navBar=document.createElement('div');navBar.id='designCarouselNav';navBar.className='design-carousel-nav';
@@ -77,7 +84,7 @@ function init(){
       new MutationObserver(()=>requestAnimationFrame(update)).observe(storyList,{childList:true});
     }
     const polish=document.createElement('style');polish.id='devil-studio-natural-chat-styles';
-    polish.textContent='.devil-message{position:relative;border-radius:18px!important}.devil-message.assistant{border-top-left-radius:5px!important;padding-left:40px!important}.devil-message.assistant:not(.copy)::before{content:"🤖"!important;position:absolute;left:7px;top:8px;width:25px;height:25px;margin:0;border-radius:50%;display:grid;place-items:center;background:var(--accent,#a31635);font-size:14px}.devil-message.assistant::before{content:"🤖";position:absolute;left:7px;top:8px;width:25px;height:25px;display:grid;place-items:center;border-radius:50%;background:var(--accent,#a31635);font-size:14px}.devil-message.user{border-top-right-radius:5px!important}.devil-message.typing{min-width:54px;min-height:38px}.devil-message.typing::after{content:"•••";display:inline-block;letter-spacing:3px;animation:devilTyping 1s infinite ease-in-out}@keyframes devilTyping{0%,100%{opacity:.35;transform:translateY(0)}50%{opacity:1;transform:translateY(-2px)}}.design-review-dialog{width:min(1120px,96vw);max-width:96vw;max-height:96dvh;overflow:auto}.design-review-header{display:flex;justify-content:space-between;align-items:center;gap:10px}.design-review-header h2{margin:0}.design-review-dialog #editor{max-height:none;overflow:visible}.design-review-dialog #storyList{display:flex;gap:12px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;touch-action:pan-x pan-y}.design-review-dialog .story-card{flex:0 0 100%;min-width:100%;scroll-snap-align:start;max-height:70dvh;overflow-y:auto}.design-review-dialog .story-visual{max-height:65dvh}.design-carousel-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0}.manual-copy-review{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.manual-copy-review-head h3{margin:0}.manual-copy-part{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;background:var(--panel2)}.manual-copy-part summary{cursor:pointer;font-weight:700;color:var(--ink)}@media(max-width:680px){.design-review-dialog{width:96vw;padding:12px}.design-review-dialog .story-card{grid-template-columns:1fr;max-height:78dvh}.design-review-dialog .story-visual{max-width:200px;max-height:48dvh}.design-review-dialog #storyList{scroll-snap-type:x mandatory}}';
+    polish.textContent='.devil-message{position:relative;border-radius:18px!important}.devil-message.assistant{border-top-left-radius:5px!important;padding-left:40px!important}.devil-message.assistant:not(.copy)::before{content:"🤖"!important;position:absolute;left:7px;top:8px;width:25px;height:25px;margin:0;border-radius:50%;display:grid;place-items:center;background:var(--accent,#a31635);font-size:14px}.devil-message.assistant::before{content:"🤖";position:absolute;left:7px;top:8px;width:25px;height:25px;display:grid;place-items:center;border-radius:50%;background:var(--accent,#a31635);font-size:14px}.devil-message.user{border-top-right-radius:5px!important}.devil-message.typing{min-width:54px;min-height:38px}.devil-message.typing::after{content:"•••";display:inline-block;letter-spacing:3px;animation:devilTyping 1s infinite ease-in-out}@keyframes devilTyping{0%,100%{opacity:.35;transform:translateY(0)}50%{opacity:1;transform:translateY(-2px)}}.design-review-dialog{width:min(1120px,96vw);max-width:96vw;max-height:96dvh;overflow:auto}.design-review-header{display:flex;justify-content:space-between;align-items:center;gap:10px}.design-review-header h2{margin:0}.design-review-dialog #editor{max-height:none;overflow:visible}.design-review-dialog #storyList{display:flex;gap:12px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;touch-action:pan-x pan-y}.design-review-dialog .story-card{flex:0 0 100%;min-width:100%;scroll-snap-align:start;max-height:70dvh;overflow-y:auto}.design-review-dialog .story-visual{max-height:65dvh}.design-review-dialog .story-card.design-ready-preview .story-edit{display:none}.design-review-dialog .story-card.design-ready-preview.is-editing .story-edit{display:block;min-width:0}.design-review-dialog .design-slide-edit{display:block;margin:8px auto 14px}.design-review-dialog .story-card.design-ready-preview{align-content:start}.design-carousel-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0}.manual-copy-review{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.manual-copy-review-head h3{margin:0}.manual-copy-part{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;background:var(--panel2)}.manual-copy-part summary{cursor:pointer;font-weight:700;color:var(--ink)}@media(max-width:680px){.design-review-dialog{width:96vw;padding:12px}.design-review-dialog .story-card{grid-template-columns:1fr;max-height:78dvh}.design-review-dialog .story-visual{max-width:200px;max-height:48dvh}.design-review-dialog #storyList{scroll-snap-type:x mandatory}}';
     document.head.append(polish);
   }
   installStudioReview();
