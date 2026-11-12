@@ -59,7 +59,11 @@ function init(){
     if(!dialog||!mount||!editor||!ep)return;
     if(editor.parentElement!==mount)mount.append(editor);
     editor.hidden=false;api.openEpisode(ep);if(!dialog.open)dialog.showModal();
-    if(autoGenerate&&!ep.designCandidateReady&&!ep.designReady){const generate=()=>{if(!dialog.open||app().currentEpisode?.designCandidateReady||app().currentEpisode?.designReady)return;const button=$('#approveCopyDesign');if(button&&!button.disabled)button.click()};requestAnimationFrame(()=>setTimeout(generate,80))}
+    const activeEpisode=app().currentEpisode;
+    if(autoGenerate&&!activeEpisode.designCandidateReady&&!activeEpisode.designReady){
+      const generate=async()=>{if(!dialog.open||app().currentEpisode?.designCandidateReady||app().currentEpisode?.designReady)return;try{await api.createApprovedDesign(app().currentEpisode)}catch(error){const status=$('#designGateStatus');if(status)status.textContent=error?.message||'Não foi possível criar o design. A copy continua preservada.';window.toast?.(error?.message||'Não foi possível criar o design.')}}
+      requestAnimationFrame(()=>setTimeout(generate,80));
+    }
   }
   function installStudioReview(){
     document.addEventListener('click',async event=>{
