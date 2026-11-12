@@ -103,6 +103,7 @@ function init(){
     if(storyList){new MutationObserver(()=>requestAnimationFrame(decorateSlides)).observe(storyList,{childList:true,subtree:true});window.addEventListener('devil:design-approved',decorateSlides);window.addEventListener('devil:content-generated',()=>{if(app().currentEpisode)app().currentEpisode.designCandidateReady=false;decorateSlides()});decorateSlides()}
 
     window.addEventListener('devil:content-generated',event=>{const ep=event.detail?.episode;if(ep)renderManualCopy(ep)});
+    if(app().currentEpisode?.stories?.length)renderManualCopy(app().currentEpisode);
     if(storyList&&!$('#designCarouselNav')){
       const navBar=document.createElement('div');navBar.id='designCarouselNav';navBar.className='design-carousel-nav';
       navBar.innerHTML='<button type="button" class="button tiny" data-slide-step="-1">Anterior</button><span class="micro" id="designCarouselCount"></span><button type="button" class="button tiny" data-slide-step="1">Próximo</button>';
