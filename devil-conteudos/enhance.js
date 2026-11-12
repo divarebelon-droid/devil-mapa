@@ -80,6 +80,7 @@ function init(){
         api.renderAll();
         api.save();
         await api.syncNow();
+        api.setView('settings');
         window.dispatchEvent(new Event('devil:data-ready'));
         const status=$('#saveStatus');if(status)status.textContent='Perfil excluído e sincronizado na sua conta.';
         console.info('Perfil excluído e sincronizado na conta.');
