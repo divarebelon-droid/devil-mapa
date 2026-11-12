@@ -69,6 +69,8 @@ function init(){
     window.addEventListener('devil:data-ready',()=>syncStoryPicker(true));const savedStories=$('#brainStoriesItems');if(savedStories)new MutationObserver(()=>syncStoryPicker()).observe(savedStories,{childList:true,subtree:true,characterData:true});
     $('#closeDesignReview')?.addEventListener('click',()=>$('#designReviewDialog')?.close());
     $('#manualApproveDesign')?.addEventListener('click',openDesignReview);
+    const editorActions=editor?.querySelector('.panel-head .action-row');if(editorActions&&!$('#designFromEditor')){const advance=document.createElement('button');advance.id='designFromEditor';advance.type='button';advance.className='button primary';advance.textContent='Avançar para o design';advance.addEventListener('click',()=>openDesignReview(true));editorActions.insertBefore(advance,editorActions.firstChild)}
+
     const editor=$('#editor'),mount=$('#designReviewMount'),storyList=$('#storyList');
     if(editor&&mount)mount.append(editor);
     const decorateSlides=()=>{if(!storyList)return;for(const card of storyList.querySelectorAll('.story-card')){if(!card.querySelector('.design-slide-edit')){const edit=document.createElement('button');edit.type='button';edit.className='button tiny design-slide-edit';edit.textContent='Editar este slide';edit.addEventListener('click',()=>{const opening=!card.classList.contains('is-editing');card.classList.toggle('is-editing',opening);edit.textContent=opening?'Fechar edição':'Editar este slide'});const visual=card.querySelector('.story-visual');if(visual)visual.after(edit);else card.append(edit)}card.classList.toggle('design-ready-preview',!!app().currentEpisode?.designCandidateReady||!!app().currentEpisode?.designReady)}};
