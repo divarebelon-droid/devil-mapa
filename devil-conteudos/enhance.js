@@ -104,6 +104,7 @@ function init(){
 
     window.addEventListener('devil:content-generated',event=>{const ep=event.detail?.episode;if(ep)renderManualCopy(ep)});
     if(app().currentEpisode?.stories?.length)renderManualCopy(app().currentEpisode);
+    const reviewObserver=new MutationObserver(()=>{const ep=app().currentEpisode,box=$('#manualCopyReview');if(ep?.stories?.length&&box?.hidden)renderManualCopy(ep)});reviewObserver.observe(main,{childList:true,subtree:true});
     if(storyList&&!$('#designCarouselNav')){
       const navBar=document.createElement('div');navBar.id='designCarouselNav';navBar.className='design-carousel-nav';
       navBar.innerHTML='<button type="button" class="button tiny" data-slide-step="-1">Anterior</button><span class="micro" id="designCarouselCount"></span><button type="button" class="button tiny" data-slide-step="1">Próximo</button>';
