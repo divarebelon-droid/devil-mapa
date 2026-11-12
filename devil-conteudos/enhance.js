@@ -28,7 +28,7 @@ function init(){
     const values=[...select.options].map(option=>option.value);
     if(reset||!values.includes(previous))select.value='none';else select.value=previous;
     const help=$('#storyHistoryHelp');
-    if(help)help.textContent='Escolha um momento salvo em Rotina, Bastidores ou Histórias. A Devil usa apenas o material selecionado e deste perfil.';
+    if(help){const count=groups.reduce((total,group)=>total+group[2].length,0);help.textContent=count?'Escolha um momento salvo em Rotina, Bastidores ou Histórias. A Devil usa apenas o material selecionado e deste perfil.':'Não encontrei momentos sincronizados neste perfil. Confira o Segundo cérebro ou atualize a Devil e tente novamente.';}
   }
   function renderManualCopy(ep){
     const box=$('#manualCopyReview'),parts=$('#manualCopyParts');
@@ -92,8 +92,12 @@ function init(){
     });
     const originalCopyInput=api.copyInput.bind(api);api.copyInput=(...args)=>{const input=originalCopyInput(...args),client=args[0]||api.activeClient();input.selectedStory=selectedStoryFor(client);return input};
     syncStoryPicker(true);
+    const storyPicker=$('#selectedStoryHistory'),refreshStoryPicker=()=>requestAnimationFrame(()=>syncStoryPicker(false));
+    storyPicker?.addEventListener('focus',refreshStoryPicker);storyPicker?.addEventListener('pointerdown',refreshStoryPicker);storyPicker?.addEventListener('click',refreshStoryPicker);
     $('#clientSelect')?.addEventListener('change',()=>syncStoryPicker(true));
-    window.addEventListener('devil:data-ready',()=>syncStoryPicker(true));const savedStories=$('#brainStoriesItems');if(savedStories)new MutationObserver(()=>syncStoryPicker()).observe(savedStories,{childList:true,subtree:true,characterData:true});
+    window.addEventListener('devil:data-ready',()=>syncStoryPicker(true));
+    let pickerSyncAttempts=0;const pickerSyncTimer=setInterval(()=>{syncStoryPicker(false);if(storyPicker?.options.length>1||++pickerSyncAttempts>=24)clearInterval(pickerSyncTimer)},300);
+    const savedStories=$('#brainStoriesItems');if(savedStories)new MutationObserver(()=>syncStoryPicker()).observe(savedStories,{childList:true,subtree:true,characterData:true});
     $('#closeDesignReview')?.addEventListener('click',()=>$('#designReviewDialog')?.close());
     $('#manualApproveDesign')?.addEventListener('click',openDesignReview);
     const editor=$('#editor'),mount=$('#designReviewMount'),storyList=$('#storyList');
