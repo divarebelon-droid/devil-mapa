@@ -134,6 +134,15 @@ function init(){
   nav.insertAdjacentHTML('beforeend','<button data-view="portalAdmin">&#9881; Administra&ccedil;&atilde;o</button>');
   const navGroups=[['CRIAÇÃO',['studio','series','settings']],['ADMINISTRAÇÃO',['portalAdmin','sequences']],['CONTEÚDO',['templates','brain','sos','analysis','ideas','approvals']],['BIBLIOTECA',['designBank','history']]];
   const navGroupElements=navGroups.map(([title,views])=>{const buttons=views.map(v=>nav.querySelector('[data-view="'+v+'"]')).filter(Boolean);if(!buttons.length)return null;const group=document.createElement('section');group.className='nav-group';group.innerHTML='<span class="nav-group-title">'+title+'</span>';for(const button of buttons)group.append(button);if(title==='ADMINISTRAÇÃO')group.dataset.adminGroup='true';return group}).filter(Boolean);nav.replaceChildren(...navGroupElements);
+  const adminMenuAllowed=()=>String(api.user?.email||'').trim().toLowerCase()==='divarebel.on@gmail.com';
+  const syncAdminMenu=()=>{const group=nav.querySelector('[data-admin-group="true"]');if(!group)return;const visible=adminMenuAllowed();group.hidden=!visible;group.style.display=visible?'grid':'none';group.querySelectorAll('[data-view="portalAdmin"],[data-view="sequences"]').forEach(button=>button.hidden=!visible)};
+  syncAdminMenu();
+  window.addEventListener('devil:data-ready',syncAdminMenu);
+  const accountEmailObserver=new MutationObserver(syncAdminMenu);
+  const accountEmailNode=$('#accountEmail');
+  if(accountEmailNode)accountEmailObserver.observe(accountEmailNode,{childList:true,characterData:true,subtree:true});
+  const renderAllWithAdminMenu=api.renderAll.bind(api);
+  api.renderAll=(...args)=>{const result=renderAllWithAdminMenu(...args);syncAdminMenu();return result};
   const sidebar=nav.closest('.sidebar');
   if(sidebar&&!sidebar.querySelector('.mobile-nav-toggle')){
     const toggle=document.createElement('button');toggle.type='button';toggle.className='mobile-nav-toggle';toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-controls','devil-main-nav');toggle.innerHTML='<span aria-hidden="true">☰</span><span class="mobile-nav-toggle-label">Menu</span>';
