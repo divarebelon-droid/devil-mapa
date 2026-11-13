@@ -478,7 +478,7 @@ function saveApprovalCalendarLink(){const c=(app().clients||[]).find(x=>x.id===$
   nav.addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(!b)return;setTimeout(()=>{const t={templates:'Templates Canva',brain:'Segundo cérebro',sos:'SOS',analysis:'Análises',settings:'Cadastro'};if(t[b.dataset.view])$('#pageTitle').textContent=t[b.dataset.view]},0)});
   const fields=['sosProfile','analysisProfile'];fields.forEach(id=>$('#'+id).onchange=()=>{const c=app().clients.find(x=>x.id===$('#'+id).value);if(c)app().activeClientId=c.id;save()});
   api.recordEpisode=rememberEpisode;
-  if(!window.__devilStoriesCopyMounted){window.__devilStoriesCopyMounted=true;import('./stories-copy.js').then(function(m){m.mountStoriesCopy({api:api,app:app,save:save,$:$})}).catch(function(e){window.__devilStoriesCopyMounted=false;console.error('Stories module unavailable',e)})}
+  if(!window.__devilStoriesCopyMounted){window.__devilStoriesCopyMounted=true;import('./stories-copy.js?v=20261113-audio-v1').then(function(m){m.mountStoriesCopy({api:api,app:app,save:save,$:$})}).catch(function(e){window.__devilStoriesCopyMounted=false;console.error('Stories module unavailable',e)})}
   render();
 }
 
