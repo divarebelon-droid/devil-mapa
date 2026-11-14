@@ -480,7 +480,7 @@ function saveApprovalCalendarLink(){const c=(app().clients||[]).find(x=>x.id===$
   const fields=['sosProfile','analysisProfile'];fields.forEach(id=>$('#'+id).onchange=()=>{const c=app().clients.find(x=>x.id===$('#'+id).value);if(c)app().activeClientId=c.id;save()});
   api.takeStoryAttachments=takeStoryAttachments;
   api.recordEpisode=rememberEpisode;
-  if(!window.__devilStoriesCopyMounted){window.__devilStoriesCopyMounted=true;import('./stories-copy.js?v=20261114-stories-conversation-v13').then(function(m){m.mountStoriesCopy({api:api,app:app,save:save,$:$})}).catch(function(e){window.__devilStoriesCopyMounted=false;console.error('Stories module unavailable',e)})}
+  if(!window.__devilStoriesCopyMounted){window.__devilStoriesCopyMounted=true;import('./stories-copy.js?v=20261114-stories-conversation-v14').then(function(m){m.mountStoriesCopy({api:api,app:app,save:save,$:$})}).catch(function(e){window.__devilStoriesCopyMounted=false;console.error('Stories module unavailable',e)})}
   render();
 }
 
