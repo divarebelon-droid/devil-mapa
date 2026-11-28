@@ -86,3 +86,42 @@ html[data-theme="dark"] .creation-format-card:hover,html[data-theme="dark"] .cre
 @media(max-width:560px){.stories-conversation-mode #storiesCreationHub,#view-studio.creation-hub-active #storiesCreationHub{min-height:calc(100dvh - 150px);padding:24px 2px 28px}.creation-hub-orbit{right:0;top:-10px;width:125px;height:125px}.creation-hub-kicker{font-size:9px}.creation-hub-screen h1{font-size:34px}.creation-hub-intro{margin:13px 0 23px;font-size:15px}.creation-format-grid{grid-template-columns:1fr 1fr;gap:9px}.creation-format-card{min-height:203px;padding:15px 13px;border-radius:14px}.creation-format-icon{width:37px;height:37px;margin-bottom:19px}.creation-format-name{font-size:16px}.creation-format-copy{font-size:12px;line-height:1.45}.creation-format-link{padding-top:16px;font-size:11px}.creation-stage-grid,.creation-type-grid{grid-template-columns:1fr;gap:9px}.creation-stage-card{min-height:126px;padding:17px 18px}.creation-type-grid .creation-stage-card{min-height:108px;padding:15px 17px}.creation-stage-title{font-size:17px}.creation-stage-copy{font-size:12px}.creation-hub-foot{font-size:11px}}
 @media(prefers-reduced-motion:reduce){.creation-hub-screen,.creation-format-card,.creation-stage-card,.creation-format-link b{animation:none;transition:none}}
 
+
+
+/* Paleta alinhada à área de membros Reunião Garantida. */
+html[data-theme="light"]:root,html[data-theme="dark"]:root{
+  --accent:#c9a96e!important;
+  --pink:#dcdad9!important;
+  --danger:#9f8b67!important;
+}
+html[data-theme="light"]:root .logo-mark,html[data-theme="dark"]:root .logo-mark{
+  background:linear-gradient(135deg,#c9a96e,#a88040)!important;
+  color:#080808!important;
+  box-shadow:none!important;
+}
+html[data-theme="light"]:root .logo-mark img,html[data-theme="dark"]:root .logo-mark img{
+  filter:brightness(0) saturate(100%) invert(72%) sepia(23%) saturate(584%) hue-rotate(2deg) brightness(91%) contrast(88%);
+}
+html[data-theme="light"]:root .studio-hero h2 em,
+html[data-theme="dark"]:root .studio-hero h2 em,
+html[data-theme="light"]:root .studio-hero .eyebrow,
+html[data-theme="dark"]:root .studio-hero .eyebrow,
+html[data-theme="light"]:root .tips b,
+html[data-theme="dark"]:root .tips b,
+html[data-theme="light"]:root .story-head,
+html[data-theme="dark"]:root .story-head{color:#c9a96e!important}
+html[data-theme="light"]:root .hero-frame i,html[data-theme="dark"]:root .hero-frame i{background:#c9a96e!important}
+html[data-theme="light"]:root .field input:focus,
+html[data-theme="light"]:root .field select:focus,
+html[data-theme="light"]:root .field textarea:focus,
+html[data-theme="light"]:root .control:focus,
+html[data-theme="dark"]:root .field input:focus,
+html[data-theme="dark"]:root .field select:focus,
+html[data-theme="dark"]:root .field textarea:focus,
+html[data-theme="dark"]:root .control:focus{border-color:#c9a96e!important;box-shadow:0 0 0 3px rgba(201,169,110,.16)!important}
+html[data-theme="light"]:root .toast,
+html[data-theme="light"]:root .theme-toggle button[aria-pressed="true"],
+html[data-theme="dark"]:root .toast,
+html[data-theme="dark"]:root .theme-toggle button[aria-pressed="true"]{
+  background:#c9a96e!important;border-color:#c9a96e!important;color:#080808!important
+}
