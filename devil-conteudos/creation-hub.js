@@ -86,9 +86,15 @@
     });
 
     formatSelect.addEventListener('change', () => {
-      if (formatSelect.value !== 'stories') hub.hidden = true;
+      if (formatSelect.value !== 'stories') {
+        hub.hidden = true;
+        document.querySelector('#view-studio')?.classList.remove('creation-hub-active');
+      }
       else if (screen !== 'chat') show(screen === 'stages' ? 'stages' : 'formats');
     });
+    window.addEventListener('devil:data-ready', () => setTimeout(() => {
+      if (!document.querySelector('#view-studio')?.hidden && formatSelect.value === '' && screen !== 'chat') show(screen);
+    }, 0));
     document.addEventListener('click', event => {
       if (event.target.closest('#storiesNewSession')) { setTimeout(() => show('stages'), 0); return; }
       if (!event.target.closest('button[data-view="studio"]')) return;
