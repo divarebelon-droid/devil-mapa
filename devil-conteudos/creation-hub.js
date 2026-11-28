@@ -18,7 +18,7 @@
       <div class="creation-hub-screen" data-creation-screen="formats">
         <div class="creation-hub-orbit" aria-hidden="true"></div>
         <p class="creation-hub-kicker">ESTÚDIO CRIATIVO · DIVA REBEL</p>
-        <h1>Diva, o que vamos criar hoje?</h1>
+        <h1>E aí, Diva! Devil na área. Qual é a sua ideia para hoje?</h1>
         <p class="creation-hub-intro">Escolha um formato. Depois, a gente define o caminho juntas.</p>
         <div class="creation-format-grid">
           <button type="button" class="creation-format-card" data-create-format="reel"><span class="creation-format-icon" aria-hidden="true">▶</span><span class="creation-format-name">Reels</span><span class="creation-format-copy">Roteiros com diferentes estruturas e jeitos de contar.</span><span class="creation-format-link">Escolher estrutura <b aria-hidden="true">↗</b></span></button>
