@@ -1,5 +1,6 @@
 .stories-conversation-mode #storiesCreationHub[hidden],
 .stories-conversation-mode #storiesConversation[hidden],
+#storiesConversation[hidden],
 .stories-creation-hub [hidden]{display:none!important}
 #view-studio #devilChat.devil-chat.stories-conversation-mode{width:min(100%,1020px);max-width:1020px;margin:0 auto;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;overflow:visible!important}
 #view-studio #devilChat.devil-chat.stories-conversation-mode .stories-conversation{width:min(100%,920px);margin:0 auto}
