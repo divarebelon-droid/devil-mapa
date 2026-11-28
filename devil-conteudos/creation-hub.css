@@ -1,6 +1,18 @@
 .stories-conversation-mode #storiesCreationHub[hidden],
 .stories-conversation-mode #storiesConversation[hidden],
 .stories-creation-hub [hidden]{display:none!important}
+#view-studio #devilChat.devil-chat.stories-conversation-mode{width:min(100%,1020px);max-width:1020px;margin:0 auto;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;overflow:visible!important}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-conversation{width:min(100%,920px);margin:0 auto}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-chat-header{padding:14px 0 16px;border-color:color-mix(in srgb,var(--line,#ddd) 76%,transparent);background:color-mix(in srgb,var(--bg,#fff) 88%,transparent);backdrop-filter:blur(14px)}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-chat-header small{color:var(--accent,#a31635);font-size:10px;font-weight:800;letter-spacing:.16em}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-chat-header h2{font-size:22px;letter-spacing:-.025em}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-chat-log{padding-top:28px;padding-bottom:24px}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-chat-message.user{border:1px solid color-mix(in srgb,var(--accent,#a31635) 14%,var(--line,#ddd))!important}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-assistant-mark{box-shadow:0 0 0 4px color-mix(in srgb,var(--accent,#a31635) 10%,transparent)}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-copy-story{padding-bottom:22px;margin-bottom:22px;border-color:color-mix(in srgb,var(--line,#ddd) 72%,transparent)}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-copy-story h3{font-size:14px;letter-spacing:.08em}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .stories-production-advice{margin-top:22px;padding:16px 18px;border:1px solid color-mix(in srgb,var(--accent,#a31635) 15%,var(--line,#ddd));border-left:3px solid var(--accent,#a31635);background:color-mix(in srgb,var(--panel,#fff) 75%,transparent)}
+#view-studio #devilChat.devil-chat.stories-conversation-mode .devil-chat-composer{backdrop-filter:blur(16px)}
 #view-studio.creation-hub-active .studio-hero,
 #view-studio.creation-hub-active .studio-creation-modes,
 #view-studio.creation-hub-active .layout>.brief{display:none!important}
