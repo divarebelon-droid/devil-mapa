@@ -139,3 +139,6 @@ html[data-theme="light"]:root .studio-hero h2 em,
 html[data-theme="light"]:root .studio-hero .eyebrow,
 html[data-theme="light"]:root .tips b,
 html[data-theme="light"]:root .story-head{color:#8f713f!important}
+
+html[data-theme="dark"]:root .primary,
+html[data-theme="light"]:root .primary{color:#080808!important}
