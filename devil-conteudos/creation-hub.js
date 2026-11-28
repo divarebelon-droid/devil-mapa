@@ -45,6 +45,11 @@
     let screen = 'formats';
     const show = next => {
       screen = next;
+      const view = document.querySelector('#view-studio');
+      const chatRoot = conversation.closest('.devil-chat');
+      const hubMode = next !== 'chat' && (formatSelect.value === '' || formatSelect.value === 'stories');
+      view?.classList.toggle('creation-hub-active', hubMode);
+      chatRoot?.classList.toggle('stories-conversation-mode', hubMode || formatSelect.value === 'stories');
       hub.hidden = next === 'chat';
       conversation.hidden = next !== 'chat';
       hub.querySelectorAll('[data-creation-screen]').forEach(el => { el.hidden = el.dataset.creationScreen !== next; });

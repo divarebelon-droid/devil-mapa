@@ -1,6 +1,11 @@
 .stories-conversation-mode #storiesCreationHub[hidden],
 .stories-conversation-mode #storiesConversation[hidden],
 .stories-creation-hub [hidden]{display:none!important}
+#view-studio.creation-hub-active .studio-hero,
+#view-studio.creation-hub-active .studio-creation-modes,
+#view-studio.creation-hub-active .layout>.brief{display:none!important}
+#view-studio.creation-hub-active .layout.chat-active{display:block!important}
+#view-studio.creation-hub-active #devilChat{display:block!important;max-width:1180px;margin:0 auto;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
 
 .stories-conversation-mode #storiesCreationHub{
   --hub-surface:color-mix(in srgb,var(--panel,#fff) 88%,transparent);
