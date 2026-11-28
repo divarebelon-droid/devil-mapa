@@ -125,3 +125,17 @@ html[data-theme="dark"]:root .toast,
 html[data-theme="dark"]:root .theme-toggle button[aria-pressed="true"]{
   background:#c9a96e!important;border-color:#c9a96e!important;color:#080808!important
 }
+
+html[data-theme="light"]:root{--accent:#8f713f!important}
+html[data-theme="light"]:root .primary,
+html[data-theme="light"]:root .theme-toggle button[aria-pressed="true"]{
+  background:#c9a96e!important;border-color:#c9a96e!important;color:#080808!important
+}
+html[data-theme="light"]:root .creation-hub-kicker,
+html[data-theme="light"]:root .creation-format-link,
+html[data-theme="light"]:root .creation-stage-index,
+html[data-theme="light"]:root .creation-stage-arrow,
+html[data-theme="light"]:root .studio-hero h2 em,
+html[data-theme="light"]:root .studio-hero .eyebrow,
+html[data-theme="light"]:root .tips b,
+html[data-theme="light"]:root .story-head{color:#8f713f!important}
