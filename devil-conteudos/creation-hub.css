@@ -151,3 +151,8 @@ html[data-theme="dark"]:root .eyebrow,
 html[data-theme="light"]:root .eyebrow{color:#c9a96e!important}
 html[data-theme="dark"]:root .logo-mark,
 html[data-theme="light"]:root .logo-mark{border-color:#c9a96e!important}
+
+html[data-theme="dark"]:root body .app button.button.primary,
+html[data-theme="light"]:root body .app button.button.primary{
+  background:#c9a96e!important;border-color:#c9a96e!important;color:#080808!important
+}
