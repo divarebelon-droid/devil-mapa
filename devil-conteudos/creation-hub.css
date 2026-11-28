@@ -11,7 +11,8 @@
 #view-studio.creation-hub-active #devilChat #devilChatThread,
 #view-studio.creation-hub-active #devilChat #storiesConversation,
 #view-studio.creation-hub-active #devilChat #devilConversationStatus,
-#view-studio.creation-hub-active #devilChat #generateBtn{display:none!important}
+#view-studio.creation-hub-active #devilChat #generateBtn,
+#view-studio.creation-hub-active #devilChat .devil-chat-composer{display:none!important}
 
 .stories-conversation-mode #storiesCreationHub{
   --hub-surface:color-mix(in srgb,var(--panel,#fff) 88%,transparent);
