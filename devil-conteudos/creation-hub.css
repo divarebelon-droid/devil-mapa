@@ -142,3 +142,12 @@ html[data-theme="light"]:root .story-head{color:#8f713f!important}
 
 html[data-theme="dark"]:root .primary,
 html[data-theme="light"]:root .primary{color:#080808!important}
+
+html[data-theme="dark"]:root .primary,
+html[data-theme="light"]:root .primary{
+  background:#c9a96e!important;border-color:#c9a96e!important;color:#080808!important
+}
+html[data-theme="dark"]:root .eyebrow,
+html[data-theme="light"]:root .eyebrow{color:#c9a96e!important}
+html[data-theme="dark"]:root .logo-mark,
+html[data-theme="light"]:root .logo-mark{border-color:#c9a96e!important}
